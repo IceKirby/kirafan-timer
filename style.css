@@ -1,0 +1,212 @@
+body {
+    background-color: #ececec;
+}
+
+.event-group {
+    background-color: white;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #c2c2c2;
+}
+
+.time-buttons {
+    margin-bottom: 1rem;
+
+}
+
+
+/* ******************* */
+/* TOP BAR             */
+/* ******************* */
+.topbar {
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+
+/* Profile pic */
+.thumb {
+    box-sizing: border-box;
+    position: relative;
+    background-color: #d0d0d0;
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+}
+.thumb .type {
+    position: absolute;
+    background-color: rgba(56, 94, 232, 0.75);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 0.1rem;
+}
+
+/* Title box */
+.topbar .title {
+    border: 1px solid #BDBDBD;
+    flex: 100%;
+    margin-left: 0.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.line {
+    flex: 25%;
+    text-align: center;
+    background-color: #d2daf7;
+    border: 1px solid #BDBDBD;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    display: flex;
+}
+.line.header {
+    background-color: #385ee8;
+    font-weight: bold;
+    color: white;
+}
+.line:last-child {
+    border-bottom: 0;
+}
+.line span {
+    margin: auto;
+}
+
+/* Top bar color according to types */
+/* Events */
+.top-event .line {
+    background-color: #FBE9F4;
+}
+.top-event .line.header {
+    background-color: #EA5CBB;
+}
+.top-event .thumb .type {
+    background-color: rgba(236, 138, 234, 0.75);
+}
+
+/* Gacha */
+.top-gacha .line {
+    background-color: #dcf2dd;
+}
+.top-gacha .line.header {
+    background-color: #39983d;
+}
+.top-gacha .thumb .type {
+    background-color: rgba(46, 126, 49, 0.75);
+}
+
+/* Mission */
+.top-mission .title {
+    border-color: #837e7e;
+}
+.top-mission .line {
+    background-color: #dfc7f9;
+    border-color: #837e7e;
+}
+.top-mission .line.header {
+    background-color: #8e32f5;
+}
+.top-mission .thumb .type {
+    background-color: rgba(142, 50, 245, 0.75);
+}
+
+/* Maintenance */
+.top-maintenance .title {
+    /*border-color: #837e7e;*/
+}
+.top-maintenance .line {
+    background-color: #edded1;
+    /*border-color: #837e7e;*/
+}
+.top-maintenance .line.header {
+    background-color: #db710e;
+}
+.top-maintenance .thumb .type {
+    background-color: rgba(219, 113, 14, 0.75);
+}
+
+
+/* ******************* */
+/* CONTENT             */
+/* ******************* */
+.content .timer {
+    display: flex;
+    background-color: #FEFFDE;
+    border: 1px solid #c2c2c2;
+    padding: 0.25rem 0.5rem 0.6rem;
+    margin-top: 0.5rem;
+}
+/*.content .timer:nth-child(even) {
+    background-color: #f0cca4;
+}*/
+
+.timer .label{
+    flex: 24%;
+    display: flex;
+    padding: 0.15rem;
+}
+.timer .label span {
+    margin: auto 0;
+    font-weight:bold;
+}
+.info-icon {
+    font-size: 14px;
+    color: #f06451;
+    /*background-color: #f06451;*/
+    padding: 0 6px;
+    border: 1px solid #f06451;
+    border-radius: 15px;
+}
+
+.timer .counters{
+    flex: 76%;
+    display: flex;
+    flex-direction: column;
+}
+.counters > div {
+    margin: 0.05rem 0;
+}
+.counters .bar {
+    display: flex;
+}
+.bar .progress {
+    flex: 80%;
+    height: 24px;
+    margin: 0 0.2rem;
+    background-color: #828282;
+    text-align:center;
+    font-size: 0.9rem;
+}
+
+.progress span {
+    position:absolute;
+    right:0;
+    left:0;
+    top: 0;
+    bottom: 0;
+    color: white;
+    line-height: 22px;
+    /*margin: 0 0.25rem;*/
+}
+.badge {
+    line-height: 17px;
+}
+
+.local-time {
+    display: none;
+}
+.counters .absolute, .counters .remaining {
+    display: flex;
+}
+.starts {
+    flex: 50%;
+    text-align: left;
+}
+.ends {
+    flex: 50%;
+    text-align: right;
+}
