@@ -30,7 +30,7 @@ var data = [
             },
             {
                 name: "Event Shop",
-                start: "Apr 17 2018, 17:00",
+                start: "Apr 11 2018, 17:00",
                 end: "Apr 30 2018, 13:59"
             }
         ]
