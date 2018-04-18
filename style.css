@@ -180,15 +180,18 @@ body {
     font-size: 0.9rem;
 }
 
-.progress span {
+.progress .bar-label-holder {
     position:absolute;
     right:0;
     left:0;
     top: 0;
     bottom: 0;
     color: white;
-    line-height: 1.4rem;
+    /*line-height: 1.4rem;*/
     /*margin: 0 0.25rem;*/
+}
+.bar-label-holder span {
+    margin: auto;
 }
 .badge {
     line-height: 1.1rem;
