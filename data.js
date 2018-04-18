@@ -24,7 +24,7 @@ var data = [
                 end: "Apr 23 2018, 13:59"
             },
             {
-                name: "Battlefield Quest",
+                name: "Boss Challenge Quest",
                 start: "Apr 17 2018, 17:00",
                 end: "Apr 23 2018, 13:59"
             },
@@ -40,7 +40,7 @@ var data = [
         title: [
             "'A Friend's Friend is also a Friend' Plan",
             "友達の友達は友達大作戦",
-            "Slow Start Missions"
+            "Event Missions"
         ],
         image: "https://i.imgur.com/CoA65zd.png",
         timers: [
