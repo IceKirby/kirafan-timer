@@ -141,9 +141,6 @@ body {
     padding: 0.25rem 0.5rem 0.6rem;
     margin-top: 0.5rem;
 }
-/*.content .timer:nth-child(even) {
-    background-color: #f0cca4;
-}*/
 
 .timer .label{
     /*flex: 24%;*/
@@ -153,7 +150,6 @@ body {
 .timer .label span {
     /*margin: auto 0;*/
     font-weight:bold;
-    /*line-height: 1.2rem;*/
 }
 .info-icon {
     font-size: 0.9rem;
@@ -161,12 +157,12 @@ body {
 }
 
 .timer .counters{
-    flex: 76%;
-    display: flex;
-    flex-direction: column;
+    /*flex: 76%;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
 .counters > div {
-    margin: 0.05rem 0;
+    /*margin: 0.05rem 0;*/
 }
 .counters .bar {
     display: flex;
@@ -209,8 +205,10 @@ body {
 .starts {
     flex: 50%;
     text-align: left;
+    color: #277E2E;
 }
 .ends {
     flex: 50%;
     text-align: right;
+    color: #CC1818;
 }
