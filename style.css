@@ -135,7 +135,7 @@ body {
 /* CONTENT             */
 /* ******************* */
 .content .timer {
-    display: flex;
+    /*display: flex;*/
     background-color: #FEFFDE;
     border: 1px solid #c2c2c2;
     padding: 0.25rem 0.5rem 0.6rem;
@@ -146,14 +146,14 @@ body {
 }*/
 
 .timer .label{
-    flex: 24%;
-    display: flex;
-    padding: 0.15rem;
+    /*flex: 24%;*/
+    /*display: flex;*/
+    /*padding: 0.15rem;*/
 }
 .timer .label span {
-    margin: auto 0;
+    /*margin: auto 0;*/
     font-weight:bold;
-    line-height: 1.2rem;
+    /*line-height: 1.2rem;*/
 }
 .info-icon {
     font-size: 0.9rem;
