@@ -98,9 +98,7 @@ var data = [
                 end: "Apr 20 2018, 16:59"
             }
         ]
-    }
-
-    /*,
+    },
     {
         type: "Maintenance",
         title: [
@@ -133,5 +131,5 @@ var data = [
                 info: "This will take a long time"
             }
         ]
-    }*/
+    }
 ];
