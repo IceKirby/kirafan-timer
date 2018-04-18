@@ -132,7 +132,13 @@ function createThumb(info) {
 
 function createTimer(info) {
     var out = '<div class="timer">';
-    out += '<div class="label"><span>' + info.name + (info.info ? ' <span class="info-icon" data-toggle="tooltip" data-placement="top" title="'+info.info+'">?</span>' : "") + '</span></div>';
+
+    out += '<div class="label"><span>' + info.name;
+        if (info.info) {
+            out += ' <span class="info-icon" data-toggle="tooltip" data-placement="top" title="'+info.info+'">(?)</span>';
+        }
+    out += '</span></div>';
+
     out += '<div class="counters">';
         out += '<div class="absolute">';
             var localZone = moment.tz.guess();

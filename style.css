@@ -55,7 +55,8 @@ body {
     flex-direction: column;
 }
 .line {
-    flex: 25%;
+    /*flex: 25%;*/
+    flex-grow: 1;
     text-align: center;
     background-color: #d2daf7;
     border: 1px solid #BDBDBD;
@@ -152,14 +153,11 @@ body {
 .timer .label span {
     margin: auto 0;
     font-weight:bold;
+    line-height: 1.2rem;
 }
 .info-icon {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #f06451;
-    /*background-color: #f06451;*/
-    padding: 0 6px;
-    border: 1px solid #f06451;
-    border-radius: 15px;
 }
 
 .timer .counters{
