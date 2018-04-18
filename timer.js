@@ -157,6 +157,7 @@ function createTimer(info) {
             out += '<div class="progress position-relative">';
                 out += '<div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>';
                 out += '<div class="bar-label-holder"><span>0%</span></div>';
+                // out += '<span>0%</span>';
             out += '</div>';
             out += '<span class="badge badge-pill badge-secondary" data-toggle="tooltip" data-placement="top" title="">End</span>';
         out += '</div>';

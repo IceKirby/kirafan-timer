@@ -179,7 +179,6 @@ body {
     text-align:center;
     font-size: 0.9rem;
 }
-
 .progress .bar-label-holder {
     position:absolute;
     display: flex;
@@ -191,7 +190,11 @@ body {
 }
 .bar-label-holder span {
     margin: auto;
-    line-height: normal;
+    padding: 0 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*line-height: normal;*/
 }
 .badge {
     line-height: 1.1rem;
