@@ -47,7 +47,7 @@ function updateTimerBar(index, element) {
         endString = "Finished " + remainingTimeString(end, 5) + " ago";
         startString = "Started " + remainingTimeString(start, 5) + " ago";
     } else {
-        barLabel = "Ends in " + remainingTimeString(end, 2) + " (" + progress.toFixed(1) + "%)";
+        barLabel = progress.toFixed(1) + "% (" + remainingTimeString(end, 2) + " left)";
         endString = "Ends in " + remainingTimeString(end, 5);
         startString = "Started " + remainingTimeString(start, 5) + " ago";
     }
