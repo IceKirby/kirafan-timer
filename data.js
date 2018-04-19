@@ -107,7 +107,8 @@ var data = [
         type: "Gacha",
         title: [
             "Warriors Characters Gacha",
-            "Split in two parts"
+            "Part 1: 5* Yuzuko, 5* Karen, 5* Sonya",
+            "Part 2: 5* Tooru, 5* Yuu, 5* Merry"
         ],
         image: "https://i.imgur.com/trKxW6Q.png",
         column: 1,
