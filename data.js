@@ -107,15 +107,22 @@ var data = [
         type: "Gacha",
         title: [
             "Warriors Characters Gacha",
-            "Featuring 5* Yuzuko, 5* Karen, 5* Sonya"
+            "Split in two parts"
         ],
         image: "https://i.imgur.com/trKxW6Q.png",
         column: 1,
         timers: [
             {
-                name: "Gacha",
+                name: "Part 1",
                 start: "Apr 13 2018, 17:00",
-                end: "Apr 20 2018, 16:59"
+                end: "Apr 20 2018, 16:59",
+                info: "Featuring 5* Yuzuko, 5* Karen, 5* Sonya"
+            },
+            {
+                name: "Part 2",
+                start: "Apr 20 2018, 17:00",
+                end: "Apr 27 2018, 16:59",
+                info: "Featuring 5* Tooru, 5* Yuu, 5* Merry"
             }
         ]
     }
