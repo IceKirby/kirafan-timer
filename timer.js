@@ -7,12 +7,113 @@ $( document ).ready(function() {
 });
 
 function buildData(data) {
-    for (var i = 0; i < data.length; i++) {
+    // assignColumnsAuto(data);
+    assignColumnsManual(data);
+
+    for (i = 0; i < data.length; i++) {
         addGroup(data[i]);
     }
     $('[data-toggle="tooltip"]').tooltip();
     setInterval(updateTimers, 12000);
     updateTimers();
+}
+
+function assignColumnsManual(data) {
+    var i, info, cols = 0;
+    for (i = 0; i < data.length; i++) {
+        info = data[i];
+        if (info.column > cols) {
+            cols = info.column;
+        }
+    }
+
+    var holder = $("#columns-holder");
+    for (i = 0; i <= cols; i++) {
+        holder.append('<div class="col-md-6 col-xl" id="column'+i+'"></div>');
+    }
+}
+function assignColumnsAuto(data) {
+    var groups = { ev: [], mission: [], gacha: [], other: [] };
+    var i, e, info;
+    for (i = 0; i < data.length; i++) {
+        info = data[i];
+        switch (info.type.toLowerCase()) {
+            case "event":
+                groups.ev.push(info);
+            break;
+            case "mission":
+                groups.mission.push(info);
+            break;
+            case "gacha":
+                groups.gacha.push(info);
+            break;
+            default:
+                groups.other.push(info);
+        }
+    }
+
+    var columns = [];
+    for (i = 0; i < 3; i++) {
+        columns.push([]);
+    }
+    var last = columns.length-1;
+    var evMultiCol = false;
+
+    // Put Event Blocks in the first column (if last column is occupied) or one per column (if last column is free)
+    for (i = 0; i < groups.ev.length; i++) {
+        if (groups.other.length == 0) {
+            columns[i].push(groups.ev[i]);
+            if (i > 0) {
+                evMultiCol = true;
+            }
+        } else {
+            columns[0].push(groups.ev[i]);
+        }
+    }
+
+    // Put Mission Blocks in the last column (if free) or one per column (if last column is occupied)
+    for (i = 0; i < groups.mission.length; i++) {
+        if (evMultiCol) {
+            columns[i].push(groups.mission[i]);
+        } else {
+            if (groups.other.length == 0) {
+                columns[last].push(groups.mission[i]);
+            } else {
+                columns[0].push(groups.mission[i]);
+            }
+        }
+    }
+
+    // Put Gacha Blocks in the second column (wll be moved to 1st column if empty)
+    var gachaBase = (groups.other.length == 0 && groups.ev.length > 1) ? 2 : 1;
+    for (i = 0; i < groups.gacha.length; i++) {
+        columns[gachaBase].push(groups.gacha[i]);
+    }
+
+    // Put Other Blocks in the last column
+    columns[last] = columns[last].concat(groups.other);
+
+    // Remove empty columns
+    for (i = columns.length-1; i--; ) {
+        if (columns[i].length == 0) {
+            columns.splice(i, 1);
+        }
+    }
+
+    // Assign column id to data object
+    for (i = 0; i < columns.length; i++) {
+        info = columns[i];
+        for (e = 0; e < info.length; e++) {
+            info[e].column = i;
+        }
+    }
+
+    // Create HTML columns
+    var holder = $("#columns-holder");
+    for (i = 0; i < columns.length; i++) {
+        holder.append('<div class="col-md-6 col-xl" id="column'+i+'"></div>');
+    }
+
 }
 
 function updateTimers() {
@@ -47,7 +148,7 @@ function updateTimerBar(index, element) {
         endString = "Finished " + remainingTimeString(end, 5) + " ago";
         startString = "Started " + remainingTimeString(start, 5) + " ago";
     } else {
-        barLabel = progress.toFixed(1) + "% (" + remainingTimeString(end, 2) + " left)";
+        barLabel = "Ends in " + remainingTimeString(end, 2) + " (" + progress.toFixed(1) + "%)";
         endString = "Ends in " + remainingTimeString(end, 5);
         startString = "Started " + remainingTimeString(start, 5) + " ago";
     }
@@ -76,11 +177,8 @@ function updateTimerBar(index, element) {
 }
 
 function addGroup(info) {
-    out = '<div class="col-md-6 col-xl-4">';
-    out += createGroup(info);
-    out += '</div>';
-
-    $('.row').append(out);
+    var out = createGroup(info);
+    $("#column" + info.column).append(out);
 }
 
 function showJapanTime() {

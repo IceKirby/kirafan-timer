@@ -1,4 +1,20 @@
 var data = [
+    /*{
+        type: "Maintenance",
+        title: [
+            "Test Block",
+            "No actual maintenance, just testing"
+        ],
+        image: "maintenance.png",
+        column: 0,
+        timers: [
+            {
+                name: "Time",
+                start: "Apr 1 2018, 14:00",
+                end: "Apr 3 2018, 16:59"
+            }
+        ]
+    },*/
     {
         type: "Event",
         title: [
@@ -7,6 +23,7 @@ var data = [
             "Slow Start Event"
         ],
         image: "https://i.imgur.com/CoA65zd.png",
+        column: 0,
         timers: [
             {
                 name: "Season 1",
@@ -43,6 +60,7 @@ var data = [
             "Event Missions"
         ],
         image: "https://i.imgur.com/CoA65zd.png",
+        column: 2,
         timers: [
             {
                 name: "Mission Set 1",
@@ -69,6 +87,7 @@ var data = [
             "Slow Start Gacha"
         ],
         image: "https://i.imgur.com/CoA65zd.png",
+        column: 1,
         timers: [
             {
                 name: "Rate-Up 1",
@@ -91,6 +110,7 @@ var data = [
             "Featuring 5* Yuzuko, 5* Karen, 5* Sonya"
         ],
         image: "https://i.imgur.com/trKxW6Q.png",
+        column: 1,
         timers: [
             {
                 name: "Gacha",
@@ -98,7 +118,8 @@ var data = [
                 end: "Apr 20 2018, 16:59"
             }
         ]
-    },
+    }
+    /*,
     {
         type: "Maintenance",
         title: [
@@ -106,6 +127,7 @@ var data = [
             "No actual maintenance, just testing"
         ],
         image: "maintenance.png",
+        column: 2,
         timers: [
             {
                 name: "Time",
@@ -123,6 +145,7 @@ var data = [
             "Just testing once again",
         ],
         // image: "testimg.png",
+        column: 2,
         timers: [
             {
                 name: "Time",
@@ -131,5 +154,5 @@ var data = [
                 info: "This will take a long time"
             }
         ]
-    }
+    }*/
 ];
