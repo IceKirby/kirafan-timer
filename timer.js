@@ -214,7 +214,7 @@ function createTitle(info) {
     var out = '<div class="title">';
 
     for(var i = 0; i < lines.length; i++) {
-        out += '<div class="line' + (i == 0 ? " header" : "") + '"><span>' + lines[i] + '</span></div>';
+        out += '<div class="line' + (i == 0 ? " header" : "") + '"><span>' + addStars(lines[i]) + '</span></div>';
     }
     out += '</div>';
     return out;
@@ -233,7 +233,7 @@ function createTimer(info) {
 
     out += '<div class="label"><span>' + info.name;
         if (info.info) {
-            out += ' <span class="info-icon" data-toggle="tooltip" data-placement="top" title="'+info.info+'">(?)</span>';
+            out += ' <span class="info-icon" data-toggle="tooltip" data-placement="top" title="'+ addStars(info.info)+'">(?)</span>';
         }
     out += '</span></div>';
 
@@ -312,4 +312,7 @@ function timeDescription(time, steps) {
 
 function cap(str) {
     return str[0].toUpperCase() + str.substr(1);
+}
+function addStars(str) {
+    return str.replace(/3\*/g, "3★").replace(/4\*/g, "4★").replace(/5\*/g, "5★");
 }
