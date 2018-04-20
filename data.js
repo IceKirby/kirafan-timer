@@ -53,6 +53,24 @@ var data = [
         ]
     },
     {
+        type: "Event",
+        title: [
+            "Outclub and North Mountain and First Camp",
+            "野クルと北の山と初キャンプ",
+            "Yuru Camp event"
+        ],
+        image: "https://i.imgur.com/x7WRDbr.png",
+        column: 0,
+        timers: [
+            {
+                name: "Season 1",
+                start: "Apr 25 2018, 17:00",
+                end: "May 3 2018, 13:59",
+                info: "End date not confirmed yet"
+            }
+        ]
+    },
+    {
         type: "Mission",
         title: [
             "'A Friend's Friend is also a Friend' Plan",
@@ -124,6 +142,24 @@ var data = [
                 start: "Apr 20 2018, 17:00",
                 end: "Apr 27 2018, 16:59",
                 info: "Featuring 5* Tooru, 5* Yuu, 5* Merry"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Outclub and North Mountain and First Camp",
+            "野クルと北の山と初キャンプ",
+            "Yuru Camp gacha"
+        ],
+        image: "https://i.imgur.com/x7WRDbr.png",
+        column: 1,
+        timers: [
+            {
+                name: "Part 1",
+                start: "Apr 25 2018, 17:00",
+                end: "May 3 2018, 13:59",
+                info: "End date and rate-ups not confirmed yet"
             }
         ]
     }
