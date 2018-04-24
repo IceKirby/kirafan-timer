@@ -24,7 +24,7 @@ var data = [
             "Slow Start Event"
         ],
         image: "https://i.imgur.com/CoA65zd.png",
-        column: 0,
+        column: 2,
         timers: [
             {
                 name: "Season 1",
@@ -68,33 +68,6 @@ var data = [
                 start: "Apr 25 2018, 17:00",
                 end: "May 3 2018, 13:59",
                 info: "End date not confirmed yet"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "'A Friend's Friend is also a Friend' Plan",
-            "友達の友達は友達大作戦",
-            "Event Missions"
-        ],
-        image: "https://i.imgur.com/CoA65zd.png",
-        column: 2,
-        timers: [
-            {
-                name: "Mission Set 1",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 23 2018, 23:59"
-            },
-            {
-                name: "Mission Set 2",
-                start: "Apr 14 2018, 0:00",
-                end: "Apr 23 2018, 23:59"
-            },
-            {
-                name: "Mission Set 3",
-                start: "Apr 16 2018, 0:00",
-                end: "Apr 23 2018, 23:59"
             }
         ]
     },
