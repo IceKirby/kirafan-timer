@@ -19,6 +19,72 @@ var data = [
     {
         type: "Event",
         title: [
+            "Outclub and North Mountain and First Camp",
+            "野クルと北の山と初キャンプ",
+            "Yuru Camp event (Map Exploration)"
+        ],
+        image: "https://i.imgur.com/x7WRDbr.png",
+        column: 0,
+        timers: [
+            {
+                name: "Village area until Forest Area",
+                start: "Apr 25 2018, 17:00",
+                end: "May 7 2018, 13:59"
+            },
+            {
+                name: "River area and afterwards",
+                start: "Apr 27 2018, 17:00",
+                end: "May 7 2018, 13:59"
+            },
+            {
+                name: "Moss Cave (Boss/Super Boss)",
+                start: "Apr 29 2018, 17:00",
+                end: "May 7 2018, 13:59"
+            },
+            {
+                name: "Secret Limestone Cave (EX Quest)",
+                start: "May 1 2018, 17:00",
+                end: "May 7 2018, 13:59"
+            },
+            {
+                name: "Treasure Chest opening",
+                start: "Apr 25 2018, 17:00",
+                end: "May 14 2018, 13:59",
+                info: "Includes period to exchange ticket for 4* Rin"
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
+            "Outclub and North Mountain and First Camp",
+            "野クルと北の山と初キャンプ",
+            "Yuru Camp event missions"
+        ],
+        image: "https://i.imgur.com/x7WRDbr.png",
+        column: 2,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "Apr 25 2018, 17:00",
+                end: "May 7 2018, 23:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "Apr 28 2018, 0:00",
+                end: "May 7 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "Apr 30 2018, 0:00",
+                end: "May 7 2018, 23:59"
+            }
+        ]
+    },
+
+    {
+        type: "Event",
+        title: [
             "'A Friend's Friend is also a Friend' Plan",
             "友達の友達は友達大作戦",
             "Slow Start Event"
@@ -50,24 +116,6 @@ var data = [
                 name: "Event Shop",
                 start: "Apr 11 2018, 17:00",
                 end: "Apr 30 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Outclub and North Mountain and First Camp",
-            "野クルと北の山と初キャンプ",
-            "Yuru Camp event"
-        ],
-        image: "https://i.imgur.com/x7WRDbr.png",
-        column: 0,
-        timers: [
-            {
-                name: "Season 1",
-                start: "Apr 25 2018, 17:00",
-                end: "May 3 2018, 13:59",
-                info: "End date not confirmed yet"
             }
         ]
     },
@@ -130,10 +178,10 @@ var data = [
         column: 1,
         timers: [
             {
-                name: "Part 1",
+                name: "Rate-up for Rin, Nadeshiko, Chiaki and Aoi",
                 start: "Apr 25 2018, 17:00",
-                end: "May 3 2018, 13:59",
-                info: "End date and rate-ups not confirmed yet"
+                end: "May 9 2018, 11:59",
+                info: "Doesn't include 4* Rin"
             }
         ]
     }
