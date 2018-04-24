@@ -1,20 +1,21 @@
 var data = [
-    /*{
+    {
         type: "Maintenance",
         title: [
-            "Test Block",
-            "No actual maintenance, just testing"
+            "Maintenance",
+            "Event start",
+            "Update to version 1.5.0"
         ],
         image: "maintenance.png",
         column: 0,
         timers: [
             {
                 name: "Time",
-                start: "Apr 1 2018, 14:00",
-                end: "Apr 3 2018, 16:59"
+                start: "Apr 25 2018, 12:00",
+                end: "Apr 25 2018, 17:00"
             }
         ]
-    },*/
+    },
     {
         type: "Event",
         title: [
