@@ -11,7 +11,9 @@ function buildData(data) {
     assignColumnsManual(data);
 
     for (i = 0; i < data.length; i++) {
-        addGroup(data[i]);
+        if (isGroupVisible(data[i])) {
+            addGroup(data[i]);
+        }
     }
     $('[data-toggle="tooltip"]').tooltip();
     setInterval(updateTimers, 12000);
@@ -199,8 +201,12 @@ function createGroup(info) {
     out += '</div>';
 
     out += '<div class="content">';
+    var t;
     for (var i = 0; i < info.timers.length; i++) {
-        out += createTimer(info.timers[i]);
+        t = info.timers[i];
+        if (!t.autohide || !isFinished(t.end)) {
+            out += createTimer(t);
+        }
     }
     out += '</div>';
 
@@ -308,6 +314,27 @@ function timeDescription(time, steps) {
         }
     }
     return s.splice(0, steps).join(", ");
+}
+
+function isFinished(end) {
+    var now = moment.tz("Asia/Tokyo")._d.getTime();
+    // var startTime = moment.tz(start, "MMM D YYYY, H:mm", "Asia/Tokyo")._d.getTime();
+    var endTime = moment.tz(end, "MMM D YYYY, H:mm", "Asia/Tokyo")._d.getTime();
+
+    return now >= endTime;
+}
+function isGroupVisible(group) {
+    if (!group.autohide) {
+        return true;
+    }
+    var t;
+    for (var i = 0; i < group.timers.length; i++) {
+        t = group.timers[i];
+        if (!isFinished(t.end)) {
+            return true;
+        }
+    }
+    return false;
 }
 
 function cap(str) {

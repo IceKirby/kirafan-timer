@@ -1,4 +1,20 @@
 var data = [
+    /*{
+        type: "Maintenance",
+        title: [
+            "Test Block",
+            "No actual maintenance, just testing"
+        ],
+        image: "maintenance.png",
+        column: 0,
+        timers: [
+            {
+                name: "Time",
+                start: "Apr 1 2018, 14:00",
+                end: "Apr 3 2018, 16:59"
+            }
+        ]
+    },*/
     {
         type: "Event",
         title: [
@@ -8,6 +24,7 @@ var data = [
         ],
         image: "https://i.imgur.com/x7WRDbr.png",
         column: 0,
+        autohide: true,
         timers: [
             {
                 name: "Village area until Forest Area",
@@ -45,7 +62,8 @@ var data = [
             "Yuru Camp event missions"
         ],
         image: "https://i.imgur.com/x7WRDbr.png",
-        column: 2,
+        column: 0,
+        autohide: true,
         timers: [
             {
                 name: "Missions Set 1",
@@ -64,44 +82,6 @@ var data = [
             }
         ]
     },
-
-    {
-        type: "Event",
-        title: [
-            "'A Friend's Friend is also a Friend' Plan",
-            "友達の友達は友達大作戦",
-            "Slow Start Event"
-        ],
-        image: "https://i.imgur.com/CoA65zd.png",
-        column: 2,
-        timers: [
-            {
-                name: "Season 1",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 23 2018, 13:59"
-            },
-            {
-                name: "Season 2",
-                start: "Apr 13 2018, 17:00",
-                end: "Apr 23 2018, 13:59"
-            },
-            {
-                name: "Season 3",
-                start: "Apr 15 2018, 17:00",
-                end: "Apr 23 2018, 13:59"
-            },
-            {
-                name: "Boss Challenge Quest",
-                start: "Apr 17 2018, 17:00",
-                end: "Apr 23 2018, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 30 2018, 13:59"
-            }
-        ]
-    },
     {
         type: "Gacha",
         title: [
@@ -111,6 +91,7 @@ var data = [
         ],
         image: "https://i.imgur.com/x7WRDbr.png",
         column: 1,
+        autohide: true,
         timers: [
             {
                 name: "Rate-up for Rin, Nadeshiko, Chiaki and Aoi",
@@ -129,6 +110,7 @@ var data = [
         ],
         image: "https://i.imgur.com/trKxW6Q.png",
         column: 1,
+        autohide: true,
         timers: [
             {
                 name: "Part 1",
@@ -143,41 +125,114 @@ var data = [
                 info: "Featuring 5* Tooru, 5* Yuu, 5* Merry"
             }
         ]
-    }
-    /*,
+    },
     {
-        type: "Maintenance",
+        type: "Event",
         title: [
-            "Test Block",
-            "No actual maintenance, just testing"
+            "'A Friend's Friend is also a Friend' Plan",
+            "友達の友達は友達大作戦",
+            "Slow Start Event"
         ],
-        image: "maintenance.png",
-        column: 2,
+        image: "https://i.imgur.com/CoA65zd.png",
+        column: 1,
+        autohide: true,
         timers: [
             {
-                name: "Time",
-                start: "Apr 1 2018, 14:00",
-                end: "Apr 3 2018, 16:59"
+                name: "Season 1",
+                start: "Apr 11 2018, 17:00",
+                end: "Apr 23 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 2",
+                start: "Apr 13 2018, 17:00",
+                end: "Apr 23 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 3",
+                start: "Apr 15 2018, 17:00",
+                end: "Apr 23 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Boss Challenge Quest",
+                start: "Apr 17 2018, 17:00",
+                end: "Apr 23 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop",
+                start: "Apr 11 2018, 17:00",
+                end: "Apr 30 2018, 13:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "Test Block Part 2",
-            "Just testing",
-            "Just testing more",
-            "Just testing once again",
+            "Comic Girls Login bonus",
+            "Receive 20 gems each day the anime airs",
+            "Every thursday until June 21st"
         ],
-        // image: "testimg.png",
+        image: "https://i.imgur.com/JU39sPQ.png",
         column: 2,
+        autohide: true,
         timers: [
             {
-                name: "Time",
-                start: "Apr 29 2018, 14:00",
-                end: "Jan 3 2019, 16:59",
-                info: "This will take a long time"
+                name: "Episode 4",
+                start: "Apr 26 2018, 0:00",
+                end: "Apr 26 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 5",
+                start: "May 3 2018, 0:00",
+                end: "May 3 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 6",
+                start: "May 10 2018, 0:00",
+                end: "May 10 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 7",
+                start: "May 17 2018, 0:00",
+                end: "May 17 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 8",
+                start: "May 24 2018, 0:00",
+                end: "May 24 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 9",
+                start: "May 31 2018, 0:00",
+                end: "May 31 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 10",
+                start: "Jun 7 2018, 0:00",
+                end: "Jun 7 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 11",
+                start: "Jun 14 2018, 0:00",
+                end: "Jun 14 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 12",
+                start: "Jun 21 2018, 0:00",
+                end: "Jun 21 2018, 23:59",
+                autohide: true
             }
         ]
-    }*/
+    }
 ];
