@@ -45,7 +45,7 @@ var data = [
             "Yuru Camp event missions"
         ],
         image: "https://i.imgur.com/x7WRDbr.png",
-        column: 1,
+        column: 2,
         timers: [
             {
                 name: "Missions Set 1",
@@ -105,6 +105,24 @@ var data = [
     {
         type: "Gacha",
         title: [
+            "Outclub and North Mountain and First Camp",
+            "野クルと北の山と初キャンプ",
+            "Yuru Camp gacha"
+        ],
+        image: "https://i.imgur.com/x7WRDbr.png",
+        column: 1,
+        timers: [
+            {
+                name: "Rate-up for Rin, Nadeshiko, Chiaki and Aoi",
+                start: "Apr 25 2018, 17:00",
+                end: "May 9 2018, 11:59",
+                info: "Doesn't include 4* Rin"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Warriors Characters Gacha",
             "Part 1: 5* Yuzuko, 5* Karen, 5* Sonya",
             "Part 2: 5* Tooru, 5* Yuu, 5* Merry"
@@ -123,24 +141,6 @@ var data = [
                 start: "Apr 20 2018, 17:00",
                 end: "Apr 27 2018, 16:59",
                 info: "Featuring 5* Tooru, 5* Yuu, 5* Merry"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Outclub and North Mountain and First Camp",
-            "野クルと北の山と初キャンプ",
-            "Yuru Camp gacha"
-        ],
-        image: "https://i.imgur.com/x7WRDbr.png",
-        column: 1,
-        timers: [
-            {
-                name: "Rate-up for Rin, Nadeshiko, Chiaki and Aoi",
-                start: "Apr 25 2018, 17:00",
-                end: "May 9 2018, 11:59",
-                info: "Doesn't include 4* Rin"
             }
         ]
     }
