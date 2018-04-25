@@ -1,22 +1,5 @@
 var data = [
     {
-        type: "Maintenance",
-        title: [
-            "Maintenance",
-            "Event start",
-            "Update to version 1.5.0"
-        ],
-        image: "maintenance.png",
-        column: 0,
-        timers: [
-            {
-                name: "Time",
-                start: "Apr 25 2018, 12:00",
-                end: "Apr 25 2018, 17:00"
-            }
-        ]
-    },
-    {
         type: "Event",
         title: [
             "Outclub and North Mountain and First Camp",
@@ -62,7 +45,7 @@ var data = [
             "Yuru Camp event missions"
         ],
         image: "https://i.imgur.com/x7WRDbr.png",
-        column: 2,
+        column: 1,
         timers: [
             {
                 name: "Missions Set 1",
@@ -116,30 +99,6 @@ var data = [
                 name: "Event Shop",
                 start: "Apr 11 2018, 17:00",
                 end: "Apr 30 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "'A Friend's Friend is also a Friend' Plan",
-            "友達の友達は友達大作戦",
-            "Slow Start Gacha"
-        ],
-        image: "https://i.imgur.com/CoA65zd.png",
-        column: 1,
-        timers: [
-            {
-                name: "Rate-Up 1",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 25 2018, 11:59",
-                info: "Rate-up for Slow Start characters"
-            },
-            {
-                name: "Rate-Up 2",
-                start: "Apr 17 2018, 0:00",
-                end: "Apr 25 2018, 11:59",
-                info: "Rate-up for 5* Run and 4* Ahagon Umiko"
             }
         ]
     },
