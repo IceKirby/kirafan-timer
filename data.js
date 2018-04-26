@@ -127,6 +127,25 @@ var data = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Mage Characters Gacha",
+            "Part 1: 5* Aoba, 5* Maika",
+            "Part 2: Unconfirmed"
+        ],
+        image: "https://i.imgur.com/jrReaMg.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Part 1",
+                start: "Apr 27 2018, 17:00",
+                end: "May 4 2018, 16:59",
+                info: "Featuring 5* Aoba, 5* Maika"
+            }
+        ]
+    },
+    {
         type: "Event",
         title: [
             "'A Friend's Friend is also a Friend' Plan",
