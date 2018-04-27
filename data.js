@@ -202,14 +202,14 @@ var data = [
                 name: "Login Bonus",
                 start: "Apr 27 2018, 0:00",
                 end: "May 7 2018, 23:59",
-                info: "Login every day for gems (1st day: 80 gems, 2nd day: 40 gems, 3rd~9th day: 20 gems, 10th day: 40 gems)",
+                info: "Login every day for gems (1st day: 80 gems, 2nd day: 40 gems, 3rd~9th day: 20 gems each, 10th day: 40 gems)",
                 autohide: true
             },
             {
                 name: "Trade Shop deals",
                 start: "May 1 2018, 0:00",
                 end: "May 9 2018, 23:59",
-                info: "10x Summon Tickets (Price: 200 gems), 10x Golden Clocks (Price: 50 gems). Each can only be bough once.",
+                info: "10x Summon Tickets (Price: 200 gems), 10x Golden Clocks (Price: 50 gems). Each can only be bought once.",
                 autohide: true
             }
         ]
