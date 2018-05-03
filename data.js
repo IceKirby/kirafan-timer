@@ -104,34 +104,9 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Warriors Characters Gacha",
-            "Part 1: 5* Yuzuko, 5* Karen, 5* Sonya",
-            "Part 2: 5* Tooru, 5* Yuu, 5* Merry"
-        ],
-        image: "https://i.imgur.com/trKxW6Q.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Part 1",
-                start: "Apr 13 2018, 17:00",
-                end: "Apr 20 2018, 16:59",
-                info: "Featuring 5* Yuzuko, 5* Karen, 5* Sonya"
-            },
-            {
-                name: "Part 2",
-                start: "Apr 20 2018, 17:00",
-                end: "Apr 27 2018, 16:59",
-                info: "Featuring 5* Tooru, 5* Yuu, 5* Merry"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Mage Characters Gacha",
             "Part 1: 5* Aoba, 5* Maika",
-            "Part 2: Unconfirmed"
+            "Part 2: 5* Tamaki, 5* Hifumi"
         ],
         image: "https://i.imgur.com/jrReaMg.png",
         column: 1,
@@ -142,48 +117,12 @@ var data = [
                 start: "Apr 27 2018, 17:00",
                 end: "May 4 2018, 16:59",
                 info: "Featuring 5* Aoba, 5* Maika"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "'A Friend's Friend is also a Friend' Plan",
-            "友達の友達は友達大作戦",
-            "Slow Start Event"
-        ],
-        image: "https://i.imgur.com/CoA65zd.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Season 1",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 23 2018, 13:59",
-                autohide: true
             },
             {
-                name: "Season 2",
-                start: "Apr 13 2018, 17:00",
-                end: "Apr 23 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Season 3",
-                start: "Apr 15 2018, 17:00",
-                end: "Apr 23 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Boss Challenge Quest",
-                start: "Apr 17 2018, 17:00",
-                end: "Apr 23 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Event Shop",
-                start: "Apr 11 2018, 17:00",
-                end: "Apr 30 2018, 13:59"
+                name: "Part 2",
+                start: "May 4 2018, 17:00",
+                end: "May 1 2018, 16:59",
+                info: "Featuring 5* Tamaki, 5* Hifumi"
             }
         ]
     },
