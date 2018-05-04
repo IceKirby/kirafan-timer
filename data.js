@@ -121,7 +121,7 @@ var data = [
             {
                 name: "Part 2",
                 start: "May 4 2018, 17:00",
-                end: "May 1 2018, 16:59",
+                end: "May 11 2018, 16:59",
                 info: "Featuring 5* Tamaki, 5* Hifumi"
             }
         ]
