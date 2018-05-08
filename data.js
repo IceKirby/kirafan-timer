@@ -7,6 +7,7 @@ var data = [
         ],
         image: "maintenance.png",
         column: 0,
+        autohide: true,
         timers: [
             {
                 name: "Time",
