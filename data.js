@@ -18,6 +18,34 @@ var data = [
     {
         type: "Event",
         title: [
+            "Etowaria's Diva",
+            "エトワリアの歌姫",
+            "Stella no Mahou + Urara Meirochou event"
+        ],
+        image: "https://i.imgur.com/5CGm5Ai.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Story + Boss quests",
+                start: "May 9 2018, 17:00",
+                end: "May 21 2018, 13:59"
+            },
+            {
+                name: "EX quest",
+                start: "May 15 2018, 17:00",
+                end: "May 21 2018, 13:59"
+            },
+            {
+                name: "Event Shop",
+                start: "May 9 2018, 17:00",
+                end: "May 28 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Outclub and North Mountain and First Camp",
             "野クルと北の山と初キャンプ",
             "Yuru Camp event (Map Exploration)"
@@ -29,22 +57,26 @@ var data = [
             {
                 name: "Village area until Forest Area",
                 start: "Apr 25 2018, 17:00",
-                end: "May 7 2018, 13:59"
+                end: "May 7 2018, 13:59",
+                autohide: true
             },
             {
                 name: "River area and afterwards",
                 start: "Apr 27 2018, 17:00",
-                end: "May 7 2018, 13:59"
+                end: "May 7 2018, 13:59",
+                autohide: true
             },
             {
                 name: "Moss Cave (Boss/Super Boss)",
                 start: "Apr 29 2018, 17:00",
-                end: "May 7 2018, 13:59"
+                end: "May 7 2018, 13:59",
+                autohide: true
             },
             {
                 name: "Secret Limestone Cave (EX Quest)",
                 start: "May 1 2018, 17:00",
-                end: "May 7 2018, 13:59"
+                end: "May 7 2018, 13:59",
+                autohide: true
             },
             {
                 name: "Treasure Chest opening",
@@ -57,28 +89,23 @@ var data = [
     {
         type: "Mission",
         title: [
-            "Outclub and North Mountain and First Camp",
-            "野クルと北の山と初キャンプ",
-            "Yuru Camp event missions"
+            "Etowaria's Diva",
+            "エトワリアの歌姫",
+            "Event Missions"
         ],
-        image: "https://i.imgur.com/x7WRDbr.png",
+        image: "https://i.imgur.com/5CGm5Ai.png",
         column: 0,
         autohide: true,
         timers: [
             {
                 name: "Missions Set 1",
-                start: "Apr 25 2018, 17:00",
-                end: "May 7 2018, 23:59"
+                start: "May 9 2018, 17:00",
+                end: "May 21 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "Apr 28 2018, 0:00",
-                end: "May 7 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "Apr 30 2018, 0:00",
-                end: "May 7 2018, 23:59"
+                start: "May 14 2018, 0:00",
+                end: "May 21 2018, 23:59"
             }
         ]
     },
@@ -98,6 +125,30 @@ var data = [
                 start: "Apr 25 2018, 17:00",
                 end: "May 9 2018, 11:59",
                 info: "Doesn't include 4* Rin"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Etowaria's Diva",
+            "エトワリアの歌姫",
+            "1st part: Urara Meirochou characters",
+            "2nd part: Stella no Mahou characters"
+        ],
+        image: "https://i.imgur.com/5CGm5Ai.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Rate-up for 5* Kon + 4* Kon, Chiya, Koume and Nono",
+                start: "May 9 2018, 17:00",
+                end: "May 23 2018, 13:59"
+            },
+            {
+                name: "Rate-up for 5* Kayo + 4* Kayo, Tamaki, Shiina and Ayame",
+                start: "May 16 2018, 0:00",
+                end: "May 23 2018, 13:59"
             }
         ]
     },
