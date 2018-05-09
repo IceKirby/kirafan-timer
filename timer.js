@@ -237,7 +237,7 @@ function createThumb(info) {
 function createTimer(info) {
     var out = '<div class="timer">';
 
-    out += '<div class="label"><span>' + info.name;
+    out += '<div class="label"><span>' + addStars(info.name);
         if (info.info) {
             out += ' <span class="info-icon" data-toggle="tooltip" data-placement="top" title="'+ addStars(info.info)+'">(?)</span>';
         }
