@@ -113,25 +113,6 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Outclub and North Mountain and First Camp",
-            "野クルと北の山と初キャンプ",
-            "Yuru Camp gacha"
-        ],
-        image: "https://i.imgur.com/x7WRDbr.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Rate-up for Rin, Nadeshiko, Chiaki and Aoi",
-                start: "Apr 25 2018, 17:00",
-                end: "May 9 2018, 11:59",
-                info: "Doesn't include 4* Rin"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Etowaria's Diva",
             "エトワリアの歌姫",
             "1st part: Urara Meirochou characters",
@@ -179,29 +160,19 @@ var data = [
         ]
     },
     {
-        type: "Other",
+        type: "Gacha",
         title: [
-            "Golden Week bonus",
-            "Special login bonus",
-            "Special deals in the Trade Shop"
+            "Wind Element Gacha",
+            "Featuring 5* Yui, 5* Aoba, 5* Nono"
         ],
-        image: "https://i.imgur.com/x7WRDbr.png",
-        column: 2,
+        image: "https://i.imgur.com/ptn3WG2.png",
+        column: 1,
         autohide: true,
         timers: [
             {
-                name: "Login Bonus",
-                start: "Apr 27 2018, 0:00",
-                end: "May 7 2018, 23:59",
-                info: "Login every day for gems (1st day: 80 gems, 2nd day: 40 gems, 3rd~9th day: 20 gems each, 10th day: 40 gems)",
-                autohide: true
-            },
-            {
-                name: "Trade Shop deals",
-                start: "May 1 2018, 0:00",
-                end: "May 9 2018, 23:59",
-                info: "10x Summon Tickets (Price: 200 gems), 10x Golden Clocks (Price: 50 gems). Each can only be bought once.",
-                autohide: true
+                name: "Duration",
+                start: "May 11 2018, 17:00",
+                end: "May 18 2018, 16:59"
             }
         ]
     },
