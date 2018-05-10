@@ -179,6 +179,43 @@ var data = [
     {
         type: "Other",
         title: [
+            "Boss Challenge quest",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/IO4jmGm.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "May 12 2018, 0:00",
+                end: "May 13 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 2",
+                start: "May 19 2018, 0:00",
+                end: "May 20 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 3",
+                start: "May 26 2018, 0:00",
+                end: "May 27 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Medal exchange period",
+                start: "May 12 2018, 0:00",
+                end: "May 31 2018, 23:59",
+                autohide: true
+            },
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "Comic Girls Login bonus",
             "Receive 20 gems each day the anime airs",
             "Every thursday until June 21st"
