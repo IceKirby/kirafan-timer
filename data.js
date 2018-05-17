@@ -45,49 +45,6 @@ var data = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "Outclub and North Mountain and First Camp",
-            "野クルと北の山と初キャンプ",
-            "Yuru Camp event (Map Exploration)"
-        ],
-        image: "https://i.imgur.com/x7WRDbr.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Village area until Forest Area",
-                start: "Apr 25 2018, 17:00",
-                end: "May 7 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "River area and afterwards",
-                start: "Apr 27 2018, 17:00",
-                end: "May 7 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Moss Cave (Boss/Super Boss)",
-                start: "Apr 29 2018, 17:00",
-                end: "May 7 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Secret Limestone Cave (EX Quest)",
-                start: "May 1 2018, 17:00",
-                end: "May 7 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Treasure Chest opening",
-                start: "Apr 25 2018, 17:00",
-                end: "May 14 2018, 13:59",
-                info: "Includes period to exchange ticket for 4* Rin"
-            }
-        ]
-    },
-    {
         type: "Mission",
         title: [
             "Etowaria's Diva",
@@ -137,31 +94,6 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Mage Characters Gacha",
-            "Part 1: 5* Aoba, 5* Maika",
-            "Part 2: 5* Tamaki, 5* Hifumi"
-        ],
-        image: "https://i.imgur.com/jrReaMg.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Part 1",
-                start: "Apr 27 2018, 17:00",
-                end: "May 4 2018, 16:59",
-                info: "Featuring 5* Aoba, 5* Maika"
-            },
-            {
-                name: "Part 2",
-                start: "May 4 2018, 17:00",
-                end: "May 11 2018, 16:59",
-                info: "Featuring 5* Tamaki, 5* Hifumi"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Wind Element Gacha",
             "Featuring 5* Yui, 5* Aoba, 5* Nono"
         ],
@@ -173,6 +105,23 @@ var data = [
                 name: "Duration",
                 start: "May 11 2018, 17:00",
                 end: "May 18 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Earth Element Gacha",
+            "Featuring 5* Tamaki, 5* Yasuna, 5* Sonya"
+        ],
+        image: "https://i.imgur.com/smMKNxE.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Duration",
+                start: "May 18 2018, 17:00",
+                end: "May 23 2018, 13:59"
             }
         ]
     },
