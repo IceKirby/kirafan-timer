@@ -113,6 +113,23 @@ var data = [
     {
         type: "Gacha",
         title: [
+            "Shinobu Gacha",
+            "Featuring 5* Shinobu, 4* Fumio"
+        ],
+        image: "https://i.imgur.com/d7pyIzn.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Rate-up for 5* Shinobu, 4* Fumio",
+                start: "May 23 2018, 17:00",
+                end: "May 30 2018, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Kiniro Mosaic Gacha",
             "Featuring 5* Karen, 5* Alice, 5* Isami, 5* Aya"
         ],
@@ -124,6 +141,54 @@ var data = [
                 name: "Duration",
                 start: "May 23 2018, 17:00",
                 end: "May 30 2018, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Main Quest Daily Gacha",
+            "Featuring series currently in the Main Quest"
+        ],
+        image: "https://i.imgur.com/e0Rg0Fq.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Hidamari Sketch",
+                start: "May 23 2018, 17:00",
+                end: "May 24 2018, 23:59",
+                info: "Rate-up for 5* Yuno"
+            },
+            {
+                name: "New Game! Part 1",
+                start: "May 25 2018, 0:00",
+                end: "May 25 2018, 23:59",
+                info: "Rate-up for 5* Aoba"
+            },
+            {
+                name: "New Game! Part 2",
+                start: "May 26 2018, 0:00",
+                end: "May 26 2018, 23:59",
+                info: "Rate-up for 5* Hifumi"
+            },
+            {
+                name: "Gakkou Gurashi",
+                start: "May 27 2018, 0:00",
+                end: "May 27 2018, 23:59",
+                info: "Rate-up for 5* Yuki"
+            },
+            {
+                name: "A-Channel Part 1",
+                start: "May 28 2018, 0:00",
+                end: "May 28 2018, 23:59",
+                info: "Rate-up for 5* Tooru"
+            },
+            {
+                name: "A-Channel Part 2",
+                start: "May 29 2018, 0:00",
+                end: "May 30 2018, 11:59",
+                info: "Rate-up for 5* Run"
             }
         ]
     },
