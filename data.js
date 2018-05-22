@@ -30,12 +30,14 @@ var data = [
             {
                 name: "Story + Boss quests",
                 start: "May 9 2018, 17:00",
-                end: "May 21 2018, 13:59"
+                end: "May 21 2018, 13:59",
+                autohide: true
             },
             {
                 name: "EX quest",
                 start: "May 15 2018, 17:00",
-                end: "May 21 2018, 13:59"
+                end: "May 21 2018, 13:59",
+                autohide: true
             },
             {
                 name: "Event Shop",
@@ -94,23 +96,6 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Wind Element Gacha",
-            "Featuring 5* Yui, 5* Aoba, 5* Nono"
-        ],
-        image: "https://i.imgur.com/ptn3WG2.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Duration",
-                start: "May 11 2018, 17:00",
-                end: "May 18 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Earth Element Gacha",
             "Featuring 5* Tamaki, 5* Yasuna, 5* Sonya"
         ],
@@ -122,6 +107,23 @@ var data = [
                 name: "Duration",
                 start: "May 18 2018, 17:00",
                 end: "May 23 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Kiniro Mosaic Gacha",
+            "Featuring 5* Karen, 5* Alice, 5* Isami, 5* Aya"
+        ],
+        image: "https://i.imgur.com/YWZW5of.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Duration",
+                start: "May 23 2018, 17:00",
+                end: "May 30 2018, 11:59"
             }
         ]
     },
