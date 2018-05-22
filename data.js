@@ -3,7 +3,7 @@ var data = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Version 1.7.0 update"
+            "Main Story Chapter 5 (no version update needed)"
         ],
         image: "maintenance.png",
         column: 0,
