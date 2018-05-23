@@ -151,7 +151,7 @@ var data = [
             "Featuring series currently in the Main Quest"
         ],
         image: "https://i.imgur.com/e0Rg0Fq.png",
-        column: 1,
+        column: 0,
         autohide: true,
         timers: [
             {
