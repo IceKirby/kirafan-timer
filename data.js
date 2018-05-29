@@ -19,6 +19,54 @@ var data = [
     {
         type: "Event",
         title: [
+            "Remember Yosakoi",
+            "リメンバー・よさこい",
+            "Hanayamata event"
+        ],
+        image: "https://i.imgur.com/gNaC8b3.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Season 1",
+                start: "May 30 2018, 17:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 2",
+                start: "June 1 2018, 17:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 3",
+                start: "June 3 2018, 17:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 4",
+                start: "June 5 2018, 17:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "EX quest",
+                start: "June 7 2018, 17:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Treasure Chest period",
+                start: "May 30 2018, 17:00",
+                end: "June 18 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Etowaria's Diva",
             "エトワリアの歌姫",
             "Stella no Mahou + Urara Meirochou event"
@@ -49,47 +97,57 @@ var data = [
     {
         type: "Mission",
         title: [
-            "Etowaria's Diva",
-            "エトワリアの歌姫",
+            "Remember Yosakoi",
+            "リメンバー・よさこい",
             "Event Missions"
         ],
-        image: "https://i.imgur.com/5CGm5Ai.png",
+        image: "https://i.imgur.com/gNaC8b3.png",
         column: 0,
         autohide: true,
         timers: [
             {
                 name: "Missions Set 1",
-                start: "May 9 2018, 17:00",
-                end: "May 21 2018, 23:59"
+                start: "May 30 2018, 17:00",
+                end: "June 11 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "May 14 2018, 0:00",
-                end: "May 21 2018, 23:59"
+                start: "June 1 2018, 0:00",
+                end: "June 11 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "June 3 2018, 0:00",
+                end: "June 11 2018, 23:59"
+            },
+            {
+                name: "Missions Set 4",
+                start: "June 5 2018, 0:00",
+                end: "June 11 2018, 23:59"
             }
         ]
     },
     {
         type: "Gacha",
         title: [
-            "Etowaria's Diva",
-            "エトワリアの歌姫",
-            "1st part: Urara Meirochou characters",
-            "2nd part: Stella no Mahou characters"
+            "Remember Yosakoi",
+            "リメンバー・よさこい",
+            "Hanayamata event gacha"
         ],
-        image: "https://i.imgur.com/5CGm5Ai.png",
+        image: "https://i.imgur.com/gNaC8b3.png",
         column: 1,
         autohide: true,
         timers: [
             {
-                name: "Rate-up for 5* Kon + 4* Kon, Chiya, Koume and Nono",
-                start: "May 9 2018, 17:00",
-                end: "May 23 2018, 13:59"
+                name: "Rate-up for 5* Naru, 4* Hana, 4* Yaya",
+                start: "May 30 2018, 17:00",
+                end: "June 13 2018, 13:59"
             },
             {
-                name: "Rate-up for 5* Kayo + 4* Kayo, Tamaki, Shiina and Ayame",
-                start: "May 16 2018, 0:00",
-                end: "May 23 2018, 13:59"
+                name: "Rate-up for 5* Matsumoto-sensei, 4* Kuzehashi-sensei",
+                start: "June 6 2018, 0:00",
+                end: "June 13 2018, 13:59",
+                info: "Matsumoto-sensei = Mom (Yuyushiki)"
             }
         ]
     },
@@ -227,6 +285,25 @@ var data = [
                 end: "May 31 2018, 23:59",
                 autohide: true
             },
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Limited Room Items",
+            "Hanayamata-themed items",
+            "Naruko in 5 different colors"
+        ],
+        image: "https://i.imgur.com/gNaC8b3.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "June 3 2018, 0:00",
+                end: "June 11 2018, 13:59",
+                autohide: true
+            }
         ]
     },
     {
