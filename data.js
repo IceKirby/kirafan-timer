@@ -329,7 +329,7 @@ var data = [
             "Trade Shop Deals",
             "Summon Tickets and Character sets"
         ],
-        image: "https://i.imgur.com/gNaC8b3.png",
+        image: "https://i.imgur.com/q0XRi8b.png",
         column: 2,
         autohide: true,
         timers: [
