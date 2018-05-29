@@ -154,6 +154,23 @@ var data = [
     {
         type: "Gacha",
         title: [
+            "Slow Start & Yuru Camp selection",
+            "Featuring 5* Hana, 5* Rin"
+        ],
+        image: "https://i.imgur.com/zxgcsWj.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Duration",
+                start: "May 30 2018, 17:00",
+                end: "June 8 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Earth Element Gacha",
             "Featuring 5* Tamaki, 5* Yasuna, 5* Sonya"
         ],
@@ -303,6 +320,32 @@ var data = [
                 start: "June 3 2018, 0:00",
                 end: "June 11 2018, 13:59",
                 autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Trade Shop Deals",
+            "Summon Tickets and Character sets"
+        ],
+        image: "https://i.imgur.com/gNaC8b3.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Character Evolution sets",
+                start: "May 30 2018, 17:00",
+                end: "June 13 2018, 23:59",
+                autohide: true,
+                info: "200 Gems for a set with 4 Limit Break items, the evolution materials and experience items for 5* Naru, 4* Hana or 4* Yaya"
+            },
+            {
+                name: "Summon Ticket sets",
+                start: "June 1 2018, 0:00",
+                end: "June 30 2018, 23:59",
+                autohide: true,
+                info: "250 Gems for a set with 10 Summon Ticket and 10 Golden Clocks"
             }
         ]
     },
