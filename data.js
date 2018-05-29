@@ -209,7 +209,7 @@ var data = [
             "Featuring series currently in the Main Quest"
         ],
         image: "https://i.imgur.com/e0Rg0Fq.png",
-        column: 0,
+        column: 1,
         autohide: true,
         timers: [
             {
