@@ -338,7 +338,7 @@ var data = [
                 start: "May 30 2018, 17:00",
                 end: "June 13 2018, 23:59",
                 autohide: true,
-                info: "200 Gems for a set with 4 Limit Break items, the evolution materials and experience items for 5* Naru, 4* Hana or 4* Yaya"
+                info: "200 Gems for a set with 4 Limit Break items, the evolution materials and experience items for 4* Naru, 4* Hana or 4* Yaya"
             },
             {
                 name: "Summon Ticket sets",
