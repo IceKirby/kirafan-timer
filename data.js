@@ -141,7 +141,7 @@ var data = [
     {
         type: "Other",
         title: [
-            "Boss Challenge quest",
+            "May Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
         ],
@@ -172,7 +172,56 @@ var data = [
                 start: "May 12 2018, 0:00",
                 end: "May 31 2018, 23:59",
                 autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "June Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/dovEVAG.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "June 2 2018, 0:00",
+                end: "June 3 2018, 23:59",
+                autohide: true
             },
+            {
+                name: "Weekend 2",
+                start: "June 9 2018, 0:00",
+                end: "June 10 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 3",
+                start: "June 16 2018, 0:00",
+                end: "June 17 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 4",
+                start: "June 23 2018, 0:00",
+                end: "June 24 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 5",
+                start: "June 30 2018, 0:00",
+                end: "July 1 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Medal exchange period",
+                start: "June 2 2018, 0:00",
+                end: "July 6 2018, 23:59",
+                autohide: true
+            }
         ]
     },
     {
