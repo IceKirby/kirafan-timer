@@ -139,6 +139,23 @@ var data = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Priest characters Gacha",
+            "Featuring 5* Shinobu, 5* Yuno, 5* Nono"
+        ],
+        image: "https://i.imgur.com/WNqPWJK.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Duration",
+                start: "June 8 2018, 17:00",
+                end: "June 15 2018, 16:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "May Boss Challenge",
