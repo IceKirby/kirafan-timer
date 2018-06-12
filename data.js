@@ -19,6 +19,48 @@ var data = [
     {
         type: "Event",
         title: [
+            "First Issue! Comic Etowaria",
+            "創刊！コミックエトワリア",
+            "Comic Girls event"
+        ],
+        image: "https://i.imgur.com/JU39sPQ.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "June 13 2018, 17:00",
+                end: "June 25 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Extra Story",
+                start: "June 21 2018, 17:00",
+                end: "June 25 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Boss quest",
+                start: "June 15 2018, 17:00",
+                end: "June 25 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "EX quest",
+                start: "June 18 2018, 17:00",
+                end: "June 25 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop",
+                start: "June 13 2018, 17:00",
+                end: "July 2 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Remember Yosakoi",
             "リメンバー・よさこい",
             "Hanayamata event"
@@ -67,6 +109,29 @@ var data = [
     {
         type: "Mission",
         title: [
+            "First Issue! Comic Etowaria",
+            "創刊！コミックエトワリア",
+            "Event Missions"
+        ],
+        image: "https://i.imgur.com/JU39sPQ.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "June 13 2018, 17:00",
+                end: "June 25 2018, 23:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "June 18 2018, 17:00",
+                end: "June 25 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
             "Remember Yosakoi",
             "リメンバー・よさこい",
             "Event Missions"
@@ -94,6 +159,29 @@ var data = [
                 name: "Missions Set 4",
                 start: "June 5 2018, 0:00",
                 end: "June 11 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "First Issue! Comic Etowaria",
+            "創刊！コミックエトワリア",
+            "Comic Girls gacha"
+        ],
+        image: "https://i.imgur.com/JU39sPQ.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Rate-up for 5* Kaos, 4* Koyume, 4* Ruki, 4* Tsubasa",
+                start: "June 13 2018, 17:00",
+                end: "June 28 2018, 11:59"
+            },
+            {
+                name: "Rate-up for 5* Koume, 4* Omi, 4* Miu, 3* Miu",
+                start: "June 20 2018, 17:00",
+                end: "June 28 2018, 11:59"
             }
         ]
     },
