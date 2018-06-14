@@ -230,16 +230,22 @@ var data = [
         type: "Gacha",
         title: [
             "Priest characters Gacha",
-            "Featuring 5* Shinobu, 5* Yuno, 5* Nono"
+            "Part 1: Featuring 5* Shinobu, 5* Yuno, 5* Nono",
+            "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka"
         ],
         image: "https://i.imgur.com/WNqPWJK.png",
         column: 1,
         autohide: true,
         timers: [
             {
-                name: "Duration",
+                name: "Part 1: 5* Shinobu, 5* Yuno, 5* Nono",
                 start: "June 8 2018, 17:00",
                 end: "June 15 2018, 16:59"
+            },
+            {
+                name: "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka",
+                start: "June 15 2018, 17:00",
+                end: "June 22 2018, 16:59"
             }
         ]
     },
