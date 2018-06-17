@@ -124,41 +124,8 @@ var data = [
             },
             {
                 name: "Missions Set 2",
-                start: "June 18 2018, 17:00",
+                start: "June 18 2018, 0:00",
                 end: "June 25 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Remember Yosakoi",
-            "リメンバー・よさこい",
-            "Event Missions"
-        ],
-        image: "https://i.imgur.com/gNaC8b3.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "May 30 2018, 17:00",
-                end: "June 11 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "June 1 2018, 0:00",
-                end: "June 11 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "June 3 2018, 0:00",
-                end: "June 11 2018, 23:59"
-            },
-            {
-                name: "Missions Set 4",
-                start: "June 5 2018, 0:00",
-                end: "June 11 2018, 23:59"
             }
         ]
     },
@@ -188,47 +155,6 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Remember Yosakoi",
-            "リメンバー・よさこい",
-            "Hanayamata event gacha"
-        ],
-        image: "https://i.imgur.com/gNaC8b3.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Rate-up for 5* Naru, 4* Hana, 4* Yaya",
-                start: "May 30 2018, 17:00",
-                end: "June 13 2018, 13:59"
-            },
-            {
-                name: "Rate-up for 5* Matsumoto-sensei, 4* Kuzehashi-sensei",
-                start: "June 6 2018, 0:00",
-                end: "June 13 2018, 13:59",
-                info: "Matsumoto-sensei = Mom (Yuyushiki)"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Slow Start & Yuru Camp selection",
-            "Featuring 5* Hana, 5* Rin"
-        ],
-        image: "https://i.imgur.com/zxgcsWj.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Duration",
-                start: "May 30 2018, 17:00",
-                end: "June 8 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Priest characters Gacha",
             "Part 1: Featuring 5* Shinobu, 5* Yuno, 5* Nono",
             "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka"
@@ -246,43 +172,6 @@ var data = [
                 name: "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka",
                 start: "June 15 2018, 17:00",
                 end: "June 22 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "May Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/IO4jmGm.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "May 12 2018, 0:00",
-                end: "May 13 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 2",
-                start: "May 19 2018, 0:00",
-                end: "May 20 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 3",
-                start: "May 26 2018, 0:00",
-                end: "May 27 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Medal exchange period",
-                start: "May 12 2018, 0:00",
-                end: "May 31 2018, 23:59",
-                autohide: true
             }
         ]
     },
