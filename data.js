@@ -147,7 +147,7 @@ var data = [
             },
             {
                 name: "Rate-up for 5* Koume, 4* Omi, 4* Miu, 3* Miu",
-                start: "June 20 2018, 17:00",
+                start: "June 20 2018, 0:00",
                 end: "June 28 2018, 11:59"
             }
         ]
