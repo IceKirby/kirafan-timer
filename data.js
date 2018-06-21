@@ -176,6 +176,25 @@ var data = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Summer Festa Gacha",
+            "Featuring characters voiced by the guest seiyuu",
+            "Featuring 5* Karen, 5* Rin, 5*Maika"
+        ],
+        image: "https://i.imgur.com/YTxop6O.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Featuring 5* Karen, 5* Rin, 5*Maika",
+                start: "June 22 2018, 17:00",
+                end: "June 28 2018, 11:59",
+                info: "Praise Touyama Nao \o/"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "June Boss Challenge",
