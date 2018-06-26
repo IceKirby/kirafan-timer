@@ -195,6 +195,29 @@ var data = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Choose Your 5* Ticket Gacha",
+            "*5選べるチケット付き！有償限定10回召喚",
+            "Do a 400 Paid Gems pull to get the ticket"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "400 Paid Gems pull period",
+                start: "June 28 2018, 17:00",
+                end: "July 11 2018, 11:59"
+            },
+            {
+                name: "5* Ticket usage period",
+                start: "June 28 2018, 17:00",
+                end: "July 18 2018, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "June Boss Challenge",
@@ -291,66 +314,18 @@ var data = [
     {
         type: "Other",
         title: [
-            "Comic Girls Login bonus",
-            "Receive 20 gems each day the anime airs",
-            "Every thursday until June 21st"
+            "200 Days Anniversary Login Bonus",
+            "Receive a total of 200 Gems",
+            "Log in 5 days during the period"
         ],
-        image: "https://i.imgur.com/JU39sPQ.png",
+        image: "https://i.imgur.com/ICu2Sjh.png",
         column: 2,
         autohide: true,
         timers: [
             {
-                name: "Episode 4",
-                start: "Apr 26 2018, 0:00",
-                end: "Apr 26 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 5",
-                start: "May 3 2018, 0:00",
-                end: "May 3 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 6",
-                start: "May 10 2018, 0:00",
-                end: "May 10 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 7",
-                start: "May 17 2018, 0:00",
-                end: "May 17 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 8",
-                start: "May 24 2018, 0:00",
-                end: "May 24 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 9",
-                start: "May 31 2018, 0:00",
-                end: "May 31 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 10",
-                start: "Jun 7 2018, 0:00",
-                end: "Jun 7 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 11",
-                start: "Jun 14 2018, 0:00",
-                end: "Jun 14 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Episode 12",
-                start: "Jun 21 2018, 0:00",
-                end: "Jun 21 2018, 23:59",
+                name: "Login Bonus Period",
+                start: "June 28 2018, 17:00",
+                end: "July 9 2018, 23:59",
                 autohide: true
             }
         ]
