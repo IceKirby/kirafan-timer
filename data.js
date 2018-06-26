@@ -288,6 +288,25 @@ var data = [
     {
         type: "Other",
         title: [
+            "200 Days Anniversary Login Bonus",
+            "Receive a total of 200 Gems",
+            "Log in 5 days during the period"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Login Bonus Period",
+                start: "June 28 2018, 17:00",
+                end: "July 9 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "Trade Shop Deals",
             "Summon Tickets and Character sets"
         ],
@@ -308,25 +327,6 @@ var data = [
                 end: "June 30 2018, 23:59",
                 autohide: true,
                 info: "250 Gems for a set with 10 Summon Ticket and 10 Golden Clocks"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "200 Days Anniversary Login Bonus",
-            "Receive a total of 200 Gems",
-            "Log in 5 days during the period"
-        ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Login Bonus Period",
-                start: "June 28 2018, 17:00",
-                end: "July 9 2018, 23:59",
-                autohide: true
             }
         ]
     }
