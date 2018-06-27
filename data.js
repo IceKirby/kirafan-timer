@@ -19,6 +19,60 @@ var data = [
     {
         type: "Event",
         title: [
+            "Kurumi in Wonderland",
+            "くるみインワンダーランド",
+            "Kurumi event"
+        ],
+        image: "https://i.imgur.com/xaKahGY.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "June 28 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Extra Story 1",
+                start: "July 2 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Extra Story 2",
+                start: "July 3 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Extra Story 3",
+                start: "July 4 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Extra Story ???",
+                start: "July 5 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Boss quest",
+                start: "July 2 2018, 17:00",
+                end: "July 9 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop",
+                start: "June 28 2018, 17:00",
+                end: "July 16 2018, 13:59",
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "First Issue! Comic Etowaria",
             "創刊！コミックエトワリア",
             "Comic Girls event"
@@ -59,73 +113,30 @@ var data = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "Remember Yosakoi",
-            "リメンバー・よさこい",
-            "Hanayamata event"
-        ],
-        image: "https://i.imgur.com/gNaC8b3.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Season 1",
-                start: "May 30 2018, 17:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Season 2",
-                start: "June 1 2018, 17:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Season 3",
-                start: "June 3 2018, 17:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Season 4",
-                start: "June 5 2018, 17:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "EX quest",
-                start: "June 7 2018, 17:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Treasure Chest period",
-                start: "May 30 2018, 17:00",
-                end: "June 18 2018, 13:59"
-            }
-        ]
-    },
-    {
         type: "Mission",
         title: [
-            "First Issue! Comic Etowaria",
-            "創刊！コミックエトワリア",
-            "Event Missions"
+            "Kurumi in Wonderland",
+            "くるみインワンダーランド",
+            "Kurumi Event Missions"
         ],
-        image: "https://i.imgur.com/JU39sPQ.png",
+        image: "https://i.imgur.com/xaKahGY.png",
         column: 0,
         autohide: true,
         timers: [
             {
                 name: "Missions Set 1",
-                start: "June 13 2018, 17:00",
-                end: "June 25 2018, 23:59"
+                start: "June 28 2018, 17:00",
+                end: "July 9 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "June 18 2018, 0:00",
-                end: "June 25 2018, 23:59"
+                start: "July 2 2018, 0:00",
+                end: "July 9 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "July 5 2018, 0:00",
+                end: "July 9 2018, 23:59"
             }
         ]
     },
@@ -155,23 +166,25 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Priest characters Gacha",
-            "Part 1: Featuring 5* Shinobu, 5* Yuno, 5* Nono",
-            "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka"
+            "Kurumi in Wonderland",
+            "くるみインワンダーランド",
+            "Kurumi Event Gacha", 
+            "Featuring 5* Kurumi, 5* An"
         ],
-        image: "https://i.imgur.com/WNqPWJK.png",
+        image: "https://i.imgur.com/xaKahGY.png",
         column: 1,
         autohide: true,
         timers: [
             {
-                name: "Part 1: 5* Shinobu, 5* Yuno, 5* Nono",
-                start: "June 8 2018, 17:00",
-                end: "June 15 2018, 16:59"
+                name: "Rate-up for 5* Kurumi, 4* Yuuki, 4* Kurumi, 4* Megu-nee",
+                start: "June 28 2018, 17:00",
+                end: "July 11 2018, 11:59"
             },
             {
-                name: "Part 2: Featuring 5* Run, 5* Yuki, 5* Haruka",
-                start: "June 15 2018, 17:00",
-                end: "June 22 2018, 16:59"
+                name: "Rate-up for 5* An, 4* An, 4* Shinobu, 4* Alice",
+                start: "July 3 2018, 0:00",
+                end: "July 11 2018, 11:59",
+                info: "Alice and Shinobu are their normal versions, not event ones."
             }
         ]
     },
