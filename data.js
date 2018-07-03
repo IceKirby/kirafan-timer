@@ -282,6 +282,50 @@ var data = [
     {
         type: "Other",
         title: [
+            "July Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/tuW4rag.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "July 7 2018, 0:00",
+                end: "July 8 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 2",
+                start: "July 14 2018, 0:00",
+                end: "July 15 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 3",
+                start: "July 21 2018, 0:00",
+                end: "July 22 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 4",
+                start: "July 28 2018, 0:00",
+                end: "July 29 2018, 23:59",
+                autohide: true
+            },
+            
+            {
+                name: "Medal exchange period",
+                start: "July 7 2018, 0:00",
+                end: "August 3 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "Limited Room Items",
             "Hanayamata-themed items",
             "Naruko in 5 different colors"
