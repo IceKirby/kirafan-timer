@@ -71,48 +71,6 @@ var data = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "First Issue! Comic Etowaria",
-            "創刊！コミックエトワリア",
-            "Comic Girls event"
-        ],
-        image: "https://i.imgur.com/JU39sPQ.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Main Scenario",
-                start: "June 13 2018, 17:00",
-                end: "June 25 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Extra Story",
-                start: "June 21 2018, 17:00",
-                end: "June 25 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Boss quest",
-                start: "June 15 2018, 17:00",
-                end: "June 25 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "EX quest",
-                start: "June 18 2018, 17:00",
-                end: "June 25 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Event Shop",
-                start: "June 13 2018, 17:00",
-                end: "July 2 2018, 13:59"
-            }
-        ]
-    },
-    {
         type: "Mission",
         title: [
             "Kurumi in Wonderland",
@@ -137,29 +95,6 @@ var data = [
                 name: "Missions Set 3",
                 start: "July 5 2018, 0:00",
                 end: "July 9 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "First Issue! Comic Etowaria",
-            "創刊！コミックエトワリア",
-            "Comic Girls gacha"
-        ],
-        image: "https://i.imgur.com/JU39sPQ.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Rate-up for 5* Kaos, 4* Koyume, 4* Ruki, 4* Tsubasa",
-                start: "June 13 2018, 17:00",
-                end: "June 28 2018, 11:59"
-            },
-            {
-                name: "Rate-up for 5* Koume, 4* Omi, 4* Miu, 3* Miu",
-                start: "June 20 2018, 0:00",
-                end: "June 28 2018, 11:59"
             }
         ]
     },
@@ -191,19 +126,18 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Summer Festa Gacha",
-            "Featuring characters voiced by the guest seiyuu",
-            "Featuring 5* Karen, 5* Rin, 5*Maika"
+            "Stella no Mahou selection Gacha",
+            "ステラのまほう　期間限定特別セレクション召喚",
+            "Featuring 5* Tamaki, 5* Kayo, 5* Shiina (Valentine)"
         ],
-        image: "https://i.imgur.com/YTxop6O.png",
+        image: "https://i.imgur.com/fQFK5UV.png",
         column: 1,
         autohide: true,
         timers: [
             {
-                name: "Featuring 5* Karen, 5* Rin, 5*Maika",
-                start: "June 22 2018, 17:00",
-                end: "June 28 2018, 11:59",
-                info: "Hail Touyama Nao \\o/"
+                name: "Period",
+                start: "July 11 2018, 15:00",
+                end: "July 23 2018, 11:59"
             }
         ]
     },
@@ -230,6 +164,99 @@ var data = [
             }
         ]
     },
+    {
+        type: "Gacha",
+        title: [
+            "Guaranteed 5* Ticket Gacha",
+            "*5確定召喚チケット付き！有償限定10回召喚",
+            "Do a 240 Paid Gems pull to get the ticket",
+            "You CAN'T choose the specific 5* character"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "240 Paid Gems pull period",
+                start: "July 11 2018, 15:00",
+                end: "July 23 2018, 11:59"
+            },
+            {
+                name: "5* Ticket usage period",
+                start: "July 11 2018, 15:00",
+                end: "July 30 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Daily Class Limited Gacha",
+            "日替わりクラス限定召喚",
+            "Different class every day"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "[Priest] 5* Naru, 5* Nono, 5* Yuki",
+                start: "July 11 2018, 15:00",
+                end: "July 12 2018, 23:59"
+            },
+            {
+                name: "[Warrior] 5* Yuu, 5* Merry, 5* Yuzuko",
+                start: "July 13 2018, 0:00",
+                end: "July 13 2018, 23:59"
+            },
+            {
+                name: "[Mage] 5* Koume, 5* Rin, 5* Aoba",
+                start: "July 14 2018, 0:00",
+                end: "July 14 2018, 23:59"
+            },
+            {
+                name: "[Priest] 5* Hana, 5* Yuno, 5* Shinobu",
+                start: "July 15 2018, 0:00",
+                end: "July 15 2018, 23:59"
+            },
+            {
+                name: "[Warrior] 5* Kurumi, 5* Karen, 5* Tooru",
+                start: "July 16 2018, 0:00",
+                end: "July 16 2018, 23:59"
+            },
+            {
+                name: "[Knight] 5* Chiya, 5* An",
+                start: "July 17 2018, 0:00",
+                end: "July 17 2018, 23:59"
+            },
+            {
+                name: "[Priest] 5* Kaos, 5* Haruka, 5* Run",
+                start: "July 18 2018, 0:00",
+                end: "July 18 2018, 23:59"
+            },
+            {
+                name: "[Warrior] 5* Kon, 5* Sonya",
+                start: "July 19 2018, 0:00",
+                end: "July 19 2018, 23:59"
+            },
+            {
+                name: "[Mage] 5* Maika, 5* Hifumi, 5* Tamaki",
+                start: "July 20 2018, 0:00",
+                end: "July 20 2018, 23:59"
+            },
+            {
+                name: "[Knight] 5* Yasuna, 5* Yui",
+                start: "July 21 2018, 0:00",
+                end: "July 21 2018, 23:59"
+            },
+            {
+                name: "[Alchemist] 5* Kayo, 5* Okaa-san",
+                start: "July 22 2018, 0:00",
+                end: "July 23 2018, 11:59"
+            }
+        ]
+    },
+    
     {
         type: "Other",
         title: [
