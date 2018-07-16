@@ -196,7 +196,7 @@ var data = [
             "Different class every day"
         ],
         image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 1,
+        column: 0,
         autohide: true,
         timers: [
             {
