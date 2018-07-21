@@ -101,30 +101,7 @@ var data = [
             {
                 name: "Period",
                 start: "July 11 2018, 15:00",
-                end: "July 23 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Choose Your 5* Ticket Gacha",
-            "*5選べるチケット付き！有償限定10回召喚",
-            "Do a 400 Paid Gems pull to get the ticket"
-        ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "400 Paid Gems pull period",
-                start: "June 28 2018, 17:00",
-                end: "July 11 2018, 11:59"
-            },
-            {
-                name: "5* Ticket usage period",
-                start: "June 28 2018, 17:00",
-                end: "July 18 2018, 23:59"
+                end: "July 23 2018, 9:59"
             }
         ]
     },
@@ -143,7 +120,7 @@ var data = [
             {
                 name: "240 Paid Gems pull period",
                 start: "July 11 2018, 15:00",
-                end: "July 23 2018, 11:59"
+                end: "July 23 2018, 9:59"
             },
             {
                 name: "5* Ticket usage period",
@@ -216,7 +193,7 @@ var data = [
             {
                 name: "[Alchemist] 5* Kayo, 5* Okaa-san",
                 start: "July 22 2018, 0:00",
-                end: "July 23 2018, 11:59"
+                end: "July 23 2018, 9:59"
             }
         ]
     },
