@@ -3,7 +3,7 @@ var data = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Main Quest update"
+            "Version 1.9.0 update"
         ],
         image: "maintenance.png",
         column: 0,
@@ -11,115 +11,79 @@ var data = [
         timers: [
             {
                 name: "Time",
-                start: "July 11 2018, 12:00",
-                end: "July 11 2018, 15:00"
+                start: "July 23 2018, 10:00",
+                end: "July 23 2018, 15:00"
             }
         ]
     },
     {
         type: "Event",
         title: [
-            "Kurumi in Wonderland",
-            "くるみインワンダーランド",
-            "Kurumi event"
+            "K-ON! Etowaria Live!!",
+            "けいおん！　エトワリアライブ！！",
+            "K-ON introduction event"
         ],
-        image: "https://i.imgur.com/xaKahGY.png",
+        image: "https://i.imgur.com/ZCuik6k.png",
         column: 0,
         autohide: true,
         timers: [
             {
-                name: "Main Scenario",
-                start: "June 28 2018, 17:00",
-                end: "July 9 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Extra Story 1",
-                start: "July 2 2018, 17:00",
-                end: "July 9 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Extra Story 2",
-                start: "July 3 2018, 17:00",
-                end: "July 9 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Extra Story 3",
-                start: "July 4 2018, 17:00",
-                end: "July 9 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Extra Story ???",
-                start: "July 5 2018, 17:00",
-                end: "July 9 2018, 13:59",
-                autohide: true
-            },
-            {
-                name: "Boss quest",
-                start: "July 2 2018, 17:00",
-                end: "July 9 2018, 13:59",
+                name: "Period",
+                start: "July 23 2018, 15:00",
+                end: "August 3 2018, 13:59",
                 autohide: true
             },
             {
                 name: "Event Shop",
-                start: "June 28 2018, 17:00",
-                end: "July 16 2018, 13:59",
+                start: "July 23 2018, 15:00",
+                end: "August 10 2018, 13:59",
             }
         ]
     },
     {
         type: "Mission",
         title: [
-            "Kurumi in Wonderland",
-            "くるみインワンダーランド",
-            "Kurumi Event Missions"
+            "K-ON! Etowaria Live!!",
+            "けいおん！　エトワリアライブ！！",
+            "K-ON event missions"
         ],
-        image: "https://i.imgur.com/xaKahGY.png",
+        image: "https://i.imgur.com/ZCuik6k.png",
         column: 0,
         autohide: true,
         timers: [
             {
                 name: "Missions Set 1",
-                start: "June 28 2018, 17:00",
-                end: "July 9 2018, 23:59"
+                start: "July 23 2018, 15:00",
+                end: "August 3 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "July 2 2018, 0:00",
-                end: "July 9 2018, 23:59"
+                start: "July 25 2018, 0:00",
+                end: "August 3 2018, 23:59"
             },
             {
                 name: "Missions Set 3",
-                start: "July 5 2018, 0:00",
-                end: "July 9 2018, 23:59"
+                start: "July 27 2018, 0:00",
+                end: "August 3 2018, 23:59"
             }
         ]
     },
     {
         type: "Gacha",
         title: [
-            "Kurumi in Wonderland",
-            "くるみインワンダーランド",
-            "Kurumi Event Gacha", 
-            "Featuring 5* Kurumi, 5* An"
+            "K-ON! Etowaria Live!!",
+            "けいおん！　エトワリアライブ！！",
+            "K-ON event gacha"
         ],
-        image: "https://i.imgur.com/xaKahGY.png",
+        image: "https://i.imgur.com/ZCuik6k.png",
         column: 1,
         autohide: true,
         timers: [
             {
-                name: "Rate-up for 5* Kurumi, 4* Yuuki, 4* Kurumi, 4* Megu-nee",
-                start: "June 28 2018, 17:00",
-                end: "July 11 2018, 11:59"
-            },
-            {
-                name: "Rate-up for 5* An, 4* An, 4* Shinobu, 4* Alice",
-                start: "July 3 2018, 0:00",
-                end: "July 11 2018, 11:59",
-                info: "Alice and Shinobu are their normal versions, not event ones."
+                name: "Rate-up for K-ON characters",
+                start: "July 23 2018, 15:00",
+                end: "August 3 2018, 16:59",
+                info: "4* Yui (event card) not included"
             }
         ]
     },
