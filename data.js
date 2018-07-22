@@ -218,6 +218,25 @@ var data = [
     {
         type: "Other",
         title: [
+            "Welcome Back Campaign",
+            "おかえりなさいキャンペーン開催",
+            "400 gems for players that haven't played since June 15th"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Login Bonus Period",
+                start: "July 23 2018, 15:00",
+                end: "July 31 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "July Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -255,25 +274,6 @@ var data = [
                 name: "Medal exchange period",
                 start: "July 7 2018, 0:00",
                 end: "August 3 2018, 23:59",
-                autohide: true
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Welcome Back Campaign",
-            "おかえりなさいキャンペーン開催",
-            "400 gems for players that haven't played since June 15th"
-        ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Login Bonus Period",
-                start: "July 23 2018, 15:00",
-                end: "July 31 2018, 23:59",
                 autohide: true
             }
         ]
