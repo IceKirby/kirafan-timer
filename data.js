@@ -108,6 +108,24 @@ var data = [
     {
         type: "Gacha",
         title: [
+            "Hanayamata & Comic Girls selection Gacha",
+            "ハナヤマタ＆こみっくがーるずセレクション召喚",
+            "Featuring 5* Naru, 5* Kaos"
+        ],
+        image: "https://i.imgur.com/r3QNOLx.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "July 23 2018, 15:00",
+                end: "August 3 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Guaranteed 5* Ticket Gacha",
             "*5確定召喚チケット付き！有償限定10回召喚",
             "Do a 240 Paid Gems pull to get the ticket",
@@ -306,6 +324,25 @@ var data = [
                 name: "Period",
                 start: "June 3 2018, 0:00",
                 end: "June 11 2018, 13:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Welcome Back Campaign",
+            "おかえりなさいキャンペーン開催",
+            "400 gems for players that haven't played since June 15th"
+        ],
+        image: "https://i.imgur.com/ICu2Sjh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Login Bonus Period",
+                start: "July 23 2018, 15:00",
+                end: "July 31 2018, 23:59",
                 autohide: true
             }
         ]
