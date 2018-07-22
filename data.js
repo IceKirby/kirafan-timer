@@ -215,56 +215,6 @@ var data = [
             }
         ]
     },
-    
-    {
-        type: "Other",
-        title: [
-            "June Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/dovEVAG.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "June 2 2018, 0:00",
-                end: "June 3 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 2",
-                start: "June 9 2018, 0:00",
-                end: "June 10 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 3",
-                start: "June 16 2018, 0:00",
-                end: "June 17 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 4",
-                start: "June 23 2018, 0:00",
-                end: "June 24 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Weekend 5",
-                start: "June 30 2018, 0:00",
-                end: "July 1 2018, 23:59",
-                autohide: true
-            },
-            {
-                name: "Medal exchange period",
-                start: "June 2 2018, 0:00",
-                end: "July 6 2018, 23:59",
-                autohide: true
-            }
-        ]
-    },
     {
         type: "Other",
         title: [
@@ -312,25 +262,6 @@ var data = [
     {
         type: "Other",
         title: [
-            "Limited Room Items",
-            "Hanayamata-themed items",
-            "Naruko in 5 different colors"
-        ],
-        image: "https://i.imgur.com/gNaC8b3.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Period",
-                start: "June 3 2018, 0:00",
-                end: "June 11 2018, 13:59",
-                autohide: true
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Welcome Back Campaign",
             "おかえりなさいキャンペーン開催",
             "400 gems for players that haven't played since June 15th"
@@ -343,25 +274,6 @@ var data = [
                 name: "Login Bonus Period",
                 start: "July 23 2018, 15:00",
                 end: "July 31 2018, 23:59",
-                autohide: true
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "200 Days Anniversary Login Bonus",
-            "Receive a total of 200 Gems",
-            "Log in 5 days during the period"
-        ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 2,
-        autohide: true,
-        timers: [
-            {
-                name: "Login Bonus Period",
-                start: "June 28 2018, 17:00",
-                end: "July 9 2018, 23:59",
                 autohide: true
             }
         ]
