@@ -28,8 +28,20 @@ var data = [
         autohide: true,
         timers: [
             {
-                name: "Period",
+                name: "Season 1",
                 start: "July 23 2018, 15:00",
+                end: "August 3 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 2",
+                start: "July 25 2018, 17:00",
+                end: "August 3 2018, 13:59",
+                autohide: true
+            },
+            {
+                name: "Season 3",
+                start: "July 27 2018, 17:00",
                 end: "August 3 2018, 13:59",
                 autohide: true
             },
