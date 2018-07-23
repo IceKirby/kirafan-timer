@@ -12,7 +12,7 @@ var data = [
             {
                 name: "Time",
                 start: "July 23 2018, 10:00",
-                end: "July 23 2018, 15:00"
+                end: "July 23 2018, 16:00"
             }
         ]
     },
