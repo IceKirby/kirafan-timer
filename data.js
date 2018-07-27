@@ -40,7 +40,7 @@ var data = [
                 autohide: true
             },
             {
-                name: "Season 3",
+                name: "Season 3 + Encore (Boss Quest)",
                 start: "July 27 2018, 17:00",
                 end: "August 3 2018, 13:59",
                 autohide: true
