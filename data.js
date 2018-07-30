@@ -197,7 +197,7 @@ var data = [
             "Summer event Gacha"
         ],
         image: "https://i.imgur.com/myGyoBh.png",
-        column: 0,
+        column: 1,
         autohide: true,
         timers: [
             {
