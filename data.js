@@ -3,7 +3,7 @@ var data = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Version 1.9.0 update"
+            "Version 1.9.1 update"
         ],
         image: "maintenance.png",
         column: 0,
@@ -11,8 +11,8 @@ var data = [
         timers: [
             {
                 name: "Time",
-                start: "July 23 2018, 10:00",
-                end: "July 23 2018, 16:00"
+                start: "July 31 2018, 14:00",
+                end: "July 31 2018, 17:00"
             }
         ]
     },
@@ -81,6 +81,54 @@ var data = [
         ]
     },
     {
+        type: "Event",
+        title: [
+            "Beach Hut of the Year",
+            "海の家オブザイヤー",
+            "Summer event"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "August 3 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop",
+                start: "August 3 2018, 17:00",
+                end: "September 6 2018, 13:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Mission",
+       title: [
+            "Beach Hut of the Year Missions",
+            "海の家オブザイヤー",
+            "Summer event missions"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "August 3 2018, 17:00",
+                end: "August 30 2018, 11:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "August 6 2018, 0:00",
+                end: "August 30 2018, 11:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "K-ON! Etowaria Live!!",
@@ -96,24 +144,6 @@ var data = [
                 start: "July 23 2018, 15:00",
                 end: "August 3 2018, 16:59",
                 info: "4* Yui (event card) not included"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Stella no Mahou selection Gacha",
-            "ステラのまほう　期間限定特別セレクション召喚",
-            "Featuring 5* Tamaki, 5* Kayo, 5* Shiina (Valentine)"
-        ],
-        image: "https://i.imgur.com/fQFK5UV.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Period",
-                start: "July 11 2018, 15:00",
-                end: "July 23 2018, 9:59"
             }
         ]
     },
@@ -162,68 +192,64 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "Daily Class Limited Gacha",
-            "日替わりクラス限定召喚",
-            "Different class every day"
+            "Limited Swimsuit Gacha",
+            "期間限定水着キャラクターピックアップ召喚",
+            "Summer event Gacha"
         ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 1,
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 0,
         autohide: true,
         timers: [
             {
-                name: "[Priest] 5* Naru, 5* Nono, 5* Yuki",
-                start: "July 11 2018, 15:00",
-                end: "July 12 2018, 23:59"
+                name: "Part 1 (Featuring 5* Yagami, 5* Kaho, 4* Eiko)",
+                start: "July 31 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                info: "Swimsuit versions",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Daily Summer Scenarios",
+            "A new story everyday during august",
+            "Each week's stories have a limited reading period",
+            "10 Gems for reading each story"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Week 1 (August 1st~7th) reading period",
+                start: "August 1 2018, 0:00",
+                end: "August 14 2018, 23:59",
+                autohide: true
             },
             {
-                name: "[Warrior] 5* Yuu, 5* Merry, 5* Yuzuko",
-                start: "July 13 2018, 0:00",
-                end: "July 13 2018, 23:59"
+                name: "Week 2 (August 8th~14th) reading period",
+                start: "August 8 2018, 0:00",
+                end: "August 21 2018, 23:59",
+                autohide: true
             },
             {
-                name: "[Mage] 5* Koume, 5* Rin, 5* Aoba",
-                start: "July 14 2018, 0:00",
-                end: "July 14 2018, 23:59"
+                name: "Week 3 (August 15th~21st) reading period",
+                start: "August 15 2018, 0:00",
+                end: "August 28 2018, 23:59",
+                autohide: true
             },
             {
-                name: "[Priest] 5* Hana, 5* Yuno, 5* Shinobu",
-                start: "July 15 2018, 0:00",
-                end: "July 15 2018, 23:59"
+                name: "Week 4 (August 22nd~28th) reading period",
+                start: "August 22 2018, 0:00",
+                end: "August 31 2018, 23:59",
+                autohide: true
             },
             {
-                name: "[Warrior] 5* Kurumi, 5* Karen, 5* Tooru",
-                start: "July 16 2018, 0:00",
-                end: "July 16 2018, 23:59"
-            },
-            {
-                name: "[Knight] 5* Chiya, 5* An",
-                start: "July 17 2018, 0:00",
-                end: "July 17 2018, 23:59"
-            },
-            {
-                name: "[Priest] 5* Kaos, 5* Haruka, 5* Run",
-                start: "July 18 2018, 0:00",
-                end: "July 18 2018, 23:59"
-            },
-            {
-                name: "[Warrior] 5* Kon, 5* Sonya",
-                start: "July 19 2018, 0:00",
-                end: "July 19 2018, 23:59"
-            },
-            {
-                name: "[Mage] 5* Maika, 5* Hifumi, 5* Tamaki",
-                start: "July 20 2018, 0:00",
-                end: "July 20 2018, 23:59"
-            },
-            {
-                name: "[Knight] 5* Yasuna, 5* Yui",
-                start: "July 21 2018, 0:00",
-                end: "July 21 2018, 23:59"
-            },
-            {
-                name: "[Alchemist] 5* Kayo, 5* Okaa-san",
-                start: "July 22 2018, 0:00",
-                end: "July 23 2018, 9:59"
+                name: "Week 5 (August 29th~30th) reading period",
+                start: "August 29 2018, 0:00",
+                end: "August 31 2018, 23:59",
+                autohide: true
             }
         ]
     },
@@ -286,6 +312,61 @@ var data = [
                 name: "Medal exchange period",
                 start: "July 7 2018, 0:00",
                 end: "August 3 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Summer Vacation Limited Deal",
+            "2000 Gems (817 Paid + 1183 Free) for 9800 Yen",
+            "Can only be purchased once per player"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "2000 Gems (817 Paid + 1183 Free) for 9800 Yen",
+                start: "July 31 2018, 17:00",
+                end: "August 31 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Limited Room Decoration items",
+            "Summer-themed items"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "July 31 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Normal Shop with increased exchange limits",
+            "Some items will have doubled stock during the period"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "July 31 2018, 17:00",
+                end: "August 30 2018, 11:59",
                 autohide: true
             }
         ]
