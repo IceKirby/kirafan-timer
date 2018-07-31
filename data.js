@@ -365,7 +365,7 @@ var data = [
         timers: [
             {
                 name: "Period",
-                start: "July 31 2018, 17:00",
+                start: "August 1 2018, 0:00",
                 end: "August 30 2018, 11:59",
                 autohide: true
             }
