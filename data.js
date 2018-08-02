@@ -319,6 +319,50 @@ var data = [
     {
         type: "Other",
         title: [
+            "August Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/V46mVPf.png",
+        column: 2,
+        autohide: true,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "August 4 2018, 0:00",
+                end: "August 5 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 2",
+                start: "August 11 2018, 0:00",
+                end: "August 12 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 3",
+                start: "August 18 2018, 0:00",
+                end: "August 19 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Weekend 4",
+                start: "August 25 2018, 0:00",
+                end: "August 26 2018, 23:59",
+                autohide: true
+            },
+            
+            {
+                name: "Medal exchange period",
+                start: "August 4 2018, 0:00",
+                end: "August 31 2018, 23:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "Summer Vacation Limited Deal",
             "2000 Gems (817 Paid + 1183 Free) for 9800 Yen",
             "Can only be purchased once per player"
