@@ -256,18 +256,60 @@ var data = [
     {
         type: "Other",
         title: [
-            "Welcome Back Campaign",
-            "おかえりなさいキャンペーン開催",
-            "400 gems for players that haven't played since June 15th"
+            "Harukana Receive Login Bonus",
+            "はるかなレシーブ」参戦決定記念ログインボーナス",
+            "20 gems on days the anime airs"
         ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
+        image: "https://i.imgur.com/MdUzdan.png",
         column: 2,
         autohide: true,
         timers: [
             {
-                name: "Login Bonus Period",
-                start: "July 23 2018, 15:00",
-                end: "July 31 2018, 23:59",
+                name: "Episode 5",
+                start: "August 3 2018, 0:00",
+                end: "August 3 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 6",
+                start: "August 10 2018, 0:00",
+                end: "August 10 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 7",
+                start: "August 17 2018, 0:00",
+                end: "August 17 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 8",
+                start: "August 24 2018, 0:00",
+                end: "August 24 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 9",
+                start: "August 31 2018, 0:00",
+                end: "August 31 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 10",
+                start: "September 7 2018, 0:00",
+                end: "September 7 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 11",
+                start: "September 14 2018, 0:00",
+                end: "September 14 2018, 23:59",
+                autohide: true
+            },
+            {
+                name: "Episode 12",
+                start: "September 21 2018, 0:00",
+                end: "September 21 2018, 23:59",
                 autohide: true
             }
         ]
