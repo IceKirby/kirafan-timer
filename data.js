@@ -19,6 +19,54 @@ var data = [
     {
         type: "Event",
         title: [
+            "Beach Hut of the Year",
+            "海の家オブザイヤー",
+            "Summer event"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "August 3 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop",
+                start: "August 3 2018, 17:00",
+                end: "September 6 2018, 13:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Mission",
+       title: [
+            "Beach Hut of the Year Missions",
+            "海の家オブザイヤー",
+            "Summer event missions"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "August 3 2018, 17:00",
+                end: "August 30 2018, 11:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "August 6 2018, 0:00",
+                end: "August 30 2018, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "K-ON! Etowaria Live!!",
             "けいおん！　エトワリアライブ！！",
             "K-ON introduction event"
@@ -77,54 +125,6 @@ var data = [
                 name: "Missions Set 3",
                 start: "July 27 2018, 0:00",
                 end: "August 3 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Beach Hut of the Year",
-            "海の家オブザイヤー",
-            "Summer event"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Period",
-                start: "August 3 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                autohide: true
-            },
-            {
-                name: "Event Shop",
-                start: "August 3 2018, 17:00",
-                end: "September 6 2018, 13:59",
-                autohide: true
-            }
-        ]
-    },
-    {
-        type: "Mission",
-       title: [
-            "Beach Hut of the Year Missions",
-            "海の家オブザイヤー",
-            "Summer event missions"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "August 3 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "August 6 2018, 0:00",
-                end: "August 30 2018, 11:59"
             }
         ]
     },
