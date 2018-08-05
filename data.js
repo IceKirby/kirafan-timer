@@ -34,6 +34,12 @@ var data = [
                 autohide: true
             },
             {
+                name: "Boss Quest",
+                start: "August 6 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
                 name: "Event Shop",
                 start: "August 3 2018, 17:00",
                 end: "September 6 2018, 13:59",
