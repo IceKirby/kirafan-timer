@@ -137,67 +137,6 @@ var data = [
     {
         type: "Gacha",
         title: [
-            "K-ON! Etowaria Live!!",
-            "けいおん！　エトワリアライブ！！",
-            "K-ON event gacha"
-        ],
-        image: "https://i.imgur.com/ZCuik6k.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Rate-up for K-ON characters",
-                start: "July 23 2018, 15:00",
-                end: "August 3 2018, 16:59",
-                info: "4* Yui (event card) not included"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Hanayamata & Comic Girls selection Gacha",
-            "ハナヤマタ＆こみっくがーるずセレクション召喚",
-            "Featuring 5* Naru, 5* Kaos"
-        ],
-        image: "https://i.imgur.com/r3QNOLx.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Period",
-                start: "July 23 2018, 15:00",
-                end: "August 3 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Guaranteed 5* Ticket Gacha",
-            "*5確定召喚チケット付き！有償限定10回召喚",
-            "Do a 240 Paid Gems pull to get the ticket",
-            "You CAN'T choose the specific 5* character"
-        ],
-        image: "https://i.imgur.com/ICu2Sjh.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "240 Paid Gems pull period",
-                start: "July 11 2018, 15:00",
-                end: "July 23 2018, 9:59"
-            },
-            {
-                name: "5* Ticket usage period",
-                start: "July 11 2018, 15:00",
-                end: "July 30 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Limited Swimsuit Gacha",
             "期間限定水着キャラクターピックアップ召喚",
             "Summer event Gacha"
@@ -209,6 +148,13 @@ var data = [
             {
                 name: "Part 1 (Featuring 5* Yagami, 5* Kaho, 4* Eiko)",
                 start: "July 31 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                info: "Swimsuit versions",
+                autohide: true
+            },
+            {
+                name: "Part 2 (Featuring 5* Yuki, 5* Yuzuko, 5* Aya, 4* Tooru)",
+                start: "August 10 2018, 17:00",
                 end: "August 30 2018, 11:59",
                 info: "Swimsuit versions",
                 autohide: true
