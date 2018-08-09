@@ -107,34 +107,6 @@ var data = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "K-ON! Etowaria Live!!",
-            "けいおん！　エトワリアライブ！！",
-            "K-ON event missions"
-        ],
-        image: "https://i.imgur.com/ZCuik6k.png",
-        column: 0,
-        autohide: true,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "July 23 2018, 15:00",
-                end: "August 3 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "July 25 2018, 0:00",
-                end: "August 3 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "July 27 2018, 0:00",
-                end: "August 3 2018, 23:59"
-            }
-        ]
-    },
-    {
         type: "Gacha",
         title: [
             "Limited Swimsuit Gacha",
