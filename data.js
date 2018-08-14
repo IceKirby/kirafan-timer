@@ -3,7 +3,7 @@ var data = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Version 1.9.1 update"
+            "Event Preparation"
         ],
         image: "maintenance.png",
         column: 0,
@@ -11,8 +11,8 @@ var data = [
         timers: [
             {
                 name: "Time",
-                start: "July 31 2018, 14:00",
-                end: "July 31 2018, 17:00"
+                start: "August 15 2018, 14:00",
+                end: "August 15 2018, 17:00"
             }
         ]
     },
