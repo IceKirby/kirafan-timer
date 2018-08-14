@@ -48,6 +48,71 @@ var data = [
         ]
     },
     {
+        type: "Event",
+        title: [
+            "Treasure Chest at the Bottom of the Sea",
+            "海の底の玉手箱",
+            "Summer event 2"
+        ],
+        image: "https://i.imgur.com/rHAePse.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Period",
+                start: "August 15 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
+                name: "Boss Quest",
+                start: "August 17 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
+                name: "EX Quest",
+                start: "August 20 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                autohide: true
+            },
+            {
+                name: "Event Shop / Treasure Chest Period",
+                start: "August 15 2018, 17:00",
+                end: "September 6 2018, 13:59",
+                autohide: true
+            }
+        ]
+    },
+    {
+        type: "Mission",
+       title: [
+            "Treasure Chest at the Bottom of the Sea Missions",
+            "海の底の玉手箱",
+            "Summer event 2 Missions"
+        ],
+        image: "https://i.imgur.com/rHAePse.png",
+        column: 0,
+        autohide: true,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "August 15 2018, 17:00",
+                end: "August 30 2018, 11:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "August 17 2018, 0:00",
+                end: "August 30 2018, 11:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "August 20 2018, 0:00",
+                end: "August 30 2018, 11:59"
+            }
+        ]
+    },
+    {
         type: "Mission",
        title: [
             "Beach Hut of the Year Missions",
