@@ -84,6 +84,41 @@ var data = [
             }
         ]
     },
+    
+    {
+        type: "Gacha",
+        title: [
+            "Limited Swimsuit Gacha",
+            "期間限定水着キャラクターピックアップ召喚",
+            "Summer event Gacha"
+        ],
+        image: "https://i.imgur.com/myGyoBh.png",
+        column: 1,
+        autohide: true,
+        timers: [
+            {
+                name: "Part 1 (Featuring 5* Yagami, 5* Kaho, 4* Eiko)",
+                start: "July 31 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                info: "Swimsuit versions",
+                autohide: true
+            },
+            {
+                name: "Part 2 (Featuring 5* Yuki, 5* Yuzuko, 5* Aya, 4* Tooru)",
+                start: "August 10 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                info: "Swimsuit versions",
+                autohide: true
+            },
+            {
+                name: "Part 3 (Featuring 5* Kon, 5* Shizuku, 5* Nadeshiko, 4* Yumine, 4* Kotone)",
+                start: "August 17 2018, 17:00",
+                end: "August 30 2018, 11:59",
+                info: "Swimsuit versions",
+                autohide: true
+            }
+        ]
+    },
     {
         type: "Mission",
        title: [
@@ -132,40 +167,6 @@ var data = [
                 name: "Missions Set 2",
                 start: "August 6 2018, 0:00",
                 end: "August 30 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Limited Swimsuit Gacha",
-            "期間限定水着キャラクターピックアップ召喚",
-            "Summer event Gacha"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 1,
-        autohide: true,
-        timers: [
-            {
-                name: "Part 1 (Featuring 5* Yagami, 5* Kaho, 4* Eiko)",
-                start: "July 31 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions",
-                autohide: true
-            },
-            {
-                name: "Part 2 (Featuring 5* Yuki, 5* Yuzuko, 5* Aya, 4* Tooru)",
-                start: "August 10 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions",
-                autohide: true
-            },
-            {
-                name: "Part 3 (Featuring 5* Kon, 5* Shizuku, 5* Nadeshiko, 4* Yumine, 4* Kotone)",
-                start: "August 17 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions",
-                autohide: true
             }
         ]
     },
