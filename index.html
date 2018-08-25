@@ -10,38 +10,73 @@
 
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="data.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js"></script>
+		<script type="text/javascript" src="components.js"></script>
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-		<script type="text/javascript" src="data.js"></script>
-		<script type="text/javascript" src="timer.js"></script>
 		<link rel="stylesheet" type="text/css" href="style.css">
 
-        <!-- <link rel="icon" href="favicon.png"> -->
+        <link rel="icon" href="favicon.png">
 	</head>
 	<body>
-		<div class="container-fluid">
+		<div class="container-fluid" id="app">
+			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<a href='https://www.reddit.com/message/compose/?to=RiceKirby&subject=About KiraFan Timer' target='_blank'>By sending a PM to RiceKirby in Reddit</a><br>
+							<ul>
+								<li>To report information errors (names, dates, etc).</li>
+								<li>For general feedback and opinions.</li>
+								<li>If you just want to have a chat.</li>
+							</ul>
+							<a href='https://github.com/IceKirby/kirafan-timer/issues' target='_blank'>By creating an issue on GitHub</a>
+							<ul>
+								<li>To report some feature not working (wrong timezone, timer not updating, display error, etc). Please specify the browser and device you are using and attach a screenshot if possible.</li>
+								<li>To suggest new features.</li>
+							</ul>
+
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<h1>Kirara Fantasia Timers</h1>
 
 			<div class="btn-group btn-group-toggle w-100 time-buttons" data-toggle="buttons">
-				<label class="btn btn-primary active" id="japan-time">
+				<label class="btn btn-primary active" id="japan-time" v-on:click="changeTimezone('japan')">
 					<input type="radio" name="options" id="option1" autocomplete="off" checked> <h3>Japan Time</h3>
-					<span>Time</span>
+					<span v-text="japanTime"></span>
 				</label>
-				<label class="btn btn-primary" id="local-time">
+				<label class="btn btn-primary" id="local-time" v-on:click="changeTimezone('local')">
 					<input type="radio" name="options" id="option2" autocomplete="off">
 					<h3>Local Time</h3>
-					<span>Time</span>
+					<span v-text="localTime"></span>
 				</label>
 			</div>
-
+			<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Found an error or have a suggestion?</span>
 
 			<div class="row" id="columns-holder">
-				<!-- Content will be inserted here -->
+				<div v-for="col in timersData" class="col-md-6 col-xl">
+					<event-group v-for="(t, index) in col" v-bind:ev="t" :key='index'></event-group>
+				</div>
 			</div>
-
 
 
 		</div>
+		<script type="text/javascript" src="app.js"></script>
 	</body>
 </html>
