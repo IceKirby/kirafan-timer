@@ -25,7 +25,7 @@ var timerData = [
                 name: "Time",
                 start: "August 15 2018, 14:00",
                 end: "August 15 2018, 17:00",
-                keepAfterFinished: "1 year, 1 hour"
+                keepAfterFinished: "1 hour"
             }
         ]
     },
