@@ -20,6 +20,7 @@ var timerData = [
         ],
         image: "Maintenance",
         column: 0,
+        priority: 10,
         timers: [
             {
                 name: "Time",
@@ -97,6 +98,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/Y0JxwZs.png",
         column: 0,
+        priority: 5,
         timers: [
             {
                 name: "Period",
@@ -131,6 +133,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/Y0JxwZs.png",
         column: 0,
+        priority: 5,
         timers: [
             {
                 name: "Missions Set 1",
