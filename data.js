@@ -400,6 +400,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "September Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/Zi7VsQe.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "September 1 2018, 0:00",
+                end: "September 2 2018, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "September 8 2018, 0:00",
+                end: "September 9 2018, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "September 15 2018, 0:00",
+                end: "September 16 2018, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "September 22 2018, 0:00",
+                end: "September 23 2018, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "September 29 2018, 0:00",
+                end: "September 30 2018, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "September 1 2018, 0:00",
+                end: "October 5 2018, 23:59",
+                keepAfterFinished: "1 day",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Summer Vacation Limited Deal",
