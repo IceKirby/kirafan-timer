@@ -428,7 +428,7 @@ var timerData = [
                 end: "September 23 2018, 23:59"
             },
             {
-                name: "Weekend 4",
+                name: "Weekend 5",
                 start: "September 29 2018, 0:00",
                 end: "September 30 2018, 23:59"
             },
