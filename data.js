@@ -2,6 +2,7 @@ var timerData = [
     {
         type: "DailyQuest",
         title: "Daily Quests",
+        priority: 10,
         days: {
             "sunday": { element: "Sun", image: "imgs/Attribute_Sun.png", short:"Sun" },
             "monday": { element: "Moon", image: "imgs/Attribute_Moon.png", short:"Mon" },
@@ -20,7 +21,7 @@ var timerData = [
         ],
         image: "Maintenance",
         column: 0,
-        priority: 10,
+        priority: 9,
         timers: [
             {
                 name: "Time",
