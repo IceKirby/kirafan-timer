@@ -222,6 +222,23 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Fire Element gacha",
+            "炎属性限定キャラクター召喚",
+            "Featuring 5* Chiya, 5* Shinobu, 5* Haruka (Sakura Trick)"
+        ],
+        image: "https://i.imgur.com/2WbFcTW.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "September 7 2018, 17:00",
+                end: "September 14 2018, 16:59"
+            }
+        ]
+    },
+    {
         type: "Mission",
         title: [
             "Treasure Chest at the Bottom of the Sea Missions",
