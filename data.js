@@ -24,7 +24,7 @@ var timerData = [
         priority: 9,
         timers: [
             {
-                name: "Time",
+                name: "Scheduled Time",
                 start: "September 12 2018, 14:00",
                 end: "September 12 2018, 17:00",
                 keepAfterFinished: "30 minutes"
@@ -34,59 +34,33 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Beach Hut of the Year",
-            "海の家オブザイヤー",
-            "Summer event"
+            "The Tragedy of Detective Coronet Yuu",
+            "名探偵コロネット ユーの悲劇",
+            "A-Channel x Slow Start event"
         ],
-        image: "https://i.imgur.com/myGyoBh.png",
+        image: "https://i.imgur.com/e6Gpfki.png",
         column: 0,
+        priority: 5,
         timers: [
             {
                 name: "Period",
-                start: "August 3 2018, 17:00",
-                end: "August 30 2018, 11:59"
+                start: "September 12 2018, 17:00",
+                end: "September 26 2018, 13:59"
             },
-            {
+            /*{
                 name: "Boss Quest",
-                start: "August 6 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Event Shop",
-                start: "August 3 2018, 17:00",
-                end: "September 6 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Treasure Chest at the Bottom of the Sea",
-            "海の底の玉手箱",
-            "Summer event 2"
-        ],
-        image: "https://i.imgur.com/rHAePse.png",
-        column: 0,
-        timers: [
-            {
-                name: "Period",
-                start: "August 15 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Boss Quest",
-                start: "August 17 2018, 17:00",
-                end: "August 30 2018, 11:59"
+                start: "September 12 2018, 17:00",
+                end: "September 26 2018, 13:59"
             },
             {
                 name: "EX Quest",
-                start: "August 20 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
+                start: "September 12 2018, 17:00",
+                end: "September 26 2018, 13:59"
+            },*/
             {
-                name: "Event Shop / Treasure Chest Period",
-                start: "August 15 2018, 17:00",
-                end: "September 6 2018, 13:59"
+                name: "Event Shop",
+                start: "September 12 2018, 17:00",
+                end: "October 3 2018, 13:59"
             }
         ]
     },
@@ -99,7 +73,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/Y0JxwZs.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Period",
@@ -126,13 +100,41 @@ var timerData = [
     {
         type: "Mission",
         title: [
+            "The Tragedy of Detective Coronet Yuu missions",
+            "名探偵コロネット ユーの悲劇",
+            "A-Channel x Slow Start event missions"
+        ],
+        image: "https://i.imgur.com/e6Gpfki.png",
+        column: 0,
+        priority: 5,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "September 12 2018, 17:00",
+                end: "September 26 2018, 23:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "September 14 2018, 0:00",
+                end: "September 26 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "September 18 2018, 0:00",
+                end: "September 26 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
             "Mysterious Island and Trial of Bonds missions",
             "謎の島と絆の試練",
             "Harukana Receive event missions"
         ],
         image: "https://i.imgur.com/Y0JxwZs.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Missions Set 1",
@@ -155,36 +157,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Limited Swimsuit Gacha",
-            "期間限定水着キャラクターピックアップ召喚",
-            "Summer event Gacha"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 1,
-        timers: [
-            {
-                name: "Part 1 (Featuring 5* Yagami, 5* Kaho, 4* Eiko)",
-                start: "July 31 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions"
-            },
-            {
-                name: "Part 2 (Featuring 5* Yuki, 5* Yuzuko, 5* Aya, 4* Tooru)",
-                start: "August 10 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions"
-            },
-            {
-                name: "Part 3 (Featuring 5* Kon, 5* Shizuku, 5* Nadeshiko, 4* Yumine, 4* Kotone)",
-                start: "August 17 2018, 17:00",
-                end: "August 30 2018, 11:59",
-                info: "Swimsuit versions"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Mysterious Island and Trial of Bonds Gacha",
             "謎の島と絆の試練ピックアップ召喚",
             "Harukana Receive event Gacha"
@@ -201,6 +173,28 @@ var timerData = [
                 name: "Part 2 (Featuring 5* Nagi, 4* Nagi, 4* Run, 4* Tooru, 4* Yuuko)",
                 start: "September 1 2018, 0:0",
                 end: "September 12 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "The Tragedy of Detective Coronet Yuu gacha",
+            "名探偵コロネット ユーの悲劇",
+            "A-Channel x Slow Start event gacha"
+        ],
+        image: "https://i.imgur.com/e6Gpfki.png",
+        column: 1,
+        timers: [
+            {
+                name: "Part 1 (Rate-up for 5* Kamuri, 4* Kamuri, 4* Eiko, 4* Tamate)",
+                start: "September 12 2018, 17:00",
+                end: "September 27 2018, 11:59"
+            },
+            {
+                name: "Part 2 (Featuring 5* Yuuko, 4* Yuuko, 4* Hotaru)",
+                start: "September 17 2018, 0:00",
+                end: "September 27 2018, 11:59"
             }
         ]
     },
