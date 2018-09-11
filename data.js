@@ -201,23 +201,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Gacha for series receiving new personal weapons",
-            "専用ぶき追加作品セレクション召喚",
-            "Featuring 5* Karen, 5* Tamaki, 5* Yui (K-ON)"
-        ],
-        image: "https://i.imgur.com/MxCnPfe.png",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "August 30 2018, 17:00",
-                end: "September 7 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Fire Element gacha",
             "炎属性限定キャラクター召喚",
             "Featuring 5* Chiya, 5* Shinobu, 5* Haruka (Sakura Trick)"
@@ -229,98 +212,6 @@ var timerData = [
                 name: "Period",
                 start: "September 7 2018, 17:00",
                 end: "September 14 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Treasure Chest at the Bottom of the Sea Missions",
-            "海の底の玉手箱",
-            "Summer event 2 Missions"
-        ],
-        image: "https://i.imgur.com/rHAePse.png",
-        column: 1,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "August 15 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "August 17 2018, 0:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "August 20 2018, 0:00",
-                end: "August 30 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Beach Hut of the Year Missions",
-            "海の家オブザイヤー",
-            "Summer event missions"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 1,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "August 3 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "August 6 2018, 0:00",
-                end: "August 30 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Daily Summer Scenarios",
-            "A new story everyday during august",
-            "Each week's stories have a limited reading period",
-            "10 Gems for reading each story"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 2,
-        timers: [
-            {
-                name: "Week 1 (August 1st~7th) reading period",
-                start: "August 1 2018, 0:00",
-                end: "August 14 2018, 23:59",
-                keepAfterFinished: "1 day"
-            },
-            {
-                name: "Week 2 (August 8th~14th) reading period",
-                start: "August 8 2018, 0:00",
-                end: "August 21 2018, 23:59",
-                keepAfterFinished: "1 day"
-            },
-            {
-                name: "Week 3 (August 15th~21st) reading period",
-                start: "August 15 2018, 0:00",
-                end: "August 28 2018, 23:59",
-                keepAfterFinished: "1 day"
-            },
-            {
-                name: "Week 4 (August 22nd~28th) reading period",
-                start: "August 22 2018, 0:00",
-                end: "August 31 2018, 23:59",
-                keepAfterFinished: "1 day"
-            },
-            {
-                name: "Week 5 (August 29th~30th) reading period",
-                start: "August 29 2018, 0:00",
-                end: "August 31 2018, 23:59",
-                keepAfterFinished: "1 day"
             }
         ]
     },
@@ -372,45 +263,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "August Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/V46mVPf.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "August 4 2018, 0:00",
-                end: "August 5 2018, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "August 11 2018, 0:00",
-                end: "August 12 2018, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "August 18 2018, 0:00",
-                end: "August 19 2018, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "August 25 2018, 0:00",
-                end: "August 26 2018, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "August 4 2018, 0:00",
-                end: "August 31 2018, 23:59",
-                keepAfterFinished: "1 day",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "September Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -449,55 +301,6 @@ var timerData = [
                 end: "October 5 2018, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Summer Vacation Limited Deal",
-            "2000 Gems (817 Paid + 1183 Free) for 9800 Yen",
-            "Can only be purchased once per player"
-        ],
-        image: "https://i.imgur.com/myGyoBh.png",
-        column: 2,
-        timers: [
-            {
-                name: "2000 Gems (817 Paid + 1183 Free) for 9800 Yen",
-                start: "July 31 2018, 17:00",
-                end: "August 31 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Limited Room Decoration items",
-            "Summer-themed items"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "July 31 2018, 17:00",
-                end: "August 30 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Normal Shop with increased exchange limits",
-            "Some items will have doubled stock during the period"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "August 1 2018, 0:00",
-                end: "August 30 2018, 11:59"
             }
         ]
     }
