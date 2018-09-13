@@ -126,57 +126,6 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "Mysterious Island and Trial of Bonds missions",
-            "謎の島と絆の試練",
-            "Harukana Receive event missions"
-        ],
-        image: "https://i.imgur.com/Y0JxwZs.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "August 30 2018, 17:00",
-                end: "September 11 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "September 3 2018, 0:00",
-                end: "September 11 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "September 5 2018, 0:00",
-                end: "September 11 2018, 23:59"
-            }
-        ]
-    },
-
-    {
-        type: "Gacha",
-        title: [
-            "Mysterious Island and Trial of Bonds Gacha",
-            "謎の島と絆の試練ピックアップ召喚",
-            "Harukana Receive event Gacha"
-        ],
-        image: "https://i.imgur.com/Y0JxwZs.png",
-        column: 1,
-        timers: [
-            {
-                name: "Part 1 (Featuring 5* Haruka, 4* Kanata, 4* Claire, 4* Emily)",
-                start: "August 30 2018, 17:00",
-                end: "September 12 2018, 13:59"
-            },
-            {
-                name: "Part 2 (Featuring 5* Nagi, 4* Nagi, 4* Run, 4* Tooru, 4* Yuuko)",
-                start: "September 1 2018, 0:0",
-                end: "September 12 2018, 13:59"
-            }
-        ]
-    },
-    {
         type: "Gacha",
         title: [
             "The Great Detective Coronett: Yuu's Tragedy gacha",
@@ -212,6 +161,23 @@ var timerData = [
                 name: "Period",
                 start: "September 7 2018, 17:00",
                 end: "September 14 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Earth Element gacha",
+            "土属性限定キャラクター召喚",
+            "Featuring 5* Kurumi, 5* Sonya, 5* Kaos"
+        ],
+        image: "https://i.imgur.com/vY9LDzF.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "September 14 2018, 17:00",
+                end: "September 21 2018, 16:59"
             }
         ]
     },
