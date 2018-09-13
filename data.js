@@ -34,7 +34,7 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "The Tragedy of Detective Coronet Yuu",
+            "The Great Detective Coronett: Yuu's Tragedy",
             "名探偵コロネット ユーの悲劇",
             "A-Channel x Slow Start event"
         ],
@@ -100,7 +100,7 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "The Tragedy of Detective Coronet Yuu missions",
+            "The Great Detective Coronett: Yuu's Tragedy missions",
             "名探偵コロネット ユーの悲劇",
             "A-Channel x Slow Start event missions"
         ],
@@ -179,7 +179,7 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "The Tragedy of Detective Coronet Yuu gacha",
+            "The Great Detective Coronett: Yuu's Tragedy gacha",
             "名探偵コロネット ユーの悲劇",
             "A-Channel x Slow Start event gacha"
         ],
