@@ -171,7 +171,7 @@ var timerData = [
             "★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + 5* Summon Ticket"
         ],
-        image: "https://i.imgur.com/vY9LDzF.png",
+        image: "clea",
         column: 1,
         timers: [
             {
