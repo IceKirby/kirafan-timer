@@ -150,23 +150,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Fire Element gacha",
-            "炎属性限定キャラクター召喚",
-            "Featuring 5* Chiya, 5* Shinobu, 5* Haruka (Sakura Trick)"
-        ],
-        image: "https://i.imgur.com/2WbFcTW.png",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "September 7 2018, 17:00",
-                end: "September 14 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Earth Element gacha",
             "土属性限定キャラクター召喚",
             "Featuring 5* Kurumi, 5* Sonya, 5* Kaos"
@@ -178,6 +161,23 @@ var timerData = [
                 name: "Period",
                 start: "September 14 2018, 17:00",
                 end: "September 21 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "5* Summon Ticket gacha",
+            "★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + 5* Summon Ticket"
+        ],
+        image: "https://i.imgur.com/vY9LDzF.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "September 21 2018, 17:00",
+                end: "October 6 2018, 13:59"
             }
         ]
     },
