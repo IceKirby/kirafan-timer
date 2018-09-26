@@ -165,13 +165,13 @@ var timerData = [
         timers: [
             {
                 name: "Part 1 (Rate-up for 5* Kamuri, 4* Kamuri, 4* Eiko, 4* Tamate)",
-                start: "September 27 2018, 17:00",
-                end: "October 10 2018, 11:59"
+                start: "September 12 2018, 17:00",
+                end: "September 27 2018, 11:59"
             },
             {
                 name: "Part 2 (Featuring 5* Yuuko, 4* Yuuko, 4* Hotaru)",
-                start: "October 2 2018, 0:00",
-                end: "October 10 2018, 11:59"
+                start: "September 17 2018, 0:00",
+                end: "September 27 2018, 11:59"
             }
         ]
     },
@@ -187,13 +187,13 @@ var timerData = [
         timers: [
             {
                 name: "Part 1 (Rate-up for 5* Miyako, 4* Miyako, 4* Yuno)",
-                start: "September 12 2018, 17:00",
-                end: "September 27 2018, 11:59"
+                start: "September 27 2018, 17:00",
+                end: "October 10 2018, 11:59"
             },
             {
                 name: "Part 2 (Rate-up for 5* Azusa, 4* Azusa, 4* Mio, 4* Ritsu, 4* Tsumugi)",
-                start: "September 17 2018, 0:00",
-                end: "September 27 2018, 11:59"
+                start: "October 2 2018, 0:00",
+                end: "October 10 2018, 11:59"
             }
         ]
     },
