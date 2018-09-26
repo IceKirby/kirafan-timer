@@ -71,7 +71,7 @@ var timerData = [
             "宮子とねこのうた",
             "Hidamari Sketch x K-ON! event"
         ],
-        image: "https://i.imgur.com/dj0LNjj.png",
+        image: "https://i.imgur.com/ykqK6EQ.png",
         column: 0,
         priority: 5,
         timers: [
@@ -132,7 +132,7 @@ var timerData = [
             "宮子とねこのうた",
             "Hidamari Sketch x K-ON! event missions"
         ],
-        image: "https://i.imgur.com/dj0LNjj.png",
+        image: "https://i.imgur.com/ykqK6EQ.png",
         column: 0,
         priority: 5,
         timers: [
@@ -182,7 +182,7 @@ var timerData = [
             "宮子とねこのうた",
             "Hidamari Sketch x K-ON! event gacha"
         ],
-        image: "https://i.imgur.com/dj0LNjj.png",
+        image: "https://i.imgur.com/ykqK6EQ.png",
         column: 1,
         timers: [
             {
