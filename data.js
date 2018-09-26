@@ -40,7 +40,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/e6Gpfki.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Period",
