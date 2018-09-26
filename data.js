@@ -64,36 +64,36 @@ var timerData = [
             }
         ]
     },
-    {
+     {
         type: "Event",
         title: [
-            "Mysterious Island and Trial of Bonds",
-            "謎の島と絆の試練",
-            "Harukana Receive event"
+            "Miyako and the Cat's Song",
+            "宮子とねこのうた",
+            "Hidamari Sketch x K-ON! event"
         ],
-        image: "https://i.imgur.com/Y0JxwZs.png",
+        image: "https://i.imgur.com/ZIOiCgw.png",
         column: 0,
-        priority: 4,
+        priority: 5,
         timers: [
             {
                 name: "Period",
-                start: "August 30 2018, 17:00",
-                end: "September 11 2018, 13:59"
+                start: "September 27 2018, 17:00",
+                end: "October 9 2018, 13:59"
             },
             {
                 name: "Boss Quest",
-                start: "September 3 2018, 17:00",
-                end: "September 11 2018, 13:59"
+                start: "October 1 2018, 17:00",
+                end: "October 9 2018, 13:59"
             },
-            {
+            /*{
                 name: "EX Quest",
-                start: "September 5 2018, 17:00",
-                end: "September 11 2018, 13:59"
-            },
+                start: "September 27 2018, 17:00",
+                end: "October 9 2018, 13:59"
+            },*/
             {
                 name: "Event Shop",
-                start: "August 30 2018, 17:00",
-                end: "September 18 2018, 13:59"
+                start: "September 27 2018, 17:00",
+                end: "October 16 2018, 13:59"
             }
         ]
     },
@@ -126,6 +126,34 @@ var timerData = [
         ]
     },
     {
+        type: "Mission",
+        title: [
+            "Miyako and the Cat's Song missions",
+            "宮子とねこのうた",
+            "Hidamari Sketch x K-ON! event missions"
+        ],
+        image: "https://i.imgur.com/ZIOiCgw.png",
+        column: 0,
+        priority: 5,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "September 27 2018, 17:00",
+                end: "October 9 2018, 23:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "September 29 2018, 0:00",
+                end: "October 9 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "October 1 2018, 0:00",
+                end: "October 9 2018, 23:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "The Great Detective Coronett: Yuu's Tragedy gacha",
@@ -137,30 +165,35 @@ var timerData = [
         timers: [
             {
                 name: "Part 1 (Rate-up for 5* Kamuri, 4* Kamuri, 4* Eiko, 4* Tamate)",
-                start: "September 12 2018, 17:00",
-                end: "September 27 2018, 11:59"
+                start: "September 27 2018, 17:00",
+                end: "October 10 2018, 11:59"
             },
             {
                 name: "Part 2 (Featuring 5* Yuuko, 4* Yuuko, 4* Hotaru)",
-                start: "September 17 2018, 0:00",
-                end: "September 27 2018, 11:59"
+                start: "October 2 2018, 0:00",
+                end: "October 10 2018, 11:59"
             }
         ]
     },
     {
         type: "Gacha",
         title: [
-            "Earth Element gacha",
-            "土属性限定キャラクター召喚",
-            "Featuring 5* Kurumi, 5* Sonya, 5* Kaos"
+            "Miyako and the Cat's Song gacha",
+            "宮子とねこのうた",
+            "Hidamari Sketch x K-ON! event gacha"
         ],
-        image: "https://i.imgur.com/vY9LDzF.png",
+        image: "https://i.imgur.com/ZIOiCgw.png",
         column: 1,
         timers: [
             {
-                name: "Period",
-                start: "September 14 2018, 17:00",
-                end: "September 21 2018, 16:59"
+                name: "Part 1 (Rate-up for 5* Miyako, 4* Miyako, 4* Yuno)",
+                start: "September 12 2018, 17:00",
+                end: "September 27 2018, 11:59"
+            },
+            {
+                name: "Part 2 (Rate-up for 5* Azusa, 4* Azusa, 4* Mio, 4* Ritsu, 4* Tsumugi)",
+                start: "September 17 2018, 0:00",
+                end: "September 27 2018, 11:59"
             }
         ]
     },
