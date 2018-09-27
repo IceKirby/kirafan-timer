@@ -200,6 +200,23 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "Series getting new Unique Weapons Gacha",
+            "専用ぶき追加作品セレクション召喚",
+            "Featuring 5* Yuzuko, 5* Tooru, 5* Maika"
+        ],
+        image: "https://i.imgur.com/NW4ciTX.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "September 28 2018, 17:00",
+                end: "October 6 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "5* Summon Ticket gacha",
             "★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + 5* Summon Ticket"
