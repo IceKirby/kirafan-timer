@@ -232,47 +232,95 @@ var timerData = [
         ]
     },
     {
-        type: "LoginDays",
+        type: "Gacha",
         title: [
-            "Harukana Receive Login Bonus",
-            "はるかなレシーブ」参戦決定記念ログインボーナス",
-            "20 gems on days the anime airs"
+            "Choose your 5* gacha",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choose your 5* Summon Ticket"
         ],
-        image: "https://i.imgur.com/MdUzdan.png",
-        column: 2,
-        keepAfterFinished: "1 day",
+        image: "clea",
+        column: 1,
         timers: [
             {
-                name: "Episode 5",
-                date: "August 3 2018"
+                name: "Period",
+                start: "October 6 2018, 17:00",
+                end: "October 25 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Half Stamina Consumption campaign",
+            "消費スタミナ1/2キャンペーン",
+            "Main Quest and Daily Quests with half stamina cost",
+            "Except for Prologue, Hard Mode and Key quests"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "October 6 2018, 0:00",
+                end: "October 25 2018, 13:59",
+                keepAfterFinished: "9 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "300 days since release Login Bonus",
+            "300日記念ログインボーナス",
+            "Login for 10 days for up to 300 gems"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "October 6 2018, 0:00",
+                end: "October 17 2018, 23:59",
+                keepAfterFinished: "12 hours"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/6yRPpl2.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "October 6 2018, 0:00",
+                end: "October 7 2018, 23:59"
             },
             {
-                name: "Episode 6",
-                date: "August 10 2018"
+                name: "Weekend 2",
+                start: "October 13 2018, 0:00",
+                end: "October 14 2018, 23:59"
             },
             {
-                name: "Episode 7",
-                date: "August 17 2018"
+                name: "Weekend 3",
+                start: "October 20 2018, 0:00",
+                end: "October 21 2018, 23:59"
             },
             {
-                name: "Episode 8",
-                date: "August 24 2018"
+                name: "Weekend 4",
+                start: "October 27 2018, 0:00",
+                end: "October 28 2018, 23:59"
             },
             {
-                name: "Episode 9",
-                date: "August 31 2018"
-            },
-            {
-                name: "Episode 10",
-                date: "September 7 2018"
-            },
-            {
-                name: "Episode 11",
-                date: "September 14 2018"
-            },
-            {
-                name: "Episode 12",
-                date: "September 21 2018"
+                name: "Medal exchange period",
+                start: "October 6 2018, 0:00",
+                end: "November 2 2018, 23:59",
+                keepAfterFinished: "1 day",
+                type: "normal"
             }
         ]
     },
@@ -317,6 +365,24 @@ var timerData = [
                 end: "October 5 2018, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Special Gem Sale",
+            "お得な星彩石セット販売",
+            "Discounted gem sets"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "October 6 2018, 17:00",
+                end: "November 3 2018, 23:59",
+                keepAfterFinished: "6 hours"
             }
         ]
     }
