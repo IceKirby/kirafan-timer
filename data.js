@@ -100,34 +100,6 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "The Great Detective Coronett: Yuu's Tragedy missions",
-            "名探偵コロネット ユーの悲劇",
-            "A-Channel x Slow Start event missions"
-        ],
-        image: "https://i.imgur.com/e6Gpfki.png",
-        column: 0,
-        priority: 5,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "September 12 2018, 17:00",
-                end: "September 26 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "September 14 2018, 0:00",
-                end: "September 26 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "September 18 2018, 0:00",
-                end: "September 26 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
             "Miyako and the Cat's Song missions",
             "宮子とねこのうた",
             "Hidamari Sketch x K-ON! event missions"
@@ -156,28 +128,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "The Great Detective Coronett: Yuu's Tragedy gacha",
-            "名探偵コロネット ユーの悲劇",
-            "A-Channel x Slow Start event gacha"
-        ],
-        image: "https://i.imgur.com/e6Gpfki.png",
-        column: 1,
-        timers: [
-            {
-                name: "Part 1 (Rate-up for 5* Kamuri, 4* Kamuri, 4* Eiko, 4* Tamate)",
-                start: "September 12 2018, 17:00",
-                end: "September 27 2018, 11:59"
-            },
-            {
-                name: "Part 2 (Featuring 5* Yuuko, 4* Yuuko, 4* Hotaru)",
-                start: "September 17 2018, 0:00",
-                end: "September 27 2018, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Miyako and the Cat's Song gacha",
             "宮子とねこのうた",
             "Hidamari Sketch x K-ON! event gacha"
@@ -197,37 +147,21 @@ var timerData = [
             }
         ]
     },
+    
     {
         type: "Gacha",
         title: [
-            "Series getting new Unique Weapons Gacha",
-            "専用ぶき追加作品セレクション召喚",
-            "Featuring 5* Yuzuko, 5* Tooru, 5* Maika"
+            "Yuyushiki selection gacha",
+            "ゆゆ式 期間限定特別セレクション召喚",
+            "Featuring 5* Yuzuko, 5* Yuzuko [Swimsuit], 5* Yui, 5* Mom"
         ],
-        image: "https://i.imgur.com/NW4ciTX.png",
+        image: "https://i.imgur.com/c9PQJT8.png",
         column: 1,
         timers: [
             {
                 name: "Period",
-                start: "September 28 2018, 17:00",
-                end: "October 6 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "5* Summon Ticket gacha",
-            "★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "September 21 2018, 17:00",
-                end: "October 6 2018, 13:59"
+                start: "October 10 2018, 17:00",
+                end: "October 19 2018, 16:59"
             }
         ]
     },
