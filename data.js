@@ -191,7 +191,7 @@ var timerData = [
             "Except for Prologue, Hard Mode and Key quests"
         ],
         image: "kirara",
-        column: 2,
+        column: 0,
         timers: [
             {
                 name: "Period",
