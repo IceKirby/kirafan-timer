@@ -191,6 +191,7 @@ var timerData = [
         ],
         image: "kirara",
         column: 0,
+        priority: 6,
         timers: [
             {
                 name: "Period",
