@@ -48,6 +48,16 @@ var timerData = [
                 end: "October 24 2018, 13:59"
             },
             {
+                name: "Boss Quest",
+                start: "October 18 2018, 17:00",
+                end: "October 24 2018, 13:59"
+            },
+            {
+                name: "EX Quest",
+                start: "October 19 2018, 17:00",
+                end: "October 24 2018, 13:59"
+            },
+            {
                 name: "New Story 1",
                 start: "October 20 2018, 0:00",
                 end: "October 24 2018, 13:59"
@@ -67,16 +77,6 @@ var timerData = [
                 start: "October 23 2018, 0:00",
                 end: "October 24 2018, 13:59"
             },
-            /*{
-                name: "Boss Quest",
-                start: "October 1 2018, 17:00",
-                end: "October 9 2018, 13:59"
-            },
-            {
-                name: "EX Quest",
-                start: "September 27 2018, 17:00",
-                end: "October 9 2018, 13:59"
-            },*/
             {
                 name: "Event Shop",
                 start: "October 17 2018, 17:00",
@@ -87,28 +87,28 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "Miyako and the Cat's Song missions",
-            "宮子とねこのうた",
-            "Hidamari Sketch x K-ON! event missions"
+            "Stile No.2 Open! missions",
+            "復刻・スティーレ2号店オープン！",
+            "Blend-S event missions"
         ],
-        image: "https://i.imgur.com/ykqK6EQ.png",
+        image: "https://i.imgur.com/JNETw7X.png",
         column: 0,
         priority: 5,
         timers: [
             {
                 name: "Missions Set 1",
-                start: "September 27 2018, 17:00",
-                end: "October 9 2018, 23:59"
+                start: "October 17 2018, 0:00",
+                end: "October 24 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "September 29 2018, 0:00",
-                end: "October 9 2018, 23:59"
+                start: "October 18 2018, 0:00",
+                end: "October 24 2018, 23:59"
             },
             {
                 name: "Missions Set 3",
-                start: "October 1 2018, 0:00",
-                end: "October 9 2018, 23:59"
+                start: "October 19 2018, 0:00",
+                end: "October 24 2018, 23:59"
             }
         ]
     },
