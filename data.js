@@ -34,66 +34,53 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "The Great Detective Coronett: Yuu's Tragedy",
-            "名探偵コロネット ユーの悲劇",
-            "A-Channel x Slow Start event"
+            "Stile No.2 Open!",
+            "復刻・スティーレ2号店オープン！",
+            "Blend-S event [Revival]"
         ],
-        image: "https://i.imgur.com/e6Gpfki.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
-                name: "Period",
-                start: "September 12 2018, 17:00",
-                end: "September 26 2018, 13:59"
-            },
-            {
-                name: "Boss Quest",
-                start: "September 14 2018, 17:00",
-                end: "September 26 2018, 13:59"
-            },
-            {
-                name: "EX Quest",
-                start: "September 18 2018, 17:00",
-                end: "September 26 2018, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "September 12 2018, 17:00",
-                end: "October 3 2018, 13:59"
-            }
-        ]
-    },
-     {
-        type: "Event",
-        title: [
-            "Miyako and the Cat's Song",
-            "宮子とねこのうた",
-            "Hidamari Sketch x K-ON! event"
-        ],
-        image: "https://i.imgur.com/ykqK6EQ.png",
+        image: "https://i.imgur.com/JNETw7X.png",
         column: 0,
         priority: 5,
         timers: [
             {
                 name: "Period",
-                start: "September 27 2018, 17:00",
-                end: "October 9 2018, 13:59"
+                start: "October 17 2018, 17:00",
+                end: "October 24 2018, 13:59"
             },
             {
+                name: "New Story 1",
+                start: "October 20 2018, 0:00",
+                end: "October 24 2018, 13:59"
+            },
+            {
+                name: "New Story 2",
+                start: "October 21 2018, 0:00",
+                end: "October 24 2018, 13:59"
+            },
+            {
+                name: "New Story 3",
+                start: "October 22 2018, 0:00",
+                end: "October 24 2018, 13:59"
+            },
+            {
+                name: "New Story 4",
+                start: "October 23 2018, 0:00",
+                end: "October 24 2018, 13:59"
+            },
+            /*{
                 name: "Boss Quest",
                 start: "October 1 2018, 17:00",
                 end: "October 9 2018, 13:59"
             },
-            /*{
+            {
                 name: "EX Quest",
                 start: "September 27 2018, 17:00",
                 end: "October 9 2018, 13:59"
             },*/
             {
                 name: "Event Shop",
-                start: "September 27 2018, 17:00",
-                end: "October 16 2018, 13:59"
+                start: "October 17 2018, 17:00",
+                end: "October 31 2018, 13:59"
             }
         ]
     },
@@ -128,29 +115,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Miyako and the Cat's Song gacha",
-            "宮子とねこのうた",
-            "Hidamari Sketch x K-ON! event gacha"
-        ],
-        image: "https://i.imgur.com/ykqK6EQ.png",
-        column: 1,
-        timers: [
-            {
-                name: "Part 1 (Rate-up for 5* Miyako, 4* Miyako, 4* Yuno)",
-                start: "September 27 2018, 17:00",
-                end: "October 10 2018, 11:59"
-            },
-            {
-                name: "Part 2 (Rate-up for 5* Azusa, 4* Azusa, 4* Mio, 4* Ritsu, 4* Tsumugi)",
-                start: "October 2 2018, 0:00",
-                end: "October 10 2018, 11:59"
-            }
-        ]
-    },
-    
-    {
-        type: "Gacha",
-        title: [
             "Yuyushiki selection gacha",
             "ゆゆ式 期間限定特別セレクション召喚",
             "Featuring 5* Yuzuko, 5* Yuzuko [Swimsuit], 5* Yui, 5* Mom"
@@ -162,6 +126,41 @@ var timerData = [
                 name: "Period",
                 start: "October 10 2018, 17:00",
                 end: "October 19 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Stile No.2 Open! Gacha",
+            "スティーレ2号店オープン！ピックアップ召喚",
+            "Blend-S event gacha"
+        ],
+        image: "https://i.imgur.com/JNETw7X.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring 5* Mafuyu, 4* Hideri, 4* Sumi, 3* Hideri",
+                start: "October 17 2018, 17:00",
+                end: "October 25 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Blend-S selection gacha",
+            "ブレンド・S 期間限定特別セレクション召喚",
+            "Limited Blend-S gacha"
+        ],
+        image: "https://i.imgur.com/6qjLXQl.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring 5* Maika, 5* Kaho [Swimsuit], 4* Maika [Hinamatsuri]",
+                start: "October 19 2018, 17:00",
+                end: "October 26 2018, 16:59",
+                info: "Also featuring 4* Maika, 4* Kaho, 4* Mafuyu, 4* Miu"
             }
         ]
     },
@@ -253,50 +252,6 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "October 6 2018, 0:00",
                 end: "November 2 2018, 23:59",
-                keepAfterFinished: "1 day",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "September Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/Zi7VsQe.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "September 1 2018, 0:00",
-                end: "September 2 2018, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "September 8 2018, 0:00",
-                end: "September 9 2018, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "September 15 2018, 0:00",
-                end: "September 16 2018, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "September 22 2018, 0:00",
-                end: "September 23 2018, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "September 29 2018, 0:00",
-                end: "September 30 2018, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "September 1 2018, 0:00",
-                end: "October 5 2018, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
             }
