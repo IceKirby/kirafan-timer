@@ -17,7 +17,8 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Main Quest update"
+            "Main Quest Chapter 5 Hard mode",
+            "Event preparation"
         ],
         image: "Maintenance",
         column: 0,
@@ -25,8 +26,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "October 10 2018, 12:00",
-                end: "October 10 2018, 17:00",
+                start: "October 25 2018, 14:00",
+                end: "October 25 2018, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
