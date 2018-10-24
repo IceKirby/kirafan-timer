@@ -35,6 +35,39 @@ var timerData = [
     {
         type: "Event",
         title: [
+            "Hibari, Rii-san and the Flower of Happiness",
+            "ヒバリとりーさんと幸福の花",
+            "Anne Happy x Gakkou Gurashi event"
+        ],
+        image: "https://i.imgur.com/2sar6kl.png",
+        column: 0,
+        priority: 5,
+        timers: [
+            {
+                name: "Period",
+                start: "October 25 2018, 17:00",
+                end: "November 5 2018, 13:59"
+            },
+            {
+                name: "Boss Quest",
+                start: "October 27 2018, 17:00",
+                end: "November 5 2018, 13:59"
+            },
+            {
+                name: "EX Quest",
+                start: "October 31 2018, 17:00",
+                end: "November 5 2018, 13:59"
+            },
+            {
+                name: "Event Shop",
+                start: "October 25 2018, 17:00",
+                end: "November 12 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Stile No.2 Open!",
             "復刻・スティーレ2号店オープン！",
             "Blend-S event [Revival]"
@@ -114,6 +147,34 @@ var timerData = [
         ]
     },
     {
+        type: "Mission",
+        title: [
+            "Hibari, Rii-san and the Flower of Happiness missions",
+            "ヒバリとりーさんと幸福の花",
+            "Anne Happy x Gakkou Gurashi event missions"
+        ],
+        image: "https://i.imgur.com/2sar6kl.png",
+        column: 0,
+        priority: 5,
+        timers: [
+            {
+                name: "Missions Set 1",
+                start: "October 25 2018, 17:00",
+                end: "November 5 2018, 23:59"
+            },
+            {
+                name: "Missions Set 2",
+                start: "October 29 2018, 0:00",
+                end: "November 5 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "October 31 2018, 0:00",
+                end: "November 5 2018, 23:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "Yuyushiki selection gacha",
@@ -144,6 +205,28 @@ var timerData = [
                 name: "Featuring 5* Mafuyu, 4* Hideri, 4* Sumi, 3* Hideri",
                 start: "October 17 2018, 17:00",
                 end: "October 25 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Hibari, Rii-san and the Flower of Happiness gacha",
+            "ヒバリとりーさんと幸福の花 ピックアップ召喚",
+            "Anne Happy x Gakkou Gurashi event gacha"
+        ],
+        image: "https://i.imgur.com/2sar6kl.png",
+        column: 1,
+        timers: [
+            {
+                name: "Part 1: Featuring 5* Yuuri, 4* Yuuri, 4* Yuki, 4* Ena",
+                start: "October 25 2018, 17:00",
+                end: "November 6 2018, 10:59"
+            },
+            {
+                name: "Part 2: Featuring 5* Hibari, 4* Hanako, 4* Botan",
+                start: "October 29 2018, 0:00",
+                end: "November 6 2018, 10:59"
             }
         ]
     },
