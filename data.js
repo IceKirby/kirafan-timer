@@ -251,6 +251,23 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "Knight selection gacha",
+            "ナイト限定キャラクター召喚",
+            "Featuring 5* Yui (Yuyushiki), 5* Haruka (Harukana Receive), 5* Hanako"
+        ],
+        image: "https://i.imgur.com/BBOMe6G.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "October 26 2018, 17:00",
+                end: "November 2 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Choose your 5* gacha",
             "★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choose your 5* Summon Ticket"
