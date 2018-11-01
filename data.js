@@ -233,24 +233,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Blend-S selection gacha",
-            "ブレンド・S 期間限定特別セレクション召喚",
-            "Limited Blend-S gacha"
-        ],
-        image: "https://i.imgur.com/6qjLXQl.png",
-        column: 1,
-        timers: [
-            {
-                name: "Featuring 5* Maika, 5* Kaho [Swimsuit], 4* Maika [Hinamatsuri]",
-                start: "October 19 2018, 17:00",
-                end: "October 26 2018, 16:59",
-                info: "Also featuring 4* Maika, 4* Kaho, 4* Mafuyu, 4* Miu"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Knight selection gacha",
             "ナイト限定キャラクター召喚",
             "Featuring 5* Yui (Yuyushiki), 5* Haruka (Harukana Receive), 5* Hanako"
@@ -268,17 +250,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Choose your 5* gacha",
-            "★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choose your 5* Summon Ticket"
+            "3 Series Selection gacha",
+            "3作品合同セレクション召喚",
+            "Featuring Yuru Camp, Slow Start, Comic Girls"
         ],
-        image: "clea",
+        image: "https://i.imgur.com/zxgcsWj.png",
         column: 1,
         timers: [
             {
-                name: "Period",
-                start: "October 6 2018, 17:00",
-                end: "October 25 2018, 13:59"
+                name: "Featuring 5* Rin, 5* Hana, 5* Kamuri, 5* Kaos",
+                start: "November 2 2018, 17:00",
+                end: "November 9 2018, 16:59"
             }
         ]
     },
