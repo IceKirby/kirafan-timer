@@ -17,7 +17,7 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Main Quest Chapter 5 Hard mode",
+            "Version 1.12.0 Update",
             "Event preparation"
         ],
         image: "Maintenance",
@@ -26,8 +26,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "October 25 2018, 14:00",
-                end: "October 25 2018, 17:00",
+                start: "November 6 2018, 10:59",
+                end: "November 6 2018, 16:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -68,81 +68,33 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Stile No.2 Open!",
-            "復刻・スティーレ2号店オープン！",
-            "Blend-S event [Revival]"
+            "Is the Order a Rabbit in a Different World? Event",
+            "異世界でもうさぎですか？",
+            "Gochuumon wa Usagi Desu ka? Event"
         ],
-        image: "https://i.imgur.com/JNETw7X.png",
+        image: "https://i.imgur.com/AuJWu2C.png",
         column: 0,
         priority: 5,
         timers: [
             {
                 name: "Period",
-                start: "October 17 2018, 17:00",
-                end: "October 24 2018, 13:59"
+                start: "November 6 2018, 16:00",
+                end: "November 21 2018, 13:59"
             },
             {
-                name: "Boss Quest",
-                start: "October 18 2018, 17:00",
-                end: "October 24 2018, 13:59"
+                name: "Melee Quest",
+                start: "November 13 2018, 17:00",
+                end: "November 21 2018, 13:59"
             },
             {
-                name: "EX Quest",
-                start: "October 19 2018, 17:00",
-                end: "October 24 2018, 13:59"
-            },
-            {
-                name: "New Story 1",
-                start: "October 20 2018, 0:00",
-                end: "October 24 2018, 13:59"
-            },
-            {
-                name: "New Story 2",
-                start: "October 21 2018, 0:00",
-                end: "October 24 2018, 13:59"
-            },
-            {
-                name: "New Story 3",
-                start: "October 22 2018, 0:00",
-                end: "October 24 2018, 13:59"
-            },
-            {
-                name: "New Story 4",
-                start: "October 23 2018, 0:00",
-                end: "October 24 2018, 13:59"
+                name: "Extra Story",
+                start: "November 9 2018, 17:00",
+                end: "November 21 2018, 13:59"
             },
             {
                 name: "Event Shop",
-                start: "October 17 2018, 17:00",
-                end: "October 31 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Stile No.2 Open! missions",
-            "復刻・スティーレ2号店オープン！",
-            "Blend-S event missions"
-        ],
-        image: "https://i.imgur.com/JNETw7X.png",
-        column: 0,
-        priority: 5,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "October 17 2018, 0:00",
-                end: "October 24 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "October 18 2018, 0:00",
-                end: "October 24 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "October 19 2018, 0:00",
-                end: "October 24 2018, 23:59"
+                start: "November 6 2018, 16:00",
+                end: "November 28 2018, 13:59",
             }
         ]
     },
@@ -175,36 +127,30 @@ var timerData = [
         ]
     },
     {
-        type: "Gacha",
+        type: "Mission",
         title: [
-            "Yuyushiki selection gacha",
-            "ゆゆ式 期間限定特別セレクション召喚",
-            "Featuring 5* Yuzuko, 5* Yuzuko [Swimsuit], 5* Yui, 5* Mom"
+            "Is the Order a Rabbit in a Different World? Missions",
+            "異世界でもうさぎですか？",
+            "Gochuumon wa Usagi Desu ka? Missions"
         ],
-        image: "https://i.imgur.com/c9PQJT8.png",
-        column: 1,
+        image: "https://i.imgur.com/AuJWu2C.png",
+        column: 0,
+        priority: 5,
         timers: [
             {
-                name: "Period",
-                start: "October 10 2018, 17:00",
-                end: "October 19 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Stile No.2 Open! Gacha",
-            "スティーレ2号店オープン！ピックアップ召喚",
-            "Blend-S event gacha"
-        ],
-        image: "https://i.imgur.com/JNETw7X.png",
-        column: 1,
-        timers: [
+                name: "Missions Set 1",
+                start: "November 6 2018, 16:00",
+                end: "November 21 2018, 23:59"
+            },
             {
-                name: "Featuring 5* Mafuyu, 4* Hideri, 4* Sumi, 3* Hideri",
-                start: "October 17 2018, 17:00",
-                end: "October 25 2018, 13:59"
+                name: "Missions Set 2",
+                start: "November 9 2018, 0:00",
+                end: "November 21 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "November 13 2018, 0:00",
+                end: "November 21 2018, 23:59"
             }
         ]
     },
@@ -233,17 +179,22 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Knight selection gacha",
-            "ナイト限定キャラクター召喚",
-            "Featuring 5* Yui (Yuyushiki), 5* Haruka (Harukana Receive), 5* Hanako"
+            "Is the Order a Rabbit in a Different World? Gacha",
+            "「異世界でもうさぎですか？」ピックアップ召喚",
+            "Gochuumon wa Usagi Desu ka? Gacha"
         ],
-        image: "https://i.imgur.com/BBOMe6G.png",
+        image: "https://i.imgur.com/AuJWu2C.png",
         column: 1,
         timers: [
             {
-                name: "Period",
-                start: "October 26 2018, 17:00",
-                end: "November 2 2018, 16:59"
+                name: "Cocoa Side: Featuring 5* Cocoa, 4* Chino",
+                start: "November 6 2018, 16:00",
+                end: "November 21 2018, 13:59"
+            },
+            {
+                name: "Chino Side: Featuring 5* Chino, 4* Chino",
+                start: "November 6 2018, 16:00",
+                end: "November 21 2018, 13:59"
             }
         ]
     },
@@ -261,83 +212,6 @@ var timerData = [
                 name: "Featuring 5* Rin, 5* Hana, 5* Kamuri, 5* Kaos",
                 start: "November 2 2018, 17:00",
                 end: "November 9 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Half Stamina Consumption campaign",
-            "消費スタミナ1/2キャンペーン",
-            "Main Quest and Daily Quests with half stamina cost",
-            "Except for Prologue, Hard Mode and Key quests"
-        ],
-        image: "kirara",
-        column: 0,
-        priority: 6,
-        timers: [
-            {
-                name: "Period",
-                start: "October 6 2018, 0:00",
-                end: "October 25 2018, 13:59",
-                keepAfterFinished: "9 hours"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "300 days since release Login Bonus",
-            "300日記念ログインボーナス",
-            "Login for 10 days for up to 300 gems"
-        ],
-        image: "kirara",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "October 6 2018, 0:00",
-                end: "October 17 2018, 23:59",
-                keepAfterFinished: "12 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "October Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/6yRPpl2.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "October 6 2018, 0:00",
-                end: "October 7 2018, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "October 13 2018, 0:00",
-                end: "October 14 2018, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "October 20 2018, 0:00",
-                end: "October 21 2018, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "October 27 2018, 0:00",
-                end: "October 28 2018, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "October 6 2018, 0:00",
-                end: "November 2 2018, 23:59",
-                keepAfterFinished: "1 day",
-                type: "normal"
             }
         ]
     },
