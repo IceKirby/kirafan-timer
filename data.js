@@ -216,6 +216,29 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Guaranteed 5* Ticket Gacha",
+            "★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Pull, once per player",
+            "Receive a Guaranteed Random 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Gacha Period",
+                start: "November 6 2018, 16:00",
+                end: "November 21 2018, 13:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "November 6 2018, 16:00",
+                end: "November 28 2018, 23:59"
+            }
+        ]
+    },
+    {
         type: "WeekendBoss",
         title: [
             "November Boss Challenge",
