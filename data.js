@@ -41,7 +41,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/2sar6kl.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Period",
@@ -77,18 +77,18 @@ var timerData = [
         priority: 5,
         timers: [
             {
-                name: "Period",
+                name: "Main Scenario - First Half",
                 start: "November 6 2018, 16:00",
+                end: "November 21 2018, 13:59"
+            },
+            {
+                name: "Main Scenario - Second Half",
+                start: "November 9 2018, 17:00",
                 end: "November 21 2018, 13:59"
             },
             {
                 name: "Melee Quest",
                 start: "November 13 2018, 17:00",
-                end: "November 21 2018, 13:59"
-            },
-            {
-                name: "Extra Story",
-                start: "November 9 2018, 17:00",
                 end: "November 21 2018, 13:59"
             },
             {
