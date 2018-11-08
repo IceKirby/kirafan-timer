@@ -226,22 +226,22 @@ var timerData = [
         column: 1,
         timers: [
             {
-                name: "Featuring Hidamari Sketch (5* Yuno, 5* Miyako)",
+                name: "Hidamari Sketch Selection (5* Yuno, 5* Miyako)",
                 start: "November 9 2018, 17:00",
                 end: "November 16 2018, 16:59"
             },
             {
-                name: "Featuring Gakkou Gurashi (5* Yuki, 5* Kurumi, 5* Yuuri)",
+                name: "Gakkou Gurashi Selection (5* Yuki, 5* Kurumi, 5* Yuuri)",
                 start: "November 9 2018, 17:00",
                 end: "November 16 2018, 16:59"
             },
             {
-                name: "Featuring New Game! (5* Aoba, 5* Hifumi)",
+                name: "New Game! Selection (5* Aoba, 5* Hifumi)",
                 start: "November 16 2018, 17:00",
                 end: "November 23 2018, 16:59"
             },
             {
-                name: "Featuring K-ON! (5* Yui, 5* Azusa)",
+                name: "K-ON! Selection (5* Yui, 5* Azusa)",
                 start: "November 16 2018, 17:00",
                 end: "November 23 2018, 16:59"
             }
