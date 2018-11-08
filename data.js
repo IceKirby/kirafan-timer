@@ -218,6 +218,38 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "4 Series Selection gacha",
+            "4作品個別セレクション召喚",
+            "Featuring Hidamari Sketch, Gakkou Gurashi, New Game, K-ON"
+        ],
+        image: "https://i.imgur.com/rCxtmWu.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring Hidamari Sketch (5* Yuno, 5* Miyako)",
+                start: "November 9 2018, 17:00",
+                end: "November 16 2018, 16:59"
+            },
+            {
+                name: "Featuring Gakkou Gurashi (5* Yuki, 5* Kurumi, 5* Yuuri)",
+                start: "November 9 2018, 17:00",
+                end: "November 16 2018, 16:59"
+            },
+            {
+                name: "Featuring New Game! (5* Aoba, 5* Hifumi)",
+                start: "November 16 2018, 17:00",
+                end: "November 23 2018, 16:59"
+            },
+            {
+                name: "Featuring K-ON! (5* Yui, 5* Azusa)",
+                start: "November 16 2018, 17:00",
+                end: "November 23 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Guaranteed 5* Ticket Gacha",
             "★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Pull, once per player",
