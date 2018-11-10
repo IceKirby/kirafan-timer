@@ -271,6 +271,47 @@ var timerData = [
         ]
     },
     {
+        type: "LoginDays",
+        title: [
+            "Anima Yell! Login Bonus",
+            "「アニマエール！」参戦決定記念ログインボーナス"
+            "20 Gems on days the anime airs"
+        ],
+        image: "https://i.imgur.com/mN9ClJh.png",
+        column: 2,
+        keepAfterFinished: "1 day",
+        timers: [
+            {
+                name: "Episode 6",
+                date: "November 11 2018"
+            },
+            {
+                name: "Episode 7",
+                date: "November 18 2018"
+            },
+            {
+                name: "Episode 8",
+                date: "November 25 2018"
+            },
+            {
+                name: "Episode 9",
+                date: "December 2 2018"
+            },
+            {
+                name: "Episode 10",
+                date: "December 9 2018"
+            },
+            {
+                name: "Episode 11",
+                date: "December 16 2018"
+            },
+            {
+                name: "Episode 12",
+                date: "December 23 2018"
+            }
+        ]
+    },
+    {
         type: "WeekendBoss",
         title: [
             "November Boss Challenge",
