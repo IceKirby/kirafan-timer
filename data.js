@@ -274,7 +274,7 @@ var timerData = [
         type: "LoginDays",
         title: [
             "Anima Yell! Login Bonus",
-            "「アニマエール！」参戦決定記念ログインボーナス"
+            "「アニマエール！」参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "https://i.imgur.com/mN9ClJh.png",
