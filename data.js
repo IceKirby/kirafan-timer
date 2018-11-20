@@ -35,39 +35,6 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Hibari, Rii-san and the Flower of Happiness",
-            "ヒバリとりーさんと幸福の花",
-            "Anne Happy x Gakkou Gurashi event"
-        ],
-        image: "https://i.imgur.com/2sar6kl.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
-                name: "Period",
-                start: "October 25 2018, 17:00",
-                end: "November 5 2018, 13:59"
-            },
-            {
-                name: "Boss Quest",
-                start: "October 27 2018, 17:00",
-                end: "November 5 2018, 13:59"
-            },
-            {
-                name: "EX Quest",
-                start: "October 31 2018, 17:00",
-                end: "November 5 2018, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "October 25 2018, 17:00",
-                end: "November 12 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
             "Is the Order a Rabbit in a Different World? Event",
             "異世界でもうさぎですか？",
             "Gochuumon wa Usagi Desu ka? Event"
@@ -99,30 +66,29 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
+        type: "Event",
         title: [
-            "Hibari, Rii-san and the Flower of Happiness missions",
-            "ヒバリとりーさんと幸福の花",
-            "Anne Happy x Gakkou Gurashi event missions"
+            "Yell for All",
+            "Anima Yell! Event"
         ],
-        image: "https://i.imgur.com/2sar6kl.png",
+        image: "https://i.imgur.com/mN9ClJh.png",
         column: 0,
         priority: 5,
         timers: [
             {
-                name: "Missions Set 1",
-                start: "October 25 2018, 17:00",
-                end: "November 5 2018, 23:59"
+                name: "Main Scenario",
+                start: "November 21 2018, 17:00",
+                end: "December 4 2018, 13:59"
             },
             {
-                name: "Missions Set 2",
-                start: "October 29 2018, 0:00",
-                end: "November 5 2018, 23:59"
+                name: "Boss Quest",
+                start: "November 21 2018, 17:00",
+                end: "December 4 2018, 13:59"
             },
             {
-                name: "Missions Set 3",
-                start: "October 31 2018, 0:00",
-                end: "November 5 2018, 23:59"
+                name: "Event Shop",
+                start: "November 21 2018, 17:00",
+                end: "December 11 2018, 13:59"
             }
         ]
     },
@@ -155,24 +121,29 @@ var timerData = [
         ]
     },
     {
-        type: "Gacha",
+        type: "Mission",
         title: [
-            "Hibari, Rii-san and the Flower of Happiness gacha",
-            "ヒバリとりーさんと幸福の花 ピックアップ召喚",
-            "Anne Happy x Gakkou Gurashi event gacha"
+            "Yell for All Missions",
+            "Anima Yell! Missions"
         ],
-        image: "https://i.imgur.com/2sar6kl.png",
-        column: 1,
+        image: "https://i.imgur.com/mN9ClJh.png",
+        column: 0,
+        priority: 5,
         timers: [
             {
-                name: "Part 1: Featuring 5* Yuuri, 4* Yuuri, 4* Yuki, 4* Ena",
-                start: "October 25 2018, 17:00",
-                end: "November 6 2018, 10:59"
+                name: "Missions Set 1",
+                start: "November 21 2018, 17:00",
+                end: "December 3 2018, 23:59"
             },
             {
-                name: "Part 2: Featuring 5* Hibari, 4* Hanako, 4* Botan",
-                start: "October 29 2018, 0:00",
-                end: "November 6 2018, 10:59"
+                name: "Missions Set 2",
+                start: "November 23 2018, 0:00",
+                end: "December 3 2018, 23:59"
+            },
+            {
+                name: "Missions Set 3",
+                start: "November 25 2018, 0:00",
+                end: "December 3 2018, 23:59"
             }
         ]
     },
@@ -201,17 +172,22 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "3 Series Selection gacha",
-            "3作品合同セレクション召喚",
-            "Featuring Yuru Camp, Slow Start, Comic Girls"
+            "Yell for All Gacha",
+            "Yell for Allピックアップ召喚",
+            "Anima Yell! Gacha"
         ],
-        image: "https://i.imgur.com/zxgcsWj.png",
+        image: "https://i.imgur.com/mN9ClJh.png",
         column: 1,
         timers: [
             {
-                name: "Featuring 5* Rin, 5* Hana, 5* Kamuri, 5* Kaos",
-                start: "November 2 2018, 17:00",
-                end: "November 9 2018, 16:59"
+                name: "Part 1: Featuring 5* Kohane, 4* Hizume, 4* Uki",
+                start: "November 21 2018, 17:00",
+                end: "December 4 2018, 13:59"
+            },
+            {
+                name: "Part 2: Featuring 5* Tamate, 4* Yasuna, 4* Sonya",
+                start: "November 25 2018, 0:00",
+                end: "December 4 2018, 13:59"
             }
         ]
     },
@@ -347,24 +323,6 @@ var timerData = [
                 end: "November 30 2018, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Special Gem Sale",
-            "お得な星彩石セット販売",
-            "Discounted gem sets"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "October 6 2018, 17:00",
-                end: "November 3 2018, 23:59",
-                keepAfterFinished: "6 hours"
             }
         ]
     }
