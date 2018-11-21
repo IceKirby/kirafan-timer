@@ -41,7 +41,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/AuJWu2C.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Main Scenario - First Half",
@@ -101,7 +101,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/AuJWu2C.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "Missions Set 1",
