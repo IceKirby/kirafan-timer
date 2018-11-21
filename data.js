@@ -80,11 +80,11 @@ var timerData = [
                 start: "November 21 2018, 17:00",
                 end: "December 4 2018, 13:59"
             },
-            {
+            /*{
                 name: "Boss Quest",
                 start: "November 21 2018, 17:00",
                 end: "December 4 2018, 13:59"
-            },
+            },*/
             {
                 name: "Event Shop",
                 start: "November 21 2018, 17:00",
