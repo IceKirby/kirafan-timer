@@ -150,28 +150,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Is the Order a Rabbit in a Different World? Gacha",
-            "「異世界でもうさぎですか？」ピックアップ召喚",
-            "Gochuumon wa Usagi Desu ka? Gacha"
-        ],
-        image: "https://i.imgur.com/AuJWu2C.png",
-        column: 1,
-        timers: [
-            {
-                name: "Cocoa Side: Featuring 5* Cocoa, 4* Chino",
-                start: "November 6 2018, 16:00",
-                end: "November 21 2018, 13:59"
-            },
-            {
-                name: "Chino Side: Featuring 5* Chino, 4* Chino",
-                start: "November 6 2018, 16:00",
-                end: "November 21 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Yell for All Gacha",
             "Yell for Allピックアップ召喚",
             "Anima Yell! Gacha"
@@ -220,6 +198,23 @@ var timerData = [
                 name: "K-ON! Selection (5* Yui, 5* Azusa)",
                 start: "November 16 2018, 17:00",
                 end: "November 23 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "3 Series Selection Gacha",
+            "3作品合同セレクション召喚",
+            "Featuring Hanayamata, GochiUsa, Harukana Receive"
+        ],
+        image: "https://i.imgur.com/wHivjvj.png",
+        column: 1,
+        timers: [
+            {
+                name: "Rate-up for 5* Naru, 5* Cocoa, 5* Chino, 5* Haruka",
+                start: "November 23 2018, 17:00",
+                end: "November 30 2018, 16:59"
             }
         ]
     },
