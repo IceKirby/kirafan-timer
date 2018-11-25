@@ -142,7 +142,7 @@ var timerData = [
             },
             {
                 name: "Missions Set 3",
-                start: "November 25 2018, 0:00",
+                start: "November 26 2018, 0:00",
                 end: "December 3 2018, 23:59"
             }
         ]
