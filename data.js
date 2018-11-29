@@ -199,7 +199,7 @@ var timerData = [
             {
                 name: "Featuring 5* Yuuko, 5* Alice, 5* Hajime, 5* Chiya, 4* Run, 4* Tamaki",
                 start: "November 30 2018, 17:00",
-                end: "December 10 2018, 26:59",
+                end: "December 10 2018, 23:59",
                 info: "All in their limited Christmas version"
             }
         ]
