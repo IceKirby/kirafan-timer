@@ -172,6 +172,23 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "3 Series Selection Gacha",
+            "3作品合同セレクション召喚",
+            "Featuring Hanayamata, GochiUsa, Harukana Receive"
+        ],
+        image: "https://i.imgur.com/wHivjvj.png",
+        column: 1,
+        timers: [
+            {
+                name: "Rate-up for 5* Naru, 5* Cocoa, 5* Chino, 5* Haruka",
+                start: "November 23 2018, 17:00",
+                end: "November 30 2018, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "2017 Christmas Characters Summon",
             "期間限定2017クリスマスキャラクターピックアップ召喚",
             "Featuring Limited Christmas characters"
