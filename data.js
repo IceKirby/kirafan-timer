@@ -172,72 +172,18 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "4 Series Selection gacha",
-            "4作品個別セレクション召喚",
-            "Featuring Hidamari Sketch, Gakkou Gurashi, New Game, K-ON"
+            "2017 Christmas Characters Summon",
+            "期間限定2017クリスマスキャラクターピックアップ召喚",
+            "Featuring Limited Christmas characters"
         ],
-        image: "https://i.imgur.com/rCxtmWu.png",
+        image: "https://i.imgur.com/y4Pml8M.png",
         column: 1,
         timers: [
             {
-                name: "Hidamari Sketch Selection (5* Yuno, 5* Miyako)",
-                start: "November 9 2018, 17:00",
-                end: "November 16 2018, 16:59"
-            },
-            {
-                name: "Gakkou Gurashi Selection (5* Yuki, 5* Kurumi, 5* Yuuri)",
-                start: "November 9 2018, 17:00",
-                end: "November 16 2018, 16:59"
-            },
-            {
-                name: "New Game! Selection (5* Aoba, 5* Hifumi)",
-                start: "November 16 2018, 17:00",
-                end: "November 23 2018, 16:59"
-            },
-            {
-                name: "K-ON! Selection (5* Yui, 5* Azusa)",
-                start: "November 16 2018, 17:00",
-                end: "November 23 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "3 Series Selection Gacha",
-            "3作品合同セレクション召喚",
-            "Featuring Hanayamata, GochiUsa, Harukana Receive"
-        ],
-        image: "https://i.imgur.com/wHivjvj.png",
-        column: 1,
-        timers: [
-            {
-                name: "Rate-up for 5* Naru, 5* Cocoa, 5* Chino, 5* Haruka",
-                start: "November 23 2018, 17:00",
-                end: "November 30 2018, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Guaranteed 5* Ticket Gacha",
-            "★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Pull, once per player",
-            "Receive a Guaranteed Random 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Gacha Period",
-                start: "November 6 2018, 16:00",
-                end: "November 21 2018, 13:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "November 6 2018, 16:00",
-                end: "November 28 2018, 23:59"
+                name: "Featuring 5* Yuuko, 5* Alice, 5* Hajime, 5* Chiya, 4* Run, 4* Tamaki",
+                start: "November 30 2018, 17:00",
+                end: "December 10 2018, 26:59",
+                info: "All in their limited Christmas version"
             }
         ]
     },
