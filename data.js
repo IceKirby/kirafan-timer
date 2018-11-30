@@ -304,7 +304,7 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1 Year Birthday Countdown Login Bonus",
+            "1 Year Anniversary Countdown Login Bonus",
             "1周年直前スペシャルログインボーナス"
         ],
         image: "kirara",
@@ -320,7 +320,7 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "1 Year Birthday Countdown Missions",
+            "1 Year Anniversary Countdown Missions",
             "1周年直前ミッション"
         ],
         image: "kirara",
@@ -420,7 +420,7 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1 Year Birthday Special Sale",
+            "1 Year Anniversary Special Sale",
             "1周年記念特別セール"
         ],
         image: "kanna",
