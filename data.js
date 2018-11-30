@@ -283,5 +283,49 @@ var timerData = [
                 type: "normal"
             }
         ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "December Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/VYErOmM.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "December 1 2018, 0:00",
+                end: "December 2 2018, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "December 8 2018, 0:00",
+                end: "December 9 2018, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "December 15 2018, 0:00",
+                end: "December 16 2018, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "December 22 2018, 0:00",
+                end: "December 23 2018, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "December 29 2018, 0:00",
+                end: "December 30 2018, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "December 1 2018, 0:00",
+                end: "January 4 2019, 23:59",
+                keepAfterFinished: "1 day",
+                type: "normal"
+            }
+        ]
     }
 ];
