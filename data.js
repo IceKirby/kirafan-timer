@@ -205,6 +205,62 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Daily Free Summon",
+            "毎日1回10回召喚無料",
+            "One free 10-pull Summon per day"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "December 11 2018, 0:00",
+                end: "December 17 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Choose your 5* Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "Use paid gems to receive a 5* Selection Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Part 1",
+                start: "December 4 2018, 14:00",
+                end: "December 27 2018, 23:59"
+            },
+            {
+                name: "Part 2",
+                start: "December 11 2018, 0:00",
+                end: "December 27 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Choose your Limited Character Summon Ticket",
+            "期間限定キャラクターが選べるエクストラコールチケット",
+            "Use paid gems to receive a Limited Character Selection Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Part 1",
+                start: "December 11 2018, 0:00",
+                end: "December 11 2018, 23:59"
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "Anima Yell! Login Bonus",
@@ -242,6 +298,39 @@ var timerData = [
             {
                 name: "Episode 12",
                 date: "December 23 2018"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "1 Year Birthday Countdown Login Bonus",
+            "1周年直前スペシャルログインボーナス"
+        ],
+        image: "kirara",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2018, 0:00",
+                end: "December 10 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
+            "1 Year Birthday Countdown Missions",
+            "1周年直前ミッション"
+        ],
+        image: "kirara",
+        column: 0,
+        priority: 0,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2018, 0:00",
+                end: "December 10 2018, 23:59"
             }
         ]
     },
@@ -325,6 +414,22 @@ var timerData = [
                 end: "January 4 2019, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "1 Year Birthday Special Sale",
+            "1周年記念特別セール"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2018, 17:00",
+                end: "December 26 2018, 23:59"
             }
         ]
     }
