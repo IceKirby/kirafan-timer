@@ -308,7 +308,7 @@ var timerData = [
             "1周年直前スペシャルログインボーナス"
         ],
         image: "kirara",
-        column: 1,
+        column: 2,
         timers: [
             {
                 name: "Period",
