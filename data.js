@@ -226,7 +226,7 @@ var timerData = [
         title: [
             "Choose your 5* Summon Ticket",
             "★5選べるチケット付き！有償限定10回召喚",
-            "Use paid gems to receive a 5* Selection Summon Ticket"
+            "Do a 400 paid gems pull and receive a 5* Selection Summon Ticket"
         ],
         image: "clea",
         column: 1,
@@ -240,6 +240,11 @@ var timerData = [
                 name: "Part 2",
                 start: "December 11 2018, 0:00",
                 end: "December 27 2018, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "December 4 2018, 14:00",
+                end: "January 3 2019, 23:59"
             }
         ]
     },
@@ -306,6 +311,22 @@ var timerData = [
         title: [
             "1 Year Anniversary Countdown Login Bonus",
             "1周年直前スペシャルログインボーナス"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2018, 0:00",
+                end: "December 10 2018, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Daily Quest Half Stamina",
+            "曜日クエスト 消費スタミナ1/2"
         ],
         image: "kirara",
         column: 2,
