@@ -17,8 +17,7 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Version 1.12.1 Update",
-            "Event preparation"
+            "Server System Maintenance"
         ],
         image: "Maintenance",
         column: 0,
@@ -26,8 +25,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "November 21 2018, 14:00",
-                end: "November 21 2018, 17:00",
+                start: "December 5 2018, 13:00",
+                end: "December 5 2018, 14:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
