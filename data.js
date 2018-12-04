@@ -328,7 +328,8 @@ var timerData = [
             "曜日クエスト 消費スタミナ1/2"
         ],
         image: "kirara",
-        column: 2,
+        column: 0,
+        priority: 6,
         timers: [
             {
                 name: "Period",
