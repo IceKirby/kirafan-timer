@@ -68,6 +68,33 @@ var timerData = [
     {
         type: "Event",
         title: [
+            "Yell for All",
+            "Anima Yell! Event"
+        ],
+        image: "https://i.imgur.com/mN9ClJh.png",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "November 21 2018, 17:00",
+                end: "December 4 2018, 13:59"
+            },
+            {
+                name: "Material Gathering Quest",
+                start: "November 26 2018, 17:00",
+                end: "December 4 2018, 13:59"
+            },
+            {
+                name: "Event Shop",
+                start: "November 21 2018, 17:00",
+                end: "December 11 2018, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Missions",
+        title: [
             "Etowaria's Black Christmas missions",
             "エトワリアのブラック・クリスマス",
             "Christmas 2018 Event missions"
