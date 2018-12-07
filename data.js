@@ -420,7 +420,7 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Christmas Room Decorations",
+            "Limited Christmas Room Decorations",
             "New and Past Christmas-themed items"
         ],
         image: "kanna",
