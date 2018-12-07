@@ -35,88 +35,61 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Is the Order a Rabbit in a Different World? Event",
-            "異世界でもうさぎですか？",
-            "Gochuumon wa Usagi Desu ka? Event"
+            "Etowaria's Black Christmas",
+            "エトワリアのブラック・クリスマス",
+            "Christmas 2018 Event"
         ],
-        image: "https://i.imgur.com/AuJWu2C.png",
+        image: "https://i.imgur.com/6coJg10.png",
         column: 0,
-        priority: 4,
+        priority: 5,
         timers: [
             {
-                name: "Main Scenario - First Half",
-                start: "November 6 2018, 16:00",
-                end: "November 21 2018, 13:59"
+                name: "Main Scenario",
+                start: "December 11 2018, 12:00",
+                end: "December 26 2018, 13:59"
             },
             {
-                name: "Main Scenario - Second Half",
-                start: "November 9 2018, 17:00",
-                end: "November 21 2018, 13:59"
+                name: "Boss Quest",
+                start: "December 14 2018, 17:00",
+                end: "December 26 2018, 13:59"
             },
             {
-                name: "Melee Quest",
-                start: "November 13 2018, 17:00",
-                end: "November 21 2018, 13:59"
+                name: "EX Quest",
+                start: "December 17 2018, 17:00",
+                end: "December 26 2018, 13:59"
             },
             {
                 name: "Event Shop",
-                start: "November 6 2018, 16:00",
-                end: "November 28 2018, 13:59",
+                start: "December 11 2018, 12:00",
+                end: "January 2 2019, 13:59"
             }
         ]
     },
     {
         type: "Event",
         title: [
-            "Yell for All",
-            "Anima Yell! Event"
+            "Etowaria's Black Christmas missions",
+            "エトワリアのブラック・クリスマス",
+            "Christmas 2018 Event missions"
         ],
-        image: "https://i.imgur.com/mN9ClJh.png",
+        image: "https://i.imgur.com/6coJg10.png",
         column: 0,
         priority: 5,
         timers: [
             {
-                name: "Main Scenario",
-                start: "November 21 2018, 17:00",
-                end: "December 4 2018, 13:59"
-            },
-            {
-                name: "Material Gathering Quest",
-                start: "November 26 2018, 17:00",
-                end: "December 4 2018, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "November 21 2018, 17:00",
-                end: "December 11 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Is the Order a Rabbit in a Different World? Missions",
-            "異世界でもうさぎですか？",
-            "Gochuumon wa Usagi Desu ka? Missions"
-        ],
-        image: "https://i.imgur.com/AuJWu2C.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
                 name: "Missions Set 1",
-                start: "November 6 2018, 16:00",
-                end: "November 21 2018, 23:59"
+                start: "December 11 2018, 0:00",
+                end: "December 26 2018, 23:59"
             },
             {
                 name: "Missions Set 2",
-                start: "November 9 2018, 0:00",
-                end: "November 21 2018, 23:59"
+                start: "December 14 2018, 0:00",
+                end: "December 26 2018, 23:59"
             },
             {
                 name: "Missions Set 3",
-                start: "November 13 2018, 0:00",
-                end: "November 21 2018, 23:59"
+                start: "December 17 2018, 0:00",
+                end: "December 26 2018, 23:59"
             }
         ]
     },
@@ -150,39 +123,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Yell for All Gacha",
-            "Yell for Allピックアップ召喚",
-            "Anima Yell! Gacha"
+            "Limited Time Christmas 2018 Gacha",
+            "期間限定2018クリスマスキャラクターピックアップ召喚",
+            "Featuring Christmas version of Yuno, Merry, Tooru, Hifumi"
         ],
-        image: "https://i.imgur.com/mN9ClJh.png",
+        image: "https://i.imgur.com/ano5PKN.png",
         column: 1,
         timers: [
             {
-                name: "Part 1: Featuring 5* Kohane, 4* Hizume, 4* Uki",
-                start: "November 21 2018, 17:00",
-                end: "December 4 2018, 13:59"
-            },
-            {
-                name: "Part 2: Featuring 5* Tamate, 4* Yasuna, 4* Sonya",
-                start: "November 25 2018, 0:00",
-                end: "December 4 2018, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "3 Series Selection Gacha",
-            "3作品合同セレクション召喚",
-            "Featuring Hanayamata, GochiUsa, Harukana Receive"
-        ],
-        image: "https://i.imgur.com/wHivjvj.png",
-        column: 1,
-        timers: [
-            {
-                name: "Rate-up for 5* Naru, 5* Cocoa, 5* Chino, 5* Haruka",
-                start: "November 23 2018, 17:00",
-                end: "November 30 2018, 16:59"
+                name: "Part 1: Featuring 5* Yuno [Christmas], 5* Merry [Christmas]",
+                start: "December 11 2018, 0:00",
+                end: "December 27 2018, 10:59"
             }
         ]
     },
@@ -436,6 +387,22 @@ var timerData = [
                 end: "January 4 2019, 23:59",
                 keepAfterFinished: "1 day",
                 type: "normal"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Christmas Room Decorations",
+            "New and Past Christmas-themed items"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 11 2018, 0:00",
+                end: "December 27 2018, 10:59"
             }
         ]
     },
