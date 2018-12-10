@@ -287,33 +287,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1 Year Anniversary Countdown Login Bonus",
-            "1周年直前スペシャルログインボーナス"
+            "1 Year Anniversary Celebration Login Bonus",
+            "1周年記念ログインボーナス",
+            "Log in everyday to receive up to 400 gems"
         ],
         image: "kirara",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 4 2018, 0:00",
-                end: "December 10 2018, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Daily Quest Half Stamina",
-            "曜日クエスト 消費スタミナ1/2"
-        ],
-        image: "kirara",
-        column: 0,
-        priority: 6,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2018, 0:00",
-                end: "December 10 2018, 23:59"
+                start: "December 11 2018, 0:00",
+                end: "December 25 2018, 23:59"
             }
         ]
     },
