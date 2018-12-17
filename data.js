@@ -161,6 +161,11 @@ var timerData = [
                 name: "Part 1: Featuring 5* Yuno [Christmas], 5* Merry [Christmas]",
                 start: "December 11 2018, 0:00",
                 end: "December 27 2018, 10:59"
+            },
+            {
+                name: "Part 2: Featuring 5* Tooru [Christmas], 5* Hifumi [Christmas]",
+                start: "December 18 2018, 0:00",
+                end: "December 27 2018, 10:59"
             }
         ]
     },
