@@ -232,16 +232,35 @@ var timerData = [
         type: "Gacha",
         title: [
             "Daily Free Summon",
-            "毎日1回10回召喚無料",
+            "毎日10回召喚無料キャンペーン",
             "One free 10-pull Summon per day"
         ],
         image: "clea",
         column: 1,
         timers: [
             {
-                name: "Period",
-                start: "December 11 2018, 0:00",
-                end: "December 17 2018, 23:59"
+                name: "Manga Time Kirara & Miracle",
+                start: "January 1 2019, 0:00",
+                end: "Januar 1 2019, 23:59",
+                info: "Featuring Yuyushiki, Urara Meirochou, Sakura Trick, Slow Start and K-ON!"
+            },
+            {
+                name: "Manga Time Kirara MAX",
+                start: "January 2 2019, 0:00",
+                end: "Januar 2 2019, 23:59",
+                info: "Featuring Kiniro Mosaic, Stella no Mahou, Comic Girls and Gochuumon wa Usagi Desu ka?"
+            },
+            {
+                name: "Manga Time Kirara Forward",
+                start: "January 3 2019, 0:00",
+                end: "Januar 3 2019, 23:59",
+                info: "Featuring Gakkou Gurashi!, Yumekui Merry, Yuru Camp, Hanayamata, Harukana Receive and Anne Happy"
+            },
+            {
+                name: "Manga Time Kirara Carat",
+                start: "January 4 2019, 0:00",
+                end: "Januar 4 2019, 23:59",
+                info: "Featuring Hidamari Sketch, New Game!, A-Channel, Kill Me Baby, Blend-S and Anima Yell!"
             }
         ]
     },
@@ -275,17 +294,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Choose your Limited Character Summon Ticket",
-            "期間限定キャラクターが選べるエクストラコールチケット",
-            "Use paid gems to receive a Limited Character Selection Summon Ticket"
+            "First Dream Paid Summon",
+            "★5&★4キャラクターが選べる！初夢有償限定10回召喚",
+            "Do a summon with paid gems to receive Summon Tickets that allows you to choose a 4* and a 5* character"
         ],
         image: "clea",
         column: 1,
         timers: [
             {
-                name: "Part 1",
-                start: "December 11 2018, 0:00",
-                end: "December 11 2018, 23:59"
+                name: "Period",
+                start: "January 1 2019, 0:00",
+                end: "January 9 2019, 11:59"
             }
         ]
     },
@@ -333,17 +352,36 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1 Year Anniversary Celebration Login Bonus",
-            "1周年記念ログインボーナス",
-            "Log in everyday to receive up to 400 gems"
+            "Year In, Year Out Login Bonus",
+            "年末年始ログインボーナスキャンペーン",
+            "Log in for 11 days for 200 Gems and an Event Summon Ticket"
         ],
         image: "kirara",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 11 2018, 0:00",
-                end: "December 25 2018, 23:59"
+                start: "December 28 2018, 0:00",
+                end: "January 9 2019, 23:59",
+                keepAfterFinished: "6 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New Year Money Login Bonus",
+            "お年玉ログインボーナス",
+            "100 Gems for logging in"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2019, 0:00",
+                end: "January 1 2019, 23:59",
+                keepAfterFinished: "2 hours"
             }
         ]
     },
@@ -477,5 +515,39 @@ var timerData = [
                 end: "December 26 2018, 23:59"
             }
         ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New Year Special Gem Sale",
+            "1周年記念特別セール"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 27 2018, 16:00",
+                end: "January 8 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "2019 Lucky Bag Item Set",
+            "2019年福袋アイテムセットを販売",
+            "250 gems for 10x Summon Tickets, 10 Golden Clocks and 10 Golden Keys"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2019, 0:00",
+                end: "January 8 2019, 23:59"
+            }
+        ]
     }
+    
 ];
