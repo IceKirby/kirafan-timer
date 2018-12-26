@@ -34,6 +34,54 @@ var timerData = [
     {
         type: "Event",
         title: [
+            "Creamate Big Meeting! New Year's Sugoroku Tournament",
+            "クリエメイト大集合！お正月すごろく大会",
+            "New Year Event"
+        ],
+        image: "https://i.imgur.com/yTrqSCz.png",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Preliminary Round",
+                start: "December 27 2018, 16:00",
+                end: "January 8 2019, 13:59",
+                info: "One new chapter each day between 27th and 31st"
+            },
+            {
+                name: "End of Year Quests",
+                start: "December 27 2018, 16:00",
+                end: "December 31 2018, 23:59",
+                info: "Do not give Event drops.",
+                keepAfterFinished: "6 hours"
+            },
+            {
+                name: "Main Battle",
+                start: "January 1 2019, 0:00",
+                end: "January 8 2019, 13:59",
+                info: "One new chapter each day between 27th and 31st"
+            },
+            {
+                name: "Mele Quest",
+                start: "January 3 2019, 17:00",
+                end: "January 8 2019, 13:59",
+                info: "One new chapter each day between 27th and 31st"
+            },
+            {
+                name: "Event Shop (Qualifying Round)",
+                start: "December 27 2018, 16:00",
+                end: "January 15 2019, 13:59"
+            },
+            {
+                name: "Event Shop (Main Battle)",
+                start: "January 1 2019, 0:00",
+                end: "January 15 2019, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Etowaria's Black Christmas",
             "エトワリアのブラック・クリスマス",
             "Christmas 2018 Event"
@@ -64,33 +112,36 @@ var timerData = [
             }
         ]
     },
+    
     {
-        type: "Event",
+        type: "Mission",
         title: [
-            "Yell for All",
-            "Anima Yell! Event"
+            "Creamate Big Meeting! New Year's Sugoroku Tournament Missions",
+            "クリエメイト大集合！お正月すごろく大会",
+            "New Year Event Missions"
         ],
-        image: "https://i.imgur.com/mN9ClJh.png",
+        image: "https://i.imgur.com/yTrqSCz.png",
         column: 0,
-        priority: 4,
+        priority: 5,
         timers: [
             {
-                name: "Main Scenario",
-                start: "November 21 2018, 17:00",
-                end: "December 4 2018, 13:59"
+                name: "End of Year Missions",
+                start: "December 27 2018, 16:00",
+                end: "December 31 2018, 23:59"
             },
             {
-                name: "Material Gathering Quest",
-                start: "November 26 2018, 17:00",
-                end: "December 4 2018, 13:59"
+                name: "New Year Missions Set 1",
+                start: "January 1 2019, 0:00",
+                end: "January 8 2019, 23:59"
             },
             {
-                name: "Event Shop",
-                start: "November 21 2018, 17:00",
-                end: "December 11 2018, 13:59"
+                name: "New Year Missions Set 2",
+                start: "January 3 2019, 0:00",
+                end: "January 8 2019, 23:59"
             }
         ]
     },
+    
     {
         type: "Missions",
         title: [
@@ -119,33 +170,7 @@ var timerData = [
             }
         ]
     },
-    {
-        type: "Mission",
-        title: [
-            "Yell for All Missions",
-            "Anima Yell! Missions"
-        ],
-        image: "https://i.imgur.com/mN9ClJh.png",
-        column: 0,
-        priority: 5,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "November 21 2018, 17:00",
-                end: "December 3 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "November 23 2018, 0:00",
-                end: "December 3 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "November 26 2018, 0:00",
-                end: "December 3 2018, 23:59"
-            }
-        ]
-    },
+    
     {
         type: "Gacha",
         title: [
@@ -165,6 +190,23 @@ var timerData = [
                 name: "Part 2: Featuring 5* Tooru [Christmas], 5* Hifumi [Christmas]",
                 start: "December 18 2018, 0:00",
                 end: "December 27 2018, 10:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Limited Time New Year 2019 Gacha",
+            "期間限定2019お正月キャラクターピックアップ召喚",
+            "Featuring 5* Kaho [New Year], 5* Yasuna [New Year]"
+        ],
+        image: "https://i.imgur.com/wLsnIbm.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring 5* Kaho [New Year], 5* Yasuna [New Year]",
+                start: "December 27 2018, 16:00",
+                end: "January 9 2019, 11:59"
             }
         ]
     },
@@ -306,23 +348,6 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "1 Year Anniversary Countdown Missions",
-            "1周年直前ミッション"
-        ],
-        image: "kirara",
-        column: 0,
-        priority: 0,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2018, 0:00",
-                end: "December 10 2018, 23:59"
-            }
-        ]
-    },
-    {
         type: "WeekendBoss",
         title: [
             "November Boss Challenge",
@@ -418,6 +443,22 @@ var timerData = [
                 name: "Period",
                 start: "December 11 2018, 0:00",
                 end: "December 27 2018, 10:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Limited New Year Room Decorations",
+            "New and Past New Year-themed items"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 27 2018, 16:00",
+                end: "January 9 2019, 11:59"
             }
         ]
     },
