@@ -46,7 +46,7 @@ var timerData = [
                 name: "Preliminary Round",
                 start: "December 27 2018, 16:00",
                 end: "January 8 2019, 13:59",
-                info: "One new chapter each day between 27th and 31st"
+                info: "One new chapter per day between 27th and 30th"
             },
             {
                 name: "End of Year Quests",
@@ -58,14 +58,12 @@ var timerData = [
             {
                 name: "Main Battle",
                 start: "January 1 2019, 0:00",
-                end: "January 8 2019, 13:59",
-                info: "One new chapter each day between 27th and 31st"
+                end: "January 8 2019, 13:59"
             },
             {
                 name: "Mele Quest",
                 start: "January 3 2019, 17:00",
-                end: "January 8 2019, 13:59",
-                info: "One new chapter each day between 27th and 31st"
+                end: "January 8 2019, 13:59"
             },
             {
                 name: "Event Shop (Qualifying Round)",
