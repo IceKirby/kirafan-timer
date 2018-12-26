@@ -122,7 +122,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/yTrqSCz.png",
         column: 0,
-        priority: 5,
+        priority: 4,
         timers: [
             {
                 name: "End of Year Missions",
