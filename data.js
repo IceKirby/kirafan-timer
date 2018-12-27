@@ -45,8 +45,7 @@ var timerData = [
             {
                 name: "Preliminary Round",
                 start: "December 27 2018, 16:00",
-                end: "January 8 2019, 13:59",
-                info: "One new chapter per day between 27th and 30th"
+                end: "January 8 2019, 13:59"
             },
             {
                 name: "End of Year Quests",
