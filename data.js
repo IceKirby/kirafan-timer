@@ -210,18 +210,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "2017 Christmas Characters Summon",
-            "期間限定2017クリスマスキャラクターピックアップ召喚",
-            "Featuring Limited Christmas characters"
+            "New Year 2018 Characters Summon",
+            "期間限定2018お正月キャラクターピックアップ召喚",
+            "Featuring Limited New Year characters"
         ],
-        image: "https://i.imgur.com/y4Pml8M.png",
+        image: "https://i.imgur.com/V3nUlYA.png",
         column: 1,
         timers: [
             {
-                name: "Featuring 5* Yuuko, 5* Alice, 5* Hajime, 5* Chiya, 4* Run, 4* Tamaki",
-                start: "November 30 2018, 17:00",
-                end: "December 10 2018, 23:59",
-                info: "All in their limited Christmas version"
+                name: "Featuring 5* Isami [New Year], 4* Momiji [New Year]",
+                start: "January 1 2019, 0:00",
+                end: "January 11 2019, 16:59",
             }
         ]
     },
@@ -299,9 +298,14 @@ var timerData = [
         column: 1,
         timers: [
             {
-                name: "Period",
+                name: "Summon Period",
                 start: "January 1 2019, 0:00",
                 end: "January 9 2019, 11:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "January 1 2019, 0:00",
+                end: "January 16 2019, 23:59"
             }
         ]
     },
