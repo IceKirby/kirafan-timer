@@ -60,7 +60,7 @@ var timerData = [
                 end: "January 8 2019, 13:59"
             },
             {
-                name: "Mele Quest",
+                name: "Melee Quest",
                 start: "January 3 2019, 17:00",
                 end: "January 8 2019, 13:59"
             },
@@ -85,7 +85,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/6coJg10.png",
         column: 0,
-        priority: 5,
+        priority: 3,
         timers: [
             {
                 name: "Main Scenario",
