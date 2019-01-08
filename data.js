@@ -25,9 +25,62 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "December 27 2018, 11:00",
-                end: "December 27 2018, 16:00",
+                start: "January 9 2019, 12:00",
+                end: "January 9 2019, 13:30",
                 keepAfterFinished: "30 minutes"
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
+            "Rerun - Outclub, the Northern Mountain and the First Camp",
+            "復刻・野クルと北の山と初キャンプ△",
+            "Yuru Camp Event"
+        ],
+        image: "https://i.imgur.com/zyfuYoI.png",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "January 9 2019, 13:30",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Extra Story 1",
+                start: "January 12 2019, 0:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Extra Story 2",
+                start: "January 13 2019, 0:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Extra Story 3",
+                start: "January 14 2019, 0:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Extra Story 4",
+                start: "January 15 2019, 0:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Boss Quest",
+                start: "January 10 2019, 17:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "EX Quest",
+                start: "January 11 2019, 17:00",
+                end: "January 23 2019, 13:59"
+            },
+            {
+                name: "Event Shop / Mystery Treasure Chest",
+                start: "January 9 2019, 13:30",
+                end: "January 30 2019, 13:59"
             }
         ]
     },
@@ -77,39 +130,23 @@ var timerData = [
         ]
     },
     {
-        type: "Event",
+        type: "Mission",
         title: [
-            "Etowaria's Black Christmas",
-            "エトワリアのブラック・クリスマス",
-            "Christmas 2018 Event"
+            "Outclub, the Northern Mountain and the First Camp Missions,
+            "復刻・野クルと北の山と初キャンプ△",
+            "Yuru Camp Event Missions"
         ],
-        image: "https://i.imgur.com/6coJg10.png",
+        image: "https://i.imgur.com/zyfuYoI.png",
         column: 0,
-        priority: 3,
+        priority: 4,
         timers: [
             {
-                name: "Main Scenario",
-                start: "December 11 2018, 12:00",
-                end: "December 26 2018, 13:59"
-            },
-            {
-                name: "Boss Quest",
-                start: "December 14 2018, 17:00",
-                end: "December 26 2018, 13:59"
-            },
-            {
-                name: "EX Quest",
-                start: "December 17 2018, 17:00",
-                end: "December 26 2018, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "December 11 2018, 12:00",
-                end: "January 2 2019, 13:59"
+                name: "Mission Set ",
+                start: "January 9 2019, 0:00",
+                end: "January 16 2019, 23:59"
             }
         ]
     },
-    
     {
         type: "Mission",
         title: [
@@ -138,55 +175,20 @@ var timerData = [
             }
         ]
     },
-    
-    {
-        type: "Missions",
-        title: [
-            "Etowaria's Black Christmas missions",
-            "エトワリアのブラック・クリスマス",
-            "Christmas 2018 Event missions"
-        ],
-        image: "https://i.imgur.com/6coJg10.png",
-        column: 0,
-        priority: 5,
-        timers: [
-            {
-                name: "Missions Set 1",
-                start: "December 11 2018, 0:00",
-                end: "December 26 2018, 23:59"
-            },
-            {
-                name: "Missions Set 2",
-                start: "December 14 2018, 0:00",
-                end: "December 26 2018, 23:59"
-            },
-            {
-                name: "Missions Set 3",
-                start: "December 17 2018, 0:00",
-                end: "December 26 2018, 23:59"
-            }
-        ]
-    },
-    
     {
         type: "Gacha",
         title: [
-            "Limited Time Christmas 2018 Gacha",
-            "期間限定2018クリスマスキャラクターピックアップ召喚",
-            "Featuring Christmas version of Yuno, Merry, Tooru, Hifumi"
+            "Outclub, the Northern Mountain and the First Camp 2019 Gacha,
+            "野クルと北の山と初キャンプ△2019ピックアップ召喚",
+            "Yuru Camp Event Gacha"
         ],
-        image: "https://i.imgur.com/ano5PKN.png",
+        image: "https://i.imgur.com/zyfuYoI.png",
         column: 1,
         timers: [
             {
-                name: "Part 1: Featuring 5* Yuno [Christmas], 5* Merry [Christmas]",
-                start: "December 11 2018, 0:00",
-                end: "December 27 2018, 10:59"
-            },
-            {
-                name: "Part 2: Featuring 5* Tooru [Christmas], 5* Hifumi [Christmas]",
-                start: "December 18 2018, 0:00",
-                end: "December 27 2018, 10:59"
+                name: "Featuring 5* Nadeshiko, 4* Kotetsu, 4* Kana",
+                start: "January 9 2019, 13:30",
+                end: "January 23 2019, 16:59"
             }
         ]
     },
@@ -227,69 +229,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Daily Free Summon",
-            "毎日10回召喚無料キャンペーン",
-            "One free 10-pull Summon per day"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Manga Time Kirara & Miracle",
-                start: "January 1 2019, 0:00",
-                end: "Januar 1 2019, 23:59",
-                info: "Featuring Yuyushiki, Urara Meirochou, Sakura Trick, Slow Start and K-ON!"
-            },
-            {
-                name: "Manga Time Kirara MAX",
-                start: "January 2 2019, 0:00",
-                end: "Januar 2 2019, 23:59",
-                info: "Featuring Kiniro Mosaic, Stella no Mahou, Comic Girls and Gochuumon wa Usagi Desu ka?"
-            },
-            {
-                name: "Manga Time Kirara Forward",
-                start: "January 3 2019, 0:00",
-                end: "Januar 3 2019, 23:59",
-                info: "Featuring Gakkou Gurashi!, Yumekui Merry, Yuru Camp, Hanayamata, Harukana Receive and Anne Happy"
-            },
-            {
-                name: "Manga Time Kirara Carat",
-                start: "January 4 2019, 0:00",
-                end: "Januar 4 2019, 23:59",
-                info: "Featuring Hidamari Sketch, New Game!, A-Channel, Kill Me Baby, Blend-S and Anima Yell!"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Choose your 5* Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚",
-            "Do a 400 paid gems pull and receive a 5* Selection Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Part 1",
-                start: "December 4 2018, 14:00",
-                end: "December 27 2018, 23:59"
-            },
-            {
-                name: "Part 2",
-                start: "December 11 2018, 0:00",
-                end: "December 27 2018, 23:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "December 4 2018, 14:00",
-                end: "January 3 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "First Dream Paid Summon",
             "★5&★4キャラクターが選べる！初夢有償限定10回召喚",
             "Do a summon with paid gems to receive Summon Tickets that allows you to choose a 4* and a 5* character"
@@ -310,47 +249,6 @@ var timerData = [
         ]
     },
     {
-        type: "LoginDays",
-        title: [
-            "Anima Yell! Login Bonus",
-            "「アニマエール！」参戦決定記念ログインボーナス",
-            "20 Gems on days the anime airs"
-        ],
-        image: "https://i.imgur.com/mN9ClJh.png",
-        column: 2,
-        keepAfterFinished: "1 day",
-        timers: [
-            {
-                name: "Episode 6",
-                date: "November 11 2018"
-            },
-            {
-                name: "Episode 7",
-                date: "November 18 2018"
-            },
-            {
-                name: "Episode 8",
-                date: "November 25 2018"
-            },
-            {
-                name: "Episode 9",
-                date: "December 2 2018"
-            },
-            {
-                name: "Episode 10",
-                date: "December 9 2018"
-            },
-            {
-                name: "Episode 11",
-                date: "December 16 2018"
-            },
-            {
-                name: "Episode 12",
-                date: "December 23 2018"
-            }
-        ]
-    },
-    {
         type: "Other",
         title: [
             "Year In, Year Out Login Bonus",
@@ -365,24 +263,6 @@ var timerData = [
                 start: "December 28 2018, 0:00",
                 end: "January 9 2019, 23:59",
                 keepAfterFinished: "6 hours"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "New Year Money Login Bonus",
-            "お年玉ログインボーナス",
-            "100 Gems for logging in"
-        ],
-        image: "kirara",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "January 1 2019, 0:00",
-                end: "January 1 2019, 23:59",
-                keepAfterFinished: "2 hours"
             }
         ]
     },
@@ -426,66 +306,6 @@ var timerData = [
         ]
     },
     {
-        type: "WeekendBoss",
-        title: [
-            "December Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/VYErOmM.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "December 1 2018, 0:00",
-                end: "December 2 2018, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "December 8 2018, 0:00",
-                end: "December 9 2018, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "December 15 2018, 0:00",
-                end: "December 16 2018, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "December 22 2018, 0:00",
-                end: "December 23 2018, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "December 29 2018, 0:00",
-                end: "December 30 2018, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "December 1 2018, 0:00",
-                end: "January 4 2019, 23:59",
-                keepAfterFinished: "1 day",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Limited Christmas Room Decorations",
-            "New and Past Christmas-themed items"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 11 2018, 0:00",
-                end: "December 27 2018, 10:59"
-            }
-        ]
-    },
-    {
         type: "Other",
         title: [
             "Limited New Year Room Decorations",
@@ -498,22 +318,6 @@ var timerData = [
                 name: "Period",
                 start: "December 27 2018, 16:00",
                 end: "January 9 2019, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "1 Year Anniversary Special Sale",
-            "1周年記念特別セール"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2018, 17:00",
-                end: "December 26 2018, 23:59"
             }
         ]
     },
