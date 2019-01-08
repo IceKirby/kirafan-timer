@@ -132,7 +132,7 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "Outclub, the Northern Mountain and the First Camp Missions,
+            "Outclub, the Northern Mountain and the First Camp Missions",
             "復刻・野クルと北の山と初キャンプ△",
             "Yuru Camp Event Missions"
         ],
@@ -178,7 +178,7 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Outclub, the Northern Mountain and the First Camp 2019 Gacha,
+            "Outclub, the Northern Mountain and the First Camp 2019 Gacha",
             "野クルと北の山と初キャンプ△2019ピックアップ召喚",
             "Yuru Camp Event Gacha"
         ],
