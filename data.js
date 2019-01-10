@@ -195,6 +195,23 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "Yuru Camp Special Selection Gacha",
+            "ゆるキャン△特別セレクション召喚",
+            "Featuring 5* Rin, 5* Nadeshiko [Swimsuit]"
+        ],
+        image: "https://i.imgur.com/3HCPVd2.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "January 11 2019, 17:00",
+                end: "January 17 2019, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Limited Time New Year 2019 Gacha",
             "期間限定2019お正月キャラクターピックアップ召喚",
             "Featuring 5* Kaho [New Year], 5* Yasuna [New Year]"
