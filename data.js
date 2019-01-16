@@ -150,6 +150,23 @@ var timerData = [
     {
         type: "Mission",
         title: [
+            "400 Days Celebration Missions",
+            "400日記念ミッション"
+        ],
+        image: "kirara",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Period",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
             "Creamate Big Meeting! New Year's Sugoroku Tournament Missions",
             "クリエメイト大集合！お正月すごろく大会",
             "New Year Event Missions"
@@ -212,34 +229,51 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Limited Time New Year 2019 Gacha",
-            "期間限定2019お正月キャラクターピックアップ召喚",
-            "Featuring 5* Kaho [New Year], 5* Yasuna [New Year]"
+            "Kirara Fantasia gacha",
+            "きららファンタジアピックアップ召喚",
+            "Featuring 5* Lamp"
         ],
-        image: "https://i.imgur.com/wLsnIbm.png",
+        image: "https://i.imgur.com/g19eB2Q.png",
         column: 1,
         timers: [
             {
-                name: "Featuring 5* Kaho [New Year], 5* Yasuna [New Year]",
-                start: "December 27 2018, 16:00",
-                end: "January 9 2019, 11:59"
+                name: "Period",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 13:59"
             }
         ]
     },
     {
         type: "Gacha",
         title: [
-            "New Year 2018 Characters Summon",
-            "期間限定2018お正月キャラクターピックアップ召喚",
-            "Featuring Limited New Year characters"
+            "Urara Meirochou Special Selection",
+            "うらら迷路帖特別セレクション召喚",
+            "Featuring Urara Meirochou characters"
         ],
-        image: "https://i.imgur.com/V3nUlYA.png",
+        image: "https://i.imgur.com/UDqxtQ9.png",
         column: 1,
         timers: [
             {
-                name: "Featuring 5* Isami [New Year], 4* Momiji [New Year]",
-                start: "January 1 2019, 0:00",
-                end: "January 11 2019, 16:59",
+                name: "First Half: Featuring 5* Chiya, 5* Chiya [Christmas], 5* Koume",
+                start: "January 17 2019, 17:00",
+                end: "January 24 2019, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "New Characters Summon",
+            "新規キャラクターピックアップ召喚",
+            "Featuring 5* Megu-nee, 4* Megu-nee, 4* Minaha"
+        ],
+        image: "https://i.imgur.com/8ujtPI5.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 13:59"
             }
         ]
     },
@@ -266,19 +300,59 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Choose your 5* Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "400 paid gems for a summon + a special 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 13:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "January 17 2019, 17:00",
+                end: "February 5 2019, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
-            "Year In, Year Out Login Bonus",
-            "年末年始ログインボーナスキャンペーン",
-            "Log in for 11 days for 200 Gems and an Event Summon Ticket"
+            "Half Stamina Campaign",
+            "消費スタミナ1/2キャンペーン",
+            "For Daily Quests and Main Quest (except Prologue, chapter 8 and Hard Mode)"
         ],
         image: "kirara",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 28 2018, 0:00",
-                end: "January 9 2019, 23:59",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 13:59",
+                keepAfterFinished: "1 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "400 Days Celebration Login Bonus",
+            "400日記念ログインボーナス",
+            "Log in for 10 days for 300 Gems"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 17 2019, 17:00",
+                end: "January 29 2019, 23:59",
                 keepAfterFinished: "6 hours"
             }
         ]
@@ -341,33 +415,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "New Year Special Gem Sale",
-            "1周年記念特別セール"
+            "400 Days Celebration Sale",
+            "400日記念セール",
+            "Discounted Gem Set prices"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 27 2018, 16:00",
-                end: "January 8 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "2019 Lucky Bag Item Set",
-            "2019年福袋アイテムセットを販売",
-            "250 gems for 10x Summon Tickets, 10 Golden Clocks and 10 Golden Keys"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "January 1 2019, 0:00",
-                end: "January 8 2019, 23:59"
+                start: "January 17 2019, 17:00",
+                end: "February 3 2019, 23:59"
             }
         ]
     }
