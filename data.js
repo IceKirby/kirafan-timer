@@ -4,13 +4,13 @@ var timerData = [
         title: "Daily Quests",
         priority: 10,
         days: {
-            "sunday": { element: "Sun", image: "imgs/Attribute_Sun.png", short:"Sun" },
-            "monday": { element: "Moon", image: "imgs/Attribute_Moon.png", short:"Mon" },
-            "tuesday": { element: "Fire", image: "imgs/Attribute_Fire.png", short:"Tue" },
-            "wednesday": { element: "Water", image: "imgs/Attribute_Water.png", short:"Wed" },
-            "thursday": { element: "Wind", image: "imgs/Attribute_Wind.png", short:"Thu" },
-            "friday": { element: "Gold", image: "imgs/Currency_gold_coin.png", short:"Fri" },
-            "saturday": { element: "Earth", image: "imgs/Attribute_Earth.png", short:"Sat" }
+            "sunday": { elements: ["Sun", "Priest", "Mage", "Alchemist"], short:"Sun" },
+            "monday": { elements: ["Moon", "Gold", "Warrior"], short:"Mon" },
+            "tuesday": { elements: ["Fire", "Knight", "Priest"], short:"Tue" },
+            "wednesday": { elements: ["Water", "Gold", "Mage"], short:"Wed" },
+            "thursday": { elements: ["Wind", "Warrior", "Alchemist"], short:"Thu" },
+            "friday": { elements: ["Gold", "Priest", "Mage"], short:"Fri" },
+            "saturday": { elements: ["Earth", "Warrior", "Knight"], short:"Sat" }
         }
     },
     {
@@ -48,24 +48,15 @@ var timerData = [
                 end: "January 23 2019, 13:59"
             },
             {
-                name: "Extra Story 1",
+                name: "Extra Stories",
                 start: "January 12 2019, 0:00",
-                end: "January 23 2019, 13:59"
-            },
-            {
-                name: "Extra Story 2",
-                start: "January 13 2019, 0:00",
-                end: "January 23 2019, 13:59"
-            },
-            {
-                name: "Extra Story 3",
-                start: "January 14 2019, 0:00",
-                end: "January 23 2019, 13:59"
-            },
-            {
-                name: "Extra Story 4",
-                start: "January 15 2019, 0:00",
-                end: "January 23 2019, 13:59"
+                end: "January 23 2019, 13:59",
+                markers: {
+                    "Extra Story 1": "January 12 2019, 0:00",
+                    "Extra Story 2": "January 13 2019, 0:00",
+                    "Extra Story 3": "January 14 2019, 0:00",
+                    "Extra Story 4": "January 15 2019, 0:00"
+                }
             },
             {
                 name: "Boss Quest",
@@ -81,51 +72,6 @@ var timerData = [
                 name: "Event Shop / Mystery Treasure Chest",
                 start: "January 9 2019, 13:30",
                 end: "January 30 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Creamate Big Meeting! New Year's Sugoroku Tournament",
-            "クリエメイト大集合！お正月すごろく大会",
-            "New Year Event"
-        ],
-        image: "https://i.imgur.com/yTrqSCz.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
-                name: "Preliminary Round",
-                start: "December 27 2018, 16:00",
-                end: "January 8 2019, 13:59"
-            },
-            {
-                name: "End of Year Quests",
-                start: "December 27 2018, 16:00",
-                end: "December 31 2018, 23:59",
-                info: "Do not give Event drops.",
-                keepAfterFinished: "6 hours"
-            },
-            {
-                name: "Main Battle",
-                start: "January 1 2019, 0:00",
-                end: "January 8 2019, 13:59"
-            },
-            {
-                name: "Melee Quest",
-                start: "January 3 2019, 17:00",
-                end: "January 8 2019, 13:59"
-            },
-            {
-                name: "Event Shop (Qualifying Round)",
-                start: "December 27 2018, 16:00",
-                end: "January 15 2019, 13:59"
-            },
-            {
-                name: "Event Shop (Main Battle)",
-                start: "January 1 2019, 0:00",
-                end: "January 15 2019, 13:59"
             }
         ]
     },
@@ -153,7 +99,7 @@ var timerData = [
             "400 Days Celebration Missions",
             "400日記念ミッション"
         ],
-        image: "kirara",
+        image: "match",
         column: 0,
         priority: 4,
         timers: [
@@ -161,34 +107,6 @@ var timerData = [
                 name: "Period",
                 start: "January 17 2019, 17:00",
                 end: "January 29 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Creamate Big Meeting! New Year's Sugoroku Tournament Missions",
-            "クリエメイト大集合！お正月すごろく大会",
-            "New Year Event Missions"
-        ],
-        image: "https://i.imgur.com/yTrqSCz.png",
-        column: 0,
-        priority: 4,
-        timers: [
-            {
-                name: "End of Year Missions",
-                start: "December 27 2018, 16:00",
-                end: "December 31 2018, 23:59"
-            },
-            {
-                name: "New Year Missions Set 1",
-                start: "January 1 2019, 0:00",
-                end: "January 8 2019, 23:59"
-            },
-            {
-                name: "New Year Missions Set 2",
-                start: "January 3 2019, 0:00",
-                end: "January 8 2019, 23:59"
             }
         ]
     },
@@ -206,23 +124,6 @@ var timerData = [
                 name: "Featuring 5* Nadeshiko, 4* Kotetsu, 4* Kana",
                 start: "January 9 2019, 13:30",
                 end: "January 23 2019, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Yuru Camp Special Selection Gacha",
-            "ゆるキャン△特別セレクション召喚",
-            "Featuring 5* Rin, 5* Nadeshiko [Swimsuit]"
-        ],
-        image: "https://i.imgur.com/3HCPVd2.png",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "January 11 2019, 17:00",
-                end: "January 17 2019, 11:59"
             }
         ]
     },
@@ -280,28 +181,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "First Dream Paid Summon",
-            "★5&★4キャラクターが選べる！初夢有償限定10回召喚",
-            "Do a summon with paid gems to receive Summon Tickets that allows you to choose a 4* and a 5* character"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "January 1 2019, 0:00",
-                end: "January 9 2019, 11:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "January 1 2019, 0:00",
-                end: "January 16 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Choose your 5* Summon Ticket",
             "★5選べるチケット付き！有償限定10回召喚",
             "400 paid gems for a summon + a special 5* Summon Ticket"
@@ -346,7 +225,7 @@ var timerData = [
             "400日記念ログインボーナス",
             "Log in for 10 days for 300 Gems"
         ],
-        image: "kirara",
+        image: "lamp",
         column: 2,
         timers: [
             {
@@ -429,5 +308,4 @@ var timerData = [
             }
         ]
     }
-    
 ];

@@ -19,7 +19,7 @@ To define a normal event, set its `type` to one of the following values:
 - **Event**: For in-game events. Gets a pink header.
 - **Gacha**: For gacha banners. Gets a green header.
 - **Mission**: For special missions. Gets a purple header.
-- **Other**: For other types of events. Gets a purple event.
+- **Other**: For other types of events. Gets a purple header.
 
 Normal Events can have the following properties:
 - `title`: An array of strings to describe the events. First line will be highlighted as the header. Recommended at most 4 lines.
@@ -31,6 +31,7 @@ Normal Timers cam have the following properties:
 - `start`: A string with the `August 3 2018, 18:00` format indicating when the event starts.
 - `end`: A string with the `August 3 2018, 18:00` format indicating when the event ends.
 - `info`: Optional. A string that will be displayed as a tooltip after the name.
+- `markers`: Optional. An object listing markers to be added to the progress bar. Keys will be used as a label for the marker, and the value must be a string with the `August 3 2018, 18:00` defining the marker's time.
 - `keepAfterFinished`: Optional. Similar to an event's keepAfterFinished, but specific to a timer. Using this property on individual timers is preferred over using them on the Event level.
 
 #### Login Days Events
@@ -73,6 +74,5 @@ Daily Quest events can have the following property:
 - `days`: An object with information about each day's quest. It must contains objects with a key named after the days of the week.
 
 Each object under `days` must have the following properties:
-- `element`: A string with the name for that day's element.
-- `image`: A string indicating an url to an image file to be used as the day's image.
+- `elements`: An array of strings with the names for that day's elements. Names can be an element (Fire, Water, Earth, Wind, Sun, Moon), Gold or a class (Warrior, Priest, Mage, Knight, Alchemist).
 - `short`: A string with the shorter name for the day (e.g.: Tue for Tuesday).

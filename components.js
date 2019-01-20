@@ -35,13 +35,14 @@ Vue.component("weekend-timer", {
 
 Vue.component("normal-timer", {
     props: ["timer"],
-    template: "<div class='timer'><div class='label'><span>{{timer.name | addStars}} <span v-if='timer.info' class='info-icon' v-tooltip:top='replaceStars(timer.info)'>(?)</span> </span></div><div class='counters'> <div class='absolute'> <div class='starts'>{{ timer.displayMode == \"japan\" ? timer.dateDisplay.jpstart : timer.dateDisplay.localstart }}</div> <div class='ends'>{{ timer.displayMode == \"japan\" ? timer.dateDisplay.jpend : timer.dateDisplay.localend }}</div> </div> <timer-bar v-bind:timer='timer'></timer-bar></div></div>",
+    template: "<div class='timer'><div class='label'><span>{{timer.name | addStars}} <span v-if='timer.info' class='info-icon' v-tooltip:top='replaceStars(timer.info)'>(?)</span> </span></div><div class='counters'> <div class='absolute'> <div class='starts'>{{ timer.displayMode == \"japan\" ? timer.dateDisplay.jpstart : timer.dateDisplay.localstart }}</div> <div class='ends'>{{ timer.displayMode == \"japan\" ? timer.dateDisplay.jpend : timer.dateDisplay.localend }}</div> </div> <timer-bar v-bind:timer='timer'></timer-bar></div><span class='mark-next' v-if='timer.nextMarker'>{{ timer.nextMarker }}</span></div>",
     methods: {
         replaceStars: function(str) {
             return Vue.filter('addStars')(str);
         }
     }
 });
+
 
 Vue.component("timer-bar", {
     props: ["timer"],
@@ -54,8 +55,14 @@ Vue.component("bar-badge", {
 });
 Vue.component("bar-progress", {
     props: ["timer"],
-    template: "<div class='progress position-relative'> <div class='progress-bar' role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div> <div class='bar-label-holder'><span>{{ timer.dateDisplay.barLabel }}</span></div> </div>"
+    template: "<div class='progress-holder position-relative'><bar-mark v-for='mark in timer.markersInfo' v-bind:mark='mark'></bar-mark><div class='progress position-relative'><div class='progress-bar' role='progressbar' v-bind:style='{ width: timer.progress + \"%\" }' :aria-valuenow='timer.progress' aria-valuemin='0' aria-valuemax='100'></div> <div class='bar-label-holder'><span>{{ timer.dateDisplay.barLabel }}</span></div></div></div>"
 });
+
+Vue.component("bar-mark", {
+    props: ["mark"],
+    template: "<img :src='mark.started ? \"imgs/marker-green.png\" : \"imgs/marker-red.png\"' class='bar-mark' data-toggle='tooltip' v-tooltip:top='mark.tip' v-bind:style='{ left: mark.position }'>"
+});
+
 
 Vue.component("ev-thumb", {
     props: ["ev"],
@@ -101,7 +108,7 @@ Vue.component("ev-header", {
 
 Vue.component("daily-quest-bar", {
     props: ["ev"],
-    template: "<div class='daily-bar'><div class='title'><div class='line header'><span>{{ev.title}}</span></div></div><div class='days-holder'><div class='daily-bar-item' :class='{active: index == ev.current }' v-for='(el, index) in ev.days' :key='index'><img :src='el.image'><br>{{el.element}}<br>{{el.short}}</div></div><div class='daily-timer'>Ends in {{ ev.deadline }} (at {{ ev.displayMode == \"japan\" ? ev.japanend : ev.localend }})</div></div>"
+    template: "<div class='daily-bar'><div class='title'><div class='line header'><span>{{ev.title}}</span></div></div><div class='days-holder'><div class='daily-bar-item' :class='{active: index == ev.current }' v-for='(el, index) in ev.days' :key='index'><div><img class='daily-icon-img' v-for='icon in el.elements' :src='icon | elementImage' :title='icon'></div>{{el.short}}</div></div><div class='daily-timer'>Ends in {{ ev.deadline }} (at {{ ev.displayMode == \"japan\" ? ev.japanend : ev.localend }})</div></div>"
 });
 Vue.component("event-group-content", {
     props: ["ev"],

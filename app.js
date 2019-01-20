@@ -1,6 +1,8 @@
 var thumbnailMap = {
     "none": "imgs/kirara.png",
     "kirara": "imgs/kirara.png",
+    "lamp": "imgs/lamp.png",
+    "match": "imgs/match.png",
     "maintenance": "imgs/maintenance.png",
     "kanna": "imgs/kanna.png",
     "clea": "imgs/clea.png",
@@ -8,9 +10,26 @@ var thumbnailMap = {
     "cork": "imgs/cork.png",
     "polka": "imgs/polka.png"
 };
+var elementsMap = {
+    Sun: "imgs/Attribute_Sun.png",
+    Moon: "imgs/Attribute_Moon.png",
+    Fire: "imgs/Attribute_Fire.png",
+    Water: "imgs/Attribute_Water.png",
+    Wind: "imgs/Attribute_Wind.png",
+    Earth: "imgs/Attribute_Earth.png",
+    Gold: "imgs/Currency_gold_coin.png",
+    Warrior: "imgs/Class_Warrior.png",
+    Mage: "imgs/Class_Mage.png",
+    Priest: "imgs/Class_Priest.png",
+    Knight: "imgs/Class_Knight.png",
+    Alchemist: "imgs/Class_Alchemist.png"
+};
 
 Vue.filter('addStars', function (str) {
     return str.replace(/3\*/g, "3★").replace(/4\*/g, "4★").replace(/5\*/g, "5★");
+});
+Vue.filter('elementImage', function (val) {
+    return elementsMap[val];
 });
 
 Vue.directive('tooltip', {
@@ -18,7 +37,8 @@ Vue.directive('tooltip', {
         $(el).tooltip({
             title: binding.value,
             placement: binding.arg,
-            trigger: 'hover'
+            trigger: 'hover',
+            html: true
         });
     },
     update: function(el, binding) {
@@ -117,11 +137,35 @@ var vm = new Vue({
                         timer.type = "normal";
                     }
 
+                    var strFormat = "ddd, MMM Do, H:mm";
                     startMoment = moment.tz(timer.start, "MMM D YYYY, H:mm", "Asia/Tokyo");
                     endMoment = moment.tz(timer.end, "MMM D YYYY, H:mm", "Asia/Tokyo");
 
                     timer.rawStart = startMoment._d.getTime();
                     timer.rawEnd  = endMoment._d.getTime();
+
+                    var marks = [];
+                    if (timer.hasOwnProperty("markers")) {
+                        for (var m in timer.markers) {
+                            var markTime = moment.tz(timer.markers[m], "MMM D YYYY, H:mm", "Asia/Tokyo");
+                            var rawTime = markTime._d.getTime();
+                            var ma = {
+                                label: m,
+                                jptime: markTime.format(strFormat),
+                                localtime: markTime.tz(localZone).format(strFormat),
+                                rawtime: rawTime,
+                                position: (rawTime - timer.rawStart) / (timer.rawEnd - timer.rawStart) * 100 + "%",
+                                color: "#dc3545",
+                                started: false,
+                                tip: ""
+                            };
+                            marks.push(ma);
+                        }
+                        timer.nextMarker = "";
+                    }
+                    timer.markersInfo = marks;
+
+
 
                     // Timer expiration = End Time + Timer's extra time
                     timerExtra = this.toDurationObject(timer.keepAfterFinished);
@@ -135,7 +179,6 @@ var vm = new Vue({
                     }
 
                     // Stores date/time strings to display in timers
-                    var strFormat = "ddd, MMM Do, H:mm";
                     if (timer.type == "date") {
                         strFormat = "MMM Do<br>H:mm";
                     } else if (timer.type == "weekend") {
@@ -221,6 +264,30 @@ var vm = new Vue({
                                 timer.dateDisplay.barLabel = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 2) + (timer.type == "weekend" ? "" : " (" + timer.progress.toFixed(1) + "%)");
                                 timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
                                 timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
+                            }
+
+                            if (timer.markersInfo.length > 0) {
+                                var marks = timer.markersInfo, m, mark, next = Infinity, nextName, nextFound = false;
+                                for (m = 0; m < marks.length; m++) {
+                                    mark = marks[m];
+                                    mark.tip = "<b>" + mark.label + "</b><br/>" + (timer.displayMode == "japan" ? mark.jptime : mark.localtime) + (now >= mark.rawtime ? "" : "<br/>(starts in " + this.remainingTimeString(now, mark.rawtime, 5)+")");
+                                    if (mark.rawtime > now && mark.rawtime < next) {
+                                        nextFound = true;
+                                        nextName = mark.label;
+                                        next = mark.rawtime;
+                                    }
+                                    if (now >= mark.rawtime) {
+                                        mark.started = true;
+                                        mark.color = "#2fc551";
+                                    }
+                                }
+                                if (nextFound && now >= timer.rawStart) {
+                                    timer.nextMarker = nextName + " starts in " + this.remainingTimeString(now, next, 2);
+                                } else {
+                                    timer.nextMarker = "";
+                                }
+                            } else {
+                                timer.nextMarker = "";
                             }
                         }
 
