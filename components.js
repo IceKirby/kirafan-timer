@@ -108,7 +108,7 @@ Vue.component("ev-header", {
 
 Vue.component("daily-quest-bar", {
     props: ["ev"],
-    template: "<div class='daily-bar'><div class='title'><div class='line header'><span>{{ev.title}}</span></div></div><div class='days-holder'><div class='daily-bar-item' :class='{active: index == ev.current }' v-for='(el, index) in ev.days' :key='index'><div><img class='daily-icon-img' v-for='icon in el.elements' :src='icon | elementImage' :title='icon'></div>{{el.short}}</div></div><div class='daily-timer'>Ends in {{ ev.deadline }} (at {{ ev.displayMode == \"japan\" ? ev.japanend : ev.localend }})</div></div>"
+    template: "<div class='daily-bar'><div class='title'><div class='line header'><span>{{ev.title}}</span></div></div><div class='days-holder'><div class='daily-bar-item' :class='{active: index == ev.current }' v-for='(el, index) in ev.days' :key='index'><div><img class='daily-icon-img' v-for='icon in el.elements' :src='icon | elementImage' :title='icon' data-toggle='tooltip' v-tooltip:top='icon' ></div>{{el.short}}</div></div><div class='daily-timer'>Ends in {{ ev.deadline }} (at {{ ev.displayMode == \"japan\" ? ev.japanend : ev.localend }})</div></div>"
 });
 Vue.component("event-group-content", {
     props: ["ev"],
