@@ -158,6 +158,11 @@ var timerData = [
                 name: "First Half: Featuring 5* Chiya, 5* Chiya [Christmas], 5* Koume",
                 start: "January 17 2019, 17:00",
                 end: "January 24 2019, 16:59"
+            },
+            {
+                name: "Second Half: Featuring 5* Kon, 5* Kon [Swimsuit], 5* Nono",
+                start: "January 24 2019, 17:00",
+                end: "February 1 2019, 16:59"
             }
         ]
     },
