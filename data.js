@@ -147,6 +147,23 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "Kirara Fantasia limited gacha",
+            "きららファンタジア期間限定ピックアップ召喚",
+            "Featuring 5* Archive"
+        ],
+        image: "https://i.imgur.com/e1nHS9K.png",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "January 29 2019, 17:00",
+                end: "February 5 2019, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Urara Meirochou Special Selection",
             "うらら迷路帖特別セレクション召喚",
             "Featuring Urara Meirochou characters"
