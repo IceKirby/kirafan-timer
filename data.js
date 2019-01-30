@@ -44,7 +44,7 @@ var timerData = [
         timers: [
             {
                 name: "Main Scenario",
-                start: "January 31 2019, 17:30",
+                start: "January 31 2019, 17:00",
                 end: "February 15 2019, 13:59"
             },
             {
