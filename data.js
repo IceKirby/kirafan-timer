@@ -34,62 +34,55 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Rerun - Outclub, the Northern Mountain and the First Camp",
-            "復刻・野クルと北の山と初キャンプ△",
-            "Yuru Camp Event"
+            "Chocolate Panic",
+            "チョコレートパニック",
+            "Valentine 2019 Event"
         ],
-        image: "https://i.imgur.com/zyfuYoI.png",
+        image: "https://i.imgur.com/RTHrVJB.png",
         column: 0,
         priority: 4,
         timers: [
             {
                 name: "Main Scenario",
-                start: "January 9 2019, 13:30",
-                end: "January 23 2019, 13:59"
-            },
-            {
-                name: "Extra Stories",
-                start: "January 12 2019, 0:00",
-                end: "January 23 2019, 13:59",
-                markers: {
-                    "Extra Story 1": "January 12 2019, 0:00",
-                    "Extra Story 2": "January 13 2019, 0:00",
-                    "Extra Story 3": "January 14 2019, 0:00",
-                    "Extra Story 4": "January 15 2019, 0:00"
-                }
+                start: "January 31 2019, 17:30",
+                end: "February 15 2019, 13:59"
             },
             {
                 name: "Boss Quest",
-                start: "January 10 2019, 17:00",
-                end: "January 23 2019, 13:59"
+                start: "February 2 2019, 17:00",
+                end: "February 15 2019, 13:59"
             },
             {
                 name: "EX Quest",
-                start: "January 11 2019, 17:00",
-                end: "January 23 2019, 13:59"
+                start: "February 4 2019, 17:00",
+                end: "February 15 2019, 13:59"
             },
             {
-                name: "Event Shop / Mystery Treasure Chest",
-                start: "January 9 2019, 13:30",
-                end: "January 30 2019, 13:59"
+                name: "Event Shop",
+                start: "January 31 2019, 17:00",
+                end: "February 22 2019, 13:59"
             }
         ]
     },
     {
         type: "Mission",
         title: [
-            "Outclub, the Northern Mountain and the First Camp Missions",
-            "復刻・野クルと北の山と初キャンプ△",
-            "Yuru Camp Event Missions"
+            "Chocolate Panic Missions",
+            "チョコレートパニック",
+            "Valentine 2019 Event Missions"
         ],
-        image: "https://i.imgur.com/zyfuYoI.png",
+        image: "https://i.imgur.com/RTHrVJB.png",
         column: 0,
         priority: 4,
         timers: [
             {
-                name: "Mission Set ",
-                start: "January 9 2019, 0:00",
-                end: "January 16 2019, 23:59"
+                name: "Missions",
+                start: "January 31 2019, 00:00",
+                end: "February 13 2019, 13:59",
+                markers: {
+                    "Mission Set 2": "February 2 2019, 0:00",
+                    "Mission Set 3": "February 4 2019, 0:00"
+                }
             }
         ]
     },
@@ -113,34 +106,16 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Outclub, the Northern Mountain and the First Camp 2019 Gacha",
-            "野クルと北の山と初キャンプ△2019ピックアップ召喚",
-            "Yuru Camp Event Gacha"
+            "Valentine 2019 Limited Summon",
+            "期間限定2019バレンタインキャラクターピックアップ召喚"
         ],
-        image: "https://i.imgur.com/zyfuYoI.png",
+        image: "https://i.imgur.com/RTHrVJB.png",
         column: 1,
         timers: [
             {
-                name: "Featuring 5* Nadeshiko, 4* Kotetsu, 4* Kana",
-                start: "January 9 2019, 13:30",
-                end: "January 23 2019, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Kirara Fantasia gacha",
-            "きららファンタジアピックアップ召喚",
-            "Featuring 5* Lamp"
-        ],
-        image: "https://i.imgur.com/g19eB2Q.png",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 13:59"
+                name: "Featuring 5* Koume [Valentine], 5* Mio [Valentine]",
+                start: "January 31 2019, 17:00",
+                end: "February 14 2019, 13:59"
             }
         ]
     },
@@ -243,17 +218,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "400 Days Celebration Login Bonus",
-            "400日記念ログインボーナス",
-            "Log in for 10 days for 300 Gems"
+            "Valentine Login Bonus",
+            "バレンタインログインボーナス",
+            "Log in for 11 days for 200 Gems and a Event Call Ticket"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 23:59",
+                start: "February 1 2019, 0:00",
+                end: "February 14 2019, 23:59",
                 keepAfterFinished: "6 hours"
             }
         ]
@@ -300,16 +275,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited New Year Room Decorations",
-            "New and Past New Year-themed items"
+            "Limited Valentine Room Decorations",
+            "New and Past Valentine-themed items"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 27 2018, 16:00",
-                end: "January 9 2019, 11:59"
+                start: "January 31 2019, 17:00",
+                end: "February 15 2019, 13:59"
             }
         ]
     },
