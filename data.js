@@ -236,6 +236,45 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
+            "February Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/HnFf7IS.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "February 2 2019, 0:00",
+                end: "February 3 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "February 9 2019, 0:00",
+                end: "February 10 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "February 16 2019, 0:00",
+                end: "February 17 2019, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "February 23 2019, 0:00",
+                end: "February 24 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "February 2 2019, 0:00",
+                end: "March 1 2019, 23:59",
+                keepAfterFinished: "6 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
             "January Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -267,7 +306,7 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "January 5 2019, 0:00",
                 end: "February 1 2019, 23:59",
-                keepAfterFinished: "1 day",
+                keepAfterFinished: "6 hours",
                 type: "normal"
             }
         ]
