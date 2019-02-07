@@ -122,17 +122,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Kirara Fantasia limited gacha",
-            "きららファンタジア期間限定ピックアップ召喚",
-            "Featuring 5* Archive"
+            "Valentine 2018 Limited Summon",
+            "期間限定2018バレンタインキャラクターピックアップ召喚",
+            "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 4* Tsubame [Valentine]"
         ],
-        image: "https://i.imgur.com/e1nHS9K.png",
+        image: "https://i.imgur.com/c7ow9i2.png",
         column: 1,
         timers: [
             {
                 name: "Period",
-                start: "January 29 2019, 17:00",
-                end: "February 5 2019, 16:59"
+                start: "February 8 2019, 17:00",
+                end: "February 15 2019, 16:59"
             }
         ]
     },
