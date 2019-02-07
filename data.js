@@ -123,14 +123,13 @@ var timerData = [
         type: "Gacha",
         title: [
             "Valentine 2018 Limited Summon",
-            "期間限定2018バレンタインキャラクターピックアップ召喚",
-            "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 4* Tsubame [Valentine]"
+            "期間限定2018バレンタインキャラクターピックアップ召喚"
         ],
         image: "https://i.imgur.com/c7ow9i2.png",
         column: 1,
         timers: [
             {
-                name: "Period",
+                name: "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 4* Tsubame [Valentine]",
                 start: "February 8 2019, 17:00",
                 end: "February 15 2019, 16:59"
             }
