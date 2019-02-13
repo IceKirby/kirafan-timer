@@ -66,6 +66,54 @@ var timerData = [
         ]
     },
     {
+        type: "Event",
+        title: [
+            "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training",
+            "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
+            "Rize Event"
+        ],
+        image: "https://i.imgur.com/H0gYCq5.png",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "February 14 2019, 17:00",
+                end: "March 12 2019, 13:59",
+                markers: {
+                    "Season 2": "February 16 2019, 17:00",
+                    "Season 3": "February 18 2019, 17:00"
+                }
+            },
+            {
+                name: "After the Training",
+                start: "February 18 2019, 17:00",
+                end: "March 12 2019, 13:59",
+                markers: {
+                    "Chapter 2": "February 22 2019, 0:00",
+                    "Chapter 3": "February 23 2019, 0:00",
+                    "Chapter 4": "February 24 2019, 0:00",
+                    "Chapter 5": "February 25 2019, 0:00"
+                }
+            },
+            {
+                name: "Boss Quest",
+                start: "February 20 2019, 17:00",
+                end: "March 19 2019, 13:59",
+            },
+            {
+                name: "EX Quest",
+                start: "February 22 2019, 17:00",
+                end: "March 19 2019, 13:59",
+            },
+            {
+                name: "Event Shop",
+                start: "February 14 2019, 17:00",
+                end: "March 19 2019, 13:59",
+            }
+        ]
+    },
+    {
         type: "Mission",
         title: [
             "Chocolate Panic Missions",
@@ -90,20 +138,26 @@ var timerData = [
     {
         type: "Mission",
         title: [
-            "400 Days Celebration Missions",
-            "400日記念ミッション"
+            "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training Missions",
+            "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
+            "Rize Event Missions"
         ],
-        image: "match",
+        image: "https://i.imgur.com/H0gYCq5.png",
         column: 0,
         priority: 4,
         timers: [
             {
-                name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 23:59"
+                name: "Missions",
+                start: "February 14 2019, 17:00",
+                end: "March 12 2019, 23:59",
+                markers: {
+                    "Mission Set 2": "February 18 2019, 0:00",
+                    "Mission Set 3": "February 20 2019, 0:00"
+                }
             }
         ]
     },
+    
     {
         type: "Gacha",
         title: [
@@ -139,22 +193,16 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Urara Meirochou Special Selection",
-            "うらら迷路帖特別セレクション召喚",
-            "Featuring Urara Meirochou characters"
+            "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training Summon",
+            "エトワリア冒険譚 前編 リゼ教官の秘密特訓 ピックアップ召喚"
         ],
-        image: "https://i.imgur.com/UDqxtQ9.png",
+        image: "https://i.imgur.com/H0gYCq5.png",
         column: 1,
         timers: [
             {
-                name: "First Half: Featuring 5* Chiya, 5* Chiya [Christmas], 5* Koume",
-                start: "January 17 2019, 17:00",
-                end: "January 24 2019, 16:59"
-            },
-            {
-                name: "Second Half: Featuring 5* Kon, 5* Kon [Swimsuit], 5* Nono",
-                start: "January 24 2019, 17:00",
-                end: "February 1 2019, 16:59"
+                name: "Featuring 5* Rize, 4* Iketani Nono",
+                start: "February 14 2019, 17:00",
+                end: "March 3 2019, 23:59"
             }
         ]
     },
@@ -234,6 +282,24 @@ var timerData = [
         ]
     },
     {
+        type: "Other",
+        title: [
+            "Etowaria Adventure Log Interlude Login Bonus",
+            "エトワリア冒険譚 幕間ログインボーナス",
+            "Log in for 5 days for 100 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "February 22 2019, 0:00",
+                end: "February 27 2019, 23:59",
+                keepAfterFinished: "6 hours"
+            }
+        ]
+    },
+    {
         type: "WeekendBoss",
         title: [
             "February Boss Challenge",
@@ -267,45 +333,6 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "February 2 2019, 0:00",
                 end: "March 1 2019, 23:59",
-                keepAfterFinished: "6 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "January Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/WsYjDPc.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "January 5 2019, 0:00",
-                end: "January 6 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "January 12 2019, 0:00",
-                end: "January 13 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "January 19 2019, 0:00",
-                end: "January 20 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "January 26 2019, 0:00",
-                end: "January 27 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "January 5 2019, 0:00",
-                end: "February 1 2019, 23:59",
                 keepAfterFinished: "6 hours",
                 type: "normal"
             }
