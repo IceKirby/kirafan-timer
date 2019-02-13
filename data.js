@@ -226,22 +226,22 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Choose your 5* Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a summon + a special 5* Summon Ticket"
+            "Random 5* Summon Ticket Summon",
+            "★5確定チケット付き！有償限定10回召喚",
+            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
         timers: [
             {
                 name: "Summon Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 13:59"
+                start: "February 14 2019, 17:00",
+                end: "February 27 2019, 11:59"
             },
             {
                 name: "Ticket Expiration",
-                start: "January 17 2019, 17:00",
-                end: "February 5 2019, 23:59"
+                start: "February 14 2019, 17:00",
+                end: "March 6 2019, 23:59"
             }
         ]
     },
