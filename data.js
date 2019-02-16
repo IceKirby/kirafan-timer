@@ -41,7 +41,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/RTHrVJB.png",
         column: 0,
-        priority: 4,
+        priority: 2,
         timers: [
             {
                 name: "Main Scenario",
