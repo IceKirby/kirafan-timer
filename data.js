@@ -99,12 +99,12 @@ var timerData = [
             {
                 name: "Boss Quest",
                 start: "February 20 2019, 17:00",
-                end: "March 19 2019, 13:59",
+                end: "March 12 2019, 13:59",
             },
             {
                 name: "EX Quest",
                 start: "February 22 2019, 17:00",
-                end: "March 19 2019, 13:59",
+                end: "March 12 2019, 13:59",
             },
             {
                 name: "Event Shop",
