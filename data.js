@@ -177,22 +177,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Valentine 2018 Limited Summon",
-            "期間限定2018バレンタインキャラクターピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/c7ow9i2.png",
-        column: 1,
-        timers: [
-            {
-                name: "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 4* Tsubame [Valentine]",
-                start: "February 8 2019, 17:00",
-                end: "February 15 2019, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training Summon",
             "エトワリア冒険譚 前編 リゼ教官の秘密特訓 ピックアップ召喚"
         ],
@@ -209,17 +193,17 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "New Characters Summon",
-            "新規キャラクターピックアップ召喚",
-            "Featuring 5* Megu-nee, 4* Megu-nee, 4* Minaha"
+            "Recommended-themed Summon",
+            "いちおしテーマセレクション召喚",
+            "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya"
         ],
-        image: "https://i.imgur.com/8ujtPI5.png",
+        image: "https://i.imgur.com/rySYFAf.png",
         column: 1,
         timers: [
             {
                 name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 13:59"
+                start: "February 22 2019, 17:00",
+                end: "March 1 2019, 16:59"
             }
         ]
     },
