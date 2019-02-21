@@ -157,23 +157,6 @@ var timerData = [
             }
         ]
     },
-    
-    {
-        type: "Gacha",
-        title: [
-            "Valentine 2019 Limited Summon",
-            "期間限定2019バレンタインキャラクターピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/RTHrVJB.png",
-        column: 1,
-        timers: [
-            {
-                name: "Featuring 5* Koume [Valentine], 5* Mio [Valentine]",
-                start: "January 31 2019, 17:00",
-                end: "February 14 2019, 13:59"
-            }
-        ]
-    },
     {
         type: "Gacha",
         title: [
@@ -193,15 +176,15 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Recommended-themed Summon",
+            "Recommended Theme Summon",
             "いちおしテーマセレクション召喚",
-            "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya"
+            "Featuring characters that follow a certain theme"
         ],
         image: "https://i.imgur.com/rySYFAf.png",
         column: 1,
         timers: [
             {
-                name: "Period",
+                name: "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya",
                 start: "February 22 2019, 17:00",
                 end: "March 1 2019, 16:59"
             }
