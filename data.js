@@ -183,22 +183,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/zucS6nO.png",
-        column: 1,
-        timers: [
-            {
-                name: "Featuring 5* Sugar (Limited-Time)",
-                start: "February 27 2019, 17:00",
-                end: "March 13 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Recommended Theme Summon",
             "いちおしテーマセレクション召喚",
             "Featuring characters that follow a certain theme"
@@ -210,6 +194,44 @@ var timerData = [
                 name: "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya",
                 start: "February 22 2019, 17:00",
                 end: "March 1 2019, 16:59"
+            }
+        ]
+    },    
+    {
+        type: "Gacha",
+        title: [
+            "Random 5* Summon Ticket Summon",
+            "★5確定チケット付き！有償限定10回召喚",
+            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "February 14 2019, 17:00",
+                end: "February 27 2019, 11:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "February 14 2019, 17:00",
+                end: "March 6 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
+        ],
+        image: "https://i.imgur.com/zucS6nO.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring 5* Sugar (Limited-Time)",
+                start: "February 27 2019, 17:00",
+                end: "March 13 2019, 13:59"
             }
         ]
     },
@@ -232,28 +254,6 @@ var timerData = [
                 name: "Cork Side: Featuring 5* Cork",
                 start: "March 4 2019, 0:00",
                 end: "March 13 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Random 5* Summon Ticket Summon",
-            "★5確定チケット付き！有償限定10回召喚",
-            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "February 14 2019, 17:00",
-                end: "February 27 2019, 11:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "February 14 2019, 17:00",
-                end: "March 6 2019, 23:59"
             }
         ]
     },
