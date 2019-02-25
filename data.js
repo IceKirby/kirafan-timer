@@ -17,7 +17,7 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Version 1.15.0 Update"
+            "Version 1.15.0 Update",
             "Summon Renovation",
             "Event Preparation"
         ],
