@@ -17,6 +17,7 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
+            "Version 1.15.0 Update"
             "Summon Renovation",
             "Event Preparation"
         ],
@@ -26,8 +27,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "February 14 2019, 14:00",
-                end: "February 14 2019, 17:00",
+                start: "February 27 2019, 12:00",
+                end: "February 27 2019, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -35,40 +36,7 @@ var timerData = [
     {
         type: "Event",
         title: [
-            "Chocolate Panic",
-            "チョコレートパニック",
-            "Valentine 2019 Event"
-        ],
-        image: "https://i.imgur.com/RTHrVJB.png",
-        column: 0,
-        priority: 2,
-        timers: [
-            {
-                name: "Main Scenario",
-                start: "January 31 2019, 17:00",
-                end: "February 15 2019, 13:59"
-            },
-            {
-                name: "Boss Quest",
-                start: "February 2 2019, 17:00",
-                end: "February 15 2019, 13:59"
-            },
-            {
-                name: "EX Quest",
-                start: "February 4 2019, 17:00",
-                end: "February 15 2019, 13:59"
-            },
-            {
-                name: "Event Shop",
-                start: "January 31 2019, 17:00",
-                end: "February 22 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training",
+            "Etowaria Adventure Log, Pt.1: Instructor Rize’s Secret Training",
             "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
             "Rize Event"
         ],
@@ -114,31 +82,48 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
+        type: "Event",
         title: [
-            "Chocolate Panic Missions",
-            "チョコレートパニック",
-            "Valentine 2019 Event Missions"
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人",
+            "Sugar Event"
         ],
-        image: "https://i.imgur.com/RTHrVJB.png",
+        image: "https://i.imgur.com/zucS6nO.png",
         column: 0,
         priority: 4,
         timers: [
             {
-                name: "Missions",
-                start: "January 31 2019, 00:00",
-                end: "February 13 2019, 13:59",
-                markers: {
-                    "Mission Set 2": "February 2 2019, 0:00",
-                    "Mission Set 3": "February 4 2019, 0:00"
-                }
+                name: "Main Scenario",
+                start: "February 27 2019, 17:00",
+                end: "March 12 2019, 13:59"
+            },
+            {
+                name: "Boss Quest",
+                start: "March 1 2019, 17:00",
+                end: "March 12 2019, 13:59",
+            },
+            {
+                name: "EX Quest",
+                start: "March 4 2019, 17:00",
+                end: "March 12 2019, 13:59",
+            },
+            
+            {
+                name: "Super EX Quest",
+                start: "March 6 2019, 17:00",
+                end: "March 12 2019, 13:59",
+            },
+            {
+                name: "Event Shop",
+                start: "February 27 2019, 17:00",
+                end: "March 19 2019, 13:59",
             }
         ]
     },
     {
         type: "Mission",
         title: [
-            "Etowaria Adventure Log, Part 1: Instructor Rize’s Secret Training Missions",
+            "Etowaria Adventure Log, Pt.1: Instructor Rize’s Secret Training Missions",
             "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
             "Rize Event Missions"
         ],
@@ -153,6 +138,28 @@ var timerData = [
                 markers: {
                     "Mission Set 2": "February 18 2019, 0:00",
                     "Mission Set 3": "February 20 2019, 0:00"
+                }
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Missions",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人",
+            "Sugar Event Missions"
+        ],
+        image: "https://i.imgur.com/zucS6nO.png",
+        column: 0,
+        priority: 4,
+        timers: [
+            {
+                name: "Missions",
+                start: "February 27 2019, 17:00",
+                end: "March 12 2019, 23:59",
+                markers: {
+                    "Mission Set 2": "March 1 2019, 0:00",
+                    "Mission Set 3": "March 4 2019, 0:00"
                 }
             }
         ]
@@ -176,6 +183,22 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
+        ],
+        image: "https://i.imgur.com/zucS6nO.png",
+        column: 1,
+        timers: [
+            {
+                name: "Featuring 5* Sugar (Limited-Time)",
+                start: "February 27 2019, 17:00",
+                end: "March 13 2019, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Recommended Theme Summon",
             "いちおしテーマセレクション召喚",
             "Featuring characters that follow a certain theme"
@@ -187,6 +210,28 @@ var timerData = [
                 name: "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya",
                 start: "February 22 2019, 17:00",
                 end: "March 1 2019, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Summon",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人ピックアップ召喚",
+            "Polka side and Cork side"
+        ],
+        image: "https://i.imgur.com/aV2oUJv.png",
+        column: 1,
+        timers: [
+            {
+                name: "Polka Side: Featuring 5* Polka",
+                start: "March 4 2019, 0:00",
+                end: "March 13 2019, 13:59"
+            },
+            {
+                name: "Cork Side: Featuring 5* Cork",
+                start: "March 4 2019, 0:00",
+                end: "March 13 2019, 13:59"
             }
         ]
     },
@@ -227,24 +272,6 @@ var timerData = [
                 start: "January 17 2019, 17:00",
                 end: "January 29 2019, 13:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Valentine Login Bonus",
-            "バレンタインログインボーナス",
-            "Log in for 11 days for 200 Gems and a Event Call Ticket"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "February 1 2019, 0:00",
-                end: "February 14 2019, 23:59",
-                keepAfterFinished: "6 hours"
             }
         ]
     },
