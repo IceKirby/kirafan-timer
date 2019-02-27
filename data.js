@@ -42,7 +42,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/H0gYCq5.png",
         column: 0,
-        priority: 4,
+        priority: 5,
         timers: [
             {
                 name: "Main Scenario",
@@ -90,7 +90,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/zucS6nO.png",
         column: 0,
-        priority: 4,
+        priority: 6,
         timers: [
             {
                 name: "Main Scenario",
@@ -129,7 +129,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/H0gYCq5.png",
         column: 0,
-        priority: 4,
+        priority: 3,
         timers: [
             {
                 name: "Missions",
@@ -172,6 +172,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/H0gYCq5.png",
         column: 1,
+        priority: 6,
         timers: [
             {
                 name: "Featuring 5* Rize, 4* Iketani Nono",
@@ -189,6 +190,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/rySYFAf.png",
         column: 1,
+        priority: 4,
         timers: [
             {
                 name: "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya",
@@ -206,6 +208,7 @@ var timerData = [
         ],
         image: "clea",
         column: 1,
+        priority: 1,
         timers: [
             {
                 name: "Summon Period",
@@ -227,6 +230,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/zucS6nO.png",
         column: 1,
+        priority: 6,
         timers: [
             {
                 name: "Featuring 5* Sugar (Limited-Time)",
@@ -244,6 +248,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/aV2oUJv.png",
         column: 1,
+        priority: 3,
         timers: [
             {
                 name: "Polka Side: Featuring 5* Polka",
