@@ -45,7 +45,7 @@ Vue.directive('tooltip', {
         $(el).attr('data-original-title', binding.value);
     },
     unbind: function(el, binding) {
-        $(el).tooltip('destroy');
+        $(el).tooltip('dispose');
     }
 });
 
@@ -94,6 +94,7 @@ var vm = new Vue({
                 if (!ev.priority) {
                     ev.priority = 0;
                 }
+                ev.bonusPriority = 0;
                 if (ev.type == "DailyQuest") {
                     ev.displayMode = "japan";
                     ev.deadlineMoment = nowMoment.clone().endOf("day");
@@ -197,16 +198,12 @@ var vm = new Vue({
                 res[ev.column ? ev.column : 0].push(ev);
             }
 
-            function prioritySort(a, b) {
-                return b.priority - a.priority;
-            }
-
             // Sort timers and remove empty columns
             for (i = res.length; i--; ) {
                 if (res[i].length == 0) {
                     res.splice(i, 1);
                 } else {
-                    res[i] = res[i].sort(prioritySort);
+                    res[i] = res[i];
                 }
             }
 
@@ -217,11 +214,12 @@ var vm = new Vue({
             var nowMoment = moment.tz("Asia/Tokyo");
             var now = nowMoment._d.getTime();
             var localZone = moment.tz.guess();
-
+            
             for (c = 0; c < data.length; c++) { // Check each column
                 col = data[c];
                 for (e = 0; e < col.length; e++) { // Check each event group
                     ev = col[e];
+                    ev.bonusPriority = 0;
                     if (ev.type == "DailyQuest") {
                         deadline = ev.deadlineMoment;
                         if (deadline.date() != nowMoment.date()) {
@@ -261,6 +259,10 @@ var vm = new Vue({
                                 timer.dateDisplay.badgeEnd = "Finished " + this.remainingTimeString(now, timer.rawEnd, 5) + " ago";
                                 timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
                             } else {
+                                // Adds priority if timer is active
+                                if (timer.extraPriority) {
+                                    ev.bonusPriority += timer.extraPriority;
+                                }
                                 timer.dateDisplay.barLabel = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 2) + (timer.type == "weekend" ? "" : " (" + timer.progress.toFixed(1) + "%)");
                                 timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
                                 timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
@@ -317,7 +319,12 @@ var vm = new Vue({
                         ev.visible = false;
                     }
                 }
+                
+                col.sort(this.prioritySort);
             }
+        },
+        prioritySort: function(a, b) {
+            return (b.priority + b.bonusPriority) - (a.priority + a.bonusPriority);
         },
         toDurationObject: function(str) {
             if (typeof str !== "string") {

@@ -33,6 +33,7 @@ Normal Timers cam have the following properties:
 - `info`: Optional. A string that will be displayed as a tooltip after the name.
 - `markers`: Optional. An object listing markers to be added to the progress bar. Keys will be used as a label for the marker, and the value must be a string with the `August 3 2018, 18:00` defining the marker's time.
 - `keepAfterFinished`: Optional. Similar to an event's keepAfterFinished, but specific to a timer. Using this property on individual timers is preferred over using them on the Event level.
+- `extraPriority`: Optional. A number that will be added to the event's priority while this timer is active.
 
 #### Login Days Events
 Events that occur on a list of specific days.

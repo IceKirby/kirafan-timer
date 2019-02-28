@@ -51,7 +51,8 @@ var timerData = [
                 markers: {
                     "Season 2": "February 16 2019, 17:00",
                     "Season 3": "February 18 2019, 17:00"
-                }
+                },
+                extraPriority: 1
             },
             {
                 name: "After the Training",
@@ -90,12 +91,13 @@ var timerData = [
         ],
         image: "https://i.imgur.com/zucS6nO.png",
         column: 0,
-        priority: 6,
+        priority: 5,
         timers: [
             {
                 name: "Main Scenario",
                 start: "February 27 2019, 17:00",
-                end: "March 12 2019, 13:59"
+                end: "March 12 2019, 13:59",
+                extraPriority: 2
             },
             {
                 name: "Boss Quest",
@@ -151,7 +153,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/zucS6nO.png",
         column: 0,
-        priority: 4,
+        priority: 3,
         timers: [
             {
                 name: "Missions",
@@ -160,7 +162,8 @@ var timerData = [
                 markers: {
                     "Mission Set 2": "March 1 2019, 0:00",
                     "Mission Set 3": "March 4 2019, 0:00"
-                }
+                },
+                extraPriority: 1
             }
         ]
     },
@@ -178,6 +181,23 @@ var timerData = [
                 name: "Featuring 5* Rize, 4* Iketani Nono",
                 start: "February 14 2019, 17:00",
                 end: "March 3 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
+            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
+        ],
+        image: "https://i.imgur.com/zucS6nO.png",
+        column: 1,
+        priority: 7,
+        timers: [
+            {
+                name: "Featuring 5* Sugar (Limited-Time)",
+                start: "February 27 2019, 17:00",
+                end: "March 13 2019, 13:59"
             }
         ]
     },
@@ -213,29 +233,13 @@ var timerData = [
             {
                 name: "Summon Period",
                 start: "February 14 2019, 17:00",
-                end: "February 27 2019, 11:59"
+                end: "February 27 2019, 11:59",
+                extraPriority: 3
             },
             {
                 name: "Ticket Expiration",
                 start: "February 14 2019, 17:00",
                 end: "March 6 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/zucS6nO.png",
-        column: 1,
-        priority: 6,
-        timers: [
-            {
-                name: "Featuring 5* Sugar (Limited-Time)",
-                start: "February 27 2019, 17:00",
-                end: "March 13 2019, 13:59"
             }
         ]
     },
@@ -253,7 +257,8 @@ var timerData = [
             {
                 name: "Polka Side: Featuring 5* Polka",
                 start: "March 4 2019, 0:00",
-                end: "March 13 2019, 13:59"
+                end: "March 13 2019, 13:59",
+                extraPriority: 3
             },
             {
                 name: "Cork Side: Featuring 5* Cork",
@@ -275,7 +280,8 @@ var timerData = [
             {
                 name: "Featuring 5* Isana [Hinamatsuri], 5* Yun [Hinamatsuri], 4* Maika [Hinamatsuri]",
                 start: "March 1 2019, 17:00",
-                end: "March 8 2019, 16:59"
+                end: "March 8 2019, 16:59",
+                extraPriority: 2
             }
         ]
     },
