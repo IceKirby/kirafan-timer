@@ -263,6 +263,23 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Hinamatsuri 2018 Limited-time Summon",
+            "期間限定2018ひな祭りキャラクターピックアップ召喚"
+        ],
+        image: "https://i.imgur.com/vMaKI0P.png",
+        column: 1,
+        priority: 3,
+        timers: [
+            {
+                name: "Featuring 5* Isana [Hinamatsuri], 5* Yun [Hinamatsuri], 4* Maika [Hinamatsuri]",
+                start: "March 1 2019, 17:00",
+                end: "March 8 2019, 16:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Half Stamina Campaign",
@@ -332,6 +349,50 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "February 2 2019, 0:00",
                 end: "March 1 2019, 23:59",
+                keepAfterFinished: "6 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "March Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/jmfRXeV.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "March 2 2019, 0:00",
+                end: "March 3 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "March 9 2019, 0:00",
+                end: "March 10 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "March 16 2019, 0:00",
+                end: "March 17 2019, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "March 23 2019, 0:00",
+                end: "March 24 2019, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "March 30 2019, 0:00",
+                end: "March 31 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "March 2 2019, 0:00",
+                end: "April 5 2019, 23:59",
                 keepAfterFinished: "6 hours",
                 type: "normal"
             }
