@@ -204,21 +204,21 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Recommended Theme Summon",
-            "いちおしテーマセレクション召喚",
-            "Featuring characters that follow a certain theme"
+            "Gochuumon wa Usagi Desu Ka? Selection Summon",
+            "ご注文はうさぎですか？ セレクション召喚"
         ],
-        image: "https://i.imgur.com/rySYFAf.png",
+        image: "https://i.imgur.com/aD9xuCy.png",
         column: 1,
-        priority: 4,
+        priority: 3,
         timers: [
             {
-                name: "Featuring 5* Kurumi, 5* Azusa, 4* Ayaya",
-                start: "February 22 2019, 17:00",
-                end: "March 1 2019, 16:59"
+                name: "Featuring 5* Cocoa, 5* Chino, 5* Rize",
+                start: "March 8 2019, 17:00",
+                end: "March 15 2019, 16:59",
+                extraPriority: 1
             }
         ]
-    },    
+    },
     {
         type: "Gacha",
         title: [
