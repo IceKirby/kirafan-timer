@@ -45,7 +45,7 @@ var timerData = [
         timers: [
             {
                 name: "Main Scenario",
-                start: "March 13 17:00",
+                start: "March 13 2019, 17:00",
                 end: "March 27 2019, 13:59",
                 markers: {
                     "Extra Story Ch.1": "March 20 2019, 0:00",
@@ -62,7 +62,7 @@ var timerData = [
             },
             {
                 name: "Event Shop",
-                start: "March 13 17:00",
+                start: "March 13 2019, 17:00",
                 end: "April 3 2019, 16:59",
             }
         ]
