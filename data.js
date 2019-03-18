@@ -261,7 +261,7 @@ var timerData = [
             },
             {
                 name: "Featuring 5* Kumegawa Botan, 4* Kitou Kimiko",
-                start: "March 18 2019, 17:00",
+                start: "March 18 2019, 0:00",
                 end: "March 28 2019, 13:59"
             }
         ]
