@@ -156,7 +156,7 @@ var timerData = [
             },
             {
                 name: "Ticket Expiration",
-                start: "March 13 2019, 17:00",
+                start: "March 20 2019, 17:00",
                 end: "April 4 2019, 23:59"
             }
         ]
