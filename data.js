@@ -68,141 +68,6 @@ var timerData = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "Etowaria Adventure Log, Pt.1: Instructor Rize’s Secret Training",
-            "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
-            "Rize Event"
-        ],
-        image: "https://i.imgur.com/H0gYCq5.png",
-        column: 0,
-        priority: 2,
-        timers: [
-            {
-                name: "Main Scenario",
-                start: "February 14 2019, 17:00",
-                end: "March 12 2019, 13:59",
-                markers: {
-                    "Season 2": "February 16 2019, 17:00",
-                    "Season 3": "February 18 2019, 17:00"
-                },
-                extraPriority: 4
-            },
-            {
-                name: "After the Training",
-                start: "February 18 2019, 17:00",
-                end: "March 12 2019, 13:59",
-                markers: {
-                    "Chapter 2": "February 22 2019, 0:00",
-                    "Chapter 3": "February 23 2019, 0:00",
-                    "Chapter 4": "February 24 2019, 0:00",
-                    "Chapter 5": "February 25 2019, 0:00"
-                }
-            },
-            {
-                name: "Boss Quest",
-                start: "February 20 2019, 17:00",
-                end: "March 12 2019, 13:59",
-            },
-            {
-                name: "EX Quest",
-                start: "February 22 2019, 17:00",
-                end: "March 12 2019, 13:59",
-            },
-            {
-                name: "Event Shop",
-                start: "February 14 2019, 17:00",
-                end: "March 19 2019, 13:59",
-            }
-        ]
-    },
-    {
-        type: "Event",
-        title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人",
-            "Sugar Event"
-        ],
-        image: "https://i.imgur.com/zucS6nO.png",
-        column: 0,
-        priority: 2,
-        timers: [
-            {
-                name: "Main Scenario",
-                start: "February 27 2019, 17:00",
-                end: "March 12 2019, 13:59",
-                extraPriority: 4
-            },
-            {
-                name: "Boss Quest",
-                start: "March 1 2019, 17:00",
-                end: "March 12 2019, 13:59",
-            },
-            {
-                name: "EX Quest",
-                start: "March 4 2019, 17:00",
-                end: "March 12 2019, 13:59",
-            },
-            
-            {
-                name: "Super EX Quest",
-                start: "March 6 2019, 17:00",
-                end: "March 12 2019, 13:59",
-            },
-            {
-                name: "Event Shop",
-                start: "February 27 2019, 17:00",
-                end: "March 19 2019, 13:59",
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Etowaria Adventure Log, Pt.1: Instructor Rize’s Secret Training Missions",
-            "エトワリア冒険譚 前編 リゼ教官の秘密特訓",
-            "Rize Event Missions"
-        ],
-        image: "https://i.imgur.com/H0gYCq5.png",
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "Missions",
-                start: "February 14 2019, 17:00",
-                end: "March 12 2019, 23:59",
-                markers: {
-                    "Mission Set 2": "February 18 2019, 0:00",
-                    "Mission Set 3": "February 20 2019, 0:00"
-                },
-                extraPriority: 1
-            }
-        ]
-    },
-    {
-        type: "Mission",
-        title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Missions",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人",
-            "Sugar Event Missions"
-        ],
-        image: "https://i.imgur.com/zucS6nO.png",
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "Missions",
-                start: "February 27 2019, 17:00",
-                end: "March 12 2019, 23:59",
-                markers: {
-                    "Mission Set 2": "March 1 2019, 0:00",
-                    "Mission Set 3": "March 4 2019, 0:00"
-                },
-                extraPriority: 1
-            }
-        ]
-    },
-    {
         type: "Mission",
         title: [
             "Operation 'A Friend's Friend is also a Friend' Missions",
@@ -228,24 +93,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Limited-time Summon",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人 期間限定ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/zucS6nO.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Sugar (Limited-Time)",
-                start: "February 27 2019, 17:00",
-                end: "March 13 2019, 13:59",
-                extraPriority: 6
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Operation 'A Friend's Friend is also a Friend' 2019 Summon",
             "友達の友達は友達大作戦2019ピックアップ召喚"
         ],
@@ -263,24 +110,6 @@ var timerData = [
                 name: "Featuring 5* Kumegawa Botan, 4* Kitou Kimiko",
                 start: "March 18 2019, 0:00",
                 end: "March 28 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Gochuumon wa Usagi Desu Ka? Selection Summon",
-            "ご注文はうさぎですか？ セレクション召喚"
-        ],
-        image: "https://i.imgur.com/aD9xuCy.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Cocoa, 5* Chino, 5* Rize",
-                start: "March 8 2019, 17:00",
-                end: "March 15 2019, 16:59",
-                extraPriority: 5
             }
         ]
     },
@@ -311,24 +140,24 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Etowaria Adventure Log, Pt.2: Steel Giant's Awakening Summon",
-            "エトワリア冒険譚 後編 目覚める鋼鉄の巨人ピックアップ召喚",
-            "Polka side and Cork side"
+            "Kiraradio Public Recording Celebration Summon",
+            "きららジオ公録記念★5確定チケット付き！有償限定10回召喚",
+            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
         ],
-        image: "https://i.imgur.com/aV2oUJv.png",
+        image: "clea",
         column: 1,
         priority: 1,
         timers: [
             {
-                name: "Polka Side: Featuring 5* Polka",
-                start: "March 4 2019, 0:00",
-                end: "March 13 2019, 13:59",
-                extraPriority: 6
+                name: "Summon Period",
+                start: "March 20 2019, 17:00",
+                end: "March 28 2019, 13:59",
+                extraPriority: 4
             },
             {
-                name: "Cork Side: Featuring 5* Cork",
-                start: "March 4 2019, 0:00",
-                end: "March 13 2019, 13:59"
+                name: "Ticket Expiration",
+                start: "March 13 2019, 17:00",
+                end: "April 4 2019, 23:59"
             }
         ]
     },
