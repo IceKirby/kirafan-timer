@@ -18,7 +18,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Summon Renovation",
-            "Event Preparation"
+            "Event Preparation",
+            "Full Voice for Main Quest chapters 3 and 4"
         ],
         image: "Maintenance",
         column: 0,
@@ -26,8 +27,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "March 13 2019, 14:00",
-                end: "March 13 2019, 17:00",
+                start: "March 28 2019, 14:00",
+                end: "March 28 2019, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
