@@ -36,6 +36,40 @@ var timerData = [
     {
         type: "Event",
         title: [
+            "Three Leaves, Three Colors Casual Trip",
+            "三者三葉ぶらり旅",
+            "Sansha Sanyou event"
+        ],
+        image: "https://i.imgur.com/Tm2bwAy.png",
+        column: 0,
+        priority: 2,
+        timers: [
+            {
+                name: "Main Scenario",
+                start: "March 28 2019, 17:00",
+                end: "April 10 2019, 13:59",
+                extraPriority: 4
+            },
+            {
+                name: "Boss Quest",
+                start: "March 30 2019, 17:00",
+                end: "April 10 2019, 13:59",
+            },
+            {
+                name: "EX Quest",
+                start: "April 3 2019, 17:00",
+                end: "April 10 2019, 13:59",
+            },
+            {
+                name: "Event Shop",
+                start: "March 28 2019, 17:00",
+                end: "April 17 2019, 13:59",
+            }
+        ]
+    },
+    {
+        type: "Event",
+        title: [
             "Operation 'A Friend's Friend is also a Friend [Rerun]'",
             "復刻・友達の友達は友達大作戦",
             "Slow Start Event Rerun"
@@ -65,6 +99,29 @@ var timerData = [
                 name: "Event Shop",
                 start: "March 13 2019, 17:00",
                 end: "April 3 2019, 16:59",
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
+            "Three Leaves, Three Colors Casual Trip Missions",
+            "三者三葉ぶらり旅",
+            "Sansha Sanyou event missions"
+        ],
+        image: "https://i.imgur.com/Tm2bwAy.png",
+        column: 0,
+        priority: 1,
+        timers: [
+            {
+                name: "Missions",
+                start: "March 28 2019, 17:00",
+                end: "April 10 2019, 23:59",
+                markers: {
+                    "Mission Set 2": "March 30 2019, 0:00",
+                    "Mission Set 3": "April 3 2019, 0:00"
+                },
+                extraPriority: 1
             }
         ]
     },
@@ -111,6 +168,48 @@ var timerData = [
                 name: "Featuring 5* Kumegawa Botan, 4* Kitou Kimiko",
                 start: "March 18 2019, 0:00",
                 end: "March 28 2019, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Three Leaves, Three Colors Casual Trip Summon",
+            "三者三葉ぶらり旅ピックアップ召喚",
+            "Sansha Sanyou summon"
+        ],
+        image: "https://i.imgur.com/Tm2bwAy.png",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Featuring 5* Nishikawa Youko, 4* Odagiri Futaba, 4* Hayama Teru",
+                start: "March 28 2019, 17:00",
+                end: "April 11 2019, 11:59",
+                extraPriority: 6
+            },
+            {
+                name: "Featuring 5* Inuyama Aoi, 4* Hazuki Shizuku",
+                start: "March 31 2019, 0:00",
+                end: "April 11 2019, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Gakkou Gurashi Limited-Time Summon",
+            "がっこうぐらし！期間限定特別セレクション召喚"
+        ],
+        image: "https://i.imgur.com/rvIo9tC.png",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Featuring 5* Takeya Yuki, 5* Ebisuzawa Kurumi, 5* Yuki [Swimsuit]",
+                start: "March 28 2019, 17:00",
+                end: "April 5 2019, 16:59",
+                extraPriority: 5
             }
         ]
     },
