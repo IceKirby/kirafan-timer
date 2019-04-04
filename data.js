@@ -216,6 +216,24 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "A-Channel Limited-Time Summon",
+            "Aチャンネル期間限定特別セレクション召喚"
+        ],
+        image: "https://i.imgur.com/VvLlo9t.png",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Featuring 5* Tooru, 5* Tooru [Christmas], 5* Yuuko [Christmas]",
+                start: "April 5 2019, 17:00",
+                end: "April 12 2019, 16:59",
+                extraPriority: 5
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "Main Quest Extra Story Celebration Summon",
             "外伝追加記念★5確定チケット付き！有償限定10回召喚",
             "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
