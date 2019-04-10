@@ -68,37 +68,37 @@ var timerData = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "Operation 'A Friend's Friend is also a Friend [Rerun]'",
-            "復刻・友達の友達は友達大作戦",
-            "Slow Start Event Rerun"
+        "type": "Event",
+        "title": [
+            "Hitsugi Katsugi, GA and the Golden Kuromon Statue",
+            "棺担ぎとGAと黄金のクロモン像",
+            "GA and Kuro event"
         ],
-        image: "https://i.imgur.com/3tvXFDw.png",
-        column: 0,
-        priority: 2,
-        timers: [
+        "image": "https://i.imgur.com/2WcDO38.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
             {
-                name: "Main Scenario",
-                start: "March 13 2019, 17:00",
-                end: "March 27 2019, 13:59",
-                markers: {
-                    "Extra Story Ch.1": "March 20 2019, 0:00",
-                    "Extra Story Ch.2": "March 21 2019, 0:00",
-                    "Extra Story Ch.3": "March 22 2019, 0:00",
-                    "Extra Story Ch.4": "March 23 2019, 0:00"
+                "name": "Main Scenario",
+                "start": "April 11 2019, 17:00",
+                "end": "April 24 2019, 13:59",
+                "markers": {
+                    "Season 1": "April 18 2019, 0:00",
+                    "Season 2": "April 19 2019, 0:00",
+                    "Season 3": "April 20 2019, 0:00",
+                    "Season 4": "April 21 2019, 0:00"
                 },
-                extraPriority: 4
+                "extraPriority": 4
             },
             {
-                name: "Melee Quest",
-                start: "March 15 2019, 17:00",
-                end: "March 27 2019, 13:59",
+                "name": "Melee Quest",
+                "start": "April 15 2019, 17:00",
+                "end": "April 24 2019, 13:59"
             },
             {
-                name: "Event Shop",
-                start: "March 13 2019, 17:00",
-                end: "April 3 2019, 16:59",
+                "name": "Event Shop",
+                "start": "April 11 2019, 17:00",
+                "end": "May 1 2019, 13:59"
             }
         ]
     },
@@ -126,48 +126,25 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "Operation 'A Friend's Friend is also a Friend' Missions",
-            "復刻・友達の友達は友達大作戦",
-            "Slow Start Event Missions"
+        "type": "Mission",
+        "title": [
+            "Hitsugi Katsugi, GA and the Golden Kuromon Statue Missions",
+            "棺担ぎとGAと黄金のクロモン像",
+            "GA and Kuro event missions"
         ],
-        image: "https://i.imgur.com/3tvXFDw.png",
-        column: 0,
-        priority: 1,
-        timers: [
+        "image": "https://i.imgur.com/2WcDO38.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
             {
-                name: "Missions",
-                start: "March 13 2019, 17:00",
-                end: "March 27 2019, 23:59",
-                markers: {
-                    "Mission Set 2": "March 15 2019, 0:00",
-                    "Mission Set 3": "March 20 2019, 0:00"
+                "name": "Missions",
+                "start": "April 11 2019, 17:00",
+                "end": "April 24 2019, 23:59",
+                "markers": {
+                    "Mission Set 2": "April 13 2019, 0:00",
+                    "Mission Set 3": "April 15 2019, 0:00"
                 },
-                extraPriority: 1
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Operation 'A Friend's Friend is also a Friend' 2019 Summon",
-            "友達の友達は友達大作戦2019ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/3tvXFDw.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Hannen Hiroe, 4* Kamuri, 4* Eiko, 4* Tamate",
-                start: "March 13 2019, 17:00",
-                end: "March 28 2019, 13:59",
-                extraPriority: 6
-            },
-            {
-                name: "Featuring 5* Kumegawa Botan, 4* Kitou Kimiko",
-                start: "March 18 2019, 0:00",
-                end: "March 28 2019, 13:59"
+                "extraPriority": 1
             }
         ]
     },
@@ -196,20 +173,26 @@ var timerData = [
         ]
     },
     {
-        type: "Gacha",
-        title: [
-            "Gakkou Gurashi Limited-Time Summon",
-            "がっこうぐらし！期間限定特別セレクション召喚"
+        "type": "Gacha",
+        "title": [
+            "Hitsugi Katsugi, GA and the Golden Kuromon Statue Summon",
+            "棺担ぎとGAと黄金のクロモン像ピックアップ召喚",
+            "GA and Kuro event summon"
         ],
-        image: "https://i.imgur.com/rvIo9tC.png",
-        column: 1,
-        priority: 1,
-        timers: [
+        "image": "https://i.imgur.com/2WcDO38.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
             {
-                name: "Featuring 5* Takeya Yuki, 5* Ebisuzawa Kurumi, 5* Yuki [Swimsuit]",
-                start: "March 28 2019, 17:00",
-                end: "April 5 2019, 16:59",
-                extraPriority: 5
+                "name": "Hitsugi Katsugi Side: Featuring 5* Kuro, 4* Kuro",
+                "start": "April 11 2019, 17:00",
+                "end": "April 25 2019, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "GA Side: Featuring 5* Yamaguchi Kisaragi, 4* Noda Miki, 4* Tomokane",
+                "start": "April 11 2019, 17:00",
+                "end": "April 25 2019, 13:59"
             }
         ]
     },
