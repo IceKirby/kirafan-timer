@@ -83,10 +83,10 @@ var timerData = [
                 "start": "April 11 2019, 17:00",
                 "end": "April 24 2019, 13:59",
                 "markers": {
-                    "Season 1": "April 18 2019, 0:00",
-                    "Season 2": "April 19 2019, 0:00",
-                    "Season 3": "April 20 2019, 0:00",
-                    "Season 4": "April 21 2019, 0:00"
+                    "Extra Story 1": "April 18 2019, 0:00",
+                    "Extra Story 2": "April 19 2019, 0:00",
+                    "Extra Story 3": "April 20 2019, 0:00",
+                    "Extra Story 4": "April 21 2019, 0:00"
                 },
                 "extraPriority": 4
             },
