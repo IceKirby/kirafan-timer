@@ -103,29 +103,6 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "Three Leaves, Three Colors Casual Trip Missions",
-            "三者三葉ぶらり旅",
-            "Sansha Sanyou event missions"
-        ],
-        image: "https://i.imgur.com/Tm2bwAy.png",
-        column: 0,
-        priority: 1,
-        timers: [
-            {
-                name: "Missions",
-                start: "March 28 2019, 17:00",
-                end: "April 10 2019, 23:59",
-                markers: {
-                    "Mission Set 2": "March 30 2019, 0:00",
-                    "Mission Set 3": "April 3 2019, 0:00"
-                },
-                extraPriority: 1
-            }
-        ]
-    },
-    {
         "type": "Mission",
         "title": [
             "Hitsugi Katsugi, GA and the Golden Kuromon Statue Missions",
@@ -145,30 +122,6 @@ var timerData = [
                     "Mission Set 3": "April 15 2019, 0:00"
                 },
                 "extraPriority": 1
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Three Leaves, Three Colors Casual Trip Summon",
-            "三者三葉ぶらり旅ピックアップ召喚",
-            "Sansha Sanyou summon"
-        ],
-        image: "https://i.imgur.com/Tm2bwAy.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Nishikawa Youko, 4* Odagiri Futaba, 4* Hayama Teru",
-                start: "March 28 2019, 17:00",
-                end: "April 11 2019, 11:59",
-                extraPriority: 6
-            },
-            {
-                name: "Featuring 5* Inuyama Aoi, 4* Hazuki Shizuku",
-                start: "March 31 2019, 0:00",
-                end: "April 11 2019, 11:59"
             }
         ]
     },
@@ -199,42 +152,18 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "A-Channel Limited-Time Summon",
-            "Aチャンネル期間限定特別セレクション召喚"
+            "Kirara Fantasia Limited-Time Summon",
+            "きららファンタジア期間限定ピックアップ召喚"
         ],
-        image: "https://i.imgur.com/VvLlo9t.png",
+        image: "https://i.imgur.com/M7IpkMv.png",
         column: 1,
         priority: 1,
         timers: [
             {
-                name: "Featuring 5* Tooru, 5* Tooru [Christmas], 5* Yuuko [Christmas]",
-                start: "April 5 2019, 17:00",
-                end: "April 12 2019, 16:59",
+                name: "Featuring 5* Archive, 5* Sugar",
+                start: "April 17 2019, 17:00",
+                end: "April 25 2019, 13:59",
                 extraPriority: 5
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Main Quest Extra Story Celebration Summon",
-            "外伝追加記念★5確定チケット付き！有償限定10回召喚",
-            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "March 13 2019, 17:00",
-                end: "March 20 2019, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "March 13 2019, 17:00",
-                end: "April 4 2019, 23:59"
             }
         ]
     },
@@ -277,50 +206,6 @@ var timerData = [
                 start: "January 17 2019, 17:00",
                 end: "January 29 2019, 13:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "March Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/jmfRXeV.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "March 2 2019, 0:00",
-                end: "March 3 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "March 9 2019, 0:00",
-                end: "March 10 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "March 16 2019, 0:00",
-                end: "March 17 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "March 23 2019, 0:00",
-                end: "March 24 2019, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "March 30 2019, 0:00",
-                end: "March 31 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "March 2 2019, 0:00",
-                end: "April 5 2019, 23:59",
-                keepAfterFinished: "6 hours",
-                type: "normal"
             }
         ]
     },
