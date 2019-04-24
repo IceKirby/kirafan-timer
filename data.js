@@ -194,7 +194,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
             "Ama Usa An's Ambition Summon",
-            "甘兎庵の野望",
+            "甘兎庵の野望ピックアップ召喚",
             "Chiya & Sharo Event summon"
         ],
         "image": "https://i.imgur.com/a6ee68Y.png",
