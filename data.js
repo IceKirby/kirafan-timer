@@ -393,7 +393,7 @@ var timerData = [
         title: [
             "Golden Week Sale",
             "ゴールデンウィーク特別セール",
-            "Discounted Gem Set prices"
+            "Special Gem Set"
         ],
         image: "kanna",
         column: 2,
