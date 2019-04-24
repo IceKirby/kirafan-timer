@@ -34,36 +34,54 @@ var timerData = [
         ]
     },
     {
-        type: "Event",
-        title: [
-            "Three Leaves, Three Colors Casual Trip",
-            "三者三葉ぶらり旅",
-            "Sansha Sanyou event"
+        "type": "Event",
+        "title": [
+            "Ama Usa An's Ambition",
+            "甘兎庵の野望",
+            "Chiya & Sharo Event"
         ],
-        image: "https://i.imgur.com/Tm2bwAy.png",
-        column: 0,
-        priority: 2,
-        timers: [
+        "image": "https://i.imgur.com/a6ee68Y.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
             {
-                name: "Main Scenario",
-                start: "March 28 2019, 17:00",
-                end: "April 10 2019, 13:59",
-                extraPriority: 4
+                "name": "Main Scenario",
+                "start": "April 25 2019, 17:00",
+                "end": "May 14 2019, 13:59",
+                "markers": {
+                    "Season 2": "April 27 2019, 17:00",
+                    "Season 3": "April 29 2019, 17:00"
+                },
+                "extraPriority": 4
             },
             {
-                name: "Boss Quest",
-                start: "March 30 2019, 17:00",
-                end: "April 10 2019, 13:59",
+                "name": "Melee Quest",
+                "start": "May 5 2019, 17:00",
+                "end": "May 14 2019, 13:59"
             },
             {
-                name: "EX Quest",
-                start: "April 3 2019, 17:00",
-                end: "April 10 2019, 13:59",
-            },
+                "name": "Event Shop",
+                "start": "April 25 2019, 17:00",
+                "end": "May 21 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Golden Memories",
+            "黄金の記憶",
+            "Ginger Mini Event"
+        ],
+        "image": "https://i.imgur.com/QA16URT.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
             {
-                name: "Event Shop",
-                start: "March 28 2019, 17:00",
-                end: "April 17 2019, 13:59",
+                "name": "Main Scenario",
+                "start": "April 29 2019, 0:00",
+                "end": "May 10 2019, 23:59",
+                "extraPriority": 3
             }
         ]
     },
@@ -126,6 +144,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Ama Usa An's Ambition Missions",
+            "甘兎庵の野望",
+            "Chiya & Sharo Event missions"
+        ],
+        "image": "https://i.imgur.com/a6ee68Y.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "April 25 2019, 17:00",
+                "end": "May 14 2019, 13:59",
+                "markers": {
+                    "Mission Set 2": "April 29 2019, 0:00",
+                    "Mission Set 3": "May 5 2019, 0:00"
+                },
+                "extraPriority": 1
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Hitsugi Katsugi, GA and the Golden Kuromon Statue Summon",
@@ -150,9 +191,33 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Ama Usa An's Ambition Summon",
+            "甘兎庵の野望",
+            "Chiya & Sharo Event summon"
+        ],
+        "image": "https://i.imgur.com/a6ee68Y.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Chiya's Side: Featuring 5* Chiya, 4* Sharo",
+                "start": "April 25 2019, 17:00",
+                "end": "May 15 2019, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Sharo's Side: Featuring 5* Sharo, 4* Sharo",
+                "start": "April 25 2019, 17:00",
+                "end": "May 15 2019, 13:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
-            "Kirara Fantasia Limited-Time Summon",
+            "Kirara Fantasia Limited Time Summon",
             "きららファンタジア期間限定ピックアップ召喚"
         ],
         image: "https://i.imgur.com/M7IpkMv.png",
@@ -170,9 +235,27 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Kiraradio Public Recording Celebration Summon",
-            "きららジオ公録記念★5確定チケット付き！有償限定10回召喚",
-            "10x Summon for 240 paid gems, receive a Random 5* Summon Ticket"
+            "Golden Memories Limited Time Summon",
+            "黄金の記憶期間限定ピックアップ召喚"
+        ],
+        image: "https://i.imgur.com/QA16URT.png",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Featuring 5* Ginger",
+                start: "April 29 2019, 0:00",
+                end: "May 10 2019, 23:59",
+                extraPriority: 5
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "500 Days Celebration Summon",
+            "リリース500日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
@@ -180,31 +263,55 @@ var timerData = [
         timers: [
             {
                 name: "Summon Period",
-                start: "March 20 2019, 17:00",
-                end: "March 28 2019, 13:59",
+                start: "April 25 2019, 17:00",
+                end: "May 7 2019, 23:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "March 20 2019, 17:00",
-                end: "April 4 2019, 23:59"
+                start: "April 25 2019, 17:00",
+                end: "May 19 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Golden Week Summon",
+            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
+            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "April 27 2019, 0:00",
+                end: "May 12 2019, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "April 25 2019, 17:00",
+                end: "May 19 2019, 23:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "Half Stamina Campaign",
-            "消費スタミナ1/2キャンペーン",
-            "For Daily Quests and Main Quest (except Prologue, chapter 8 and Hard Mode)"
+            "500 Days Celebration Login Bonus",
+            "500日記念ログインボーナス",
+            "Login on 10 days for up to 300 gems"
         ],
         image: "kirara",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "January 29 2019, 13:59",
+                start: "April 25 2019, 17:00",
+                end: "May 10 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
         ]
@@ -267,8 +374,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "400 Days Celebration Sale",
-            "400日記念セール",
+            "500 Days Celebration Sale",
+            "500日記念セール",
             "Discounted Gem Set prices"
         ],
         image: "kanna",
@@ -276,8 +383,25 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "January 17 2019, 17:00",
-                end: "February 3 2019, 23:59"
+                start: "April 25 2019, 17:00",
+                end: "May 10 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Golden Week Sale",
+            "ゴールデンウィーク特別セール",
+            "Discounted Gem Set prices"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "April 27 2019, 0:00",
+                end: "May 12 2019, 23:59"
             }
         ]
     }
