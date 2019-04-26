@@ -123,29 +123,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Hitsugi Katsugi, GA and the Golden Kuromon Statue Missions",
-            "棺担ぎとGAと黄金のクロモン像",
-            "GA and Kuro event missions"
-        ],
-        "image": "https://i.imgur.com/2WcDO38.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "April 11 2019, 17:00",
-                "end": "April 24 2019, 23:59",
-                "markers": {
-                    "Mission Set 2": "April 13 2019, 0:00",
-                    "Mission Set 3": "April 15 2019, 0:00"
-                },
-                "extraPriority": 1
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Ama Usa An's Ambition Missions",
             "甘兎庵の野望",
             "Chiya & Sharo Event missions"
@@ -163,30 +140,6 @@ var timerData = [
                     "Mission Set 3": "May 5 2019, 0:00"
                 },
                 "extraPriority": 1
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Hitsugi Katsugi, GA and the Golden Kuromon Statue Summon",
-            "棺担ぎとGAと黄金のクロモン像ピックアップ召喚",
-            "GA and Kuro event summon"
-        ],
-        "image": "https://i.imgur.com/2WcDO38.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Hitsugi Katsugi Side: Featuring 5* Kuro, 4* Kuro",
-                "start": "April 11 2019, 17:00",
-                "end": "April 25 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "GA Side: Featuring 5* Yamaguchi Kisaragi, 4* Noda Miki, 4* Tomokane",
-                "start": "April 11 2019, 17:00",
-                "end": "April 25 2019, 13:59"
             }
         ]
     },
@@ -217,24 +170,6 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Kirara Fantasia Limited Time Summon",
-            "きららファンタジア期間限定ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/M7IpkMv.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Archive, 5* Sugar",
-                start: "April 17 2019, 17:00",
-                end: "April 25 2019, 13:59",
-                extraPriority: 5
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
             "Golden Memories Limited Time Summon",
             "黄金の記憶期間限定ピックアップ召喚"
         ],
@@ -246,6 +181,24 @@ var timerData = [
                 name: "Featuring 5* Ginger",
                 start: "April 29 2019, 0:00",
                 end: "May 10 2019, 23:59",
+                extraPriority: 5
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Gochuumon wa Usagi Desu Ka? Selection Summon",
+            "ご注文はうさぎですか？セレクション召喚"
+        ],
+        image: "https://i.imgur.com/aD9xuCy.png",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Featuring 5* Cocoa, 5* Chino, 5* Rize",
+                start: "April 27 2019, 0:00",
+                end: "May 7 2019, 23:59",
                 extraPriority: 5
             }
         ]
