@@ -139,7 +139,7 @@ var timerData = [
                     "Mission Set 2": "April 29 2019, 0:00",
                     "Mission Set 3": "May 5 2019, 0:00"
                 },
-                "extraPriority": 1
+                "extraPriority": 2
             }
         ]
     },
