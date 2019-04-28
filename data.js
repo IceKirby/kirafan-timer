@@ -81,7 +81,17 @@ var timerData = [
                 "name": "Main Scenario",
                 "start": "April 29 2019, 0:00",
                 "end": "May 10 2019, 23:59",
+                "markers": {
+                    "Chapter 2": "April 30 2019, 0:00",
+                    "Chapter 3": "May 1 2019, 0:00",
+                    "Chapter 4": "May 2 2019, 0:00"
+                },
                 "extraPriority": 3
+            },
+            {
+                "name": "Medal Exchange Period",
+                "start": "April 29 2019, 0:00",
+                "end": "May 17 2019, 23:59"
             }
         ]
     },
