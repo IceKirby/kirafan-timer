@@ -78,7 +78,7 @@ var timerData = [
         "priority": 2,
         "timers": [
             {
-                "name": "Main Scenario",
+                "name": "Main Scenario, Missions and Boss Quest",
                 "start": "April 29 2019, 0:00",
                 "end": "May 10 2019, 23:59",
                 "markers": {
