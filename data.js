@@ -97,35 +97,58 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Hitsugi Katsugi, GA and the Golden Kuromon Statue",
-            "棺担ぎとGAと黄金のクロモン像",
-            "GA and Kuro event"
+            "Etowaria's Big Sports Meeting",
+            "開催！エトワリア大運動会",
+            "Sports Meeting event"
         ],
-        "image": "https://i.imgur.com/2WcDO38.png",
+        "image": "https://i.imgur.com/BzkQ1Ll.png",
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "April 11 2019, 17:00",
-                "end": "April 24 2019, 13:59",
+                "start": "May 15 2019, 17:00",
+                "end": "May 29 2019, 13:59",
                 "markers": {
-                    "Extra Story 1": "April 18 2019, 0:00",
-                    "Extra Story 2": "April 19 2019, 0:00",
-                    "Extra Story 3": "April 20 2019, 0:00",
-                    "Extra Story 4": "April 21 2019, 0:00"
+                    "Season 1": "May 15 2019, 17:00",
+                    "Season 2": "May 17 2019, 17:00",
+                    "Season 3": "May 19 2019, 17:00",
+                    "Season 4": "May 21 2019, 17:00"
                 },
                 "extraPriority": 4
             },
             {
-                "name": "Melee Quest",
-                "start": "April 15 2019, 17:00",
-                "end": "April 24 2019, 13:59"
+                "name": "Boss Quest",
+                "start": "May 21 2019, 17:00",
+                "end": "May 29 2019, 13:59"
             },
             {
-                "name": "Event Shop",
-                "start": "April 11 2019, 17:00",
-                "end": "May 1 2019, 13:59"
+                "name": "Event Shop / Rewards Redemption",
+                "start": "May 15 2019, 17:00",
+                "end": "June 5 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Etowaria's Big Sports Meeting Missions",
+            "開催！エトワリア大運動会",
+            "Sports Meeting event missions"
+        ],
+        "image": "https://i.imgur.com/BzkQ1Ll.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "May 15 2019, 17:00",
+                "end": "May 29 2019, 23:59",
+                "markers": {
+                    "Mission Set 2": "May 19 2019, 0:00",
+                    "Mission Set 3": "May 21 2019, 0:00"
+                },
+                "extraPriority": 1
             }
         ]
     },
@@ -191,6 +214,51 @@ var timerData = [
                 start: "April 29 2019, 0:00",
                 end: "May 10 2019, 23:59",
                 extraPriority: 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Etowaria's Big Sports Meeting Summon",
+            "開催！エトワリア大運動会",
+            "Sports Meeting event summon"
+        ],
+        "image": "https://i.imgur.com/BzkQ1Ll.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Aoba [Sports Meeting], 5* Youko [Sports Meeting], 5* Eiko [Sports Meeting]",
+                "start": "May 15 2019, 17:00",
+                "end": "May 30 2019, 11:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Etowaria's Big Sports Meeting Event Bonus Characters",
+            "開催！エトワリア大運動会 イベントボーナスキャラクター召喚",
+            "Event Bonus characters summon"
+        ],
+        "image": "https://i.imgur.com/U14X4tN.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            
+            {
+                "name": "First Half: Featuring 5* Karen, 5* Aoba, 5* Kamuri, 5* Tamate, 5* Cocoa, 5* Rize, 5* Chiya, 5* Archive",
+                "start": "May 15 2019, 17:00",
+                "end": "May 22 2019, 16:59",
+                "info": "Also featuring many 4* characters from Kiniro Mosaic, NEW GAME!, Slow Start, Gochuumon wa Usagi Desu ka? and Anima Yell!"
+            },
+            {
+                "name": "Featuring 5* Shinobu, 5* Hifumi, 5* Hana, 5* Chino, 5* Sharo, 5* Kohane, 5* Lamp, 5* Sugar",
+                "start": "May 22 2019, 17:00",
+                "end": "May 30 2019, 11:59",
+                "info": "Also featuring many 4* characters from Kiniro Mosaic, NEW GAME!, Slow Start, Gochuumon wa Usagi Desu ka? and Anima Yell!"
             }
         ]
     },
