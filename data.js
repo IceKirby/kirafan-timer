@@ -36,68 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Ama Usa An's Ambition",
-            "甘兎庵の野望",
-            "Chiya & Sharo Event"
-        ],
-        "image": "https://i.imgur.com/a6ee68Y.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "April 25 2019, 17:00",
-                "end": "May 14 2019, 13:59",
-                "markers": {
-                    "Season 2": "April 27 2019, 17:00",
-                    "Season 3": "April 29 2019, 17:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Melee Quest",
-                "start": "May 5 2019, 17:00",
-                "end": "May 14 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 25 2019, 17:00",
-                "end": "May 21 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Golden Memories",
-            "黄金の記憶",
-            "Ginger Mini Event"
-        ],
-        "image": "https://i.imgur.com/QA16URT.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario, Missions and Boss Quest",
-                "start": "April 29 2019, 0:00",
-                "end": "May 10 2019, 23:59",
-                "markers": {
-                    "Chapter 2": "April 30 2019, 0:00",
-                    "Chapter 3": "May 1 2019, 0:00",
-                    "Chapter 4": "May 2 2019, 0:00"
-                },
-                "extraPriority": 3
-            },
-            {
-                "name": "Medal Exchange Period",
-                "start": "April 29 2019, 0:00",
-                "end": "May 17 2019, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Etowaria's Big Sports Meeting",
             "開催！エトワリア大運動会",
             "Sports Meeting event"
@@ -131,6 +69,46 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Wandering Bounty Hunters Rin & Karen",
+            "さすらいの賞金稼ぎ　リン＆カレン",
+            "Touyama Nao event"
+        ],
+        "image": "https://i.imgur.com/tqBweWK.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "May 30 2019, 17:00",
+                "end": "June 13 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "June 7 2019, 0:00",
+                    "Extra Chapter 2": "June 8 2019, 0:00",
+                    "Extra Chapter 3": "June 9 2019, 0:00",
+                    "Extra Chapter 4": "June 10 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "June 1 2019, 17:00",
+                "end": "June 13 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "June 5 2019, 17:00",
+                "end": "June 13 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 30 2019, 17:00",
+                "end": "June 20 2019, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Etowaria's Big Sports Meeting Missions",
@@ -153,68 +131,26 @@ var timerData = [
             }
         ]
     },
-    {
+     {
         "type": "Mission",
         "title": [
-            "Ama Usa An's Ambition Missions",
-            "甘兎庵の野望",
-            "Chiya & Sharo Event missions"
+            "Wandering Bounty Hunters Rin & Karen Missions",
+            "さすらいの賞金稼ぎ　リン＆カレン",
+            "Touyama Nao event missions"
         ],
-        "image": "https://i.imgur.com/a6ee68Y.png",
+        "image": "https://i.imgur.com/tqBweWK.png",
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "April 25 2019, 17:00",
-                "end": "May 14 2019, 13:59",
+                "start": "May 30 2019, 17:00",
+                "end": "June 13 2019, 23:59",
                 "markers": {
-                    "Mission Set 2": "April 29 2019, 0:00",
-                    "Mission Set 3": "May 5 2019, 0:00"
+                    "Mission Set 2": "June 1 2019, 0:00",
+                    "Mission Set 3": "June 5 2019, 0:00"
                 },
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Ama Usa An's Ambition Summon",
-            "甘兎庵の野望ピックアップ召喚",
-            "Chiya & Sharo Event summon"
-        ],
-        "image": "https://i.imgur.com/a6ee68Y.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Chiya's Side: Featuring 5* Chiya, 4* Sharo",
-                "start": "April 25 2019, 17:00",
-                "end": "May 15 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Sharo's Side: Featuring 5* Sharo, 4* Sharo",
-                "start": "April 25 2019, 17:00",
-                "end": "May 15 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Golden Memories Limited Time Summon",
-            "黄金の記憶期間限定ピックアップ召喚"
-        ],
-        image: "https://i.imgur.com/QA16URT.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Ginger",
-                start: "April 29 2019, 0:00",
-                end: "May 10 2019, 23:59",
-                extraPriority: 5
             }
         ]
     },
@@ -234,6 +170,30 @@ var timerData = [
                 "start": "May 15 2019, 17:00",
                 "end": "May 30 2019, 11:59",
                 "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Wandering Bounty Hunters Rin & Karen Summon",
+            "さすらいの賞金稼ぎ　リン＆カレン",
+            "Touyama Nao event summon"
+        ],
+        "image": "https://i.imgur.com/tqBweWK.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Rin [Traveler of the Wasteland], 4* Kagamihara Nadeshiko",
+                "start": "May 30 2019, 17:00",
+                "end": "June 13 2019, 16:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Featuring 5* Karen [Foreign Magician], 4* Hanakoizumi An",
+                "start": "June 1 2019, 0:00",
+                "end": "June 13 2019, 16:59"
             }
         ]
     },
@@ -266,27 +226,9 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "Gochuumon wa Usagi Desu Ka? Selection Summon",
-            "ご注文はうさぎですか？セレクション召喚"
-        ],
-        image: "https://i.imgur.com/aD9xuCy.png",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Featuring 5* Cocoa, 5* Chino, 5* Rize",
-                start: "April 27 2019, 0:00",
-                end: "May 7 2019, 23:59",
-                extraPriority: 5
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "500 Days Celebration Summon",
-            "リリース500日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+            "5* Ticket Summon",
+            "★5確定チケット付き！有償限定10回召喚",
+            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
@@ -294,38 +236,14 @@ var timerData = [
         timers: [
             {
                 name: "Summon Period",
-                start: "April 25 2019, 17:00",
-                end: "May 7 2019, 23:59",
+                start: "May 30 2019, 17:00",
+                end: "June 13 2019, 16:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "April 25 2019, 17:00",
-                end: "May 19 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Golden Week Summon",
-            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "April 27 2019, 0:00",
-                end: "May 12 2019, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "April 25 2019, 17:00",
-                end: "May 19 2019, 23:59"
+                start: "May 30 2019, 17:00",
+                end: "June 20 2019, 23:59"
             }
         ]
     },
@@ -382,6 +300,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "June Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/4pOeoDv.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "June 1 2019, 0:00",
+                end: "June 2 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "June 8 2019, 0:00",
+                end: "June 9 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "June 15 2019, 0:00",
+                end: "June 16 2019, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "June 22 2019, 0:00",
+                end: "June 23 2019, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "June 29 2019, 0:00",
+                end: "June 30 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "June 11 2019, 0:00",
+                end: "July 5 2019, 23:59",
+                keepAfterFinished: "6 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Valentine Room Decorations",
@@ -411,23 +373,6 @@ var timerData = [
                 name: "Period",
                 start: "April 25 2019, 17:00",
                 end: "May 10 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Golden Week Sale",
-            "ゴールデンウィーク特別セール",
-            "Special Gem Set"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "April 27 2019, 0:00",
-                end: "May 12 2019, 23:59"
             }
         ]
     }
