@@ -336,7 +336,7 @@ var timerData = [
             },
             {
                 name: "Medal exchange period",
-                start: "June 11 2019, 0:00",
+                start: "June 1 2019, 0:00",
                 end: "July 5 2019, 23:59",
                 keepAfterFinished: "6 hours",
                 type: "normal"
