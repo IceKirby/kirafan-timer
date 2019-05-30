@@ -224,6 +224,24 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Urara Meirochou Limited Selection",
+            "うらら迷路帖 期間限定特別セレクション召喚"
+        ],
+        "image": "https://i.imgur.com/B9VWqIJ.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            
+            {
+                "name": "Featuring 5* Chiya [Christmas], 5* Kon [Swimsuit], 5* Koume [Valentine]",
+                "start": "May 31 2019, 17:00",
+                "end": "June 14 2019, 16:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "5* Ticket Summon",
