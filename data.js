@@ -36,41 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Etowaria's Big Sports Meeting",
-            "開催！エトワリア大運動会",
-            "Sports Meeting event"
-        ],
-        "image": "https://i.imgur.com/BzkQ1Ll.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "May 15 2019, 17:00",
-                "end": "May 29 2019, 13:59",
-                "markers": {
-                    "Season 1": "May 15 2019, 17:00",
-                    "Season 2": "May 17 2019, 17:00",
-                    "Season 3": "May 19 2019, 17:00",
-                    "Season 4": "May 21 2019, 17:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "May 21 2019, 17:00",
-                "end": "May 29 2019, 13:59"
-            },
-            {
-                "name": "Event Shop / Rewards Redemption",
-                "start": "May 15 2019, 17:00",
-                "end": "June 5 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Wandering Bounty Hunters Rin & Karen",
             "さすらいの賞金稼ぎ　リン＆カレン",
             "Touyama Nao event"
@@ -109,25 +74,42 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
+        "type": "Event",
         "title": [
-            "Etowaria's Big Sports Meeting Missions",
-            "開催！エトワリア大運動会",
-            "Sports Meeting event missions"
+            "[Re-run] First Issue! Comic Etowaria",
+            "復刻・創刊！コミックエトワリア",
+            "Comic Girls event re-run"
         ],
-        "image": "https://i.imgur.com/BzkQ1Ll.png",
+        "image": "https://i.imgur.com/vydrUg1.png",
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "May 15 2019, 17:00",
-                "end": "May 29 2019, 23:59",
+                "name": "Main Scenario",
+                "start": "June 13 2019, 17:00",
+                "end": "June 26 2019, 13:59",
                 "markers": {
-                    "Mission Set 2": "May 19 2019, 0:00",
-                    "Mission Set 3": "May 21 2019, 0:00"
+                    "Extra Story 1": "June 21 2019, 0:00",
+                    "Extra Story 2": "June 22 2019, 0:00",
+                    "Extra Story 3": "June 23 2019, 0:00",
+                    "Extra Story 4": "June 24 2019, 0:00"
                 },
-                "extraPriority": 1
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "June 15 2019, 17:00",
+                "end": "June 26 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "June 17 2019, 17:00",
+                "end": "June 26 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 13 2019, 17:00",
+                "end": "July 3 2019, 11:59"
             }
         ]
     },
@@ -155,21 +137,25 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Etowaria's Big Sports Meeting Summon",
-            "開催！エトワリア大運動会",
-            "Sports Meeting event summon"
+            "[Re-run] First Issue! Comic Etowaria Missions",
+            "復刻・創刊！コミックエトワリア",
+            "Comic Girls event re-run missions"
         ],
-        "image": "https://i.imgur.com/BzkQ1Ll.png",
-        "column": 1,
+        "image": "https://i.imgur.com/vydrUg1.png",
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Aoba [Sports Meeting], 5* Youko [Sports Meeting], 5* Eiko [Sports Meeting]",
-                "start": "May 15 2019, 17:00",
-                "end": "May 30 2019, 11:59",
-                "extraPriority": 6
+                "name": "Missions",
+                "start": "June 13 2019, 0:00",
+                "end": "June 26 2019, 23:59",
+                "markers": {
+                    "Mission Set 2": "June 15 2019, 0:00",
+                    "Mission Set 3": "June 17 2019, 0:00"
+                },
+                "extraPriority": 2
             }
         ]
     },
@@ -200,26 +186,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Etowaria's Big Sports Meeting Event Bonus Characters",
-            "開催！エトワリア大運動会 イベントボーナスキャラクター召喚",
-            "Event Bonus characters summon"
+            "[Re-run] First Issue! Comic Etowaria Summon",
+            "復刻・創刊！コミックエトワリア",
+            "Comic Girls event re-run summon"
         ],
-        "image": "https://i.imgur.com/U14X4tN.png",
+        "image": "https://i.imgur.com/vydrUg1.png",
         "column": 1,
         "priority": 1,
         "timers": [
-            
             {
-                "name": "First Half: Featuring 5* Karen, 5* Aoba, 5* Kamuri, 5* Tamate, 5* Cocoa, 5* Rize, 5* Chiya, 5* Archive",
-                "start": "May 15 2019, 17:00",
-                "end": "May 22 2019, 16:59",
-                "info": "Also featuring many 4* characters from Kiniro Mosaic, NEW GAME!, Slow Start, Gochuumon wa Usagi Desu ka? and Anima Yell!"
-            },
-            {
-                "name": "Featuring 5* Shinobu, 5* Hifumi, 5* Hana, 5* Chino, 5* Sharo, 5* Kohane, 5* Lamp, 5* Sugar",
-                "start": "May 22 2019, 17:00",
-                "end": "May 30 2019, 11:59",
-                "info": "Also featuring many 4* characters from Kiniro Mosaic, NEW GAME!, Slow Start, Gochuumon wa Usagi Desu ka? and Anima Yell!"
+                "name": "Featuring 5* Koizuka Koyume, 4* Koizuka Koyume, 4* Irokawa Ruki, 4* Katsuki Tsubasa",
+                "start": "June 13 2019, 17:00",
+                "end": "June 26 2019, 16:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -280,40 +259,6 @@ var timerData = [
                 start: "April 25 2019, 17:00",
                 end: "May 10 2019, 23:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "May Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/QA16URT.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "May 11 2019, 0:00",
-                end: "May 12 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "May 18 2019, 0:00",
-                end: "May 19 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "May 25 2019, 0:00",
-                end: "May 26 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "May 11 2019, 0:00",
-                end: "May 31 2019, 23:59",
-                keepAfterFinished: "6 hours",
-                type: "normal"
             }
         ]
     },
