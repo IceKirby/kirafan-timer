@@ -216,7 +216,27 @@ var timerData = [
             {
                 "name": "Featuring 5* Chiya [Christmas], 5* Kon [Swimsuit], 5* Koume [Valentine]",
                 "start": "May 31 2019, 17:00",
-                "end": "June 14 2019, 16:59"
+                "end": "June 14 2019, 16:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "NEW GAME! Limited Selection Summon",
+            "NEW GAME! 期間限定特別セレクション召喚"
+        ],
+        "image": "https://i.imgur.com/VD0BoAY.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            
+            {
+                "name": "Featuring 5* Hifumi [Christmas], 5* Hajime [Christmas], 5* Yun [Doll's Festival]",
+                "start": "June 14 2019, 17:00",
+                "end": "June 28 2019, 16:59",
+                "extraPriority": 5
             }
         ]
     },
