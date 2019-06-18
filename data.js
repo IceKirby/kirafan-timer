@@ -142,7 +142,7 @@ var timerData = [
             "PECO -A trial version-",
             "NEW GAME! Author Quest missions"
         ],
-        "image": "https://i.imgur.com/Z9QgBrj.png",
+        "image": "https://i.imgur.com/cSZaPSw.png",
         "column": 0,
         "priority": 1,
         "timers": [
@@ -181,7 +181,7 @@ var timerData = [
             "PECO -A trial version-",
             "NEW GAME! Author Quest summon"
         ],
-        "image": "https://i.imgur.com/Z9QgBrj.png",
+        "image": "https://i.imgur.com/cSZaPSw.png",
         "column": 1,
         "priority": 1,
         "timers": [
