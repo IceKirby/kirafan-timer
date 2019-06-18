@@ -112,29 +112,6 @@ var timerData = [
             }
         ]
     },
-     {
-        "type": "Mission",
-        "title": [
-            "Wandering Bounty Hunters Rin & Karen Missions",
-            "さすらいの賞金稼ぎ　リン＆カレン",
-            "Touyama Nao event missions"
-        ],
-        "image": "https://i.imgur.com/tqBweWK.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "May 30 2019, 17:00",
-                "end": "June 13 2019, 23:59",
-                "markers": {
-                    "Mission Set 2": "June 1 2019, 0:00",
-                    "Mission Set 3": "June 5 2019, 0:00"
-                },
-                "extraPriority": 2
-            }
-        ]
-    },
     {
         "type": "Mission",
         "title": [
@@ -159,26 +136,22 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Wandering Bounty Hunters Rin & Karen Summon",
-            "さすらいの賞金稼ぎ　リン＆カレン",
-            "Touyama Nao event summon"
+            "PECO -A trial version- Missions",
+            "PECO -A trial version-",
+            "NEW GAME! Author Quest missions"
         ],
-        "image": "https://i.imgur.com/tqBweWK.png",
-        "column": 1,
+        "image": "https://i.imgur.com/Z9QgBrj.png",
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Rin [Traveler of the Wasteland], 4* Kagamihara Nadeshiko",
-                "start": "May 30 2019, 17:00",
-                "end": "June 13 2019, 16:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Featuring 5* Karen [Foreign Magician], 4* Hanakoizumi An",
-                "start": "June 1 2019, 0:00",
-                "end": "June 13 2019, 16:59"
+                "name": "Missions",
+                "start": "June 19 2019, 17:00",
+                "end": "July 2 2019, 23:59",
+                "extraPriority": 2,
+                "info": "In addition to this, there will be another set of permanent missions."
             }
         ]
     },
@@ -204,19 +177,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Urara Meirochou Limited Selection",
-            "うらら迷路帖 期間限定特別セレクション召喚"
+            "PECO -A trial version- Summon",
+            "PECO -A trial version-",
+            "NEW GAME! Author Quest summon"
         ],
-        "image": "https://i.imgur.com/B9VWqIJ.png",
+        "image": "https://i.imgur.com/Z9QgBrj.png",
         "column": 1,
         "priority": 1,
         "timers": [
-            
             {
-                "name": "Featuring 5* Chiya [Christmas], 5* Kon [Swimsuit], 5* Koume [Valentine]",
-                "start": "May 31 2019, 17:00",
-                "end": "June 14 2019, 16:59",
+                "name": "Hotaru's side: Featuring 5* Hoshikawa Hotaru",
+                "start": "June 19 2019, 17:00",
+                "end": "July 3 2019, 11:59",
                 "extraPriority": 5
+            },
+            {
+                "name": "Momiji's side: Featuring 5* Mochizuki Momiji",
+                "start": "June 21 2019, 0:00",
+                "end": "July 3 2019, 11:59"
+            },
+            {
+                "name": "Tsubame's side: Featuring 5* Narumi Tsubame",
+                "start": "June 21 2019, 0:00",
+                "end": "July 3 2019, 11:59"
             }
         ]
     },
@@ -278,6 +261,24 @@ var timerData = [
                 start: "April 25 2019, 17:00",
                 end: "May 10 2019, 23:59",
                 keepAfterFinished: "1 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Main Quest Half Stamina Campaign",
+            "メインクエスト消費スタミナ1/2キャンペーン"
+        ],
+        image: "match",
+        column: 2,
+        timers: [
+            {
+                name: "For Main Quest chapters 1~8 + Extra Chapter",
+                start: "June 19 2019, 17:00",
+                end: "July 3 2019, 11:59",
+                keepAfterFinished: "1 hours",
+                info: "Doesn't include Prologue quest and Hard Mode"
             }
         ]
     },
