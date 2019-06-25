@@ -206,6 +206,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "New Characters Summon",
+            "新規キャラクターピックアップ召喚"
+        ],
+        "image": "https://i.imgur.com/4BaXZw0.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Hinata Yukari, 4* Oomichi Miyabi, 4* Nozaki Namiko",
+                "start": "June 26 2019, 17:00",
+                "end": "July 4 2019, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "NEW GAME! Limited Selection Summon",
             "NEW GAME! 期間限定特別セレクション召喚"
         ],
