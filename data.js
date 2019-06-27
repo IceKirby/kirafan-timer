@@ -241,6 +241,24 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Swimsuit Characters 2018 Limited Summon",
+            "期間限定2018水着キャラクターピックアップ召喚"
+        ],
+        "image": "https://i.imgur.com/qRigDpN.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First Half: Featuring 5* Yuki [Swimsuit], 5* Kaho [Swimsuit], 5* Aya [Swimsuit], 5* Kou [Swimsuit], 4* Tooru [Swimsuit], 4* Eiko [Swimsuit]",
+                "start": "June 28 2019, 17:00",
+                "end": "July 12 2019, 16:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "5* Ticket Summon",
