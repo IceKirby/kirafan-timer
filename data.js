@@ -36,46 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Wandering Bounty Hunters Rin & Karen",
-            "さすらいの賞金稼ぎ　リン＆カレン",
-            "Touyama Nao event"
-        ],
-        "image": "https://i.imgur.com/tqBweWK.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "May 30 2019, 17:00",
-                "end": "June 13 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "June 7 2019, 0:00",
-                    "Extra Chapter 2": "June 8 2019, 0:00",
-                    "Extra Chapter 3": "June 9 2019, 0:00",
-                    "Extra Chapter 4": "June 10 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "June 1 2019, 17:00",
-                "end": "June 13 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "June 5 2019, 17:00",
-                "end": "June 13 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 30 2019, 17:00",
-                "end": "June 20 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "[Re-run] First Issue! Comic Etowaria",
             "復刻・創刊！コミックエトワリア",
             "Comic Girls event re-run"
@@ -114,23 +74,63 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "[Re-run] Mysterious Island and the Trial of Bonds",
+            "復刻・謎の島と絆の試練",
+            "Harukana Receive event re-run"
+        ],
+        "image": "https://i.imgur.com/PENyYB5.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "July 3 2019, 17:00",
+                "end": "July 17 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "July 12 2019, 0:00",
+                    "Extra Chapter 2": "July 13 2019, 0:00",
+                    "Extra Chapter 3": "July 14 2019, 0:00",
+                    "Extra Chapter 4": "July 15 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "July 5 2019, 17:00",
+                "end": "July 17 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "July 7 2019, 17:00",
+                "end": "July 17 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 3 2019, 17:00",
+                "end": "July 24 2019, 11:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
-            "[Re-run] First Issue! Comic Etowaria Missions",
-            "復刻・創刊！コミックエトワリア",
-            "Comic Girls event re-run missions"
+            "[Re-run] Mysterious Island and the Trial of Bonds Missions",
+            "復刻・謎の島と絆の試練",
+            "Harukana Receive event re-run missions"
         ],
-        "image": "https://i.imgur.com/vydrUg1.png",
+        "image": "https://i.imgur.com/PENyYB5.png",
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "June 13 2019, 0:00",
-                "end": "June 26 2019, 23:59",
+                "start": "July 3 2019, 17:00",
+                "end": "July 17 2019, 13:59",
                 "markers": {
-                    "Mission Set 2": "June 15 2019, 0:00",
-                    "Mission Set 3": "June 17 2019, 0:00"
+                    "Mission Set 2": "July 5 2019, 0:00",
+                    "Mission Set 3": "July 7 2019, 0:00"
                 },
                 "extraPriority": 2
             }
@@ -159,19 +159,25 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "[Re-run] First Issue! Comic Etowaria Summon",
-            "復刻・創刊！コミックエトワリア",
-            "Comic Girls event re-run summon"
+            "[Re-run] Mysterious Island and the Trial of Bonds Summon",
+            "復刻・謎の島と絆の試練",
+            "Harukana Receive event re-run summon"
         ],
-        "image": "https://i.imgur.com/vydrUg1.png",
+        "image": "https://i.imgur.com/PENyYB5.png",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Koizuka Koyume, 4* Koizuka Koyume, 4* Irokawa Ruki, 4* Katsuki Tsubasa",
-                "start": "June 13 2019, 17:00",
-                "end": "June 26 2019, 16:59",
-                "extraPriority": 6
+                "name": "First Half: Featuring 5* Higa Kanata, 4* Higa Kanata, 4* Ooshiro Akari",
+                "start": "July 3 2019, 17:00",
+                "end": "July 17 2019, 16:59",
+                "extraPriority": 6,
+                "info": "Waku Waku Shequasar"
+            },
+            {
+                "name": "Second Half: Featuring 5* Tooyama Rin, 4* Thomas Claire, 4* Thomas Emily",
+                "start": "July 5 2019, 0:00",
+                "end": "July 17 2019, 16:59"
             }
         ]
     },
@@ -218,25 +224,6 @@ var timerData = [
                 "name": "Featuring 5* Hinata Yukari, 4* Oomichi Miyabi, 4* Nozaki Namiko",
                 "start": "June 26 2019, 17:00",
                 "end": "July 4 2019, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "NEW GAME! Limited Selection Summon",
-            "NEW GAME! 期間限定特別セレクション召喚"
-        ],
-        "image": "https://i.imgur.com/VD0BoAY.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            
-            {
-                "name": "Featuring 5* Hifumi [Christmas], 5* Hajime [Christmas], 5* Yun [Doll's Festival]",
-                "start": "June 14 2019, 17:00",
-                "end": "June 28 2019, 16:59",
                 "extraPriority": 5
             }
         ]
