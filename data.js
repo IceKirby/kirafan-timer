@@ -295,7 +295,7 @@ var timerData = [
             "まちカドまぞく参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
-        image: "match",
+        image: "lamp",
         column: 2,
         timers: [
             {
