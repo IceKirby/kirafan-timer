@@ -289,6 +289,66 @@ var timerData = [
         ]
     },
     {
+        type: "LoginDays",
+        title: [
+            "Machikado Mazoku participation Login Bonus",
+            "まちカドまぞく参戦決定記念ログインボーナス",
+            "20 Gems on days the anime airs"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Episode 1",
+                date: "July 11 2019"
+            },
+            {
+                name: "Episode 2",
+                date: "July 18 2019"
+            },
+            {
+                name: "Episode 3",
+                date: "July 25 2019"
+            },
+            {
+                name: "Episode 4",
+                date: "August 1 2019"
+            },
+            {
+                name: "Episode 5",
+                date: "August 8 2019"
+            },
+            {
+                name: "Episode 6",
+                date: "August 15 2019"
+            },
+            {
+                name: "Episode 7",
+                date: "August 22 2019"
+            },
+            {
+                name: "Episode 8",
+                date: "August 29 2019"
+            },
+            {
+                name: "Episode 9",
+                date: "September 5 2019"
+            },
+            {
+                name: "Episode 10",
+                date: "September 12 2019"
+            },
+            {
+                name: "Episode 11",
+                date: "September 19 2019"
+            },
+            {
+                name: "Episode 12",
+                date: "September 26 2019"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Main Quest Half Stamina Campaign",
@@ -303,50 +363,6 @@ var timerData = [
                 end: "July 3 2019, 11:59",
                 keepAfterFinished: "1 hours",
                 info: "Doesn't include Prologue quest and Hard Mode"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "June Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/4pOeoDv.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "June 1 2019, 0:00",
-                end: "June 2 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "June 8 2019, 0:00",
-                end: "June 9 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "June 15 2019, 0:00",
-                end: "June 16 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "June 22 2019, 0:00",
-                end: "June 23 2019, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "June 29 2019, 0:00",
-                end: "June 30 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "June 1 2019, 0:00",
-                end: "July 5 2019, 23:59",
-                keepAfterFinished: "6 hours",
-                type: "normal"
             }
         ]
     },
