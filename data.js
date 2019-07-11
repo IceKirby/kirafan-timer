@@ -36,46 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "[Re-run] First Issue! Comic Etowaria",
-            "復刻・創刊！コミックエトワリア",
-            "Comic Girls event re-run"
-        ],
-        "image": "https://i.imgur.com/vydrUg1.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "June 13 2019, 17:00",
-                "end": "June 26 2019, 13:59",
-                "markers": {
-                    "Extra Story 1": "June 21 2019, 0:00",
-                    "Extra Story 2": "June 22 2019, 0:00",
-                    "Extra Story 3": "June 23 2019, 0:00",
-                    "Extra Story 4": "June 24 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "June 15 2019, 17:00",
-                "end": "June 26 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "June 17 2019, 17:00",
-                "end": "June 26 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "June 13 2019, 17:00",
-                "end": "July 3 2019, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "[Re-run] Mysterious Island and the Trial of Bonds",
             "復刻・謎の島と絆の試練",
             "Harukana Receive event re-run"
@@ -114,6 +74,40 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "NEW EMOTION!",
+            "ＮＥＷ ＥＭＯＴＩＯＮ！",
+            "Cesame Mini-Event"
+        ],
+        "image": "https://i.imgur.com/tPbYDk4.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "July 13 2019, 0:00",
+                "end": "July 19 2019, 23:59",
+                "markers": {
+                    "Chapter 2": "July 14 2019, 0:00",
+                    "Chapter 3": "July 15 2019, 0:00",
+                    "Chapter 4": "July 16 2019, 0:00"
+                },
+                "extraPriority": 3
+            },
+            {
+                "name": "Challenge Quest",
+                "start": "July 13 2019, 0:00",
+                "end": "July 19 2019, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 13 2019, 0:00",
+                "end": "July 26 2019, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "[Re-run] Mysterious Island and the Trial of Bonds Missions",
@@ -133,26 +127,6 @@ var timerData = [
                     "Mission Set 3": "July 7 2019, 0:00"
                 },
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "PECO -A trial version- Missions",
-            "PECO -A trial version-",
-            "NEW GAME! Author Quest missions"
-        ],
-        "image": "https://i.imgur.com/cSZaPSw.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "June 19 2019, 17:00",
-                "end": "July 2 2019, 23:59",
-                "extraPriority": 2,
-                "info": "In addition to this, there will be another set of permanent missions."
             }
         ]
     },
@@ -184,53 +158,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "PECO -A trial version- Summon",
-            "PECO -A trial version-",
-            "NEW GAME! Author Quest summon"
-        ],
-        "image": "https://i.imgur.com/cSZaPSw.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Hotaru's side: Featuring 5* Hoshikawa Hotaru",
-                "start": "June 19 2019, 17:00",
-                "end": "July 3 2019, 11:59",
-                "extraPriority": 5
-            },
-            {
-                "name": "Momiji's side: Featuring 5* Mochizuki Momiji",
-                "start": "June 21 2019, 0:00",
-                "end": "July 3 2019, 11:59"
-            },
-            {
-                "name": "Tsubame's side: Featuring 5* Narumi Tsubame",
-                "start": "June 21 2019, 0:00",
-                "end": "July 3 2019, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "New Characters Summon",
-            "新規キャラクターピックアップ召喚"
-        ],
-        "image": "https://i.imgur.com/4BaXZw0.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Hinata Yukari, 4* Oomichi Miyabi, 4* Nozaki Namiko",
-                "start": "June 26 2019, 17:00",
-                "end": "July 4 2019, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Swimsuit Characters 2018 Limited Summon",
             "期間限定2018水着キャラクターピックアップ召喚"
         ],
@@ -242,6 +169,31 @@ var timerData = [
                 "name": "First Half: Featuring 5* Yuki [Swimsuit], 5* Kaho [Swimsuit], 5* Aya [Swimsuit], 5* Kou [Swimsuit], 4* Tooru [Swimsuit], 4* Eiko [Swimsuit]",
                 "start": "June 28 2019, 17:00",
                 "end": "July 12 2019, 16:59",
+                "extraPriority": 5
+            },
+            {
+                "name": "Second Half: Featuring 5* Kon [Swimsuit], 5* Yuzuko [Swimsuit], 5* Nadeshiko [Swimsuit], 5* Shizuku [Swimsuit], 4* Yumine [Swimsuit], 4* Kotone [Swimsuit]",
+                "start": "July 12 2019, 17:00",
+                "end": "July 26 2019, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "NEW EMOTION! Summon",
+            "ＮＥＷ ＥＭＯＴＩＯＮ！",
+            "Cesame Mini-Event summon"
+        ],
+        "image": "https://i.imgur.com/tPbYDk4.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Cesame",
+                "start": "July 13 2019, 0:00",
+                "end": "July 24 2019, 11:59",
                 "extraPriority": 5
             }
         ]
