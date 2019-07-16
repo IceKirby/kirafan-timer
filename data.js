@@ -355,7 +355,7 @@ var timerData = [
         ]
     },
     {
-        type: "LoginDays",
+        type: "Other",
         title: [
             "Summer Preparation Login Bonus",
             "夏の育成応援ログインボーナス",
@@ -365,32 +365,10 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "1st Login: 400 Exchange Medals",
-                date: "July 18 2019"
-            },
-            {
-                name: "2nd Login: 50 Exchange Medals",
-                date: "July 19 2019"
-            },
-            {
-                name: "3rd Login: 50 Exchange Medals",
-                date: "July 20 2019"
-            },
-            {
-                name: "4th Login: 50 Exchange Medals",
-                date: "July 21 2019"
-            },
-            {
-                name: "5th Login: 50 Exchange Medals",
-                date: "July 22 2019"
-            },
-            {
-                name: "6th Login: 50 Exchange Medals",
-                date: "July 23 2019"
-            },
-            {
-                name: "7th Login: 50 Exchange Medals",
-                date: "July 24 2019"
+                name: "1st Login: 400 Exchange Medals | Other Days: 50 Exchange Medals",
+                start: "July 18 2019, 0:00",
+                end: "July 24 2019, 23:59",
+                keepAfterFinished: "1 hours"
             }
         ]
     },
