@@ -108,6 +108,41 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Etowaria Summer One-Shots 2019",
+            "エトワリア夏の一幕2019",
+            "Summer 2019 Mini-Event"
+        ],
+        "image": "https://i.imgur.com/HjBxxvM.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "July 18 2019, 0:00",
+                "end": "July 24 2019, 23:59",
+                "markers": {
+                    "Chapter 2": "July 19 2019, 0:00",
+                    "Chapter 3": "July 20 2019, 0:00",
+                    "Chapter 4": "July 21 2019, 0:00",
+                    "Chapter 5": "July 22 2019, 0:00"
+                },
+                "extraPriority": 3
+            },
+            {
+                "name": "Melee Quest",
+                "start": "July 18 2019, 0:00",
+                "end": "July 24 2019, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 18 2019, 0:00",
+                "end": "July 31 2019, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "[Re-run] Mysterious Island and the Trial of Bonds Missions",
@@ -195,6 +230,25 @@ var timerData = [
                 "start": "July 13 2019, 0:00",
                 "end": "July 24 2019, 11:59",
                 "extraPriority": 5
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Daily Free 10x Summon",
+            "1日1回無料10回召喚",
+            "One free 10x Summon per day"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "July 18 2019, 0:00",
+                end: "July 24 2019, 23:59",
+                extraPriority: 7
             }
         ]
     },
@@ -301,6 +355,46 @@ var timerData = [
         ]
     },
     {
+        type: "LoginDays",
+        title: [
+            "Summer Preparation Login Bonus",
+            "夏の育成応援ログインボーナス",
+            "Up to 700 Exchange Medals"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "1st Login: 400 Exchange Medals",
+                date: "July 18 2019"
+            },
+            {
+                name: "2nd Login: 50 Exchange Medals",
+                date: "July 19 2019"
+            },
+            {
+                name: "3rd Login: 50 Exchange Medals",
+                date: "July 20 2019"
+            },
+            {
+                name: "4th Login: 50 Exchange Medals",
+                date: "July 21 2019"
+            },
+            {
+                name: "5th Login: 50 Exchange Medals",
+                date: "July 22 2019"
+            },
+            {
+                name: "6th Login: 50 Exchange Medals",
+                date: "July 23 2019"
+            },
+            {
+                name: "7th Login: 50 Exchange Medals",
+                date: "July 24 2019"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Main Quest Half Stamina Campaign",
@@ -310,11 +404,11 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "For Main Quest chapters 1~8 + Extra Chapter",
-                start: "June 19 2019, 17:00",
-                end: "July 3 2019, 11:59",
+                name: "For Main Quest",
+                start: "July 18 2019, 0:00",
+                end: "July 24 2019, 23:59",
                 keepAfterFinished: "1 hours",
-                info: "Doesn't include Prologue quest and Hard Mode"
+                info: "Doesn't include Hard Mode"
             }
         ]
     },
@@ -365,6 +459,23 @@ var timerData = [
                 name: "Period",
                 start: "January 31 2019, 17:00",
                 end: "February 15 2019, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Limited Special Evolution Sets",
+            "期間限定！お得な進化セット登場！",
+            "Evolution Item Sets on Trade Shop"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "July 18 2019, 0:00",
+                end: "July 24 2019, 23:59"
             }
         ]
     },
