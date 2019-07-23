@@ -143,23 +143,65 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Ryuuguu Adventure",
+            "リュウグウ・アドベンチャー",
+            "Summer 2019 Event"
+        ],
+        "image": "https://i.imgur.com/OVJl0qa.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "July 24 2019, 17:00",
+                "end": "August 26 2019, 13:59",
+                "markers": {
+                    "Season 2": "July 27 2019, 17:00",
+                    "Season 3": "July 29 2019, 17:00",
+                    "Intermission 1": "August 2 2019, 0:00",
+                    "Intermission 2": "August 3 2019, 0:00",
+                    "Intermission 3": "August 4 2019, 0:00",
+                    "Intermission 4": "August 5 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "July 31 2019, 17:00",
+                "end": "August 26 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "August 1 2019, 17:00",
+                "end": "August 26 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 24 2019, 17:00",
+                "end": "September 2 2019, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
-            "[Re-run] Mysterious Island and the Trial of Bonds Missions",
-            "復刻・謎の島と絆の試練",
-            "Harukana Receive event re-run missions"
+            "Ryuuguu Adventure Missions",
+            "リュウグウ・アドベンチャー",
+            "Summer 2019 Event missions"
         ],
-        "image": "https://i.imgur.com/PENyYB5.png",
+        "image": "https://i.imgur.com/OVJl0qa.png",
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "July 3 2019, 17:00",
-                "end": "July 17 2019, 13:59",
+                "start": "July 24 2019, 17:00",
+                "end": "August 26 2019, 23:59",
                 "markers": {
-                    "Mission Set 2": "July 5 2019, 0:00",
-                    "Mission Set 3": "July 7 2019, 0:00"
+                    "Mission Set 2": "July 31 2019, 0:00",
+                    "Mission Set 3": "August 1 2019, 0:00"
                 },
                 "extraPriority": 2
             }
@@ -187,6 +229,25 @@ var timerData = [
                 "name": "Second Half: Featuring 5* Tooyama Rin, 4* Thomas Claire, 4* Thomas Emily",
                 "start": "July 5 2019, 0:00",
                 "end": "July 17 2019, 16:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Ryuuguu Adventure Summon",
+            "リュウグウ・アドベンチャー",
+            "Summer 2019 Event summon"
+        ],
+        "image": "https://i.imgur.com/1OpWxtQ.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Maika [Swimsuit], 5* Aoi [Swimsuit]",
+                "start": "July 24 2019, 17:00",
+                "end": "August 27 2019, 11:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -265,14 +326,14 @@ var timerData = [
         timers: [
             {
                 name: "Summon Period",
-                start: "May 30 2019, 17:00",
-                end: "June 13 2019, 16:59",
+                start: "July 24 2019, 17:00",
+                end: "August 2 2019, 23:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "May 30 2019, 17:00",
-                end: "June 20 2019, 23:59"
+                start: "July 24 2019, 17:00",
+                end: "September 3 2019, 23:59"
             }
         ]
     },
@@ -427,16 +488,33 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Valentine Room Decorations",
-            "New and Past Valentine-themed items"
+            "Limited Summer Festival Room Decorations",
+            "夏祭りを感じる！ルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 31 2019, 17:00",
-                end: "February 15 2019, 13:59"
+                start: "July 24 2019, 17:00",
+                end: "August 27 2019, 11:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Fresh Summer's Bottle Weapon",
+            "トレードショップに夏限定のぶきが再登場",
+            "Limited alchemist weapon at Trade Shop"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "July 24 2019, 17:00",
+                end: "August 27 2019, 11:59"
             }
         ]
     },
@@ -460,8 +538,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "500 Days Celebration Sale",
-            "500日記念セール",
+            "Summer Vacation Gem Sale",
+            "夏休み限定！星彩石2000個セット",
             "Discounted Gem Set prices"
         ],
         image: "kanna",
@@ -469,8 +547,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "April 25 2019, 17:00",
-                end: "May 10 2019, 23:59"
+                start: "July 24 2019, 17:00",
+                end: "August 15 2019, 23:59"
             }
         ]
     }
