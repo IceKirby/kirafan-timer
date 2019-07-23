@@ -235,9 +235,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Ryuuguu Adventure Summon",
-            "リュウグウ・アドベンチャー",
-            "Summer 2019 Event summon"
+            "Limited-time Swimsuit Characters 2019 Summon",
+            "期間限定2019水着キャラクターピックアップ召喚"
         ],
         "image": "https://i.imgur.com/1OpWxtQ.png",
         "column": 1,
@@ -495,7 +494,7 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "Period",
+                name: "Part 1",
                 start: "July 24 2019, 17:00",
                 end: "August 27 2019, 11:59"
             }
