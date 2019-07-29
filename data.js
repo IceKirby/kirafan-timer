@@ -247,6 +247,11 @@ var timerData = [
                 "start": "July 24 2019, 17:00",
                 "end": "August 27 2019, 11:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Kurumi [Swimsuit], 5* Kaos [Swimsuit]",
+                "start": "July 31 2019, 0:00",
+                "end": "August 27 2019, 11:59"
             }
         ]
     },
@@ -315,6 +320,30 @@ var timerData = [
     {
         type: "Gacha",
         title: [
+            "600 Days Celebration Choosable 5* Ticket Summon",
+            "リリース600日記念★5選べるチケット付き！有償限定10回召喚",
+            "300 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "August 2 2019, 0:00",
+                end: "August 15 2019, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "August 2 2019, 0:00",
+                end: "August 22 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
             "5* Ticket Summon",
             "★5確定チケット付き！有償限定10回召喚",
             "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
@@ -339,8 +368,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "500 Days Celebration Login Bonus",
-            "500日記念ログインボーナス",
+            "600 Days Celebration Login Bonus",
+            "600日記念ログインボーナス",
             "Login on 10 days for up to 300 gems"
         ],
         image: "kirara",
@@ -348,8 +377,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "April 25 2019, 17:00",
-                end: "May 10 2019, 23:59",
+                start: "August 2 2019, 0:00",
+                end: "August 15 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
         ]
@@ -411,24 +440,6 @@ var timerData = [
             {
                 name: "Episode 12",
                 date: "September 26 2019"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Summer Preparation Login Bonus",
-            "夏の育成応援ログインボーナス",
-            "Up to 700 Exchange Medals"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "1st Login: 400 Exchange Medals | Other Days: 50 Exchange Medals",
-                start: "July 18 2019, 0:00",
-                end: "July 24 2019, 23:59",
-                keepAfterFinished: "1 hours"
             }
         ]
     },
@@ -547,6 +558,23 @@ var timerData = [
             {
                 name: "Period",
                 start: "July 24 2019, 17:00",
+                end: "August 15 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "600 Days Celebration Gem Sale",
+            "６００日記念セールお得な星彩石セット",
+            "Discounted Gem Set prices"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "August 2 2019, 0:00",
                 end: "August 15 2019, 23:59"
             }
         ]
