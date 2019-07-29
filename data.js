@@ -169,7 +169,7 @@ var timerData = [
         timers: [
             {
                 name: "Summon Period",
-                start: "August 2 2019, 0:00",
+                start: "August 2 2019, 17:00",
                 end: "August 15 2019, 23:59",
                 extraPriority: 4
             },
