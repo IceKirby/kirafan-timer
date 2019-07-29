@@ -36,80 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "[Re-run] Mysterious Island and the Trial of Bonds",
-            "復刻・謎の島と絆の試練",
-            "Harukana Receive event re-run"
-        ],
-        "image": "https://i.imgur.com/PENyYB5.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "July 3 2019, 17:00",
-                "end": "July 17 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "July 12 2019, 0:00",
-                    "Extra Chapter 2": "July 13 2019, 0:00",
-                    "Extra Chapter 3": "July 14 2019, 0:00",
-                    "Extra Chapter 4": "July 15 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "July 5 2019, 17:00",
-                "end": "July 17 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "July 7 2019, 17:00",
-                "end": "July 17 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "July 3 2019, 17:00",
-                "end": "July 24 2019, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "NEW EMOTION!",
-            "ＮＥＷ ＥＭＯＴＩＯＮ！",
-            "Cesame Mini-Event"
-        ],
-        "image": "https://i.imgur.com/tPbYDk4.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "July 13 2019, 0:00",
-                "end": "July 19 2019, 23:59",
-                "markers": {
-                    "Chapter 2": "July 14 2019, 0:00",
-                    "Chapter 3": "July 15 2019, 0:00",
-                    "Chapter 4": "July 16 2019, 0:00"
-                },
-                "extraPriority": 3
-            },
-            {
-                "name": "Challenge Quest",
-                "start": "July 13 2019, 0:00",
-                "end": "July 19 2019, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "July 13 2019, 0:00",
-                "end": "July 26 2019, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Etowaria Summer One-Shots 2019",
             "エトワリア夏の一幕2019",
             "Summer 2019 Mini-Event"
@@ -210,31 +136,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "[Re-run] Mysterious Island and the Trial of Bonds Summon",
-            "復刻・謎の島と絆の試練",
-            "Harukana Receive event re-run summon"
-        ],
-        "image": "https://i.imgur.com/PENyYB5.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Higa Kanata, 4* Higa Kanata, 4* Ooshiro Akari",
-                "start": "July 3 2019, 17:00",
-                "end": "July 17 2019, 16:59",
-                "extraPriority": 6,
-                "info": "Waku Waku Shequasar"
-            },
-            {
-                "name": "Second Half: Featuring 5* Tooyama Rin, 4* Thomas Claire, 4* Thomas Emily",
-                "start": "July 5 2019, 0:00",
-                "end": "July 17 2019, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Limited-time Swimsuit Characters 2019 Summon",
             "期間限定2019水着キャラクターピックアップ召喚"
         ],
@@ -256,73 +157,11 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Swimsuit Characters 2018 Limited Summon",
-            "期間限定2018水着キャラクターピックアップ召喚"
-        ],
-        "image": "https://i.imgur.com/qRigDpN.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Yuki [Swimsuit], 5* Kaho [Swimsuit], 5* Aya [Swimsuit], 5* Kou [Swimsuit], 4* Tooru [Swimsuit], 4* Eiko [Swimsuit]",
-                "start": "June 28 2019, 17:00",
-                "end": "July 12 2019, 16:59",
-                "extraPriority": 5
-            },
-            {
-                "name": "Second Half: Featuring 5* Kon [Swimsuit], 5* Yuzuko [Swimsuit], 5* Nadeshiko [Swimsuit], 5* Shizuku [Swimsuit], 4* Yumine [Swimsuit], 4* Kotone [Swimsuit]",
-                "start": "July 12 2019, 17:00",
-                "end": "July 26 2019, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "NEW EMOTION! Summon",
-            "ＮＥＷ ＥＭＯＴＩＯＮ！",
-            "Cesame Mini-Event summon"
-        ],
-        "image": "https://i.imgur.com/tPbYDk4.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Cesame",
-                "start": "July 13 2019, 0:00",
-                "end": "July 24 2019, 11:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Daily Free 10x Summon",
-            "1日1回無料10回召喚",
-            "One free 10x Summon per day"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "July 18 2019, 0:00",
-                end: "July 24 2019, 23:59",
-                extraPriority: 7
-            }
-        ]
-    },
-    {
         type: "Gacha",
         title: [
             "600 Days Celebration Choosable 5* Ticket Summon",
             "リリース600日記念★5選べるチケット付き！有償限定10回召喚",
-            "300 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
