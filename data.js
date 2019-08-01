@@ -335,6 +335,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "August Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/SeyUKHM.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "August 3 2019, 0:00",
+                end: "August 4 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "August 10 2019, 0:00",
+                end: "August 11 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "August 17 2019, 0:00",
+                end: "August 18 2019, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "August 24 2019, 0:00",
+                end: "August 25 2019, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "August 31 2019, 0:00",
+                end: "September 1 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "August 3 2019, 0:00",
+                end: "September 6 2019, 23:59",
+                keepAfterFinished: "6 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Summer Festival Room Decorations",
