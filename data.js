@@ -35,41 +35,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Etowaria Summer One-Shots 2019",
-            "エトワリア夏の一幕2019",
-            "Summer 2019 Mini-Event"
-        ],
-        "image": "https://i.imgur.com/HjBxxvM.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "July 18 2019, 0:00",
-                "end": "July 24 2019, 23:59",
-                "markers": {
-                    "Chapter 2": "July 19 2019, 0:00",
-                    "Chapter 3": "July 20 2019, 0:00",
-                    "Chapter 4": "July 21 2019, 0:00",
-                    "Chapter 5": "July 22 2019, 0:00"
-                },
-                "extraPriority": 3
-            },
-            {
-                "name": "Melee Quest",
-                "start": "July 18 2019, 0:00",
-                "end": "July 24 2019, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "July 18 2019, 0:00",
-                "end": "July 31 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Ryuuguu Adventure",
             "リュウグウ・アドベンチャー",
             "Summer 2019 Event"
@@ -110,6 +75,51 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Pirates of Etowaria",
+            "パイレーツオブエトワリア",
+            "Summer 2019 Event 2"
+        ],
+        "image": "https://i.imgur.com/viFHPiR.png",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "August 8 2019, 17:00",
+                "end": "August 26 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "August 22 2019, 0:00",
+                    "Extra Chapter 2": "August 23 2019, 0:00",
+                    "Extra Chapter 3": "August 24 2019, 0:00",
+                    "Extra Chapter 4": "August 25 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "August 10 2019, 17:00",
+                "end": "August 26 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "August 12 2019, 17:00",
+                "end": "August 26 2019, 13:59"
+            },
+            {
+                "name": "Super EX Quest",
+                "start": "August 15 2019, 17:00",
+                "end": "August 26 2019, 13:59"
+            },
+            {
+                "name": "Mystery Treasure Box",
+                "start": "August 8 2019, 17:00",
+                "end": "September 2 2019, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Ryuuguu Adventure Missions",
@@ -127,6 +137,29 @@ var timerData = [
                 "markers": {
                     "Mission Set 2": "July 31 2019, 0:00",
                     "Mission Set 3": "August 1 2019, 0:00"
+                },
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Pirates of Etowaria Missions",
+            "パイレーツオブエトワリア",
+            "Summer 2019 Event 2 missions"
+        ],
+        "image": "https://i.imgur.com/viFHPiR.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "August 8 2019, 17:00",
+                "end": "August 26 2019, 23:59",
+                "markers": {
+                    "Mission Set 2": "August 10 2019, 0:00",
+                    "Mission Set 3": "August 12 2019, 0:00"
                 },
                 "extraPriority": 2
             }
@@ -151,6 +184,11 @@ var timerData = [
             {
                 "name": "Part 2: Featuring 5* Kurumi [Swimsuit], 5* Kaos [Swimsuit]",
                 "start": "July 31 2019, 0:00",
+                "end": "August 27 2019, 11:59"
+            },
+            {
+                "name": "Part 3: Featuring 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
+                "start": "August 8 2019, 17:00",
                 "end": "August 27 2019, 11:59"
             }
         ]
@@ -191,9 +229,15 @@ var timerData = [
         priority: 1,
         timers: [
             {
-                name: "Summon Period",
+                name: "Part 1 - Summon Period",
                 start: "July 24 2019, 17:00",
                 end: "August 2 2019, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Part 2 - Summon Period",
+                start: "August 8 2019, 17:00",
+                end: "August 27 2019, 23:59",
                 extraPriority: 4
             },
             {
@@ -216,6 +260,24 @@ var timerData = [
             {
                 name: "Period",
                 start: "August 2 2019, 0:00",
+                end: "August 15 2019, 23:59",
+                keepAfterFinished: "1 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Summer Vacation Bonus",
+            "夏休み特別ボーナス！",
+            "Login once to receive 100 gems"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "August 8 2019, 17:00",
                 end: "August 15 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
@@ -284,52 +346,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Half Stamina Campaign",
-            "メインクエスト消費スタミナ1/2キャンペーン"
+            "Author Quest Half Stamina Campaign",
+            "作家クエスト消費スタミナ1/2キャンペーン"
         ],
         image: "match",
         column: 2,
         timers: [
             {
-                name: "For Main Quest",
-                start: "July 18 2019, 0:00",
-                end: "July 24 2019, 23:59",
-                keepAfterFinished: "1 hours",
-                info: "Doesn't include Hard Mode"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "July Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/EOBbkLn.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "July 6 2019, 0:00",
-                end: "July 7 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "July 20 2019, 0:00",
-                end: "July 21 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "July 27 2019, 0:00",
-                end: "July 28 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "July 6 2019, 0:00",
-                end: "August 2 2019, 23:59",
-                keepAfterFinished: "6 hours",
-                type: "normal"
+                name: "For Author Quests",
+                start: "August 15 2019, 0:00",
+                end: "August 27 2019, 13:59",
+                keepAfterFinished: "1 hours"
             }
         ]
     },
@@ -380,15 +407,20 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Summer Festival Room Decorations",
+            "Limited Summer Room Decorations",
             "夏祭りを感じる！ルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
-                name: "Part 1",
+                name: "Part 1 - Summer Festival Set",
                 start: "July 24 2019, 17:00",
+                end: "August 27 2019, 11:59"
+            },
+            {
+                name: "Part 2 - Pirates Set",
+                start: "August 8 2019, 17:00",
                 end: "August 27 2019, 11:59"
             }
         ]
@@ -413,23 +445,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Special Evolution Sets",
-            "期間限定！お得な進化セット登場！",
-            "Evolution Item Sets on Trade Shop"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "July 18 2019, 0:00",
-                end: "July 24 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Summer Vacation Gem Sale",
             "夏休み限定！星彩石2000個セット",
             "Discounted Gem Set prices"
@@ -438,9 +453,14 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "Period",
+                name: "Part 1",
                 start: "July 24 2019, 17:00",
                 end: "August 15 2019, 23:59"
+            },
+            {
+                name: "Part 2",
+                start: "August 8 2019, 17:00",
+                end: "August 27 2019, 23:59"
             }
         ]
     },
