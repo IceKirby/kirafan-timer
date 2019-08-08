@@ -66,7 +66,7 @@ Vue.component("bar-mark", {
 
 Vue.component("ev-thumb", {
     props: ["ev"],
-    template: "<div class='thumb'><transition name='thumb-change'><img :src='currentImg' :key='currentImg' class='img-fluid'></transition> <div class='type'><span>{{ ev.type | typeName }}</span></div> </div>",
+    template: "<div class='thumb'><transition name='thumb-change'><img :src='ev.image' :key='ev.image' class='img-fluid'></transition> <div class='type'><span>{{ ev.type | typeName }}</span></div> </div>",
     filters: {
         typeName: function (value) {
             switch (value.toLowerCase()) {
@@ -77,31 +77,6 @@ Vue.component("ev-thumb", {
                 default:
                     return value.charAt(0).toUpperCase() + value.slice(1);
             }
-        }
-    },
-    data: function() {
-        return {
-            currentImg: "",
-            currentCount: 0,
-            timer: null
-        };
-    },
-    methods: {
-        rotateThumb: function() {
-            this.currentCount += 1;
-            if (this.currentCount >= this.ev.image.length) {
-                this.currentCount = 0;
-            }
-            this.currentImg = this.ev.image[this.currentCount];
-        }
-    },
-    created: function() {
-        if (Array.isArray(this.ev.image)) {
-            this.currentCount = Math.floor(Math.random() * this.ev.image.length);
-            this.currentImg = this.ev.image[this.currentCount];
-            timer = setInterval(this.rotateThumb, 7 * 1000);
-        } else {
-            this.currentImg = this.ev.image;
         }
     }
 });
