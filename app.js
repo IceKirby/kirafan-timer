@@ -55,7 +55,9 @@ var vm = new Vue({
         currentZone: "japan",
         japanTime: null,
         localTime: null,
-        timersData: null
+        timersData: null,
+        thumbChangeCount: 0,
+        thumbChangeTime: 7
     },
     methods: {
         changeTimezone: function(place) {
@@ -114,9 +116,11 @@ var vm = new Vue({
                     ev.image = thumbnailMap.none;
                 } else {
                     if (Array.isArray(ev.image)) {
-                        var processed = ev.image.map(function(x) {
+                        ev.imageStep = Math.floor(Math.random() * ev.image.length);
+                        ev.imageList = ev.image.map(function(x) {
                             return thumbnailMap.hasOwnProperty(x.toLowerCase()) ? thumbnailMap[x.toLowerCase()] : x;
                         });
+                        ev.image = ev.imageList[ev.imageStep];
                     } else if (thumbnailMap.hasOwnProperty(ev.image.toLowerCase())) {
                         ev.image = thumbnailMap[ev.image.toLowerCase()];
                     }
@@ -221,6 +225,12 @@ var vm = new Vue({
             var now = nowMoment._d.getTime();
             var localZone = moment.tz.guess();
             
+            var changeThumbs = this.thumbChangeCount >= this.thumbChangeTime;
+            this.thumbChangeCount += 1;
+            if (changeThumbs) {
+                this.thumbChangeCount = 0;
+            }
+            
             for (c = 0; c < data.length; c++) { // Check each column
                 col = data[c];
                 for (e = 0; e < col.length; e++) { // Check each event group
@@ -318,6 +328,14 @@ var vm = new Vue({
                         ev.nextTimer = "Next date starts in " + this.remainingTimeString(now, nextDate, 2);
                     } else {
                         ev.nextTimer = "Current date finishes in " + this.remainingTimeString(now, nextDate, 2);
+                    }
+                    
+                    if (changeThumbs && ev.imageList) {
+                        ev.imageStep++;
+                        if (ev.imageStep >= ev.imageList.length) {
+                            ev.imageStep = 0;
+                        }
+                        ev.image = ev.imageList[ev.imageStep];
                     }
 
                     // Check if event should be visible
