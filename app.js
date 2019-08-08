@@ -112,8 +112,14 @@ var vm = new Vue({
 
                 if (!ev.image) {
                     ev.image = thumbnailMap.none;
-                } else if (thumbnailMap.hasOwnProperty(ev.image.toLowerCase())) {
-                    ev.image = thumbnailMap[ev.image.toLowerCase()];
+                } else {
+                    if (Array.isArray(ev.image)) {
+                        var processed = ev.image.map(function(x) {
+                            return thumbnailMap.hasOwnProperty(x.toLowerCase()) ? thumbnailMap[x.toLowerCase()] : x;
+                        });
+                    } else if (thumbnailMap.hasOwnProperty(ev.image.toLowerCase())) {
+                        ev.image = thumbnailMap[ev.image.toLowerCase()];
+                    }
                 }
 
                 evExtra = this.toDurationObject(ev.keepAfterFinished);

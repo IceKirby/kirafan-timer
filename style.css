@@ -32,6 +32,7 @@ body {
     min-height: 120px;
     max-width: 120px;
     max-height: 120px;
+    overflow: hidden;
 }
 .thumb .type {
     position: absolute;
@@ -43,6 +44,21 @@ body {
     color: white;
     font-weight: bold;
     padding: 0.1rem;
+}
+.img-fluid {
+    position: absolute;
+}
+
+.thumb-change-enter-active, .thumb-change-leave-active {
+    transition: all 0.5s ease-out;
+}
+.thumb-change-enter {
+    /* opacity: 0; */
+    transform: translateX(-120px);
+}
+.thumb-change-leave-to {
+    /* opacity: 0; */
+    transform: translateX(120px);
 }
 
 /* Title box */

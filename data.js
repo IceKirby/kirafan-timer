@@ -39,7 +39,13 @@ var timerData = [
             "リュウグウ・アドベンチャー",
             "Summer 2019 Event"
         ],
-        "image": "https://i.imgur.com/OVJl0qa.png",
+        "image": [
+            "https://i.imgur.com/OVJl0qa.png",
+            "https://i.imgur.com/1OpWxtQ.png",
+            "https://i.imgur.com/DF7452J.png",
+            "https://i.imgur.com/zqSt0iN.png",
+            "https://i.imgur.com/a5qzy56.png"
+        ],
         "column": 0,
         "priority": 2,
         "timers": [
@@ -81,7 +87,12 @@ var timerData = [
             "パイレーツオブエトワリア",
             "Summer 2019 Event 2"
         ],
-        "image": "https://i.imgur.com/viFHPiR.png",
+        "image": [
+            "https://i.imgur.com/RKjxYhe.png",
+            "https://i.imgur.com/viFHPiR.png",
+            "https://i.imgur.com/6urm3Vk.png",
+            "https://i.imgur.com/aCTIFx3.png"
+        ],
         "column": 0,
         "priority": 2,
         "timers": [
@@ -126,7 +137,13 @@ var timerData = [
             "リュウグウ・アドベンチャー",
             "Summer 2019 Event missions"
         ],
-        "image": "https://i.imgur.com/OVJl0qa.png",
+        "image": [
+            "https://i.imgur.com/OVJl0qa.png",
+            "https://i.imgur.com/1OpWxtQ.png",
+            "https://i.imgur.com/DF7452J.png",
+            "https://i.imgur.com/zqSt0iN.png",
+            "https://i.imgur.com/a5qzy56.png"
+        ],
         "column": 0,
         "priority": 1,
         "timers": [
@@ -149,7 +166,12 @@ var timerData = [
             "パイレーツオブエトワリア",
             "Summer 2019 Event 2 missions"
         ],
-        "image": "https://i.imgur.com/viFHPiR.png",
+        "image": [
+            "https://i.imgur.com/RKjxYhe.png",
+            "https://i.imgur.com/viFHPiR.png",
+            "https://i.imgur.com/6urm3Vk.png",
+            "https://i.imgur.com/aCTIFx3.png"
+        ],
         "column": 0,
         "priority": 1,
         "timers": [
@@ -171,7 +193,15 @@ var timerData = [
             "Limited-time Swimsuit Characters 2019 Summon",
             "期間限定2019水着キャラクターピックアップ召喚"
         ],
-        "image": "https://i.imgur.com/1OpWxtQ.png",
+        "image": [
+            "https://i.imgur.com/1OpWxtQ.png",
+            "https://i.imgur.com/DF7452J.png",
+            "https://i.imgur.com/zqSt0iN.png",
+            "https://i.imgur.com/a5qzy56.png",
+            "https://i.imgur.com/RKjxYhe.png",
+            "https://i.imgur.com/viFHPiR.png",
+            "https://i.imgur.com/6urm3Vk.png"
+        ],
         "column": 1,
         "priority": 1,
         "timers": [
