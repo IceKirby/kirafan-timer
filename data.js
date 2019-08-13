@@ -91,7 +91,9 @@ var timerData = [
             "https://i.imgur.com/RKjxYhe.png",
             "https://i.imgur.com/viFHPiR.png",
             "https://i.imgur.com/6urm3Vk.png",
-            "https://i.imgur.com/aCTIFx3.png"
+            "https://i.imgur.com/aCTIFx3.png",
+            "https://i.imgur.com/assnuAi.png",
+            "https://i.imgur.com/HkzJiPf.png"
         ],
         "column": 0,
         "priority": 2,
@@ -170,7 +172,9 @@ var timerData = [
             "https://i.imgur.com/RKjxYhe.png",
             "https://i.imgur.com/viFHPiR.png",
             "https://i.imgur.com/6urm3Vk.png",
-            "https://i.imgur.com/aCTIFx3.png"
+            "https://i.imgur.com/aCTIFx3.png",
+            "https://i.imgur.com/assnuAi.png",
+            "https://i.imgur.com/HkzJiPf.png"
         ],
         "column": 0,
         "priority": 1,
@@ -200,7 +204,9 @@ var timerData = [
             "https://i.imgur.com/a5qzy56.png",
             "https://i.imgur.com/RKjxYhe.png",
             "https://i.imgur.com/viFHPiR.png",
-            "https://i.imgur.com/6urm3Vk.png"
+            "https://i.imgur.com/6urm3Vk.png",
+            "https://i.imgur.com/assnuAi.png",
+            "https://i.imgur.com/HkzJiPf.png"
         ],
         "column": 1,
         "priority": 1,
@@ -219,6 +225,11 @@ var timerData = [
             {
                 "name": "Part 3: Featuring 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
                 "start": "August 8 2019, 17:00",
+                "end": "August 27 2019, 11:59"
+            },
+            {
+                "name": "Part 4: Featuring 5* Nene [Swimsuit], 5* Hana",
+                "start": "August 15 2019, 0:00",
                 "end": "August 27 2019, 11:59"
             }
         ]
