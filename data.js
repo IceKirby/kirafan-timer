@@ -193,6 +193,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Kiniro Darkness Missions",
+            "きんいろダークネス",
+            "Kiniro Mosaic Author Quest missions"
+        ],
+        "image": [
+            "https://i.imgur.com/Gzqyoiq.png",
+            "https://i.imgur.com/GNgzSSD.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "August 27 2019, 17:00",
+                "end": "September 10 2019, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Limited-time Swimsuit Characters 2019 Summon",
@@ -232,6 +255,33 @@ var timerData = [
                 "name": "Part 4: Featuring 5* Nene [Swimsuit], 5* Hana",
                 "start": "August 15 2019, 0:00",
                 "end": "August 27 2019, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kiniro Darkness Summon",
+            "きんいろダークネス",
+            "Kiniro Mosaic Author Quest summon"
+        ],
+        "image": [
+            "https://i.imgur.com/Gzqyoiq.png",
+            "https://i.imgur.com/GNgzSSD.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Alice side: Featuring 5* Alice Cartelet",
+                "start": "August 27 2019, 17:00",
+                "end": "September 11 2019, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Honoka side: Featuring 5* Matsubara Honoka",
+                "start": "August 27 2019, 17:00",
+                "end": "September 11 2019, 13:59"
             }
         ]
     },
