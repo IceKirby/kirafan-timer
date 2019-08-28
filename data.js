@@ -136,65 +136,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Ryuuguu Adventure Missions",
-            "リュウグウ・アドベンチャー",
-            "Summer 2019 Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/OVJl0qa.png",
-            "https://i.imgur.com/1OpWxtQ.png",
-            "https://i.imgur.com/DF7452J.png",
-            "https://i.imgur.com/zqSt0iN.png",
-            "https://i.imgur.com/a5qzy56.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "July 24 2019, 17:00",
-                "end": "August 26 2019, 23:59",
-                "markers": {
-                    "Mission Set 2": "July 31 2019, 0:00",
-                    "Mission Set 3": "August 1 2019, 0:00"
-                },
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Pirates of Etowaria Missions",
-            "パイレーツオブエトワリア",
-            "Summer 2019 Event 2 missions"
-        ],
-        "image": [
-            "https://i.imgur.com/RKjxYhe.png",
-            "https://i.imgur.com/viFHPiR.png",
-            "https://i.imgur.com/6urm3Vk.png",
-            "https://i.imgur.com/aCTIFx3.png",
-            "https://i.imgur.com/assnuAi.png",
-            "https://i.imgur.com/HkzJiPf.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "August 8 2019, 17:00",
-                "end": "August 26 2019, 23:59",
-                "markers": {
-                    "Mission Set 2": "August 10 2019, 0:00",
-                    "Mission Set 3": "August 12 2019, 0:00"
-                },
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Kiniro Darkness Missions",
             "きんいろダークネス",
             "Kiniro Mosaic Author Quest missions"
@@ -212,49 +153,6 @@ var timerData = [
                 "end": "September 10 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Swimsuit Characters 2019 Summon",
-            "期間限定2019水着キャラクターピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/1OpWxtQ.png",
-            "https://i.imgur.com/DF7452J.png",
-            "https://i.imgur.com/zqSt0iN.png",
-            "https://i.imgur.com/a5qzy56.png",
-            "https://i.imgur.com/RKjxYhe.png",
-            "https://i.imgur.com/viFHPiR.png",
-            "https://i.imgur.com/6urm3Vk.png",
-            "https://i.imgur.com/assnuAi.png",
-            "https://i.imgur.com/HkzJiPf.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5* Maika [Swimsuit], 5* Aoi [Swimsuit]",
-                "start": "July 24 2019, 17:00",
-                "end": "August 27 2019, 11:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Kurumi [Swimsuit], 5* Kaos [Swimsuit]",
-                "start": "July 31 2019, 0:00",
-                "end": "August 27 2019, 11:59"
-            },
-            {
-                "name": "Part 3: Featuring 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
-                "start": "August 8 2019, 17:00",
-                "end": "August 27 2019, 11:59"
-            },
-            {
-                "name": "Part 4: Featuring 5* Nene [Swimsuit], 5* Hana",
-                "start": "August 15 2019, 0:00",
-                "end": "August 27 2019, 11:59"
             }
         ]
     },
@@ -288,7 +186,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kiniro Mosaic Limited Time Selection",
+            "Kiniro Mosaic Limited Time Summon",
             "きんいろモザイク 期間限定特別セレクション召喚"
         ],
         "image": [
@@ -375,24 +273,6 @@ var timerData = [
             {
                 name: "Period",
                 start: "August 2 2019, 0:00",
-                end: "August 15 2019, 23:59",
-                keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Summer Vacation Bonus",
-            "夏休み特別ボーナス！",
-            "Login once to receive 100 gems"
-        ],
-        image: "kirara",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "August 8 2019, 17:00",
                 end: "August 15 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
@@ -543,23 +423,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Fresh Summer's Bottle Weapon",
-            "トレードショップに夏限定のぶきが再登場",
-            "Limited alchemist weapon at Trade Shop"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "July 24 2019, 17:00",
-                end: "August 27 2019, 11:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Summer Vacation Gem Sale",
             "夏休み限定！星彩石2000個セット",
             "Discounted Gem Set prices"
@@ -576,23 +439,6 @@ var timerData = [
                 name: "Part 2",
                 start: "August 8 2019, 17:00",
                 end: "August 27 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "600 Days Celebration Gem Sale",
-            "６００日記念セールお得な星彩石セット",
-            "Discounted Gem Set prices"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "August 2 2019, 0:00",
-                end: "August 15 2019, 23:59"
             }
         ]
     }
