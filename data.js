@@ -286,6 +286,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Kiniro Mosaic Limited Time Selection",
+            "きんいろモザイク 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/nY12NTH.png",
+            "https://i.imgur.com/LDE7j4Q.png",
+            "https://i.imgur.com/LczcXMF.png",
+            "https://i.imgur.com/1BpNWKC.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "1st Half: Featuring 5* Karen, 5* Aya [Valentine], 5* Youko [Sports Meeting], 5* Isami [New Year]",
+                "start": "August 29 2019, 17:00",
+                "end": "September 5 2019, 16:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "600 Days Celebration Choosable 5* Ticket Summon",
