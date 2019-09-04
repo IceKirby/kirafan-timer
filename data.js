@@ -203,6 +203,12 @@ var timerData = [
                 "start": "August 29 2019, 17:00",
                 "end": "September 5 2019, 16:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "2nd Half: Featuring 5* Shinobu, 5* Alice [Christmas], 5* Aya [Swimsuit], 5* Karen [Foreign Magician]",
+                "start": "September 5 2019, 17:00",
+                "end": "September 11 2019, 13:59",
+                "extraPriority": 6
             }
         ]
     },
