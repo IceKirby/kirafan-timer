@@ -193,7 +193,11 @@ var timerData = [
             "https://i.imgur.com/nY12NTH.png",
             "https://i.imgur.com/LDE7j4Q.png",
             "https://i.imgur.com/LczcXMF.png",
-            "https://i.imgur.com/1BpNWKC.png"
+            "https://i.imgur.com/1BpNWKC.png",
+            "https://i.imgur.com/nEMRCdr.png",
+            "https://i.imgur.com/zP37s13.png",
+            "https://i.imgur.com/WsJwhhl.png",
+            "https://i.imgur.com/xG4HjeE.png"
         ],
         "column": 1,
         "priority": 1,
