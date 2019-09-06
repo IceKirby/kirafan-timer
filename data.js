@@ -404,7 +404,41 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "August 3 2019, 0:00",
                 end: "September 6 2019, 23:59",
-                keepAfterFinished: "6 hours",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "September Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/CKdz6it.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "September 7 2019, 0:00",
+                end: "September 8 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "September 21 2019, 0:00",
+                end: "September 22 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "September 28 2019, 0:00",
+                end: "September 29 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "September 7 2019, 0:00",
+                end: "October 4 2019, 23:59",
+                keepAfterFinished: "2 hours",
                 type: "normal"
             }
         ]
