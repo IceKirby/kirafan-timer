@@ -191,13 +191,13 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yoshida Yuuko, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
+                "name": "1st Half: Featuring 5* Yoshida Yuuko, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
                 "start": "September 11 2019, 17:00",
                 "end": "September 26 2019, 13:59",
                 "extraPriority": 6
             },
             {
-                "name": "Featuring 5* Hiro, 4* Hiro, 4* Sae",
+                "name": "2nd Half: Featuring 5* Hiro, 4* Hiro, 4* Sae",
                 "start": "September 13 2019, 0:00",
                 "end": "September 26 2019, 13:59"
             }
