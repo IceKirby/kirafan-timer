@@ -36,100 +36,40 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Ryuuguu Adventure",
-            "リュウグウ・アドベンチャー",
-            "Summer 2019 Event"
+            "Demon Girl in Another World and the Ancestue",
+            "いせかいまぞくとごぜん像",
+            "Machikado Mazoku event"
         ],
-        "image": [
-            "https://i.imgur.com/OVJl0qa.png",
-            "https://i.imgur.com/1OpWxtQ.png",
-            "https://i.imgur.com/DF7452J.png",
-            "https://i.imgur.com/zqSt0iN.png",
-            "https://i.imgur.com/a5qzy56.png"
-        ],
+        "image": "https://i.imgur.com/WDuU277.png",
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "July 24 2019, 17:00",
-                "end": "August 26 2019, 13:59",
+                "start": "September 11 2019, 17:00",
+                "end": "September 25 2019, 13:59",
                 "markers": {
-                    "Season 2": "July 27 2019, 17:00",
-                    "Season 3": "July 29 2019, 17:00",
-                    "Intermission 1": "August 2 2019, 0:00",
-                    "Intermission 2": "August 3 2019, 0:00",
-                    "Intermission 3": "August 4 2019, 0:00",
-                    "Intermission 4": "August 5 2019, 0:00"
+                    "Extra Chapter 1": "September 20 2019, 0:00",
+                    "Extra Chapter 2": "September 21 2019, 0:00",
+                    "Extra Chapter 3": "September 22 2019, 0:00",
+                    "Extra Chapter 4": "September 23 2019, 0:00"
                 },
                 "extraPriority": 4
             },
             {
                 "name": "Boss Quest",
-                "start": "July 31 2019, 17:00",
-                "end": "August 26 2019, 13:59"
+                "start": "September 13 2019, 17:00",
+                "end": "September 25 2019, 13:59"
             },
             {
                 "name": "EX Quest",
-                "start": "August 1 2019, 17:00",
-                "end": "August 26 2019, 13:59"
+                "start": "September 15 2019, 17:00",
+                "end": "September 25 2019, 13:59"
             },
             {
                 "name": "Event Shop",
-                "start": "July 24 2019, 17:00",
-                "end": "September 2 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Pirates of Etowaria",
-            "パイレーツオブエトワリア",
-            "Summer 2019 Event 2"
-        ],
-        "image": [
-            "https://i.imgur.com/RKjxYhe.png",
-            "https://i.imgur.com/viFHPiR.png",
-            "https://i.imgur.com/6urm3Vk.png",
-            "https://i.imgur.com/aCTIFx3.png",
-            "https://i.imgur.com/assnuAi.png",
-            "https://i.imgur.com/HkzJiPf.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "August 8 2019, 17:00",
-                "end": "August 26 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "August 22 2019, 0:00",
-                    "Extra Chapter 2": "August 23 2019, 0:00",
-                    "Extra Chapter 3": "August 24 2019, 0:00",
-                    "Extra Chapter 4": "August 25 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "August 10 2019, 17:00",
-                "end": "August 26 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "August 12 2019, 17:00",
-                "end": "August 26 2019, 13:59"
-            },
-            {
-                "name": "Super EX Quest",
-                "start": "August 15 2019, 17:00",
-                "end": "August 26 2019, 13:59"
-            },
-            {
-                "name": "Mystery Treasure Box",
-                "start": "August 8 2019, 17:00",
-                "end": "September 2 2019, 13:59"
+                "start": "September 11 2019, 17:00",
+                "end": "October 2 2019, 13:59"
             }
         ]
     },
@@ -151,6 +91,26 @@ var timerData = [
                 "name": "Missions",
                 "start": "August 27 2019, 17:00",
                 "end": "September 10 2019, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Demon Girl in Another World and the Ancestue Missions",
+            "いせかいまぞくとごぜん像",
+            "Machikado Mazoku event missions"
+        ],
+        "image": "https://i.imgur.com/WDuU277.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "September 11 2019, 17:00",
+                "end": "September 25 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -217,6 +177,33 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Demon Girl in Another World and the Ancestue Summon",
+            "いせかいまぞくとごぜん像",
+            "Machikado Mazoku event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/WDuU277.png",
+            "https://i.imgur.com/gQGpcSa.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yoshida Yuuko, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
+                "start": "September 11 2019, 17:00",
+                "end": "September 26 2019, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Featuring 5* Hiro, 4* Hiro, 4* Sae",
+                "start": "September 13 2019, 0:00",
+                "end": "September 26 2019, 13:59"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "600 Days Celebration Choosable 5* Ticket Summon",
@@ -237,36 +224,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "August 2 2019, 0:00",
                 end: "August 22 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "5* Ticket Summon",
-            "★5確定チケット付き！有償限定10回召喚",
-            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Part 1 - Summon Period",
-                start: "July 24 2019, 17:00",
-                end: "August 2 2019, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Part 2 - Summon Period",
-                start: "August 8 2019, 17:00",
-                end: "August 27 2019, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "July 24 2019, 17:00",
-                end: "September 3 2019, 23:59"
             }
         ]
     },
