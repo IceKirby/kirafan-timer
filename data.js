@@ -74,6 +74,40 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Salt's Greatest Transformation",
+            "ソルト最大の変身",
+            "Salt Mini-event"
+        ],
+        "image": "https://i.imgur.com/WOAHTR4.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "September 14 2019, 0:00",
+                "end": "September 19 2019, 23:59",
+                "markers": {
+                    "Chapter 2": "September 15 2019, 0:00",
+                    "Chapter 3": "September 16 2019, 0:00",
+                    "Chapter 4": "September 17 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Challenge Quest",
+                "start": "September 14 2019, 0:00",
+                "end": "September 19 2019, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 14 2019, 0:00",
+                "end": "September 26 2019, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Kiniro Darkness Missions",
@@ -91,6 +125,26 @@ var timerData = [
                 "name": "Missions",
                 "start": "August 27 2019, 17:00",
                 "end": "September 10 2019, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Salt's Greatest Transformation Missions",
+            "ソルト最大の変身",
+            "Salt Mini-event missions"
+        ],
+        "image": "https://i.imgur.com/WOAHTR4.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "September 14 2019, 0:00",
+                "end": "September 19 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -119,66 +173,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kiniro Darkness Summon",
-            "きんいろダークネス",
-            "Kiniro Mosaic Author Quest summon"
-        ],
-        "image": [
-            "https://i.imgur.com/Gzqyoiq.png",
-            "https://i.imgur.com/GNgzSSD.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Alice side: Featuring 5* Alice Cartelet",
-                "start": "August 27 2019, 17:00",
-                "end": "September 11 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Honoka side: Featuring 5* Matsubara Honoka",
-                "start": "August 27 2019, 17:00",
-                "end": "September 11 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kiniro Mosaic Limited Time Summon",
-            "きんいろモザイク 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/nY12NTH.png",
-            "https://i.imgur.com/LDE7j4Q.png",
-            "https://i.imgur.com/LczcXMF.png",
-            "https://i.imgur.com/1BpNWKC.png",
-            "https://i.imgur.com/nEMRCdr.png",
-            "https://i.imgur.com/zP37s13.png",
-            "https://i.imgur.com/WsJwhhl.png",
-            "https://i.imgur.com/xG4HjeE.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "1st Half: Featuring 5* Karen, 5* Aya [Valentine], 5* Youko [Sports Meeting], 5* Isami [New Year]",
-                "start": "August 29 2019, 17:00",
-                "end": "September 5 2019, 16:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "2nd Half: Featuring 5* Shinobu, 5* Alice [Christmas], 5* Aya [Swimsuit], 5* Karen [Foreign Magician]",
-                "start": "September 5 2019, 17:00",
-                "end": "September 11 2019, 13:59",
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Demon Girl in Another World and the Ancestue Summon",
             "いせかいまぞくとごぜん像",
             "Machikado Mazoku event summon"
@@ -200,6 +194,55 @@ var timerData = [
                 "name": "2nd Half: Featuring 5* Hiro, 4* Hiro, 4* Sae",
                 "start": "September 13 2019, 0:00",
                 "end": "September 26 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Salt's Greatest Transformation Summon",
+            "ソルト最大の変身",
+            "Salt Mini-event summon"
+        ],
+        "image": "https://i.imgur.com/WOAHTR4.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Salt",
+                "start": "September 14 2019, 0:00",
+                "end": "September 26 2019, 13:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Head Priestess and Seven Sages Limited-time Paid Summon",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "400 paid gems for a 10x Summon",
+            "+ a Random 5* Summon Ticket (for Archive, Sugar, Ginger or Cesame)"
+        ],
+        image: [
+            "https://i.imgur.com/M7IpkMv.png",
+            "https://i.imgur.com/zucS6nO.png",
+            "https://i.imgur.com/QA16URT.png",
+            "https://i.imgur.com/tPbYDk4.png"
+        ],
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "September 14 2019, 0:00",
+                end: "September 26 2019, 13:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "September 14 2019, 0:00",
+                end: "October 3 2019, 23:59"
             }
         ]
     },
