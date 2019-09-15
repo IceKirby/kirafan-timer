@@ -217,6 +217,28 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Hidamari Sketch Limited-time Summon",
+            "ひだまりスケッチ 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/2yRlWaF.png",
+            "https://i.imgur.com/CdUcVWO.png",
+            "https://i.imgur.com/qxoGJ8r.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuno, 5* Yuno [Christmas], 5* Miyako, 4* and 3* Hidamari Sketch characters",
+                "start": "September 16 2019, 17:00",
+                "end": "September 30 2019, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
             "Head Priestess and Seven Sages Limited-time Paid Summon",
