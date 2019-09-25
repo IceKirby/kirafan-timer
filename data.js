@@ -76,6 +76,49 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Chimame Corps at Work",
+            "はたらくチマメ隊",
+            "Chimame Corps Event"
+        ],
+        "image": [
+            "https://i.imgur.com/ftFcJlL.png",
+            "https://i.imgur.com/ic9RlPU.png",
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "September 26 2019, 17:00",
+                "end": "October 7 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "October 2 2019, 0:00",
+                    "Extra Chapter 2": "October 3 2019, 0:00",
+                    "Extra Chapter 3": "October 4 2019, 0:00",
+                    "Extra Chapter 4": "October 5 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "September 28 2019, 17:00",
+                "end": "October 7 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "September 30 2019, 17:00",
+                "end": "October 7 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 26 2019, 17:00",
+                "end": "October 14 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Salt's Greatest Transformation",
             "ソルト最大の変身",
             "Salt Mini-event"
@@ -110,41 +153,21 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Kiniro Darkness Missions",
-            "きんいろダークネス",
-            "Kiniro Mosaic Author Quest missions"
+            "Chimame Corps at Work Missions",
+            "はたらくチマメ隊",
+            "Chimame Corps Event missions"
         ],
         "image": [
-            "https://i.imgur.com/Gzqyoiq.png",
-            "https://i.imgur.com/GNgzSSD.png"
+            "https://i.imgur.com/ftFcJlL.png",
+            "https://i.imgur.com/ic9RlPU.png",
         ],
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "August 27 2019, 17:00",
-                "end": "September 10 2019, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Salt's Greatest Transformation Missions",
-            "ソルト最大の変身",
-            "Salt Mini-event missions"
-        ],
-        "image": "https://i.imgur.com/WOAHTR4.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "September 14 2019, 0:00",
-                "end": "September 19 2019, 23:59",
+                "start": "September 26 2019, 17:00",
+                "end": "October 7 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -194,6 +217,33 @@ var timerData = [
                 "name": "2nd Half: Featuring 5* Hiro, 4* Hiro, 4* Sae",
                 "start": "September 13 2019, 0:00",
                 "end": "September 26 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Chimame Corps at Work Summon",
+            "はたらくチマメ隊 ピックアップ召喚",
+            "Chimame Corps Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/ftFcJlL.png",
+            "https://i.imgur.com/ic9RlPU.png",
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Maya's side: Featuring 5* Maya, 4* Megu",
+                "start": "September 26 2019, 17:00",
+                "end": "October 8 2019, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Megu's side: Featuring 5* Megu, 4* Megu",
+                "start": "September 26 2019, 17:00",
+                "end": "October 8 2019, 13:59"
             }
         ]
     },
@@ -293,6 +343,30 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Paid-only Summon + Random 5* Summon Ticket",
+            "★5確定チケット付き！有償限定10回召喚",
+            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "September 26 2019, 17:00",
+                end: "October 8 2019, 13:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "September 26 2019, 17:00",
+                end: "October 15 2019, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "600 Days Celebration Login Bonus",
@@ -384,50 +458,6 @@ var timerData = [
                 start: "August 15 2019, 0:00",
                 end: "August 27 2019, 13:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "August Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/SeyUKHM.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "August 3 2019, 0:00",
-                end: "August 4 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "August 10 2019, 0:00",
-                end: "August 11 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "August 17 2019, 0:00",
-                end: "August 18 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "August 24 2019, 0:00",
-                end: "August 25 2019, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "August 31 2019, 0:00",
-                end: "September 1 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "August 3 2019, 0:00",
-                end: "September 6 2019, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
