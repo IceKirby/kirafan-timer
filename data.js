@@ -117,40 +117,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Salt's Greatest Transformation",
-            "ソルト最大の変身",
-            "Salt Mini-event"
-        ],
-        "image": "https://i.imgur.com/WOAHTR4.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "September 14 2019, 0:00",
-                "end": "September 19 2019, 23:59",
-                "markers": {
-                    "Chapter 2": "September 15 2019, 0:00",
-                    "Chapter 3": "September 16 2019, 0:00",
-                    "Chapter 4": "September 17 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Challenge Quest",
-                "start": "September 14 2019, 0:00",
-                "end": "September 19 2019, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 14 2019, 0:00",
-                "end": "September 26 2019, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Mission",
         "title": [
             "Chimame Corps at Work Missions",
@@ -170,53 +136,6 @@ var timerData = [
                 "end": "October 7 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Demon Girl in Another World and the Ancestue Missions",
-            "いせかいまぞくとごぜん像",
-            "Machikado Mazoku event missions"
-        ],
-        "image": "https://i.imgur.com/WDuU277.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "September 11 2019, 17:00",
-                "end": "September 25 2019, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Demon Girl in Another World and the Ancestue Summon",
-            "いせかいまぞくとごぜん像",
-            "Machikado Mazoku event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/WDuU277.png",
-            "https://i.imgur.com/gQGpcSa.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "1st Half: Featuring 5* Yoshida Yuuko, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
-                "start": "September 11 2019, 17:00",
-                "end": "September 26 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "2nd Half: Featuring 5* Hiro, 4* Hiro, 4* Sae",
-                "start": "September 13 2019, 0:00",
-                "end": "September 26 2019, 13:59"
             }
         ]
     },
@@ -250,25 +169,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Salt's Greatest Transformation Summon",
-            "ソルト最大の変身",
-            "Salt Mini-event summon"
-        ],
-        "image": "https://i.imgur.com/WOAHTR4.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Salt",
-                "start": "September 14 2019, 0:00",
-                "end": "September 26 2019, 13:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Hidamari Sketch Limited-time Summon",
             "ひだまりスケッチ 期間限定特別セレクション召喚"
         ],
@@ -284,6 +184,28 @@ var timerData = [
                 "name": "Featuring 5* Yuno, 5* Yuno [Christmas], 5* Miyako, 4* and 3* Hidamari Sketch characters",
                 "start": "September 16 2019, 17:00",
                 "end": "September 30 2019, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gochuumon wa Usagi Desu Ka? Selection Summon",
+            "ご注文はうさぎですか？ セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/VqsSOBX.png",
+            "https://i.imgur.com/WYX1UHo.png",
+            "https://i.imgur.com/BMZwHHd.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Chino, 5* Chiya, 5* Syaro, 4* Chino, 4* Syaro",
+                "start": "September 30 2019, 17:00",
+                "end": "October 8 2019, 13:59",
                 "extraPriority": 4
             }
         ]
@@ -490,6 +412,45 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "September 7 2019, 0:00",
                 end: "October 4 2019, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/5bGQaq3.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "October 5 2019, 0:00",
+                end: "October 6 2019, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "October 12 2019, 0:00",
+                end: "October 13 2019, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "October 19 2019, 0:00",
+                end: "October 20 2019, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "October 26 2019, 0:00",
+                end: "October 27 2019, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "October 5 2019, 0:00",
+                end: "November 1 2019, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
             }
