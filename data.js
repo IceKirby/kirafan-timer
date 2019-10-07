@@ -36,46 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Demon Girl in Another World and the Ancestue",
-            "いせかいまぞくとごぜん像",
-            "Machikado Mazoku event"
-        ],
-        "image": "https://i.imgur.com/WDuU277.png",
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "September 11 2019, 17:00",
-                "end": "September 25 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "September 20 2019, 0:00",
-                    "Extra Chapter 2": "September 21 2019, 0:00",
-                    "Extra Chapter 3": "September 22 2019, 0:00",
-                    "Extra Chapter 4": "September 23 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "September 13 2019, 17:00",
-                "end": "September 25 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "September 15 2019, 17:00",
-                "end": "September 25 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 11 2019, 17:00",
-                "end": "October 2 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Chimame Corps at Work",
             "はたらくチマメ隊",
             "Chimame Corps Event"
@@ -117,6 +77,25 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Lamp's Limit Challenge",
+            "ランプの限界チャレンジ！",
+            "Beat ultra hard quest, send video, get prize"
+        ],
+        "image": "lamp",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Challenge QUest",
+                "start": "October 8 2019, 17:00",
+                "end": "October 16 2019, 13:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Chimame Corps at Work Missions",
@@ -135,6 +114,25 @@ var timerData = [
                 "start": "September 26 2019, 17:00",
                 "end": "October 7 2019, 23:59",
                 "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Spicymination Missions",
+            "からみねーしょん",
+            "Harumination Author Quest missions"
+        ],
+        "image": "https://i.imgur.com/BI6jcDn.png",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "October 8 2019, 17:00",
+                "end": "October 22 2019, 23:59",
                 "extraPriority": 2
             }
         ]
@@ -169,22 +167,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Hidamari Sketch Limited-time Summon",
-            "ひだまりスケッチ 期間限定特別セレクション召喚"
+            "Spicymination Summon",
+            "からみねーしょん",
+            "Harumination Author Quest summon"
         ],
-        "image": [
-            "https://i.imgur.com/2yRlWaF.png",
-            "https://i.imgur.com/CdUcVWO.png",
-            "https://i.imgur.com/qxoGJ8r.png"
-        ],
+        "image": "https://i.imgur.com/BI6jcDn.png",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuno, 5* Yuno [Christmas], 5* Miyako, 4* and 3* Hidamari Sketch characters",
-                "start": "September 16 2019, 17:00",
-                "end": "September 30 2019, 16:59",
-                "extraPriority": 4
+                "name": "Featuring 5* Hosono Harumi",
+                "start": "October 8 2019, 17:00",
+                "end": "October 16 2019, 13:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -211,56 +206,34 @@ var timerData = [
         ]
     },
     {
-        type: "Gacha",
-        title: [
-            "Head Priestess and Seven Sages Limited-time Paid Summon",
-            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon",
-            "+ a Random 5* Summon Ticket (for Archive, Sugar, Ginger or Cesame)"
+        "type": "Gacha",
+        "title": [
+            "Lamp's Limit Challenge Limited-time Summon",
+            "ランプの限界チャレンジ！期間限定召喚"
         ],
-        image: [
-            "https://i.imgur.com/M7IpkMv.png",
-            "https://i.imgur.com/zucS6nO.png",
-            "https://i.imgur.com/QA16URT.png",
-            "https://i.imgur.com/tPbYDk4.png"
+        "image": [
+            "https://i.imgur.com/egjqDoR.png",
+            "https://i.imgur.com/jGxvF4G.png",
+            "https://i.imgur.com/NiT3jdX.png",
+            "https://i.imgur.com/06FMmSI.png",
+            "https://i.imgur.com/crXjfzV.png",
+            "https://i.imgur.com/v7QlZvZ.png",
+            "https://i.imgur.com/gZEWzdR.png",
+            "https://i.imgur.com/yKYOYoX.png"
         ],
-        column: 1,
-        priority: 1,
-        timers: [
+        "column": 1,
+        "priority": 1,
+        "timers": [
             {
-                name: "Summon Period",
-                start: "September 14 2019, 0:00",
-                end: "September 26 2019, 13:59",
-                extraPriority: 4
+                "name": "Water side: Featuring 5* Takeya Yuki, 5* Hoshikawa Hotaru, 5* Kaho [Swimsuit], 5* Hannen Hiroe",
+                "start": "October 8 2019, 17:00",
+                "end": "October 16 2019, 13:59",
+                "extraPriority": 4
             },
             {
-                name: "Ticket Expiration",
-                start: "September 14 2019, 0:00",
-                end: "October 3 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "600 Days Celebration Choosable 5* Ticket Summon",
-            "リリース600日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "August 2 2019, 0:00",
-                end: "August 15 2019, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "August 2 2019, 0:00",
-                end: "August 22 2019, 23:59"
+                "name": "Earth side: Featuring 5* Oribe Yasuna, 5* Sonya, 5* Eiko [Sports Meeting], 5* Moeta Kaoruko",
+                "start": "October 8 2019, 17:00",
+                "end": "October 16 2019, 13:59"
             }
         ]
     },
@@ -319,50 +292,6 @@ var timerData = [
             {
                 name: "Episode 1",
                 date: "July 11 2019"
-            },
-            {
-                name: "Episode 2",
-                date: "July 18 2019"
-            },
-            {
-                name: "Episode 3",
-                date: "July 25 2019"
-            },
-            {
-                name: "Episode 4",
-                date: "August 1 2019"
-            },
-            {
-                name: "Episode 5",
-                date: "August 8 2019"
-            },
-            {
-                name: "Episode 6",
-                date: "August 15 2019"
-            },
-            {
-                name: "Episode 7",
-                date: "August 22 2019"
-            },
-            {
-                name: "Episode 8",
-                date: "August 29 2019"
-            },
-            {
-                name: "Episode 9",
-                date: "September 5 2019"
-            },
-            {
-                name: "Episode 10",
-                date: "September 12 2019"
-            },
-            {
-                name: "Episode 11",
-                date: "September 19 2019"
-            },
-            {
-                name: "Episode 12",
-                date: "September 26 2019"
             }
         ]
     },
@@ -380,40 +309,6 @@ var timerData = [
                 start: "August 15 2019, 0:00",
                 end: "August 27 2019, 13:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "September Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/CKdz6it.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "September 7 2019, 0:00",
-                end: "September 8 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "September 21 2019, 0:00",
-                end: "September 22 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "September 28 2019, 0:00",
-                end: "September 29 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "September 7 2019, 0:00",
-                end: "October 4 2019, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
