@@ -88,7 +88,7 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Challenge QUest",
+                "name": "Challenge Quest",
                 "start": "October 8 2019, 17:00",
                 "end": "October 16 2019, 13:59",
                 "extraPriority": 4
