@@ -262,6 +262,35 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Manga Time Kirara Exhibition in Osaka Celebration Summon",
+            "まんがタイムきらら展in大阪記念★5確定チケット付き！有償限定10回召喚",
+            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period - First Half",
+                start: "October 12 2019, 17:00",
+                end: "October 22 2019, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Summon Period - Second Half",
+                start: "October 17 2019, 17:00",
+                end: "October 22 2019, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "October 12 2019, 17:00",
+                end: "October 29 2019, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "600 Days Celebration Login Bonus",
