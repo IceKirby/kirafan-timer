@@ -36,43 +36,45 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Chimame Corps at Work",
-            "はたらくチマメ隊",
-            "Chimame Corps Event"
+            "Operation Trick-or-Treat",
+            "トリックオアトリート大作戦",
+            "Halloween Event"
         ],
         "image": [
-            "https://i.imgur.com/ftFcJlL.png",
-            "https://i.imgur.com/ic9RlPU.png",
+            "https://i.imgur.com/MmFCXNg.png",
+            "https://i.imgur.com/2QiQCl8.png",
+            "https://i.imgur.com/TmrfVqd.png",
+            "https://i.imgur.com/9C6f9Ok.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "September 26 2019, 17:00",
-                "end": "October 7 2019, 13:59",
+                "start": "October 16 2019, 17:00",
+                "end": "November 1 2019, 13:59",
                 "markers": {
-                    "Extra Chapter 1": "October 2 2019, 0:00",
-                    "Extra Chapter 2": "October 3 2019, 0:00",
-                    "Extra Chapter 3": "October 4 2019, 0:00",
-                    "Extra Chapter 4": "October 5 2019, 0:00"
+                    "Extra Chapter 1": "October 26 2019, 0:00",
+                    "Extra Chapter 2": "October 27 2019, 0:00",
+                    "Extra Chapter 3": "October 28 2019, 0:00",
+                    "Extra Chapter 4": "October 29 2019, 0:00"
                 },
                 "extraPriority": 4
             },
             {
-                "name": "Boss Quest",
-                "start": "September 28 2019, 17:00",
-                "end": "October 7 2019, 13:59"
+                "name": "Melee Quest",
+                "start": "October 18 2019, 17:00",
+                "end": "November 1 2019, 13:59"
             },
             {
                 "name": "EX Quest",
-                "start": "September 30 2019, 17:00",
-                "end": "October 7 2019, 13:59"
+                "start": "October 20 2019, 17:00",
+                "end": "November 1 2019, 13:59"
             },
             {
                 "name": "Event Shop",
-                "start": "September 26 2019, 17:00",
-                "end": "October 14 2019, 13:59"
+                "start": "October 16 2019, 17:00",
+                "end": "November 8 2019, 13:59"
             }
         ]
     },
@@ -98,21 +100,23 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Chimame Corps at Work Missions",
-            "はたらくチマメ隊",
-            "Chimame Corps Event missions"
+            "Operation Trick-or-Treat Missions",
+            "トリックオアトリート大作戦",
+            "Halloween Event missions"
         ],
         "image": [
-            "https://i.imgur.com/ftFcJlL.png",
-            "https://i.imgur.com/ic9RlPU.png",
+            "https://i.imgur.com/MmFCXNg.png",
+            "https://i.imgur.com/2QiQCl8.png",
+            "https://i.imgur.com/TmrfVqd.png",
+            "https://i.imgur.com/9C6f9Ok.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "September 26 2019, 17:00",
-                "end": "October 7 2019, 23:59",
+                "start": "October 16 2019, 17:00",
+                "end": "November 1 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -179,6 +183,29 @@ var timerData = [
                 "name": "Featuring 5* Hosono Harumi",
                 "start": "October 8 2019, 17:00",
                 "end": "October 16 2019, 13:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Operation Trick-or-Treat Limited-time Summon",
+            "トリックオアトリート大作戦",
+            "Halloween Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/MmFCXNg.png",
+            "https://i.imgur.com/2QiQCl8.png",
+            "https://i.imgur.com/TmrfVqd.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Claire [Halloween], 5* Rize [Halloween], 4* Nono [Halloween]",
+                "start": "October 16 2019, 17:00",
+                "end": "November 1 2019, 13:59",
                 "extraPriority": 6
             }
         ]
@@ -404,22 +431,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Summer Vacation Gem Sale",
-            "夏休み限定！星彩石2000個セット",
+            "Halloween Gem Sale",
+            "ハロウィン限定！星彩石2000個セット",
             "Discounted Gem Set prices"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
-                name: "Part 1",
-                start: "July 24 2019, 17:00",
-                end: "August 15 2019, 23:59"
-            },
-            {
-                name: "Part 2",
-                start: "August 8 2019, 17:00",
-                end: "August 27 2019, 23:59"
+                name: "Period",
+                start: "October 16 2019, 17:00",
+                end: "November 1 2019, 13:59"
             }
         ]
     }
