@@ -144,33 +144,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Chimame Corps at Work Summon",
-            "はたらくチマメ隊 ピックアップ召喚",
-            "Chimame Corps Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/ftFcJlL.png",
-            "https://i.imgur.com/ic9RlPU.png",
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Maya's side: Featuring 5* Maya, 4* Megu",
-                "start": "September 26 2019, 17:00",
-                "end": "October 8 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Megu's side: Featuring 5* Megu, 4* Megu",
-                "start": "September 26 2019, 17:00",
-                "end": "October 8 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Spicymination Summon",
             "からみねーしょん",
             "Harumination Author Quest summon"
@@ -213,22 +186,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Gochuumon wa Usagi Desu Ka? Selection Summon",
-            "ご注文はうさぎですか？ セレクション召喚"
+            "Harukana Receive & Gochuumon wa Usagi Desu Ka? Limited-time Summon",
+            "はるかなレシーブ&ご注文はうさぎですか？ 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/VqsSOBX.png",
-            "https://i.imgur.com/WYX1UHo.png",
-            "https://i.imgur.com/BMZwHHd.png"
+            "https://i.imgur.com/w8jvzda.png",
+            "https://i.imgur.com/2J0EJTg.png",
+            "https://i.imgur.com/AOmpst1.png",
+            "https://i.imgur.com/BeTdz6c.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Chino, 5* Chiya, 5* Syaro, 4* Chino, 4* Syaro",
-                "start": "September 30 2019, 17:00",
-                "end": "October 8 2019, 13:59",
-                "extraPriority": 4
+                "name": "Featuring 5* Chino [Swimsuit], 5* Rize, 5* Oozora Haruka, 5* Higa Kanata",
+                "start": "October 18 2019, 17:00",
+                "end": "October 25 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 4* characters from Harukana Receive and Gochuumon wa Usagi Desu Ka?"
             }
         ]
     },
