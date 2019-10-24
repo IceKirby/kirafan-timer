@@ -79,25 +79,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Lamp's Limit Challenge",
-            "ランプの限界チャレンジ！",
-            "Beat ultra hard quest, send video, get prize"
-        ],
-        "image": "lamp",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Challenge Quest",
-                "start": "October 8 2019, 17:00",
-                "end": "October 16 2019, 13:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
         "type": "Mission",
         "title": [
             "Operation Trick-or-Treat Missions",
@@ -119,44 +100,6 @@ var timerData = [
                 "end": "November 1 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Spicymination Missions",
-            "からみねーしょん",
-            "Harumination Author Quest missions"
-        ],
-        "image": "https://i.imgur.com/BI6jcDn.png",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "October 8 2019, 17:00",
-                "end": "October 22 2019, 23:59",
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Spicymination Summon",
-            "からみねーしょん",
-            "Harumination Author Quest summon"
-        ],
-        "image": "https://i.imgur.com/BI6jcDn.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Hosono Harumi",
-                "start": "October 8 2019, 17:00",
-                "end": "October 16 2019, 13:59",
-                "extraPriority": 6
             }
         ]
     },
@@ -210,56 +153,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Lamp's Limit Challenge Limited-time Summon",
-            "ランプの限界チャレンジ！期間限定召喚"
+            "Urara Meirochou & Comic Girls Limited-time Summon",
+            "うらら迷路帖&こみっくがーるず 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/egjqDoR.png",
-            "https://i.imgur.com/jGxvF4G.png",
-            "https://i.imgur.com/NiT3jdX.png",
-            "https://i.imgur.com/06FMmSI.png",
-            "https://i.imgur.com/crXjfzV.png",
-            "https://i.imgur.com/v7QlZvZ.png",
-            "https://i.imgur.com/gZEWzdR.png",
-            "https://i.imgur.com/yKYOYoX.png"
+            "https://i.imgur.com/pmPnjIt.png",
+            "https://i.imgur.com/T59FWCS.png",
+            "https://i.imgur.com/a5qzy56.png",
+            "https://i.imgur.com/LKhiMLc.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Water side: Featuring 5* Takeya Yuki, 5* Hoshikawa Hotaru, 5* Kaho [Swimsuit], 5* Hannen Hiroe",
-                "start": "October 8 2019, 17:00",
-                "end": "October 16 2019, 13:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Earth side: Featuring 5* Oribe Yasuna, 5* Sonya, 5* Eiko [Sports Meeting], 5* Moeta Kaoruko",
-                "start": "October 8 2019, 17:00",
-                "end": "October 16 2019, 13:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Paid-only Summon + Random 5* Summon Ticket",
-            "★5確定チケット付き！有償限定10回召喚",
-            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "September 26 2019, 17:00",
-                end: "October 8 2019, 13:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "September 26 2019, 17:00",
-                end: "October 15 2019, 23:59"
+                "name": "Featuring 5* Kon [Swimsuit], 5* Natsume Nono, 5* Kaos [Swimsuit], 5* Koizuka Koyume",
+                "start": "October 25 2019, 17:00",
+                "end": "November 1 2019, 13:59",
+                "extraPriority": 4,
+                "info": "Also 4* characters from Comic Girls, 4* and 3* from Urara Meirochou"
             }
         ]
     },
