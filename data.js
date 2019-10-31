@@ -104,6 +104,28 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Yuyushiki Costume in the Forest's Lodge Missions",
+            "森の小屋のゆゆしき着ぐるみ",
+            "Yuyushiki Author Quest missions"
+        ],
+        "image": [
+            "https://i.imgur.com/w9TzLsf.png",
+            "https://i.imgur.com/9NtxxmZ.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "November 1 2019, 17:00",
+                "end": "November 14 2019, 23:59",
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Operation Trick-or-Treat Limited-time Summon",
@@ -129,24 +151,27 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Harukana Receive & Gochuumon wa Usagi Desu Ka? Limited-time Summon",
-            "はるかなレシーブ&ご注文はうさぎですか？ 期間限定特別セレクション召喚"
+            "Yuyushiki Costume in the Forest's Lodge Summon",
+            "森の小屋のゆゆしき着ぐるみ",
+            "Yuyushiki Author Quest summon"
         ],
         "image": [
-            "https://i.imgur.com/w8jvzda.png",
-            "https://i.imgur.com/2J0EJTg.png",
-            "https://i.imgur.com/AOmpst1.png",
-            "https://i.imgur.com/BeTdz6c.png"
+            "https://i.imgur.com/w9TzLsf.png",
+            "https://i.imgur.com/9NtxxmZ.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Chino [Swimsuit], 5* Rize, 5* Oozora Haruka, 5* Higa Kanata",
-                "start": "October 18 2019, 17:00",
-                "end": "October 25 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 4* characters from Harukana Receive and Gochuumon wa Usagi Desu Ka?"
+                "name": "Yui side: Featuring 5* Ichii Yui (Water Knight)",
+                "start": "November 1 2019, 17:00",
+                "end": "November 8 2019, 16:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Aikawa-san side: Featuring 5* Aikawa Chiho",
+                "start": "November 1 2019, 17:00",
+                "end": "November 8 2019, 16:59"
             }
         ]
     },
@@ -171,6 +196,29 @@ var timerData = [
                 "end": "November 1 2019, 13:59",
                 "extraPriority": 4,
                 "info": "Also 4* characters from Comic Girls, 4* and 3* from Urara Meirochou"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yuyushiki Limited-time Summon",
+            "ゆゆ式 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/KrPAj6v.png",
+            "https://i.imgur.com/2BTSJ5I.png",
+            "https://i.imgur.com/IZXeYB7.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Ichii Yui, 5* Hinata Yukari",
+                "start": "November 1 2019, 17:00",
+                "end": "November 8 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from Yuyushiki"
             }
         ]
     },
