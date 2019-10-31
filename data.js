@@ -214,7 +214,7 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Ichii Yui, 5* Hinata Yukari",
+                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Ichii Yui (Wind Knight), 5* Hinata Yukari",
                 "start": "November 1 2019, 17:00",
                 "end": "November 8 2019, 16:59",
                 "extraPriority": 4,
