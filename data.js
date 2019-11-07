@@ -301,9 +301,9 @@ var timerData = [
             "Aチャンネル 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/WCNDasP.png",
-            "https://i.imgur.com/bNyci9X.png",
-            "https://i.imgur.com/8phqTKe.png"
+            "https://i.imgur.com/MkCgmcj.png",
+            "https://i.imgur.com/PZVrQ1r.png",
+            "https://i.imgur.com/4X8BB8U.png"
         ],
         "column": 1,
         "priority": 1,
