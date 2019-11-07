@@ -36,6 +36,50 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Yutaka's Disciple Aspiration",
+            "ユタカの弟子入り志願",
+            "Yutaka event"
+        ],
+        "image": [
+            "https://i.imgur.com/WCNDasP.png",
+            "https://i.imgur.com/bNyci9X.png",
+            "https://i.imgur.com/8phqTKe.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "November 8 2019, 17:00",
+                "end": "November 20 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "November 15 2019, 0:00",
+                    "Extra Chapter 2": "November 16 2019, 0:00",
+                    "Extra Chapter 3": "November 17 2019, 0:00",
+                    "Extra Chapter 4": "November 18 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "November 10 2019, 17:00",
+                "end": "November 20 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "November 13 2019, 17:00",
+                "end": "November 20 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 8 2019, 17:00",
+                "end": "November 27 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Operation Trick-or-Treat",
             "トリックオアトリート大作戦",
             "Halloween Event"
@@ -75,6 +119,30 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "October 16 2019, 17:00",
                 "end": "November 8 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Yutaka's Disciple Aspiration Missions",
+            "ユタカの弟子入り志願",
+            "Yutaka event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/WCNDasP.png",
+            "https://i.imgur.com/bNyci9X.png",
+            "https://i.imgur.com/8phqTKe.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "November 8 2019, 17:00",
+                "end": "November 20 2019, 23:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -128,23 +196,27 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Operation Trick-or-Treat Limited-time Summon",
-            "トリックオアトリート大作戦",
-            "Halloween Event summon"
+            "Yutaka's Disciple Aspiration Summon",
+            "ユタカの弟子入り志願",
+            "Yutaka event summon"
         ],
         "image": [
-            "https://i.imgur.com/MmFCXNg.png",
-            "https://i.imgur.com/2QiQCl8.png",
-            "https://i.imgur.com/TmrfVqd.png"
+            "https://i.imgur.com/WCNDasP.png",
+            "https://i.imgur.com/bNyci9X.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Claire [Halloween], 5* Rize [Halloween], 4* Nono [Halloween]",
-                "start": "October 16 2019, 17:00",
-                "end": "November 1 2019, 13:59",
+                "name": "Umiko side: Featuring 5* Ahagon Umiko",
+                "start": "November 8 2019, 17:00",
+                "end": "November 21 2019, 13:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Engi side: Featuring 5* Engi Threepiece",
+                "start": "November 8 2019, 17:00",
+                "end": "November 21 2019, 13:59"
             }
         ]
     },
@@ -178,30 +250,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Urara Meirochou & Comic Girls Limited-time Summon",
-            "うらら迷路帖&こみっくがーるず 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/pmPnjIt.png",
-            "https://i.imgur.com/T59FWCS.png",
-            "https://i.imgur.com/a5qzy56.png",
-            "https://i.imgur.com/LKhiMLc.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Kon [Swimsuit], 5* Natsume Nono, 5* Kaos [Swimsuit], 5* Koizuka Koyume",
-                "start": "October 25 2019, 17:00",
-                "end": "November 1 2019, 13:59",
-                "extraPriority": 4,
-                "info": "Also 4* characters from Comic Girls, 4* and 3* from Urara Meirochou"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Yuyushiki Limited-time Summon",
             "ゆゆ式 期間限定特別セレクション召喚"
         ],
@@ -223,39 +271,81 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "NEW GAME! Limited-time Summon",
+            "NEW GAME! 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/iwj7vk7.png",
+            "https://i.imgur.com/WpuxzQE.png,
+            "https://i.imgur.com/zMGAG2U.png",
+            "https://i.imgur.com/eNeHjZ8.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First half: Featuring 5* Yun [Doll's Festival], 5* Nene [Swimsuit], 5* Mochizuki Momiji, 5* Narumi Tsubame, 4* Momiji [New Year], 4* Tsubame [Valentine]",
+                "start": "November 8 2019, 17:00",
+                "end": "November 15 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from NEW GAME!"
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "A-Channel Limited-time Summon",
+            "Aチャンネル 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/WCNDasP.png",
+            "https://i.imgur.com/bNyci9X.png",
+            "https://i.imgur.com/8phqTKe.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Run, 5* Yuuko [Christmas], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
+                "start": "November 8 2019, 17:00",
+                "end": "November 15 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from A-Channel"
+            }
+        ]
+    },
+    {
         type: "Gacha",
         title: [
-            "Manga Time Kirara Exhibition in Osaka Celebration Summon",
-            "まんがタイムきらら展in大阪記念★5確定チケット付き！有償限定10回召喚",
-            "240 paid gems for a 10x Summon + a Random 5* Summon Ticket"
+            "700 Days Celebration Summon",
+            "リリース700日記念★5選べるチケット付き！有償限定10回召喚",
+            "300 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
         priority: 1,
         timers: [
             {
-                name: "Summon Period - First Half",
-                start: "October 12 2019, 17:00",
-                end: "October 22 2019, 23:59",
+                name: "Summon Period",
+                start: "November 10 2019, 0:00",
+                end: "November 23 2019, 23:59",
                 extraPriority: 4
             },
             {
-                name: "Summon Period - Second Half",
-                start: "October 17 2019, 17:00",
-                end: "October 22 2019, 23:59"
-            },
-            {
                 name: "Ticket Expiration",
-                start: "October 12 2019, 17:00",
-                end: "October 29 2019, 23:59"
+                start: "November 10 2019, 0:00",
+                end: "November 30 2019, 23:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "600 Days Celebration Login Bonus",
-            "600日記念ログインボーナス",
+            "700 Days Celebration Login Bonus",
+            "700日記念ログインボーナス",
             "Login on 10 days for up to 300 gems"
         ],
         image: "kirara",
@@ -263,8 +353,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "August 2 2019, 0:00",
-                end: "August 15 2019, 23:59",
+                start: "November 10 2019, 0:00",
+                end: "November 23 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
         ]
@@ -409,8 +499,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Halloween Gem Sale",
-            "ハロウィン限定！星彩石2000個セット",
+            "700 Days Celebration Gem Sale",
+            "700日記念お得な星彩石セット販売",
             "Discounted Gem Set prices"
         ],
         image: "kanna",
@@ -418,8 +508,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "October 16 2019, 17:00",
-                end: "November 1 2019, 13:59"
+                start: "November 10 2019, 0:00",
+                end: "November 23 2019, 23:59"
             }
         ]
     }
