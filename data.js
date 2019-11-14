@@ -280,7 +280,11 @@ var timerData = [
             "https://i.imgur.com/iwj7vk7.png",
             "https://i.imgur.com/WpuxzQE.png",
             "https://i.imgur.com/zMGAG2U.png",
-            "https://i.imgur.com/eNeHjZ8.png"
+            "https://i.imgur.com/eNeHjZ8.png",
+            "https://i.imgur.com/JYSoHVI.png",
+            "https://i.imgur.com/xwWfxBV.png",
+            "https://i.imgur.com/7jGMMDb.png",
+            "https://i.imgur.com/ketQj8R.png"
         ],
         "column": 1,
         "priority": 1,
@@ -289,6 +293,13 @@ var timerData = [
                 "name": "First half: Featuring 5* Yun [Doll's Festival], 5* Nene [Swimsuit], 5* Mochizuki Momiji, 5* Narumi Tsubame, 4* Momiji [New Year], 4* Tsubame [Valentine]",
                 "start": "November 8 2019, 17:00",
                 "end": "November 15 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from NEW GAME!"
+            },
+            {
+                "name": "Second half: Featuring 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* Tooyama Rin, 5* Hoshikawa Hotaru, 4* Momiji [New Year], 4* Tsubame [Valentine]",
+                "start": "November 15 2019, 17:00",
+                "end": "November 22 2019, 16:59",
                 "extraPriority": 4,
                 "info": "Also 3* and 4* characters from NEW GAME!"
             }
@@ -314,6 +325,28 @@ var timerData = [
                 "end": "November 15 2019, 16:59",
                 "extraPriority": 4,
                 "info": "Also 3* and 4* characters from A-Channel"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yumekui Merry Limited-time Summon",
+            "夢喰いメリー 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/8qfOd3m.png",
+            "https://i.imgur.com/TUSF8Lv.png",
+            "https://i.imgur.com/5uD6GIe.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Merry Nightmare, 5* Merry [Christmas], 5* Isana [Doll's Festival]",
+                "start": "November 15 2019, 17:00",
+                "end": "November 22 2019, 16:59",
+                "extraPriority": 4
             }
         ]
     },
