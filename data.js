@@ -78,51 +78,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Operation Trick-or-Treat",
-            "トリックオアトリート大作戦",
-            "Halloween Event"
-        ],
-        "image": [
-            "https://i.imgur.com/MmFCXNg.png",
-            "https://i.imgur.com/2QiQCl8.png",
-            "https://i.imgur.com/TmrfVqd.png",
-            "https://i.imgur.com/9C6f9Ok.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "October 16 2019, 17:00",
-                "end": "November 1 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "October 26 2019, 0:00",
-                    "Extra Chapter 2": "October 27 2019, 0:00",
-                    "Extra Chapter 3": "October 28 2019, 0:00",
-                    "Extra Chapter 4": "October 29 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Melee Quest",
-                "start": "October 18 2019, 17:00",
-                "end": "November 1 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "October 20 2019, 17:00",
-                "end": "November 1 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 16 2019, 17:00",
-                "end": "November 8 2019, 13:59"
-            }
-        ]
-    },
-    {
         "type": "Mission",
         "title": [
             "Yutaka's Disciple Aspiration Missions",
@@ -142,53 +97,6 @@ var timerData = [
                 "start": "November 8 2019, 17:00",
                 "end": "November 20 2019, 23:59",
                 "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Operation Trick-or-Treat Missions",
-            "トリックオアトリート大作戦",
-            "Halloween Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/MmFCXNg.png",
-            "https://i.imgur.com/2QiQCl8.png",
-            "https://i.imgur.com/TmrfVqd.png",
-            "https://i.imgur.com/9C6f9Ok.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "October 16 2019, 17:00",
-                "end": "November 1 2019, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Yuyushiki Costume in the Forest's Lodge Missions",
-            "森の小屋のゆゆしき着ぐるみ",
-            "Yuyushiki Author Quest missions"
-        ],
-        "image": [
-            "https://i.imgur.com/w9TzLsf.png",
-            "https://i.imgur.com/9NtxxmZ.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "November 1 2019, 17:00",
-                "end": "November 14 2019, 23:59",
                 "extraPriority": 2
             }
         ]
@@ -217,56 +125,6 @@ var timerData = [
                 "name": "Engi side: Featuring 5* Engi Threepiece",
                 "start": "November 8 2019, 17:00",
                 "end": "November 21 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yuyushiki Costume in the Forest's Lodge Summon",
-            "森の小屋のゆゆしき着ぐるみ",
-            "Yuyushiki Author Quest summon"
-        ],
-        "image": [
-            "https://i.imgur.com/w9TzLsf.png",
-            "https://i.imgur.com/9NtxxmZ.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Yui side: Featuring 5* Ichii Yui (Water Knight)",
-                "start": "November 1 2019, 17:00",
-                "end": "November 8 2019, 16:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Aikawa-san side: Featuring 5* Aikawa Chiho",
-                "start": "November 1 2019, 17:00",
-                "end": "November 8 2019, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yuyushiki Limited-time Summon",
-            "ゆゆ式 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/KrPAj6v.png",
-            "https://i.imgur.com/2BTSJ5I.png",
-            "https://i.imgur.com/IZXeYB7.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Ichii Yui (Wind Knight), 5* Hinata Yukari",
-                "start": "November 1 2019, 17:00",
-                "end": "November 8 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from Yuyushiki"
             }
         ]
     },
@@ -355,7 +213,7 @@ var timerData = [
         title: [
             "700 Days Celebration Summon",
             "リリース700日記念★5選べるチケット付き！有償限定10回召喚",
-            "300 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+            "3400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
@@ -371,6 +229,30 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "November 10 2019, 0:00",
                 end: "November 30 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "Fes. Participation Characters Summon",
+            "Fes.出演キャラクター★5選べるチケット付き！有償限定10回召喚",
+            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+        ],
+        image: "clea",
+        column: 1,
+        priority: 1,
+        timers: [
+            {
+                name: "Summon Period",
+                start: "November 17 2019, 0:00",
+                end: "November 17 2019, 23:59",
+                extraPriority: 7
+            },
+            {
+                name: "Ticket Expiration",
+                start: "November 17 2019, 0:00",
+                end: "November 24 2019, 23:59"
             }
         ]
     },
@@ -422,45 +304,6 @@ var timerData = [
                 start: "August 15 2019, 0:00",
                 end: "August 27 2019, 13:59",
                 keepAfterFinished: "1 hours"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "October Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/5bGQaq3.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "October 5 2019, 0:00",
-                end: "October 6 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "October 12 2019, 0:00",
-                end: "October 13 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "October 19 2019, 0:00",
-                end: "October 20 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "October 26 2019, 0:00",
-                end: "October 27 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "October 5 2019, 0:00",
-                end: "November 1 2019, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
@@ -543,6 +386,23 @@ var timerData = [
                 name: "Period",
                 start: "November 10 2019, 0:00",
                 end: "November 23 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "2nd Anniversary Fes. Celebration Gem Sale",
+            "2nd Anniversary Fes.記念星彩石セット販売",
+            "Discounted Gem Set prices"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "November 17 2019, 0:00",
+                end: "November 17 2019, 23:59"
             }
         ]
     }
