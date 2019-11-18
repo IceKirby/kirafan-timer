@@ -213,7 +213,7 @@ var timerData = [
         title: [
             "700 Days Celebration Summon",
             "リリース700日記念★5選べるチケット付き！有償限定10回召喚",
-            "3400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
         ],
         image: "clea",
         column: 1,
