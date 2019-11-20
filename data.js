@@ -201,7 +201,7 @@ var timerData = [
         "type": "Gacha",
         "title": [
             "Etowaria & Explorer Summon",
-            "エトワリア＆エクスプローラー",
+            "エトワリア＆エクスプローラー ピックアップ召喚",
             "RPG Event summon"
         ],
         "image": [
