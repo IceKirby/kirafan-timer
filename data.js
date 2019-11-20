@@ -77,6 +77,51 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Etowaria & Explorer",
+            "エトワリア＆エクスプローラー",
+            "RPG Event"
+        ],
+        "image": [
+            "https://i.imgur.com/z1qhKZJ.png",
+            "https://i.imgur.com/IEmFUyL.png",
+            "https://i.imgur.com/gtIcnHe.png",
+            "https://i.imgur.com/ZBMU1kY.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "November 21 2019, 17:00",
+                "end": "December 4 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "November 28 2019, 0:00",
+                    "Extra Chapter 2": "November 29 2019, 0:00",
+                    "Extra Chapter 3": "November 30 2019, 0:00",
+                    "Extra Chapter 4": "December 1 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "November 23 2019, 17:00",
+                "end": "December 4 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "November 25 2019, 17:00",
+                "end": "December 4 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 21 2019, 17:00",
+                "end": "December 11 2019, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Yutaka's Disciple Aspiration Missions",
@@ -95,6 +140,31 @@ var timerData = [
                 "name": "Missions",
                 "start": "November 8 2019, 17:00",
                 "end": "November 20 2019, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Etowaria & Explorer Missions",
+            "エトワリア＆エクスプローラー",
+            "RPG Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/z1qhKZJ.png",
+            "https://i.imgur.com/IEmFUyL.png",
+            "https://i.imgur.com/gtIcnHe.png",
+            "https://i.imgur.com/ZBMU1kY.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "November 21 2019, 17:00",
+                "end": "December 4 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -124,6 +194,39 @@ var timerData = [
                 "name": "Engi side: Featuring 5* Engi Threepiece",
                 "start": "November 8 2019, 17:00",
                 "end": "November 21 2019, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Etowaria & Explorer Summon",
+            "エトワリア＆エクスプローラー",
+            "RPG Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/z1qhKZJ.png",
+            "https://i.imgur.com/IEmFUyL.png",
+            "https://i.imgur.com/gtIcnHe.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Mii-kun side: Featuring 5* Naoki Miki",
+                "start": "November 21 2019, 17:00",
+                "end": "December 3 2019, 23:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Kaho side: Featuring 5* Hinata Kaho",
+                "start": "November 21 2019, 17:00",
+                "end": "December 3 2019, 23:59"
+            },
+            {
+                "name": "Isana side: Featuring 5* Tachibana Isana",
+                "start": "November 21 2019, 17:00",
+                "end": "December 3 2019, 23:59"
             }
         ]
     },
