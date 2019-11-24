@@ -233,6 +233,52 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Blend-S Limited-time Summon",
+            "ブレンド・S 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/ZMtMFRY.png",
+            "https://i.imgur.com/CbcrIVq.png",
+            "https://i.imgur.com/silLJ0S.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Maika [Swimsuit], 5* Kaho [New Year], 5* Hoshikawa Mafuyu, 4* Maika [Doll's Festival]",
+                "start": "November 25 2019, 17:00",
+                "end": "December 2 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from Blend-S"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Limited-time Summon",
+            "がっこうぐらし！ 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/2AT3pwP.png",
+            "https://i.imgur.com/2ZlmgEy.png",
+            "https://i.imgur.com/2VN6PXL.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuki [Swimsuit], 5* Kurumi [Swimsuit], 5* Wakasa Yuuri",
+                "start": "November 25 2019, 17:00",
+                "end": "December 2 2019, 16:59",
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from Gakkou Gurashi!"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "NEW GAME! Limited-time Summon",
             "NEW GAME! 期間限定特別セレクション召喚"
         ],
