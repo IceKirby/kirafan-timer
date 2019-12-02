@@ -85,7 +85,8 @@ var timerData = [
             "One boss per day, get Lottery Tickets by beating them"
         ],
         image: "https://i.imgur.com/QyVo28T.png",
-        column: 2,
+        column: 0,
+        "priority": 2,
         timers: [
             {
                 name: "Period",
@@ -110,7 +111,8 @@ var timerData = [
             "Exchange unused Lottery Tickets for items"
         ],
         image: "cork",
-        column: 2,
+        column: 0,
+        "priority": 1,
         timers: [
             {
                 name: "Period",
@@ -374,7 +376,8 @@ var timerData = [
             "メインクエスト＆作家クエストスタミナ半減キャンペーン",
         ],
         image: "match",
-        column: 2,
+        column: 0,
+        "priority": 1,
         timers: [
             {
                 name: "Period",
