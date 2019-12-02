@@ -78,6 +78,48 @@ var timerData = [
         ]
     },
     {
+        type: "Other",
+        title: [
+            "Boss Challenge Quest Rush!",
+            "強敵チャレンジクエストラッシュ！",
+            "One boss per day, get Lottery Tickets by beating them"
+        ],
+        image: "https://i.imgur.com/QyVo28T.png",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2019, 0:00",
+                end: "December 10 2019, 23:59",
+                "markers": {
+                    "Mecha Kokeshi": "December 4 2019, 0:00",
+                    "Pera Pera Dragon": "December 5 2019, 0:00",
+                    "Blanket Society": "December 6 2019, 0:00",
+                    "Bull Brothers": "December 7 2019, 0:00",
+                    "Berserk Sabo": "December 8 2019, 0:00",
+                    "Black Snowman General": "December 9 2019, 0:00",
+                    "Sweets Golem": "December 10 2019, 0:00"
+                }
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lottery Tickets Exchange Shop",
+            "Exchange unused Lottery Tickets for items"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 11 2019, 14:00",
+                end: "December 26 2019, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Etowaria & Explorer Missions",
@@ -99,6 +141,22 @@ var timerData = [
                 "end": "December 4 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
+            }
+        ]
+    },
+    {
+        type: "Mission",
+        title: [
+            "2nd Anniversary Countdown Missions",
+            "2周年直前！特別ミッション"
+        ],
+        image: "https://i.imgur.com/QyVo28T.png",
+        column: 0,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2019, 0:00",
+                end: "December 10 2019, 23:59"
             }
         ]
     },
@@ -230,24 +288,48 @@ var timerData = [
     {
         type: "Gacha",
         title: [
-            "700 Days Celebration Summon",
-            "リリース700日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
+            "Choosable 5* Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚"
         ],
         image: "clea",
         column: 1,
-        priority: 1,
         timers: [
             {
-                name: "Summon Period",
-                start: "November 10 2019, 0:00",
-                end: "November 23 2019, 23:59",
-                extraPriority: 4
+                name: "1st Half",
+                start: "December 4 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            },
+            {
+                name: "2nd Half",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59"
             },
             {
                 name: "Ticket Expiration",
-                start: "November 10 2019, 0:00",
-                end: "November 30 2019, 23:59"
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Gacha",
+        title: [
+            "10x Step-up Summon with Extra Rewards",
+            "大×2感謝抽選会 おまけ付き10回召喚",
+            "Lottery Tickets for 1st~6th step, Random 5* Ticket for 7th step"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2019, 0:00",
+                end: "December 10 2019, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "December 4 2019, 0:00",
+                end: "December 17 2019, 23:59"
             }
         ]
     },
@@ -288,20 +370,37 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Author Quest Half Stamina Campaign",
-            "作家クエスト消費スタミナ1/2キャンペーン"
+            "Main Quest & Author Quest Half Stamina Campaign",
+            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
-                name: "For Author Quests",
-                start: "August 15 2019, 0:00",
-                end: "August 27 2019, 13:59",
-                keepAfterFinished: "1 hours"
+                name: "Period",
+                start: "December 4 2019, 0:00",
+                end: "December 10 2019, 23:59"
             }
         ]
     },
+    {
+        type: "Other",
+        title: [
+            "Very x2 Thanks Countdown Login Bonus",
+            "大×2感謝カウントダウンログインボーナス",
+            "22 Lottery Tickets per Login"
+        ],
+        image: "https://i.imgur.com/QyVo28T.png",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "December 4 2019, 0:00",
+                end: "December 10 2019, 23:59"
+            }
+        ]
+    },
+    
     {
         type: "WeekendBoss",
         title: [
@@ -409,18 +508,28 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "700 Days Celebration Gem Sale",
-            "700日記念お得な星彩石セット販売",
-            "Discounted Gem Set prices"
+            "2nd Anniversary Celebration Gem Sale",
+            "2周年記念特別セール！星彩石セット販売"
         ],
-        image: "kanna",
+        image: "https://i.imgur.com/QyVo28T.png",
         column: 2,
         timers: [
             {
-                name: "Period",
-                start: "November 10 2019, 0:00",
-                end: "November 23 2019, 23:59"
-            }
+                name: "Discounted Gem Sets",
+                start: "December 4 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            },
+            {
+                name: "2000 Gems + Choosable 5* Ticket",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "December 11 2019, 0:00",
+                end: "January 2 2020, 23:59"
+            },
+            
         ]
     }
 ];
