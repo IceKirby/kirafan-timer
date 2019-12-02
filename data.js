@@ -35,50 +35,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Yutaka's Disciple Aspiration",
-            "ユタカの弟子入り志願",
-            "Yutaka event"
-        ],
-        "image": [
-            "https://i.imgur.com/WCNDasP.png",
-            "https://i.imgur.com/bNyci9X.png",
-            "https://i.imgur.com/8phqTKe.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "November 8 2019, 17:00",
-                "end": "November 20 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "November 15 2019, 0:00",
-                    "Extra Chapter 2": "November 16 2019, 0:00",
-                    "Extra Chapter 3": "November 17 2019, 0:00",
-                    "Extra Chapter 4": "November 18 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "November 10 2019, 17:00",
-                "end": "November 20 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "November 13 2019, 17:00",
-                "end": "November 20 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "November 8 2019, 17:00",
-                "end": "November 27 2019, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Etowaria & Explorer",
             "エトワリア＆エクスプローラー",
             "RPG Event"
@@ -124,30 +80,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Yutaka's Disciple Aspiration Missions",
-            "ユタカの弟子入り志願",
-            "Yutaka event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/WCNDasP.png",
-            "https://i.imgur.com/bNyci9X.png",
-            "https://i.imgur.com/8phqTKe.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "November 8 2019, 17:00",
-                "end": "November 20 2019, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Etowaria & Explorer Missions",
             "エトワリア＆エクスプローラー",
             "RPG Event missions"
@@ -167,33 +99,6 @@ var timerData = [
                 "end": "December 4 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yutaka's Disciple Aspiration Summon",
-            "ユタカの弟子入り志願",
-            "Yutaka event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/WCNDasP.png",
-            "https://i.imgur.com/bNyci9X.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Umiko side: Featuring 5* Ahagon Umiko",
-                "start": "November 8 2019, 17:00",
-                "end": "November 21 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Engi side: Featuring 5* Engi Threepiece",
-                "start": "November 8 2019, 17:00",
-                "end": "November 21 2019, 13:59"
             }
         ]
     },
@@ -279,79 +184,45 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "NEW GAME! Limited-time Summon",
-            "NEW GAME! 期間限定特別セレクション召喚"
+            "Christmas 2017 Limited-time Summon",
+            "期間限定2017クリスマスキャラクターピックアップ召喚"
         ],
         "image": [
-            "https://i.imgur.com/iwj7vk7.png",
-            "https://i.imgur.com/WpuxzQE.png",
-            "https://i.imgur.com/zMGAG2U.png",
-            "https://i.imgur.com/eNeHjZ8.png",
-            "https://i.imgur.com/JYSoHVI.png",
-            "https://i.imgur.com/xwWfxBV.png",
-            "https://i.imgur.com/7jGMMDb.png",
-            "https://i.imgur.com/ketQj8R.png"
+            "https://i.imgur.com/U9nbwpa.png",
+            "https://i.imgur.com/Cj54UYs.png",
+            "https://i.imgur.com/KVNJMPX.png",
+            "https://i.imgur.com/7GBd6j7.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "First half: Featuring 5* Yun [Doll's Festival], 5* Nene [Swimsuit], 5* Mochizuki Momiji, 5* Narumi Tsubame, 4* Momiji [New Year], 4* Tsubame [Valentine]",
-                "start": "November 8 2019, 17:00",
-                "end": "November 15 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from NEW GAME!"
-            },
-            {
-                "name": "Second half: Featuring 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* Tooyama Rin, 5* Hoshikawa Hotaru, 4* Momiji [New Year], 4* Tsubame [Valentine]",
-                "start": "November 15 2019, 17:00",
-                "end": "November 22 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from NEW GAME!"
-            }
-        ]
-    },
-     {
-        "type": "Gacha",
-        "title": [
-            "A-Channel Limited-time Summon",
-            "Aチャンネル 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/MkCgmcj.png",
-            "https://i.imgur.com/PZVrQ1r.png",
-            "https://i.imgur.com/4X8BB8U.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Run, 5* Yuuko [Christmas], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
-                "start": "November 8 2019, 17:00",
-                "end": "November 15 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from A-Channel"
+                "name": "Featuring 5* Yuuko [Christmas], 5* Alice [Christmas], 5* Hajime [Christmas], 5* Chiya [Christmas], 4* Run [Christmas], 4* Tamaki [Christmas]",
+                "start": "December 2 2019, 17:00",
+                "end": "December 10 2019, 23:59",
+                "extraPriority": 4
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Yumekui Merry Limited-time Summon",
-            "夢喰いメリー 期間限定特別セレクション召喚"
+            "Christmas 2018 Limited-time Summon",
+            "期間限定2018クリスマスキャラクターピックアップ召喚"
         ],
         "image": [
-            "https://i.imgur.com/8qfOd3m.png",
-            "https://i.imgur.com/TUSF8Lv.png",
-            "https://i.imgur.com/5uD6GIe.png"
+            "https://i.imgur.com/LjVJ7D6.png",
+            "https://i.imgur.com/XYiJkN8.png",
+            "https://i.imgur.com/Qe7xpPR.png",
+            "https://i.imgur.com/40vbktO.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Merry Nightmare, 5* Merry [Christmas], 5* Isana [Doll's Festival]",
-                "start": "November 15 2019, 17:00",
-                "end": "November 22 2019, 16:59",
+                "name": "Featuring 5* Yuno [Christmas], 5* Tooru [Christmas], 5* Hifumi [Christmas], 5* Merry [Christmas]",
+                "start": "December 2 2019, 17:00",
+                "end": "December 10 2019, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -377,30 +248,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "November 10 2019, 0:00",
                 end: "November 30 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Fes. Participation Characters Summon",
-            "Fes.出演キャラクター★5選べるチケット付き！有償限定10回召喚",
-            "400 paid gems for a 10x Summon + a Choosable 5* Summon Ticket"
-        ],
-        image: "clea",
-        column: 1,
-        priority: 1,
-        timers: [
-            {
-                name: "Summon Period",
-                start: "November 17 2019, 0:00",
-                end: "November 17 2019, 23:59",
-                extraPriority: 7
-            },
-            {
-                name: "Ticket Expiration",
-                start: "November 17 2019, 0:00",
-                end: "November 24 2019, 23:59"
             }
         ]
     },
@@ -573,23 +420,6 @@ var timerData = [
                 name: "Period",
                 start: "November 10 2019, 0:00",
                 end: "November 23 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "2nd Anniversary Fes. Celebration Gem Sale",
-            "2nd Anniversary Fes.記念星彩石セット販売",
-            "Discounted Gem Set prices"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "November 17 2019, 0:00",
-                end: "November 17 2019, 23:59"
             }
         ]
     }
