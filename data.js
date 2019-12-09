@@ -79,6 +79,50 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Hungry Christmas",
+            "ハングリークリスマス",
+            "Christmas 2019 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/AJVnStj.png",
+            "https://i.imgur.com/hCSTeJo.png",
+            "https://i.imgur.com/hQkqvyV.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "December 11 2019, 12:00",
+                "end": "December 26 2019, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "December 21 2019, 0:00",
+                    "Extra Chapter 2": "December 22 2019, 0:00",
+                    "Extra Chapter 3": "December 23 2019, 0:00",
+                    "Extra Chapter 4": "December 24 2019, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "December 13 2019, 17:00",
+                "end": "December 26 2019, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "December 17 2019, 17:00",
+                "end": "December 26 2019, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 11 2019, 12:00",
+                "end": "January 2 2020, 13:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Boss Challenge Quest Rush!",
@@ -125,23 +169,22 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Etowaria & Explorer Missions",
-            "エトワリア＆エクスプローラー",
-            "RPG Event missions"
+            "Hungry Christmas Missions",
+            "ハングリークリスマス",
+            "Christmas 2019 Event missions"
         ],
         "image": [
-            "https://i.imgur.com/z1qhKZJ.png",
-            "https://i.imgur.com/IEmFUyL.png",
-            "https://i.imgur.com/gtIcnHe.png",
-            "https://i.imgur.com/ZBMU1kY.png"
+            "https://i.imgur.com/AJVnStj.png",
+            "https://i.imgur.com/hCSTeJo.png",
+            "https://i.imgur.com/hQkqvyV.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "November 21 2019, 17:00",
-                "end": "December 4 2019, 23:59",
+                "start": "December 11 2019, 12:00",
+                "end": "December 26 2019, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -160,6 +203,28 @@ var timerData = [
                 name: "Period",
                 start: "December 4 2019, 0:00",
                 end: "December 10 2019, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Hungry Christmas Limited-time Summon",
+            "ハングリークリスマスピックアップ召喚",
+            "Christmas 2019 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/AJVnStj.png",
+            "https://i.imgur.com/hCSTeJo.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Cocoa [Christmas], 5* Kotetsu [Christmas]",
+                "start": "December 11 2019, 0:00",
+                "end": "December 26 2019, 13:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -357,6 +422,22 @@ var timerData = [
     {
         type: "LoginDays",
         title: [
+            "Christmas Login Bonus",
+            "クリスマスログインボーナス",
+            "Log in during Christmas for a Summon Ticket"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Christmas Day",
+                date: "July 11 2019"
+            }
+        ]
+    },
+    {
+        type: "LoginDays",
+        title: [
             "Machikado Mazoku participation Login Bonus",
             "まちカドまぞく参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
@@ -491,21 +572,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Summer Room Decorations",
-            "夏祭りを感じる！ルームアイテム"
+            "Limited Christmas Room Decorations",
+            "クリスマス限定のルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
-                name: "Part 1 - Summer Festival Set",
-                start: "July 24 2019, 17:00",
-                end: "August 27 2019, 11:59"
-            },
-            {
-                name: "Part 2 - Pirates Set",
-                start: "August 8 2019, 17:00",
-                end: "August 27 2019, 11:59"
+                name: "Period",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 13:59"
             }
         ]
     },
