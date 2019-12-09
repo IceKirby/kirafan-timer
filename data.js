@@ -18,7 +18,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation"
+            "Summon Renovation",
+            "Version 1.20.0 update"
         ],
         image: "Maintenance",
         column: 0,
@@ -26,8 +27,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "November 21 2019, 14:00",
-                end: "November 21 2019, 17:00",
+                start: "December 10 2019, 12:00",
+                end: "December 10 2019, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -86,7 +87,7 @@ var timerData = [
         ],
         image: "https://i.imgur.com/QyVo28T.png",
         column: 0,
-        "priority": 2,
+        "priority": 3,
         timers: [
             {
                 name: "Period",
@@ -153,7 +154,7 @@ var timerData = [
             "2周年直前！特別ミッション"
         ],
         image: "https://i.imgur.com/QyVo28T.png",
-        column: 0,
+        column: 2,
         timers: [
             {
                 name: "Period",
@@ -377,7 +378,7 @@ var timerData = [
         ],
         image: "match",
         column: 0,
-        "priority": 1,
+        "priority": 2,
         timers: [
             {
                 name: "Period",
