@@ -420,7 +420,7 @@ var timerData = [
         ]
     },
     {
-        type: "LoginDays",
+        type: "Other",
         title: [
             "Christmas Login Bonus",
             "クリスマスログインボーナス",
@@ -430,8 +430,10 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "Christmas Day",
-                date: "December 25 2019"
+                name: "Period",
+                start: "December 25 2019, 0:00",
+                end: "December 25 2019, 23:59",
+                keepAfterFinished: "1 hours"
             }
         ]
     },
