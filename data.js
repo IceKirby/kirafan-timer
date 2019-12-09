@@ -156,7 +156,7 @@ var timerData = [
             "Exchange unused Lottery Tickets for items"
         ],
         image: "cork",
-        column: 0,
+        column: 2,
         "priority": 1,
         timers: [
             {
@@ -431,7 +431,7 @@ var timerData = [
         timers: [
             {
                 name: "Christmas Day",
-                date: "July 11 2019"
+                date: "December 25 2019"
             }
         ]
     },
