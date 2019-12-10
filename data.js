@@ -231,85 +231,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Etowaria & Explorer Summon",
-            "エトワリア＆エクスプローラー ピックアップ召喚",
-            "RPG Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/z1qhKZJ.png",
-            "https://i.imgur.com/IEmFUyL.png",
-            "https://i.imgur.com/gtIcnHe.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Mii-kun side: Featuring 5* Naoki Miki",
-                "start": "November 21 2019, 17:00",
-                "end": "December 3 2019, 23:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Kaho side: Featuring 5* Hinata Kaho",
-                "start": "November 21 2019, 17:00",
-                "end": "December 3 2019, 23:59"
-            },
-            {
-                "name": "Isana side: Featuring 5* Tachibana Isana",
-                "start": "November 21 2019, 17:00",
-                "end": "December 3 2019, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Blend-S Limited-time Summon",
-            "ブレンド・S 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/ZMtMFRY.png",
-            "https://i.imgur.com/CbcrIVq.png",
-            "https://i.imgur.com/silLJ0S.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Maika [Swimsuit], 5* Kaho [New Year], 5* Hoshikawa Mafuyu, 4* Maika [Doll's Festival]",
-                "start": "November 25 2019, 17:00",
-                "end": "December 2 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from Blend-S"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Gakkou Gurashi! Limited-time Summon",
-            "がっこうぐらし！ 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/2AT3pwP.png",
-            "https://i.imgur.com/2ZlmgEy.png",
-            "https://i.imgur.com/2VN6PXL.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Yuki [Swimsuit], 5* Kurumi [Swimsuit], 5* Wakasa Yuuri",
-                "start": "November 25 2019, 17:00",
-                "end": "December 2 2019, 16:59",
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from Gakkou Gurashi!"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Christmas 2017 Limited-time Summon",
             "期間限定2017クリスマスキャラクターピックアップ召喚"
         ],
@@ -354,28 +275,106 @@ var timerData = [
         ]
     },
     {
-        type: "Gacha",
-        title: [
-            "Choosable 5* Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚"
+        "type": "Gacha",
+        "title": [
+            "[24 Hours Only] Choosable Limited-time 5* Summon",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable Limited-time 5* Ticket"
         ],
-        image: "clea",
-        column: 1,
-        timers: [
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
             {
-                name: "1st Half",
-                start: "December 4 2019, 0:00",
-                end: "December 26 2019, 23:59"
-            },
-            {
-                name: "2nd Half",
+                name: "Summon Period",
                 start: "December 11 2019, 0:00",
-                end: "December 26 2019, 23:59"
+                end: "December 11 2019, 23:59",
+                extraPriority: 9
             },
             {
                 name: "Ticket Expiration",
                 start: "December 11 2019, 0:00",
-                end: "December 26 2019, 23:59"
+                end: "December 18 2019, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily Free 10x Summon",
+            "大x2感謝１日１回無料10回召喚"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "December 11 2019, 0:00",
+                end: "December 17 2019, 23:59",
+                extraPriority: 7
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "2nd Anniversary Celebration Limited-time Summon",
+            "2周年記念きららファンタジア期間限定ピックアップ召喚",
+            "Playable 5* Kirara"
+        ],
+        "image": "https://i.imgur.com/82bWIkI.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Featuring 5* Kirara [Manga ver.]",
+                start: "December 11 2019, 0:00",
+                end: "December 17 2019, 23:59",
+                extraPriority: 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "All 5* are Limited-time Step-up Summon",
+            "★5は期間限定キャラクターだけ！おまけ付き10回召喚",
+            "Includes Random 5* Limited-time Summon Ticket on step 7"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "December 11 2019, 0:00",
+                end: "December 17 2019, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "December 11 2019, 0:00",
+                end: "December 24 2019, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily Kira Kira Summon",
+            "１日１回きらきら召喚",
+            "40 Paid Gems for 3x Summon with only 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "December 11 2019, 0:00",
+                end: "December 17 2019, 23:59",
+                extraPriority: 3
             }
         ]
     },
@@ -402,19 +401,45 @@ var timerData = [
         ]
     },
     {
+        type: "Gacha",
+        title: [
+            "Choosable 5* Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚"
+        ],
+        image: "clea",
+        column: 1,
+        timers: [
+            {
+                name: "1st Half",
+                start: "December 4 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            },
+            {
+                name: "2nd Half",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
-            "700 Days Celebration Login Bonus",
-            "700日記念ログインボーナス",
-            "Login on 10 days for up to 300 gems"
+            "Very x2 Thanks Special Login Bonus",
+            "大x2感謝スペシャルログインボーナス",
+            "Login on 14 days for up to 400 gems"
         ],
-        image: "kirara",
+        image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "November 10 2019, 0:00",
-                end: "November 23 2019, 23:59",
+                start: "December 11 2019, 0:00",
+                end: "December 26 2019, 23:59",
                 keepAfterFinished: "1 hours"
             }
         ]
@@ -484,51 +509,6 @@ var timerData = [
                 name: "Period",
                 start: "December 4 2019, 0:00",
                 end: "December 10 2019, 23:59"
-            }
-        ]
-    },
-    
-    {
-        type: "WeekendBoss",
-        title: [
-            "November Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/DyjmRln.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "November 2 2019, 0:00",
-                end: "November 3 2019, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "November 9 2019, 0:00",
-                end: "November 10 2019, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "November 16 2019, 0:00",
-                end: "November 17 2019, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "November 23 2019, 0:00",
-                end: "November 24 2019, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "November 30 2019, 0:00",
-                end: "December 1 2019, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "November 2 2019, 0:00",
-                end: "December 6 2019, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
