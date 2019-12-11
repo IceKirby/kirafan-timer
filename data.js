@@ -161,7 +161,7 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "December 11 2019, 14:00",
+                start: "December 11 2019, 17:00",
                 end: "December 26 2019, 23:59"
             }
         ]
