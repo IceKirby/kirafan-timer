@@ -107,7 +107,7 @@ var timerData = [
             },
             {
                 "name": "Boss Quest",
-                "start": "December 13 2019, 17:00",
+                "start": "December 14 2019, 17:00",
                 "end": "December 26 2019, 13:59"
             },
             {
