@@ -177,7 +177,7 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png"
+            "https://i.imgur.com/hCSTeJo.png",
             "https://i.imgur.com/TvB1aSu.png",
             "https://i.imgur.com/sEI5hBn.png",
             "https://i.imgur.com/hQkqvyV.png"
