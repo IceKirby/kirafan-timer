@@ -88,6 +88,8 @@ var timerData = [
         "image": [
             "https://i.imgur.com/AJVnStj.png",
             "https://i.imgur.com/hCSTeJo.png",
+            "https://i.imgur.com/TvB1aSu.png",
+            "https://i.imgur.com/sEI5hBn.png",
             "https://i.imgur.com/hQkqvyV.png"
         ],
         "column": 0,
@@ -175,7 +177,9 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png",
+            "https://i.imgur.com/hCSTeJo.png"
+            "https://i.imgur.com/TvB1aSu.png",
+            "https://i.imgur.com/sEI5hBn.png",
             "https://i.imgur.com/hQkqvyV.png"
         ],
         "column": 0,
@@ -215,7 +219,9 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png"
+            "https://i.imgur.com/hCSTeJo.png",
+            "https://i.imgur.com/TvB1aSu.png",
+            "https://i.imgur.com/sEI5hBn.png"
         ],
         "column": 1,
         "priority": 1,
@@ -225,6 +231,11 @@ var timerData = [
                 "start": "December 11 2019, 0:00",
                 "end": "December 26 2019, 13:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Miyako [Christmas], 5* Momo [Christmas]",
+                "start": "December 15 2019, 0:00",
+                "end": "December 26 2019, 13:59"
             }
         ]
     },
