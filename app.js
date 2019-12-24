@@ -57,7 +57,8 @@ var vm = new Vue({
         localTime: null,
         timersData: null,
         thumbChangeCount: 0,
-        thumbChangeTime: 7
+        thumbChangeTime: 7,
+        alerts: alertMessages
     },
     methods: {
         changeTimezone: function(place) {

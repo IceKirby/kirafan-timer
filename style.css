@@ -353,6 +353,10 @@ body {
     margin-top: 1rem;
 }
 
+.alert {
+    margin-top: 15px;
+}
+
 @media screen and (min-width: 580px) {
     #columns-holder {
         margin-top: 0rem;
@@ -362,5 +366,8 @@ body {
         top: 15px;
         right: 15px;
         width: 180px;
+    }
+    .alert {
+        margin-top: 0px;
     }
 }

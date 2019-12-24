@@ -1,3 +1,4 @@
+var alertMessages = ["Busy with Christmas, page update may come later than usual."];
 var timerData = [
     {
         type: "DailyQuest",

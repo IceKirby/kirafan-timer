@@ -68,6 +68,8 @@
 				</label>
 			</div>
 			<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Found an error or have a suggestion?</span>
+            
+            <div v-for='t in alerts' class="alert alert-danger" role="alert">{{ t }}</div>
 
 			<div class="row" id="columns-holder">
 				<div v-for="col in timersData" class="col-md-6 col-xl">
