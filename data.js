@@ -123,7 +123,10 @@ var timerData = [
             {
                 "name": "Event Shop",
                 "start": "December 26 2019, 17:00",
-                "end": "January 21 2020, 13:59"
+                "end": "January 21 2020, 13:59",
+                "markers": {
+                    "Part 2": "January 1 2020, 0:00"
+                }
             }
         ]
     },
