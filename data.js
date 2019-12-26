@@ -1,4 +1,4 @@
-var alertMessages = ["Busy with Christmas, page update may come later than usual."];
+var alertMessages = [];
 var timerData = [
     {
         type: "DailyQuest",
@@ -30,51 +30,6 @@ var timerData = [
                 start: "December 26 2019, 14:00",
                 end: "December 26 2019, 17:00",
                 keepAfterFinished: "30 minutes"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Etowaria & Explorer",
-            "エトワリア＆エクスプローラー",
-            "RPG Event"
-        ],
-        "image": [
-            "https://i.imgur.com/z1qhKZJ.png",
-            "https://i.imgur.com/IEmFUyL.png",
-            "https://i.imgur.com/gtIcnHe.png",
-            "https://i.imgur.com/ZBMU1kY.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "November 21 2019, 17:00",
-                "end": "December 4 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "November 28 2019, 0:00",
-                    "Extra Chapter 2": "November 29 2019, 0:00",
-                    "Extra Chapter 3": "November 30 2019, 0:00",
-                    "Extra Chapter 4": "December 1 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "November 23 2019, 17:00",
-                "end": "December 4 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "November 25 2019, 17:00",
-                "end": "December 4 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "November 21 2019, 17:00",
-                "end": "December 11 2019, 13:59"
             }
         ]
     },
@@ -125,29 +80,101 @@ var timerData = [
         ]
     },
     {
-        type: "Other",
-        title: [
-            "Boss Challenge Quest Rush!",
-            "強敵チャレンジクエストラッシュ！",
-            "One boss per day, get Lottery Tickets by beating them"
+        "type": "Event",
+        "title": [
+            "New Year's Special Programme! \"It's a New Year, Etowaria\"",
+            "年末年始特番！お正月だよエトワリア",
+            "New Year 2020 Event"
         ],
-        image: "https://i.imgur.com/QyVo28T.png",
-        column: 0,
-        "priority": 3,
-        timers: [
+        "image": [
+            "https://i.imgur.com/8ISQ6wf.png",
+            "https://i.imgur.com/PF2vaou.png",
+            "https://i.imgur.com/ChOz6oV.png",
+            "https://i.imgur.com/ipIxXUq.png",
+            "https://i.imgur.com/vi7U6Be.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
             {
-                name: "Period",
-                start: "December 4 2019, 0:00",
-                end: "December 10 2019, 23:59",
+                "name": "Main Scenario",
+                "start": "December 26 2019, 17:00",
+                "end": "January 14 2020, 13:59",
                 "markers": {
-                    "Mecha Kokeshi": "December 4 2019, 0:00",
-                    "Pera Pera Dragon": "December 5 2019, 0:00",
-                    "Blanket Society": "December 6 2019, 0:00",
-                    "Bull Brothers": "December 7 2019, 0:00",
-                    "Berserk Sabo": "December 8 2019, 0:00",
-                    "Black Snowman General": "December 9 2019, 0:00",
-                    "Sweets Golem": "December 10 2019, 0:00"
-                }
+                    "New Year's Eve": "January 1 2020, 0:00",
+                    "New Year": "January 1 2020, 0:00",
+                    "Extra Chapter 1": "January 8 2020, 0:00",
+                    "Extra Chapter 2": "January 9 2020, 0:00",
+                    "Extra Chapter 3": "January 10 2020, 0:00",
+                    "Extra Chapter 4": "January 11 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "January 1 2020, 0:00",
+                "end": "January 14 2020, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "January 3 2020, 17:00",
+                "end": "January 14 2020, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 26 2019, 17:00",
+                "end": "January 21 2020, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "New Year's Special Programme! \"It's a New Year, Etowaria\" Missions",
+            "年末年始特番！お正月だよエトワリア",
+            "New Year 2020 Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/8ISQ6wf.png",
+            "https://i.imgur.com/PF2vaou.png",
+            "https://i.imgur.com/ChOz6oV.png",
+            "https://i.imgur.com/ipIxXUq.png",
+            "https://i.imgur.com/vi7U6Be.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "December 26 2019, 17:00",
+                "end": "January 14 2020, 23:59",
+                "markers": {
+                    "Mission Set 2": "January 1 2020, 0:00"
+                },
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Limited New Year Missions",
+            "お正月限定！特別ミッション"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "January 5 2020, 0:00",
+                "end": "January 7 2020, 23:59",
+                "extraPriority": 1
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 5 2020, 0:00",
+                "end": "January 30 2020, 13:59"
             }
         ]
     },
@@ -195,22 +222,6 @@ var timerData = [
         ]
     },
     {
-        type: "Mission",
-        title: [
-            "2nd Anniversary Countdown Missions",
-            "2周年直前！特別ミッション"
-        ],
-        image: "https://i.imgur.com/QyVo28T.png",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2019, 0:00",
-                end: "December 10 2019, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Hungry Christmas Limited-time Summon",
@@ -242,78 +253,69 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Christmas 2017 Limited-time Summon",
-            "期間限定2017クリスマスキャラクターピックアップ召喚"
+            "New Year's Special Programme! \"It's a New Year, Etowaria\" Summon",
+            "年末年始特番！お正月だよエトワリアピックアップ召喚",
+            "New Year 2020 Event summon"
         ],
         "image": [
-            "https://i.imgur.com/U9nbwpa.png",
-            "https://i.imgur.com/Cj54UYs.png",
-            "https://i.imgur.com/KVNJMPX.png",
-            "https://i.imgur.com/7GBd6j7.png"
+            "https://i.imgur.com/PF2vaou.png",
+            "https://i.imgur.com/ChOz6oV.png",
+            "https://i.imgur.com/ipIxXUq.png",
+            "https://i.imgur.com/vi7U6Be.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuuko [Christmas], 5* Alice [Christmas], 5* Hajime [Christmas], 5* Chiya [Christmas], 4* Run [Christmas], 4* Tamaki [Christmas]",
-                "start": "December 2 2019, 17:00",
-                "end": "December 10 2019, 23:59",
-                "extraPriority": 4
+                "name": "Part 1: Featuring 5* Yuuri [New Year], 5* Run [New Year]",
+                "start": "December 26 2019, 17:00",
+                "end": "January 15 2020, 13:59",
+                "extraPriority": 6
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Christmas 2018 Limited-time Summon",
-            "期間限定2018クリスマスキャラクターピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/LjVJ7D6.png",
-            "https://i.imgur.com/XYiJkN8.png",
-            "https://i.imgur.com/Qe7xpPR.png",
-            "https://i.imgur.com/40vbktO.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Yuno [Christmas], 5* Tooru [Christmas], 5* Hifumi [Christmas], 5* Merry [Christmas]",
-                "start": "December 2 2019, 17:00",
-                "end": "December 10 2019, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "[24 Hours Only] Choosable Limited-time 5* Summon",
-            "期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable Limited-time 5* Ticket"
+            "Daily Free 10x Summon by Magazine",
+            "雑誌別１日１回無料10回召喚"
         ],
         "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "Summon Period",
-                start: "December 11 2019, 0:00",
-                end: "December 11 2019, 23:59",
-                extraPriority: 9
+                name: "First Half",
+                start: "January 1 2020, 0:00",
+                end: "January 4 2020, 23:59",
+                extraPriority: 7,
+                markers: {
+                    "Manga Time Kirara & Miracle": "January 1 2020, 0:00",
+                    "Manga Time Kirara Max": "January 2 2020, 0:00",
+                    "Manga Time Kirara Forward": "January 3 2020, 0:00",
+                    "Manga Time Kirara Carat": "January 4 2020, 0:00"
+                }
             },
             {
-                name: "Ticket Expiration",
-                start: "December 11 2019, 0:00",
-                end: "December 18 2019, 23:59"
+                name: "Second Half",
+                start: "January 8 2020, 0:00",
+                end: "January 11 2020, 23:59",
+                extraPriority: 7,
+                markers: {
+                    "Manga Time Kirara & Miracle": "January 8 2020, 0:00",
+                    "Manga Time Kirara Max": "January 9 2020, 0:00",
+                    "Manga Time Kirara Forward": "January 10 2020, 0:00",
+                    "Manga Time Kirara Carat": "January 11 2020, 0:00"
+                }
             }
         ]
     },
-    {
+    /* {
         "type": "Gacha",
         "title": [
-            "Daily Free 10x Summon",
-            "大x2感謝１日１回無料10回召喚"
+            "First Dream Summon",
+            "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
+            "??? Paid Gems for 10x Summon + Choosable 5* and 4* Summon Tickets"
         ],
         "image": "clea",
         "column": 1,
@@ -321,61 +323,23 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                start: "December 11 2019, 0:00",
-                end: "December 17 2019, 23:59",
-                extraPriority: 7
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "2nd Anniversary Celebration Limited-time Summon",
-            "2周年記念きららファンタジア期間限定ピックアップ召喚",
-            "Playable 5* Kirara"
-        ],
-        "image": "https://i.imgur.com/82bWIkI.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Featuring 5* Kirara [Manga ver.]",
-                start: "December 11 2019, 0:00",
-                end: "December 17 2019, 23:59",
-                extraPriority: 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "All 5* are Limited-time Step-up Summon",
-            "★5は期間限定キャラクターだけ！おまけ付き10回召喚",
-            "Includes Random 5* Limited-time Summon Ticket on step 7"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "December 11 2019, 0:00",
-                end: "December 17 2019, 23:59",
+                start: "January 1 2020, 0:00",
+                end: "January 15 2020, 13:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "December 11 2019, 0:00",
-                end: "December 24 2019, 23:59"
+                start: "January 1 2020, 0:00",
+                end: "January 22 2020, 13:59"
             }
         ]
-    },
+    }, */
     {
         "type": "Gacha",
         "title": [
-            "Daily Kira Kira Summon",
-            "１日１回きらきら召喚",
-            "40 Paid Gems for 3x Summon with only 4* or above"
+            "Random 5* Summon Ticket by Magazine",
+            "★5確定チケット引換券付き！有償限定10回召喚",
+            "240 Paid Gems for 10x Summon + Voucher to exchange for a Random 5* Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -383,31 +347,14 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                start: "December 11 2019, 0:00",
-                end: "December 17 2019, 23:59",
-                extraPriority: 3
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "10x Step-up Summon with Extra Rewards",
-            "大×2感謝抽選会 おまけ付き10回召喚",
-            "Lottery Tickets for 1st~6th step, Random 5* Ticket for 7th step"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2019, 0:00",
-                end: "December 10 2019, 23:59"
+                start: "December 26 2019, 17:00",
+                end: "January 10 2020, 16:59",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "December 4 2019, 0:00",
-                end: "December 17 2019, 23:59"
+                start: "December 26 2019, 17:00",
+                end: "January 17 2020, 23:59"
             }
         ]
     },
@@ -458,17 +405,35 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Christmas Login Bonus",
-            "クリスマスログインボーナス",
-            "Log in during Christmas for a Summon Ticket"
+            "Very x2 Thanks Special Login Bonus",
+            "ゆく年くる年ログインボーナス",
+            "Up to 200 free gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 25 2019, 0:00",
-                end: "December 25 2019, 23:59",
+                start: "December 26 2019, 17:00",
+                end: "January 10 2020, 23:59",
+                keepAfterFinished: "1 hours"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Otoshidama Login Bonus",
+            "お年玉ログインボーナス",
+            "Log in during New Year for a 100 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2020, 0:00",
+                end: "January 1 2020, 23:59",
                 keepAfterFinished: "1 hours"
             }
         ]
@@ -498,23 +463,6 @@ var timerData = [
         image: "match",
         column: 0,
         "priority": 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 4 2019, 0:00",
-                end: "December 10 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Very x2 Thanks Countdown Login Bonus",
-            "大×2感謝カウントダウンログインボーナス",
-            "22 Lottery Tickets per Login"
-        ],
-        image: "https://i.imgur.com/QyVo28T.png",
-        column: 2,
         timers: [
             {
                 name: "Period",
@@ -581,6 +529,55 @@ var timerData = [
     {
         type: "Other",
         title: [
+            "Limited New Year Room Decorations",
+            "お正月限定のルームアイテム"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2020, 0:00",
+                end: "January 15 2020, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "2020 Lucky Bag Item Set",
+            "2020年福袋アイテムセット",
+            "250 Gems for 10x Summon Tickets, 10x Golden Quest Keys and 10x Large Stamina Recovery Items"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2020, 0:00",
+                end: "January 15 2020, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New Year Gem Sale",
+            "お正月セール！お得な星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                start: "January 1 2020, 0:00",
+                end: "January 15 2020, 13:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "2nd Anniversary Celebration Gem Sale",
             "2周年記念特別セール！星彩石セット販売"
         ],
@@ -601,8 +598,7 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "December 11 2019, 0:00",
                 end: "January 2 2020, 23:59"
-            },
-            
+            }
         ]
     }
 ];
