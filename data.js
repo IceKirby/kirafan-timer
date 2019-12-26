@@ -405,7 +405,7 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Very x2 Thanks Special Login Bonus",
+            "Year out, Year in Login Bonus",
             "ゆく年くる年ログインボーナス",
             "Up to 200 free gems"
         ],
