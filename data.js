@@ -182,78 +182,6 @@ var timerData = [
         ]
     },
     {
-        type: "Other",
-        title: [
-            "Lottery Tickets Exchange Shop",
-            "Exchange unused Lottery Tickets for items"
-        ],
-        image: "cork",
-        column: 2,
-        "priority": 1,
-        timers: [
-            {
-                name: "Period",
-                start: "December 11 2019, 17:00",
-                end: "December 26 2019, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Hungry Christmas Missions",
-            "ハングリークリスマス",
-            "Christmas 2019 Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png",
-            "https://i.imgur.com/TvB1aSu.png",
-            "https://i.imgur.com/sEI5hBn.png",
-            "https://i.imgur.com/hQkqvyV.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "December 11 2019, 12:00",
-                "end": "December 26 2019, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Hungry Christmas Limited-time Summon",
-            "ハングリークリスマスピックアップ召喚",
-            "Christmas 2019 Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png",
-            "https://i.imgur.com/TvB1aSu.png",
-            "https://i.imgur.com/sEI5hBn.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5* Cocoa [Christmas], 5* Kotetsu [Christmas]",
-                "start": "December 11 2019, 0:00",
-                "end": "December 26 2019, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Miyako [Christmas], 5* Momo [Christmas]",
-                "start": "December 15 2019, 0:00",
-                "end": "December 26 2019, 13:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "New Year's Special Programme! \"It's a New Year, Etowaria\" Summon",
@@ -336,7 +264,7 @@ var timerData = [
             {
                 "name": "Featuring 5* Isami [New Year], 5* Yasuna [New Year], 5* Kaho [New Year], 4* Momiji [New Year]",
                 "start": "January 1 2020, 0:00",
-                "end": "January 10 2019, 16:59",
+                "end": "January 10 2020, 16:59",
                 "extraPriority": 4
             }
         ]
@@ -386,50 +314,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "December 26 2019, 17:00",
                 end: "January 17 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Choosable 5* Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚"
-        ],
-        image: "clea",
-        column: 1,
-        timers: [
-            {
-                name: "1st Half",
-                start: "December 4 2019, 0:00",
-                end: "December 26 2019, 23:59"
-            },
-            {
-                name: "2nd Half",
-                start: "December 11 2019, 0:00",
-                end: "December 26 2019, 23:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "December 11 2019, 0:00",
-                end: "December 26 2019, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Very x2 Thanks Special Login Bonus",
-            "大x2感謝スペシャルログインボーナス",
-            "Login on 14 days for up to 400 gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 11 2019, 0:00",
-                end: "December 26 2019, 23:59",
-                keepAfterFinished: "1 hours"
             }
         ]
     },
@@ -538,22 +422,6 @@ var timerData = [
                 end: "January 3 2020, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Limited Christmas Room Decorations",
-            "クリスマス限定のルームアイテム"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                start: "December 11 2019, 0:00",
-                end: "December 26 2019, 13:59"
             }
         ]
     },
