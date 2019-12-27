@@ -274,6 +274,11 @@ var timerData = [
                 "start": "December 26 2019, 17:00",
                 "end": "January 15 2020, 13:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Alice [New Year], 5* Omi [New Year]",
+                "start": "January 1 2020, 0:00",
+                "end": "January 15 2020, 13:59"
             }
         ]
     },
@@ -313,12 +318,35 @@ var timerData = [
             }
         ]
     },
-    /* {
+    {
+        "type": "Gacha",
+        "title": [
+            "New Year 2018 & 2019 Limited Summon",
+            "期間限定2018・2019お正月キャラクターピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/ntWpzyS.png",
+            "https://i.imgur.com/WtUvYNP.png",
+            "https://i.imgur.com/BeZ7O7J.png",
+            "https://i.imgur.com/r7xRUmZ.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Isami [New Year], 5* Yasuna [New Year], 5* Kaho [New Year], 4* Momiji [New Year]",
+                "start": "January 1 2020, 0:00",
+                "end": "January 10 2019, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "First Dream Summon",
             "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
-            "??? Paid Gems for 10x Summon + Choosable 5* and 4* Summon Tickets"
+            "400 Paid Gems for a 10x Summon + Choosable 5* and 4* Summon Tickets"
         ],
         "image": "clea",
         "column": 1,
@@ -333,10 +361,10 @@ var timerData = [
             {
                 name: "Ticket Expiration",
                 start: "January 1 2020, 0:00",
-                end: "January 22 2020, 13:59"
+                end: "January 22 2020, 23:59"
             }
         ]
-    }, */
+    },
     {
         "type": "Gacha",
         "title": [
