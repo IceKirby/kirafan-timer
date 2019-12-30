@@ -101,7 +101,6 @@ var timerData = [
                 "start": "December 26 2019, 17:00",
                 "end": "January 14 2020, 13:59",
                 "markers": {
-                    "New Year's Eve": "January 1 2020, 0:00",
                     "New Year": "January 1 2020, 0:00",
                     "Extra Chapter 1": "January 8 2020, 0:00",
                     "Extra Chapter 2": "January 9 2020, 0:00",
@@ -322,7 +321,7 @@ var timerData = [
         title: [
             "Year out, Year in Login Bonus",
             "ゆく年くる年ログインボーナス",
-            "Up to 200 free gems"
+            "20 Free Gems per day, up to 10 days"
         ],
         image: "lamp",
         column: 2,
@@ -340,7 +339,7 @@ var timerData = [
         title: [
             "Otoshidama Login Bonus",
             "お年玉ログインボーナス",
-            "Log in during New Year for a 100 Gems"
+            "Log in during New Year for 100 Free Gems"
         ],
         image: "lamp",
         column: 2,
