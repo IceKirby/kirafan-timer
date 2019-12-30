@@ -425,6 +425,45 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "January Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/yTMSpVc.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "January 4 2020, 0:00",
+                end: "January 5 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "January 11 2020, 0:00",
+                end: "January 12 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "January 18 2020, 0:00",
+                end: "January 19 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "January 25 2020, 0:00",
+                end: "January 26 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "January 4 2020, 0:00",
+                end: "January 31 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited New Year Room Decorations",
