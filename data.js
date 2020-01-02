@@ -355,8 +355,8 @@ var timerData = [
     {
         type: "LoginDays",
         title: [
-            "Machikado Mazoku participation Login Bonus",
-            "まちカドまぞく参戦決定記念ログインボーナス",
+            "Koisuru Asteroid participation Login Bonus",
+            "恋する小惑星参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "lamp",
@@ -364,7 +364,51 @@ var timerData = [
         timers: [
             {
                 name: "Episode 1",
-                date: "July 11 2019"
+                date: "January 3 2020"
+            },
+            {
+                name: "Episode 2",
+                date: "January 10 2020"
+            },
+            {
+                name: "Episode 3",
+                date: "January 17 2020"
+            },
+            {
+                name: "Episode 4",
+                date: "January 24 2020"
+            },
+            {
+                name: "Episode 5",
+                date: "January 31 2020"
+            },
+            {
+                name: "Episode 6",
+                date: "February 7 2020"
+            },
+            {
+                name: "Episode 7",
+                date: "February 14 2020"
+            },
+            {
+                name: "Episode 8",
+                date: "February 21 2020"
+            },
+            {
+                name: "Episode 9",
+                date: "February 28 2020"
+            },
+            {
+                name: "Episode 10",
+                date: "March 6 2020"
+            },
+            {
+                name: "Episode 11",
+                date: "March 13 2020"
+            },
+            {
+                name: "Episode 12",
+                date: "March 20 2020"
             }
         ]
     },
