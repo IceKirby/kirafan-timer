@@ -138,6 +138,25 @@ var timerData = [
         "type": "Mission",
         "title": [
             "New Year! Training Support Campaign Missions",
+            "お正月限定！特別ミッション"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "January 5 2020, 0:00",
+                "end": "January 7 2020, 23:59",
+                "extraPriority": 1,
+                "info": "Missions reset daily"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "New Year! Training Support Campaign Missions",
             "新春！育成応援キャンペーン"
         ],
         "image": "leine",
