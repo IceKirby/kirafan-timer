@@ -36,52 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Hungry Christmas",
-            "ハングリークリスマス",
-            "Christmas 2019 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/AJVnStj.png",
-            "https://i.imgur.com/hCSTeJo.png",
-            "https://i.imgur.com/TvB1aSu.png",
-            "https://i.imgur.com/sEI5hBn.png",
-            "https://i.imgur.com/hQkqvyV.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "December 11 2019, 12:00",
-                "end": "December 26 2019, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "December 21 2019, 0:00",
-                    "Extra Chapter 2": "December 22 2019, 0:00",
-                    "Extra Chapter 3": "December 23 2019, 0:00",
-                    "Extra Chapter 4": "December 24 2019, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "December 14 2019, 17:00",
-                "end": "December 26 2019, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "December 17 2019, 17:00",
-                "end": "December 26 2019, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 11 2019, 12:00",
-                "end": "January 2 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "New Year's Special Programme! \"It's a New Year, Etowaria\"",
             "年末年始特番！お正月だよエトワリア",
             "New Year 2020 Event"
@@ -130,6 +84,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "New Year! Training Support Campaign",
+            "新春！育成応援キャンペーン"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Farming & Melee Quest",
+                "start": "January 5 2020, 0:00",
+                "end": "January 15 2020, 13:59",
+                "extraPriority": 3
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 5 2020, 0:00",
+                "end": "January 30 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "New Year's Special Programme! \"It's a New Year, Etowaria\" Missions",
@@ -160,23 +137,19 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Limited New Year Missions",
-            "お正月限定！特別ミッション"
+            "New Year! Training Support Campaign Missions",
+            "新春！育成応援キャンペーン"
         ],
-        "image": "match",
+        "image": "leine",
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
                 "start": "January 5 2020, 0:00",
-                "end": "January 7 2020, 23:59",
-                "extraPriority": 1
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 5 2020, 0:00",
-                "end": "January 30 2020, 13:59"
+                "end": "January 15 2020, 13:59",
+                "extraPriority": 1,
+                "info": "Missions reset daily"
             }
         ]
     },
@@ -415,17 +388,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest & Author Quest Half Stamina Campaign",
-            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
+            "Author Quest Half Stamina Campaign",
+            "作家クエストスタミナ半減キャンペーン",
         ],
         image: "match",
-        column: 0,
-        "priority": 2,
+        column: 2,
         timers: [
             {
                 name: "Period",
-                start: "December 4 2019, 0:00",
-                end: "December 10 2019, 23:59"
+                "start": "January 5 2020, 0:00",
+                "end": "January 15 2020, 13:59"
             }
         ]
     },
