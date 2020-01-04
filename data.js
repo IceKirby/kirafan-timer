@@ -137,7 +137,7 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "New Year! Training Support Campaign Missions",
+            "New Year Special Missions",
             "お正月限定！特別ミッション"
         ],
         "image": "match",
