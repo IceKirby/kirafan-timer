@@ -201,6 +201,30 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Limited-time Summon",
+            "がっこうぐらし！期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/QhBlavY.png",
+            "https://i.imgur.com/4yiDenc.png",
+            "https://i.imgur.com/Y2GWaQG.png",
+            "https://i.imgur.com/bzebk2I.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuki [Swimsuit], 5* Kurumi [Swimsuit], 5* Wakasa Yuuri, 5* Naoki Miki",
+                "start": "January 10 2020, 17:00",
+                "end": "January 17 2020, 16:59",
+                "info": "Also 3* and 4* characters from Gakkou Gurashi!",
+                "extraPriority": 4
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
@@ -257,6 +281,35 @@ var timerData = [
                 "start": "January 1 2020, 0:00",
                 "end": "January 10 2020, 16:59",
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Choosable 5* Ticket Summon",
+            "がっこうぐらし！★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable Gakkou Gurashi! 5* Summon Tickets"
+        ],
+        "image": [
+            "https://i.imgur.com/QhBlavY.png",
+            "https://i.imgur.com/4yiDenc.png",
+            "https://i.imgur.com/Y2GWaQG.png",
+            "https://i.imgur.com/bzebk2I.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "January 10 2020, 17:00",
+                end: "January 17 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "January 10 2020, 17:00",
+                end: "January 24 2020, 16:59"
             }
         ]
     },
