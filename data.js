@@ -110,6 +110,28 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
+            "Outclub and the Roar of Steel Missions",
+            "野クルと鋼鉄の咆哮",
+            "Yuru Camp△ Author Quest missions"
+        ],
+        "image": [
+            "https://i.imgur.com/vJwg2JW.png",
+            "https://i.imgur.com/op3IMwl.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "January 15 2020, 17:00",
+                "end": "January 30 2020, 23:59",
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
             "New Year's Special Programme! \"It's a New Year, Etowaria\" Missions",
             "年末年始特番！お正月だよエトワリア",
             "New Year 2020 Event missions"
@@ -199,6 +221,33 @@ var timerData = [
                 "name": "Part 2: Featuring 5* Alice [New Year], 5* Omi [New Year]",
                 "start": "January 1 2020, 0:00",
                 "end": "January 15 2020, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Outclub and the Roar of Steel Summon",
+            "野クルと鋼鉄の咆哮ピックアップ召喚",
+            "Yuru Camp△ Author Quest summon"
+        ],
+        "image": [
+            "https://i.imgur.com/vJwg2JW.png",
+            "https://i.imgur.com/op3IMwl.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Nadeshiko side: Featuring 5* Kagamihara Nadeshiko (Fire Mage)  ",
+                "start": "January 15 2020, 17:00",
+                "end": "January 30 2020, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Chiaki side: Featuring 5* Oogaki Chiaki",
+                "start": "January 15 2020, 17:00",
+                "end": "January 30 2020, 13:59"
             }
         ]
     },
