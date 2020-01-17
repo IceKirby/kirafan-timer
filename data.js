@@ -103,7 +103,10 @@ var timerData = [
             {
                 "name": "Event Shop",
                 "start": "January 5 2020, 0:00",
-                "end": "January 30 2020, 13:59"
+                "end": "January 30 2020, 13:59",
+                "markers": {
+                    "Part 2": "January 20 2020, 0:00"
+                }
             }
         ]
     },
@@ -126,6 +129,24 @@ var timerData = [
                 "start": "January 15 2020, 17:00",
                 "end": "January 30 2020, 23:59",
                 "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "New Year! Training Support Campaign Part 2",
+            "新春！育成応援キャンペーン 第2弾特別ミッション"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "January 20 2020, 0:00",
+                "end": "January 30 2020, 23:59",
+                "extraPriority": 1
             }
         ]
     },
@@ -344,16 +365,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Author Quest Half Stamina Campaign",
-            "作家クエストスタミナ半減キャンペーン",
+            "Daily Quests Half Stamina Campaign",
+            "曜日クエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "January 5 2020, 0:00",
-                "end": "January 15 2020, 13:59"
+                "start": "January 20 2020, 0:00",
+                "end": "January 30 2020, 13:59"
             }
         ]
     },
