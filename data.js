@@ -37,56 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "New Year's Special Programme! \"It's a New Year, Etowaria\"",
-            "年末年始特番！お正月だよエトワリア",
-            "New Year 2020 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/8ISQ6wf.png",
-            "https://i.imgur.com/PF2vaou.png",
-            "https://i.imgur.com/ChOz6oV.png",
-            "https://i.imgur.com/ipIxXUq.png",
-            "https://i.imgur.com/vi7U6Be.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "December 26 2019, 17:00",
-                "end": "January 14 2020, 13:59",
-                "markers": {
-                    "New Year": "January 1 2020, 0:00",
-                    "Extra Chapter 1": "January 8 2020, 0:00",
-                    "Extra Chapter 2": "January 9 2020, 0:00",
-                    "Extra Chapter 3": "January 10 2020, 0:00",
-                    "Extra Chapter 4": "January 11 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "January 1 2020, 0:00",
-                "end": "January 14 2020, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "January 3 2020, 17:00",
-                "end": "January 14 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 26 2019, 17:00",
-                "end": "January 21 2020, 13:59",
-                "markers": {
-                    "Part 2": "January 1 2020, 0:00"
-                }
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "New Year! Training Support Campaign",
             "新春！育成応援キャンペーン"
         ],
@@ -177,26 +127,26 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Gacha",
         "title": [
-            "Gakkou Gurashi! Limited-time Summon",
-            "がっこうぐらし！期間限定特別セレクション召喚"
+            "Valentine 2018 & 2019 Limited-time Summon",
+            "期間限定2018・2019バレンタインキャラクターピックアップ召喚"
         ],
         "image": [
-            "https://i.imgur.com/QhBlavY.png",
-            "https://i.imgur.com/4yiDenc.png",
-            "https://i.imgur.com/Y2GWaQG.png",
-            "https://i.imgur.com/bzebk2I.png"
+            "https://i.imgur.com/9rFfXW8.png",
+            "https://i.imgur.com/W35JuvK.png",
+            "https://i.imgur.com/FFFUcPW.png",
+            "https://i.imgur.com/D1iC8DW.png",
+            "https://i.imgur.com/KkUub4Q.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuki [Swimsuit], 5* Kurumi [Swimsuit], 5* Wakasa Yuuri, 5* Naoki Miki",
-                "start": "January 10 2020, 17:00",
-                "end": "January 17 2020, 16:59",
-                "info": "Also 3* and 4* characters from Gakkou Gurashi!",
+                "name": "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 5* Koume [Valentine], 5* Mio [Valentine], 4* Tsubame [Valentine]",
+                "start": "January 24 2020, 17:00",
+                "end": "February 7 2020, 16:59",
                 "extraPriority": 4
             }
         ]
@@ -251,30 +201,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "January 10 2020, 17:00",
                 end: "January 24 2020, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "First Dream Summon",
-            "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* and 4* Summon Tickets"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "January 1 2020, 0:00",
-                end: "January 15 2020, 13:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "January 1 2020, 0:00",
-                end: "January 22 2020, 23:59"
             }
         ]
     },
