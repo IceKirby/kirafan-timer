@@ -36,6 +36,51 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Pursue the Darkness Chocolate Syndicate!",
+            "闇チョコシンジケートを追え！",
+            "Valentine 2020 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/rnS09d2.png",
+            "https://i.imgur.com/5zuvjry.png",
+            "https://i.imgur.com/V0cXbFL.png",
+            "https://i.imgur.com/rLHIHRR.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "January 30 2020, 17:00",
+                "end": "February 15 2020, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "February 11 2020, 0:00",
+                    "Extra Chapter 2": "February 12 2020, 0:00",
+                    "Extra Chapter 3": "February 13 2020, 0:00",
+                    "Extra Chapter 4": "February 14 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "February 1 2020, 17:00",
+                "end": "February 15 2020, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "February 5 2020, 17:00",
+                "end": "February 15 2020, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 30 2020, 17:00",
+                "end": "February 22 2020, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "New Year! Training Support Campaign",
             "新春！育成応援キャンペーン"
         ],
@@ -100,6 +145,31 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Pursue the Darkness Chocolate Syndicate! Missions",
+            "闇チョコシンジケートを追え！",
+            "Valentine 2020 Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/rnS09d2.png",
+            "https://i.imgur.com/5zuvjry.png",
+            "https://i.imgur.com/V0cXbFL.png",
+            "https://i.imgur.com/rLHIHRR.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "January 30 2020, 17:00",
+                "end": "February 15 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Outclub and the Roar of Steel Summon",
@@ -123,6 +193,29 @@ var timerData = [
                 "name": "Chiaki side: Featuring 5* Oogaki Chiaki",
                 "start": "January 15 2020, 17:00",
                 "end": "January 30 2020, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Pursue the Darkness Chocolate Syndicate! Summon",
+            "闇チョコシンジケートを追え！ピックアップ召喚",
+            "Valentine 2020 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/rnS09d2.png",
+            "https://i.imgur.com/5zuvjry.png",
+            "https://i.imgur.com/V0cXbFL.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Momiji [Valentine], 5* Merry [Valentine], 5* Hibiki [Valentine]",
+                "start": "January 30 2020, 17:00",
+                "end": "February 15 2020, 13:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -177,35 +270,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Gakkou Gurashi! Choosable 5* Ticket Summon",
-            "がっこうぐらし！★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable Gakkou Gurashi! 5* Summon Tickets"
-        ],
-        "image": [
-            "https://i.imgur.com/QhBlavY.png",
-            "https://i.imgur.com/4yiDenc.png",
-            "https://i.imgur.com/Y2GWaQG.png",
-            "https://i.imgur.com/bzebk2I.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "January 10 2020, 17:00",
-                end: "January 17 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "January 10 2020, 17:00",
-                end: "January 24 2020, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Random 5* Summon Ticket by Magazine",
             "★5確定チケット引換券付き！有償限定10回召喚",
             "240 Paid Gems for 10x Summon + Voucher to exchange for a Random 5* Summon Ticket"
@@ -216,14 +280,31 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                start: "December 26 2019, 17:00",
-                end: "January 10 2020, 16:59",
+                start: "January 30 2020, 17:00",
+                end: "February 14 2020, 23:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "December 26 2019, 17:00",
-                end: "January 17 2020, 23:59"
+                start: "January 30 2020, 17:00",
+                end: "February 21 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Valentine Login Bonus",
+            "バレンタインログインボーナス",
+            "Log in on 10 days for up to 200 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "January 30 2020, 0:00",
+                "end": "February 14 2020, 23:59"
             }
         ]
     },
@@ -343,18 +424,62 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "February Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/v4fQhBZ.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "February 1 2020, 0:00",
+                end: "February 2 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "February 8 2020, 0:00",
+                end: "February 9 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "February 15 2020, 0:00",
+                end: "February 16 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "February 22 2020, 0:00",
+                end: "February 23 2020, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "February 29 2020, 0:00",
+                end: "March 1 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "February 1 2020, 0:00",
+                end: "March 6 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
-            "Limited New Year Room Decorations",
-            "お正月限定のルームアイテム"
+            "Limited Valentine Room Decorations",
+            "バレンタイン限定のルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 1 2020, 0:00",
-                end: "January 15 2020, 13:59"
+                start: "January 30 2020, 17:00",
+                end: "February 15 2020, 13:59"
             }
         ]
     },
