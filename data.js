@@ -82,66 +82,47 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "New Year! Training Support Campaign",
-            "新春！育成応援キャンペーン"
+            "Hero's Gourmet ~Etowaria's Food Journal~",
+            "勇者のグルメ～エトワリア食紀行～",
+            "Koufuku Graffiti event"
         ],
-        "image": "leine",
+        "image": [
+            "https://i.imgur.com/Zy7mdz6.png",
+            "https://i.imgur.com/ZCaGS9w.png",
+            "https://i.imgur.com/ZD1guHO.png",
+            "https://i.imgur.com/ceHB9fw.png",
+            "https://i.imgur.com/Nvijwzt.png",
+            "https://i.imgur.com/NhtMmwq.png"
+        ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
-                "name": "Farming & Melee Quest",
-                "start": "January 5 2020, 0:00",
-                "end": "January 15 2020, 13:59",
-                "extraPriority": 3
+                "name": "Main Scenario",
+                "start": "February 13 2020, 17:00",
+                "end": "February 27 2020, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "February 22 2020, 0:00",
+                    "Extra Chapter 2": "February 23 2020, 0:00",
+                    "Extra Chapter 3": "February 24 2020, 0:00",
+                    "Extra Chapter 4": "February 25 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "February 15 2020, 17:00",
+                "end": "February 27 2020, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "February 19 2020, 17:00",
+                "end": "February 27 2020, 13:59"
             },
             {
                 "name": "Event Shop",
-                "start": "January 5 2020, 0:00",
-                "end": "January 30 2020, 13:59",
-                "markers": {
-                    "Part 2": "January 20 2020, 0:00"
-                }
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Outclub and the Roar of Steel Missions",
-            "野クルと鋼鉄の咆哮",
-            "Yuru Camp△ Author Quest missions"
-        ],
-        "image": [
-            "https://i.imgur.com/vJwg2JW.png",
-            "https://i.imgur.com/op3IMwl.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "January 15 2020, 17:00",
-                "end": "January 30 2020, 23:59",
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "New Year! Training Support Campaign Part 2",
-            "新春！育成応援キャンペーン 第2弾特別ミッション"
-        ],
-        "image": "leine",
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "January 20 2020, 0:00",
-                "end": "January 30 2020, 23:59",
-                "extraPriority": 1
+                "start": "February 13 2020, 17:00",
+                "end": "March 5 2020, 13:59"
             }
         ]
     },
@@ -171,29 +152,29 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Outclub and the Roar of Steel Summon",
-            "野クルと鋼鉄の咆哮ピックアップ召喚",
-            "Yuru Camp△ Author Quest summon"
+            "Hero's Gourmet ~Etowaria's Food Journal~ Missions",
+            "勇者のグルメ～エトワリア食紀行～",
+            "Koufuku Graffiti event missions"
         ],
         "image": [
-            "https://i.imgur.com/vJwg2JW.png",
-            "https://i.imgur.com/op3IMwl.png"
+            "https://i.imgur.com/Zy7mdz6.png",
+            "https://i.imgur.com/ZCaGS9w.png",
+            "https://i.imgur.com/ZD1guHO.png",
+            "https://i.imgur.com/ceHB9fw.png",
+            "https://i.imgur.com/Nvijwzt.png",
+            "https://i.imgur.com/NhtMmwq.png"
         ],
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Nadeshiko side: Featuring 5* Kagamihara Nadeshiko (Fire Mage)  ",
-                "start": "January 15 2020, 17:00",
-                "end": "January 30 2020, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Chiaki side: Featuring 5* Oogaki Chiaki",
-                "start": "January 15 2020, 17:00",
-                "end": "January 30 2020, 13:59"
+                "name": "Missions",
+                "start": "February 13 2020, 17:00",
+                "end": "February 27 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -223,48 +204,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Valentine 2018 & 2019 Limited-time Summon",
-            "期間限定2018・2019バレンタインキャラクターピックアップ召喚"
+            "Hero's Gourmet ~Etowaria's Food Journal~ Summon",
+            "勇者のグルメ～エトワリア食紀行～ピックアップ召喚",
+            "Koufuku Graffiti event summon"
         ],
         "image": [
-            "https://i.imgur.com/9rFfXW8.png",
-            "https://i.imgur.com/W35JuvK.png",
-            "https://i.imgur.com/FFFUcPW.png",
-            "https://i.imgur.com/D1iC8DW.png",
-            "https://i.imgur.com/KkUub4Q.png"
+            "https://i.imgur.com/Zy7mdz6.png",
+            "https://i.imgur.com/ZCaGS9w.png",
+            "https://i.imgur.com/ZD1guHO.png",
+            "https://i.imgur.com/ceHB9fw.png",
+            "https://i.imgur.com/Nvijwzt.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Aya [Valentine], 5* Shiina [Valentine], 5* Koume [Valentine], 5* Mio [Valentine], 4* Tsubame [Valentine]",
-                "start": "January 24 2020, 17:00",
-                "end": "February 7 2020, 16:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yuru Camp△ Limited-time Summon",
-            "ゆるキャン△ 期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/nPjhWTP.png",
-            "https://i.imgur.com/CnJ2np3.png",
-            "https://i.imgur.com/oFpr8Bu.png",
-            "https://i.imgur.com/VxSkHbo.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
+                "name": "First Half: Featuring 5* Machiko Ryou, 4* Morino Kirin",
+                "start": "February 13 2020, 17:00",
+                "end": "February 28 2020, 11:59",
+                "extraPriority": 6
+            },
             {
-                "name": "Featuring 5* Rin [Traveler of the Wasteland], 5* Nadeshiko [Swimsuit], 5* Kagamihara Nadeshiko (Water Warrior), 5* Inuyama Aoi",
-                "start": "January 17 2020, 17:00",
-                "end": "January 30 2020, 13:59",
-                "info": "Also 4* Yuru Camp△ characters",
-                "extraPriority": 4
+                "name": "Second Half: Featuring 5* Irokawa Ruki, 4* Irokawa Ruki, 4* Irokawa Miki",
+                "start": "February 15 2020, 0:00",
+                "end": "February 28 2020, 11:59"
             }
         ]
     },
@@ -382,45 +345,6 @@ var timerData = [
                 name: "Period",
                 "start": "January 20 2020, 0:00",
                 "end": "January 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "January Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/yTMSpVc.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "January 4 2020, 0:00",
-                end: "January 5 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "January 11 2020, 0:00",
-                end: "January 12 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "January 18 2020, 0:00",
-                end: "January 19 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "January 25 2020, 0:00",
-                end: "January 26 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "January 4 2020, 0:00",
-                end: "January 31 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
