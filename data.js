@@ -307,28 +307,32 @@ var timerData = [
                 date: "February 7 2020"
             },
             {
-                name: "Episode 7",
+                name: "Episode 6.5",
                 date: "February 14 2020"
             },
             {
-                name: "Episode 8",
+                name: "Episode 7",
                 date: "February 21 2020"
             },
             {
-                name: "Episode 9",
+                name: "Episode 8",
                 date: "February 28 2020"
             },
             {
-                name: "Episode 10",
+                name: "Episode 9",
                 date: "March 6 2020"
             },
             {
-                name: "Episode 11",
+                name: "Episode 10",
                 date: "March 13 2020"
             },
             {
-                name: "Episode 12",
+                name: "Episode 11",
                 date: "March 20 2020"
+            },
+            {
+                name: "Episode 12",
+                date: "March 27 2020"
             }
         ]
     },
