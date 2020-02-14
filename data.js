@@ -234,6 +234,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Leine Summon",
+            "きららファンタジアピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/0Tgt1z3.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Leine",
+                "start": "February 18 2020, 10:00",
+                "end": "March 2 2020, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Random 5* Summon Ticket by Magazine",
             "★5確定チケット引換券付き！有償限定10回召喚",
             "240 Paid Gems for 10x Summon + Voucher to exchange for a Random 5* Summon Ticket"
@@ -256,6 +276,30 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "800 Days Celebration Choosable 5* Summon Ticket",
+            "リリース800日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "February 18 2020, 0:00",
+                end: "March 2 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "February 18 2020, 0:00",
+                end: "March 19 2020, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Valentine Login Bonus",
@@ -269,6 +313,23 @@ var timerData = [
                 name: "Period",
                 "start": "January 30 2020, 0:00",
                 "end": "February 14 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "800 Days Celebration Login Bonus",
+            "800日記念ログインボーナス",
+            "Log in on 10 days for up to 300 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "February 18 2020, 0:00",
+                "end": "March 2 2020, 23:59"
             }
         ]
     },
@@ -415,16 +476,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "New Year Gem Sale",
-            "お正月セール！お得な星彩石セット販売"
+            "800 Days Celebration Special Gems Set",
+            "800日記念お得な星彩石セット販売"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 1 2020, 0:00",
-                end: "January 15 2020, 13:59"
+                start: "February 18 2020, 0:00",
+                end: "March 2 2020, 23:59"
             }
         ]
     }
