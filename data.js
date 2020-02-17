@@ -245,7 +245,7 @@ var timerData = [
         "timers": [
             {
                 "name": "Featuring 5* Leine",
-                "start": "February 18 2020, 10:00",
+                "start": "February 18 2020, 0:00",
                 "end": "March 2 2020, 23:59",
                 "extraPriority": 5
             }
