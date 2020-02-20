@@ -254,6 +254,28 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Comic Girls Limited-time Summon",
+            "こみっくがーるず 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/hgtHbGs.png",
+            "https://i.imgur.com/rbpoq8j.png",
+            "https://i.imgur.com/wkaqN3E.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Koizuka Koyume, 4* Koizuka Koyume, 4* Irokawa Ruki, 4* Katsuki Tsubasa",
+                "start": "February 21 2020, 17:00",
+                "end": "February 28 2020, 11:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Random 5* Summon Ticket by Magazine",
             "★5確定チケット引換券付き！有償限定10回召喚",
             "240 Paid Gems for 10x Summon + Voucher to exchange for a Random 5* Summon Ticket"
