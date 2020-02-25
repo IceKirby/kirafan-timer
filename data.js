@@ -322,6 +322,49 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Version 2.0 Celebration Choosable 5* Summon Ticket",
+            "Ver 2.0記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "February 28 2020, 17:00",
+                end: "March 12 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "February 28 2020, 17:00",
+                end: "March 19 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily Kira Kira Summon",
+            "1日1回きらきら召喚",
+            "40 Paid Gems for 3x Summon (all 4* or above)"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Period",
+                start: "February 28 2020, 17:00",
+                end: "March 6 2020, 23:59",
+                extraPriority: 3
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Valentine Login Bonus",
@@ -352,6 +395,23 @@ var timerData = [
                 name: "Period",
                 "start": "February 18 2020, 0:00",
                 "end": "March 2 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Version 2.0 Celebration Login Bonus",
+            "Ver 2.0記念ログインボーナス",
+            "Log in on 9 days for items like 5★ LB Items and Summon Tickets"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "February 28 2020, 17:00",
+                "end": "March 12 2020, 23:59"
             }
         ]
     },
@@ -480,6 +540,35 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "March Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/qHmOVys.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "March 7 2020, 0:00",
+                end: "March 8 2 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "March 14 2020, 0:00",
+                end: "March 15 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "March 7 2020, 0:00",
+                end: "April 3 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Valentine Room Decorations",
@@ -508,6 +597,22 @@ var timerData = [
                 name: "Period",
                 start: "February 18 2020, 0:00",
                 end: "March 2 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Version 2.0 Celebration Sale",
+            "Ver 2.0記念セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "February 28 2020, 17:00",
+                "end": "March 12 2020, 23:59"
             }
         ]
     }
