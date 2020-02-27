@@ -547,16 +547,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Valentine Room Decorations",
-            "バレンタイン限定のルームアイテム"
+            "Limited Hinamatsuri Room Decorations",
+            "ヒナ祭り限定のルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "January 30 2020, 17:00",
-                end: "February 15 2020, 13:59"
+                start: "February 28 2020, 17:00",
+                end: "March 13 2020, 13:59"
             }
         ]
     },
