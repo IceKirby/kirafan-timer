@@ -37,51 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Pursue the Darkness Chocolate Syndicate!",
-            "闇チョコシンジケートを追え！",
-            "Valentine 2020 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/rnS09d2.png",
-            "https://i.imgur.com/5zuvjry.png",
-            "https://i.imgur.com/V0cXbFL.png",
-            "https://i.imgur.com/rLHIHRR.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "January 30 2020, 17:00",
-                "end": "February 15 2020, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "February 11 2020, 0:00",
-                    "Extra Chapter 2": "February 12 2020, 0:00",
-                    "Extra Chapter 3": "February 13 2020, 0:00",
-                    "Extra Chapter 4": "February 14 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "February 1 2020, 17:00",
-                "end": "February 15 2020, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "February 5 2020, 17:00",
-                "end": "February 15 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 30 2020, 17:00",
-                "end": "February 22 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Hero's Gourmet ~Etowaria's Food Journal~",
             "勇者のグルメ～エトワリア食紀行～",
             "Koufuku Graffiti event"
@@ -127,27 +82,47 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
+        "type": "Event",
         "title": [
-            "Pursue the Darkness Chocolate Syndicate! Missions",
-            "闇チョコシンジケートを追え！",
-            "Valentine 2020 Event missions"
+            "Dark Clouds! Hinamatsuri",
+            "暗雲！ヒナ祭り",
+            "Hinamatsuri 2020 Event"
         ],
         "image": [
-            "https://i.imgur.com/rnS09d2.png",
-            "https://i.imgur.com/5zuvjry.png",
-            "https://i.imgur.com/V0cXbFL.png",
-            "https://i.imgur.com/rLHIHRR.png"
+            "https://i.imgur.com/v0U24Dy.png",
+            "https://i.imgur.com/NL4VZlo.png",
+            "https://i.imgur.com/4KVZubn.png",
+            "https://i.imgur.com/Lx9fcDq.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "January 30 2020, 17:00",
-                "end": "February 15 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "name": "Main Scenario",
+                "start": "February 28 2020, 17:00",
+                "end": "March 13 2020, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "March 7 2020, 0:00",
+                    "Extra Chapter 2": "March 8 2020, 0:00",
+                    "Extra Chapter 3": "March 9 2020, 0:00",
+                    "Extra Chapter 4": "March 10 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "March 1 2020, 17:00",
+                "end": "March 13 2020, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "March 4 2020, 17:00",
+                "end": "March 13 2020, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "February 28 2020, 17:00",
+                "end": "March 20 2020, 13:59"
             }
         ]
     },
@@ -179,25 +154,27 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Pursue the Darkness Chocolate Syndicate! Summon",
-            "闇チョコシンジケートを追え！ピックアップ召喚",
-            "Valentine 2020 Event summon"
+            "Dark Clouds! Hinamatsuri Missions",
+            "暗雲！ヒナ祭り",
+            "Hinamatsuri 2020 Event missions"
         ],
         "image": [
-            "https://i.imgur.com/rnS09d2.png",
-            "https://i.imgur.com/5zuvjry.png",
-            "https://i.imgur.com/V0cXbFL.png"
+            "https://i.imgur.com/v0U24Dy.png",
+            "https://i.imgur.com/NL4VZlo.png",
+            "https://i.imgur.com/4KVZubn.png",
+            "https://i.imgur.com/Lx9fcDq.png"
         ],
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Momiji [Valentine], 5* Merry [Valentine], 5* Hibiki [Valentine]",
-                "start": "January 30 2020, 17:00",
-                "end": "February 15 2020, 13:59",
-                "extraPriority": 6
+                "name": "Missions",
+                "start": "February 28 2020, 17:00",
+                "end": "March 13 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -254,6 +231,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Dark Clouds! Hinamatsuri Summon",
+            "暗雲！ヒナ祭りピックアップ召喚",
+            "Hinamatsuri 2020 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/v0U24Dy.png",
+            "https://i.imgur.com/NL4VZlo.png",
+            "https://i.imgur.com/4KVZubn.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Clea [Doll's Festival], 5* Hideri [Doll's Festival], 5* Shion [Doll's Festival]",
+                "start": "February 28 2020, 17:00",
+                "end": "March 13 2020, 13:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Comic Girls Limited-time Summon",
             "こみっくがーるず 期間限定特別セレクション召喚"
         ],
@@ -270,30 +270,6 @@ var timerData = [
                 "start": "February 21 2020, 17:00",
                 "end": "February 28 2020, 11:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Random 5* Summon Ticket by Magazine",
-            "★5確定チケット引換券付き！有償限定10回召喚",
-            "240 Paid Gems for 10x Summon + Voucher to exchange for a Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "January 30 2020, 17:00",
-                end: "February 14 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "January 30 2020, 17:00",
-                end: "February 21 2020, 23:59"
             }
         ]
     },
