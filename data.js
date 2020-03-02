@@ -129,33 +129,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Hero's Gourmet ~Etowaria's Food Journal~ Missions",
-            "勇者のグルメ～エトワリア食紀行～",
-            "Koufuku Graffiti event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/Zy7mdz6.png",
-            "https://i.imgur.com/ZCaGS9w.png",
-            "https://i.imgur.com/ZD1guHO.png",
-            "https://i.imgur.com/ceHB9fw.png",
-            "https://i.imgur.com/Nvijwzt.png",
-            "https://i.imgur.com/NhtMmwq.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "February 13 2020, 17:00",
-                "end": "February 27 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Dark Clouds! Hinamatsuri Missions",
             "暗雲！ヒナ祭り",
             "Hinamatsuri 2020 Event missions"
@@ -175,36 +148,6 @@ var timerData = [
                 "end": "March 13 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Hero's Gourmet ~Etowaria's Food Journal~ Summon",
-            "勇者のグルメ～エトワリア食紀行～ピックアップ召喚",
-            "Koufuku Graffiti event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/Zy7mdz6.png",
-            "https://i.imgur.com/ZCaGS9w.png",
-            "https://i.imgur.com/ZD1guHO.png",
-            "https://i.imgur.com/ceHB9fw.png",
-            "https://i.imgur.com/Nvijwzt.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Machiko Ryou, 4* Morino Kirin",
-                "start": "February 13 2020, 17:00",
-                "end": "February 28 2020, 11:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Second Half: Featuring 5* Irokawa Ruki, 4* Irokawa Ruki, 4* Irokawa Miki",
-                "start": "February 15 2020, 0:00",
-                "end": "February 28 2020, 11:59"
             }
         ]
     },
@@ -254,22 +197,28 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Comic Girls Limited-time Summon",
-            "こみっくがーるず 期間限定特別セレクション召喚"
+            "Limited-time Hinamatsuri Step-up Summon",
+            "期間限定ひな祭り復刻！おまけ付き10回召喚",
+            "Ticket to summon 5* Yun [Doll's Festival] or 5* Isana [Doll's Festival] on 7th step"
         ],
         "image": [
-            "https://i.imgur.com/hgtHbGs.png",
-            "https://i.imgur.com/rbpoq8j.png",
-            "https://i.imgur.com/wkaqN3E.png"
+            "https://i.imgur.com/Aoyq45x.png",
+            "https://i.imgur.com/tH6oORE.png",
+            "https://i.imgur.com/uYDkng4.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Koizuka Koyume, 4* Koizuka Koyume, 4* Irokawa Ruki, 4* Katsuki Tsubasa",
-                "start": "February 21 2020, 17:00",
-                "end": "February 28 2020, 11:59",
+                "name": "Featuring 5* Yun [Doll's Festival], 5* Isana [Doll's Festival], 4* Maika [Doll's Festival]",
+                "start": "March 3 2020, 17:00",
+                "end": "March 10 2020, 16:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 3 2020, 17:00",
+                "end": "March 17 2020, 23:59"
             }
         ]
     },
