@@ -273,6 +273,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Random 5* Ticket Summon by Magazine",
+            "★5確定チケット引換券付き！有償限定10回召喚",
+            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "March 7 2020, 17:00",
+                end: "March 14 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "March 7 2020, 17:00",
+                end: "March 21 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Kira Kira Summon",
             "1日1回きらきら召喚",
             "40 Paid Gems for 3x Summon (all 4* or above)"
