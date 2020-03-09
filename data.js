@@ -37,53 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Hero's Gourmet ~Etowaria's Food Journal~",
-            "勇者のグルメ～エトワリア食紀行～",
-            "Koufuku Graffiti event"
-        ],
-        "image": [
-            "https://i.imgur.com/Zy7mdz6.png",
-            "https://i.imgur.com/ZCaGS9w.png",
-            "https://i.imgur.com/ZD1guHO.png",
-            "https://i.imgur.com/ceHB9fw.png",
-            "https://i.imgur.com/Nvijwzt.png",
-            "https://i.imgur.com/NhtMmwq.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "February 13 2020, 17:00",
-                "end": "February 27 2020, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "February 22 2020, 0:00",
-                    "Extra Chapter 2": "February 23 2020, 0:00",
-                    "Extra Chapter 3": "February 24 2020, 0:00",
-                    "Extra Chapter 4": "February 25 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "February 15 2020, 17:00",
-                "end": "February 27 2020, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "February 19 2020, 17:00",
-                "end": "February 27 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 13 2020, 17:00",
-                "end": "March 5 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Dark Clouds! Hinamatsuri",
             "暗雲！ヒナ祭り",
             "Hinamatsuri 2020 Event"
@@ -154,26 +107,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Leine Summon",
-            "きららファンタジアピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/0Tgt1z3.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Leine",
-                "start": "February 18 2020, 0:00",
-                "end": "March 2 2020, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Dark Clouds! Hinamatsuri Summon",
             "暗雲！ヒナ祭りピックアップ召喚",
             "Hinamatsuri 2020 Event summon"
@@ -219,6 +152,28 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 3 2020, 17:00",
                 "end": "March 17 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Machikado Mazoku & Harumination Limited-time Summon",
+            "まちカドまぞく＆はるみねーしょん 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/YWLUYla.png",
+            "https://i.imgur.com/sqRMcAP.png",
+            "https://i.imgur.com/PlT5O2y.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yoshida Yuuko, 5* Momo [Christmas], 5* Hosono Harumi, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
+                "start": "March 10 2020, 17:00",
+                "end": "March 17 2020, 16:59",
+                "extraPriority": 4
             }
         ]
     },
