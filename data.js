@@ -79,6 +79,54 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Event",
+        "title": [
+            "The Star Where Miracles are Born",
+            "奇跡が生まれる星",
+            "Koisuru Asteroid event"
+        ],
+        "image": [
+            "https://i.imgur.com/FcaDtHX.png",
+            "https://i.imgur.com/So9FPl6.png",
+            "https://i.imgur.com/tywUox2.png",
+            "https://i.imgur.com/qUBt0iW.png",
+            "https://i.imgur.com/SGYPsaF.png",
+            "https://i.imgur.com/i7hdk9N.png",
+            "https://i.imgur.com/wl8ngWd.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "March 13 2020, 15:00",
+                "end": "March 31 2020, 13:59",
+                "markers": {
+                    "Extra Chapter 1": "March 20 2020, 0:00",
+                    "Extra Chapter 2": "March 21 2020, 0:00",
+                    "Extra Chapter 3": "March 22 2020, 0:00",
+                    "Extra Chapter 4": "March 23 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Melee Quest",
+                "start": "March 15 2020, 17:00",
+                "end": "March 31 2020, 13:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "March 18 2020, 17:00",
+                "end": "March 31 2020, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 13 2020, 15:00",
+                "end": "April 7 2020, 13:59"
+            }
+        ]
+    },
     {
         "type": "Mission",
         "title": [
@@ -105,6 +153,34 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "The Star Where Miracles are Born Missions",
+            "奇跡が生まれる星",
+            "Koisuru Asteroid event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/FcaDtHX.png",
+            "https://i.imgur.com/So9FPl6.png",
+            "https://i.imgur.com/tywUox2.png",
+            "https://i.imgur.com/qUBt0iW.png",
+            "https://i.imgur.com/SGYPsaF.png",
+            "https://i.imgur.com/i7hdk9N.png",
+            "https://i.imgur.com/wl8ngWd.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "March 13 2020, 15:00",
+                "end": "March 31 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Dark Clouds! Hinamatsuri Summon",
@@ -124,6 +200,47 @@ var timerData = [
                 "start": "February 28 2020, 17:00",
                 "end": "March 13 2020, 13:59",
                 "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "The Star Where Miracles are Born Summon",
+            "奇跡が生まれる星ピックアップ召喚",
+            "Koisuru Asteroid event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/So9FPl6.png",
+            "https://i.imgur.com/tywUox2.png",
+            "https://i.imgur.com/qUBt0iW.png",
+            "https://i.imgur.com/SGYPsaF.png",
+            "https://i.imgur.com/i7hdk9N.png",
+            "https://i.imgur.com/wl8ngWd.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Mira side: Featuring 5* Konohata Mira, 4* Manaka Ao",
+                "start": "March 13 2020, 15:00",
+                "end": "March 31 2020, 13:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Ayame side: Featuring 5* Seki Ayame, 4* Murakami Shiina, 4* Seki Ayame",
+                "start": "March 15 2020, 0:00",
+                "end": "March 23 2020, 23:59"
+            },
+            {
+                "name": "Nono side: Featuring 5* Iketani Nono, 4* Iketani Nono, 4* Tsuruse Matsuri",
+                "start": "March 15 2020, 0:00",
+                "end": "March 23 2020, 23:59"
+            },
+            {
+                "name": "Mocha side: Featuring 5* Mocha",
+                "start": "March 18 2020, 0:00",
+                "end": "March 31 2020, 13:59"
             }
         ]
     },
