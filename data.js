@@ -257,8 +257,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Please Leave this to Fennel! Summon",
-            "このフェンネルにお任せをピックアップ召喚",
+            "Please Leave this to Fennel! Limited-time Summon",
+            "このフェンネルにお任せを！ 期間限定ピックアップ召喚",
             "Fennel Mini-Event summon"
         ],
         "image": [
