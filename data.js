@@ -128,27 +128,38 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
+        "type": "Event",
         "title": [
-            "Dark Clouds! Hinamatsuri Missions",
-            "暗雲！ヒナ祭り",
-            "Hinamatsuri 2020 Event missions"
+            "Please Leave this to Fennel!",
+            "このフェンネルにお任せを",
+            "Fennel Mini-Event"
         ],
         "image": [
-            "https://i.imgur.com/v0U24Dy.png",
-            "https://i.imgur.com/NL4VZlo.png",
-            "https://i.imgur.com/4KVZubn.png",
-            "https://i.imgur.com/Lx9fcDq.png"
+            "https://i.imgur.com/otRVaQ7.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "February 28 2020, 17:00",
-                "end": "March 13 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "name": "Main Scenario",
+                "start": "March 20 2020, 0:00",
+                "end": "March 31 2020, 13:59",
+                "markers": {
+                    "Chapter 2": "March 21 2020, 0:00",
+                    "Chapter 3": "March 22 2020, 0:00",
+                    "Chapter 4": "March 23 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Challenge Quest",
+                "start": "March 20 2020, 0:00",
+                "end": "March 31 2020, 13:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 20 2020, 0:00",
+                "end": "April 7 2020, 13:59"
             }
         ]
     },
@@ -181,25 +192,24 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Dark Clouds! Hinamatsuri Summon",
-            "暗雲！ヒナ祭りピックアップ召喚",
-            "Hinamatsuri 2020 Event summon"
+            "Please Leave this to Fennel! Missions",
+            "このフェンネルにお任せを",
+            "Fennel Mini-Event missions"
         ],
         "image": [
-            "https://i.imgur.com/v0U24Dy.png",
-            "https://i.imgur.com/NL4VZlo.png",
-            "https://i.imgur.com/4KVZubn.png"
+            "https://i.imgur.com/otRVaQ7.png"
         ],
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Clea [Doll's Festival], 5* Hideri [Doll's Festival], 5* Shion [Doll's Festival]",
-                "start": "February 28 2020, 17:00",
-                "end": "March 13 2020, 13:59",
-                "extraPriority": 6
+                "name": "Missions",
+                "start": "March 20 2020, 0:00",
+                "end": "March 31 2020, 13:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -247,50 +257,45 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Hinamatsuri Step-up Summon",
-            "期間限定ひな祭り復刻！おまけ付き10回召喚",
-            "Ticket to summon 5* Yun [Doll's Festival] or 5* Isana [Doll's Festival] on 7th step"
+            "Please Leave this to Fennel! Summon",
+            "このフェンネルにお任せをピックアップ召喚",
+            "Fennel Mini-Event summon"
         ],
         "image": [
-            "https://i.imgur.com/Aoyq45x.png",
-            "https://i.imgur.com/tH6oORE.png",
-            "https://i.imgur.com/uYDkng4.png"
+            "https://i.imgur.com/otRVaQ7.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yun [Doll's Festival], 5* Isana [Doll's Festival], 4* Maika [Doll's Festival]",
-                "start": "March 3 2020, 17:00",
-                "end": "March 10 2020, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 3 2020, 17:00",
-                "end": "March 17 2020, 23:59"
+                "name": "Featuring 5* Fennel",
+                "start": "March 20 2020, 0:00",
+                "end": "March 31 2020, 13:59",
+                "extraPriority": 5
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Machikado Mazoku & Harumination Limited-time Summon",
-            "まちカドまぞく＆はるみねーしょん 期間限定特別セレクション召喚"
+            "Head Priest & Seven Sages Limited 5* Summon Ticket",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for 10x Summon + Random 5* Summon Ticket"
         ],
-        "image": [
-            "https://i.imgur.com/YWLUYla.png",
-            "https://i.imgur.com/sqRMcAP.png",
-            "https://i.imgur.com/PlT5O2y.png"
-        ],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yoshida Yuuko, 5* Momo [Christmas], 5* Hosono Harumi, 4* Chiyoda Momo, 4* Lilith, 4* Hinatsuki Mikan",
-                "start": "March 10 2020, 17:00",
-                "end": "March 17 2020, 16:59",
-                "extraPriority": 4
+                name: "Summon Period",
+                start: "March 20 2020, 0:00",
+                end: "March 31 2020, 13:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "March 20 2020, 0:00",
+                end: "April 7 2020, 23:59"
             }
         ]
     },
@@ -367,42 +372,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Daily Kira Kira Summon",
-            "1日1回きらきら召喚",
-            "40 Paid Gems for 3x Summon (all 4* or above)"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Period",
-                start: "February 28 2020, 17:00",
-                end: "March 6 2020, 23:59",
-                extraPriority: 3
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Valentine Login Bonus",
-            "バレンタインログインボーナス",
-            "Log in on 10 days for up to 200 Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "January 30 2020, 0:00",
-                "end": "February 14 2020, 23:59"
-            }
-        ]
-    },
-    {
         type: "Other",
         title: [
             "800 Days Celebration Login Bonus",
@@ -416,23 +385,6 @@ var timerData = [
                 name: "Period",
                 "start": "February 18 2020, 0:00",
                 "end": "March 2 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Version 2.0 Celebration Login Bonus",
-            "Ver 2.0記念ログインボーナス",
-            "Log in on 9 days for items like 5★ LB Items and Summon Tickets"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "February 28 2020, 17:00",
-                "end": "March 12 2020, 23:59"
             }
         ]
     },
@@ -519,50 +471,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "February Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/v4fQhBZ.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "February 1 2020, 0:00",
-                end: "February 2 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "February 8 2020, 0:00",
-                end: "February 9 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "February 15 2020, 0:00",
-                end: "February 16 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "February 22 2020, 0:00",
-                end: "February 23 2020, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "February 29 2020, 0:00",
-                end: "March 1 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "February 1 2020, 0:00",
-                end: "March 6 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "March Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -618,22 +526,6 @@ var timerData = [
                 name: "Period",
                 start: "February 18 2020, 0:00",
                 end: "March 2 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Version 2.0 Celebration Sale",
-            "Ver 2.0記念セール"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "February 28 2020, 17:00",
-                "end": "March 12 2020, 23:59"
             }
         ]
     }
