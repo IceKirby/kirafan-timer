@@ -278,6 +278,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Stella no Mahou & Gochuumon wa Usagi Desu ka? Limited-time Summon",
+            "ステラのまほう&ご注文はうさぎですか？ 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/te7uYuG.png",
+            "https://i.imgur.com/ncQs5tI.png",
+            "https://i.imgur.com/cB2BBiu.png",
+            "https://i.imgur.com/wGKuN1T.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Shiina [Valentine], 5* Fujikawa Kayo, 5* Cocoa [Christmas], 5* Chino [Swimsuit], 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
+                "start": "March 24 2020, 17:00",
+                "end": "March 31 2020, 13:59",
+                "info": "Also 4* Honda Tamaki, 4* Fujikawa Kayo, 4* Murakami Shiina, 4* Seki Ayame, 4* Fuda Yumine, 4* Iino Minaha, 4* Iketani Nono, 4* Chino, 4* Sharo, 4* Megu, 3* characters from Stella no Mahou",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Head Priest & Seven Sages Limited 5* Summon Ticket",
             "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for 10x Summon + Random 5* Summon Ticket"
