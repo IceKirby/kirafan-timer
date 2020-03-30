@@ -34,51 +34,6 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Event",
-        "title": [
-            "Dark Clouds! Hinamatsuri",
-            "暗雲！ヒナ祭り",
-            "Hinamatsuri 2020 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/v0U24Dy.png",
-            "https://i.imgur.com/NL4VZlo.png",
-            "https://i.imgur.com/4KVZubn.png",
-            "https://i.imgur.com/Lx9fcDq.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "February 28 2020, 17:00",
-                "end": "March 13 2020, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "March 7 2020, 0:00",
-                    "Extra Chapter 2": "March 8 2020, 0:00",
-                    "Extra Chapter 3": "March 9 2020, 0:00",
-                    "Extra Chapter 4": "March 10 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "March 1 2020, 17:00",
-                "end": "March 13 2020, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "March 4 2020, 17:00",
-                "end": "March 13 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 28 2020, 17:00",
-                "end": "March 20 2020, 13:59"
-            }
-        ]
-    },
      {
         "type": "Event",
         "title": [
@@ -164,6 +119,49 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Heart-Throbbing Etowaria Academy",
+            "どきどきエトワリア学園"
+        ],
+        "image": [
+            "https://i.imgur.com/tdQX5oe.png",
+            "https://i.imgur.com/RwFBq2F.png",
+            "https://i.imgur.com/DcAgMP8.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "March 31 2020, 15:00",
+                "end": "April 14 2020, 16:59",
+                "markers": {
+                    "Extra Chapter 1": "April 9 2020, 0:00",
+                    "Extra Chapter 2": "April 10 2020, 0:00",
+                    "Extra Chapter 3": "April 11 2020, 0:00",
+                    "Extra Chapter 4": "April 12 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "April 2 2020, 17:00",
+                "end": "April 14 2020, 16:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "April 8 2020, 17:00",
+                "end": "April 14 2020, 16:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 31 2020, 15:00",
+                "end": "April 21 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "The Star Where Miracles are Born Missions",
@@ -208,6 +206,29 @@ var timerData = [
                 "name": "Missions",
                 "start": "March 20 2020, 0:00",
                 "end": "March 31 2020, 13:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Heart-Throbbing Etowaria Academy Missions",
+            "どきどきエトワリア学園"
+        ],
+        "image": [
+            "https://i.imgur.com/tdQX5oe.png",
+            "https://i.imgur.com/RwFBq2F.png",
+            "https://i.imgur.com/DcAgMP8.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "March 31 2020, 15:00",
+                "end": "April 14 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -272,6 +293,58 @@ var timerData = [
                 "start": "March 20 2020, 0:00",
                 "end": "March 31 2020, 13:59",
                 "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Heart-Throbbing Etowaria Academy Summon",
+            "どきどきエトワリア学園ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/tdQX5oe.png",
+            "https://i.imgur.com/RwFBq2F.png",
+            "https://i.imgur.com/DcAgMP8.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Shinobu side: Featuring 5* Oomiya Shinobu (Sun Warrior), 4* Oomiya Shinobu, 4* Komichi Aya",
+                "start": "March 31 2020, 15:00",
+                "end": "April 14 2020, 16:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Yuki side: Featuring 5* Takeya Yuki (Wind Alchemist), 4* Takeya Yuki, 4* Naoki Miki",
+                "start": "March 31 2020, 15:00",
+                "end": "April 14 2020, 16:59"
+            },
+            {
+                "name": "Chiya side: Featuring 5* Chiya (Wind Mage), 4* Chiya, 4* Tatsumi Kon",
+                "start": "March 31 2020, 15:00",
+                "end": "April 14 2020, 16:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kanna Summon",
+            "きららファンタジアピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/ZH0K3Ra.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Kanna",
+                "start": "April 3 2020, 0:00",
+                "end": "April 14 2020, 16:59",
+                "extraPriority": 4
             }
         ]
     },
