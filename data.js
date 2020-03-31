@@ -517,7 +517,7 @@ var timerData = [
             "Lamp's VTuber Debut",
             "ランプVTuberデビュー",
             "Log in for a Lamp Channel Subscription Ticket",
-            "Get from your Present Box before the deadline to receive an User Title later".
+            "Get from your Present Box before the deadline to receive an User Title later"
         ],
         image: "https://i.imgur.com/LwjhTiG.png",
         column: 2,
