@@ -205,7 +205,7 @@ var timerData = [
             {
                 "name": "Missions",
                 "start": "March 20 2020, 0:00",
-                "end": "March 31 2020, 13:59",
+                "end": "March 31 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
