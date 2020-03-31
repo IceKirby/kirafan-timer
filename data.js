@@ -399,6 +399,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Comics 1st Volume Celebration Summon",
+            "コミカライズ第1巻発売記念★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "April 3 2020, 0:00",
+                end: "April 16 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "April 3 2020, 0:00",
+                end: "April 23 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "800 Days Celebration Choosable 5* Summon Ticket",
             "リリース800日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
