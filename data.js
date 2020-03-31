@@ -516,7 +516,7 @@ var timerData = [
         title: [
             "Lamp's VTuber Debut",
             "ランプVTuberデビュー",
-            "Log in for a Lamp Channel Entry Ticket"
+            "Log in for a Lamp Channel Subscription Ticket (exchange for a Title later)"
         ],
         image: "https://i.imgur.com/LwjhTiG.png",
         column: 2,
