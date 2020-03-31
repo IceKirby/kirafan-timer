@@ -423,6 +423,25 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Lamp's VTuber Debut Summon",
+            "ランプのVTuberデビュー応援！有償限定召喚",
+            "400 Paid Gems 5* Lamp or 5* Lamp [Swimsuit] + Special User Title"
+        ],
+        "image": "https://i.imgur.com/LwjhTiG.png",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Period",
+                start: "April 1 2020, 0:00",
+                end: "April 1 2020, 23:59",
+                extraPriority: 7
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "800 Days Celebration Choosable 5* Summon Ticket",
             "リリース800日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
@@ -489,6 +508,23 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "March 7 2020, 17:00",
                 end: "March 21 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp's VTuber Debut",
+            "ランプVTuberデビュー",
+            "Log in for a Lamp Channel Entry Ticket"
+        ],
+        image: "https://i.imgur.com/LwjhTiG.png",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "April 1 2020, 0:00",
+                "end": "April 1 2020, 23:59"
             }
         ]
     },
