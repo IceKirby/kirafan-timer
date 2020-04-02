@@ -558,51 +558,63 @@ var timerData = [
         timers: [
             {
                 name: "Episode 1",
-                date: "April 1 2020"
+                date: "April 1 2020",
+                days: 2
             },
             {
                 name: "Episode 2",
-                date: "April 8 2020"
+                date: "April 8 2020",
+                days: 2
             },
             {
                 name: "Episode 3",
-                date: "April 15 2020"
+                date: "April 15 2020",
+                days: 2
             },
             {
                 name: "Episode 4",
-                date: "April 22 2020"
+                date: "April 22 2020",
+                days: 2
             },
             {
                 name: "Episode 5",
-                date: "April 29 2020"
+                date: "April 29 2020",
+                days: 2
             },
             {
                 name: "Episode 6",
-                date: "May 6 2020"
+                date: "May 6 2020",
+                days: 2
             },
             {
                 name: "Episode 7",
-                date: "May 13 2020"
+                date: "May 13 2020",
+                days: 2
             },
             {
                 name: "Episode 8",
-                date: "May 20 2020"
+                date: "May 20 2020",
+                days: 2
             },
             {
                 name: "Episode 9",
-                date: "May 27 2020"
+                date: "May 27 2020",
+                days: 2
             },
             {
                 name: "Episode 10",
-                date: "June 3 2020"
+                date: "June 3 2020",
+                days: 2
             },
             {
                 name: "Episode 11",
-                date: "June 10 2020"
+                date: "June 10 2020",
+                days: 2
             },
             {
                 name: "Episode 12",
-                date: "June 17 2020"
+                date: "June 17 2020",
+                days: 2
             }
         ]
     },

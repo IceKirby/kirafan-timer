@@ -47,6 +47,7 @@ Login Days Events can have the following properties:
 Login Days timers are simpler than normal timers. They only need the following properties:
 - `name`: A string to be displayed as a tooltip when hovering over the specific date.
 - `date`: A string with the `August 3 2018` format indicating when the event occurs. No time is automatically set to starting at 0:00 and ending 23:59 Japan time.
+- `days`: Optional. A number that defines for how many days this timer will run. Defaults to 1.
 
 Individual Login Days timers don't disappear after finished, so `keepAfterFinished` is not used here.
 

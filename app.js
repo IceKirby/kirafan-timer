@@ -134,10 +134,15 @@ var vm = new Vue({
                     timer.visible = true;
                     timer.progress = 0;
                     timer.displayMode = "japan";
+                    
+                    var extraDays = 0;
 
                     if (timer.hasOwnProperty("date")) {
-                        timer.end = timer.date + ", 23:59";
                         timer.start = timer.date + ", 0:00";
+                        timer.end = timer.date + ", 23:59";
+                        if (timer.days) {
+                            extraDays = timer.days - 1;
+                        }
                         timer.type = "date";
                     } else if (ev.type == "WeekendBoss") {
                         if (!timer.type) {
@@ -152,6 +157,9 @@ var vm = new Vue({
                     var strFormat = "ddd, MMM Do, H:mm";
                     startMoment = moment.tz(timer.start, "MMM D YYYY, H:mm", "Asia/Tokyo");
                     endMoment = moment.tz(timer.end, "MMM D YYYY, H:mm", "Asia/Tokyo");
+                    if (extraDays > 0) {
+                        endMoment = endMoment.add(extraDays, "days");
+                    }
 
                     timer.rawStart = startMoment._d.getTime();
                     timer.rawEnd  = endMoment._d.getTime();
