@@ -514,18 +514,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Lamp's VTuber Debut",
-            "ランプVTuberデビュー",
-            "Log in for a Lamp Channel Subscription Ticket",
-            "Get from your Present Box before the deadline to receive an User Title later"
+            "Comics 1st Volume Release Login Bonus",
+            "コミカライズ第1巻発売記念ログインボーナス",
+            "Log in on 7 days for items"
         ],
-        image: "https://i.imgur.com/LwjhTiG.png",
+        image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "April 1 2020, 0:00",
-                "end": "April 1 2020, 23:59"
+                "start": "April 3 2020, 0:00",
+                "end": "April 16 2020, 23:59"
             }
         ]
     },
