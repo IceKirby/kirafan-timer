@@ -34,90 +34,6 @@ var timerData = [
             }
         ]
     },
-     {
-        "type": "Event",
-        "title": [
-            "The Star Where Miracles are Born",
-            "奇跡が生まれる星",
-            "Koisuru Asteroid event"
-        ],
-        "image": [
-            "https://i.imgur.com/FcaDtHX.png",
-            "https://i.imgur.com/So9FPl6.png",
-            "https://i.imgur.com/tywUox2.png",
-            "https://i.imgur.com/qUBt0iW.png",
-            "https://i.imgur.com/SGYPsaF.png",
-            "https://i.imgur.com/i7hdk9N.png",
-            "https://i.imgur.com/wl8ngWd.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "March 13 2020, 15:00",
-                "end": "March 31 2020, 13:59",
-                "markers": {
-                    "Extra Chapter 1": "March 20 2020, 0:00",
-                    "Extra Chapter 2": "March 21 2020, 0:00",
-                    "Extra Chapter 3": "March 22 2020, 0:00",
-                    "Extra Chapter 4": "March 23 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Melee Quest",
-                "start": "March 15 2020, 17:00",
-                "end": "March 31 2020, 13:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "March 18 2020, 17:00",
-                "end": "March 31 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "March 13 2020, 15:00",
-                "end": "April 7 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Please Leave this to Fennel!",
-            "このフェンネルにお任せを",
-            "Fennel Mini-Event"
-        ],
-        "image": [
-            "https://i.imgur.com/otRVaQ7.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "March 20 2020, 0:00",
-                "end": "March 31 2020, 13:59",
-                "markers": {
-                    "Chapter 2": "March 21 2020, 0:00",
-                    "Chapter 3": "March 22 2020, 0:00",
-                    "Chapter 4": "March 23 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Challenge Quest",
-                "start": "March 20 2020, 0:00",
-                "end": "March 31 2020, 13:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "March 20 2020, 0:00",
-                "end": "April 7 2020, 13:59"
-            }
-        ]
-    },
     {
         "type": "Event",
         "title": [
@@ -164,56 +80,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "The Star Where Miracles are Born Missions",
-            "奇跡が生まれる星",
-            "Koisuru Asteroid event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/FcaDtHX.png",
-            "https://i.imgur.com/So9FPl6.png",
-            "https://i.imgur.com/tywUox2.png",
-            "https://i.imgur.com/qUBt0iW.png",
-            "https://i.imgur.com/SGYPsaF.png",
-            "https://i.imgur.com/i7hdk9N.png",
-            "https://i.imgur.com/wl8ngWd.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "March 13 2020, 15:00",
-                "end": "March 31 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Please Leave this to Fennel! Missions",
-            "このフェンネルにお任せを",
-            "Fennel Mini-Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/otRVaQ7.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "March 20 2020, 0:00",
-                "end": "March 31 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Heart-Throbbing Etowaria Academy Missions",
             "どきどきエトワリア学園"
         ],
@@ -231,68 +97,6 @@ var timerData = [
                 "end": "April 14 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "The Star Where Miracles are Born Summon",
-            "奇跡が生まれる星ピックアップ召喚",
-            "Koisuru Asteroid event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/So9FPl6.png",
-            "https://i.imgur.com/tywUox2.png",
-            "https://i.imgur.com/qUBt0iW.png",
-            "https://i.imgur.com/SGYPsaF.png",
-            "https://i.imgur.com/i7hdk9N.png",
-            "https://i.imgur.com/wl8ngWd.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Mira side: Featuring 5* Konohata Mira, 4* Manaka Ao",
-                "start": "March 13 2020, 15:00",
-                "end": "March 31 2020, 13:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Ayame side: Featuring 5* Seki Ayame, 4* Murakami Shiina, 4* Seki Ayame",
-                "start": "March 15 2020, 0:00",
-                "end": "March 23 2020, 23:59"
-            },
-            {
-                "name": "Nono side: Featuring 5* Iketani Nono, 4* Iketani Nono, 4* Tsuruse Matsuri",
-                "start": "March 15 2020, 0:00",
-                "end": "March 23 2020, 23:59"
-            },
-            {
-                "name": "Mocha side: Featuring 5* Mocha",
-                "start": "March 18 2020, 0:00",
-                "end": "March 31 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Please Leave this to Fennel! Limited-time Summon",
-            "このフェンネルにお任せを！ 期間限定ピックアップ召喚",
-            "Fennel Mini-Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/otRVaQ7.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Fennel",
-                "start": "March 20 2020, 0:00",
-                "end": "March 31 2020, 13:59",
-                "extraPriority": 5
             }
         ]
     },
@@ -348,26 +152,25 @@ var timerData = [
             }
         ]
     },
-    {
+     {
         "type": "Gacha",
         "title": [
-            "Stella no Mahou & Gochuumon wa Usagi Desu ka? Limited-time Summon",
-            "ステラのまほう&ご注文はうさぎですか？ 期間限定特別セレクション召喚"
+            "Three Completed Series Limited-time Summon",
+            "完結3作品合同 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/te7uYuG.png",
-            "https://i.imgur.com/ncQs5tI.png",
-            "https://i.imgur.com/cB2BBiu.png",
-            "https://i.imgur.com/wGKuN1T.png"
+            "https://i.imgur.com/wfJtxjR.png",
+            "https://i.imgur.com/mzEiDwf.png",
+            "https://i.imgur.com/SlZClsO.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Shiina [Valentine], 5* Fujikawa Kayo, 5* Cocoa [Christmas], 5* Chino [Swimsuit], 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
-                "start": "March 24 2020, 17:00",
-                "end": "March 31 2020, 13:59",
-                "info": "Also 4* Honda Tamaki, 4* Fujikawa Kayo, 4* Murakami Shiina, 4* Seki Ayame, 4* Fuda Yumine, 4* Iino Minaha, 4* Iketani Nono, 4* Chino, 4* Sharo, 4* Megu, 3* characters from Stella no Mahou",
+                "name": "Featuring 5* Aya [Swimsuit], 5* Yuki [Swimsuit], 5* Kon [Swimsuit]",
+                "start": "April 8 2020, 17:00",
+                "end": "April 16 2020, 16:59",
+                "info": "Also 3★ and 4★ characters from Kiniro Mosaic, Gakkou Gurashi and Urara Meirochou",
                 "extraPriority": 4
             }
         ]
@@ -423,25 +226,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Lamp's VTuber Debut Summon",
-            "ランプのVTuberデビュー応援！有償限定召喚",
-            "400 Paid Gems 5* Lamp or 5* Lamp [Swimsuit] + Special User Title"
-        ],
-        "image": "https://i.imgur.com/LwjhTiG.png",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Period",
-                start: "April 1 2020, 0:00",
-                end: "April 1 2020, 23:59",
-                extraPriority: 7
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "800 Days Celebration Choosable 5* Summon Ticket",
             "リリース800日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
@@ -460,54 +244,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "February 18 2020, 0:00",
                 end: "March 19 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Version 2.0 Celebration Choosable 5* Summon Ticket",
-            "Ver 2.0記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "February 28 2020, 17:00",
-                end: "March 12 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "February 28 2020, 17:00",
-                end: "March 19 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Random 5* Ticket Summon by Magazine",
-            "★5確定チケット引換券付き！有償限定10回召喚",
-            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "March 7 2020, 17:00",
-                end: "March 14 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "March 7 2020, 17:00",
-                end: "March 21 2020, 23:59"
             }
         ]
     },
@@ -630,35 +366,6 @@ var timerData = [
                 name: "Period",
                 "start": "January 20 2020, 0:00",
                 "end": "January 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "March Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/qHmOVys.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "March 7 2020, 0:00",
-                end: "March 8 2 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "March 14 2020, 0:00",
-                end: "March 15 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "March 7 2020, 0:00",
-                end: "April 3 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
