@@ -78,6 +78,50 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Rerun - Sansha Sanyou's Casual Trip",
+            "復刻・三者三葉ぶらり旅",
+            "Sansha Sanyou event re-run"
+        ],
+        "image": [
+            "https://i.imgur.com/tf9WPfT.png",
+            "https://i.imgur.com/HTYjMXA.png",
+            "https://i.imgur.com/F5NOKFT.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "April 14 2020, 17:00",
+                "end": "April 23 2020, 11:59",
+                "markers": {
+                    "Extra Chapter 1": "April 16 2020, 0:00",
+                    "Extra Chapter 2": "April 17 2020, 0:00",
+                    "Extra Chapter 3": "April 18 2020, 0:00",
+                    "Extra Chapter 4": "April 19 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "April 14 2020, 17:00",
+                "end": "April 23 2020, 11:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "April 15 2020, 17:00",
+                "end": "April 23 2020, 11:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "April 14 2020, 17:00",
+                "end": "April 30 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Heart-Throbbing Etowaria Academy Missions",
@@ -95,6 +139,30 @@ var timerData = [
                 "name": "Missions",
                 "start": "March 31 2020, 15:00",
                 "end": "April 14 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Rerun - Sansha Sanyou's Casual Trip Missions",
+            "復刻・三者三葉ぶらり旅",
+            "Sansha Sanyou event re-run missions"
+        ],
+        "image": [
+            "https://i.imgur.com/tf9WPfT.png",
+            "https://i.imgur.com/HTYjMXA.png",
+            "https://i.imgur.com/F5NOKFT.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "April 14 2020, 17:00",
+                "end": "April 23 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -149,6 +217,34 @@ var timerData = [
                 "start": "April 3 2020, 0:00",
                 "end": "April 14 2020, 16:59",
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Rerun - Sansha Sanyou's Casual Trip Summon",
+            "復刻・三者三葉ぶらり旅ピックアップ召喚",
+            "Sansha Sanyou event re-run summon"
+        ],
+        "image": [
+            "https://i.imgur.com/tf9WPfT.png",
+            "https://i.imgur.com/HTYjMXA.png",
+            "https://i.imgur.com/F5NOKFT.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First Half: Featuring 5* Hayama Teru, 4* Hayama Teru, 4* Nishiyama Serina",
+                "start": "April 14 2020, 17:00",
+                "end": "April 23 2020, 11:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Second Half: Featuring 5* Goshiki Agiri, 4* Goshiki Agiri",
+                "start": "April 16 2020, 0:00",
+                "end": "April 23 2020, 11:59"
             }
         ]
     },
