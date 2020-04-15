@@ -124,29 +124,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Heart-Throbbing Etowaria Academy Missions",
-            "どきどきエトワリア学園"
-        ],
-        "image": [
-            "https://i.imgur.com/tdQX5oe.png",
-            "https://i.imgur.com/RwFBq2F.png",
-            "https://i.imgur.com/DcAgMP8.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "March 31 2020, 15:00",
-                "end": "April 14 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Rerun - Sansha Sanyou's Casual Trip Missions",
             "復刻・三者三葉ぶらり旅",
             "Sansha Sanyou event re-run missions"
@@ -165,58 +142,6 @@ var timerData = [
                 "end": "April 23 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Heart-Throbbing Etowaria Academy Summon",
-            "どきどきエトワリア学園ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/tdQX5oe.png",
-            "https://i.imgur.com/RwFBq2F.png",
-            "https://i.imgur.com/DcAgMP8.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Shinobu side: Featuring 5* Oomiya Shinobu (Sun Warrior), 4* Oomiya Shinobu, 4* Komichi Aya",
-                "start": "March 31 2020, 15:00",
-                "end": "April 14 2020, 16:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Yuki side: Featuring 5* Takeya Yuki (Wind Alchemist), 4* Takeya Yuki, 4* Naoki Miki",
-                "start": "March 31 2020, 15:00",
-                "end": "April 14 2020, 16:59"
-            },
-            {
-                "name": "Chiya side: Featuring 5* Chiya (Wind Mage), 4* Chiya, 4* Tatsumi Kon",
-                "start": "March 31 2020, 15:00",
-                "end": "April 14 2020, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kanna Summon",
-            "きららファンタジアピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/ZH0K3Ra.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Kanna",
-                "start": "April 3 2020, 0:00",
-                "end": "April 14 2020, 16:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -274,9 +199,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Head Priest & Seven Sages Limited 5* Summon Ticket",
-            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for 10x Summon + Random 5* Summon Ticket"
+            "Kill Me Baby & Sansha Sanyou Limited-time Summon",
+            "キルミーベイベー&三者三葉 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/G26fLrH.png",
+            "https://i.imgur.com/KT633wy.png",
+            "https://i.imgur.com/UZqEPdA.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Oribe Yasuna, 5* Yasuna [New Year], 5* Sonya, 5* Nishikawa Youko, 4* Oribe Yasuna, 4* Sonya, 4* Goshiki Agiri, 4* Odagiri Futaba, 4* Hayama Teru",
+                "start": "April 16 2020, 17:00",
+                "end": "April 23 2020, 11:59",
+                "info": "Also 3* characters from Kill Me Baby",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Random 5* Summon Ticket Summon",
+            "★5確定チケット引換券付き！有償限定10回召喚",
+            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -284,14 +232,14 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                start: "March 20 2020, 0:00",
-                end: "March 31 2020, 13:59",
+                start: "April 17 2020, 0:00",
+                end: "April 24 2020, 23:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "March 20 2020, 0:00",
-                end: "April 7 2020, 23:59"
+                start: "April 17 2020, 0:00",
+                end: "May 1 2020, 23:59"
             }
         ]
     },
@@ -316,30 +264,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "April 3 2020, 0:00",
                 end: "April 23 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "800 Days Celebration Choosable 5* Summon Ticket",
-            "リリース800日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "February 18 2020, 0:00",
-                end: "March 2 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "February 18 2020, 0:00",
-                end: "March 19 2020, 23:59"
             }
         ]
     },
