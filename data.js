@@ -279,11 +279,11 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                name: "Summon Period: All 5* are Limited characters",
+                name: "Summon Period: All 5* are Limited characters, limited 4* also included",
                 start: "April 23 2020, 17:00",
                 end: "April 28 2020, 23:59",
-                extraPriority: 4,
-                info: "Only characters from Crea Craft series (Hidamari Sketch, Yuyushiki, A-Channel, Kiniro Mosaic, Gakkou Gurashi, Stella no Mahou, NEW GAME! and Urara Meirochou). Also includes Limited 4* characters. "
+                extraPriority: 5,
+                info: "Limited characters are only from Crea Craft series (Hidamari Sketch, Yuyushiki, A-Channel, Kiniro Mosaic, Gakkou Gurashi, Stella no Mahou, NEW GAME! and Urara Meirochou), other series' 4* and 3* will not include Limited characters."
             },
             {
                 name: "Ticket Expiration",
