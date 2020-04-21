@@ -268,6 +268,31 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Crea Mate Commu Celebration Step-up Summon",
+            "クリエメイトコミュ実装記念！おまけ付き10回召喚",
+            "Receive a Guaranteed Limited-time 5* Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period: All 5* are Limited characters",
+                start: "April 23 2020, 17:00",
+                end: "April 28 2020, 23:59",
+                extraPriority: 4,
+                info: "Only characters from Crea Craft series (Hidamari Sketch, Yuyushiki, A-Channel, Kiniro Mosaic, Gakkou Gurashi, Stella no Mahou, NEW GAME! and Urara Meirochou). Also includes Limited 4* characters. "
+            },
+            {
+                name: "Ticket Expiration",
+                start: "April 23 2020, 17:00",
+                end: "May 5 2020, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Comics 1st Volume Release Login Bonus",
