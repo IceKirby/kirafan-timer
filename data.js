@@ -133,30 +133,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Rerun - Sansha Sanyou's Casual Trip Missions",
-            "復刻・三者三葉ぶらり旅",
-            "Sansha Sanyou event re-run missions"
-        ],
-        "image": [
-            "https://i.imgur.com/tf9WPfT.png",
-            "https://i.imgur.com/HTYjMXA.png",
-            "https://i.imgur.com/F5NOKFT.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "April 14 2020, 17:00",
-                "end": "April 23 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Missions",
             "メイドは見た！～金髪館怪人事件～",
             "Maid Event missions"
@@ -182,34 +158,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Rerun - Sansha Sanyou's Casual Trip Summon",
-            "復刻・三者三葉ぶらり旅ピックアップ召喚",
-            "Sansha Sanyou event re-run summon"
-        ],
-        "image": [
-            "https://i.imgur.com/tf9WPfT.png",
-            "https://i.imgur.com/HTYjMXA.png",
-            "https://i.imgur.com/F5NOKFT.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Hayama Teru, 4* Hayama Teru, 4* Nishiyama Serina",
-                "start": "April 14 2020, 17:00",
-                "end": "April 23 2020, 11:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Second Half: Featuring 5* Goshiki Agiri, 4* Goshiki Agiri",
-                "start": "April 16 2020, 0:00",
-                "end": "April 23 2020, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Summon",
             "メイドは見た！～金髪館怪人事件～ピックアップ召喚",
             "Maid Event summon"
@@ -229,25 +177,26 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Gacha",
         "title": [
-            "Three Completed Series Limited-time Summon",
-            "完結3作品合同 期間限定特別セレクション召喚"
+            "Kiniro Mosaic Limited-time Summon",
+            "きんいろモザイク 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/wfJtxjR.png",
-            "https://i.imgur.com/mzEiDwf.png",
-            "https://i.imgur.com/SlZClsO.png"
+            "https://i.imgur.com/cfdVuJe.png",
+            "https://i.imgur.com/A4qtaHG.png",
+            "https://i.imgur.com/HCouEl3.png",
+            "https://i.imgur.com/1EKjsPt.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Aya [Swimsuit], 5* Yuki [Swimsuit], 5* Kon [Swimsuit]",
-                "start": "April 8 2020, 17:00",
-                "end": "April 16 2020, 16:59",
-                "info": "Also 3★ and 4★ characters from Kiniro Mosaic, Gakkou Gurashi and Urara Meirochou",
+                "name": "Featuring 5* Karen [Foreign Magician], 5* Alice [New Year], 5* Aya [Valentine], 5* Youko [Sports Meeting]",
+                "start": "April 27 2020, 17:00",
+                "end": "May 4 2020, 16:59",
+                "info": "Also 3* and 4* characters from Kiniro Mosaic",
                 "extraPriority": 4
             }
         ]
@@ -255,23 +204,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kill Me Baby & Sansha Sanyou Limited-time Summon",
-            "キルミーベイベー&三者三葉 期間限定特別セレクション召喚"
+            "Kiniro Mosaic Choosable 5* Ticket Summon",
+            "きんいろモザイク ★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
         ],
-        "image": [
-            "https://i.imgur.com/G26fLrH.png",
-            "https://i.imgur.com/KT633wy.png",
-            "https://i.imgur.com/UZqEPdA.png"
-        ],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Oribe Yasuna, 5* Yasuna [New Year], 5* Sonya, 5* Nishikawa Youko, 4* Oribe Yasuna, 4* Sonya, 4* Goshiki Agiri, 4* Odagiri Futaba, 4* Hayama Teru",
-                "start": "April 16 2020, 17:00",
-                "end": "April 23 2020, 11:59",
-                "info": "Also 3* characters from Kill Me Baby",
-                "extraPriority": 4
+                name: "Summon Period",
+                start: "April 27 2020, 17:00",
+                end: "May 4 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "April 27 2020, 17:00",
+                end: "May 11 2020, 23:59"
             }
         ]
     },
@@ -296,30 +246,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "April 17 2020, 0:00",
                 end: "May 1 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Comics 1st Volume Celebration Summon",
-            "コミカライズ第1巻発売記念★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "April 3 2020, 0:00",
-                end: "April 16 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "April 3 2020, 0:00",
-                end: "April 23 2020, 23:59"
             }
         ]
     },
