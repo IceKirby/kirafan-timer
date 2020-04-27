@@ -85,9 +85,11 @@ var timerData = [
             "メイドは見た！～金髪館怪人事件～",
             "Maid Event"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png"
+            "https://i.imgur.com/tFtYdXo.png",
+            "https://i.imgur.com/uFpQf73.png",
+            "https://i.imgur.com/lrCTyTr.png"
         ],
         "column": 0,
         "priority": 2,
@@ -137,9 +139,11 @@ var timerData = [
             "メイドは見た！～金髪館怪人事件～",
             "Maid Event missions"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png"
+            "https://i.imgur.com/tFtYdXo.png",
+            "https://i.imgur.com/uFpQf73.png",
+            "https://i.imgur.com/lrCTyTr.png"
         ],
         "column": 0,
         "priority": 1,
@@ -162,9 +166,11 @@ var timerData = [
             "メイドは見た！～金髪館怪人事件～ピックアップ召喚",
             "Maid Event summon"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png"
+            "https://i.imgur.com/tFtYdXo.png",
+            "https://i.imgur.com/uFpQf73.png",
+            "https://i.imgur.com/lrCTyTr.png"
         ],
         "column": 1,
         "priority": 1,
@@ -174,6 +180,11 @@ var timerData = [
                 "start": "April 23 2020, 17:00",
                 "end": "May 14 2020, 15:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Cork [Maid], 5* Hizume [Maid]",
+                "start": "April 29 2020, 0:00",
+                "end": "May 14 2020, 15:59"
             }
         ]
     },
