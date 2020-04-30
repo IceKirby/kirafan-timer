@@ -454,6 +454,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "May Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/8vVU0Ot.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "May 2 2020, 0:00",
+                end: "May 3 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "May 9 2020, 0:00",
+                end: "May 10 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "May 16 2020, 0:00",
+                end: "May 17 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "May 23 2020, 0:00",
+                end: "May 24 2020, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "May 30 2020, 0:00",
+                end: "May 31 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "May 2 2020, 0:00",
+                end: "June 5 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Hinamatsuri Room Decorations",
