@@ -215,6 +215,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Alchemist only Summon",
+            "アルケミスト限定キャラクター召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/t2rB9A6.png",
+            "https://i.imgur.com/jM4VN9h.png",
+            "https://i.imgur.com/TQmiGMn.png",
+            "https://i.imgur.com/XVYlX88.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Cork, 5* Alice Cartelet, 5* Irokawa Ruki, 5* Machiko Ryou",
+                "start": "May 4 2020, 17:00",
+                "end": "May 11 2020, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kiniro Mosaic Choosable 5* Ticket Summon",
             "きんいろモザイク ★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
