@@ -226,7 +226,7 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "First Half: Featuring 5* Tsuchimikado Tami, 4* Takayama Haruka, 4* Sonoda Yuu",
+                "name": "First Half: Featuring 5* Nishimikado Tami, 4* Takayama Haruka, 4* Sonoda Yuu",
                 "start": "May 14 2020, 17:00",
                 "end": "May 28 2020, 15:59",
                 "extraPriority": 6
