@@ -36,50 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Rerun - Sansha Sanyou's Casual Trip",
-            "復刻・三者三葉ぶらり旅",
-            "Sansha Sanyou event re-run"
-        ],
-        "image": [
-            "https://i.imgur.com/tf9WPfT.png",
-            "https://i.imgur.com/HTYjMXA.png",
-            "https://i.imgur.com/F5NOKFT.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "April 14 2020, 17:00",
-                "end": "April 23 2020, 11:59",
-                "markers": {
-                    "Extra Chapter 1": "April 16 2020, 0:00",
-                    "Extra Chapter 2": "April 17 2020, 0:00",
-                    "Extra Chapter 3": "April 18 2020, 0:00",
-                    "Extra Chapter 4": "April 19 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "April 14 2020, 17:00",
-                "end": "April 23 2020, 11:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "April 15 2020, 17:00",
-                "end": "April 23 2020, 11:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 14 2020, 17:00",
-                "end": "April 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "The Maid Saw! ~Flaky Incident in The Blonde Manor~",
             "メイドは見た！～金髪館怪人事件～",
             "Maid Event"
@@ -132,6 +88,50 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Onee-chans 11",
+            "お姉ちゃんズ１１",
+            "Siscon Event"
+        ],
+        "image": [
+            "https://i.imgur.com/XLrdgCH.png",
+            "https://i.imgur.com/9oifevq.png",
+            "https://i.imgur.com/LsmaBQO.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "May 14 2020, 17:00",
+                "end": "May 28 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "May 20 2020, 0:00",
+                    "Extra Chapter 2": "May 21 2020, 0:00",
+                    "Extra Chapter 3": "May 22 2020, 0:00",
+                    "Extra Chapter 4": "May 23 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Melee Quest",
+                "start": "May 16 2020, 17:00",
+                "end": "May 28 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "May 19 2020, 17:00",
+                "end": "May 28 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 14 2020, 17:00",
+                "end": "June 4 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Missions",
@@ -154,6 +154,30 @@ var timerData = [
                 "markers": {
                     "Mission Set 2": "April 29 2020, 0:00"
                 },
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Onee-chans 11 Missions",
+            "お姉ちゃんズ１１",
+            "Siscon Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/XLrdgCH.png",
+            "https://i.imgur.com/9oifevq.png",
+            "https://i.imgur.com/LsmaBQO.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "May 14 2020, 17:00",
+                "end": "May 28 2020, 23:59",
+                "markers": {},
                 "extraPriority": 2
             }
         ]
@@ -190,95 +214,50 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kiniro Mosaic Limited-time Summon",
-            "きんいろモザイク 期間限定特別セレクション召喚"
+            "Onee-chans 11 Summon",
+            "お姉ちゃんズ１１ピックアップ召喚",
+            "Siscon Event summon"
         ],
         "image": [
-            "https://i.imgur.com/cfdVuJe.png",
-            "https://i.imgur.com/A4qtaHG.png",
-            "https://i.imgur.com/HCouEl3.png",
-            "https://i.imgur.com/1EKjsPt.png"
+            "https://i.imgur.com/XLrdgCH.png",
+            "https://i.imgur.com/9oifevq.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Karen [Foreign Magician], 5* Alice [New Year], 5* Aya [Valentine], 5* Youko [Sports Meeting]",
-                "start": "April 27 2020, 17:00",
-                "end": "May 4 2020, 16:59",
-                "info": "Also 3* and 4* characters from Kiniro Mosaic",
-                "extraPriority": 4
+                "name": "First Half: Featuring 5* Tsuchimikado Tami, 4* Takayama Haruka, 4* Sonoda Yuu",
+                "start": "May 14 2020, 17:00",
+                "end": "May 28 2020, 15:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Second Half: Featuring 5* Thomas Emily, 4* Thomas Claire, 4* Thomas Emily",
+                "start": "May 18 2020, 0:00",
+                "end": "May 28 2020, 15:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Alchemist only Summon",
-            "アルケミスト限定キャラクター召喚"
+            "Sakura Trick & Hanayamata & Harukana Receive Limited-time Summon",
+            "桜Trick&ハナヤマタ&はるかなレシーブ 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/t2rB9A6.png",
-            "https://i.imgur.com/jM4VN9h.png",
-            "https://i.imgur.com/TQmiGMn.png",
-            "https://i.imgur.com/XVYlX88.png"
+            "https://i.imgur.com/NWmXTo6.png",
+            "https://i.imgur.com/gaYlQ1V.png",
+            "https://i.imgur.com/r1OSrfi.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Cork, 5* Alice Cartelet, 5* Irokawa Ruki, 5* Machiko Ryou",
-                "start": "May 4 2020, 17:00",
-                "end": "May 11 2020, 16:59",
+                "name": "Featuring 5* Shizuku [Swimsuit], 5* Hana [Swimsuit], 5* Clea [Halloween], 4* Kotone [Swimsuit]",
+                "start": "May 14 2020, 17:00",
+                "end": "May 21 2020, 16:59",
+                "info": "Also 3* and 4* characters from Sakura Trick, and 4* characters from Hanayamata and Harukana Receive",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kiniro Mosaic Choosable 5* Ticket Summon",
-            "きんいろモザイク ★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "April 27 2020, 17:00",
-                end: "May 4 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "April 27 2020, 17:00",
-                end: "May 11 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Random 5* Summon Ticket Summon",
-            "★5確定チケット引換券付き！有償限定10回召喚",
-            "240 Paid Gems for 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "April 17 2020, 0:00",
-                end: "April 24 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "April 17 2020, 0:00",
-                end: "May 1 2020, 23:59"
             }
         ]
     },
@@ -309,25 +288,49 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Crea Mate Commu Celebration Step-up Summon",
-            "クリエメイトコミュ実装記念！おまけ付き10回召喚",
-            "Receive a Guaranteed Limited-time 5* Ticket on 7th step"
+            "Onee-chan themed Limited-time Step-up Summon Part 1",
+            "期間限定いちおしテーマ！おまけ付き10回召喚 第1弾",
+            "Receive a Random 5* Ticket on 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "Summon Period: All 5* are Limited characters, limited 4* also included",
-                start: "April 23 2020, 17:00",
-                end: "April 28 2020, 23:59",
-                extraPriority: 5,
-                info: "Limited characters are only from Crea Craft series (Hidamari Sketch, Yuyushiki, A-Channel, Kiniro Mosaic, Gakkou Gurashi, Stella no Mahou, NEW GAME! and Urara Meirochou), other series' 4* and 3* will not include Limited characters."
+                name: "Summon Period: Featuring 5* Isami [New Year], 5* Irokawa Ruki, 5* Hirasawa Yui, 5* Yui [Swimsuit], 5* Mocha, 5* Yoshida Yuuko, 5* Leine",
+                start: "May 14 2020, 17:00",
+                end: "May 21 2020, 16:59",
+                info: "Also 4* Oomiya Isami, 4* Natsume Nina, 4* Irokawa Ruki, 4* Thomas Emily",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                start: "April 23 2020, 17:00",
-                end: "May 5 2020, 23:59"
+                start: "May 14 2020, 17:00",
+                end: "May 28 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Onee-chan themed Limited-time 5* Ticket Summon Part 1",
+            "いちおしテーマ第1弾★5キャラクター確定召喚チケット",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "May 14 2020, 17:00",
+                end: "May 21 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "May 14 2020, 17:00",
+                end: "May 28 2020, 23:59"
             }
         ]
     },
@@ -433,45 +436,6 @@ var timerData = [
                 name: "Period",
                 "start": "January 20 2020, 0:00",
                 "end": "January 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "April Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/DgLc5yo.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "April 4 2020, 0:00",
-                end: "April 5 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "April 11 2020, 0:00",
-                end: "April 12 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "April 18 2020, 0:00",
-                end: "April 19 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "April 25 2020, 0:00",
-                end: "April 26 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "April 4 2020, 0:00",
-                end: "May 1 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
