@@ -288,7 +288,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Onee-chan themed Limited-time Step-up Summon Part 1",
+            "Recommended Theme Limited-time Step-up Summon Part 1 (Onee-chan)",
             "期間限定いちおしテーマ！おまけ付き10回召喚 第1弾",
             "Receive a Random 5* Ticket on 7th step"
         ],
@@ -313,7 +313,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Onee-chan themed Limited-time 5* Ticket Summon Part 1",
+            "Recommended Theme Limited-time 5* Ticket Summon Part 1 (Onee-chan)",
             "いちおしテーマ第1弾★5キャラクター確定召喚チケット",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
@@ -331,6 +331,55 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "May 14 2020, 17:00",
                 end: "May 28 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Recommended themed Limited-time Step-up Summon Part 2 (Imouto)",
+            "期間限定いちおしテーマ！おまけ付き10回召喚 第2弾",
+            "Receive a Random 5* Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period: Featuring 5* Oomiya Shinobu, 5* Oomiya Shinobu, 5* Natsume Nono, 5* Sonoda Yuu, 5* Sakuranomiya Maika, 5* Maika [Swimsuit], 5* Sekiya Naru, 5* Claire [Halloween], 5* Cocoa, 5* Cocoa [Christmas], 5* Lamp, 5* Lamp [Swimsuit]",
+                start: "May 21 2020, 17:00",
+                end: "May 28 2020, 15:59",
+                info: "Also 4* Oomiya Shinobu, 4* Natsume Nono, 4* Nono [Halloween], 4* Sonoda Yuu, 4* Sakuranomiya Maika, 4* Maika [Doll's Festival], 4* Irokawa Miki, 4* Thomas Claire",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "May 21 2020, 17:00",
+                end: "June 4 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Recommended Theme Limited-time 5* Ticket Summon Part 2 (Imouto)",
+            "いちおしテーマ第1弾★5キャラクター確定召喚チケット",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "May 21 2020, 17:00",
+                end: "May 28 2020, 15:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "May 21 2020, 17:00",
+                end: "June 4 2020, 23:59"
             }
         ]
     },
