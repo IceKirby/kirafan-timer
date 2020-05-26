@@ -533,6 +533,45 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "June Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/zso90Ea.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "June 6 2020, 0:00",
+                end: "June 7 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "June 13 2020, 0:00",
+                end: "June 14 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "June 20 2020, 0:00",
+                end: "June 21 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "June 27 2020, 0:00",
+                end: "June 28 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "June 6 2020, 0:00",
+                end: "July 3 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Hinamatsuri Room Decorations",
