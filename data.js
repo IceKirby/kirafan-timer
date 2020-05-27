@@ -27,8 +27,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "May 14 2020, 16:00",
-                end: "May 14 2020, 17:00",
+                start: "May 28 2020, 16:00",
+                end: "May 28 2020, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
