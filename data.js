@@ -36,60 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "The Maid Saw! ~Flaky Incident in The Blonde Manor~",
-            "メイドは見た！～金髪館怪人事件～",
-            "Maid Event"
-        ],
-         "image": [
-            "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png",
-            "https://i.imgur.com/uFpQf73.png",
-            "https://i.imgur.com/lrCTyTr.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "April 23 2020, 17:00",
-                "end": "May 14 2020, 15:59",
-                "markers": {
-                    "Season 2": "April 29 2020, 0:00",
-                    "Extra Chapter 1": "May 7 2020, 0:00",
-                    "Extra Chapter 2": "May 8 2020, 0:00",
-                    "Extra Chapter 3": "May 9 2020, 0:00",
-                    "Extra Chapter 4": "May 10 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "April 29 2020, 0:00",
-                "end": "May 14 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "May 1 2020, 17:00",
-                "end": "May 14 2020, 15:59"
-            },
-            {
-                "name": "Super EX Quest",
-                "start": "May 1 2020, 17:00",
-                "end": "May 14 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 23 2020, 17:00",
-                "end": "May 21 2020, 13:59",
-                "makers": {
-                    "Part 2": "April 29 2020, 0:00"
-                }
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Onee-chans 11",
             "お姉ちゃんズ１１",
             "Siscon Event"
@@ -132,6 +78,46 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "The Great Sports Festival & The Goddess' Holy Grail",
+            "大運動会と女神の聖杯",
+            "Sports Festival 2020 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/g3U0JRe.png",
+            "https://i.imgur.com/Sb95tZL.png",
+            "https://i.imgur.com/I8KWxUF.png",
+            "https://i.imgur.com/CldfjiV.png",
+            "https://i.imgur.com/BNoYbfW.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "May 28 2020, 17:00",
+                "end": "June 9 2020, 15:59",
+                "markers": {
+                    "Season 2": "May 30 2020, 17:00",
+                    "Season 3": "June 1 2020, 17:00",
+                    "Extra Chapter": "June 3 2020, 17:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "June 3 2020, 17:00",
+                "end": "June 9 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 28 2020, 17:00",
+                "end": "June 16 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Missions",
@@ -161,6 +147,34 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
+            "The Great Sports Festival & The Goddess' Holy Grail Missions",
+            "大運動会と女神の聖杯",
+            "Sports Festival 2020 Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/g3U0JRe.png",
+            "https://i.imgur.com/Sb95tZL.png",
+            "https://i.imgur.com/I8KWxUF.png",
+            "https://i.imgur.com/CldfjiV.png",
+            "https://i.imgur.com/BNoYbfW.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "May 28 2020, 17:00",
+                "end": "June 9 2020, 23:59",
+                "markers": {
+                    "Mission Set 2": "June 3 2020, 0:00"
+                },
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
             "Onee-chans 11 Missions",
             "お姉ちゃんズ１１",
             "Siscon Event missions"
@@ -179,35 +193,6 @@ var timerData = [
                 "end": "May 28 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Summon",
-            "メイドは見た！～金髪館怪人事件～ピックアップ召喚",
-            "Maid Event summon"
-        ],
-         "image": [
-            "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png",
-            "https://i.imgur.com/uFpQf73.png",
-            "https://i.imgur.com/lrCTyTr.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5* Hifumi [Maid], 5* Yutaka [Maid]",
-                "start": "April 23 2020, 17:00",
-                "end": "May 14 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Cork [Maid], 5* Hizume [Maid]",
-                "start": "April 29 2020, 0:00",
-                "end": "May 14 2020, 15:59"
             }
         ]
     },
@@ -241,47 +226,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Sakura Trick & Hanayamata & Harukana Receive Limited-time Summon",
-            "桜Trick&ハナヤマタ&はるかなレシーブ 期間限定特別セレクション召喚"
+            "The Great Sports Festival & The Goddess' Holy Grail Summon",
+            "大運動会と女神の聖杯ピックアップ召喚",
+            "Sports Festival 2020 Event summon"
         ],
         "image": [
-            "https://i.imgur.com/NWmXTo6.png",
-            "https://i.imgur.com/gaYlQ1V.png",
-            "https://i.imgur.com/r1OSrfi.png"
+            "https://i.imgur.com/g3U0JRe.png",
+            "https://i.imgur.com/Sb95tZL.png",
+            "https://i.imgur.com/I8KWxUF.png",
+            "https://i.imgur.com/CldfjiV.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Shizuku [Swimsuit], 5* Hana [Swimsuit], 5* Clea [Halloween], 4* Kotone [Swimsuit]",
-                "start": "May 14 2020, 17:00",
-                "end": "May 21 2020, 16:59",
-                "info": "Also 3* and 4* characters from Sakura Trick, and 4* characters from Hanayamata and Harukana Receive",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Golden Week Choosable 5* Ticket Summon",
-            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "April 25 2020, 0:00",
-                end: "May 10 2020, 23:59",
-                extraPriority: 4
+                "name": "White Team: Featuring 5* Shamiko [Sports Festival], 5* Kirin [Sports Festival]",
+                "start": "May 28 2020, 17:00",
+                "end": "June 9 2020, 15:59",
+                "extraPriority": 6
             },
             {
-                name: "Ticket Expiration",
-                start: "April 25 2020, 0:00",
-                end: "May 17 2020, 23:59"
+                "name": "Red Team: Featuring 5* Karen [Sports Festival], 5* Tamaki [Sports Festival]",
+                "start": "May 28 2020, 17:00",
+                "end": "June 9 2020, 15:59"
             }
         ]
     },
@@ -384,19 +351,43 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "900 Days Celebration Choosable 5* Summon Ticket",
+            "リリース900日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "May 28 2020, 17:00",
+                end: "June 10 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "May 28 2020, 17:00",
+                end: "June 17 2020, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
-            "Golden Week Login Bonus",
-            "ゴールデンウィークログインボーナス",
-            "Log in on 10 days for up to 200 Gems"
+            "900 Days Celebration Login Bonus",
+            "900日記念ログインボーナス",
+            "Log in on 10 days for up to 300 Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "April 25 2020, 0:00",
-                "end": "May 10 2020, 23:59"
+                "start": "May 28 2020, 17:00",
+                "end": "June 10 2020, 23:59"
             }
         ]
     },
@@ -590,7 +581,7 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Golden Week Special Gems Set",
+            "900 Days Celebration Special Gems Set",
             "お得な星彩石セット販売"
         ],
         image: "cork",
@@ -598,8 +589,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                start: "April 25 2020, 0:00",
-                end: "May 10 2020, 23:59"
+                "start": "May 28 2020, 17:00",
+                "end": "June 10 2020, 23:59"
             }
         ]
     }
