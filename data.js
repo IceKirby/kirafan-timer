@@ -255,6 +255,34 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Sports Festival Limited-time Step-up Summon",
+            "期間限定運動会復刻！おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "https://i.imgur.com/d3ncfOl.png",
+            "https://i.imgur.com/YZReEjG.png",
+            "https://i.imgur.com/b2EMpo4.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Youko [Sports Festival], 5* Aoba [Sports Festival], 5* Eiko [Sports Festival]",
+                "start": "May 29 2020, 17:00",
+                "end": "June 5 2020, 16:59",
+                "extraPriority": 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "May 29 2020, 17:00",
+                end: "June 12 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Recommended Theme Limited-time Step-up Summon Part 1 (Onee-chan)",
             "期間限定いちおしテーマ！おまけ付き10回召喚 第1弾",
             "Receive a Random 5* Ticket on 7th step"
