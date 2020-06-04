@@ -283,6 +283,36 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kill Me Baby Limited-time Step-up Summon",
+            "キルミーベイベー 期間限定おまけ付き10回召喚",
+            "Random Kill Me Baby 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "https://i.imgur.com/KqI3C1J.png",
+            "https://i.imgur.com/EQZAcDG.png",
+            "https://i.imgur.com/R9jMLuH.png",
+            "https://i.imgur.com/6X1AEVp.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Oribe Yasuna, 5* Yasuna [New Year], 5* Sonya, 5* Goshiki Agiri",
+                "start": "June 5 2020, 17:00",
+                "end": "June 9 2020, 15:59",
+                "extraPriority": 4,
+                "info": "Also rate-up for 3* and 4* Kill Me Baby characters"
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "June 5 2020, 17:00",
+                end: "June 16 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Recommended Theme Limited-time Step-up Summon Part 1 (Onee-chan)",
             "期間限定いちおしテーマ！おまけ付き10回召喚 第1弾",
             "Receive a Random 5* Ticket on 7th step"
