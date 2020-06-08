@@ -37,50 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Onee-chans 11",
-            "お姉ちゃんズ１１",
-            "Siscon Event"
-        ],
-        "image": [
-            "https://i.imgur.com/XLrdgCH.png",
-            "https://i.imgur.com/9oifevq.png",
-            "https://i.imgur.com/LsmaBQO.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "May 14 2020, 17:00",
-                "end": "May 28 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "May 20 2020, 0:00",
-                    "Extra Chapter 2": "May 21 2020, 0:00",
-                    "Extra Chapter 3": "May 22 2020, 0:00",
-                    "Extra Chapter 4": "May 23 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Melee Quest",
-                "start": "May 16 2020, 17:00",
-                "end": "May 28 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "May 19 2020, 17:00",
-                "end": "May 28 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 14 2020, 17:00",
-                "end": "June 4 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "The Great Sports Festival & The Goddess' Holy Grail",
             "大運動会と女神の聖杯",
             "Sports Festival 2020 Event"
@@ -119,29 +75,47 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
+        "type": "Event",
         "title": [
-            "The Maid Saw! ~Flaky Incident in The Blonde Manor~ Missions",
-            "メイドは見た！～金髪館怪人事件～",
-            "Maid Event missions"
+            "Etowaria Baseball Showdown",
+            "エトワリア野球対決",
+            "Tamayomi Event"
         ],
-         "image": [
-            "https://i.imgur.com/ukwEJsF.png",
-            "https://i.imgur.com/tFtYdXo.png",
-            "https://i.imgur.com/uFpQf73.png",
-            "https://i.imgur.com/lrCTyTr.png"
+        "image": [
+            "https://i.imgur.com/cnBNyaI.png",
+            "https://i.imgur.com/8330YBW.png",
+            "https://i.imgur.com/O4lpRiy.png",
+            "https://i.imgur.com/sWmHdsy.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "April 23 2020, 17:00",
-                "end": "May 14 2020, 23:59",
+                "name": "Main Scenario",
+                "start": "June 9 2020, 17:00",
+                "end": "June 23 2020, 11:59",
                 "markers": {
-                    "Mission Set 2": "April 29 2020, 0:00"
+                    "Extra Chapter 1": "June 18 2020, 0:00",
+                    "Extra Chapter 2": "June 19 2020, 0:00",
+                    "Extra Chapter 3": "June 20 2020, 0:00",
+                    "Extra Chapter 4": "June 21 2020, 0:00"
                 },
-                "extraPriority": 2
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "June 12 2020, 17:00",
+                "end": "June 23 2020, 11:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "June 15 2020, 17:00",
+                "end": "June 23 2020, 11:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 9 2020, 17:00",
+                "end": "June 30 2020, 13:59"
             }
         ]
     },
@@ -176,51 +150,25 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Onee-chans 11 Missions",
-            "お姉ちゃんズ１１",
-            "Siscon Event missions"
+            "Etowaria Baseball Showdown Missions",
+            "エトワリア野球対決",
+            "Tamayomi Event missions"
         ],
         "image": [
-            "https://i.imgur.com/XLrdgCH.png",
-            "https://i.imgur.com/9oifevq.png",
-            "https://i.imgur.com/LsmaBQO.png"
+            "https://i.imgur.com/cnBNyaI.png",
+            "https://i.imgur.com/8330YBW.png",
+            "https://i.imgur.com/O4lpRiy.png",
+            "https://i.imgur.com/sWmHdsy.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "May 14 2020, 17:00",
-                "end": "May 28 2020, 23:59",
+                "start": "June 9 2020, 17:00",
+                "end": "June 23 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Onee-chans 11 Summon",
-            "お姉ちゃんズ１１ピックアップ召喚",
-            "Siscon Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/XLrdgCH.png",
-            "https://i.imgur.com/9oifevq.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Nishimikado Tami, 4* Takayama Haruka, 4* Sonoda Yuu",
-                "start": "May 14 2020, 17:00",
-                "end": "May 28 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Second Half: Featuring 5* Thomas Emily, 4* Thomas Claire, 4* Thomas Emily",
-                "start": "May 18 2020, 0:00",
-                "end": "May 28 2020, 15:59"
             }
         ]
     },
@@ -250,6 +198,34 @@ var timerData = [
                 "name": "Red Team: Featuring 5* Karen [Sports Festival], 5* Tamaki [Sports Festival]",
                 "start": "May 28 2020, 17:00",
                 "end": "June 9 2020, 15:59"
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "Etowaria Baseball Showdown Summon",
+            "エトワリア野球対決ピックアップ召喚",
+            "Tamayomi Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/cnBNyaI.png",
+            "https://i.imgur.com/8330YBW.png",
+            "https://i.imgur.com/O4lpRiy.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First Half: Featuring 5* Takeda Yomi, 4* Yamazaki Tamaki",
+                "start": "June 9 2020, 17:00",
+                "end": "June 23 2020, 11:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Second Half: Featuring 5* Ekoda Ren",
+                "start": "June 13 2020, 0:00",
+                "end": "June 23 2020, 11:59"
             }
         ]
     },
@@ -314,98 +290,20 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Recommended Theme Limited-time Step-up Summon Part 1 (Onee-chan)",
-            "期間限定いちおしテーマ！おまけ付き10回召喚 第1弾",
-            "Receive a Random 5* Ticket on 7th step"
+            "Daily Kirakira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems for a 3x Summon with only 4* or above"
         ],
         "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                name: "Summon Period: Featuring 5* Isami [New Year], 5* Irokawa Ruki, 5* Hirasawa Yui, 5* Yui [Swimsuit], 5* Mocha, 5* Yoshida Yuuko, 5* Leine",
-                start: "May 14 2020, 17:00",
-                end: "May 21 2020, 16:59",
-                info: "Also 4* Oomiya Isami, 4* Natsume Nina, 4* Irokawa Ruki, 4* Thomas Emily",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "May 14 2020, 17:00",
-                end: "May 28 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Recommended Theme Limited-time 5* Ticket Summon Part 1 (Onee-chan)",
-            "いちおしテーマ第1弾★5キャラクター確定召喚チケット",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "May 14 2020, 17:00",
-                end: "May 21 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "May 14 2020, 17:00",
-                end: "May 28 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Recommended themed Limited-time Step-up Summon Part 2 (Imouto)",
-            "期間限定いちおしテーマ！おまけ付き10回召喚 第2弾",
-            "Receive a Random 5* Ticket on 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring 5* Oomiya Shinobu, 5* Oomiya Shinobu, 5* Natsume Nono, 5* Sonoda Yuu, 5* Sakuranomiya Maika, 5* Maika [Swimsuit], 5* Sekiya Naru, 5* Claire [Halloween], 5* Cocoa, 5* Cocoa [Christmas], 5* Lamp, 5* Lamp [Swimsuit]",
-                start: "May 21 2020, 17:00",
-                end: "May 28 2020, 15:59",
-                info: "Also 4* Oomiya Shinobu, 4* Natsume Nono, 4* Nono [Halloween], 4* Sonoda Yuu, 4* Sakuranomiya Maika, 4* Maika [Doll's Festival], 4* Irokawa Miki, 4* Thomas Claire",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "May 21 2020, 17:00",
-                end: "June 4 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Recommended Theme Limited-time 5* Ticket Summon Part 2 (Imouto)",
-            "いちおしテーマ第1弾★5キャラクター確定召喚チケット",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "May 21 2020, 17:00",
-                end: "May 28 2020, 15:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "May 21 2020, 17:00",
-                end: "June 4 2020, 23:59"
+                name: "Summon Period: Featuring a bunch of limited-time characters",
+                start: "June 10 2020, 0:00",
+                end: "June 18 2020, 16:59",
+                extraPriority: 3,
+                info: "Featuring 5* Yuuko [Christmas], 5* Karen [Foreign Magician], 5* Alice [Christmas], 5* Alice [New Year], 5* Aoba [Sports Festival], 5* Hifumi [Christmas], 5* Hifumi [Maid], 5* Yun [Doll's Festival], 5* Kou [Swimsuit], 5* Chiya [Christmas], 5* Kon [Swimsuit], 5* Koume [Valentine], 5* Omi [New Year], 4* Nono [Halloween]"
             }
         ]
     },
@@ -541,50 +439,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "May Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/8vVU0Ot.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "May 2 2020, 0:00",
-                end: "May 3 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "May 9 2020, 0:00",
-                end: "May 10 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "May 16 2020, 0:00",
-                end: "May 17 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "May 23 2020, 0:00",
-                end: "May 24 2020, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "May 30 2020, 0:00",
-                end: "May 31 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "May 2 2020, 0:00",
-                end: "June 5 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "June Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -650,6 +504,22 @@ var timerData = [
                 name: "Period",
                 "start": "May 28 2020, 17:00",
                 "end": "June 10 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Tamayomi Celebration Special Gems Set",
+            "球詠」参戦記念星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "June 9 2020, 17:00",
+                "end": "June 23 2020, 11:59"
             }
         ]
     }
