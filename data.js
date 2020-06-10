@@ -229,6 +229,29 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Gacha",
+        "title": [
+            "Anne Happy♪ Limited-time Summon",
+            "あんハピ♪ 期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/flB09UL.png",
+            "https://i.imgur.com/CwI10nb.png",
+            "https://i.imgur.com/Px0ph2a.png",
+            "https://i.imgur.com/76l7qYN.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Hanakoizumi An, 5* Hibarigaoka Ruri, 5* Kumegawa Botan, 5* Hibiki [Valentine], 4* Hanakoizumi An, 4* Kumegawa Botan",
+                "start": "June 11 2020, 17:00",
+                "end": "June 18 2020, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
