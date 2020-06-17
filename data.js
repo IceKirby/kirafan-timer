@@ -37,46 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "The Great Sports Festival & The Goddess' Holy Grail",
-            "大運動会と女神の聖杯",
-            "Sports Festival 2020 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/g3U0JRe.png",
-            "https://i.imgur.com/Sb95tZL.png",
-            "https://i.imgur.com/I8KWxUF.png",
-            "https://i.imgur.com/CldfjiV.png",
-            "https://i.imgur.com/BNoYbfW.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "May 28 2020, 17:00",
-                "end": "June 9 2020, 15:59",
-                "markers": {
-                    "Season 2": "May 30 2020, 17:00",
-                    "Season 3": "June 1 2020, 17:00",
-                    "Extra Chapter": "June 3 2020, 17:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "June 3 2020, 17:00",
-                "end": "June 9 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 28 2020, 17:00",
-                "end": "June 16 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Etowaria Baseball Showdown",
             "エトワリア野球対決",
             "Tamayomi Event"
@@ -122,34 +82,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "The Great Sports Festival & The Goddess' Holy Grail Missions",
-            "大運動会と女神の聖杯",
-            "Sports Festival 2020 Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/g3U0JRe.png",
-            "https://i.imgur.com/Sb95tZL.png",
-            "https://i.imgur.com/I8KWxUF.png",
-            "https://i.imgur.com/CldfjiV.png",
-            "https://i.imgur.com/BNoYbfW.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "May 28 2020, 17:00",
-                "end": "June 9 2020, 23:59",
-                "markers": {
-                    "Mission Set 2": "June 3 2020, 0:00"
-                },
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
             "Etowaria Baseball Showdown Missions",
             "エトワリア野球対決",
             "Tamayomi Event missions"
@@ -173,35 +105,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "The Great Sports Festival & The Goddess' Holy Grail Summon",
-            "大運動会と女神の聖杯ピックアップ召喚",
-            "Sports Festival 2020 Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/g3U0JRe.png",
-            "https://i.imgur.com/Sb95tZL.png",
-            "https://i.imgur.com/I8KWxUF.png",
-            "https://i.imgur.com/CldfjiV.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "White Team: Featuring 5* Shamiko [Sports Festival], 5* Kirin [Sports Festival]",
-                "start": "May 28 2020, 17:00",
-                "end": "June 9 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Red Team: Featuring 5* Karen [Sports Festival], 5* Tamaki [Sports Festival]",
-                "start": "May 28 2020, 17:00",
-                "end": "June 9 2020, 15:59"
-            }
-        ]
-    },
-     {
         "type": "Gacha",
         "title": [
             "Etowaria Baseball Showdown Summon",
@@ -255,64 +158,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Sports Festival Limited-time Step-up Summon",
-            "期間限定運動会復刻！おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "https://i.imgur.com/d3ncfOl.png",
-            "https://i.imgur.com/YZReEjG.png",
-            "https://i.imgur.com/b2EMpo4.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Youko [Sports Festival], 5* Aoba [Sports Festival], 5* Eiko [Sports Festival]",
-                "start": "May 29 2020, 17:00",
-                "end": "June 5 2020, 16:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "May 29 2020, 17:00",
-                end: "June 12 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kill Me Baby Limited-time Step-up Summon",
-            "キルミーベイベー 期間限定おまけ付き10回召喚",
-            "Random Kill Me Baby 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "https://i.imgur.com/KqI3C1J.png",
-            "https://i.imgur.com/EQZAcDG.png",
-            "https://i.imgur.com/R9jMLuH.png",
-            "https://i.imgur.com/6X1AEVp.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Oribe Yasuna, 5* Yasuna [New Year], 5* Sonya, 5* Goshiki Agiri",
-                "start": "June 5 2020, 17:00",
-                "end": "June 9 2020, 15:59",
-                "extraPriority": 4,
-                "info": "Also rate-up for 3* and 4* Kill Me Baby characters"
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "June 5 2020, 17:00",
-                end: "June 16 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Daily Kirakira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems for a 3x Summon with only 4* or above"
@@ -351,6 +196,78 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "May 28 2020, 17:00",
                 end: "June 17 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Random 5* Summon Ticket Summon",
+            "★5確定チケット引換券付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                start: "June 18 2020, 17:00",
+                end: "June 25 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "June 18 2020, 17:00",
+                end: "July 2 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Recommended Theme! Random 5* Summon Ticket",
+            "期間限定いちおしテーマ！★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period: Featuring 5* Miyako, 5* Miyako [Christmas], 5* Tooru, 5* Tooru [Christmas], 5* Hibiki [Valentine], 5* Lamp, 5* Lamp [Swimsuit]",
+                start: "June 18 2020, 17:00",
+                end: "June 25 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "June 18 2020, 17:00",
+                end: "July 2 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Recommended Theme! Step-up Summon",
+            "期間限定いちおしテーマ！おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period: Featuring 5* Miyako, 5* Miyako [Christmas], 5* Tooru, 5* Tooru [Christmas], 5* Hibiki [Valentine], 5* Lamp, 5* Lamp [Swimsuit]",
+                start: "June 18 2020, 17:00",
+                end: "June 25 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                start: "June 18 2020, 17:00",
+                end: "July 2 2020, 23:59"
             }
         ]
     },
@@ -517,24 +434,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "900 Days Celebration Special Gems Set",
-            "お得な星彩石セット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "May 28 2020, 17:00",
-                "end": "June 10 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Tamayomi Celebration Special Gems Set",
-            "球詠」参戦記念星彩石セット販売"
+            "「球詠」参戦記念星彩石セット販売"
         ],
         image: "cork",
         column: 2,
