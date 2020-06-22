@@ -80,6 +80,50 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "A Tanabata Promise",
+            "七夕の約束",
+            "Tanabata Event"
+        ],
+        "image": [
+            "https://i.imgur.com/XCVhxSF.png",
+            "https://i.imgur.com/dz2zeF3.png",
+            "https://i.imgur.com/3SmHOFK.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "June 23 2020, 17:00",
+                "end": "July 9 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "July 4 2020, 0:00",
+                    "Extra Chapter 2": "July 5 2020, 0:00",
+                    "Extra Chapter 3": "July 6 2020, 0:00",
+                    "Extra Chapter 4": "July 7 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "June 25 2020, 17:00",
+                "end": "July 9 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "June 29 2020, 17:00",
+                "end": "July 9 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 23 2020, 17:00",
+                "end": "July 16 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Etowaria Baseball Showdown Missions",
@@ -99,6 +143,30 @@ var timerData = [
                 "name": "Missions",
                 "start": "June 9 2020, 17:00",
                 "end": "June 23 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+     {
+        "type": "Mission",
+        "title": [
+            "A Tanabata Promise Missions",
+            "七夕の約束",
+            "Tanabata Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/XCVhxSF.png",
+            "https://i.imgur.com/dz2zeF3.png",
+            "https://i.imgur.com/3SmHOFK.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "June 23 2020, 17:00",
+                "end": "July 9 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -129,6 +197,48 @@ var timerData = [
                 "name": "Second Half: Featuring 5* Ekoda Ren",
                 "start": "June 13 2020, 0:00",
                 "end": "June 23 2020, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "A Tanabata Promise Summon",
+            "七夕の約束ピックアップ召喚",
+            "Tanabata Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/dz2zeF3.png",
+            "https://i.imgur.com/3SmHOFK.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Event Limited-time Summon Part 1: Featuring 5* Lamp [Tanabata], 5* Kyouju [Tanabata]",
+                "start": "June 23 2020, 17:00",
+                "end": "July 9 2020, 15:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "New Character Summon",
+            "新規キャラクターピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/muT8N8J.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Shidou Kei",
+                "start": "June 24 2020, 0:00",
+                "end": "July 6 2020, 23:59",
+                "extraPriority": 5
             }
         ]
     },
