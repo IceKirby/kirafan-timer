@@ -203,7 +203,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "A Tanabata Promise Summon",
+            "A Tanabata Promise Limited-time Summon",
             "七夕の約束ピックアップ召喚",
             "Tanabata Event summon"
         ],
@@ -215,7 +215,7 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Event Limited-time Summon Part 1: Featuring 5* Lamp [Tanabata], 5* Kyouju [Tanabata]",
+                "name": "Part 1: Featuring 5* Lamp [Tanabata], 5* Kyouju [Tanabata]",
                 "start": "June 23 2020, 17:00",
                 "end": "July 9 2020, 15:59",
                 "extraPriority": 6
