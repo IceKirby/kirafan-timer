@@ -126,31 +126,6 @@ var timerData = [
     {
         "type": "Mission",
         "title": [
-            "Etowaria Baseball Showdown Missions",
-            "エトワリア野球対決",
-            "Tamayomi Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/cnBNyaI.png",
-            "https://i.imgur.com/8330YBW.png",
-            "https://i.imgur.com/O4lpRiy.png",
-            "https://i.imgur.com/sWmHdsy.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "June 9 2020, 17:00",
-                "end": "June 23 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-     {
-        "type": "Mission",
-        "title": [
             "A Tanabata Promise Missions",
             "七夕の約束",
             "Tanabata Event missions"
@@ -169,34 +144,6 @@ var timerData = [
                 "end": "July 9 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Etowaria Baseball Showdown Summon",
-            "エトワリア野球対決ピックアップ召喚",
-            "Tamayomi Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/cnBNyaI.png",
-            "https://i.imgur.com/8330YBW.png",
-            "https://i.imgur.com/O4lpRiy.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5* Takeda Yomi, 4* Yamazaki Tamaki",
-                "start": "June 9 2020, 17:00",
-                "end": "June 23 2020, 11:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Second Half: Featuring 5* Ekoda Ren",
-                "start": "June 13 2020, 0:00",
-                "end": "June 23 2020, 11:59"
             }
         ]
     },
@@ -242,70 +189,31 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Gacha",
         "title": [
-            "Anne Happy♪ Limited-time Summon",
-            "あんハピ♪ 期間限定特別セレクション召喚"
+            "Sakura Trick Limited-time Step-up Summon",
+            "桜Trick 期間限定おまけ付き10回召喚",
+            "Get a Random Sakura Trick 5* Summon Ticket on 7th step"
         ],
         "image": [
-            "https://i.imgur.com/flB09UL.png",
-            "https://i.imgur.com/CwI10nb.png",
-            "https://i.imgur.com/Px0ph2a.png",
-            "https://i.imgur.com/76l7qYN.png"
+            "https://i.imgur.com/peTLB1X.png",
+            "https://i.imgur.com/FxxyHFM.png",
+            "https://i.imgur.com/GXmhGgx.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Hanakoizumi An, 5* Hibarigaoka Ruri, 5* Kumegawa Botan, 5* Hibiki [Valentine], 4* Hanakoizumi An, 4* Kumegawa Botan",
-                "start": "June 11 2020, 17:00",
-                "end": "June 18 2020, 16:59",
+                "name": "Featuring 5* Takayama Haruka, 5* Sonoda Yuu, 5* Shizuku [Swimsuit], 4* Kotone [Swimsuit]",
+                "start": "June 25 2020, 17:00",
+                "end": "June 29 2020, 16:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily Kirakira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems for a 3x Summon with only 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring a bunch of limited-time characters",
-                start: "June 10 2020, 0:00",
-                end: "June 18 2020, 16:59",
-                extraPriority: 3,
-                info: "Featuring 5* Yuuko [Christmas], 5* Karen [Foreign Magician], 5* Alice [Christmas], 5* Alice [New Year], 5* Aoba [Sports Festival], 5* Hifumi [Christmas], 5* Hifumi [Maid], 5* Yun [Doll's Festival], 5* Kou [Swimsuit], 5* Chiya [Christmas], 5* Kon [Swimsuit], 5* Koume [Valentine], 5* Omi [New Year], 4* Nono [Halloween]"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "900 Days Celebration Choosable 5* Summon Ticket",
-            "リリース900日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "May 28 2020, 17:00",
-                end: "June 10 2020, 23:59",
-                extraPriority: 4
             },
             {
-                name: "Ticket Expiration",
-                start: "May 28 2020, 17:00",
-                end: "June 17 2020, 23:59"
+                "name": "Ticket Expiration",
+                "start": "June 25 2020, 17:00",
+                "end": "July 6 2020, 23:59"
             }
         ]
     },
