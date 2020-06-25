@@ -89,7 +89,9 @@ var timerData = [
         "image": [
             "https://i.imgur.com/XCVhxSF.png",
             "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png"
+            "https://i.imgur.com/3SmHOFK.png",
+            "https://i.imgur.com/5oEqTdp.png",
+            "https://i.imgur.com/5K9AMlg.png"
         ],
         "column": 0,
         "priority": 2,
@@ -133,7 +135,9 @@ var timerData = [
         "image": [
             "https://i.imgur.com/XCVhxSF.png",
             "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png"
+            "https://i.imgur.com/3SmHOFK.png",
+            "https://i.imgur.com/5oEqTdp.png",
+            "https://i.imgur.com/5K9AMlg.png"
         ],
         "column": 0,
         "priority": 1,
@@ -156,7 +160,9 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png"
+            "https://i.imgur.com/3SmHOFK.png",
+            "https://i.imgur.com/5oEqTdp.png",
+            "https://i.imgur.com/5K9AMlg.png"
         ],
         "column": 1,
         "priority": 1,
@@ -166,6 +172,11 @@ var timerData = [
                 "start": "June 23 2020, 17:00",
                 "end": "July 9 2020, 15:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Ena [Tanabata], 5* Tsubasa [Tanabata]",
+                "start": "June 27 2020, 0:00",
+                "end": "July 9 2020, 15:59"
             }
         ]
     },
