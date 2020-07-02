@@ -255,6 +255,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Manga Time Kirara Exhibition in Niigata Celebration Summon - First Half",
+            "きらら展in新潟記念期間限定★5確定チケット付き！有償限定10回召喚・前半",
+            "400 Paid Gems for a 10x Summon + Random Limited-time 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period: Featuring Limited-time characters from specific series",
+                start: "July 4 2020, 0:00",
+                end: "July 10 2020, 23:59",
+                extraPriority: 4,
+                info: "Limited-time characters from Hidamari Sketch, Yuyushiki, A-Channel, NEW GAME!, Kill me Baby, Blend-S, Slow Start, K-ON!, Anima Yell! and Machikado Mazoku"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "July 4 2020, 0:00",
+                end: "July 17 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Limited-time Recommended Theme! Random 5* Summon Ticket",
             "期間限定いちおしテーマ！★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
