@@ -326,6 +326,54 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Kirara's Birthday Celebration Summons",
+            "きららお誕生日記念★5確定召喚",
+            "Get Random 5* Summon Ticket"
+        ],
+        "image": "kirara",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Step-up Summon: 5* Kirara [Manga ver.], 5* Lamp, 5* Lamp [Swimsuit], 5* Clea [Doll's Festival], 5* Polka, 5* Cork, 5* Cork [Maid], 5* Kanna, 5* Leine",
+                start: "July 7 2020, 0:00",
+                end: "July 9 2020, 23:59",
+                extraPriority: 4,
+                info: "Receive a Random 5* Summon Ticket on 7th step"
+            },
+            {
+                name: "Paid Summon: 240 Paid Gems for a 10x Summon + a Random 5* Summon Ticket on 7th step",
+                start: "July 7 2020, 0:00",
+                end: "July 9 2020, 23:59"
+            },
+            {
+                name: "Ticket Expiration",
+                start: "July 7 2020, 0:00",
+                end: "July 16 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Kirara's Birthday Celebration Login Bonus",
+            "きららお誕生日記念ログインボーナス",
+            "Log in on 3 days for a Title and up to 2 Summon Tickets"
+        ],
+        image: "kirara",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "July 7 2020, 0:00",
+                "end": "July 9 2020, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "900 Days Celebration Login Bonus",
@@ -356,61 +404,6 @@ var timerData = [
                 name: "Episode 1",
                 date: "April 1 2020",
                 days: 2
-            },
-            {
-                name: "Episode 2",
-                date: "April 8 2020",
-                days: 2
-            },
-            {
-                name: "Episode 3",
-                date: "April 15 2020",
-                days: 2
-            },
-            {
-                name: "Episode 4",
-                date: "April 22 2020",
-                days: 2
-            },
-            {
-                name: "Episode 5",
-                date: "April 29 2020",
-                days: 2
-            },
-            {
-                name: "Episode 6",
-                date: "May 6 2020",
-                days: 2
-            },
-            {
-                name: "Episode 7",
-                date: "May 13 2020",
-                days: 2
-            },
-            {
-                name: "Episode 8",
-                date: "May 20 2020",
-                days: 2
-            },
-            {
-                name: "Episode 9",
-                date: "May 27 2020",
-                days: 2
-            },
-            {
-                name: "Episode 10",
-                date: "June 3 2020",
-                days: 2
-            },
-            {
-                name: "Episode 11",
-                date: "June 10 2020",
-                days: 2
-            },
-            {
-                name: "Episode 12",
-                date: "June 17 2020",
-                days: 2
             }
         ]
     },
@@ -427,45 +420,6 @@ var timerData = [
                 name: "Period",
                 "start": "January 20 2020, 0:00",
                 "end": "January 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "June Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/zso90Ea.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "June 6 2020, 0:00",
-                end: "June 7 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "June 13 2020, 0:00",
-                end: "June 14 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "June 20 2020, 0:00",
-                end: "June 21 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "June 27 2020, 0:00",
-                end: "June 28 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "June 6 2020, 0:00",
-                end: "July 3 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
@@ -527,16 +481,18 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Tamayomi Celebration Special Gems Set",
-            "「球詠」参戦記念星彩石セット販売"
+            "Kirara's Birthday Celebration Sale",
+            "きららお誕生日記念セール",
+            "Purchase a Gem Set and get a Title"
         ],
-        image: "cork",
+        image: "kirara",
         column: 2,
         timers: [
-            {
+             {
                 name: "Period",
-                "start": "June 9 2020, 17:00",
-                "end": "June 23 2020, 11:59"
+                "start": "July 7 2020, 0:00",
+                "end": "July 9 2020, 23:59",
+                "extraPriority": 4
             }
         ]
     }
