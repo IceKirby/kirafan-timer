@@ -37,51 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Etowaria Baseball Showdown",
-            "エトワリア野球対決",
-            "Tamayomi Event"
-        ],
-        "image": [
-            "https://i.imgur.com/cnBNyaI.png",
-            "https://i.imgur.com/8330YBW.png",
-            "https://i.imgur.com/O4lpRiy.png",
-            "https://i.imgur.com/sWmHdsy.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "June 9 2020, 17:00",
-                "end": "June 23 2020, 11:59",
-                "markers": {
-                    "Extra Chapter 1": "June 18 2020, 0:00",
-                    "Extra Chapter 2": "June 19 2020, 0:00",
-                    "Extra Chapter 3": "June 20 2020, 0:00",
-                    "Extra Chapter 4": "June 21 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "June 12 2020, 17:00",
-                "end": "June 23 2020, 11:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "June 15 2020, 17:00",
-                "end": "June 23 2020, 11:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "June 9 2020, 17:00",
-                "end": "June 30 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "A Tanabata Promise",
             "七夕の約束",
             "Tanabata Event"
@@ -152,6 +107,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Slow Tamers Missions",
+            "スロウテイマーズ",
+            "Slow Start Author Quest missions"
+        ],
+        "image": [
+            "https://i.imgur.com/jNx7ZWQ.png",
+            "https://i.imgur.com/gDDud3k.png",
+            "https://i.imgur.com/MJjPOAQ.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "July 9 2020, 17:00",
+                "end": "July 23 2020, 23:59",
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "A Tanabata Promise Limited-time Summon",
@@ -183,72 +161,55 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "New Character Summon",
-            "新規キャラクターピックアップ召喚"
+            "Slow Tamers Summon",
+            "スロウテイマーズピックアップ召喚",
+            "Slow Start Author Quest summon"
         ],
         "image": [
-            "https://i.imgur.com/muT8N8J.png"
+            "https://i.imgur.com/jNx7ZWQ.png",
+            "https://i.imgur.com/gDDud3k.png",
+            "https://i.imgur.com/MJjPOAQ.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Shidou Kei",
-                "start": "June 24 2020, 0:00",
-                "end": "July 6 2020, 23:59",
-                "extraPriority": 5
+                "name": "Enami-Sensei Side: Featuring 5* Enami Kiyose",
+                "start": "July 9 2020, 17:00",
+                "end": "July 16 2020, 16:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Hana Side: Featuring 5* Ichinose Hana (Sun Knight)",
+                "start": "July 11 2020, 0:00",
+                "end": "July 16 2020, 16:59"
+            },
+            {
+                "name": "Tamate Side: Featuring 5* Momochi Tamate (Sun Alchemist)",
+                "start": "July 11 2020, 0:00",
+                "end": "July 16 2020, 16:59"
             }
         ]
     },
-    {
+     {
         "type": "Gacha",
         "title": [
-            "Sakura Trick Limited-time Step-up Summon",
-            "桜Trick 期間限定おまけ付き10回召喚",
-            "Get a Random Sakura Trick 5* Summon Ticket on 7th step"
+            "Slow Start Limited-time Summon",
+            "スロウスタート 期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/peTLB1X.png",
-            "https://i.imgur.com/FxxyHFM.png",
-            "https://i.imgur.com/GXmhGgx.png"
+            "https://i.imgur.com/6xdYfJT.png",
+            "https://i.imgur.com/hsVh1Qh.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Takayama Haruka, 5* Sonoda Yuu, 5* Shizuku [Swimsuit], 4* Kotone [Swimsuit]",
-                "start": "June 25 2020, 17:00",
-                "end": "June 29 2020, 16:59",
+                "name": "Featuring 5* Sengoku Kamuri, 5* Eiko [Sports Festival], 5* Momochi Tamate, 5* Shion [Doll's Festival], 4* Eiko [Swimsuit]",
+                "start": "July 10 2020, 17:00",
+                "end": "July 17 2020, 16:59",
+                "info": "Also featuring 3* and 4* characters from Slow Start",
                 "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 25 2020, 17:00",
-                "end": "July 6 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Random 5* Summon Ticket Summon",
-            "★5確定チケット引換券付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                start: "June 18 2020, 17:00",
-                end: "June 25 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "June 18 2020, 17:00",
-                end: "July 2 2020, 23:59"
             }
         ]
     },
@@ -274,54 +235,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "July 4 2020, 0:00",
                 end: "July 17 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Recommended Theme! Random 5* Summon Ticket",
-            "期間限定いちおしテーマ！★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring 5* Miyako, 5* Miyako [Christmas], 5* Tooru, 5* Tooru [Christmas], 5* Hibiki [Valentine], 5* Lamp, 5* Lamp [Swimsuit]",
-                start: "June 18 2020, 17:00",
-                end: "June 25 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "June 18 2020, 17:00",
-                end: "July 2 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Recommended Theme! Step-up Summon",
-            "期間限定いちおしテーマ！おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring 5* Miyako, 5* Miyako [Christmas], 5* Tooru, 5* Tooru [Christmas], 5* Hibiki [Valentine], 5* Lamp, 5* Lamp [Swimsuit]",
-                start: "June 18 2020, 17:00",
-                end: "June 25 2020, 16:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                start: "June 18 2020, 17:00",
-                end: "July 2 2020, 23:59"
             }
         ]
     },
