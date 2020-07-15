@@ -80,29 +80,46 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Mission",
+     {
+        "type": "Event",
         "title": [
-            "A Tanabata Promise Missions",
-            "七夕の約束",
-            "Tanabata Event missions"
+            "Chaos! Etowaria Doujinshi Convention!",
+            "大騒動！エトワリア同人誌即売会",
+            "Doujinshi Event"
         ],
         "image": [
-            "https://i.imgur.com/XCVhxSF.png",
-            "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png",
-            "https://i.imgur.com/5oEqTdp.png",
-            "https://i.imgur.com/5K9AMlg.png"
+            "https://i.imgur.com/sxQnfBK.png",
+            "https://i.imgur.com/81nYzue.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "June 23 2020, 17:00",
-                "end": "July 9 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "name": "Main Scenario",
+                "start": "July 16 2020, 17:00",
+                "end": "July 29 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "July 23 2020, 0:00",
+                    "Extra Chapter 2": "July 24 2020, 0:00",
+                    "Extra Chapter 3": "July 25 2020, 0:00",
+                    "Extra Chapter 4": "July 26 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "July 18 2020, 17:00",
+                "end": "July 29 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "July 21 2020, 17:00",
+                "end": "July 29 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 16 2020, 17:00",
+                "end": "August 5 2020, 13:59"
             }
         ]
     },
@@ -130,31 +147,25 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "A Tanabata Promise Limited-time Summon",
-            "七夕の約束ピックアップ召喚",
-            "Tanabata Event summon"
+            "Chaos! Etowaria Doujinshi Convention! Missions",
+            "大騒動！エトワリア同人誌即売会",
+            "Doujinshi Event missions"
         ],
         "image": [
-            "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png",
-            "https://i.imgur.com/5oEqTdp.png",
-            "https://i.imgur.com/5K9AMlg.png"
+            "https://i.imgur.com/sxQnfBK.png",
+            "https://i.imgur.com/81nYzue.png"
         ],
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* Lamp [Tanabata], 5* Kyouju [Tanabata]",
-                "start": "June 23 2020, 17:00",
-                "end": "July 9 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Ena [Tanabata], 5* Tsubasa [Tanabata]",
-                "start": "June 27 2020, 0:00",
-                "end": "July 9 2020, 15:59"
+                "name": "Missions",
+                "start": "July 16 2020, 17:00",
+                "end": "July 29 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -191,6 +202,33 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+            "Chaos! Etowaria Doujinshi Convention! Summon",
+            "大騒動！エトワリア同人誌即売会ピックアップ召喚",
+            "Doujinshi Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/sxQnfBK.png",
+            "https://i.imgur.com/81nYzue.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Miu Side: Featuring 5* Amano Miu, 4* Amano Miu",
+                "start": "July 16 2020, 17:00",
+                "end": "July 29 2020, 15:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Yumine Side: Featuring 5* Fuda Yumine, 4* Fuda Yumine",
+                "start": "July 16 2020, 17:00",
+                "end": "July 29 2020, 15:59"
+            }
+        ]
+    },
      {
         "type": "Gacha",
         "title": [
@@ -209,6 +247,25 @@ var timerData = [
                 "start": "July 10 2020, 17:00",
                 "end": "July 17 2020, 16:59",
                 "info": "Also featuring 3* and 4* characters from Slow Start",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily Limited-time Kira-Kira Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuno [Christmas], 5* Miyako [Christmas], 5* Tamaki [Sports Festival], 5* Kaos [Swimsuit], 5* Kirin [Sports Festival], 5* Cork [Maid], 5* Sugar, 5* Salt, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
+                "start": "July 16 2020, 17:00",
+                "end": "July 23 2020, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -265,24 +322,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "July 7 2020, 0:00",
                 end: "July 16 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Kirara's Birthday Celebration Login Bonus",
-            "きららお誕生日記念ログインボーナス",
-            "Log in on 3 days for a Title and up to 2 Summon Tickets"
-        ],
-        image: "kirara",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "July 7 2020, 0:00",
-                "end": "July 9 2020, 23:59",
-                "extraPriority": 5
             }
         ]
     },
