@@ -254,6 +254,51 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara Fantasia Limited-time Summon",
+            "きららファンタジア期間限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/cmyDxBN.png",
+            "https://i.imgur.com/qDldUVh.png",
+            "https://i.imgur.com/21q85KU.png",
+            "https://i.imgur.com/xaIZaj8.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Archive, 5* Cesame, 5* Ginger, 5* Fennel",
+                "start": "July 17 2020, 17:00",
+                "end": "July 24 2020, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "Stella no Mahou Limited-time Summon",
+            "ステラのまほう期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/CldfjiV.png",
+            "https://i.imgur.com/LXi1Day.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Tamaki [Sports Festival], 5* Shiina [Valentine], 5* Seki Ayame, 5* Iketani Nono, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
+                "start": "July 17 2020, 17:00",
+                "end": "July 24 2020, 16:59",
+                "info": "Also featuring 3* and 4* characters from Stella no Mahou",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Limited-time Kira-Kira Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
