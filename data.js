@@ -247,6 +247,11 @@ var timerData = [
                 "end": "July 29 2020, 15:59",
                 "info": "Also featuring 3* and 4* characters from Blend-S",
                 "extraPriority": 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "July 24 2020, 17:00",
+                end: "August 5 2020, 23:59"
             }
         ]
     },
