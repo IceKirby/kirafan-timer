@@ -34,52 +34,6 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Event",
-        "title": [
-            "A Tanabata Promise",
-            "七夕の約束",
-            "Tanabata Event"
-        ],
-        "image": [
-            "https://i.imgur.com/XCVhxSF.png",
-            "https://i.imgur.com/dz2zeF3.png",
-            "https://i.imgur.com/3SmHOFK.png",
-            "https://i.imgur.com/5oEqTdp.png",
-            "https://i.imgur.com/5K9AMlg.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "June 23 2020, 17:00",
-                "end": "July 9 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "July 4 2020, 0:00",
-                    "Extra Chapter 2": "July 5 2020, 0:00",
-                    "Extra Chapter 3": "July 6 2020, 0:00",
-                    "Extra Chapter 4": "July 7 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "June 25 2020, 17:00",
-                "end": "July 9 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "June 29 2020, 17:00",
-                "end": "July 9 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "June 23 2020, 17:00",
-                "end": "July 16 2020, 13:59"
-            }
-        ]
-    },
      {
         "type": "Event",
         "title": [
@@ -120,6 +74,39 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "July 16 2020, 17:00",
                 "end": "August 5 2020, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Etowaria Summer One-Shots 2020",
+            "エトワリア夏の一幕2020",
+            "Summer 2020 Mini-Event"
+        ],
+        "image": [
+            "https://i.imgur.com/HjBxxvM.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Story Chapters",
+                "start": "July 23 2020, 0:00",
+                "end": "July 29 2020, 15:59",
+                "markers": {
+                    "Chapter 2": "July 24 2020, 0:00",
+                    "Chapter 3": "July 25 2020, 0:00",
+                    "Chapter 4": "July 26 2020, 0:00",
+                    "Chapter 5": "July 27 2020, 0:00",
+                    "Chapter 6": "July 28 2020, 0:00",
+                },
+                "extraPriority": 3
+            },
+            {
+                "name": "Melee Quest",
+                "start": "July 23 2020, 0:00",
+                "end": "July 29 2020, 15:59"
             }
         ]
     },
@@ -170,35 +157,23 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Slow Tamers Summon",
-            "スロウテイマーズピックアップ召喚",
-            "Slow Start Author Quest summon"
+            "Etowaria Summer One-Shots 2020 Missions",
+            "エトワリア夏の一幕2020",
+            "Summer 2020 Mini-Event Missions"
         ],
         "image": [
-            "https://i.imgur.com/jNx7ZWQ.png",
-            "https://i.imgur.com/gDDud3k.png",
-            "https://i.imgur.com/MJjPOAQ.png"
+            "https://i.imgur.com/HjBxxvM.png"
         ],
-        "column": 1,
-        "priority": 1,
+        "column": 0,
+        "priority": 2,
         "timers": [
             {
-                "name": "Enami-Sensei Side: Featuring 5* Enami Kiyose",
-                "start": "July 9 2020, 17:00",
-                "end": "July 16 2020, 16:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Hana Side: Featuring 5* Ichinose Hana (Sun Knight)",
-                "start": "July 11 2020, 0:00",
-                "end": "July 16 2020, 16:59"
-            },
-            {
-                "name": "Tamate Side: Featuring 5* Momochi Tamate (Sun Alchemist)",
-                "start": "July 11 2020, 0:00",
-                "end": "July 16 2020, 16:59"
+                "name": "Missions",
+                "start": "July 23 2020, 0:00",
+                "end": "July 29 2020, 23:59",
+                "extraPriority": 1
             }
         ]
     },
@@ -229,24 +204,48 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Gacha",
         "title": [
-            "Slow Start Limited-time Summon",
-            "スロウスタート 期間限定特別セレクション召喚"
+            "Etowaria Summer One-Shots 2020 Daily Summon",
+            "エトワリア夏の一幕2020日替わりピックアップ召喚",
+            "A different banner each day"
         ],
         "image": [
-            "https://i.imgur.com/6xdYfJT.png",
-            "https://i.imgur.com/hsVh1Qh.png"
+            "https://i.imgur.com/HjBxxvM.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Sengoku Kamuri, 5* Eiko [Sports Festival], 5* Momochi Tamate, 5* Shion [Doll's Festival], 4* Eiko [Swimsuit]",
-                "start": "July 10 2020, 17:00",
-                "end": "July 17 2020, 16:59",
-                "info": "Also featuring 3* and 4* characters from Slow Start",
+                "name": "Period",
+                "start": "July 23 2020, 0:00",
+                "end": "July 28 2020, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Blend-S Limited-time Step-up Summon",
+            "ブレンド・S 期間限定おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "https://i.imgur.com/1OpWxtQ.png",
+            "https://i.imgur.com/wLsnIbm.png",
+            "https://i.imgur.com/NL4VZlo.png",
+            "https://i.imgur.com/JNETw7X.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Maika [Swimsuit], 5* Kaho [New Year], 5* Hoshikawa Mafuyu, 5* Hideri [Doll's Festival], 4* Maika [Doll's Festival]",
+                "start": "July 24 2020, 17:00",
+                "end": "July 29 2020, 15:59",
+                "info": "Also featuring 3* and 4* characters from Blend-S",
                 "extraPriority": 4
             }
         ]
@@ -337,36 +336,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 start: "July 4 2020, 0:00",
                 end: "July 17 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara's Birthday Celebration Summons",
-            "きららお誕生日記念★5確定召喚",
-            "Get Random 5* Summon Ticket"
-        ],
-        "image": "kirara",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Step-up Summon: 5* Kirara [Manga ver.], 5* Lamp, 5* Lamp [Swimsuit], 5* Clea [Doll's Festival], 5* Polka, 5* Cork, 5* Cork [Maid], 5* Kanna, 5* Leine",
-                start: "July 7 2020, 0:00",
-                end: "July 9 2020, 23:59",
-                extraPriority: 4,
-                info: "Receive a Random 5* Summon Ticket on 7th step"
-            },
-            {
-                name: "Paid Summon: 240 Paid Gems for a 10x Summon + a Random 5* Summon Ticket on 7th step",
-                start: "July 7 2020, 0:00",
-                end: "July 9 2020, 23:59"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "July 7 2020, 0:00",
-                end: "July 16 2020, 23:59"
             }
         ]
     },
