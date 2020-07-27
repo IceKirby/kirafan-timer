@@ -278,6 +278,33 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yumekui Merry Limited-time Step-up Summon",
+            "夢喰いメリー 期間限定おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Merry [Valentine], 5* Isana [Doll's Festival], 5* Engi Threepiece",
+                "start": "July 29 2020, 17:00",
+                "end": "August 2 2020, 16:59",
+                "info": "Also featuring 3* and 4* characters from Yumekui Merry",
+                "extraPriority": 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "July 29 2020, 17:00",
+                end: "August 9 2020, 23:59"
+            }
+        ]
+    },
      {
         "type": "Gacha",
         "title": [
