@@ -111,6 +111,51 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Summer Vacation! Homework Operation",
+            "夏休み！宿題大作戦",
+            "Summer 2020 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/KWilLZc.png",
+            "https://i.imgur.com/4QbYAEv.png",
+            "https://i.imgur.com/F2A718S.png",
+            "https://i.imgur.com/Ut2Jife.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "August 8 2020, 0:00",
+                    "Extra Chapter 2": "August 9 2020, 0:00",
+                    "Extra Chapter 3": "August 10 2020, 0:00",
+                    "Extra Chapter 4": "August 11 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "July 31 2020, 17:00",
+                "end": "August 27 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "August 5 2020, 17:00",
+                "end": "August 27 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 29 2020, 17:00",
+                "end": "September 3 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Slow Tamers Missions",
@@ -178,6 +223,31 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Summer Vacation! Homework Operation Missions",
+            "夏休み！宿題大作戦",
+            "Summer 2020 Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/KWilLZc.png",
+            "https://i.imgur.com/4QbYAEv.png",
+            "https://i.imgur.com/F2A718S.png",
+            "https://i.imgur.com/Ut2Jife.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Chaos! Etowaria Doujinshi Convention! Summon",
@@ -222,6 +292,86 @@ var timerData = [
                 "start": "July 23 2020, 0:00",
                 "end": "July 28 2020, 23:59",
                 "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Summer Vacation! Homework Operation Limited-time Summon",
+            "夏休み！宿題大作戦ピックアップ召喚",
+            "Summer 2020 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/KWilLZc.png",
+            "https://i.imgur.com/4QbYAEv.png",
+            "https://i.imgur.com/F2A718S.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Yuno [Swimsuit], 5* Yukari [Swimsuit], 5* Futaba [Swimsuit]",
+                "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 15:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Swimsuit 2018 Limited-time Step-up Summon",
+            "期間限定2018水着復刻 おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step",
+            "Up to 4 steps for free"
+        ],
+        "image": ["clea"],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Aya [Swimsuit], 5* Yuki [Swimsuit], 5* Kou [Swimsuit], 5* Kon [Swimsuit], 5* Shizuku [Swimsuit], 5* Kaho [Swimsuit], 5* Nadeshiko [Swimsuit]",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Free 10x Summon (once per day)",
+                "start": "July 29 2020, 17:00",
+                "end": "August 1 2020, 23:59",
+                "extraPriority": 1
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "July 29 2020, 17:00",
+                end: "August 19 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "2018 & 2019 Swimsuit Choosable 5* Summon",
+            "2018年＆2019年の水着★5キャラが選べる！有償限定10回召喚",
+            "600 Paid Gems for a 10x + Choosable Past 5* Swimsuit Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59",
+                "extraPriority": 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "July 29 2020, 17:00",
+                "end": "September 3 2020, 23:59"
             }
         ]
     },
@@ -330,8 +480,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Daily Limited-time Kira-Kira Summon",
-            "1日1回期間限定きらきら召喚",
+            "Daily Kira-Kira Summon",
+            "1日1回きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
         ],
         "image": "clea",
@@ -339,9 +489,9 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuno [Christmas], 5* Miyako [Christmas], 5* Tamaki [Sports Festival], 5* Kaos [Swimsuit], 5* Kirin [Sports Festival], 5* Cork [Maid], 5* Sugar, 5* Salt, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
-                "start": "July 16 2020, 17:00",
-                "end": "July 23 2020, 23:59",
+                "name": "Period",
+                "start": "August 2 2020, 0:00",
+                "end": "August 8 2020, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -374,17 +524,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "900 Days Celebration Login Bonus",
-            "900日記念ログインボーナス",
-            "Log in on 10 days for up to 300 Gems"
+            "Etowaria's Summer Vacation 2020 Login Bonus",
+            "2020エトワリアの夏休みログインボーナス・前半",
+            "Log in on 10 days for up to 200 Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
-                name: "Period",
-                "start": "May 28 2020, 17:00",
-                "end": "June 10 2020, 23:59"
+                name: "First Half",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 23:59"
             }
         ]
     },
@@ -408,16 +558,38 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Daily Quests Half Stamina Campaign",
-            "曜日クエストスタミナ半減キャンペーン",
+            "#KiraFan Summer Vacation Twitter Campaign",
+            "Twitter連動企画！#きらファン夏休み キャンペーン",
+            "Retweet and Like Tweets, get Stamps, exchange for Waku Waku Summon Tickets"
+        ],
+        image: "match",
+        column: 2,
+        timers: [
+            {
+                name: "Campaign Period",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59"
+            },
+            {
+                name: "Tickets Expiration",
+                "start": "July 29 2020, 17:00",
+                "end": "August 19 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Main Quest Half Stamina Campaign",
+            "メインクエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "January 20 2020, 0:00",
-                "end": "January 30 2020, 13:59"
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59"
             }
         ]
     },
@@ -463,34 +635,42 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Hinamatsuri Room Decorations",
-            "ヒナ祭り限定のルームアイテム"
+            "Limited Past Summer Room Decorations",
+            "夏限定のルームアイテム"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                start: "February 28 2020, 17:00",
-                end: "March 13 2020, 13:59"
+                "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "Kirara's Birthday Celebration Sale",
-            "きららお誕生日記念セール",
-            "Purchase a Gem Set and get a Title"
+            "Summer Vacation Special Sales",
+            "夏休み限定！お得な星彩石セット販売"
         ],
-        image: "kirara",
+        image: "cork",
         column: 2,
         timers: [
-             {
-                name: "Period",
-                "start": "July 7 2020, 0:00",
-                "end": "July 9 2020, 23:59",
-                "extraPriority": 4
+            {
+                name: "Special Gem Sets",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59"
+            },
+            {
+                name: "Scorching Swimsuit 5★ Summon Special Support Set",
+                "start": "July 29 2020, 17:00",
+                "end": "August 12 2020, 15:59"
+            },
+            {
+                name: "Training Item Sets",
+                "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             }
         ]
     }
