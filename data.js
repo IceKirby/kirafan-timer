@@ -117,10 +117,12 @@ var timerData = [
             "夏休み！宿題大作戦",
             "Summer 2020 Event"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/KWilLZc.png",
             "https://i.imgur.com/4QbYAEv.png",
             "https://i.imgur.com/F2A718S.png",
+            "https://i.imgur.com/GXAqDJ8.png",
+            "https://i.imgur.com/N48Vwkp.png",
             "https://i.imgur.com/Ut2Jife.png"
         ],
         "column": 0,
@@ -229,10 +231,12 @@ var timerData = [
             "夏休み！宿題大作戦",
             "Summer 2020 Event missions"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/KWilLZc.png",
             "https://i.imgur.com/4QbYAEv.png",
             "https://i.imgur.com/F2A718S.png",
+            "https://i.imgur.com/GXAqDJ8.png",
+            "https://i.imgur.com/N48Vwkp.png",
             "https://i.imgur.com/Ut2Jife.png"
         ],
         "column": 0,
@@ -302,10 +306,12 @@ var timerData = [
             "夏休み！宿題大作戦ピックアップ召喚",
             "Summer 2020 Event summon"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/KWilLZc.png",
             "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png"
+            "https://i.imgur.com/F2A718S.png",
+            "https://i.imgur.com/GXAqDJ8.png",
+            "https://i.imgur.com/N48Vwkp.png"
         ],
         "column": 1,
         "priority": 1,
@@ -315,6 +321,11 @@ var timerData = [
                 "start": "July 29 2020, 17:00",
                 "end": "August 27 2020, 15:59",
                 "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Youko [Swimsuit], 5* Haruka [Swimsuit]",
+                "start": "August 3 2020, 0:00",
+                "end": "August 27 2020, 15:59"
             }
         ]
     },
@@ -627,6 +638,50 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "July 4 2020, 0:00",
                 end: "July 31 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "August Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/uTmIULA.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "August 1 2020, 0:00",
+                end: "August 2 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "August 8 2020, 0:00",
+                end: "August 9 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "August 15 2020, 0:00",
+                end: "August 16 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "August 22 2020, 0:00",
+                end: "August 23 2020, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "August 29 2020, 0:00",
+                end: "August 30 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "August 1 2020, 0:00",
+                end: "September 4 2020, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
             }
