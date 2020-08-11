@@ -33,79 +33,53 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Event",
         "title": [
-            "Chaos! Etowaria Doujinshi Convention!",
-            "大騒動！エトワリア同人誌即売会",
-            "Doujinshi Event"
+            "Summer Vacation Project: Ultimate Quiz",
+            "夏休み企画アルティメットクイズ",
+            "Summer 2020 Event 2"
         ],
         "image": [
-            "https://i.imgur.com/sxQnfBK.png",
-            "https://i.imgur.com/81nYzue.png"
+            "https://i.imgur.com/k7GMqzq.png",
+            "https://i.imgur.com/JOlXlY5.png",
+            "https://i.imgur.com/Dqgiqud.png",
+            "https://i.imgur.com/2yKdoO9.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "July 16 2020, 17:00",
-                "end": "July 29 2020, 15:59",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59",
                 "markers": {
-                    "Extra Chapter 1": "July 23 2020, 0:00",
-                    "Extra Chapter 2": "July 24 2020, 0:00",
-                    "Extra Chapter 3": "July 25 2020, 0:00",
-                    "Extra Chapter 4": "July 26 2020, 0:00"
+                    "Extra Chapter 1": "August 22 2020, 0:00",
+                    "Extra Chapter 2": "August 23 2020, 0:00",
+                    "Extra Chapter 3": "August 24 2020, 0:00",
+                    "Extra Chapter 4": "August 25 2020, 0:00"
                 },
                 "extraPriority": 4
             },
             {
                 "name": "Boss Quest",
-                "start": "July 18 2020, 17:00",
-                "end": "July 29 2020, 15:59"
+                "start": "August 14 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             },
             {
                 "name": "EX Quest",
-                "start": "July 21 2020, 17:00",
-                "end": "July 29 2020, 15:59"
+                "start": "August 19 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             },
             {
-                "name": "Event Shop",
-                "start": "July 16 2020, 17:00",
-                "end": "August 5 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Etowaria Summer One-Shots 2020",
-            "エトワリア夏の一幕2020",
-            "Summer 2020 Mini-Event"
-        ],
-        "image": [
-            "https://i.imgur.com/HjBxxvM.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Story Chapters",
-                "start": "July 23 2020, 0:00",
-                "end": "July 29 2020, 15:59",
-                "markers": {
-                    "Chapter 2": "July 24 2020, 0:00",
-                    "Chapter 3": "July 25 2020, 0:00",
-                    "Chapter 4": "July 26 2020, 0:00",
-                    "Chapter 5": "July 27 2020, 0:00",
-                    "Chapter 6": "July 28 2020, 0:00",
-                },
-                "extraPriority": 3
+                "name": "Super EX Quest",
+                "start": "August 19 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             },
             {
-                "name": "Melee Quest",
-                "start": "July 23 2020, 0:00",
-                "end": "July 29 2020, 15:59"
+                "name": "Mystery Treasure Chest & Event Shop",
+                "start": "August 12 2020, 17:00",
+                "end": "September 3 2020, 13:59"
             }
         ]
     },
@@ -156,70 +130,28 @@ var timerData = [
             }
         ]
     },
-    {
+     {
         "type": "Mission",
         "title": [
-            "Slow Tamers Missions",
-            "スロウテイマーズ",
-            "Slow Start Author Quest missions"
+            "Summer Vacation Project: Ultimate Quiz Missions",
+            "夏休み企画アルティメットクイズ",
+            "Summer 2020 Event 2 missions"
         ],
         "image": [
-            "https://i.imgur.com/jNx7ZWQ.png",
-            "https://i.imgur.com/gDDud3k.png",
-            "https://i.imgur.com/MJjPOAQ.png"
+            "https://i.imgur.com/k7GMqzq.png",
+            "https://i.imgur.com/JOlXlY5.png",
+            "https://i.imgur.com/Dqgiqud.png",
+            "https://i.imgur.com/2yKdoO9.png"
         ],
         "column": 0,
         "priority": 1,
         "timers": [
             {
                 "name": "Missions",
-                "start": "July 9 2020, 17:00",
-                "end": "July 23 2020, 23:59",
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Chaos! Etowaria Doujinshi Convention! Missions",
-            "大騒動！エトワリア同人誌即売会",
-            "Doujinshi Event missions"
-        ],
-        "image": [
-            "https://i.imgur.com/sxQnfBK.png",
-            "https://i.imgur.com/81nYzue.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "July 16 2020, 17:00",
-                "end": "July 29 2020, 23:59",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Etowaria Summer One-Shots 2020 Missions",
-            "エトワリア夏の一幕2020",
-            "Summer 2020 Mini-Event Missions"
-        ],
-        "image": [
-            "https://i.imgur.com/HjBxxvM.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "July 23 2020, 0:00",
-                "end": "July 29 2020, 23:59",
-                "extraPriority": 1
             }
         ]
     },
@@ -253,64 +185,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Chaos! Etowaria Doujinshi Convention! Summon",
-            "大騒動！エトワリア同人誌即売会ピックアップ召喚",
-            "Doujinshi Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/sxQnfBK.png",
-            "https://i.imgur.com/81nYzue.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Miu Side: Featuring 5* Amano Miu, 4* Amano Miu",
-                "start": "July 16 2020, 17:00",
-                "end": "July 29 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Yumine Side: Featuring 5* Fuda Yumine, 4* Fuda Yumine",
-                "start": "July 16 2020, 17:00",
-                "end": "July 29 2020, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Etowaria Summer One-Shots 2020 Daily Summon",
-            "エトワリア夏の一幕2020日替わりピックアップ召喚",
-            "A different banner each day"
-        ],
-        "image": [
-            "https://i.imgur.com/HjBxxvM.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 23 2020, 0:00",
-                "end": "July 28 2020, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Summer Vacation! Homework Operation Limited-time Summon",
-            "夏休み！宿題大作戦ピックアップ召喚",
-            "Summer 2020 Event summon"
+            "Swimsuit 2020 Limited-time Summon",
+            "期間限定2020水着キャラクターピックアップ召喚",
+            "Summer 2020 summon"
         ],
          "image": [
             "https://i.imgur.com/KWilLZc.png",
             "https://i.imgur.com/4QbYAEv.png",
             "https://i.imgur.com/F2A718S.png",
             "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png"
+            "https://i.imgur.com/N48Vwkp.png",
+            "https://i.imgur.com/k7GMqzq.png",
+            "https://i.imgur.com/JOlXlY5.png",
+            "https://i.imgur.com/Dqgiqud.png"
         ],
         "column": 1,
         "priority": 1,
@@ -324,6 +211,11 @@ var timerData = [
             {
                 "name": "Part 2: Featuring 5* Youko [Swimsuit], 5* Haruka [Swimsuit]",
                 "start": "August 3 2020, 0:00",
+                "end": "August 27 2020, 15:59"
+            },
+            {
+                "name": "Part 3: Featuring 5* Koyume [Swimsuit], 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
+                "start": "August 12 2020, 17:00",
                 "end": "August 27 2020, 15:59"
             }
         ]
@@ -362,6 +254,37 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Swimsuit 2019 Limited-time Step-up Summon",
+            "期間限定2019水着復刻 おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step",
+            "Up to 4 steps for free"
+        ],
+        "image": ["clea"],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Kurumi, 5* Nene [Swimsuit], 5* Maika [Swimsuit], 5* Aoi [Swimsuit], 5* Hana [Swimsuit], 5* Kaos [Swimsuit], 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Free 10x Summon (once per day)",
+                "start": "August 12 2020, 17:00",
+                "end": "August 15 2020, 23:59",
+                "extraPriority": 1
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "August 12 2020, 17:00",
+                "end": "September 3 2020, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "2018 & 2019 Swimsuit Choosable 5* Summon",
             "2018年＆2019年の水着★5キャラが選べる！有償限定10回召喚",
             "600 Paid Gems for a 10x + Choosable Past 5* Swimsuit Summon Ticket"
@@ -373,117 +296,21 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Summon Period",
+                "name": "Summon Period 1",
                 "start": "July 29 2020, 17:00",
                 "end": "August 12 2020, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Summon Period 2",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59",
                 "extraPriority": 4
             },
             {
                 name: "Ticket Expiration",
                 "start": "July 29 2020, 17:00",
                 "end": "September 3 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Blend-S Limited-time Step-up Summon",
-            "ブレンド・S 期間限定おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "https://i.imgur.com/1OpWxtQ.png",
-            "https://i.imgur.com/wLsnIbm.png",
-            "https://i.imgur.com/NL4VZlo.png",
-            "https://i.imgur.com/JNETw7X.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Maika [Swimsuit], 5* Kaho [New Year], 5* Hoshikawa Mafuyu, 5* Hideri [Doll's Festival], 4* Maika [Doll's Festival]",
-                "start": "July 24 2020, 17:00",
-                "end": "July 29 2020, 15:59",
-                "info": "Also featuring 3* and 4* characters from Blend-S",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "July 24 2020, 17:00",
-                end: "August 5 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Limited-time Summon",
-            "きららファンタジア期間限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/cmyDxBN.png",
-            "https://i.imgur.com/qDldUVh.png",
-            "https://i.imgur.com/21q85KU.png",
-            "https://i.imgur.com/xaIZaj8.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Archive, 5* Cesame, 5* Ginger, 5* Fennel",
-                "start": "July 17 2020, 17:00",
-                "end": "July 24 2020, 16:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yumekui Merry Limited-time Step-up Summon",
-            "夢喰いメリー 期間限定おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Merry [Valentine], 5* Isana [Doll's Festival], 5* Engi Threepiece",
-                "start": "July 29 2020, 17:00",
-                "end": "August 2 2020, 16:59",
-                "info": "Also featuring 3* and 4* characters from Yumekui Merry",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "July 29 2020, 17:00",
-                end: "August 9 2020, 23:59"
-            }
-        ]
-    },
-     {
-        "type": "Gacha",
-        "title": [
-            "Stella no Mahou Limited-time Summon",
-            "ステラのまほう期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/CldfjiV.png",
-            "https://i.imgur.com/LXi1Day.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Tamaki [Sports Festival], 5* Shiina [Valentine], 5* Seki Ayame, 5* Iketani Nono, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
-                "start": "July 17 2020, 17:00",
-                "end": "July 24 2020, 16:59",
-                "info": "Also featuring 3* and 4* characters from Stella no Mahou",
-                "extraPriority": 4
             }
         ]
     },
@@ -535,8 +362,8 @@ var timerData = [
         type: "Other",
         title: [
             "Etowaria's Summer Vacation 2020 Login Bonus",
-            "2020エトワリアの夏休みログインボーナス・前半",
-            "Log in on 10 days for up to 200 Gems"
+            "2020エトワリアの夏休みログインボーナス",
+            "Log in on 10 days for up to 200 Gems on each half"
         ],
         image: "lamp",
         column: 2,
@@ -545,6 +372,11 @@ var timerData = [
                 name: "First Half",
                 "start": "July 29 2020, 17:00",
                 "end": "August 12 2020, 23:59"
+            },
+            {
+                name: "Second Half",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 23:59"
             }
         ]
     },
@@ -604,41 +436,18 @@ var timerData = [
         ]
     },
     {
-        type: "WeekendBoss",
+        type: "Other",
         title: [
-            "July Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
+            "Author Quest Half Stamina Campaign",
+            "作家クエストスタミナ半減キャンペーン",
         ],
-        image: "https://i.imgur.com/FWWTNY0.png",
+        image: "match",
         column: 2,
         timers: [
             {
-                name: "Weekend 1",
-                start: "July 4 2020, 0:00",
-                end: "July 5 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "July 11 2020, 0:00",
-                end: "July 12 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "July 18 2020, 0:00",
-                end: "July 19 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "July 25 2020, 0:00",
-                end: "July 26 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "July 4 2020, 0:00",
-                end: "July 31 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
+                name: "Period",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             }
         ]
     },
@@ -712,9 +521,14 @@ var timerData = [
         column: 2,
         timers: [
             {
-                name: "Special Gem Sets",
+                name: "Special Gem Sets - Part 1",
                 "start": "July 29 2020, 17:00",
                 "end": "August 12 2020, 15:59"
+            },
+            {
+                name: "Special Gem Sets - Part 2",
+                "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59"
             },
             {
                 name: "Scorching Swimsuit 5★ Summon Special Support Set",
@@ -724,6 +538,11 @@ var timerData = [
             {
                 name: "Training Item Sets",
                 "start": "July 29 2020, 17:00",
+                "end": "August 27 2020, 15:59"
+            },
+            {
+                name: "Weapon Evolution Item Sets",
+                "start": "August 12 2020, 17:00",
                 "end": "August 27 2020, 15:59"
             }
         ]
