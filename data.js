@@ -44,6 +44,8 @@ var timerData = [
             "https://i.imgur.com/k7GMqzq.png",
             "https://i.imgur.com/JOlXlY5.png",
             "https://i.imgur.com/Dqgiqud.png",
+            "https://i.imgur.com/BV6J36X.png",
+            "https://i.imgur.com/kPZWUB7.png",
             "https://i.imgur.com/2yKdoO9.png"
         ],
         "column": 0,
@@ -141,6 +143,8 @@ var timerData = [
             "https://i.imgur.com/k7GMqzq.png",
             "https://i.imgur.com/JOlXlY5.png",
             "https://i.imgur.com/Dqgiqud.png",
+            "https://i.imgur.com/BV6J36X.png",
+            "https://i.imgur.com/kPZWUB7.png",
             "https://i.imgur.com/2yKdoO9.png"
         ],
         "column": 0,
@@ -197,7 +201,9 @@ var timerData = [
             "https://i.imgur.com/N48Vwkp.png",
             "https://i.imgur.com/k7GMqzq.png",
             "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png"
+            "https://i.imgur.com/Dqgiqud.png",
+            "https://i.imgur.com/BV6J36X.png",
+            "https://i.imgur.com/kPZWUB7.png"
         ],
         "column": 1,
         "priority": 1,
@@ -216,6 +222,11 @@ var timerData = [
             {
                 "name": "Part 3: Featuring 5* Koyume [Swimsuit], 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
                 "start": "August 12 2020, 17:00",
+                "end": "August 27 2020, 15:59"
+            },
+            {
+                "name": "Part 4: Featuring 5* Yuuko [Swimsuit], 5* Mikan [Swimsuit]",
+                "start": "August 17 2020, 0:00",
                 "end": "August 27 2020, 15:59"
             }
         ]
