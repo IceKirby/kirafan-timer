@@ -347,8 +347,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Manga Time Kirara Exhibition in Niigata Celebration Summon - First Half",
-            "きらら展in新潟記念期間限定★5確定チケット付き！有償限定10回召喚・前半",
+            "Manga Time Kirara Exhibition in Niigata Celebration Summon - Second Half",
+            "きらら展in新潟記念期間限定★5確定チケット付き！有償限定10回召喚・後半",
             "400 Paid Gems for a 10x Summon + Random Limited-time 5* Summon Ticket"
         ],
         "image": "clea",
@@ -357,15 +357,15 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period: Featuring Limited-time characters from specific series",
-                start: "July 4 2020, 0:00",
-                end: "July 10 2020, 23:59",
+                start: "August 22 2020, 0:00",
+                end: "August 28 2020, 23:59",
                 extraPriority: 4,
-                info: "Limited-time characters from Hidamari Sketch, Yuyushiki, A-Channel, NEW GAME!, Kill me Baby, Blend-S, Slow Start, K-ON!, Anima Yell! and Machikado Mazoku"
+                info: "Limited-time characters from Kiniro Mosaic, Gakkou Gurashi!, Stella no Mahou, Urara Meirochou, Sakura Trick, Yuru Camp△, Hanayamata, Comic Girls, Anne Happy♪, Harukana Receive, Gochuumon wa Usagi Desu Ka?, Koufuku Graffiti and Kirara Fantasia"
             },
             {
                 name: "Ticket Expiration",
-                start: "July 4 2020, 0:00",
-                end: "July 17 2020, 23:59"
+                start: "August 22 2020, 0:00",
+                end: "September 4 2020, 23:59"
             }
         ]
     },
