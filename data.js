@@ -19,7 +19,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation"
+            "Summon Renovation",
+            "Version 2.2.3 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -27,8 +28,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "August 12 2020, 16:00",
-                end: "August 12 2020, 17:00",
+                start: "August 27 2020, 16:00",
+                end: "August 27 2020, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -132,6 +133,51 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Event",
+        "title": [
+            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates-",
+            "バトルオブパイレーツ -囚われのチアと水着海賊-",
+            "Harukana Receive x Anima Yell Event"
+        ],
+        "image": [
+            "https://i.imgur.com/hWSBzTq.png",
+            "https://i.imgur.com/3uoHNm8.png",
+            "https://i.imgur.com/LBqs8nS.png",
+            "https://i.imgur.com/YLbbmH5.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "August 27 2020, 17:00",
+                "end": "September 10 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "September 5 2020, 0:00",
+                    "Extra Chapter 2": "September 6 2020, 0:00",
+                    "Extra Chapter 3": "September 7 2020, 0:00",
+                    "Extra Chapter 4": "September 8 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "August 29 2020, 17:00",
+                "end": "September 10 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "September 1 2020, 17:00",
+                "end": "September 10 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 27 2020, 17:00",
+                "end": "September 17 2020, 13:59"
+            }
+        ]
+    },
      {
         "type": "Mission",
         "title": [
@@ -186,6 +232,31 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Mission",
+        "title": [
+            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Missions",
+            "バトルオブパイレーツ -囚われのチアと水着海賊-",
+            "Harukana Receive x Anima Yell Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/hWSBzTq.png",
+            "https://i.imgur.com/3uoHNm8.png",
+            "https://i.imgur.com/LBqs8nS.png",
+            "https://i.imgur.com/YLbbmH5.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "August 27 2020, 17:00",
+                "end": "September 10 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
@@ -228,6 +299,35 @@ var timerData = [
                 "name": "Part 4: Featuring 5* Yuuko [Swimsuit], 5* Mikan [Swimsuit]",
                 "start": "August 17 2020, 0:00",
                 "end": "August 27 2020, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Summon",
+            "バトルオブパイレーツ -囚われのチアと水着海賊-ピックアップ召喚",
+            "Harukana Receive x Anima Yell Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/hWSBzTq.png",
+            "https://i.imgur.com/3uoHNm8.png",
+            "https://i.imgur.com/LBqs8nS.png",
+            "https://i.imgur.com/YLbbmH5.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Narumi side: Featuring 5* Tooi Narumi, 4* Tachibana Ayasa",
+                "start": "August 27 2020, 17:00",
+                "end": "September 10 2020, 15:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Uki side: Featuring 5* Sawatari Uki, 4* Sawatari Uki, 4* Inaba Towa",
+                "start": "August 27 2020, 17:00",
+                "end": "September 10 2020, 15:59"
             }
         ]
     },
