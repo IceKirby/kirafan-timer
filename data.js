@@ -260,51 +260,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2020 Limited-time Summon",
-            "期間限定2020水着キャラクターピックアップ召喚",
-            "Summer 2020 summon"
-        ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5* Yuno [Swimsuit], 5* Yukari [Swimsuit], 5* Futaba [Swimsuit]",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Youko [Swimsuit], 5* Haruka [Swimsuit]",
-                "start": "August 3 2020, 0:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Part 3: Featuring 5* Koyume [Swimsuit], 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Part 4: Featuring 5* Yuuko [Swimsuit], 5* Mikan [Swimsuit]",
-                "start": "August 17 2020, 0:00",
-                "end": "August 27 2020, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Summon",
             "バトルオブパイレーツ -囚われのチアと水着海賊-ピックアップ召喚",
             "Harukana Receive x Anima Yell Event summon"
@@ -331,34 +286,75 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Gacha",
+        "title": [
+            "Harukana Receive & Anima Yell! Limited-time Summon",
+            "はるかなレシーブ＆アニマエール！期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/qZWYG4K.png",
+            "https://i.imgur.com/qgj4X5a.png",
+            "https://i.imgur.com/03XD0xi.png",
+            "https://i.imgur.com/kTq8KjV.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Claire [Halloween], 5* Thomas Emily, 5* Hizume [Maid], 5* Kotetsu [Christmas]",
+                "start": "August 28 2020, 17:00",
+                "end": "September 4 2020, 16:59",
+                "info": "Also 4* characters from Harukana Receive and Anima Yell!",
+                "extraPriority": 4
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2018 Limited-time Step-up Summon",
-            "期間限定2018水着復刻 おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step",
-            "Up to 4 steps for free"
+            "Harukana Receive Choosable 5* Ticket Summon",
+            "はるかなレシーブ★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
         "image": ["clea"],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Aya [Swimsuit], 5* Yuki [Swimsuit], 5* Kou [Swimsuit], 5* Kon [Swimsuit], 5* Shizuku [Swimsuit], 5* Kaho [Swimsuit], 5* Nadeshiko [Swimsuit]",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59",
+                "name": "Summon Period",
+                "start": "August 28 2020, 17:00",
+                "end": "September 4 2020, 16:59",
                 "extraPriority": 4
             },
             {
-                "name": "Free 10x Summon (once per day)",
-                "start": "July 29 2020, 17:00",
-                "end": "August 1 2020, 23:59",
-                "extraPriority": 1
+                name: "Ticket Expiration",
+                "start": "August 28 2020, 17:00",
+                "end": "September 11 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Anima Yell! Choosable 5* Ticket Summon",
+            "アニマエール！★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": ["clea"],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "August 28 2020, 17:00",
+                "end": "September 4 2020, 16:59",
+                "extraPriority": 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "July 29 2020, 17:00",
-                end: "August 19 2020, 23:59"
+                "start": "August 28 2020, 17:00",
+                "end": "September 11 2020, 23:59"
             }
         ]
     },
@@ -505,28 +501,6 @@ var timerData = [
                 name: "Episode 1",
                 date: "April 1 2020",
                 days: 2
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "#KiraFan Summer Vacation Twitter Campaign",
-            "Twitter連動企画！#きらファン夏休み キャンペーン",
-            "Retweet and Like Tweets, get Stamps, exchange for Waku Waku Summon Tickets"
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Campaign Period",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            },
-            {
-                name: "Tickets Expiration",
-                "start": "July 29 2020, 17:00",
-                "end": "August 19 2020, 23:59"
             }
         ]
     },
