@@ -37,105 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Summer Vacation Project: Ultimate Quiz",
-            "夏休み企画アルティメットクイズ",
-            "Summer 2020 Event 2"
-        ],
-        "image": [
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png",
-            "https://i.imgur.com/2yKdoO9.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "August 22 2020, 0:00",
-                    "Extra Chapter 2": "August 23 2020, 0:00",
-                    "Extra Chapter 3": "August 24 2020, 0:00",
-                    "Extra Chapter 4": "August 25 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "August 14 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "August 19 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Super EX Quest",
-                "start": "August 19 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Mystery Treasure Chest & Event Shop",
-                "start": "August 12 2020, 17:00",
-                "end": "September 3 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Summer Vacation! Homework Operation",
-            "夏休み！宿題大作戦",
-            "Summer 2020 Event"
-        ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/Ut2Jife.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "August 8 2020, 0:00",
-                    "Extra Chapter 2": "August 9 2020, 0:00",
-                    "Extra Chapter 3": "August 10 2020, 0:00",
-                    "Extra Chapter 4": "August 11 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "July 31 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "August 5 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "July 29 2020, 17:00",
-                "end": "September 3 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates-",
             "バトルオブパイレーツ -囚われのチアと水着海賊-",
             "Harukana Receive x Anima Yell Event"
@@ -629,7 +530,7 @@ var timerData = [
                 "end": "September 18 2020, 23:59"
             },
             {
-                name: "Special Item Set,
+                name: "Special Item Set",
                 "start": "September 5 2020, 0:00",
                 "end": "September 18 2020, 23:59"
             }
