@@ -181,60 +181,6 @@ var timerData = [
      {
         "type": "Mission",
         "title": [
-            "Summer Vacation Project: Ultimate Quiz Missions",
-            "夏休み企画アルティメットクイズ",
-            "Summer 2020 Event 2 missions"
-        ],
-        "image": [
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png",
-            "https://i.imgur.com/2yKdoO9.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Summer Vacation! Homework Operation Missions",
-            "夏休み！宿題大作戦",
-            "Summer 2020 Event missions"
-        ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/Ut2Jife.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
-            }
-        ]
-    },
-     {
-        "type": "Mission",
-        "title": [
             "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Missions",
             "バトルオブパイレーツ -囚われのチアと水着海賊-",
             "Harukana Receive x Anima Yell Event missions"
@@ -424,6 +370,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "1000  Days Celebration 10x Random 5* Summon Ticket",
+            "★5確定チケット引換券10枚付き！有償限定10回召喚",
+            "1000 Paid Gems for a 10x Summon + 10x Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                "start": "September 5 2020, 0:00",
+                "end": "September 18 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "September 5 2020, 0:00",
+                "end": "September 25 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "1000  Days Celebration Choosable 5* Summon Ticket",
+            "リリース1000日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                "start": "September 5 2020, 0:00",
+                "end": "September 18 2020, 23:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "September 5 2020, 0:00",
+                "end": "September 25 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Kira-Kira Summon",
             "1日1回きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -468,22 +462,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Etowaria's Summer Vacation 2020 Login Bonus",
-            "2020エトワリアの夏休みログインボーナス",
-            "Log in on 10 days for up to 200 Gems on each half"
+            "1000 Days Celebration Login Bonus",
+            "1000日記念ログインボーナス",
+            "Log in on 10 days for up to 300 Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
-                name: "First Half",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 23:59"
-            },
-            {
-                name: "Second Half",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 23:59"
+                name: "Period",
+                "start": "September 5 2020, 0:00",
+                "end": "September 18 2020, 23:59"
             }
         ]
     },
@@ -523,16 +512,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Author Quest Half Stamina Campaign",
-            "作家クエストスタミナ半減キャンペーン",
+            "Main Quest Chapters 1~7 (Hard Mode) Half Stamina Campaign",
+            "1～7章ハードモード消費スタミナ1/2",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                "start": "September 10 2020, 17:00",
+                "end": "September 18 2020, 23:59"
             }
         ]
     },
@@ -628,36 +617,21 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Summer Vacation Special Sales",
-            "夏休み限定！お得な星彩石セット販売"
+            "1000 Days Celebration Special Sales",
+            "1000日記念セール"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "Special Gem Sets - Part 1",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
+                name: "Special Gem Sets",
+                "start": "September 5 2020, 0:00",
+                "end": "September 18 2020, 23:59"
             },
             {
-                name: "Special Gem Sets - Part 2",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                name: "Scorching Swimsuit 5★ Summon Special Support Set",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            },
-            {
-                name: "Training Item Sets",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                name: "Weapon Evolution Item Sets",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                name: "Special Item Set,
+                "start": "September 5 2020, 0:00",
+                "end": "September 18 2020, 23:59"
             }
         ]
     }
