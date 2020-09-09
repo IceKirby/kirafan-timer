@@ -633,5 +633,21 @@ var timerData = [
                 "end": "September 18 2020, 23:59"
             }
         ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Acchi Kocchi Celebration Gem Set",
+            "あっちこっち参戦記念！星彩石2,000個セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Set",
+                "start": "September 10 2020, 17:00",
+                "end": "September 29 2020, 15:59"
+            }
+        ]
     }
 ];
