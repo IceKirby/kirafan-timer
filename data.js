@@ -79,6 +79,51 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Event",
+        "title": [
+            "Operation: Love Love Travel",
+            "ラブラブトラベル大作戦",
+            "Acchi Kocchi Event"
+        ],
+        "image": [
+            "https://i.imgur.com/I2ZWBH2.png",
+            "https://i.imgur.com/mKTstzs.png",
+            "https://i.imgur.com/6HebhMI.png",
+            "https://i.imgur.com/0AnwVLl.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "September 10 2020, 17:00",
+                "end": "September 29 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "September 19 2020, 0:00",
+                    "Extra Chapter 2": "September 20 2020, 0:00",
+                    "Extra Chapter 3": "September 21 2020, 0:00",
+                    "Extra Chapter 4": "September 22 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "September 12 2020, 17:00",
+                "end": "September 29 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "September 16 2020, 17:00",
+                "end": "September 29 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 10 2020, 17:00",
+                "end": "October 6 2020, 13:59"
+            }
+        ]
+    },
      {
         "type": "Mission",
         "title": [
@@ -99,6 +144,31 @@ var timerData = [
                 "name": "Missions",
                 "start": "August 27 2020, 17:00",
                 "end": "September 10 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Operation: Love Love Travel Missions",
+            "ラブラブトラベル大作戦",
+            "Acchi Kocchi Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/I2ZWBH2.png",
+            "https://i.imgur.com/mKTstzs.png",
+            "https://i.imgur.com/6HebhMI.png",
+            "https://i.imgur.com/0AnwVLl.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "September 10 2020, 17:00",
+                "end": "September 29 2020, 23:59",
                 "markers": {},
                 "extraPriority": 2
             }
@@ -130,6 +200,34 @@ var timerData = [
                 "name": "Uki side: Featuring 5* Sawatari Uki, 4* Sawatari Uki, 4* Inaba Towa",
                 "start": "August 27 2020, 17:00",
                 "end": "September 10 2020, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Operation: Love Love Travel Summon",
+            "ラブラブトラベル大作戦ピックアップ召喚",
+            "Acchi Kocchi Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/I2ZWBH2.png",
+            "https://i.imgur.com/mKTstzs.png",
+            "https://i.imgur.com/6HebhMI.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First Half: Featuring 5* Miniwa Tsumiki, 4* Haruno Hime",
+                "start": "September 10 2020, 17:00",
+                "end": "September 29 2020, 15:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Second Half: Featuring 5* Tokura Eiko, 4* Tokura Eiko",
+                "start": "September 12 2020, 0:00",
+                "end": "September 29 2020, 15:59"
             }
         ]
     },
