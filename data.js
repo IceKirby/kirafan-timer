@@ -234,6 +234,30 @@ var timerData = [
      {
         "type": "Gacha",
         "title": [
+            "Slow Start Limited-time Summon",
+            "スロウスタート期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/q2ysJH4.png",
+            "https://i.imgur.com/jM0WuhZ.png",
+            "https://i.imgur.com/4PM36MN.png",
+            "https://i.imgur.com/UXVKI0Z.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Ichinose Hana (Sun Knight), 5* Momochi Tamate (Sun Alchemist), 5* Shion [Doll's Festival], 5* Enami Kiyose, 4* Eiko [Swimsuit]",
+                "start": "September 12 2020, 17:00",
+                "end": "September 18 2020, 16:59",
+                "info": "Also 3* and 4* characters from Slow Start",
+                "extraPriority": 4
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
             "Harukana Receive & Anima Yell! Limited-time Summon",
             "はるかなレシーブ＆アニマエール！期間限定特別セレクション召喚"
         ],
