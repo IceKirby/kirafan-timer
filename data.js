@@ -37,51 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates-",
-            "バトルオブパイレーツ -囚われのチアと水着海賊-",
-            "Harukana Receive x Anima Yell Event"
-        ],
-        "image": [
-            "https://i.imgur.com/hWSBzTq.png",
-            "https://i.imgur.com/3uoHNm8.png",
-            "https://i.imgur.com/LBqs8nS.png",
-            "https://i.imgur.com/YLbbmH5.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "August 27 2020, 17:00",
-                "end": "September 10 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "September 5 2020, 0:00",
-                    "Extra Chapter 2": "September 6 2020, 0:00",
-                    "Extra Chapter 3": "September 7 2020, 0:00",
-                    "Extra Chapter 4": "September 8 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "August 29 2020, 17:00",
-                "end": "September 10 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "September 1 2020, 17:00",
-                "end": "September 10 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "August 27 2020, 17:00",
-                "end": "September 17 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Operation: Love Love Travel",
             "ラブラブトラベル大作戦",
             "Acchi Kocchi Event"
@@ -124,28 +79,39 @@ var timerData = [
             }
         ]
     },
-     {
-        "type": "Mission",
+    {
+        "type": "Event",
         "title": [
-            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Missions",
-            "バトルオブパイレーツ -囚われのチアと水着海賊-",
-            "Harukana Receive x Anima Yell Event missions"
+            "Cardamom's Stile Warrior Training",
+            "カルダモンのスティーレ武者修行",
+            "Cardamom Mini-Event"
         ],
         "image": [
-            "https://i.imgur.com/hWSBzTq.png",
-            "https://i.imgur.com/3uoHNm8.png",
-            "https://i.imgur.com/LBqs8nS.png",
-            "https://i.imgur.com/YLbbmH5.png"
+            "https://i.imgur.com/k7DTh8Y.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
-                "name": "Missions",
-                "start": "August 27 2020, 17:00",
-                "end": "September 10 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "name": "Main Scenario",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
+                "markers": {
+                    "Chapter 2": "September 20 2020, 0:00",
+                    "Chapter 3": "September 21 2020, 0:00",
+                    "Chapter 4": "September 22 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 19 2020, 0:00",
+                "end": "October 6 2020, 13:59"
             }
         ]
     },
@@ -175,31 +141,24 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Battle of Pirates -The Imprisoned Cheer and the Swimsuit Pirates- Summon",
-            "バトルオブパイレーツ -囚われのチアと水着海賊-ピックアップ召喚",
-            "Harukana Receive x Anima Yell Event summon"
+            "Cardamom's Stile Warrior Training Missions",
+            "カルダモンのスティーレ武者修行",
+            "Cardamom Mini-Event missions"
         ],
         "image": [
-            "https://i.imgur.com/hWSBzTq.png",
-            "https://i.imgur.com/3uoHNm8.png",
-            "https://i.imgur.com/LBqs8nS.png",
-            "https://i.imgur.com/YLbbmH5.png"
+            "https://i.imgur.com/k7DTh8Y.png"
         ],
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
-                "name": "Narumi side: Featuring 5* Tooi Narumi, 4* Tachibana Ayasa",
-                "start": "August 27 2020, 17:00",
-                "end": "September 10 2020, 15:59",
-                "extraPriority": 6
-            },
-            {
-                "name": "Uki side: Featuring 5* Sawatari Uki, 4* Sawatari Uki, 4* Inaba Towa",
-                "start": "August 27 2020, 17:00",
-                "end": "September 10 2020, 15:59"
+                "name": "Missions",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
+                "markers": {},
+                "extraPriority": 1
             }
         ]
     },
@@ -231,6 +190,27 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Gacha",
+        "title": [
+            "Cardamom's Stile Warrior Training Summon",
+            "カルダモンのスティーレ武者修行ピックアップ召喚",
+            "Cardamom Mini-Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/k7DTh8Y.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Cardamom",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
+                "extraPriority": 5
+            }
+        ]
+    },
      {
         "type": "Gacha",
         "title": [
@@ -252,141 +232,6 @@ var timerData = [
                 "end": "September 18 2020, 16:59",
                 "info": "Also 3* and 4* characters from Slow Start",
                 "extraPriority": 4
-            }
-        ]
-    },
-     {
-        "type": "Gacha",
-        "title": [
-            "Harukana Receive & Anima Yell! Limited-time Summon",
-            "はるかなレシーブ＆アニマエール！期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/qZWYG4K.png",
-            "https://i.imgur.com/qgj4X5a.png",
-            "https://i.imgur.com/03XD0xi.png",
-            "https://i.imgur.com/kTq8KjV.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Claire [Halloween], 5* Thomas Emily, 5* Hizume [Maid], 5* Kotetsu [Christmas]",
-                "start": "August 28 2020, 17:00",
-                "end": "September 4 2020, 16:59",
-                "info": "Also 4* characters from Harukana Receive and Anima Yell!",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Harukana Receive Choosable 5* Ticket Summon",
-            "はるかなレシーブ★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": ["clea"],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "August 28 2020, 17:00",
-                "end": "September 4 2020, 16:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "August 28 2020, 17:00",
-                "end": "September 11 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Anima Yell! Choosable 5* Ticket Summon",
-            "アニマエール！★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": ["clea"],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "August 28 2020, 17:00",
-                "end": "September 4 2020, 16:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "August 28 2020, 17:00",
-                "end": "September 11 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Swimsuit 2019 Limited-time Step-up Summon",
-            "期間限定2019水着復刻 おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step",
-            "Up to 4 steps for free"
-        ],
-        "image": ["clea"],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Kurumi, 5* Nene [Swimsuit], 5* Maika [Swimsuit], 5* Aoi [Swimsuit], 5* Hana [Swimsuit], 5* Kaos [Swimsuit], 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Free 10x Summon (once per day)",
-                "start": "August 12 2020, 17:00",
-                "end": "August 15 2020, 23:59",
-                "extraPriority": 1
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "August 12 2020, 17:00",
-                "end": "September 3 2020, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "2018 & 2019 Swimsuit Choosable 5* Summon",
-            "2018年＆2019年の水着★5キャラが選べる！有償限定10回召喚",
-            "600 Paid Gems for a 10x + Choosable Past 5* Swimsuit Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period 1",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period 2",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "July 29 2020, 17:00",
-                "end": "September 3 2020, 23:59"
             }
         ]
     },
@@ -441,8 +286,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Daily Kira-Kira Summon",
-            "1日1回きらきら召喚",
+            "Daily Kira-Kira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
         ],
         "image": "clea",
@@ -450,35 +295,10 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Period",
-                "start": "August 2 2020, 0:00",
-                "end": "August 8 2020, 23:59",
+                "name": "Includes Limited-time 4* and 5*",
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Exhibition in Niigata Celebration Summon - Second Half",
-            "きらら展in新潟記念期間限定★5確定チケット付き！有償限定10回召喚・後半",
-            "400 Paid Gems for a 10x Summon + Random Limited-time 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring Limited-time characters from specific series",
-                start: "August 22 2020, 0:00",
-                end: "August 28 2020, 23:59",
-                extraPriority: 4,
-                info: "Limited-time characters from Kiniro Mosaic, Gakkou Gurashi!, Stella no Mahou, Urara Meirochou, Sakura Trick, Yuru Camp△, Hanayamata, Comic Girls, Anne Happy♪, Harukana Receive, Gochuumon wa Usagi Desu Ka?, Koufuku Graffiti and Kirara Fantasia"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "August 22 2020, 0:00",
-                end: "September 4 2020, 23:59"
             }
         ]
     },
@@ -496,6 +316,23 @@ var timerData = [
                 name: "Period",
                 "start": "September 5 2020, 0:00",
                 "end": "September 18 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Silver Week Login Bonus",
+            "1シルバーウィークログインボーナス",
+            "Log in on 5 days for up to 100 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59"
             }
         ]
     },
@@ -519,22 +356,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Half Stamina Campaign",
-            "メインクエストスタミナ半減キャンペーン",
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Main Quest Chapters 1~7 (Hard Mode) Half Stamina Campaign",
             "1～7章ハードモード消費スタミナ1/2",
         ],
@@ -549,46 +370,18 @@ var timerData = [
         ]
     },
     {
-        type: "WeekendBoss",
+        type: "Other",
         title: [
-            "August Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
+            "Main Quest Chapters 1~8 (Normal Mode) Half Stamina Campaign",
+            "メインクエストノーマルモード1～8章スタミナ1/2",
         ],
-        image: "https://i.imgur.com/uTmIULA.png",
+        image: "match",
         column: 2,
         timers: [
             {
-                name: "Weekend 1",
-                start: "August 1 2020, 0:00",
-                end: "August 2 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "August 8 2020, 0:00",
-                end: "August 9 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "August 15 2020, 0:00",
-                end: "August 16 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "August 22 2020, 0:00",
-                end: "August 23 2020, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "August 29 2020, 0:00",
-                end: "August 30 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "August 1 2020, 0:00",
-                end: "September 4 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
+                name: "Period",
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59"
             }
         ]
     },
@@ -671,6 +464,22 @@ var timerData = [
                 name: "Special Gem Set",
                 "start": "September 10 2020, 17:00",
                 "end": "September 29 2020, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Silver Week Gem Set Sale",
+            "シルバーウィークお得な星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Set",
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59"
             }
         ]
     }
