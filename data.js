@@ -262,6 +262,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Head Priest & Seven Sages Limited-time Summon",
+            "筆頭神官＆七賢者限定★5確定チケット",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "September 19 2020, 0:00",
+                "end": "October 6 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "1000  Days Celebration Choosable 5* Summon Ticket",
             "リリース1000日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
