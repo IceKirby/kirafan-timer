@@ -116,6 +116,53 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "A Miracle Encounter and the Dream Party",
+            "キセキの出会いと夢のパーティー",
+            "Sanrio Collab Event"
+        ],
+        "image": [
+            "https://i.imgur.com/NFAvp06.png",
+            "https://i.imgur.com/nWzS6eI.png",
+            "https://i.imgur.com/4qlZQyY.png",
+            "https://i.imgur.com/UinqL2N.png",
+            "https://i.imgur.com/Ln3VdJx.png",
+            "https://i.imgur.com/LBve7Ux.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Scenario",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59",
+                "markers": {
+                    "Extra Chapter 1": "October 8 2020, 0:00",
+                    "Extra Chapter 2": "October 9 2020, 0:00",
+                    "Extra Chapter 3": "October 10 2020, 0:00",
+                    "Extra Chapter 4": "October 11 2020, 0:00"
+                },
+                "extraPriority": 4
+            },
+            {
+                "name": "Boss Quest",
+                "start": "October 2 2020, 17:00",
+                "end": "October 13 2020, 15:59"
+            },
+            {
+                "name": "EX Quest",
+                "start": "October 5 2020, 17:00",
+                "end": "October 13 2020, 15:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 29 2020, 17:00",
+                "end": "October 20 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "Operation: Love Love Travel Missions",
@@ -159,6 +206,33 @@ var timerData = [
                 "end": "September 29 2020, 15:59",
                 "markers": {},
                 "extraPriority": 1
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "A Miracle Encounter and the Dream Party Missions",
+            "キセキの出会いと夢のパーティー",
+            "Sanrio Collab Event missions"
+        ],
+        "image": [
+            "https://i.imgur.com/NFAvp06.png",
+            "https://i.imgur.com/nWzS6eI.png",
+            "https://i.imgur.com/4qlZQyY.png",
+            "https://i.imgur.com/UinqL2N.png",
+            "https://i.imgur.com/Ln3VdJx.png",
+            "https://i.imgur.com/LBve7Ux.png"
+        ],
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59",
+                "markers": {},
+                "extraPriority": 2
             }
         ]
     },
@@ -208,6 +282,42 @@ var timerData = [
                 "start": "September 19 2020, 0:00",
                 "end": "September 29 2020, 15:59",
                 "extraPriority": 5
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "A Miracle Encounter and the Dream Party Summon",
+            "キセキの出会いと夢のパーティーピックアップ召喚",
+            "Sanrio Collab Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/NFAvp06.png",
+            "https://i.imgur.com/nWzS6eI.png",
+            "https://i.imgur.com/4qlZQyY.png",
+            "https://i.imgur.com/UinqL2N.png",
+            "https://i.imgur.com/Ln3VdJx.png",
+            "https://i.imgur.com/LBve7Ux.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Alice [Cinnamoroll], 5* Yuu [Pompompurin]",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59",
+                "extraPriority": 6
+            },
+            {
+                "name": "Part 2: Featuring 5* Kamuri [My Melody], 5* Hanako [Kuromi]",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
+            },
+            {
+                "name": "Part 3: Featuring 5* Merry [Hello Kitty], 5* Sonobe [Gudetama]",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
             }
         ]
     },
