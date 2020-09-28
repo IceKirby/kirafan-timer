@@ -321,54 +321,6 @@ var timerData = [
             }
         ]
     },
-     {
-        "type": "Gacha",
-        "title": [
-            "Slow Start Limited-time Summon",
-            "スロウスタート期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/q2ysJH4.png",
-            "https://i.imgur.com/jM0WuhZ.png",
-            "https://i.imgur.com/4PM36MN.png",
-            "https://i.imgur.com/UXVKI0Z.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Ichinose Hana (Sun Knight), 5* Momochi Tamate (Sun Alchemist), 5* Shion [Doll's Festival], 5* Enami Kiyose, 4* Eiko [Swimsuit]",
-                "start": "September 12 2020, 17:00",
-                "end": "September 18 2020, 16:59",
-                "info": "Also 3* and 4* characters from Slow Start",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "1000  Days Celebration 10x Random 5* Summon Ticket",
-            "★5確定チケット引換券10枚付き！有償限定10回召喚",
-            "1000 Paid Gems for a 10x Summon + 10x Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                "start": "September 5 2020, 0:00",
-                "end": "September 18 2020, 23:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "September 5 2020, 0:00",
-                "end": "September 25 2020, 23:59"
-            }
-        ]
-    },
     {
         "type": "Gacha",
         "title": [
@@ -396,9 +348,9 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "1000  Days Celebration Choosable 5* Summon Ticket",
-            "リリース1000日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+            "Sanrio Characters Collab Step-up Summon",
+            "サンリオキャラ コラボ限定おまけ付き10回召喚",
+            "Get a Sandom Sanrio 5* Summon Ticket on 7th step"
         ],
         "image": "clea",
         "column": 1,
@@ -406,14 +358,14 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                "start": "September 5 2020, 0:00",
-                "end": "September 18 2020, 23:59",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "September 5 2020, 0:00",
-                "end": "September 25 2020, 23:59"
+                "start": "September 29 2020, 17:00",
+                "end": "October 20 2020, 23:59"
             }
         ]
     },
@@ -439,34 +391,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1000 Days Celebration Login Bonus",
-            "1000日記念ログインボーナス",
-            "Log in on 10 days for up to 300 Gems"
+            "A Miracle Encounter and the Dream Party Login Bonus",
+            "キセキの出会いと夢のパーティーログインボーナス",
+            "Log in on 10 days for up to 200 Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "September 5 2020, 0:00",
-                "end": "September 18 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Silver Week Login Bonus",
-            "1シルバーウィークログインボーナス",
-            "Log in on 5 days for up to 100 Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "September 19 2020, 0:00",
-                "end": "September 27 2020, 23:59"
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59"
             }
         ]
     },
@@ -484,22 +419,6 @@ var timerData = [
                 name: "Episode 1",
                 date: "April 1 2020",
                 days: 2
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Main Quest Chapters 1~7 (Hard Mode) Half Stamina Campaign",
-            "1～7章ハードモード消費スタミナ1/2",
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "September 10 2020, 17:00",
-                "end": "September 18 2020, 23:59"
             }
         ]
     },
@@ -567,21 +486,21 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1000 Days Celebration Special Sales",
-            "1000日記念セール"
+            "Collab Celebration Special Sales",
+            "コラボ記念セール"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
                 name: "Special Gem Sets",
-                "start": "September 5 2020, 0:00",
-                "end": "September 18 2020, 23:59"
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
             },
             {
-                name: "Special Item Set",
-                "start": "September 5 2020, 0:00",
-                "end": "September 18 2020, 23:59"
+                name: "Special Item Sets",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
             }
         ]
     },
