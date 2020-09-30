@@ -19,7 +19,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation"
+            "Summon Renovation",
+            "Version 2.2.5 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -27,8 +28,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "August 12 2020, 16:00",
-                end: "August 12 2020, 17:00",
+                start: "September 29 2020, 16:00",
+                end: "September 29 2020, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -36,300 +37,264 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Summer Vacation Project: Ultimate Quiz",
-            "夏休み企画アルティメットクイズ",
-            "Summer 2020 Event 2"
+            "Operation: Love Love Travel",
+            "ラブラブトラベル大作戦",
+            "Acchi Kocchi Event"
         ],
         "image": [
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png",
-            "https://i.imgur.com/2yKdoO9.png"
+            "https://i.imgur.com/I2ZWBH2.png",
+            "https://i.imgur.com/mKTstzs.png",
+            "https://i.imgur.com/6HebhMI.png",
+            "https://i.imgur.com/0AnwVLl.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "markers": {
-                    "Extra Chapter 1": "August 22 2020, 0:00",
-                    "Extra Chapter 2": "August 23 2020, 0:00",
-                    "Extra Chapter 3": "August 24 2020, 0:00",
-                    "Extra Chapter 4": "August 25 2020, 0:00"
-                },
+                "start": "September 10 2020, 17:00",
+                "end": "September 29 2020, 15:59",
+                "markers": [
+                    {
+                        title: "Boss Quest",
+                        time: "September 12 2020, 17:00",
+                        type: "battle"
+                    },
+                    {
+                        title: "EX Quest",
+                        time: "September 16 2020, 17:00",
+                        type: "battle"
+                    },
+                    {
+                        title: "Extra Chapter 1",
+                        time: "September 19 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 2",
+                        time: "September 20 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 3",
+                        time: "September 21 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 4",
+                        time: "September 22 2020, 0:00",
+                        type: "story"
+                    }
+                ],
                 "extraPriority": 4
             },
             {
-                "name": "Boss Quest",
-                "start": "August 14 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "August 19 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Super EX Quest",
-                "start": "August 19 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Mystery Treasure Chest & Event Shop",
-                "start": "August 12 2020, 17:00",
-                "end": "September 3 2020, 13:59"
+                "name": "Event Shop",
+                "start": "September 10 2020, 17:00",
+                "end": "October 6 2020, 13:59"
             }
         ]
     },
     {
         "type": "Event",
         "title": [
-            "Summer Vacation! Homework Operation",
-            "夏休み！宿題大作戦",
-            "Summer 2020 Event"
+            "Cardamom's Stile Warrior Training",
+            "カルダモンのスティーレ武者修行",
+            "Cardamom Mini-Event"
         ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/Ut2Jife.png"
+        "image": [
+            "https://i.imgur.com/k7DTh8Y.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
                 "name": "Main Scenario",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
                 "markers": {
-                    "Extra Chapter 1": "August 8 2020, 0:00",
-                    "Extra Chapter 2": "August 9 2020, 0:00",
-                    "Extra Chapter 3": "August 10 2020, 0:00",
-                    "Extra Chapter 4": "August 11 2020, 0:00"
+                    "Chapter 2": "September 20 2020, 0:00",
+                    "Chapter 3": "September 21 2020, 0:00",
+                    "Chapter 4": "September 22 2020, 0:00"
                 },
                 "extraPriority": 4
             },
             {
                 "name": "Boss Quest",
-                "start": "July 31 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "EX Quest",
-                "start": "August 5 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59"
             },
             {
                 "name": "Event Shop",
-                "start": "July 29 2020, 17:00",
-                "end": "September 3 2020, 13:59"
-            }
-        ]
-    },
-     {
-        "type": "Mission",
-        "title": [
-            "Summer Vacation Project: Ultimate Quiz Missions",
-            "夏休み企画アルティメットクイズ",
-            "Summer 2020 Event 2 missions"
-        ],
-        "image": [
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png",
-            "https://i.imgur.com/2yKdoO9.png"
-        ],
-        "column": 0,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "start": "September 19 2020, 0:00",
+                "end": "October 6 2020, 13:59"
             }
         ]
     },
     {
-        "type": "Mission",
+        "type": "Event",
         "title": [
-            "Summer Vacation! Homework Operation Missions",
-            "夏休み！宿題大作戦",
-            "Summer 2020 Event missions"
+            "A Miracle Encounter and the Dream Party",
+            "キセキの出会いと夢のパーティー",
+            "Sanrio Collab Event"
         ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/Ut2Jife.png"
+        "image": [
+            "https://i.imgur.com/NFAvp06.png",
+            "https://i.imgur.com/nWzS6eI.png",
+            "https://i.imgur.com/4qlZQyY.png",
+            "https://i.imgur.com/UinqL2N.png",
+            "https://i.imgur.com/Ln3VdJx.png",
+            "https://i.imgur.com/LBve7Ux.png"
         ],
         "column": 0,
-        "priority": 1,
+        "priority": 2,
         "timers": [
             {
+                "name": "Main Event",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59",
+                "markers": [
+                    {
+                        title: "Boss Quest",
+                        time: "October 2 2020, 17:00",
+                        type: "battle"
+                    },
+                    {
+                        title: "EX Quest",
+                        time: "October 5 2020, 17:00",
+                        type: "battle"
+                    },
+                    {
+                        title: "Extra Chapter 1",
+                        time: "October 8 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 2",
+                        time: "October 9 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 3",
+                        time: "October 10 2020, 0:00",
+                        type: "story"
+                    },
+                    {
+                        title: "Extra Chapter 4",
+                        time: "October 11 2020, 0:00",
+                        type: "story"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
                 "name": "Missions",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 23:59",
-                "markers": {},
-                "extraPriority": 2
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 29 2020, 17:00",
+                "end": "October 20 2020, 13:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2020 Limited-time Summon",
-            "期間限定2020水着キャラクターピックアップ召喚",
-            "Summer 2020 summon"
+            "A Miracle Encounter and the Dream Party Summon",
+            "キセキの出会いと夢のパーティーピックアップ召喚",
+            "Sanrio Collab Event summon"
         ],
-         "image": [
-            "https://i.imgur.com/KWilLZc.png",
-            "https://i.imgur.com/4QbYAEv.png",
-            "https://i.imgur.com/F2A718S.png",
-            "https://i.imgur.com/GXAqDJ8.png",
-            "https://i.imgur.com/N48Vwkp.png",
-            "https://i.imgur.com/k7GMqzq.png",
-            "https://i.imgur.com/JOlXlY5.png",
-            "https://i.imgur.com/Dqgiqud.png",
-            "https://i.imgur.com/BV6J36X.png",
-            "https://i.imgur.com/kPZWUB7.png"
+        "image": [
+            "https://i.imgur.com/NFAvp06.png",
+            "https://i.imgur.com/nWzS6eI.png",
+            "https://i.imgur.com/4qlZQyY.png",
+            "https://i.imgur.com/UinqL2N.png",
+            "https://i.imgur.com/Ln3VdJx.png",
+            "https://i.imgur.com/LBve7Ux.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* Yuno [Swimsuit], 5* Yukari [Swimsuit], 5* Futaba [Swimsuit]",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59",
+                "name": "Limited Summon",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Alice [Cinnamoroll], 5* Yuu [Pompompurin]",
+                        "time": "September 29 2020, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Kamuri [My Melody], 5* Hanako [Kuromi]",
+                        "time": "September 29 2020, 17:00"
+                    },
+                    {
+                        "title": "Part 3",
+                        "desc": "Featuring 5* Merry [Hello Kitty], 5* Sonobe [Gudetama]",
+                        "time": "September 29 2020, 17:00"
+                    }
+                ],
                 "extraPriority": 6
-            },
-            {
-                "name": "Part 2: Featuring 5* Youko [Swimsuit], 5* Haruka [Swimsuit]",
-                "start": "August 3 2020, 0:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Part 3: Featuring 5* Koyume [Swimsuit], 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                "name": "Part 4: Featuring 5* Yuuko [Swimsuit], 5* Mikan [Swimsuit]",
-                "start": "August 17 2020, 0:00",
-                "end": "August 27 2020, 15:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2018 Limited-time Step-up Summon",
-            "期間限定2018水着復刻 おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step",
-            "Up to 4 steps for free"
+            "Head Priest & Seven Sages Limited-time Summon",
+            "筆頭神官＆七賢者限定★5確定チケット",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
-        "image": ["clea"],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuzuko [Swimsuit], 5* Aya [Swimsuit], 5* Yuki [Swimsuit], 5* Kou [Swimsuit], 5* Kon [Swimsuit], 5* Shizuku [Swimsuit], 5* Kaho [Swimsuit], 5* Nadeshiko [Swimsuit]",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Free 10x Summon (once per day)",
-                "start": "July 29 2020, 17:00",
-                "end": "August 1 2020, 23:59",
-                "extraPriority": 1
+                name: "Summon Period",
+                "start": "September 19 2020, 0:00",
+                "end": "September 29 2020, 15:59",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "July 29 2020, 17:00",
-                end: "August 19 2020, 23:59"
+                "start": "September 19 2020, 0:00",
+                "end": "October 6 2020, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2019 Limited-time Step-up Summon",
-            "期間限定2019水着復刻 おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step",
-            "Up to 4 steps for free"
+            "Sanrio Characters Collab Step-up Summon",
+            "サンリオキャラ コラボ限定おまけ付き10回召喚",
+            "Get a Sandom Sanrio 5* Summon Ticket on 7th step"
         ],
-        "image": ["clea"],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Kurumi, 5* Nene [Swimsuit], 5* Maika [Swimsuit], 5* Aoi [Swimsuit], 5* Hana [Swimsuit], 5* Kaos [Swimsuit], 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Free 10x Summon (once per day)",
-                "start": "August 12 2020, 17:00",
-                "end": "August 15 2020, 23:59",
-                "extraPriority": 1
+                name: "Summon Period",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "August 12 2020, 17:00",
-                "end": "September 3 2020, 15:59"
+                "start": "September 29 2020, 17:00",
+                "end": "October 20 2020, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "2018 & 2019 Swimsuit Choosable 5* Summon",
-            "2018年＆2019年の水着★5キャラが選べる！有償限定10回召喚",
-            "600 Paid Gems for a 10x + Choosable Past 5* Swimsuit Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period 1",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period 2",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "July 29 2020, 17:00",
-                "end": "September 3 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily Kira-Kira Summon",
-            "1日1回きらきら召喚",
+            "Daily Kira-Kira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
         ],
         "image": "clea",
@@ -337,57 +302,27 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Period",
-                "start": "August 2 2020, 0:00",
-                "end": "August 8 2020, 23:59",
+                "name": "Includes Limited-time 4* and 5*",
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Exhibition in Niigata Celebration Summon - First Half",
-            "きらら展in新潟記念期間限定★5確定チケット付き！有償限定10回召喚・前半",
-            "400 Paid Gems for a 10x Summon + Random Limited-time 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period: Featuring Limited-time characters from specific series",
-                start: "July 4 2020, 0:00",
-                end: "July 10 2020, 23:59",
-                extraPriority: 4,
-                info: "Limited-time characters from Hidamari Sketch, Yuyushiki, A-Channel, NEW GAME!, Kill me Baby, Blend-S, Slow Start, K-ON!, Anima Yell! and Machikado Mazoku"
-            },
-            {
-                name: "Ticket Expiration",
-                start: "July 4 2020, 0:00",
-                end: "July 17 2020, 23:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "Etowaria's Summer Vacation 2020 Login Bonus",
-            "2020エトワリアの夏休みログインボーナス",
-            "Log in on 10 days for up to 200 Gems on each half"
+            "A Miracle Encounter and the Dream Party Login Bonus",
+            "キセキの出会いと夢のパーティーログインボーナス",
+            "Log in on 10 days for up to 200 Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
-                name: "First Half",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 23:59"
-            },
-            {
-                name: "Second Half",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 23:59"
+                name: "Period",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 23:59"
             }
         ]
     },
@@ -411,96 +346,87 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "#KiraFan Summer Vacation Twitter Campaign",
-            "Twitter連動企画！#きらファン夏休み キャンペーン",
-            "Retweet and Like Tweets, get Stamps, exchange for Waku Waku Summon Tickets"
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Campaign Period",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            },
-            {
-                name: "Tickets Expiration",
-                "start": "July 29 2020, 17:00",
-                "end": "August 19 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Main Quest Half Stamina Campaign",
-            "メインクエストスタミナ半減キャンペーン",
+            "Main Quest Chapters 1~8 (Normal Mode) Half Stamina Campaign",
+            "メインクエストノーマルモード1～8章スタミナ1/2",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Author Quest Half Stamina Campaign",
-            "作家クエストスタミナ半減キャンペーン",
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                "start": "September 19 2020, 0:00",
+                "end": "September 27 2020, 23:59"
             }
         ]
     },
     {
         type: "WeekendBoss",
         title: [
-            "August Boss Challenge",
+            "September Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
         ],
-        image: "https://i.imgur.com/uTmIULA.png",
+        image: "https://i.imgur.com/sVDXbrx.png",
         column: 2,
         timers: [
             {
                 name: "Weekend 1",
-                start: "August 1 2020, 0:00",
-                end: "August 2 2020, 23:59"
+                start: "September 5 2020, 0:00",
+                end: "September 6 2020, 23:59"
             },
             {
                 name: "Weekend 2",
-                start: "August 8 2020, 0:00",
-                end: "August 9 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "August 15 2020, 0:00",
-                end: "August 16 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "August 22 2020, 0:00",
-                end: "August 23 2020, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "August 29 2020, 0:00",
-                end: "August 30 2020, 23:59"
+                start: "September 12 2020, 0:00",
+                end: "September 13 2020, 23:59"
             },
             {
                 name: "Medal exchange period",
-                start: "August 1 2020, 0:00",
-                end: "September 4 2020, 23:59",
+                start: "September 5 2020, 0:00",
+                end: "October 2 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/moHDg7y.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "October 3 2020, 0:00",
+                end: "October 4 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "October 10 2020, 0:00",
+                end: "October 11 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "October 17 2020, 0:00",
+                end: "October 18 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "October 24 2020, 0:00",
+                end: "October 25 2020, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "October 31 2020, 0:00",
+                end: "November 1 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "October 3 2020, 0:00",
+                end: "November 6 2020, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
             }
@@ -525,36 +451,21 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Summer Vacation Special Sales",
-            "夏休み限定！お得な星彩石セット販売"
+            "Collab Celebration Special Sales",
+            "コラボ記念セール"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "Special Gem Sets - Part 1",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
+                name: "Special Gem Sets",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
             },
             {
-                name: "Special Gem Sets - Part 2",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                name: "Scorching Swimsuit 5★ Summon Special Support Set",
-                "start": "July 29 2020, 17:00",
-                "end": "August 12 2020, 15:59"
-            },
-            {
-                name: "Training Item Sets",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59"
-            },
-            {
-                name: "Weapon Evolution Item Sets",
-                "start": "August 12 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                name: "Special Item Sets",
+                "start": "September 29 2020, 17:00",
+                "end": "October 13 2020, 15:59"
             }
         ]
     }

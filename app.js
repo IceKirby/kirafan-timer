@@ -80,17 +80,15 @@ var vm = new Vue({
                 }
             }
         },
-        updateClocks: function() {
-            this.japanTime = moment().tz('Asia/Tokyo').format("ddd D MMM, H:mm");
-            this.localTime = moment().format("ddd D MMM, H:mm");
-            this.updateTimerData();
-        },
+        
+        // SETUP FUNCTIONS
         buildTimerData: function(data) {
             var res = [[],[],[]];
-            var ev, i, e, timer, exp, evExtra, timerExtra, startMoment, endMoment;
+            var ev, i;
             var nowMoment = moment.tz("Asia/Tokyo");
             var localZone = moment.tz.guess();
 
+            // Loops through all data to build the event timers
             for (i = 0; i < data.length; i++) {
                 ev = data[i];
                 ev.visible = true;
@@ -98,128 +96,19 @@ var vm = new Vue({
                     ev.priority = 0;
                 }
                 ev.bonusPriority = 0;
+                
                 if (ev.type == "DailyQuest") {
-                    ev.displayMode = "japan";
-                    ev.deadlineMoment = nowMoment.clone().endOf("day");
-                    ev.current = "";
-                    ev.deadline = "";
-                    ev.japanend = "";
-                    ev.localend = "";
-                    res[ev.column ? ev.column : 0].push(ev);
-                    continue;
-                }
-
-                ev.expiration = 0;
-                ev.nextTimer = "";
-                ev.normalTimerIndex = 0;
-
-                if (!ev.image) {
-                    ev.image = thumbnailMap.none;
+                    ev = this.buildDailyQuestTimer(ev, nowMoment);
                 } else {
-                    if (Array.isArray(ev.image)) {
-                        ev.imageStep = Math.floor(Math.random() * ev.image.length);
-                        ev.imageList = ev.image.map(function(x) {
-                            return thumbnailMap.hasOwnProperty(x.toLowerCase()) ? thumbnailMap[x.toLowerCase()] : x;
-                        });
-                        ev.image = ev.imageList[ev.imageStep];
-                    } else if (thumbnailMap.hasOwnProperty(ev.image.toLowerCase())) {
-                        ev.image = thumbnailMap[ev.image.toLowerCase()];
-                    }
+                    ev = this.buildEventGroup(ev, localZone);
                 }
-
-                evExtra = this.toDurationObject(ev.keepAfterFinished);
-
-                for (e = 0; e < ev.timers.length; e++) {
-                    timer = ev.timers[e];
-                    timer.visible = true;
-                    timer.progress = 0;
-                    timer.displayMode = "japan";
-                    
-                    var extraDays = 0;
-
-                    if (timer.hasOwnProperty("date")) {
-                        timer.start = timer.date + ", 0:00";
-                        timer.end = timer.date + ", 23:59";
-                        if (timer.days) {
-                            extraDays = timer.days - 1;
-                        }
-                        timer.type = "date";
-                    } else if (ev.type == "WeekendBoss") {
-                        if (!timer.type) {
-                            timer.type = "weekend";
-                        } else if (timer.type == "normal") {
-                            ev.normalTimerIndex = e;
-                        }
-                    } else {
-                        timer.type = "normal";
-                    }
-
-                    var strFormat = "ddd, MMM Do, H:mm";
-                    startMoment = moment.tz(timer.start, "MMM D YYYY, H:mm", "Asia/Tokyo");
-                    endMoment = moment.tz(timer.end, "MMM D YYYY, H:mm", "Asia/Tokyo");
-                    if (extraDays > 0) {
-                        endMoment = endMoment.add(extraDays, "days");
-                    }
-
-                    timer.rawStart = startMoment._d.getTime();
-                    timer.rawEnd  = endMoment._d.getTime();
-
-                    var marks = [];
-                    if (timer.hasOwnProperty("markers")) {
-                        for (var m in timer.markers) {
-                            var markTime = moment.tz(timer.markers[m], "MMM D YYYY, H:mm", "Asia/Tokyo");
-                            var rawTime = markTime._d.getTime();
-                            var ma = {
-                                label: m,
-                                jptime: markTime.format(strFormat),
-                                localtime: markTime.tz(localZone).format(strFormat),
-                                rawtime: rawTime,
-                                position: (rawTime - timer.rawStart) / (timer.rawEnd - timer.rawStart) * 100 + "%",
-                                color: "#dc3545",
-                                started: false,
-                                tip: ""
-                            };
-                            marks.push(ma);
-                        }
-                        timer.nextMarker = "";
-                    }
-                    timer.markersInfo = marks;
-
-
-
-                    // Timer expiration = End Time + Timer's extra time
-                    timerExtra = this.toDurationObject(timer.keepAfterFinished);
-                    exp = endMoment.clone().add(timerExtra);
-                    timer.expiration = exp._d.getTime();
-
-                    // Event expiration = Last Timer's Expiration + Event's extra time
-                    exp = exp.add(evExtra)._d.getTime();
-                    if (exp > ev.expiration) {
-                        ev.expiration = exp;
-                    }
-
-                    // Stores date/time strings to display in timers
-                    if (timer.type == "date") {
-                        strFormat = "MMM Do<br>H:mm";
-                    } else if (timer.type == "weekend") {
-                        strFormat = "MMM Do";
-                    }
-                    timer.dateDisplay = {
-                        jpstart: startMoment.format(strFormat),
-                        localstart: startMoment.tz(localZone).format(strFormat),
-                        jpend: endMoment.format(strFormat),
-                        localend: endMoment.tz(localZone).format(strFormat),
-                        badgeStart: "",
-                        badgeEnd: "",
-                        barLabel: ""
-                    };
-                }
+                
                 res[ev.column ? ev.column : 0].push(ev);
             }
 
             // Sort timers and remove empty columns
             for (i = res.length; i--; ) {
-                if (res[i].length == 0) {
+                if (res[i].length === 0) {
                     res.splice(i, 1);
                 } else {
                     res[i] = res[i];
@@ -228,8 +117,162 @@ var vm = new Vue({
 
             this.timersData = res;
         },
+        buildDailyQuestTimer: function(ev, nowMoment) {
+            ev.displayMode = "japan";
+            ev.deadlineMoment = nowMoment.clone().endOf("day");
+            ev.current = "";
+            ev.deadline = "";
+            ev.japanend = "";
+            ev.localend = "";
+            return ev;
+        },
+        buildEventGroup: function(ev, localZone) {
+            let evExtra, timer, e;
+            
+            // Default settings
+            ev.expiration = 0;
+            ev.nextTimer = "";
+            ev.normalTimerIndex = 0;
+
+            // Sets event image
+            if (!ev.image) {
+                ev.image = thumbnailMap.none;
+            } else {
+                // If array, image will rotate through all images listed every few seconds
+                if (Array.isArray(ev.image)) {
+                    ev.imageStep = Math.floor(Math.random() * ev.image.length);
+                    ev.imageList = ev.image.map(function(x) {
+                        return thumbnailMap.hasOwnProperty(x.toLowerCase()) ? thumbnailMap[x.toLowerCase()] : x;
+                    });
+                    ev.image = ev.imageList[ev.imageStep];
+                } else if (thumbnailMap.hasOwnProperty(ev.image.toLowerCase())) {
+                    ev.image = thumbnailMap[ev.image.toLowerCase()];
+                }
+            }
+            
+            // How long the event will still be displayed after all of its timers are finished
+            evExtra = this.toDurationObject(ev.keepAfterFinished);
+            
+            // Create all individual timers
+            for (e = 0; e < ev.timers.length; e++) {
+                timer = this.buildEventTimer(ev.timers[e], ev, localZone, e, evExtra);
+            }
+            
+            return ev;
+        },
+        buildEventTimer: function(timer, ev, localZone, normalTimerIndex, evExtra) {
+            let timerExtra, startMoment, endMoment, expiration, extraDays = 0;
+            
+            // Default settings
+            timer.visible = true;
+            timer.progress = 0;
+            timer.displayMode = "japan";
+
+            // Sets timer type; Also adds start/end time for dates
+            if (timer.hasOwnProperty("date")) {
+                timer.start = timer.date + ", 0:00";
+                timer.end = timer.date + ", 23:59";
+                if (timer.days) {
+                    extraDays = timer.days - 1;
+                }
+                timer.type = "date";
+            } else if (ev.type == "WeekendBoss") {
+                if (!timer.type) {
+                    timer.type = "weekend";
+                } else if (timer.type == "normal") {
+                    ev.normalTimerIndex = normalTimerIndex;
+                }
+            } else {
+                timer.type = "normal";
+            }
+
+            // Converts start/end moments to Japan time
+            var strFormat = "MMM Do<br>ddd, H:mm";
+            startMoment = moment.tz(timer.start, "MMM D YYYY, H:mm", "Asia/Tokyo");
+            endMoment = moment.tz(timer.end, "MMM D YYYY, H:mm", "Asia/Tokyo");
+            if (extraDays > 0) {
+                endMoment = endMoment.add(extraDays, "days");
+            }
+
+            timer.rawStart = startMoment._d.getTime();
+            timer.rawEnd  = endMoment._d.getTime();
+
+            // Creates markers
+            var marks = [];
+            if (timer.hasOwnProperty("markers")) {
+                let marker;
+                for (var m = 0; m < timer.markers.length; m++) {
+                    marker = this.createMarker(timer.markers[m], timer, localZone);
+                    marks.push(marker);
+                }
+                timer.nextMarker = "";
+            }
+            if (timer.hasOwnProperty("banners")) {
+                let marker;
+                for (var m = 0; m < timer.banners.length; m++) {
+                    marker = this.createMarker(timer.banners[m], timer, localZone);
+                    if (marker.rawtime != timer.rawStart) {
+                        marks.push(marker);
+                    }
+                }
+                timer.nextMarker = "";
+            }
+            timer.markersInfo = marks;
+
+
+            // Timer expiration = End Time + Timer's extra time
+            timerExtra = this.toDurationObject(timer.keepAfterFinished);
+            expiration = endMoment.clone().add(timerExtra);
+            timer.expiration = expiration._d.getTime();
+
+            // Event expiration = Last Timer's Expiration + Event's extra time
+            expiration = expiration.add(evExtra)._d.getTime();
+            if (expiration > ev.expiration) {
+                ev.expiration = expiration;
+            }
+
+            // Stores date/time strings to display in timers
+            if (timer.type == "date") {
+                strFormat = "MMM Do<br>H:mm";
+            } else if (timer.type == "weekend") {
+                strFormat = "MMM Do";
+            }
+            timer.dateDisplay = {
+                jpstart: startMoment.format(strFormat),
+                localstart: startMoment.tz(localZone).format(strFormat),
+                jpend: endMoment.format(strFormat),
+                localend: endMoment.tz(localZone).format(strFormat),
+                badgeStart: "",
+                badgeEnd: "",
+                barLabel: ""
+            };
+            return timer;
+        },
+        createMarker: function(marker, timer, localZone) {
+            var markTime = moment.tz(marker.time, "MMM D YYYY, H:mm", "Asia/Tokyo");
+            var tooltipFormat = "ddd, MMM Do, H:mm";
+            var rawTime = markTime._d.getTime();
+            var mark = {
+                label: marker.title,
+                type: marker.type || "star",
+                jptime: markTime.format(tooltipFormat),
+                localtime: markTime.tz(localZone).format(tooltipFormat),
+                rawtime: rawTime,
+                position: (rawTime - timer.rawStart) / (timer.rawEnd - timer.rawStart) * 100 + "%",
+                started: false,
+                tip: ""
+            };
+            return mark;
+        },
+        
+        // UPDATE FUNCTIONS
+        updateClocks: function() {
+            this.japanTime = moment().tz('Asia/Tokyo').format("ddd D MMM, H:mm");
+            this.localTime = moment().format("ddd D MMM, H:mm");
+            this.updateTimerData();
+        },
         updateTimerData: function() {
-            var c, t, e, ev, col, timer, allExpired, nextDate, nextType, lastDate, deadline, data = this.timersData;
+            var c, e, ev, col, data = this.timersData;
             var nowMoment = moment.tz("Asia/Tokyo");
             var now = nowMoment._d.getTime();
             var localZone = moment.tz.guess();
@@ -246,116 +289,132 @@ var vm = new Vue({
                     ev = col[e];
                     ev.bonusPriority = 0;
                     if (ev.type == "DailyQuest") {
-                        deadline = ev.deadlineMoment;
-                        if (deadline.date() != nowMoment.date()) {
-                            deadline = ev.deadlineMoment = nowMoment.clone().endOf("day");
-                        }
-                        ev.current = nowMoment.format("dddd").toLowerCase();
-
-                        ev.deadline = this.remainingTimeString(now, deadline._d.getTime(), 2);
-                        ev.japanend = deadline.format("MMM Do, H:mm");
-                        ev.localend = deadline.clone().tz(localZone).format("MMM Do, H:mm");
-
-                        continue;
-                    }
-                    allExpired = true;
-                    nextDate = Infinity;
-                    nextType = "finished";
-                    lastDate = 0;
-                    for (t = 0; t < ev.timers.length; t++) { // Check each individual timer
-                        timer = ev.timers[t];
-
-                        // Check if timer should be visible
-                        timer.visible = false;
-                        timer.progress = this.countProgress(now, timer.rawStart, timer.rawEnd);
-                        if (timer.keepAfterFinished === true || timer.type == "weekend" || timer.expiration > now) {
-                            timer.visible = true;
-                            if (timer.type != "weekend") {
-                                allExpired = false;
-                            }
-
-                            // Write strings for progress bar dates according to state
-                            if (timer.progress <= 0) {
-                                timer.dateDisplay.barLabel = "Starts in " + this.remainingTimeString(now, timer.rawStart, 2);
-                                timer.dateDisplay.badgeStart = "Starts in " + this.remainingTimeString(now, timer.rawStart, 5);
-                                timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
-                            } else if (timer.progress >= 100) {
-                                timer.dateDisplay.barLabel = "Finished " + this.remainingTimeString(now, timer.rawEnd, 2) + " ago";
-                                timer.dateDisplay.badgeEnd = "Finished " + this.remainingTimeString(now, timer.rawEnd, 5) + " ago";
-                                timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
-                            } else {
-                                // Adds priority if timer is active
-                                if (timer.extraPriority) {
-                                    ev.bonusPriority += timer.extraPriority;
-                                }
-                                timer.dateDisplay.barLabel = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 2) + (timer.type == "weekend" ? "" : " (" + timer.progress.toFixed(1) + "%)");
-                                timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
-                                timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
-                            }
-
-                            if (timer.markersInfo.length > 0) {
-                                var marks = timer.markersInfo, m, mark, next = Infinity, nextName, nextFound = false;
-                                for (m = 0; m < marks.length; m++) {
-                                    mark = marks[m];
-                                    mark.tip = "<b>" + mark.label + "</b><br/>" + (timer.displayMode == "japan" ? mark.jptime : mark.localtime) + (now >= mark.rawtime ? "" : "<br/>(starts in " + this.remainingTimeString(now, mark.rawtime, 5)+")");
-                                    if (mark.rawtime > now && mark.rawtime < next) {
-                                        nextFound = true;
-                                        nextName = mark.label;
-                                        next = mark.rawtime;
-                                    }
-                                    if (now >= mark.rawtime) {
-                                        mark.started = true;
-                                        mark.color = "#2fc551";
-                                    }
-                                }
-                                if (nextFound && now >= timer.rawStart) {
-                                    timer.nextMarker = nextName + " starts in " + this.remainingTimeString(now, next, 2);
-                                } else {
-                                    timer.nextMarker = "";
-                                }
-                            } else {
-                                timer.nextMarker = "";
-                            }
-                        }
-
-                        if (timer.rawStart > now && timer.rawStart < nextDate) {
-                            nextDate = timer.rawStart;
-                            nextType = "upcoming";
-                        }
-                        if (timer.rawEnd > now && timer.rawEnd < nextDate) {
-                            nextDate = timer.rawEnd;
-                            nextType = "ongoing";
-                        }
-                        if (timer.rawEnd > lastDate) {
-                            lastDate = timer.rawEnd;
-                        }
-                    }
-                    if (nextType == "finished") {
-                        // nextDate = lastDate;
-                        ev.nextTimer = "Finished " + this.remainingTimeString(now, lastDate, 2) + " ago";
-                    } else if (nextType == "upcoming") {
-                        ev.nextTimer = "Next date starts in " + this.remainingTimeString(now, nextDate, 2);
+                        this.updateDailyQuest(ev, now, nowMoment, localZone);
                     } else {
-                        ev.nextTimer = "Current date finishes in " + this.remainingTimeString(now, nextDate, 2);
+                        this.updateEventGroup(ev, now, changeThumbs);
                     }
                     
-                    if (changeThumbs && ev.imageList) {
-                        ev.imageStep++;
-                        if (ev.imageStep >= ev.imageList.length) {
-                            ev.imageStep = 0;
-                        }
-                        ev.image = ev.imageList[ev.imageStep];
-                    }
-
-                    // Check if event should be visible
-                    if (allExpired && now >= ev.expiration && (typeof ev.keepAfterFinished != "boolean" || ev.keepAfterFinished == false)) {
-                        ev.visible = false;
-                    }
                 }
                 
                 col.sort(this.prioritySort);
             }
         },
+        updateDailyQuest: function(ev, now, nowMoment, localZone) {
+            let deadline = ev.deadlineMoment;
+            if (deadline.date() != nowMoment.date()) {
+                deadline = ev.deadlineMoment = nowMoment.clone().endOf("day");
+            }
+            ev.current = nowMoment.format("dddd").toLowerCase();
+
+            ev.deadline = this.remainingTimeString(now, deadline._d.getTime(), 2);
+            ev.japanend = deadline.format("MMM Do, H:mm");
+            ev.localend = deadline.clone().tz(localZone).format("MMM Do, H:mm");
+        },
+        updateEventGroup: function(ev, now, changeThumbs) {
+            let allExpired = true,
+                nextDate = Infinity,
+                nextType = "finished",
+                lastDate = 0;
+            
+            // Check each individual timer
+            for (t = 0; t < ev.timers.length; t++) {
+                timer = ev.timers[t];
+                this.updateEventTimer(timer, ev, now);
+                
+                if (timer.rawStart > now && timer.rawStart < nextDate) {
+                    nextDate = timer.rawStart;
+                    nextType = "upcoming";
+                }
+                if (timer.rawEnd > now && timer.rawEnd < nextDate) {
+                    nextDate = timer.rawEnd;
+                    nextType = "ongoing";
+                }
+                if (timer.rawEnd > lastDate) {
+                    lastDate = timer.rawEnd;
+                }
+            }
+            
+            // Updates text for LoginDays timers
+            if (nextType == "finished") {
+                ev.nextTimer = "Finished " + this.remainingTimeString(now, lastDate, 2) + " ago";
+            } else if (nextType == "upcoming") {
+                ev.nextTimer = "Next date starts in " + this.remainingTimeString(now, nextDate, 2);
+            } else {
+                ev.nextTimer = "Current date finishes in " + this.remainingTimeString(now, nextDate, 2);
+            }
+            
+            // Changes thumbnail for Event Group
+            if (changeThumbs && ev.imageList) {
+                ev.imageStep++;
+                if (ev.imageStep >= ev.imageList.length) {
+                    ev.imageStep = 0;
+                }
+                ev.image = ev.imageList[ev.imageStep];
+            }
+
+            // Check if event should be visible
+            if (allExpired && now >= ev.expiration && (typeof ev.keepAfterFinished != "boolean" || ev.keepAfterFinished === false)) {
+                ev.visible = false;
+            }
+        },
+        updateEventTimer: function(timer, ev, now) {
+            // Check if timer should be visible
+            timer.visible = false;
+            timer.progress = this.countProgress(now, timer.rawStart, timer.rawEnd);
+            if (timer.keepAfterFinished === true || timer.type == "weekend" || timer.expiration > now) {
+                timer.visible = true;
+                if (timer.type != "weekend") {
+                    allExpired = false;
+                }
+
+                // Write strings for progress bar dates according to state
+                if (timer.progress <= 0) {
+                    timer.dateDisplay.barLabel = "Starts in " + this.remainingTimeString(now, timer.rawStart, 2);
+                    timer.dateDisplay.badgeStart = "Starts in " + this.remainingTimeString(now, timer.rawStart, 5);
+                    timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
+                } else if (timer.progress >= 100) {
+                    timer.dateDisplay.barLabel = "Finished " + this.remainingTimeString(now, timer.rawEnd, 2) + " ago";
+                    timer.dateDisplay.badgeEnd = "Finished " + this.remainingTimeString(now, timer.rawEnd, 5) + " ago";
+                    timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
+                } else {
+                    timer.dateDisplay.barLabel = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 2) + (timer.type == "weekend" ? "" : " (" + timer.progress.toFixed(1) + "%)");
+                    timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
+                    timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
+                    
+                    // Increase priority if timer is active
+                    if (timer.extraPriority) {
+                        ev.bonusPriority += timer.extraPriority;
+                    }
+                }
+
+                // Update markers
+                if (timer.markersInfo.length > 0) {
+                    var marks = timer.markersInfo, m, mark, next = Infinity, nextName, nextFound = false;
+                    for (m = 0; m < marks.length; m++) {
+                        mark = marks[m];
+                        mark.tip = "<b>" + mark.label + "</b><br/>" + (timer.displayMode == "japan" ? mark.jptime : mark.localtime) + (now >= mark.rawtime ? "" : "<br/>(starts in " + this.remainingTimeString(now, mark.rawtime, 5)+")");
+                        if (mark.rawtime > now && mark.rawtime < next) {
+                            nextFound = true;
+                            nextName = mark.label;
+                            next = mark.rawtime;
+                        }
+                        if (now >= mark.rawtime) {
+                            mark.started = true;
+                            mark.color = "#2fc551";
+                        }
+                    }
+                    if (nextFound && now >= timer.rawStart) {
+                        timer.nextMarker = nextName + " starts in " + this.remainingTimeString(now, next, 2);
+                    } else {
+                        timer.nextMarker = "";
+                    }
+                } else {
+                    timer.nextMarker = "";
+                }
+            }
+        },
+        
+        // HELPER FUNCTIONS
         prioritySort: function(a, b) {
             return (b.priority + b.bonusPriority) - (a.priority + a.bonusPriority);
         },
@@ -406,7 +465,7 @@ var vm = new Vue({
                     sec -= n * d[j][0];
                 }
             }
-            if (s.length == 0) {
+            if (s.length === 0) {
                 return "0 seconds";
             } else {
                 return s.splice(0, steps).join(", ");
