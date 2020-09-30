@@ -468,6 +468,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/moHDg7y.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "October 3 2020, 0:00",
+                end: "October 4 2020, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "October 10 2020, 0:00",
+                end: "October 11 2020, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "October 17 2020, 0:00",
+                end: "October 18 2020, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "October 24 2020, 0:00",
+                end: "October 25 2020, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "October 31 2020, 0:00",
+                end: "November 1 2020, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "October 3 2020, 0:00",
+                end: "November 6 2020, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Past Summer Room Decorations",
