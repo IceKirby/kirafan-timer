@@ -293,6 +293,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Gochuumon wa Usagi Desu Ka? Limited-time Summon",
+            "ご注文はうさぎですか？★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Part 1: Featuring 5* Cocoa [Christmas], 5* Cocoa [Swimsuit], 5* Chino [Swimsuit], 5* Rize [Halloween]",
+                "start": "October 10 2020, 17:00",
+                "end": "October 17 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "October 10 2020, 17:00",
+                "end": "October 24 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Kira-Kira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
