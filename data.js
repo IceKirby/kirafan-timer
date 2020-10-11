@@ -353,16 +353,66 @@ var timerData = [
     {
         type: "LoginDays",
         title: [
-            "Tamayomi participation Login Bonus",
-            "球詠参戦決定記念ログインボーナス",
+            "Ochikobore Fruit Tart participation Login Bonus",
+            "おちこぼれフルーツタルト参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
-                name: "Episode 1",
-                date: "April 1 2020",
+                name: "Episode 2",
+                date: "October 19 2020",
+                days: 2
+            },
+            {
+                name: "Episode 3",
+                date: "October 26 2020",
+                days: 2
+            },
+            {
+                name: "Episode 4",
+                date: "November 2 2020",
+                days: 2
+            },
+            {
+                name: "Episode 5",
+                date: "November 9 2020",
+                days: 2
+            },
+            {
+                name: "Episode 6",
+                date: "November 16 2020",
+                days: 2
+            },
+            {
+                name: "Episode 7",
+                date: "November 23 2020",
+                days: 2
+            },
+            {
+                name: "Episode 8",
+                date: "November 30 2020",
+                days: 2
+            },
+            {
+                name: "Episode 9",
+                date: "December 7 2020",
+                days: 2
+            },
+            {
+                name: "Episode 10",
+                date: "December 14 2020",
+                days: 2
+            },
+            {
+                name: "Episode 11",
+                date: "December 21 2020",
+                days: 2
+            },
+            {
+                name: "Episode 12",
+                date: "December 28 2020",
                 days: 2
             }
         ]
@@ -380,35 +430,6 @@ var timerData = [
                 name: "Period",
                 "start": "September 19 2020, 0:00",
                 "end": "September 27 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "September Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/sVDXbrx.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "September 5 2020, 0:00",
-                end: "September 6 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "September 12 2020, 0:00",
-                end: "September 13 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "September 5 2020, 0:00",
-                end: "October 2 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
