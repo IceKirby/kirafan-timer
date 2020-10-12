@@ -37,103 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Operation: Love Love Travel",
-            "ラブラブトラベル大作戦",
-            "Acchi Kocchi Event"
-        ],
-        "image": [
-            "https://i.imgur.com/I2ZWBH2.png",
-            "https://i.imgur.com/mKTstzs.png",
-            "https://i.imgur.com/6HebhMI.png",
-            "https://i.imgur.com/0AnwVLl.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "September 10 2020, 17:00",
-                "end": "September 29 2020, 15:59",
-                "markers": [
-                    {
-                        title: "Boss Quest",
-                        time: "September 12 2020, 17:00",
-                        type: "battle"
-                    },
-                    {
-                        title: "EX Quest",
-                        time: "September 16 2020, 17:00",
-                        type: "battle"
-                    },
-                    {
-                        title: "Extra Chapter 1",
-                        time: "September 19 2020, 0:00",
-                        type: "story"
-                    },
-                    {
-                        title: "Extra Chapter 2",
-                        time: "September 20 2020, 0:00",
-                        type: "story"
-                    },
-                    {
-                        title: "Extra Chapter 3",
-                        time: "September 21 2020, 0:00",
-                        type: "story"
-                    },
-                    {
-                        title: "Extra Chapter 4",
-                        time: "September 22 2020, 0:00",
-                        type: "story"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 10 2020, 17:00",
-                "end": "October 6 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Cardamom's Stile Warrior Training",
-            "カルダモンのスティーレ武者修行",
-            "Cardamom Mini-Event"
-        ],
-        "image": [
-            "https://i.imgur.com/k7DTh8Y.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Scenario",
-                "start": "September 19 2020, 0:00",
-                "end": "September 29 2020, 15:59",
-                "markers": {
-                    "Chapter 2": "September 20 2020, 0:00",
-                    "Chapter 3": "September 21 2020, 0:00",
-                    "Chapter 4": "September 22 2020, 0:00"
-                },
-                "extraPriority": 4
-            },
-            {
-                "name": "Boss Quest",
-                "start": "September 19 2020, 0:00",
-                "end": "September 29 2020, 15:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 19 2020, 0:00",
-                "end": "October 6 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "A Miracle Encounter and the Dream Party",
             "キセキの出会いと夢のパーティー",
             "Sanrio Collab Event"
@@ -200,6 +103,72 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Dropout Idol's Another World TV",
+            "おちこぼれアイドルの異世界ＴＶ",
+            "Ochikobore Fruit Tart Event"
+        ],
+        "image": [
+            "https://i.imgur.com/jZZmzvZ.png",
+            "https://i.imgur.com/9Fxkxvc.png",
+            "https://i.imgur.com/yM7pTJ0.png",
+            "https://i.imgur.com/F9tcms4.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 13 2020, 17:00",
+                "end": "October 27 2020, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "October 22 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "October 23 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "October 24 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "October 25 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Melee Quest",
+                        "time": "October 15 2020, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "October 21 2020, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "October 13 2020, 17:00",
+                "end": "October 27 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 13 2020, 17:00",
+                "end": "November 3 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "A Miracle Encounter and the Dream Party Summon",
@@ -238,6 +207,29 @@ var timerData = [
                         "time": "September 29 2020, 17:00"
                     }
                 ],
+                "extraPriority": 6
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "Dropout Idol's Another World TV Summon",
+            "おちこぼれアイドルの異世界ＴＶピックアップ召喚",
+            "Ochikobore Fruit Tart Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/jZZmzvZ.png",
+            "https://i.imgur.com/9Fxkxvc.png",
+            "https://i.imgur.com/yM7pTJ0.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Sakura Ino, 4* Sekino Roko, 4* Nukui Hayu",
+                "start": "October 13 2020, 17:00",
+                "end": "October 27 2020, 15:59",
                 "extraPriority": 6
             }
         ]
@@ -311,6 +303,52 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "October 10 2020, 17:00",
                 "end": "October 24 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Hanayamata Limited-time Summon",
+            "ハナヤマタ期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/5OpuQTN.png",
+            "https://i.imgur.com/FlD4AXg.png",
+            "https://i.imgur.com/H7SkY8n.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Sekiya Naru, 5* Hana [Swimsuit], 5* Nishimikado Tami, 4* Hana N. Fountainstand, 4* Sasame Yaya",
+                "start": "October 13 2020, 17:00",
+                "end": "October 20 2020, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Hanayamata Limited-time Summon Ticket",
+            "ハナヤマタ★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Part 1: Featuring 5* Sekiya Naru, 5* Hana [Swimsuit], 5* Nishimikado Tami",
+                "start": "October 13 2020, 17:00",
+                "end": "October 20 2020, 16:59",
+                extraPriority: 4
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "October 13 2020, 17:00",
+                "end": "October 27 2020, 23:59"
             }
         ]
     },
@@ -511,6 +549,22 @@ var timerData = [
                 name: "Special Item Sets",
                 "start": "September 29 2020, 17:00",
                 "end": "October 13 2020, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Ochikobore Fruit Tart Participation Sales",
+            "おちこぼれフルーツタルト参戦記念セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Sets",
+                "start": "October 13 2020, 17:00",
+                "end": "October 27 2020, 15:59"
             }
         ]
     }
