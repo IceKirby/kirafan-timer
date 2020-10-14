@@ -168,49 +168,6 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Gacha",
-        "title": [
-            "A Miracle Encounter and the Dream Party Summon",
-            "キセキの出会いと夢のパーティーピックアップ召喚",
-            "Sanrio Collab Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/NFAvp06.png",
-            "https://i.imgur.com/nWzS6eI.png",
-            "https://i.imgur.com/4qlZQyY.png",
-            "https://i.imgur.com/UinqL2N.png",
-            "https://i.imgur.com/Ln3VdJx.png",
-            "https://i.imgur.com/LBve7Ux.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Limited Summon",
-                "start": "September 29 2020, 17:00",
-                "end": "October 13 2020, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Alice [Cinnamoroll], 5* Yuu [Pompompurin]",
-                        "time": "September 29 2020, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Kamuri [My Melody], 5* Hanako [Kuromi]",
-                        "time": "September 29 2020, 17:00"
-                    },
-                    {
-                        "title": "Part 3",
-                        "desc": "Featuring 5* Merry [Hello Kitty], 5* Sonobe [Gudetama]",
-                        "time": "September 29 2020, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
      {
         "type": "Gacha",
         "title": [
@@ -231,30 +188,6 @@ var timerData = [
                 "start": "October 13 2020, 17:00",
                 "end": "October 27 2020, 15:59",
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Head Priest & Seven Sages Limited-time Summon",
-            "筆頭神官＆七賢者限定★5確定チケット",
-            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                name: "Summon Period",
-                "start": "September 19 2020, 0:00",
-                "end": "September 29 2020, 15:59",
-                extraPriority: 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "September 19 2020, 0:00",
-                "end": "October 6 2020, 23:59"
             }
         ]
     },
@@ -340,7 +273,7 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                name: "Part 1: Featuring 5* Sekiya Naru, 5* Hana [Swimsuit], 5* Nishimikado Tami",
+                name: "Featuring 5* Sekiya Naru, 5* Hana [Swimsuit], 5* Nishimikado Tami",
                 "start": "October 13 2020, 17:00",
                 "end": "October 20 2020, 16:59",
                 extraPriority: 4
@@ -528,27 +461,6 @@ var timerData = [
                 name: "Period",
                 "start": "July 29 2020, 17:00",
                 "end": "August 27 2020, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Collab Celebration Special Sales",
-            "コラボ記念セール"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Special Gem Sets",
-                "start": "September 29 2020, 17:00",
-                "end": "October 13 2020, 15:59"
-            },
-            {
-                name: "Special Item Sets",
-                "start": "September 29 2020, 17:00",
-                "end": "October 13 2020, 15:59"
             }
         ]
     },
