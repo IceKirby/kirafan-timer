@@ -233,9 +233,20 @@ var timerData = [
                 extraPriority: 4
             },
             {
+                name: "Part 2: Featuring 5* Cocoa [Christmas], 5* Cocoa [Swimsuit], 5* Chino [Swimsuit], 5* Rize [Halloween]",
+                "start": "October 17 2020, 17:00",
+                "end": "October 24 2020, 16:59",
+                extraPriority: 4
+            },
+            {
                 name: "Ticket Expiration",
                 "start": "October 10 2020, 17:00",
                 "end": "October 24 2020, 23:59"
+            },
+            {
+                name: "Ticket Expiration (Part 2)",
+                "start": "October 17 2020, 17:00",
+                "end": "October 31 2020, 23:59"
             }
         ]
     },
