@@ -296,6 +296,28 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Gacha",
+        "title": [
+            "Gochuumon wa Usagi Desu Ka? Limited-time Summon",
+            "ご注文はうさぎですか？期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/r8r2woQ.png",
+            "https://i.imgur.com/EfQBxMM.png",
+            "https://i.imgur.com/or0rU6G.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Cocoa [Christmas], 5* Chino [Swimsuit], 5* Mocha, 4* Chino, 4* Syaro, 4* Megu",
+                "start": "October 20 2020, 17:00",
+                "end": "October 27 2020, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
@@ -308,9 +330,9 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Includes Limited-time 4* and 5*",
-                "start": "September 19 2020, 0:00",
-                "end": "September 27 2020, 23:59",
+                "name": "Includes only characters that appear in the current event's story, including limited-time ones",
+                "start": "October 21 2020, 0:00",
+                "end": "October 27 2020, 15:59",
                 "extraPriority": 4
             }
         ]
