@@ -169,6 +169,73 @@ var timerData = [
         ]
     },
      {
+        "type": "Event",
+        "title": [
+            "Legend of the Halloween Phantom Thief",
+            "ハロウィンの怪盗伝説",
+            "Halloween 2020 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/eol7bM4.png",
+            "https://i.imgur.com/I0TZWxf.png",
+            "https://i.imgur.com/Ny15uLF.png",
+            "https://i.imgur.com/f2rpryI.png",
+            "https://i.imgur.com/HUoAsqA.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 27 2020, 17:00",
+                "end": "November 11 2020, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "November 5 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "November 6 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "November 7 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "November 8 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 30 2020, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "November 2 2020, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "October 27 2020, 17:00",
+                "end": "November 11 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 27 2020, 17:00",
+                "end": "November 18 2020, 13:59"
+            }
+        ]
+    },
+     {
         "type": "Gacha",
         "title": [
             "Dropout Idol's Another World TV Summon",
@@ -194,9 +261,45 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Sanrio Characters Collab Step-up Summon",
-            "サンリオキャラ コラボ限定おまけ付き10回召喚",
-            "Get a Sandom Sanrio 5* Summon Ticket on 7th step"
+            "Legend of the Halloween Phantom Thief Summon",
+            "ハロウィンの怪盗伝説ピックアップ召喚",
+            "Halloween 2020 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/eol7bM4.png",
+            "https://i.imgur.com/I0TZWxf.png",
+            "https://i.imgur.com/Ny15uLF.png",
+            "https://i.imgur.com/f2rpryI.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 27 2020, 17:00",
+                "end": "November 11 2020, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Syaro [Halloween], 5* Noda Miki [Halloween]",
+                        "time": "October 27 2020, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Miki [Halloween], 5* Sonya [Halloween]",
+                        "time": "October 27 2020, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Past Halloween Step-up Summon",
+            "期間限定ハロウィン復刻！おまけ付き10回召喚",
+            "Get a Random 5* Summon Ticket on 7th step"
         ],
         "image": "clea",
         "column": 1,
@@ -204,14 +307,14 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                "start": "September 29 2020, 17:00",
-                "end": "October 13 2020, 23:59",
+                "start": "October 27 2020, 17:00",
+                "end": "November 3 2020, 16:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "September 29 2020, 17:00",
-                "end": "October 20 2020, 23:59"
+                "start": "October 27 2020, 17:00",
+                "end": "November 10 2020, 23:59"
             }
         ]
     },
@@ -340,8 +443,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "A Miracle Encounter and the Dream Party Login Bonus",
-            "キセキの出会いと夢のパーティーログインボーナス",
+            "Halloween Login Bonus",
+            "ハロウィンログインボーナス",
             "Log in on 10 days for up to 200 Gems"
         ],
         image: "lamp",
@@ -349,8 +452,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                "start": "September 29 2020, 17:00",
-                "end": "October 13 2020, 23:59"
+                "start": "October 27 2020, 17:00",
+                "end": "November 11 2020, 23:59"
             }
         ]
     },
@@ -510,6 +613,27 @@ var timerData = [
                 name: "Special Gem Sets",
                 "start": "October 13 2020, 17:00",
                 "end": "October 27 2020, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Halloween Sales",
+            "ハロウィンセール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Sets",
+                "start": "October 27 2020, 17:00",
+                "end": "November 11 2020, 15:59"
+            },
+            {
+                name: "Special Item Sets",
+                "start": "October 27 2020, 17:00",
+                "end": "November 3 2020, 16:59"
             }
         ]
     }
