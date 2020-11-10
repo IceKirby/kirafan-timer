@@ -315,7 +315,151 @@ var timerData = [
             }
         ]
     },
-     {
+    {
+        "type": "Gacha",
+        "title": [
+            "2020 Limited-time Step-up Summon Part 1",
+            "期間限定2020復刻 おまけ付き10回召喚・第1弾",
+            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 2020 New Year, Hinamatsuri and Swimsuit (Second Half) characters ",
+                "start": "November 13 2020, 0:00",
+                "end": "November 19 2020, 23:59",
+                "extraPriority": 5,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "November 13 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "November 14 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "November 15 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "November 16 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "November 13 2020, 0:00",
+                "end": "November 26 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "2020 Limited-time Step-up Summon Part 2",
+            "期間限定2020復刻 おまけ付き10回召喚・第2弾",
+            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 2020 Valentine, Tanabata and Swimsuit (First Half) characters ",
+                "start": "November 20 2020, 0:00",
+                "end": "November 26 2020, 23:59",
+                "extraPriority": 5,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "November 20 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "November 21 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "November 22 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "November 23 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "November 20 2020, 0:00",
+                "end": "December 3 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "2020 Limited-time Step-up Summon Part 3",
+            "期間限定2020復刻 おまけ付き10回召喚・第3弾",
+            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 2020 Maid, Sports Festival and Halloween characters ",
+                "start": "November 27 2020, 0:00",
+                "end": "December 3 2020, 23:59",
+                "extraPriority": 5,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "November 27 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "November 28 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "November 29 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "November 30 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "November 27 2020, 0:00",
+                "end": "December 10 2020, 11:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Kirara Fantasia Limited-time Summon",
@@ -370,6 +514,23 @@ var timerData = [
                 name: "Period",
                 "start": "October 27 2020, 17:00",
                 "end": "November 11 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Pre-3rd Anniversary Login Bonus",
+            "3周年直前ログインボーナス",
+            "Log in on 14 days for up to 300 Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "November 11 2020, 17:00",
+                "end": "December 3 2020, 23:59"
             }
         ]
     },
@@ -459,50 +620,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "October Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/moHDg7y.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "October 3 2020, 0:00",
-                end: "October 4 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "October 10 2020, 0:00",
-                end: "October 11 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "October 17 2020, 0:00",
-                end: "October 18 2020, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "October 24 2020, 0:00",
-                end: "October 25 2020, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "October 31 2020, 0:00",
-                end: "November 1 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "October 3 2020, 0:00",
-                end: "November 6 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "November Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -568,6 +685,44 @@ var timerData = [
                 name: "Special Item Sets",
                 "start": "October 27 2020, 17:00",
                 "end": "November 3 2020, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Pre-3rd Anniversary Sales",
+            "3周年直前セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Sets",
+                "start": "November 13 2020, 0:00",
+                "end": "December 3 2020, 23:59"
+            },
+            {
+                name: "Special Item Set",
+                "start": "November 13 2020, 0:00",
+                "end": "December 3 2020, 23:59",
+                "markers": [
+                    {
+                        "title": "Item Set 1",
+                        "time": "November 13 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Item Set 2",
+                        "time": "November 20 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Item Set 3",
+                        "time": "November 27 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
             }
         ]
     }
