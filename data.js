@@ -34,72 +34,6 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Event",
-        "title": [
-            "Dropout Idol's Another World TV",
-            "おちこぼれアイドルの異世界ＴＶ",
-            "Ochikobore Fruit Tart Event"
-        ],
-        "image": [
-            "https://i.imgur.com/jZZmzvZ.png",
-            "https://i.imgur.com/9Fxkxvc.png",
-            "https://i.imgur.com/yM7pTJ0.png",
-            "https://i.imgur.com/F9tcms4.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "October 13 2020, 17:00",
-                "end": "October 27 2020, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 22 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 23 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "October 24 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "October 25 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Melee Quest",
-                        "time": "October 15 2020, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "October 21 2020, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "October 13 2020, 17:00",
-                "end": "October 27 2020, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 13 2020, 17:00",
-                "end": "November 3 2020, 13:59"
-            }
-        ]
-    },
      {
         "type": "Event",
         "title": [
@@ -168,6 +102,72 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Summoned to Another World as its Savior?",
+            "異世界召喚されたら救世主だった？",
+            "Koharu Biyori & Power of Smile Event"
+        ],
+        "image": [
+            "https://i.imgur.com/ce9YZ9h.png",
+            "https://i.imgur.com/94eZ9Ua.png",
+            "https://i.imgur.com/AHZRnqr.png",
+            "https://i.imgur.com/8XtqHaA.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "November 11 2020, 17:00",
+                "end": "November 25 2020, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "November 20 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "November 21 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "November 22 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "November 23 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "November 13 2020, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "November 18 2020, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "November 11 2020, 17:00",
+                "end": "November 25 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 11 2020, 17:00",
+                "end": "December 2 2020, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Legend of the Halloween Phantom Thief Summon",
@@ -197,6 +197,42 @@ var timerData = [
                         "title": "Part 2",
                         "desc": "Featuring 5* Miki [Halloween], 5* Sonya [Halloween]",
                         "time": "October 27 2020, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "Summoned to Another World as its Savior? Summon",
+            "異世界召喚されたら救世主だった？ピックアップ召喚",
+            "Koharu Biyori & Power of Smile Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/ce9YZ9h.png",
+            "https://i.imgur.com/94eZ9Ua.png",
+            "https://i.imgur.com/AHZRnqr.png",
+            "https://i.imgur.com/8XtqHaA.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "November 11 2020, 17:00",
+                "end": "November 25 2020, 15:59",
+                "banners": [
+                    {
+                        "title": "Mayu Side",
+                        "desc": "Featuring 5* Shinohana Mayu, 4* Kodou Tamaki",
+                        "time": "November 11 2020, 17:00"
+                    },
+                    {
+                        "title": "Koharu Side",
+                        "desc": "Featuring 5* Onosaka Koharu, 4* Tachibana Nina",
+                        "time": "November 11 2020, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -276,6 +312,28 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "November 3 2020, 17:00",
                 "end": "November 18 2020, 23:59"
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Summon",
+            "きららファンタジア期間限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/92F2uHA.png",
+            "https://i.imgur.com/xoBDxhX.png",
+            "https://i.imgur.com/Ng1X8fs.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Cork, 5* Cork [Maid], 5* Cesame",
+                "start": "November 11 2020, 17:00",
+                "end": "November 18 2020, 16:59",
+                "extraPriority": 4
             }
         ]
     },
