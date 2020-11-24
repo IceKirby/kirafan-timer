@@ -33,73 +33,6 @@ var timerData = [
             }
         ]
     },
-     {
-        "type": "Event",
-        "title": [
-            "Legend of the Halloween Phantom Thief",
-            "ハロウィンの怪盗伝説",
-            "Halloween 2020 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/eol7bM4.png",
-            "https://i.imgur.com/I0TZWxf.png",
-            "https://i.imgur.com/Ny15uLF.png",
-            "https://i.imgur.com/f2rpryI.png",
-            "https://i.imgur.com/HUoAsqA.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "October 27 2020, 17:00",
-                "end": "November 11 2020, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "November 5 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "November 6 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "November 7 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "November 8 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 30 2020, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "November 2 2020, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "October 27 2020, 17:00",
-                "end": "November 11 2020, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 27 2020, 17:00",
-                "end": "November 18 2020, 13:59"
-            }
-        ]
-    },
     {
         "type": "Event",
         "title": [
@@ -167,42 +100,123 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "Legend of the Halloween Phantom Thief Summon",
-            "ハロウィンの怪盗伝説ピックアップ召喚",
-            "Halloween 2020 Event summon"
+            "The Forgotten Dream Demons",
+            "忘却の夢魔たち",
+            "Yumekui Merry Finale Event"
         ],
         "image": [
-            "https://i.imgur.com/eol7bM4.png",
-            "https://i.imgur.com/I0TZWxf.png",
-            "https://i.imgur.com/Ny15uLF.png",
-            "https://i.imgur.com/f2rpryI.png"
+            "https://i.imgur.com/0RtsIej.png",
+            "https://i.imgur.com/gam0KVd.png"
         ],
-        "column": 1,
-        "priority": 1,
+        "column": 0,
+        "priority": 2,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "October 27 2020, 17:00",
-                "end": "November 11 2020, 15:59",
-                "banners": [
+                "name": "Main Event",
+                "start": "November 25 2020, 17:00",
+                "end": "December 10 2020, 11:59",
+                "markers": [
                     {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Syaro [Halloween], 5* Noda Miki [Halloween]",
-                        "time": "October 27 2020, 17:00"
+                        "title": "Extra Chapter 1",
+                        "time": "December 4 2020, 0:00",
+                        "type": "story"
                     },
                     {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Miki [Halloween], 5* Sonya [Halloween]",
-                        "time": "October 27 2020, 17:00"
+                        "title": "Extra Chapter 2",
+                        "time": "December 5 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "December 6 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "December 7 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "November 27 2020, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "December 2 2020, 17:00",
+                        "type": "battle"
                     }
                 ],
-                "extraPriority": 6
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "November 25 2020, 17:00",
+                "end": "December 10 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 25 2020, 17:00",
+                "end": "December 17 2020, 13:59"
             }
         ]
     },
-     {
+    {
+        "type": "Event",
+        "title": [
+            "Unite! Seven Sages Meeting",
+            "結束せよ！七賢者会議",
+            "Hakka Mini-Event"
+        ],
+        "image": [
+            "https://i.imgur.com/q17T0vS.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "November 25 2020, 17:00",
+                "end": "December 3 2020, 23:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "November 26 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "November 27 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "November 28 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Challenge Quest",
+                        "time": "November 25 2020, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 3
+            },
+            {
+                "name": "Missions",
+                "start": "November 25 2020, 17:00",
+                "end": "December 3 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 25 2020, 17:00",
+                "end": "December 10 2020, 11:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Summoned to Another World as its Savior? Summon",
@@ -241,9 +255,74 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Past Halloween Step-up Summon",
-            "期間限定ハロウィン復刻！おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step"
+            "The Forgotten Dream Demons Summon",
+            "忘却の夢魔たちピックアップ召喚",
+            "Yumekui Merry Finale Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/0RtsIej.png",
+            "https://i.imgur.com/gam0KVd.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Merry Nightmare, 4* Kounagi Yui",
+                "start": "November 25 2020, 17:00",
+                "end": "December 10 2020, 11:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Unite! Seven Sages Meeting Summon",
+            "結束せよ！七賢者会議ピックアップ召喚",
+            "Hakka Mini-Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/q17T0vS.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Hakka",
+                "start": "November 25 2020, 17:00",
+                "end": "December 3 2020, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yumekui Merry Limited-time Summon",
+            "夢喰いメリー期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/vnBdw4n.png",
+            "https://i.imgur.com/MAxf9A9.png",
+            "https://i.imgur.com/StU3c8W.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Merry [Valentine], 5* Isana [Doll's Festival], 5* Engi Threepiece, 4* Merry Nightmare, 4* Tachibana Isana, 3* Merry Nightmare",
+                "start": "November 25 2020, 17:00",
+                "end": "December 2 2020, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yumekui Merry Choosable 5* Summon Ticket",
+            "夢喰いメリー★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -251,66 +330,38 @@ var timerData = [
         "timers": [
             {
                 name: "Summon Period",
-                "start": "October 27 2020, 17:00",
-                "end": "November 3 2020, 16:59",
+                "start": "November 25 2020, 17:00",
+                "end": "December 2 2020, 16:59",
                 extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "October 27 2020, 17:00",
-                "end": "November 10 2020, 23:59"
+                "start": "November 25 2020, 17:00",
+                "end": "December 9 2020, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Poverty Alley-themed Limited-time Step-up Summon",
-            "期間限定いちおしテーマ！おまけ付き10回召喚",
-            "Get a Random 5* Summon Ticket on 7th step"
+            "Seven Sages & Head Priest Limited-time Summon",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
-        "image": [
-            "clea"
-        ],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Miyako, 5* Miyako [Christmas], 5* Syaro, 5* Nishikawa Youko, 5* Yoshida Yuuko, 5* Shamiko [Sports Festival], 4* Miyako, 4* Syaro",
-                "start": "November 3 2020, 17:00",
-                "end": "November 11 2020, 15:59",
-                "extraPriority": 4
+                name: "Summon Period",
+                "start": "November 25 2020, 17:00",
+                "end": "December 3 2020, 23:59",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "November 3 2020, 17:00",
-                "end": "November 18 2020, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Poverty Alley-themed Limited-time Summon Ticket",
-            "期間限定いちおしテーマ！★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Miyako, 5* Miyako [Christmas], 5* Syaro, 5* Nishikawa Youko, 5* Yoshida Yuuko, 5* Shamiko [Sports Festival], 4* Miyako, 4* Syaro",
-                "start": "November 3 2020, 17:00",
-                "end": "November 11 2020, 15:59",
-                "extraPriority": 4
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "November 3 2020, 17:00",
-                "end": "November 18 2020, 23:59"
+                "start": "November 25 2020, 17:00",
+                "end": "December 10 2020, 11:59"
             }
         ]
     },
@@ -461,28 +512,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Limited-time Summon",
-            "きららファンタジア期間限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/92F2uHA.png",
-            "https://i.imgur.com/xoBDxhX.png",
-            "https://i.imgur.com/Ng1X8fs.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Cork, 5* Cork [Maid], 5* Cesame",
-                "start": "November 11 2020, 17:00",
-                "end": "November 18 2020, 16:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Daily Kira-Kira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -496,23 +525,6 @@ var timerData = [
                 "start": "October 21 2020, 0:00",
                 "end": "October 27 2020, 15:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Halloween Login Bonus",
-            "ハロウィンログインボーナス",
-            "Log in on 10 days for up to 200 Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "October 27 2020, 17:00",
-                "end": "November 11 2020, 23:59"
             }
         ]
     },
@@ -663,27 +675,6 @@ var timerData = [
                 name: "Period",
                 "start": "July 29 2020, 17:00",
                 "end": "August 27 2020, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Halloween Sales",
-            "ハロウィンセール"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Special Gem Sets",
-                "start": "October 27 2020, 17:00",
-                "end": "November 11 2020, 15:59"
-            },
-            {
-                name: "Special Item Sets",
-                "start": "October 27 2020, 17:00",
-                "end": "November 3 2020, 16:59"
             }
         ]
     },
