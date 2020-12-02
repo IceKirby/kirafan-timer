@@ -224,7 +224,7 @@ var timerData = [
             "Obtain Lottery Tickets for a chance to win real prizes"
         ],
         "image": "match",
-        "column": 1,
+        "column": 0,
         "priority": 1,
         "timers": [
             {
