@@ -217,38 +217,26 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "Summoned to Another World as its Savior? Summon",
-            "異世界召喚されたら救世主だった？ピックアップ召喚",
-            "Koharu Biyori & Power of Smile Event summon"
+            "Many Thanks!! Real Goods Lottery",
+            "大感謝！！！リアルグッズ抽選会",
+            "Obtain Lottery Tickets for a chance to win real prizes"
         ],
-        "image": [
-            "https://i.imgur.com/ce9YZ9h.png",
-            "https://i.imgur.com/94eZ9Ua.png",
-            "https://i.imgur.com/AHZRnqr.png",
-            "https://i.imgur.com/8XtqHaA.png"
-        ],
+        "image": "match",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "November 11 2020, 17:00",
-                "end": "November 25 2020, 15:59",
-                "banners": [
-                    {
-                        "title": "Mayu Side",
-                        "desc": "Featuring 5* Shinohana Mayu, 4* Kodou Tamaki",
-                        "time": "November 11 2020, 17:00"
-                    },
-                    {
-                        "title": "Koharu Side",
-                        "desc": "Featuring 5* Onosaka Koharu, 4* Tachibana Nina",
-                        "time": "November 11 2020, 17:00"
-                    }
-                ],
-                "extraPriority": 6
+                "name": "Special Missions",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 23:59",
+                "extraPriority": 2
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 11 2020, 17:00",
+                "end": "December 26 2020, 23:59"
             }
         ]
     },
@@ -292,28 +280,6 @@ var timerData = [
                 "start": "November 25 2020, 17:00",
                 "end": "December 3 2020, 23:59",
                 "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Yumekui Merry Limited-time Summon",
-            "夢喰いメリー期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/vnBdw4n.png",
-            "https://i.imgur.com/MAxf9A9.png",
-            "https://i.imgur.com/StU3c8W.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Merry [Valentine], 5* Isana [Doll's Festival], 5* Engi Threepiece, 4* Merry Nightmare, 4* Tachibana Isana, 3* Merry Nightmare",
-                "start": "November 25 2020, 17:00",
-                "end": "December 2 2020, 16:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -368,48 +334,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "2020 Limited-time Step-up Summon Part 1",
-            "期間限定2020復刻 おまけ付き10回召喚・第1弾",
-            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+            "Fes. Participants Limited-time Summon",
+            "FES.出演キャラクター★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
-        "image": [
-            "clea"
-        ],
+        "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 2020 New Year, Hinamatsuri and Swimsuit (Second Half) characters ",
-                "start": "November 13 2020, 0:00",
-                "end": "November 19 2020, 23:59",
-                "extraPriority": 5,
-                "markers": [
-                    {
-                        "title": "Free Summon 1",
-                        "time": "November 13 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 2",
-                        "time": "November 14 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 3",
-                        "time": "November 15 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 4",
-                        "time": "November 16 2020, 0:00",
-                        "type": "star"
-                    }
-                ]
+                name: "Summon Period: Featuring 5★ Kou [Swimsuit], 5★ Tooyama Rin, 5★ Sakuranomiya Maika, 5★ Maika [Swimsuit], 5★ Yoshida Yuuko, 5★ Shamiko [Sports Festival], 5★ Takeda Yomi, 5★ Lamp, 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Polka, 5★ Cork, 5★ Cork [Maid], 5★ Kanna, 5★ Leine",
+                "start": "December 4 2020, 0:00",
+                "end": "December 6 2020, 23:59",
+                extraPriority: 4
             },
             {
                 name: "Ticket Expiration",
-                "start": "November 13 2020, 0:00",
-                "end": "November 26 2020, 23:59"
+                "start": "December 4 2020, 0:00",
+                "end": "December 13 2020, 23:59",
             }
         ]
     },
@@ -512,6 +454,112 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "2017~2018 Limited-time Step-up Summon",
+            "期間限定2017・2018復刻 おまけ付き10回召喚",
+            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 2017 and 2018 Limited-time characters ",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 23:59",
+                "extraPriority": 5,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "December 4 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "December 5 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "December 6 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "December 7 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 4 2020, 0:00",
+                "end": "December 17 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Random 5* Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Second Half",
+                "start": "December 11 2020, 0:00",
+                "end": "December 17 2020, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 4 2020, 0:00",
+                "end": "January 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Many Thanks!!! Lottery Step-up Summon",
+            "大感謝！！！抽選会 おまけ付き10回召喚",
+            "333 Lottery Tickets on steps 1~6, Random 5* Summon Ticket on step 7"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 11:59",
+                "extraPriority": 3,
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 4 2020, 0:00",
+                "end": "December 17 2020, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Kira-Kira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -542,6 +590,40 @@ var timerData = [
                 name: "Period",
                 "start": "November 11 2020, 17:00",
                 "end": "December 3 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "3rd Anniversary Fes. Login Bonus",
+            "3RD ANNIVERSARY FES.記念ログインボーナス",
+            "Log in on 3 days for up to 3 Summon Tickets"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "December 4 2020, 0:00",
+                "end": "December 6 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Many Thanks!!! Countdown Login Bonus",
+            "大感謝！！！カウントダウンログインボーナス",
+            "Log in on 7 days for up to 231 Lottery Tickets"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 23:59"
             }
         ]
     },
@@ -615,16 +697,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Chapters 1~8 (Normal Mode) Half Stamina Campaign",
-            "メインクエストノーマルモード1～8章スタミナ1/2",
+            "Main Quest Part 1 (Normal Mode) Half Stamina Campaign",
+            "メインクエスト第1部スタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "September 19 2020, 0:00",
-                "end": "September 27 2020, 23:59"
+                "start": "December 4 2020, 0:00",
+                "end": "December 26 2020, 16:59"
             }
         ]
     },
@@ -752,6 +834,53 @@ var timerData = [
                         "type": "star"
                     }
                 ]
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "3rd Anniversary Celebration Sales",
+            "3周年記念特別セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Countdown Week Gem Sets",
+                "start": "December 4 2020, 0:00",
+                "end": "December 26 2020, 16:59"
+            },
+            {
+                name: "Countdown Week Item Sets",
+                "start": "December 4 2020, 0:00",
+                "end": "December 26 2020, 16:59"
+            },
+            {
+                name: "2017~2018 Limited-time 5* Summon Ticket",
+                "start": "December 4 2020, 0:00",
+                "end": "December 10 2020, 23:59"
+            },
+            {
+                name: "3rd Anniversary Gem Set with Special Call Ticket",
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "3rd Anniversary Fes Gem Set Sales",
+            "3RD ANNIVERSARY FES.記念星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Special Gem Sets",
+                "start": "December 4 2020, 0:00",
+                "end": "December 6 2020, 23:59"
             }
         ]
     }
