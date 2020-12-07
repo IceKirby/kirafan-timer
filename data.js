@@ -36,72 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Summoned to Another World as its Savior?",
-            "異世界召喚されたら救世主だった？",
-            "Koharu Biyori & Power of Smile Event"
-        ],
-        "image": [
-            "https://i.imgur.com/ce9YZ9h.png",
-            "https://i.imgur.com/94eZ9Ua.png",
-            "https://i.imgur.com/AHZRnqr.png",
-            "https://i.imgur.com/8XtqHaA.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "November 11 2020, 17:00",
-                "end": "November 25 2020, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "November 20 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "November 21 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "November 22 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "November 23 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "November 13 2020, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "November 18 2020, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "November 11 2020, 17:00",
-                "end": "November 25 2020, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "November 11 2020, 17:00",
-                "end": "December 2 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "The Forgotten Dream Demons",
             "忘却の夢魔たち",
             "Yumekui Merry Finale Event"
@@ -219,6 +153,71 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Kuromon and the Giant Christmas Tree",
+            "クロモンと巨大なクリスマスツリー",
+            "Christmas 2020 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/vu2qnyP.png",
+            "https://i.imgur.com/7xooXMs.png",
+            "https://i.imgur.com/GW3clMu.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "December 11 2020, 12:00",
+                "end": "December 26 2020, 16:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "December 21 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "December 22 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "December 23 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "December 24 2020, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "December 13 2020, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "December 16 2020, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "December 11 2020, 12:00",
+                "end": "December 26 2020, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 11 2020, 12:00",
+                "end": "January 2 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Many Thanks!! Real Goods Lottery",
             "大感謝！！！リアルグッズ抽選会",
             "Obtain Lottery Tickets for a chance to win real prizes"
@@ -280,6 +279,35 @@ var timerData = [
                 "start": "November 25 2020, 17:00",
                 "end": "December 3 2020, 23:59",
                 "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kuromon and the Giant Christmas Tree Summon",
+            "クロモンと巨大なクリスマスツリーピックアップ召喚",
+            "Christmas 2020 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/vu2qnyP.png",
+            "https://i.imgur.com/7xooXMs.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 16:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Kurumi [Christmas], 5* Chiya [Christmas]",
+                        "time": "December 11 2020, 0:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -560,6 +588,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Christmas Limited-time Step-up Summon",
+            "期間限定クリスマス復刻おまけ付き10回召喚",
+            "Random 5* Summon Ticket on step 7"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Christmas characters from 2017, 2018 and 2019",
+                "start": "December 18 2020, 0:00",
+                "end": "December 24 2020, 11:59",
+                "extraPriority": 3,
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 18 2020, 0:00",
+                "end": "December 31 2020, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily Kira-Kira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -624,6 +678,24 @@ var timerData = [
                 name: "Period",
                 "start": "December 4 2020, 0:00",
                 "end": "December 10 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Christmas Login Bonus",
+            "クリスマスログインボーナス",
+            "Log in on Christmas for 1 Summon Ticket"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "December 25 2020, 0:00",
+                "end": "December 25 2020, 23:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -713,40 +785,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "November Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/Ga6cBj5.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "November 7 2020, 0:00",
-                end: "November 8 2020, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "November 14 2020, 0:00",
-                end: "November 15 2020, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "November 21 2020, 0:00",
-                end: "November 22 2020, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "November 7 2020, 0:00",
-                end: "December 4 2020, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "December Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -786,54 +824,32 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Past Summer Room Decorations",
-            "夏限定のルームアイテム"
+            "Limited Past Christmas Room Decorations",
+            "クリスマス限定ルームアイテム再登場"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "July 29 2020, 17:00",
-                "end": "August 27 2020, 15:59"
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 16:59"
             }
         ]
     },
     {
         type: "Other",
         title: [
-            "Pre-3rd Anniversary Sales",
-            "3周年直前セール"
+            "Christmas Item Shop Sale",
+            "クリスマス限定！アイテムショップに期間限定アイテム！"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "Special Gem Sets",
-                "start": "November 13 2020, 0:00",
-                "end": "December 3 2020, 23:59"
-            },
-            {
                 name: "Special Item Set",
-                "start": "November 13 2020, 0:00",
-                "end": "December 3 2020, 23:59",
-                "markers": [
-                    {
-                        "title": "Item Set 1",
-                        "time": "November 13 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Item Set 2",
-                        "time": "November 20 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Item Set 3",
-                        "time": "November 27 2020, 0:00",
-                        "type": "star"
-                    }
-                ]
+                "start": "December 18 2020, 0:00",
+                "end": "December 24 2020, 23:59"
             }
         ]
     },
