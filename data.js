@@ -241,6 +241,25 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Many Thanks!! Birthday Special Missions",
+            "大感謝！！！バースデー特別ミッション",
+            "Includes Daily Missions"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Special Missions",
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 23:59",
+                "extraPriority": 2
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "The Forgotten Dream Demons Summon",
@@ -259,27 +278,6 @@ var timerData = [
                 "start": "November 25 2020, 17:00",
                 "end": "December 10 2020, 11:59",
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Unite! Seven Sages Meeting Summon",
-            "結束せよ！七賢者会議ピックアップ召喚",
-            "Hakka Mini-Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/q17T0vS.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Hakka",
-                "start": "November 25 2020, 17:00",
-                "end": "December 3 2020, 23:59",
-                "extraPriority": 5
             }
         ]
     },
@@ -315,6 +313,60 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "3rd Anniversary Cross Chara Summon",
+            "3周年記念きららファンタジアクロスキャラ限定ピックアップ召喚",
+            "Cross Character Kirara & Lamp summon"
+        ],
+        "image": [
+            "https://i.imgur.com/qZ9cRi1.png",
+            "https://i.imgur.com/mVVLoKW.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2020, 0:00",
+                "end": "December 17 2020, 23:59",
+                "banners": [
+                    {
+                        "title": "Kirara Side",
+                        "desc": "Featuring 5* Kirara [Cross Chara]",
+                        "time": "December 11 2020, 0:00"
+                    },
+                    {
+                        "title": "Lamp Side",
+                        "desc": "Featuring 5* Lamp [Cross Chara]",
+                        "time": "December 11 2020, 0:00"
+                    }
+                ],
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara [Manga Ver.] Summon",
+            "きららファンタジア期間限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/GlCumbd.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Kirara [Manga Ver.]",
+                "start": "December 11 2020, 0:00",
+                "end": "December 17 2020, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Yumekui Merry Choosable 5* Summon Ticket",
             "夢喰いメリー★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
@@ -333,6 +385,30 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "November 25 2020, 17:00",
                 "end": "December 9 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Choosable Limited-time 5* Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable Limited-time 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                name: "Summon Period",
+                "start": "December 11 2020, 0:00",
+                "end": "December 11 2020, 23:59",
+                extraPriority: 9
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 11 2020, 0:00",
+                "end": "December 18 2020, 23:59"
             }
         ]
     },
@@ -381,54 +457,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "December 4 2020, 0:00",
                 "end": "December 13 2020, 23:59",
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "2020 Limited-time Step-up Summon Part 2",
-            "期間限定2020復刻 おまけ付き10回召喚・第2弾",
-            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 2020 Valentine, Tanabata and Swimsuit (First Half) characters ",
-                "start": "November 20 2020, 0:00",
-                "end": "November 26 2020, 23:59",
-                "extraPriority": 5,
-                "markers": [
-                    {
-                        "title": "Free Summon 1",
-                        "time": "November 20 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 2",
-                        "time": "November 21 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 3",
-                        "time": "November 22 2020, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 4",
-                        "time": "November 23 2020, 0:00",
-                        "type": "star"
-                    }
-                ]
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "November 20 2020, 0:00",
-                "end": "December 3 2020, 23:59"
             }
         ]
     },
@@ -531,7 +559,55 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Random 5* Summon Ticket",
+            "2019 Limited-time Step-up Summon",
+            "期間限定2019復刻 おまけ付き10回召喚",
+            "Up to 4 steps for free, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 2019 Limited-time characters (except Kirara [Manga ver.])",
+                "start": "December 11 2020, 0:00",
+                "end": "December 17 2020, 23:59",
+                "extraPriority": 5,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "December 11 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "December 12 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "December 13 2020, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "December 14 2020, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "December 11 2020, 0:00",
+                "end": "December 24 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Choosable 5* Summon Ticket",
             "★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
@@ -634,40 +710,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Pre-3rd Anniversary Login Bonus",
-            "3周年直前ログインボーナス",
-            "Log in on 14 days for up to 300 Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "November 11 2020, 17:00",
-                "end": "December 3 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "3rd Anniversary Fes. Login Bonus",
-            "3RD ANNIVERSARY FES.記念ログインボーナス",
-            "Log in on 3 days for up to 3 Summon Tickets"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "December 4 2020, 0:00",
-                "end": "December 6 2020, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Many Thanks!!! Countdown Login Bonus",
             "大感謝！！！カウントダウンログインボーナス",
             "Log in on 7 days for up to 231 Lottery Tickets"
@@ -679,6 +721,23 @@ var timerData = [
                 name: "Period",
                 "start": "December 4 2020, 0:00",
                 "end": "December 10 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Many Thanks!!! Special Login Bonus",
+            "大感謝！！！スペシャルログインボーナス",
+            "Log in on 14 days for up to 400 Free Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 23:59"
             }
         ]
     },
@@ -882,22 +941,22 @@ var timerData = [
                 name: "3rd Anniversary Gem Set with Special Call Ticket",
                 "start": "December 11 2020, 0:00",
                 "end": "December 26 2020, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "3rd Anniversary Fes Gem Set Sales",
-            "3RD ANNIVERSARY FES.記念星彩石セット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
+            },
             {
-                name: "Special Gem Sets",
-                "start": "December 4 2020, 0:00",
-                "end": "December 6 2020, 23:59"
+                name: "Extra Call Ticket",
+                "start": "December 11 2020, 0:00",
+                "end": "December 11 2020, 23:59",
+                "extraPriority": 5
+            },
+            {
+                name: "Limited-time 2019 5* Summon Ticket",
+                "start": "December 11 2020, 0:00",
+                "end": "December 17 2020, 23:59"
+            },
+            {
+                name: "Keyholder Introduction Set",
+                "start": "December 11 2020, 0:00",
+                "end": "December 26 2020, 16:59"
             }
         ]
     }
