@@ -161,6 +161,8 @@ var timerData = [
         "image": [
             "https://i.imgur.com/vu2qnyP.png",
             "https://i.imgur.com/7xooXMs.png",
+            "https://i.imgur.com/RGmIBoS.png",
+            "https://i.imgur.com/QehelsI.png",
             "https://i.imgur.com/GW3clMu.png"
         ],
         "column": 0,
@@ -290,7 +292,9 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/vu2qnyP.png",
-            "https://i.imgur.com/7xooXMs.png"
+            "https://i.imgur.com/7xooXMs.png",
+            "https://i.imgur.com/RGmIBoS.png",
+            "https://i.imgur.com/QehelsI.png"
         ],
         "column": 1,
         "priority": 1,
@@ -304,6 +308,11 @@ var timerData = [
                         "title": "Part 1",
                         "desc": "Featuring 5* Kurumi [Christmas], 5* Chiya [Christmas]",
                         "time": "December 11 2020, 0:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Aya [Christmas], 5* Mafuyu [Christmas]",
+                        "time": "December 15 2020, 0:00"
                     }
                 ],
                 "extraPriority": 6
