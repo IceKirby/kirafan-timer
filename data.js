@@ -326,6 +326,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Christmas Limited-time Step-up Summon",
+            "期間限定クリスマス復刻おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring Christmas characters from 2017~2019",
+                "start": "December 18 2020, 0:00",
+                "end": "December 24 2020, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 18 2020, 0:00",
+                "end": "December 31 2020, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara [Manga Ver.] Summon",
             "きららファンタジア期間限定復刻ピックアップ召喚"
         ],
