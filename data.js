@@ -325,6 +325,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "A-Channel Limited-time Summon",
+            "Aチャンネル期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/oNi8jED.png",
+            "https://i.imgur.com/uU5r0r4.png",
+            "https://i.imgur.com/sG4TkpC.png",
+            "https://i.imgur.com/rb9iuB6.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+             {
+                "name": "Featuring 5* Tooru [Christmas], 5* Run [New Year], 5* Yuuko [Swimsuit], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
+                "start": "December 18 2020, 0:00",
+                "end": "December 26 2020, 16:59",
+                "info": "Also 3* and 4* A-Channel characters",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "A-Channel Limited-time Choosable 5* Summon Ticket",
+            "Aチャンネル★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring A-Channel characters",
+                "start": "December 25 2020, 0:00",
+                "end": "December 31 2020, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 25 2020, 0:00",
+                "end": "January 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past Christmas Limited-time Step-up Summon",
             "期間限定クリスマス復刻おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th step"
