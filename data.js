@@ -339,8 +339,8 @@ var timerData = [
         "timers": [
              {
                 "name": "Featuring 5* Tooru [Christmas], 5* Run [New Year], 5* Yuuko [Swimsuit], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
-                "start": "December 18 2020, 0:00",
-                "end": "December 26 2020, 16:59",
+                "start": "December 25 2020, 0:00",
+                "end": "December 31 2020, 23:59",
                 "info": "Also 3* and 4* A-Channel characters",
                 "extraPriority": 4
             }
