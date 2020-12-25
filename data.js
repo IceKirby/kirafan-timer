@@ -36,70 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "The Forgotten Dream Demons",
-            "忘却の夢魔たち",
-            "Yumekui Merry Finale Event"
-        ],
-        "image": [
-            "https://i.imgur.com/0RtsIej.png",
-            "https://i.imgur.com/gam0KVd.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "November 25 2020, 17:00",
-                "end": "December 10 2020, 11:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "December 4 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "December 5 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "December 6 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "December 7 2020, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "November 27 2020, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "December 2 2020, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "November 25 2020, 17:00",
-                "end": "December 10 2020, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "November 25 2020, 17:00",
-                "end": "December 17 2020, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Kuromon and the Giant Christmas Tree",
             "クロモンと巨大なクリスマスツリー",
             "Christmas 2020 Event"
@@ -161,6 +97,90 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "December 11 2020, 12:00",
                 "end": "January 2 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "You are the star of the day! Everyone assemble, it's New Year's Party",
+            "本日の主役は君だ！新年会だョ全員集合",
+            "New Year 2021 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/f2NatnT.png",
+            "https://i.imgur.com/Nlzx9Vb.png",
+            "https://i.imgur.com/lAOiySf.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "December 26 2020, 17:00",
+                "end": "January 14 2021, 15:59",
+                "markers": [
+                    {
+                        "title": "Season 1",
+                        "time": "January 1 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "January 7 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "January 8 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "January 9 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "January 10 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "January 1 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "January 4 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "December 26 2020, 17:00",
+                "end": "January 14 2021, 23:59",
+                "markers": [
+                    {
+                        "title": "Mission Set 2",
+                        "time": "January 1 2021, 0:00",
+                        "type": "mission"
+                    }
+                ]
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 26 2020, 17:00",
+                "end": "January 21 2021, 13:59",
+                "markers": [
+                    {
+                        "title": "Part 2",
+                        "time": "January 1 2021, 0:00",
+                        "type": "star"
+                    }
+                ]
             }
         ]
     },
@@ -239,6 +259,28 @@ var timerData = [
                         "time": "December 15 2020, 0:00"
                     }
                 ],
+                "extraPriority": 6
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "You are the star of the day! Everyone assemble, it's New Year's Party Summon",
+            "本日の主役は君だ！新年会だョ全員集合ピックアップ召喚",
+            "New Year 2021 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/f2NatnT.png",
+            "https://i.imgur.com/Nlzx9Vb.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Kou [New Year], 5* Agiri [New Year]",
+                "start": "December 26 2020, 17:00",
+                "end": "January 14 2021, 15:59",
                 "extraPriority": 6
             }
         ]
@@ -716,6 +758,41 @@ var timerData = [
         ]
     },
     {
+        type: "Other",
+        title: [
+            "Year Out, Year In Login Bonus",
+            "ゆく年くる年ログインボーナス",
+            "Log in on 10 days for up to 200 Free Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "December 26 2020, 17:00",
+                "end": "January 1 2021, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New Year Gift Login Bonus",
+            "お年玉ログインボーナス",
+            "Log in on New Year day for 100 Free Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "January 1 2021, 0:00",
+                "end": "January 1 2021, 23:59",
+                extraPriority: 6
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "Ochikobore Fruit Tart participation Login Bonus",
@@ -840,16 +917,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Past Christmas Room Decorations",
-            "クリスマス限定ルームアイテム再登場"
+            "Limited Past New Year Room Decorations",
+            "お正月限定ルームアイテム再登場"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "December 11 2020, 0:00",
-                "end": "December 26 2020, 16:59"
+                "start": "January 1 2021, 0:00",
+                "end": "January 14 2021, 15:59"
             }
         ]
     },
@@ -929,6 +1006,33 @@ var timerData = [
                 name: "Gems and Item Sets",
                 "start": "December 18 2020, 0:00",
                 "end": "December 31 2020, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New year Sales",
+            "お正月特別セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "New Year Lucky Item Bag",
+                "start": "January 1 2021, 0:00",
+                "end": "January 14 2021, 15:59"
+            },
+            {
+                name: "Gems and Item Sets",
+                "start": "January 1 2021, 0:00",
+                "end": "January 14 2021, 15:59"
+            },
+            {
+                name: "Gem Set (New Year Day)",
+                "start": "January 1 2021, 0:00",
+                "end": "January 1 2021, 23:59",
+                extraPriority: 3
             }
         ]
     }
