@@ -121,7 +121,7 @@ var timerData = [
                 "end": "January 14 2021, 15:59",
                 "markers": [
                     {
-                        "title": "Season 1",
+                        "title": "Story Part 2 + Boss Quest",
                         "time": "January 1 2021, 0:00",
                         "type": "story"
                     },
@@ -144,11 +144,6 @@ var timerData = [
                         "title": "Extra Chapter 4",
                         "time": "January 10 2021, 0:00",
                         "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "January 1 2021, 0:00",
-                        "type": "battle"
                     },
                     {
                         "title": "EX Quest",
