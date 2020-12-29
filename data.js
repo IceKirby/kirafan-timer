@@ -110,6 +110,8 @@ var timerData = [
         "image": [
             "https://i.imgur.com/f2NatnT.png",
             "https://i.imgur.com/Nlzx9Vb.png",
+            "https://i.imgur.com/Bz1Mt8D.png",
+            "https://i.imgur.com/08MvKwR.png",
             "https://i.imgur.com/lAOiySf.png"
         ],
         "column": 0,
@@ -267,7 +269,9 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/f2NatnT.png",
-            "https://i.imgur.com/Nlzx9Vb.png"
+            "https://i.imgur.com/Nlzx9Vb.png",
+            "https://i.imgur.com/Bz1Mt8D.png",
+            "https://i.imgur.com/08MvKwR.png"
         ],
         "column": 1,
         "priority": 1,
@@ -281,6 +285,11 @@ var timerData = [
                         "title": "Part 1",
                         "desc": "Featuring 5* Kou [New Year], 5* Agiri [New Year]",
                         "time": "December 26 2020, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Youko [New Year], 5* Archive [New Year]",
+                        "time": "January 1 2021, 0:00"
                     }
                 ],
                 "extraPriority": 6
@@ -407,6 +416,52 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past New Year Limited-time Step-up Summon",
+            "期間限定お正月復刻おまけ付き10回召喚",
+            "Up to 4 Free Summons, Random 5* Summon Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring New Year characters from 2017~2020",
+                "start": "January 1 2021, 0:00",
+                "end": "January 14 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Free Summon 1",
+                        "time": "January 1 2021, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 2",
+                        "time": "January 2 2021, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 3",
+                        "time": "January 3 2021, 0:00",
+                        "type": "star"
+                    },
+                    {
+                        "title": "Free Summon 4",
+                        "time": "January 4 2021, 0:00",
+                        "type": "star"
+                    }
+                ]
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 18 2021, 0:00",
+                "end": "January 21 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Choosable 5* Summon Ticket",
             "★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
@@ -433,6 +488,32 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "December 4 2020, 0:00",
                 "end": "January 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "First Dream Choosable 4* & 5* Summon Ticket",
+            "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 4* & 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 1 2021, 0:00",
+                "end": "January 14 2021, 15:59",
+                "extraPriority": 3,
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "January 1 2021, 0:00",
+                "end": "January 21 2021, 23:59"
             }
         ]
     },
