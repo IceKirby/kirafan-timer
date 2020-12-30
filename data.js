@@ -798,6 +798,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "January Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/grVeHF1.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "January 2 2021, 0:00",
+                end: "January 3 2021, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "January 9 2021, 0:00",
+                end: "January 10 2021, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "January 16 2021, 0:00",
+                end: "January 17 2021, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "January 23 2021, 0:00",
+                end: "January 24 2021, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "January 30 2021, 0:00",
+                end: "January 31 2021, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "January 2 2021, 0:00",
+                end: "February 5 2021, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Past New Year Room Decorations",
