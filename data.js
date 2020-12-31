@@ -653,7 +653,7 @@ var timerData = [
             {
                 name: "Period",
                 "start": "December 26 2020, 17:00",
-                "end": "January 1 2021, 23:59"
+                "end": "January 10 2021, 23:59"
             }
         ]
     },
