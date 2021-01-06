@@ -231,6 +231,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Yuru Camp△ Random 5* Summon Ticket",
+            "ゆるキャン△★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
+                "start": "January 7 2021, 17:00",
+                "end": "January 14 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 7 2021, 17:00",
+                "end": "January 21 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past New Year Limited-time Step-up Summon",
             "期間限定お正月復刻おまけ付き10回召喚",
             "Up to 4 Free Summons, Random 5* Summon Ticket on 7th step"
