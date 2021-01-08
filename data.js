@@ -183,30 +183,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "A-Channel Limited-time Choosable 5* Summon Ticket",
-            "Aチャンネル★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring A-Channel characters",
-                "start": "December 25 2020, 0:00",
-                "end": "December 31 2020, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "December 25 2020, 0:00",
-                "end": "January 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Head Priest & Seven Sages Summon",
             "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -301,38 +277,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Choosable 5* Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "December 4 2020, 0:00",
-                "end": "December 10 2020, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Second Half",
-                "start": "December 11 2020, 0:00",
-                "end": "December 17 2020, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "December 4 2020, 0:00",
-                "end": "January 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "First Dream Choosable 4* & 5* Summon Ticket",
             "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 4* & 5* Summon Ticket"
@@ -359,8 +303,8 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "1100 Days Celebration Choosable 5* Summon Ticket",
-            "リリース1100日記念★5選べるチケット付き！有償限定10回召喚",
+            "Illustrations Choosable 5* Summon Ticket",
+            "イラストレーションズ★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
         "image": [
@@ -370,15 +314,41 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "December 18 2020, 0:00",
-                "end": "December 31 2020, 23:59",
+                "name": "Summon Period: Featuring characters in the Illustrations book cover",
+                "start": "January 12 2021, 0:00",
+                "end": "January 19 2021, 23:59",
                 "extraPriority": 3,
             },
             {
                 name: "Ticket Expiration",
-                "start": "December 18 2020, 0:00",
-                "end": "January 7 2021, 23:59"
+                "start": "January 12 2021, 0:00",
+                "end": "January 26 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Illustrations Limited-time Choosable 5* Summon Ticket",
+            "イラストレーションズ期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Limited-time characters in the Illustrations book cover",
+                "start": "January 12 2021, 0:00",
+                "end": "January 19 2021, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "January 12 2021, 0:00",
+                "end": "January 26 2021, 23:59"
             }
         ]
     },
