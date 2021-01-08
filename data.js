@@ -507,5 +507,21 @@ var timerData = [
                 extraPriority: 3
             }
         ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Illustrations Book Celebration Sales",
+            "イラスト集発売記念お得な星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "January 12 2021, 0:00",
+                "end": "January 19 2021, 23:59"
+            }
+        ]
     }
 ];
