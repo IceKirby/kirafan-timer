@@ -19,7 +19,7 @@ Vue.component("ev-charicon", {
         tip: function() {
             return `${this.data.rarity}★ ${this.data.name}<br>
             ${this.cap(this.data.element)} ${this.cap(this.data.job)}<br>
-            ${this.data.series}`
+            ${this.data.series}`;
         }
     },
     methods: {
@@ -55,10 +55,15 @@ Vue.component("ev-content-dates", {
 
 Vue.component("date-timer", {
     props: ["timer"],
-    template: `<div class='date-timer text-white' :class='{ \"bg-success\": timer.progress > 0, \"bg-danger\": timer.progress >= 100 }' v-tooltip:top='replaceStars(timer.name)' v-html='timer.displayMode == \"japan\" ? timer.dateDisplay.jpstart : timer.dateDisplay.localstart'></div>`,
+    template: `<div class='date-timer text-white' :class='{ \"bg-success\": timer.progress > 0, \"bg-danger\": timer.progress >= 100 }' v-tooltip:top='replaceStars(timer.name)' v-html='startTime'></div>`,
     methods: {
         replaceStars: function(str) {
             return Vue.filter('addStars')(str);
+        }
+    },
+    computed: {
+        startTime: function() {
+            return this.timer.displayMode == "japan" ? this.timer.dateDisplay.jpstart : this.timer.dateDisplay.localstart;
         }
     }
 });
@@ -141,10 +146,18 @@ Vue.component("summon-banner", {
 Vue.component("timer-bar", {
     props: ["timer"],
     template: `<div class='bar timerbar'>
-        <bar-badge :class='{ \"badge-success\": timer.progress > 0 }' :tip='timer.dateDisplay.badgeStart' v-html='timer.dateDisplay.jpstart'></bar-badge>
+        <bar-badge :class='{ \"badge-success\": timer.progress > 0 }' :tip='timer.dateDisplay.badgeStart' v-html='startTime'></bar-badge>
         <bar-progress v-bind:timer='timer'></bar-progress>
-        <bar-badge :class='{ \"badge-danger\": timer.progress >= 100 }' :tip='timer.dateDisplay.badgeEnd' v-html='timer.dateDisplay.jpend'></bar-badge>
-    </div>`
+        <bar-badge :class='{ \"badge-danger\": timer.progress >= 100 }' :tip='timer.dateDisplay.badgeEnd' v-html='endTime'></bar-badge>
+    </div>`,
+    computed: {
+        startTime: function() {
+            return this.timer.displayMode == "japan" ? this.timer.dateDisplay.jpstart : this.timer.dateDisplay.localstart;
+        },
+        endTime: function() {
+            return this.timer.displayMode == "japan" ? this.timer.dateDisplay.jpend : this.timer.dateDisplay.localend;
+        }
+    }
 });
 
 Vue.component("bar-badge", {
