@@ -265,7 +265,7 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "January 16 2021, 0:00",
+                "start": "January 14 2021, 17:00",
                 "end": "January 27 2021, 15:59",
                 "banners": [
                     {
