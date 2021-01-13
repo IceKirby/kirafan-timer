@@ -146,6 +146,72 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Space Alien Game",
+            "スペースエイリアンゲーム",
+            "Stella no Mahou x Acchi Kocchi x Harumination Event"
+        ],
+        "image": [
+            "https://i.imgur.com/QbxKOU5.png",
+            "https://i.imgur.com/PT00ZP6.png",
+            "https://i.imgur.com/z1lpb8s.png",
+            "https://i.imgur.com/afnpmfU.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "January 14 2021, 17:00",
+                "end": "January 27 2021, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "January 22 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "January 23 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "January 24 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "January 25 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "January 16 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "January 20 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "January 14 2021, 17:00",
+                "end": "January 27 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 14 2021, 17:00",
+                "end": "February 3 2021, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "You are the star of the day! Everyone assemble, it's New Year's Party Summon",
@@ -175,6 +241,42 @@ var timerData = [
                         "title": "Part 2",
                         "desc": "Featuring 5* Youko [New Year], 5* Archive [New Year]",
                         "time": "January 1 2021, 0:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Space Alien Game Summon",
+            "スペースエイリアンゲームピックアップ召喚",
+            "Stella no Mahou x Acchi Kocchi x Harumination Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/QbxKOU5.png",
+            "https://i.imgur.com/PT00ZP6.png",
+            "https://i.imgur.com/z1lpb8s.png",
+            "https://i.imgur.com/afnpmfU.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 16 2021, 0:00",
+                "end": "January 27 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "First Half",
+                        "desc": "Featuring 5* Murakami Shiina, 4* Murakami Shiina, 4* Sakamoto Kaju",
+                        "time": "January 14 2021, 17:00"
+                    },
+                    {
+                        "title": "Second Half",
+                        "desc": "Featuring 5* Katase Mayoi, 4* Takahashi Yuki",
+                        "time": "January 16 2021, 0:00"
                     }
                 ],
                 "extraPriority": 6
@@ -217,15 +319,26 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
+                "name": "Part 1: Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
                 "start": "January 7 2021, 17:00",
                 "end": "January 14 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
+                "start": "January 14 2021, 17:00",
+                "end": "January 21 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
                 "start": "January 7 2021, 17:00",
                 "end": "January 21 2021, 23:59"
+            },
+            {
+                "name": "Ticket Expiration (Part 2)",
+                "start": "January 14 2021, 17:00",
+                "end": "January 28 2021, 23:59"
             }
         ]
     },
