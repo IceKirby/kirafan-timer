@@ -310,6 +310,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "3 Series Limited-time Summon",
+            "3作品のキャラ期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/cARwZ1w.png",
+            "https://i.imgur.com/ZHss1j7.png",
+            "https://i.imgur.com/HHUYAtG.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Shiina [Valentine], 5* Hosono Harumi, 5* Miniwa Tsumiki, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
+                "start": "January 20 2021, 17:00",
+                "end": "January 27 2021, 15:59",
+                "info": "Also featuring 4* and 3* characters from Stella no Mahou and 4* characters from Acchi Kocchi",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Yuru Camp△ Random 5* Summon Ticket",
             "ゆるキャン△★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
