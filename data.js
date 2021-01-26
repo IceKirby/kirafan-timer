@@ -36,117 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "You are the star of the day! Everyone assemble, it's New Year's Party",
-            "本日の主役は君だ！新年会だョ全員集合",
-            "New Year 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/f2NatnT.png",
-            "https://i.imgur.com/Nlzx9Vb.png",
-            "https://i.imgur.com/Bz1Mt8D.png",
-            "https://i.imgur.com/08MvKwR.png",
-            "https://i.imgur.com/lAOiySf.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "December 26 2020, 17:00",
-                "end": "January 14 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Story Part 2 + Boss Quest",
-                        "time": "January 1 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "January 7 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "January 8 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "January 9 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "January 10 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "January 4 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "December 26 2020, 17:00",
-                "end": "January 14 2021, 23:59",
-                "markers": [
-                    {
-                        "title": "Mission Set 2",
-                        "time": "January 1 2021, 0:00",
-                        "type": "mission"
-                    }
-                ]
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 26 2020, 17:00",
-                "end": "January 21 2021, 13:59",
-                "markers": [
-                    {
-                        "title": "Part 2",
-                        "time": "January 1 2021, 0:00",
-                        "type": "star"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "New Year! Training Support Campaign",
-            "新春！育成応援キャンペーン"
-        ],
-        "image": [
-            "https://i.imgur.com/M8g8EKu.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Farming & Melee Quest",
-                "start": "January 7 2021, 0:00",
-                "end": "January 14 2021, 15:59",
-                "extraPriority": 3
-            },
-            {
-                "name": "Missions",
-                "start": "January 7 2021, 0:00",
-                "end": "January 14 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 7 2021, 0:00",
-                "end": "January 21 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Space Alien Game",
             "スペースエイリアンゲーム",
             "Stella no Mahou x Acchi Kocchi x Harumination Event"
@@ -211,38 +100,67 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "You are the star of the day! Everyone assemble, it's New Year's Party Summon",
-            "本日の主役は君だ！新年会だョ全員集合ピックアップ召喚",
-            "New Year 2021 Event summon"
+            "Otherworldly Manjuus and the Darkness Looming over Etowaria",
+            "異世界饅頭とエトワリアに迫る闇",
+            "Yuyushiki x Urara Meirochou x Koufuku Grafitti Event"
         ],
         "image": [
-            "https://i.imgur.com/f2NatnT.png",
-            "https://i.imgur.com/Nlzx9Vb.png",
-            "https://i.imgur.com/Bz1Mt8D.png",
-            "https://i.imgur.com/08MvKwR.png"
+            "https://i.imgur.com/43mmgxV.png",
+            "https://i.imgur.com/mmd82Yy.png",
+            "https://i.imgur.com/PTzVudQ.png"
         ],
-        "column": 1,
-        "priority": 1,
+        "column": 0,
+        "priority": 2,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "December 26 2020, 17:00",
-                "end": "January 14 2021, 15:59",
-                "banners": [
+                "name": "Main Event",
+                "start": "January 27 2021, 17:00",
+                "end": "February 10 2021, 15:59",
+                "markers": [
                     {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Kou [New Year], 5* Agiri [New Year]",
-                        "time": "December 26 2020, 17:00"
+                        "title": "Extra Chapter 1",
+                        "time": "February 5 2021, 0:00",
+                        "type": "story"
                     },
                     {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Youko [New Year], 5* Archive [New Year]",
-                        "time": "January 1 2021, 0:00"
+                        "title": "Extra Chapter 2",
+                        "time": "February 6 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "February 7 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "February 8 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "January 29 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "February 3 2021, 17:00",
+                        "type": "battle"
                     }
                 ],
-                "extraPriority": 6
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "January 27 2021, 17:00",
+                "end": "February 10 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 27 2021, 17:00",
+                "end": "February 17 2021, 13:59"
             }
         ]
     },
@@ -285,8 +203,71 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Head Priest & Seven Sages Summon",
-            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "Otherworldly Manjuus and the Darkness Looming over Etowaria Summon",
+            "異世界饅頭とエトワリアに迫る闇ピックアップ召喚",
+            "Yuyushiki x Urara Meirochou x Koufuku Grafitti Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/43mmgxV.png",
+            "https://i.imgur.com/mmd82Yy.png",
+            "https://i.imgur.com/PTzVudQ.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 27 2021, 17:00",
+                "end": "February 10 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Fumio side",
+                        "desc": "Featuring 5* Hasegawa Fumi, 4* Hasegawa Fumi",
+                        "time": "January 27 2021, 17:00"
+                    },
+                    {
+                        "title": "Nina side",
+                        "desc": "Featuring 5* Natsume Nina, 4* Natsume Nina",
+                        "time": "January 27 2021, 17:00"
+                    },
+                    {
+                        "title": "Shiina side",
+                        "desc": "Featuring 5* Shiina",
+                        "time": "January 27 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Yuyushiki & Urara Meirochou & Koufuku Grafiti Limited-time SUmmon",
+            "ゆゆ式＆うらら迷路帖＆幸腹グラフィティ期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/TUeKAOV.png",
+            "https://i.imgur.com/nEjElJT.png",
+            "https://i.imgur.com/qVPJifk.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Yukari [Swimsuit], 5* Kon [Swimsuit], 5* Ryou [Swimsuit], 4* Nono [Halloween]",
+                "start": "January 27 2021, 17:00",
+                "end": "February 3 2021, 16:59",
+                "info": "Also 4* and 3* characters from Yuyushiki and Urara Meirochou, 4* characters from Koufuku Grafitti",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Magazine-specific Limited-time Paid Summon",
+            "雑誌別期間限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
         "image": "clea",
@@ -294,15 +275,52 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring Christmas characters from 2017~2019",
-                "start": "January 7 2021, 0:00",
-                "end": "January 14 2021, 15:59",
+                "name": "Kirara & Miracle: Featuring Limited-time characters from Manga Time Kirara & Miracle magazines",
+                "start": "January 27 2021, 17:00",
+                "end": "February 7 2021, 23:59",
                 "extraPriority": 4
             },
             {
-                "name": "Ticket Expiration",
-                "start": "January 7 2021, 0:00",
-                "end": "January 21 2021, 23:59"
+                "name": "Ticket Expiration (Kirara & Miracle)",
+                "start": "January 27 2021, 17:00",
+                "end": "February 14 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Magazine-specific Summon Renewal Celebration Free Summon",
+            "雑誌別召喚リニューアル記念無料１０回召喚",
+            "One free 10x Summon on each Magazine-specific banner"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring Limited-time characters from Manga Time Kirara & Miracle magazines",
+                "start": "February 1 2021, 0:00",
+                "end": "February 1 2021, 23:59",
+                "extraPriority": 7
+            },
+            {
+                "name": "Featuring Limited-time characters from Manga Time Kirara MAX magazine",
+                "start": "February 8 2021, 0:00",
+                "end": "February 8 2021, 23:59",
+                "extraPriority": 7
+            },
+            {
+                "name": "Featuring Limited-time characters from Manga Time Kirara Forward magazine",
+                "start": "February 15 2021, 0:00",
+                "end": "February 15 2021, 23:59",
+                "extraPriority": 7
+            },
+            {
+                "name": "Featuring Limited-time characters from Manga Time Kirara Carat magazine",
+                "start": "February 22 2021, 0:00",
+                "end": "February 22 2021, 23:59",
+                "extraPriority": 7
             }
         ]
     },
@@ -361,78 +379,6 @@ var timerData = [
                 "name": "Ticket Expiration (Part 2)",
                 "start": "January 14 2021, 17:00",
                 "end": "January 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past New Year Limited-time Step-up Summon",
-            "期間限定お正月復刻おまけ付き10回召喚",
-            "Up to 4 Free Summons, Random 5* Summon Ticket on 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring New Year characters from 2017~2020",
-                "start": "January 1 2021, 0:00",
-                "end": "January 14 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Free Summon 1",
-                        "time": "January 1 2021, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 2",
-                        "time": "January 2 2021, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 3",
-                        "time": "January 3 2021, 0:00",
-                        "type": "star"
-                    },
-                    {
-                        "title": "Free Summon 4",
-                        "time": "January 4 2021, 0:00",
-                        "type": "star"
-                    }
-                ]
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 18 2021, 0:00",
-                "end": "January 21 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "First Dream Choosable 4* & 5* Summon Ticket",
-            "★5＆★4選べるチケット付き！初夢有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 4* & 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 1 2021, 0:00",
-                "end": "January 14 2021, 15:59",
-                "extraPriority": 3,
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "January 1 2021, 0:00",
-                "end": "January 21 2021, 23:59"
             }
         ]
     },
@@ -501,8 +447,8 @@ var timerData = [
         "timers": [
             {
                 "name": "Includes only characters that appear in the current event's story, including limited-time ones",
-                "start": "October 21 2020, 0:00",
-                "end": "October 27 2020, 15:59",
+                "start": "January 27 2021, 17:00",
+                "end": "February 3 2021, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -620,27 +566,36 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "New year Sales",
-            "お正月特別セール"
+            "Magazine-specific Summon Renewal Celebration Sales",
+            "雑誌別召喚リニューアル記念セール"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "New Year Lucky Item Bag",
-                "start": "January 1 2021, 0:00",
-                "end": "January 14 2021, 15:59"
+                name: "4 Magazines 5* Ticket Set",
+                "start": "January 27 2021, 17:00",
+                "end": "February 28 2021, 23:59"
             },
             {
-                name: "Gems and Item Sets",
-                "start": "January 1 2021, 0:00",
-                "end": "January 14 2021, 15:59"
+                name: "Gems Set (Set 1)",
+                "start": "January 27 2021, 17:00",
+                "end": "February 7 2021, 23:59"
             },
             {
-                name: "Gem Set (New Year Day)",
-                "start": "January 1 2021, 0:00",
-                "end": "January 1 2021, 23:59",
-                extraPriority: 3
+                name: "Gems Set (Set 2)",
+                "start": "February 8 2021, 17:00",
+                "end": "February 14 2021, 23:59"
+            },
+            {
+                name: "Gems Set (Set 3)",
+                "start": "February 15 2021, 17:00",
+                "end": "February 721 2021, 23:59"
+            },
+            {
+                name: "Gems Set (Set 4)",
+                "start": "February 22 2021, 17:00",
+                "end": "February 28 2021, 23:59"
             }
         ]
     },
