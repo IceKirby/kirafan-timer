@@ -120,12 +120,12 @@ Vue.component("summon-banner", {
     props: ["banner"],
     template: `<div class='summon-banner' :class='{ visible: visible }'>
         <div class='label' :class='{ hascards: banner.cards }' v-on:click='toggleVisibility()'>
-            <span><span class="toggle-icon"></span>{{banner.title}}<span v-if='banner.desc'>: {{banner.desc}}</span></span>
+            <span><span class="toggle-icon"></span>{{ replaceStars(banner.title) }}<span v-if='banner.desc'>: {{ replaceStars(banner.desc) }}</span></span>
         </div>
         <transition-collapse-height>
             <div class='banner-cards' v-show='visible'>
                 <ev-charicon v-for='(card, index) in banner.cards' :data='card'></ev-charicon>
-                <span class='banner-info' v-if='banner.info'>{{ banner.info | replaceStars }}</span>
+                <span class='banner-info' v-if='banner.info'>{{ replaceStars(banner.info) }}</span>
             </div>
         </transition-collapse-height>
     </div>`,
