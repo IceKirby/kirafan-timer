@@ -350,6 +350,58 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Mage-only Step-up Summon",
+            "期間限定まほうつかいおまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th Step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Chiya, 5* Sakuranomiya Maika, 5* Mafuyu [Christmas], 5* Shima Rin, 5* Aoi [Swimsuit], 5* Chino, 5* Momo [Christmas], 5* Mikan [Swimsuit]",
+                "start": "February 3 2021, 17:00",
+                "end": "February 10 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "February 3 2021, 17:00",
+                "end": "February 17 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Mage-only Paid Summon",
+            "期間限定まほうつかい★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Mafuyu [Christmas], 5* Aoi [Swimsuit], 5* Momo [Christmas], 5* Mikan [Swimsuit]",
+                "start": "February 3 2021, 17:00",
+                "end": "February 10 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "February 3 2021, 17:00",
+                "end": "February 17 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Yuru Camp△ Random 5* Summon Ticket",
             "ゆるキャン△★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
