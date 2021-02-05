@@ -284,6 +284,17 @@ var timerData = [
                 "name": "Ticket Expiration (Kirara & Miracle)",
                 "start": "January 27 2021, 17:00",
                 "end": "February 14 2021, 23:59"
+            },
+            {
+                "name": "Kirara MAX: Featuring Limited-time characters from Manga Time Kirara MAX magazine",
+                "start": "February 8 2021, 0:00",
+                "end": "February 14 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration (Kirara MAX)",
+                "start": "February 8 2021, 0:00",
+                "end": "February 21 2021, 23:59"
             }
         ]
     },
