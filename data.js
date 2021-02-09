@@ -27,75 +27,9 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "January 27 2021, 16:00",
-                end: "January 27 2021, 17:00",
+                start: "February 10 2021, 16:00",
+                end: "February 10 2021, 17:00",
                 keepAfterFinished: "30 minutes"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Space Alien Game",
-            "スペースエイリアンゲーム",
-            "Stella no Mahou x Acchi Kocchi x Harumination Event"
-        ],
-        "image": [
-            "https://i.imgur.com/QbxKOU5.png",
-            "https://i.imgur.com/PT00ZP6.png",
-            "https://i.imgur.com/z1lpb8s.png",
-            "https://i.imgur.com/afnpmfU.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "January 14 2021, 17:00",
-                "end": "January 27 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "January 22 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "January 23 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "January 24 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "January 25 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "January 16 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "January 20 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "January 14 2021, 17:00",
-                "end": "January 27 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 14 2021, 17:00",
-                "end": "February 3 2021, 13:59"
             }
         ]
     },
@@ -164,39 +98,68 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Gacha",
+     {
+        "type": "Event",
         "title": [
-            "Space Alien Game Summon",
-            "スペースエイリアンゲームピックアップ召喚",
-            "Stella no Mahou x Acchi Kocchi x Harumination Event summon"
+            "Valentine's Choco Battle of Love",
+            "愛のバレンタインチョコバトル",
+            "Valentine 2021 Event"
         ],
         "image": [
-            "https://i.imgur.com/QbxKOU5.png",
-            "https://i.imgur.com/PT00ZP6.png",
-            "https://i.imgur.com/z1lpb8s.png",
-            "https://i.imgur.com/afnpmfU.png"
+            "https://i.imgur.com/we9l3xs.png",
+            "https://i.imgur.com/4BOgSDI.png",
+            "https://i.imgur.com/wzpAkPK.png"
         ],
-        "column": 1,
-        "priority": 1,
+        "column": 0,
+        "priority": 2,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "January 14 2021, 17:00",
-                "end": "January 27 2021, 15:59",
-                "banners": [
+                "name": "Main Event",
+                "start": "February 10 2021, 17:00",
+                "end": "March 15 2021, 15:59",
+                "markers": [
                     {
-                        "title": "First Half",
-                        "desc": "Featuring 5* Murakami Shiina, 4* Murakami Shiina, 4* Sakamoto Kaju",
-                        "time": "January 14 2021, 17:00"
+                        "title": "Extra Chapter 1",
+                        "time": "February 21 2021, 0:00",
+                        "type": "story"
                     },
                     {
-                        "title": "Second Half",
-                        "desc": "Featuring 5* Katase Mayoi, 4* Takahashi Yuki",
-                        "time": "January 16 2021, 0:00"
+                        "title": "Extra Chapter 2",
+                        "time": "February 22 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "February 23 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "February 24 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "February 12 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "February 17 2021, 17:00",
+                        "type": "battle"
                     }
                 ],
-                "extraPriority": 6
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "February 10 2021, 17:00",
+                "end": "March 15 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "February 10 2021, 17:00",
+                "end": "March 22 2021, 13:59"
             }
         ]
     },
@@ -243,23 +206,29 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Yuyushiki & Urara Meirochou & Koufuku Grafiti Limited-time SUmmon",
-            "ゆゆ式＆うらら迷路帖＆幸腹グラフィティ期間限定特別セレクション召喚"
+            "Valentine's Choco Battle of Love Summon",
+            "愛のバレンタインチョコバトルピックアップ召喚",
+            "Valentine 2021 Event summon"
         ],
         "image": [
-            "https://i.imgur.com/TUeKAOV.png",
-            "https://i.imgur.com/nEjElJT.png",
-            "https://i.imgur.com/qVPJifk.png"
+            "https://i.imgur.com/we9l3xs.png",
+            "https://i.imgur.com/4BOgSDI.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yukari [Swimsuit], 5* Kon [Swimsuit], 5* Ryou [Swimsuit], 4* Nono [Halloween]",
-                "start": "January 27 2021, 17:00",
-                "end": "February 3 2021, 16:59",
-                "info": "Also 4* and 3* characters from Yuyushiki and Urara Meirochou, 4* characters from Koufuku Grafitti",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "February 10 2021, 17:00",
+                "end": "March 15 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Kotone [Valentine], 5* Sugar [Valentine]",
+                        "time": "February 10 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -338,22 +307,23 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "3 Series Limited-time Summon",
-            "3作品のキャラ期間限定特別セレクション召喚"
+            "4 Series Limited-time Summon",
+            "4作品のキャラ期間限定特別セレクション召喚"
         ],
         "image": [
-            "https://i.imgur.com/cARwZ1w.png",
-            "https://i.imgur.com/ZHss1j7.png",
-            "https://i.imgur.com/HHUYAtG.png"
+            "https://i.imgur.com/xVjdAjD.png",
+            "https://i.imgur.com/1mxS1rN.png",
+            "https://i.imgur.com/ZoLq5uH.png",
+            "https://i.imgur.com/K8sBE1T.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Shiina [Valentine], 5* Hosono Harumi, 5* Miniwa Tsumiki, 4* Tamaki [Christmas], 4* Yumine [Swimsuit]",
-                "start": "January 20 2021, 17:00",
-                "end": "January 27 2021, 15:59",
-                "info": "Also featuring 4* and 3* characters from Stella no Mahou and 4* characters from Acchi Kocchi",
+                "name": "Part 1: Featuring 5* Haruka [Swimsuit], 5* Nadeshiko [Swimsuit], 5* Kotetsu [Christmas], 5* Konohata Mira, 4* Kotone [Swimsuit]",
+                "start": "February 10 2021, 17:00",
+                "end": "February 17 2021, 16:59",
+                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuri Asteroid",
                 "extraPriority": 4
             }
         ]
@@ -387,6 +357,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Valentine Limited-time Step-up Summon",
+            "期間限定バレンタイン復刻おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th Step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring Valentine characters from 2018~2020",
+                "start": "February 10 2021, 17:00",
+                "end": "February 17 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "February 10 2021, 17:00",
+                "end": "February 24 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Limited-time Mage-only Paid Summon",
             "期間限定まほうつかい★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -413,87 +409,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Yuru Camp△ Random 5* Summon Ticket",
-            "ゆるキャン△★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+            "Head Priest & Seven Sages Random Summon Ticket",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
-        "image": "clea",
+        "image": [
+            "clea"
+        ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
-                "start": "January 7 2021, 17:00",
-                "end": "January 14 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Part 2: Featuring 5* [Traveler of the Wasteland] Rin, 5* Nadeshiko [Swimsuit], 5* Aoi [Swimsuit], 5* Ena [Tanabata]",
-                "start": "January 14 2021, 17:00",
-                "end": "January 21 2021, 16:59",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "February 10 2021, 17:00",
+                "end": "February 17 2021, 23:59",
+                "extraPriority": 3,
             },
             {
                 "name": "Ticket Expiration",
-                "start": "January 7 2021, 17:00",
-                "end": "January 21 2021, 23:59"
-            },
-            {
-                "name": "Ticket Expiration (Part 2)",
-                "start": "January 14 2021, 17:00",
-                "end": "January 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Illustrations Choosable 5* Summon Ticket",
-            "イラストレーションズ★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring characters in the Illustrations book cover",
-                "start": "January 12 2021, 0:00",
-                "end": "January 19 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "January 12 2021, 0:00",
-                "end": "January 26 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Illustrations Limited-time Choosable 5* Summon Ticket",
-            "イラストレーションズ期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Limited-time characters in the Illustrations book cover",
-                "start": "January 12 2021, 0:00",
-                "end": "January 19 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                name: "Ticket Expiration",
-                "start": "January 12 2021, 0:00",
-                "end": "January 26 2021, 23:59"
+                "start": "February 10 2021, 17:00",
+                "end": "February 24 2021, 23:59"
             }
         ]
     },
@@ -519,8 +454,8 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Year Out, Year In Login Bonus",
-            "ゆく年くる年ログインボーナス",
+            "Valentine Login Bonus",
+            "バレンタインログインボーナス",
             "Log in on 10 days for up to 200 Free Gems"
         ],
         image: "lamp",
@@ -528,8 +463,8 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                "start": "December 26 2020, 17:00",
-                "end": "January 10 2021, 23:59"
+                "start": "February 17 2021, 17:00",
+                "end": "February 26 2021, 23:59"
             }
         ]
     },
@@ -563,50 +498,6 @@ var timerData = [
                 name: "Period",
                 "start": "December 4 2020, 0:00",
                 "end": "December 26 2020, 16:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "January Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/grVeHF1.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "January 2 2021, 0:00",
-                end: "January 3 2021, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "January 9 2021, 0:00",
-                end: "January 10 2021, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "January 16 2021, 0:00",
-                end: "January 17 2021, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "January 23 2021, 0:00",
-                end: "January 24 2021, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "January 30 2021, 0:00",
-                end: "January 31 2021, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "January 2 2021, 0:00",
-                end: "February 5 2021, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
             }
         ]
     },
@@ -652,16 +543,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Past New Year Room Decorations",
-            "お正月限定ルームアイテム再登場"
+            "Limited Past Valentine Room Decorations",
+            "バレンタイン限定ルームアイテム再登場"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "January 1 2021, 0:00",
-                "end": "January 14 2021, 15:59"
+                "start": "February 10 2021, 0:00",
+                "end": "February 26 2021, 15:59"
             }
         ]
     },
@@ -704,16 +595,26 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Illustrations Book Celebration Sales",
-            "イラスト集発売記念お得な星彩石セット販売"
+            "Valentine Special Sets Sale",
+            "バレンタインお得なセット販売"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
                 name: "Gem Sets",
-                "start": "January 12 2021, 0:00",
-                "end": "January 19 2021, 23:59"
+                "start": "February 10 2021, 17:00",
+                "end": "February 26 2021, 15:59"
+            },
+            {
+                name: "Ticket Sets",
+                "start": "February 10 2021, 17:00",
+                "end": "February 17 2021, 16:59"
+            },
+            {
+                name: "Training Support Sets",
+                "start": "February 10 2021, 17:00",
+                "end": "February 26 2021, 15:59"
             }
         ]
     }
