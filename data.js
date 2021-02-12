@@ -108,6 +108,8 @@ var timerData = [
         "image": [
             "https://i.imgur.com/we9l3xs.png",
             "https://i.imgur.com/4BOgSDI.png",
+            "https://i.imgur.com/7sVsaau.png",
+            "https://i.imgur.com/wrh7zAE.png",
             "https://i.imgur.com/wzpAkPK.png"
         ],
         "column": 0,
@@ -166,53 +168,15 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Otherworldly Manjuus and the Darkness Looming over Etowaria Summon",
-            "異世界饅頭とエトワリアに迫る闇ピックアップ召喚",
-            "Yuyushiki x Urara Meirochou x Koufuku Grafitti Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/43mmgxV.png",
-            "https://i.imgur.com/mmd82Yy.png",
-            "https://i.imgur.com/PTzVudQ.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 27 2021, 17:00",
-                "end": "February 10 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Fumio side",
-                        "desc": "Featuring 5* Hasegawa Fumi, 4* Hasegawa Fumi",
-                        "time": "January 27 2021, 17:00"
-                    },
-                    {
-                        "title": "Nina side",
-                        "desc": "Featuring 5* Natsume Nina, 4* Natsume Nina",
-                        "time": "January 27 2021, 17:00"
-                    },
-                    {
-                        "title": "Shiina side",
-                        "desc": "Featuring 5* Shiina",
-                        "time": "January 27 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Valentine's Choco Battle of Love Summon",
             "愛のバレンタインチョコバトルピックアップ召喚",
             "Valentine 2021 Event summon"
         ],
         "image": [
             "https://i.imgur.com/we9l3xs.png",
-            "https://i.imgur.com/4BOgSDI.png"
+            "https://i.imgur.com/4BOgSDI.png",
+            "https://i.imgur.com/7sVsaau.png",
+            "https://i.imgur.com/wrh7zAE.png"
         ],
         "column": 1,
         "priority": 1,
@@ -226,6 +190,11 @@ var timerData = [
                         "title": "Part 1",
                         "desc": "Featuring 5* Kotone [Valentine], 5* Sugar [Valentine]",
                         "time": "February 10 2021, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Nadeshiko [Valentine], 5* Mira [Valentine]",
+                        "time": "February 14 2021, 0:00"
                     }
                 ],
                 "extraPriority": 6
@@ -264,6 +233,17 @@ var timerData = [
                 "name": "Ticket Expiration (Kirara MAX)",
                 "start": "February 8 2021, 0:00",
                 "end": "February 21 2021, 23:59"
+            },
+            {
+                "name": "Kirara Forward: Featuring Limited-time characters from Manga Time Kirara Forward magazine",
+                "start": "February 15 2021, 0:00",
+                "end": "February 21 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration (Kirara Forward)",
+                "start": "February 15 2021, 0:00",
+                "end": "February 28 2021, 23:59"
             }
         ]
     },
