@@ -204,6 +204,28 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara Fantasia Limited-time Summon",
+            "きららファンタジア期間限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/3S3mJMJ.png",
+            "https://i.imgur.com/h5nyvXy.png",
+            "https://i.imgur.com/isRiWF6.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Polka, 5* Cork, 5* Cork [Maid]",
+                "start": "February 17 2021, 17:00",
+                "end": "February 22 2021, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Magazine-specific Limited-time Paid Summon",
             "雑誌別期間限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -425,8 +447,8 @@ var timerData = [
         "timers": [
             {
                 "name": "Includes only characters that appear in the current event's story, including limited-time ones",
-                "start": "January 27 2021, 17:00",
-                "end": "February 3 2021, 23:59",
+                "start": "February 18 2021, 0:00",
+                "end": "February 25 2021, 23:59",
                 "extraPriority": 4
             }
         ]
