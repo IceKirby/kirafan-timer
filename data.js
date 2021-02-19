@@ -210,7 +210,10 @@ var timerData = [
         "image": [
             "https://i.imgur.com/3S3mJMJ.png",
             "https://i.imgur.com/h5nyvXy.png",
-            "https://i.imgur.com/isRiWF6.png"
+            "https://i.imgur.com/isRiWF6.png",
+            "https://i.imgur.com/g7N8bFW.png",
+            "https://i.imgur.com/AbLuqgK.png",
+            "https://i.imgur.com/X2otlyy.png"
         ],
         "column": 1,
         "priority": 1,
@@ -220,6 +223,11 @@ var timerData = [
                 "start": "February 17 2021, 17:00",
                 "end": "February 22 2021, 16:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring 5* Clea [Doll's Festival], 5* Kanna, 5* Leine",
+                "start": "February 22 2021, 17:00",
+                "end": "February 26 2021, 15:59"
             }
         ]
     },
@@ -266,6 +274,17 @@ var timerData = [
                 "name": "Ticket Expiration (Kirara Forward)",
                 "start": "February 15 2021, 0:00",
                 "end": "February 28 2021, 23:59"
+            },
+            {
+                "name": "Kirara Carat: Featuring Limited-time characters from Manga Time Kirara Carat magazine",
+                "start": "February 22 2021, 0:00",
+                "end": "February 28 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration (Kirara Carat)",
+                "start": "February 22 2021, 0:00",
+                "end": "March 7 2021, 23:59"
             }
         ]
     },
