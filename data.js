@@ -36,71 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Otherworldly Manjuus and the Darkness Looming over Etowaria",
-            "異世界饅頭とエトワリアに迫る闇",
-            "Yuyushiki x Urara Meirochou x Koufuku Grafitti Event"
-        ],
-        "image": [
-            "https://i.imgur.com/43mmgxV.png",
-            "https://i.imgur.com/mmd82Yy.png",
-            "https://i.imgur.com/PTzVudQ.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "January 27 2021, 17:00",
-                "end": "February 10 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "February 5 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "February 6 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "February 7 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "February 8 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "January 29 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "February 3 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "January 27 2021, 17:00",
-                "end": "February 10 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 27 2021, 17:00",
-                "end": "February 17 2021, 13:59"
-            }
-        ]
-    },
-     {
-        "type": "Event",
-        "title": [
             "Valentine's Choco Battle of Love",
             "愛のバレンタインチョコバトル",
             "Valentine 2021 Event"
@@ -166,6 +101,83 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Revenge of White Day Coliseum",
+            "復讐のホワイトデーコロシアム",
+            "White Day 2021 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/LXqeOUx.png",
+            "https://i.imgur.com/rCmqPXg.png",
+            "https://i.imgur.com/7WAy4Ms.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "February 26 2021, 17:00",
+                "end": "March 15 2021, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "March 8 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "March 9 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "March 10 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "March 11 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "February 28 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "March 3 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Super EX Quest",
+                        "time": "March 5 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "February 26 2021, 17:00",
+                "end": "March 15 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "February 26 2021, 17:00",
+                "end": "March 22 2021, 13:59",
+                "markers": [
+                    {
+                        "title": "Part 2",
+                        "time": "March 5 2021, 17:00",
+                        "type": "star"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Valentine's Choco Battle of Love Summon",
@@ -197,6 +209,28 @@ var timerData = [
                         "time": "February 14 2021, 0:00"
                     }
                 ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Revenge of White Day Coliseum Summon",
+            "復讐のホワイトデーコロシアムピックアップ召喚",
+            "White Day 2021 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/LXqeOUx.png",
+            "https://i.imgur.com/rCmqPXg.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Kana [White Day], 5* Salt [White Day]",
+                "start": "February 26 2021, 17:00",
+                "end": "March 15 2021, 15:59",
                 "extraPriority": 6
             }
         ]
@@ -291,43 +325,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Magazine-specific Summon Renewal Celebration Free Summon",
-            "雑誌別召喚リニューアル記念無料１０回召喚",
-            "One free 10x Summon on each Magazine-specific banner"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring Limited-time characters from Manga Time Kirara & Miracle magazines",
-                "start": "February 1 2021, 0:00",
-                "end": "February 1 2021, 23:59",
-                "extraPriority": 7
-            },
-            {
-                "name": "Featuring Limited-time characters from Manga Time Kirara MAX magazine",
-                "start": "February 8 2021, 0:00",
-                "end": "February 8 2021, 23:59",
-                "extraPriority": 7
-            },
-            {
-                "name": "Featuring Limited-time characters from Manga Time Kirara Forward magazine",
-                "start": "February 15 2021, 0:00",
-                "end": "February 15 2021, 23:59",
-                "extraPriority": 7
-            },
-            {
-                "name": "Featuring Limited-time characters from Manga Time Kirara Carat magazine",
-                "start": "February 22 2021, 0:00",
-                "end": "February 22 2021, 23:59",
-                "extraPriority": 7
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "4 Series Limited-time Summon",
             "4作品のキャラ期間限定特別セレクション召喚"
         ],
@@ -344,16 +341,23 @@ var timerData = [
                 "name": "Part 1: Featuring 5* Haruka [Swimsuit], 5* Nadeshiko [Swimsuit], 5* Kotetsu [Christmas], 5* Konohata Mira, 4* Kotone [Swimsuit]",
                 "start": "February 10 2021, 17:00",
                 "end": "February 17 2021, 16:59",
-                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuri Asteroid",
+                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuru Asteroid",
                 "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring 5* Shizuku [Swimsuit], 5* Rin [Traveler of the Wasteland], 5* Hizume [Maid], 5* Konohata Mira, 4* Kotone [Swimsuit]",
+                "start": "February 26 2021, 17:00",
+                "end": "March 5 2021, 16:59",
+                "extraPriority": 4,
+                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuru Asteroid",
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Mage-only Step-up Summon",
-            "期間限定まほうつかいおまけ付き10回召喚",
+            "Limited-time Past Hinamatsuri Step-up Summon",
+            "期間限定ひな祭り復刻おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th Step"
         ],
         "image": [
@@ -363,67 +367,15 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Chiya, 5* Sakuranomiya Maika, 5* Mafuyu [Christmas], 5* Shima Rin, 5* Aoi [Swimsuit], 5* Chino, 5* Momo [Christmas], 5* Mikan [Swimsuit]",
-                "start": "February 3 2021, 17:00",
-                "end": "February 10 2021, 15:59",
+                "name": "Featuring 5* Yun [Doll's Festival], 5* Hideri [Doll's Festival], 5* Isana [Doll's Festival], 5* Shion [Doll's Festival], 5* Clea [Doll's Festival], 4* Maika [Doll's Festival]",
+                "start": "February 26 2021, 17:00",
+                "end": "March 5 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 3 2021, 17:00",
-                "end": "February 17 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Valentine Limited-time Step-up Summon",
-            "期間限定バレンタイン復刻おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th Step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring Valentine characters from 2018~2020",
-                "start": "February 10 2021, 17:00",
-                "end": "February 17 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "February 10 2021, 17:00",
-                "end": "February 24 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Mage-only Paid Summon",
-            "期間限定まほうつかい★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Mafuyu [Christmas], 5* Aoi [Swimsuit], 5* Momo [Christmas], 5* Mikan [Swimsuit]",
-                "start": "February 3 2021, 17:00",
-                "end": "February 10 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "February 3 2021, 17:00",
-                "end": "February 17 2021, 23:59"
+                "start": "February 26 2021, 17:00",
+                "end": "March 12 2021, 23:59"
             }
         ]
     },
@@ -486,6 +438,23 @@ var timerData = [
                 name: "Period",
                 "start": "February 17 2021, 17:00",
                 "end": "February 26 2021, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "White Day Login Bonus",
+            "ホワイトデーログインボーナス",
+            "Log in on 10 days for up to 200 Free Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "February 26 2021, 17:00",
+                "end": "March 15 2021, 23:59"
             }
         ]
     },
@@ -580,6 +549,22 @@ var timerData = [
     {
         type: "Other",
         title: [
+            "Limited Past Hinamatsuri Room Decorations",
+            "ひな祭り限定ルームアイテム再登場"
+        ],
+        image: "kanna",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "February 26 2021, 17:00",
+                "end": "March 5 2021, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
             "Magazine-specific Summon Renewal Celebration Sales",
             "雑誌別召喚リニューアル記念セール"
         ],
@@ -636,6 +621,54 @@ var timerData = [
                 name: "Training Support Sets",
                 "start": "February 10 2021, 17:00",
                 "end": "February 26 2021, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Hinamatsuri Special Set Sale",
+            "ひな祭りお得なセット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Past Hinamatsuri 5* Limited-time Summon Ticket",
+                "start": "February 26 2021, 17:00",
+                "end": "March 5 2021, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "White Day Gem Sets Sale",
+            "ホワイトデーお得なセット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "February 26 2021, 17:00",
+                "end": "March 15 2021, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Super EX Quest Support Campaign",
+            "【超高難易度】クエスト攻略応援キャンペーン"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Item & Exchange Shop Sets",
+                "start": "March 5 2021, 17:00",
+                "end": "March 15 2021, 15:59"
             }
         ]
     }
