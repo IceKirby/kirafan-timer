@@ -107,9 +107,11 @@ var timerData = [
             "復讐のホワイトデーコロシアム",
             "White Day 2021 Event"
         ],
-        "image": [
+         "image": [
             "https://i.imgur.com/LXqeOUx.png",
             "https://i.imgur.com/rCmqPXg.png",
+            "https://i.imgur.com/NqslP1v.png",
+            "https://i.imgur.com/rwSNrdc.png",
             "https://i.imgur.com/7WAy4Ms.png"
         ],
         "column": 0,
@@ -222,15 +224,29 @@ var timerData = [
         ],
         "image": [
             "https://i.imgur.com/LXqeOUx.png",
-            "https://i.imgur.com/rCmqPXg.png"
+            "https://i.imgur.com/rCmqPXg.png",
+            "https://i.imgur.com/NqslP1v.png",
+            "https://i.imgur.com/rwSNrdc.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* Kana [White Day], 5* Salt [White Day]",
+                "name": "Summon Period",
                 "start": "February 26 2021, 17:00",
                 "end": "March 15 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Kana [White Day], 5* Salt [White Day]",
+                        "time": "February 26 2021, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Rin [White Day], 5* Ao [White Day]",
+                        "time": "March 1 2021, 0:00"
+                    }
+                ],
                 "extraPriority": 6
             }
         ]
@@ -525,6 +541,45 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "February 6 2021, 0:00",
                 end: "March 5 2021, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "March Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/pHHkOxE.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "March 6 2021, 0:00",
+                end: "March 7 2021, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "March 13 2021, 0:00",
+                end: "March 14 2021, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "March 20 2021, 0:00",
+                end: "March 21 2021, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "March 27 2021, 0:00",
+                end: "March 28 2021, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "March 6 2021, 0:00",
+                end: "April 2 2021, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
             }
