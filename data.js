@@ -284,6 +284,58 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Super EX Quest Support Step-up Summon",
+            "超高難易度クエスト攻略応援おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Tooru [Christmas], 5* Chiya [Christmas], 5* Koume [Valentine], 5* Omi [New Year], 5* Tachibana Isana, 5* Moeta Kaoruko, 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit], 4* Nozaki Namiko, 4* Sakamoto Kaju, 4* Takahashi Yuki",
+                "start": "March 5 2021, 17:00",
+                "end": "March 15 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 5 2021, 17:00",
+                "end": "March 22 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Super EX Quest Support Summon Ticket",
+            "超高難易度クエスト攻略応援おまけ付き10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Tooru [Christmas], 5* Chiya [Christmas], 5* Koume [Valentine], 5* Omi [New Year], 5* Tachibana Isana, 5* Moeta Kaoruko, 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
+                "start": "March 5 2021, 17:00",
+                "end": "March 15 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 5 2021, 17:00",
+                "end": "March 22 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Magazine-specific Limited-time Paid Summon",
             "雑誌別期間限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
