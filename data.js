@@ -336,6 +336,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Main Quest Part 2 Revival Limited-time Summon",
+            "きららファンタジア第2部限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/Sx6OnNj.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Lilith [Part 2]",
+                "start": "March 8 2021, 0:00",
+                "end": "March 15 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Magazine-specific Limited-time Paid Summon",
             "雑誌別期間限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
