@@ -566,55 +566,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Part 1 (Normal Mode) Half Stamina Campaign",
-            "メインクエスト第1部スタミナ半減キャンペーン",
+            "Main Quest Part 2 Chapter 1 Half Stamina Campaign",
+            "メインクエスト第2部1章スタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "December 4 2020, 0:00",
-                "end": "December 26 2020, 16:59"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
-            "February Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/h56WXgA.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "February 6 2021, 0:00",
-                end: "February 7 2021, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "February 13 2021, 0:00",
-                end: "February 14 2021, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "February 20 2021, 0:00",
-                end: "February 21 2021, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "February 27 2021, 0:00",
-                end: "February 28 2021, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "February 6 2021, 0:00",
-                end: "March 5 2021, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
+                "start": "March 8 2021, 0:00",
+                "end": "March 23 2021, 23:59"
             }
         ]
     },
