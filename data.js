@@ -183,7 +183,7 @@ var timerData = [
      {
         "type": "Event",
         "title": [
-            "Witch of the Lamp Magical Tooru",
+            "Witch of the Lamp Magical Toorun",
             "ランプの魔女 マジカルトオルン",
             "A-Channel Finale Event"
         ],
@@ -318,7 +318,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Witch of the Lamp Magical Tooru Summon",
+            "Witch of the Lamp Magical Toorun Summon",
             "ランプの魔女 マジカルトオルンピックアップ召喚",
             "A-Channel Finale Event summon"
         ],
