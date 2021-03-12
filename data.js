@@ -19,7 +19,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation"
+            "Summon Renovation",
+            "Version 3.0.3 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -27,8 +28,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "February 26 2021, 16:00",
-                end: "February 26 2021, 17:00",
+                start: "March 15 2021, 16:00",
+                end: "March 15 2021, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -179,6 +180,69 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Event",
+        "title": [
+            "Witch of the Lamp Magical Tooru",
+            "ランプの魔女 マジカルトオルン",
+            "A-Channel Finale Event"
+        ],
+        "image": [
+            "https://i.imgur.com/aBY0ath.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "March 16 2021, 12:00",
+                "end": "March 31 2021, 15:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "March 25 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "March 26 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "March 27 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "March 28 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "March 18 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "March 22 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "March 16 2021, 12:00",
+                "end": "March 31 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 16 2021, 12:00",
+                "end": "April 7 2021, 13:59"
+            }
+        ]
+    },
     {
         "type": "Gacha",
         "title": [
@@ -254,30 +318,97 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Limited-time Summon",
-            "きららファンタジア期間限定ピックアップ召喚"
+            "Witch of the Lamp Magical Tooru Summon",
+            "ランプの魔女 マジカルトオルンピックアップ召喚",
+            "A-Channel Finale Event summon"
         ],
         "image": [
-            "https://i.imgur.com/3S3mJMJ.png",
-            "https://i.imgur.com/h5nyvXy.png",
-            "https://i.imgur.com/isRiWF6.png",
-            "https://i.imgur.com/g7N8bFW.png",
-            "https://i.imgur.com/AbLuqgK.png",
-            "https://i.imgur.com/X2otlyy.png"
+            "https://i.imgur.com/aBY0ath.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* Polka, 5* Cork, 5* Cork [Maid]",
-                "start": "February 17 2021, 17:00",
-                "end": "February 22 2021, 16:59",
+                "name": "Event Summon: Featuring 5* Tooru",
+                "start": "March 16 2021, 12:00",
+                "end": "March 31 2021, 15:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "A-Channel Limited-time Summon",
+            "Aチャンネル期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/u0MAehu.png",
+            "https://i.imgur.com/Td6Wr2T.png",
+            "https://i.imgur.com/ue2bu9S.png",
+            "https://i.imgur.com/heRurYS.png",
+            "https://i.imgur.com/nXcOM37.png",
+            "https://i.imgur.com/QN4csuI.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 16 2021, 12:00",
+                "end": "March 23 2021, 16:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Tooru [Christmas], 5* Yuuko [Swimsuit], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
+                        "time": "March 16 2021, 12:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Run [New Year], 5* Yuuko [Christmas], 5* Yutaka [Maid], 4* Tooru [Swimsuit], 4* Run [Christmas]",
+                        "time": "March 16 2021, 12:00"
+                    }
+                ],
+                "extraPriority": 4,
+                "info": "Also 3* and 4* characters from A-Channel"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "A-Channel Limited-time 5* Summon TIcket",
+            "Aチャンネル★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 16 2021, 12:00",
+                "end": "March 23 2021, 16:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Tooru, 5* Tooru [Christmas], 5* Run, 5* Run [New Year]",
+                        "time": "March 16 2021, 12:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Yuuko, 5* Yuuko [Christmas], 5* Yuuko [Swimsuit], 5* Nagi, 5* Yutaka [Maid]",
+                        "time": "March 16 2021, 12:00"
+                    }
+                ],
                 "extraPriority": 4
             },
             {
-                "name": "Part 2: Featuring 5* Clea [Doll's Festival], 5* Kanna, 5* Leine",
-                "start": "February 22 2021, 17:00",
-                "end": "February 26 2021, 15:59"
+                "name": "Ticket Expiration",
+                "start": "March 16 2021, 12:00",
+                "end": "March 30 2021, 23:59",
             }
         ]
     },
@@ -356,94 +487,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Magazine-specific Limited-time Paid Summon",
-            "雑誌別期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Kirara & Miracle: Featuring Limited-time characters from Manga Time Kirara & Miracle magazines",
-                "start": "January 27 2021, 17:00",
-                "end": "February 7 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration (Kirara & Miracle)",
-                "start": "January 27 2021, 17:00",
-                "end": "February 14 2021, 23:59"
-            },
-            {
-                "name": "Kirara MAX: Featuring Limited-time characters from Manga Time Kirara MAX magazine",
-                "start": "February 8 2021, 0:00",
-                "end": "February 14 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration (Kirara MAX)",
-                "start": "February 8 2021, 0:00",
-                "end": "February 21 2021, 23:59"
-            },
-            {
-                "name": "Kirara Forward: Featuring Limited-time characters from Manga Time Kirara Forward magazine",
-                "start": "February 15 2021, 0:00",
-                "end": "February 21 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration (Kirara Forward)",
-                "start": "February 15 2021, 0:00",
-                "end": "February 28 2021, 23:59"
-            },
-            {
-                "name": "Kirara Carat: Featuring Limited-time characters from Manga Time Kirara Carat magazine",
-                "start": "February 22 2021, 0:00",
-                "end": "February 28 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration (Kirara Carat)",
-                "start": "February 22 2021, 0:00",
-                "end": "March 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "4 Series Limited-time Summon",
-            "4作品のキャラ期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/xVjdAjD.png",
-            "https://i.imgur.com/1mxS1rN.png",
-            "https://i.imgur.com/ZoLq5uH.png",
-            "https://i.imgur.com/K8sBE1T.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5* Haruka [Swimsuit], 5* Nadeshiko [Swimsuit], 5* Kotetsu [Christmas], 5* Konohata Mira, 4* Kotone [Swimsuit]",
-                "start": "February 10 2021, 17:00",
-                "end": "February 17 2021, 16:59",
-                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuru Asteroid",
-                "extraPriority": 4
-            },
-            {
-                "name": "Part 2: Featuring 5* Shizuku [Swimsuit], 5* Rin [Traveler of the Wasteland], 5* Hizume [Maid], 5* Konohata Mira, 4* Kotone [Swimsuit]",
-                "start": "February 26 2021, 17:00",
-                "end": "March 5 2021, 16:59",
-                "extraPriority": 4,
-                "info": "Also 4* and 3* characters from Sakura Trick, 4* characters from Yuru Camp△, Anima Yell! and Koisuru Asteroid",
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Limited-time Past Hinamatsuri Step-up Summon",
             "期間限定ひな祭り復刻おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th Step"
@@ -509,23 +552,6 @@ var timerData = [
                 "start": "February 18 2021, 0:00",
                 "end": "February 25 2021, 23:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Valentine Login Bonus",
-            "バレンタインログインボーナス",
-            "Log in on 10 days for up to 200 Free Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "February 17 2021, 17:00",
-                "end": "February 26 2021, 23:59"
             }
         ]
     },
@@ -621,22 +647,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Past Valentine Room Decorations",
-            "バレンタイン限定ルームアイテム再登場"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "February 10 2021, 0:00",
-                "end": "February 26 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Limited Past Hinamatsuri Room Decorations",
             "ひな祭り限定ルームアイテム再登場"
         ],
@@ -645,84 +655,6 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                "start": "February 26 2021, 17:00",
-                "end": "March 5 2021, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Magazine-specific Summon Renewal Celebration Sales",
-            "雑誌別召喚リニューアル記念セール"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "4 Magazines 5* Ticket Set",
-                "start": "January 27 2021, 17:00",
-                "end": "February 28 2021, 23:59"
-            },
-            {
-                name: "Gems Set (Set 1)",
-                "start": "January 27 2021, 17:00",
-                "end": "February 7 2021, 23:59"
-            },
-            {
-                name: "Gems Set (Set 2)",
-                "start": "February 8 2021, 17:00",
-                "end": "February 14 2021, 23:59"
-            },
-            {
-                name: "Gems Set (Set 3)",
-                "start": "February 15 2021, 17:00",
-                "end": "February 721 2021, 23:59"
-            },
-            {
-                name: "Gems Set (Set 4)",
-                "start": "February 22 2021, 17:00",
-                "end": "February 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Valentine Special Sets Sale",
-            "バレンタインお得なセット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Gem Sets",
-                "start": "February 10 2021, 17:00",
-                "end": "February 26 2021, 15:59"
-            },
-            {
-                name: "Ticket Sets",
-                "start": "February 10 2021, 17:00",
-                "end": "February 17 2021, 16:59"
-            },
-            {
-                name: "Training Support Sets",
-                "start": "February 10 2021, 17:00",
-                "end": "February 26 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Hinamatsuri Special Set Sale",
-            "ひな祭りお得なセット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Past Hinamatsuri 5* Limited-time Summon Ticket",
                 "start": "February 26 2021, 17:00",
                 "end": "March 5 2021, 16:59"
             }
