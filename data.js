@@ -180,7 +180,7 @@ var timerData = [
             }
         ]
     },
-     {
+    {
         "type": "Event",
         "title": [
             "Witch of the Lamp Magical Toorun",
@@ -240,6 +240,26 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "March 16 2021, 12:00",
                 "end": "April 7 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Main Quest Part 2 Chapter 2 Special Missions",
+            "メインクエスト第2部2章追加記念 期間限定ミッション"
+        ],
+        "image": [
+            "match"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "March 15 2021, 17:00",
+                "end": "March 31 2021, 23:59",
+                "extraPriority": 2
             }
         ]
     },
@@ -539,19 +559,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Daily Kira-Kira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
+            "New OP Movie Celebration Daily KiraKira Summon",
+            "新OP公開記念！1日1回期間限定きらきら召喚・特装版",
+            "40 Paid Gems once per day for 3 summons, all 4* or above",
+            "Summon 6 times for a Random 5* Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Includes only characters that appear in the current event's story, including limited-time ones",
-                "start": "February 18 2021, 0:00",
-                "end": "February 25 2021, 23:59",
-                "extraPriority": 4
+                "name": "Featuring characters from series that appear in the new OP Movie",
+                "start": "March 16 2021, 0:00",
+                "end": "March 23 2021, 23:59",
+                "extraPriority": 4,
+                "info": "Series included: Kill me Baby, Blend-S, Slow Start, Yuru Camp△, Comic Girls, K-ON!, Gochuumon wa Usagi Desu ka?, GA Geijutsuka Art Design Class and Machikado Mazoku"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 16 2021, 0:00",
+                "end": "March 30 2021, 23:59"
             }
         ]
     },
@@ -602,6 +629,22 @@ var timerData = [
                 name: "Period",
                 "start": "March 8 2021, 0:00",
                 "end": "March 23 2021, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Main Quest Part 1 Chapter 1~Epilogue Half Stamina Campaign",
+            "メインクエスト第1部スタミナ半減キャンペーン",
+        ],
+        image: "match",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "March 15 2021, 17:00",
+                "end": "March 31 2021, 15:59"
             }
         ]
     },
@@ -689,6 +732,22 @@ var timerData = [
                 name: "Item & Exchange Shop Sets",
                 "start": "March 5 2021, 17:00",
                 "end": "March 15 2021, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "New OP Movie Celebration Gem Set",
+            "アニメーション映像公開記念！星彩石2,000個セット販売！"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "March 16 2021, 0:00",
+                "end": "March 31 2021, 15:59"
             }
         ]
     }
