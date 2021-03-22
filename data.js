@@ -266,78 +266,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Valentine's Choco Battle of Love Summon",
-            "愛のバレンタインチョコバトルピックアップ召喚",
-            "Valentine 2021 Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/we9l3xs.png",
-            "https://i.imgur.com/4BOgSDI.png",
-            "https://i.imgur.com/7sVsaau.png",
-            "https://i.imgur.com/wrh7zAE.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "February 10 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Kotone [Valentine], 5* Sugar [Valentine]",
-                        "time": "February 10 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Nadeshiko [Valentine], 5* Mira [Valentine]",
-                        "time": "February 14 2021, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Revenge of White Day Coliseum Summon",
-            "復讐のホワイトデーコロシアムピックアップ召喚",
-            "White Day 2021 Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/LXqeOUx.png",
-            "https://i.imgur.com/rCmqPXg.png",
-            "https://i.imgur.com/NqslP1v.png",
-            "https://i.imgur.com/rwSNrdc.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "February 26 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Kana [White Day], 5* Salt [White Day]",
-                        "time": "February 26 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Rin [White Day], 5* Ao [White Day]",
-                        "time": "March 1 2021, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Witch of the Lamp Magical Toorun Summon",
             "ランプの魔女 マジカルトオルンピックアップ召喚",
             "A-Channel Finale Event summon"
@@ -435,6 +363,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara Fantasia Severed Bonds Chapter 2 Limited-time SUmmon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/qxHmx7n.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Featuring 5* Fennel [Part 2]",
+                "start": "March 24 2021, 0:00",
+                "end": "March 31 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Super EX Quest Support Step-up Summon",
             "超高難易度クエスト攻略応援おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th step"
@@ -487,29 +435,9 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Revival Limited-time Summon",
-            "きららファンタジア第2部限定復刻ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/Sx6OnNj.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Lilith [Part 2]",
-                "start": "March 8 2021, 0:00",
-                "end": "March 15 2021, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Past Hinamatsuri Step-up Summon",
-            "期間限定ひな祭り復刻おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th Step"
+            "1200 Days Celebration Choosable 5* Summon Ticket",
+            "リリース1200日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
         ],
         "image": [
             "clea"
@@ -518,15 +446,15 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yun [Doll's Festival], 5* Hideri [Doll's Festival], 5* Isana [Doll's Festival], 5* Shion [Doll's Festival], 5* Clea [Doll's Festival], 4* Maika [Doll's Festival]",
-                "start": "February 26 2021, 17:00",
-                "end": "March 5 2021, 16:59",
+                "name": "Summon Period",
+                "start": "March 24 2021, 0:00",
+                "end": "April 6 2021, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 26 2021, 17:00",
-                "end": "March 12 2021, 23:59"
+                "start": "March 24 2021, 0:00",
+                "end": "April 13 2021, 23:59"
             }
         ]
     },
@@ -545,14 +473,40 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "February 10 2021, 17:00",
-                "end": "February 17 2021, 23:59",
+                "start": "March 24 2021, 0:00",
+                "end": "March 31 2021, 15:59",
                 "extraPriority": 3,
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 10 2021, 17:00",
-                "end": "February 24 2021, 23:59"
+                "start": "March 24 2021, 0:00",
+                "end": "April 7 2021, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Random 5* Summon Ticket",
+            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Lamp [Swimsuit], 5* Lamp [Tanabata], 5* Clea [Doll's Festival], 5* Cork [Maid], 5* Archive [New Year]",
+                "start": "March 24 2021, 0:00",
+                "end": "March 31 2021, 15:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 24 2021, 0:00",
+                "end": "April 7 2021, 23:59",
             }
         ]
     },
@@ -585,17 +539,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "White Day Login Bonus",
-            "ホワイトデーログインボーナス",
-            "Log in on 10 days for up to 200 Free Gems"
+            "1200 Days Celebration Login Bonus",
+            "1200日記念ログインボーナス",
+            "Log in on 10 days for up to 300 Free Gems"
         ],
         image: "lamp",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "February 26 2021, 17:00",
-                "end": "March 15 2021, 23:59"
+                "start": "March 24 2021, 0:00",
+                "end": "April 6 2021, 23:59"
             }
         ]
     },
@@ -706,32 +660,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "White Day Gem Sets Sale",
-            "ホワイトデーお得なセット販売"
+            "1200 Days Celebration Sale",
+            "1200日記念お得なセット販売"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "Gem Sets",
-                "start": "February 26 2021, 17:00",
-                "end": "March 15 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Super EX Quest Support Campaign",
-            "【超高難易度】クエスト攻略応援キャンペーン"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Item & Exchange Shop Sets",
-                "start": "March 5 2021, 17:00",
-                "end": "March 15 2021, 15:59"
+                name: "Gem & Item Sets",
+                "start": "March 24 2021, 0:00",
+                "end": "April 6 2021, 23:59"
             }
         ]
     },
@@ -747,6 +685,22 @@ var timerData = [
             {
                 name: "Gem Sets",
                 "start": "March 16 2021, 0:00",
+                "end": "March 31 2021, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Main Quest Part 2 Chapter 2 Celebration Gem Set",
+            "メインクエスト第2部2章追加記念！星彩石2,000個セット販売!"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "March 24 2021, 0:00",
                 "end": "March 31 2021, 15:59"
             }
         ]
