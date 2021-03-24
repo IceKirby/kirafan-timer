@@ -383,6 +383,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kiniro Mosaic Limited-time 5* Summon Ticket",
+            "きんいろモザイク★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 26 2021, 0:00",
+                "end": "April 2 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 26 2021, 0:00",
+                "end": "April 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Super EX Quest Support Step-up Summon",
             "超高難易度クエスト攻略応援おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th step"
