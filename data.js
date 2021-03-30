@@ -524,7 +524,7 @@ var timerData = [
             "Fight a boss every weekend",
             "Receive Challenge Medals"
         ],
-        image: "https://i.imgur.com/pHHkOxE.png",
+        image: "https://i.imgur.com/EcVglFg.png",
         column: 2,
         timers: [
             {
