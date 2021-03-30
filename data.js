@@ -36,152 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Valentine's Choco Battle of Love",
-            "愛のバレンタインチョコバトル",
-            "Valentine 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/we9l3xs.png",
-            "https://i.imgur.com/4BOgSDI.png",
-            "https://i.imgur.com/7sVsaau.png",
-            "https://i.imgur.com/wrh7zAE.png",
-            "https://i.imgur.com/wzpAkPK.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "February 10 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "February 21 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "February 22 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "February 23 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "February 24 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "February 12 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "February 17 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "February 10 2021, 17:00",
-                "end": "March 15 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 10 2021, 17:00",
-                "end": "March 22 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Revenge of White Day Coliseum",
-            "復讐のホワイトデーコロシアム",
-            "White Day 2021 Event"
-        ],
-         "image": [
-            "https://i.imgur.com/LXqeOUx.png",
-            "https://i.imgur.com/rCmqPXg.png",
-            "https://i.imgur.com/NqslP1v.png",
-            "https://i.imgur.com/rwSNrdc.png",
-            "https://i.imgur.com/7WAy4Ms.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "February 26 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "March 8 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "March 9 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "March 10 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "March 11 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "February 28 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "March 3 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Super EX Quest",
-                        "time": "March 5 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "February 26 2021, 17:00",
-                "end": "March 15 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 26 2021, 17:00",
-                "end": "March 22 2021, 13:59",
-                "markers": [
-                    {
-                        "title": "Part 2",
-                        "time": "March 5 2021, 17:00",
-                        "type": "star"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Witch of the Lamp Magical Toorun",
             "ランプの魔女 マジカルトオルン",
             "A-Channel Finale Event"
@@ -242,6 +96,73 @@ var timerData = [
             }
         ]
     },
+     {
+        "type": "Event",
+        "title": [
+            "Etowaria's Steamy Casefiles: The Ghost Cat Inn and the Hot Spring of Silver Vine",
+            "エトワリア湯煙事件録-化猫旅館と木天蓼の湯-",
+            "Hot Spring Event"
+        ],
+        "image": [
+            "https://i.imgur.com/Ke9BSm0.png",
+            "https://i.imgur.com/sRrmDoU.png",
+            "https://i.imgur.com/yRWe3uK.png",
+            "https://i.imgur.com/VlaPH0L.png",
+            "https://i.imgur.com/ucQAvoX.png"
+        ],
+        "column": 0,
+        "priority": 2,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "March 31 2021, 17:00",
+                "end": "April 14 2021, 16:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "April 10 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "April 11 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "April 12 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "April 13 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "April 2 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "April 7 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "March 31 2021, 17:00",
+                "end": "April 14 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 31 2021, 17:00",
+                "end": "April 21 2021, 13:59"
+            }
+        ]
+    },
     {
         "type": "Mission",
         "title": [
@@ -286,38 +207,36 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "A-Channel Limited-time Summon",
-            "Aチャンネル期間限定特別セレクション召喚"
+            "Etowaria's Steamy Casefiles: The Ghost Cat Inn and the Hot Spring of Silver Vine Summon",
+            "エトワリア湯煙事件録-化猫旅館と木天蓼の湯-ピックアップ召喚",
+            "Hot Spring Event summon"
         ],
         "image": [
-            "https://i.imgur.com/u0MAehu.png",
-            "https://i.imgur.com/Td6Wr2T.png",
-            "https://i.imgur.com/ue2bu9S.png",
-            "https://i.imgur.com/heRurYS.png",
-            "https://i.imgur.com/nXcOM37.png",
-            "https://i.imgur.com/QN4csuI.png"
+            "https://i.imgur.com/Ke9BSm0.png",
+            "https://i.imgur.com/sRrmDoU.png",
+            "https://i.imgur.com/yRWe3uK.png",
+            "https://i.imgur.com/VlaPH0L.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "March 16 2021, 12:00",
-                "end": "March 23 2021, 16:59",
+                "start": "March 31 2021, 17:00",
+                "end": "April 14 2021, 16:59",
                 "banners": [
                     {
                         "title": "Part 1",
-                        "desc": "Featuring 5* Tooru [Christmas], 5* Yuuko [Swimsuit], 5* Nagi, 4* Tooru [Swimsuit], 4* Run [Christmas]",
-                        "time": "March 16 2021, 12:00"
+                        "desc": "Featuring 5* Yuuri [Hot Spring], 5* Haruka [Hot Spring]",
+                        "time": "March 31 2021, 17:00"
                     },
                     {
                         "title": "Part 2",
-                        "desc": "Featuring 5* Run [New Year], 5* Yuuko [Christmas], 5* Yutaka [Maid], 4* Tooru [Swimsuit], 4* Run [Christmas]",
-                        "time": "March 16 2021, 12:00"
+                        "desc": "Featuring 5* Hiroe [Hot Spring], 5* Hibari [Hot Spring]",
+                        "time": "March 31 2021, 17:00"
                     }
                 ],
-                "extraPriority": 4,
-                "info": "Also 3* and 4* characters from A-Channel"
+                "extraPriority": 6
             }
         ]
     },
@@ -402,58 +321,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 26 2021, 0:00",
                 "end": "April 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super EX Quest Support Step-up Summon",
-            "超高難易度クエスト攻略応援おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Tooru [Christmas], 5* Chiya [Christmas], 5* Koume [Valentine], 5* Omi [New Year], 5* Tachibana Isana, 5* Moeta Kaoruko, 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit], 4* Nozaki Namiko, 4* Sakamoto Kaju, 4* Takahashi Yuki",
-                "start": "March 5 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 5 2021, 17:00",
-                "end": "March 22 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super EX Quest Support Summon Ticket",
-            "超高難易度クエスト攻略応援おまけ付き10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Tooru [Christmas], 5* Chiya [Christmas], 5* Koume [Valentine], 5* Omi [New Year], 5* Tachibana Isana, 5* Moeta Kaoruko, 5* Cocoa [Swimsuit], 5* Ryou [Swimsuit]",
-                "start": "March 5 2021, 17:00",
-                "end": "March 15 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 5 2021, 17:00",
-                "end": "March 22 2021, 23:59"
             }
         ]
     },
@@ -598,22 +465,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Part 2 Chapter 1 Half Stamina Campaign",
-            "メインクエスト第2部1章スタミナ半減キャンペーン",
-        ],
-        image: "match",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "March 8 2021, 0:00",
-                "end": "March 23 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Main Quest Part 1 Chapter 1~Epilogue Half Stamina Campaign",
             "メインクエスト第1部スタミナ半減キャンペーン",
         ],
@@ -661,6 +512,45 @@ var timerData = [
                 name: "Medal exchange period",
                 start: "March 6 2021, 0:00",
                 end: "April 2 2021, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
+        type: "WeekendBoss",
+        title: [
+            "April Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/pHHkOxE.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "April 3 2021, 0:00",
+                end: "April 4 2021, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "April 10 2021, 0:00",
+                end: "April 11 2021, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "April 17 2021, 0:00",
+                end: "April 18 2021, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "April 24 2021, 0:00",
+                end: "April 25 2021, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "April 3 2021, 0:00",
+                end: "April 30 2021, 23:59",
                 keepAfterFinished: "2 hours",
                 type: "normal"
             }
@@ -727,6 +617,27 @@ var timerData = [
                 name: "Gem Sets",
                 "start": "March 24 2021, 0:00",
                 "end": "March 31 2021, 15:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Event Special Sale",
+            "イベント開催記念特別セール！星彩石セット販売"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "March 31 2021, 17:00",
+                "end": "April 14 2021, 16:59"
+            },
+            {
+                name: "Ticket Expiration",
+                "start": "March 31 2021, 17:00",
+                "end": "April 21 2021, 23:59"
             }
         ]
     }
