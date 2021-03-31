@@ -657,5 +657,76 @@ var timerData = [
                 "end": "April 21 2021, 23:59"
             }
         ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp Fantasia Limited-time Summon",
+            "ランプファンタジア有償限定召喚",
+            "400 Paid Gems for a random 5* Lamp + Special Title"
+        ],
+        image: "lamp",
+        column: 1,
+        timers: [
+            {
+                name: "Summon Period: Featuring 5* Lamp, 5* Lamp [Swimsuit], 5* Lamp [Tanabata]",
+                "start": "April 1 2021, 0:00",
+                "end": "April 1 2021, 23:59",
+                "extraPriority": 9
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp Fantasia Step-up Summon",
+            "ランプファンタジアおまけ付き10回召喚",
+            "Receive a 5* Ticket Voucher on 3rd step"
+        ],
+        image: "lamp",
+        column: 1,
+        timers: [
+            {
+                name: "Summon Period: Featuring 5* Lamp, 5* Lamp [Swimsuit], 5* Lamp [Tanabata]",
+                "start": "April 1 2021, 0:00",
+                "end": "April 1 2021, 23:59",
+                "extraPriority": 9
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp Fantasia Login Bonus",
+            "ランプファンタジアログインボーナス",
+            "Log in during the period for a commemorative Title"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "April 1 2021, 0:00",
+                "end": "April 1 2021, 23:59",
+                "extraPriority": 9
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp Fantasia Special Sale",
+            "ランプファンタジアお得な星彩石セット販売"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "April 1 2021, 0:00",
+                "end": "April 1 2021, 23:59",
+                "extraPriority": 7
+            }
+        ]
     }
 ];
