@@ -243,6 +243,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "4 Series Limited-time Summon",
+            "4作品のキャラ期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/UVMeZqj.png",
+            "https://i.imgur.com/wHHyKt9.png",
+            "https://i.imgur.com/BAcyDLZ.png",
+            "https://i.imgur.com/SMLi958.png"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5* Kurumi [Christmas], 5* Eiko [Sports Festival], 5* Hibiki [Valentine], 5* Claire [Halloween], 4* Eiko [Swimsuit]",
+                "start": "April 2 2021, 17:00",
+                "end": "April 9 2021, 16:59",
+                "info": "Also 3* and 4* characters from Gakkou Gurashi! and Slow Start, and 4* characters from Anne Happy♪ and Harukana Receive",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "A-Channel Limited-time 5* Summon TIcket",
             "Aチャンネル★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -405,26 +429,19 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "New OP Movie Celebration Daily KiraKira Summon",
-            "新OP公開記念！1日1回期間限定きらきら召喚・特装版",
-            "40 Paid Gems once per day for 3 summons, all 4* or above",
-            "Summon 6 times for a Random 5* Summon Ticket"
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
         ],
         "image": "clea",
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring characters from series that appear in the new OP Movie",
-                "start": "March 16 2021, 0:00",
-                "end": "March 23 2021, 23:59",
-                "extraPriority": 4,
-                "info": "Series included: Kill me Baby, Blend-S, Slow Start, Yuru Camp△, Comic Girls, K-ON!, Gochuumon wa Usagi Desu ka?, GA Geijutsuka Art Design Class and Machikado Mazoku"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 16 2021, 0:00",
-                "end": "March 30 2021, 23:59"
+                "name": "Featuring 5* Yuuri [New Year], 5* Nene [Swimsuit], 5* Yasuna [New Year], 5* Sonya [Halloween]",
+                "start": "April 2 2021, 0:00",
+                "end": "April 10 2021, 23:59",
+                "extraPriority": 4
             }
         ]
     },
