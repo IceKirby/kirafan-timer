@@ -659,7 +659,7 @@ var timerData = [
         ]
     },
     {
-        type: "Other",
+        type: "Summon",
         title: [
             "Lamp Fantasia Limited-time Summon",
             "ランプファンタジア有償限定召喚",
@@ -677,7 +677,7 @@ var timerData = [
         ]
     },
     {
-        type: "Other",
+        type: "Summon",
         title: [
             "Lamp Fantasia Step-up Summon",
             "ランプファンタジアおまけ付き10回召喚",
