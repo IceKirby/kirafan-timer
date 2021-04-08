@@ -305,6 +305,58 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Fire-element Limited-Time Step-up Summon",
+            "期間限定炎属性おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
+                "start": "April 9 2021, 17:00",
+                "end": "April 16 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 9 2021, 17:00",
+                "end": "April 23 2021, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Fire-element Limited-Time Summon Ticket",
+            "期間限定炎属性★5確定チケット付き！有償限定10回召喚",
+            "240 Gems for 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
+                "start": "April 9 2021, 17:00",
+                "end": "April 16 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 9 2021, 17:00",
+                "end": "April 23 2021, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara Fantasia Severed Bonds Chapter 2 Limited-time SUmmon",
             "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
