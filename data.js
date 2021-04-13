@@ -36,69 +36,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Witch of the Lamp Magical Toorun",
-            "ランプの魔女 マジカルトオルン",
-            "A-Channel Finale Event"
-        ],
-        "image": [
-            "https://i.imgur.com/aBY0ath.png"
-        ],
-        "column": 0,
-        "priority": 2,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "March 16 2021, 12:00",
-                "end": "March 31 2021, 15:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "March 25 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "March 26 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "March 27 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "March 28 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "March 18 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "March 22 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "March 16 2021, 12:00",
-                "end": "March 31 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "March 16 2021, 12:00",
-                "end": "April 7 2021, 13:59"
-            }
-        ]
-    },
-     {
-        "type": "Event",
-        "title": [
             "Etowaria's Steamy Casefiles: The Ghost Cat Inn and the Hot Spring of Silver Vine",
             "エトワリア湯煙事件録-化猫旅館と木天蓼の湯-",
             "Hot Spring Event"
@@ -163,44 +100,66 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Mission",
+     {
+        "type": "Event",
         "title": [
-            "Main Quest Part 2 Chapter 2 Special Missions",
-            "メインクエスト第2部2章追加記念 期間限定ミッション"
+            "We Wanna Play Baseball Too!",
+            "私たちだって野球したい！",
+            "Yoshino Event"
         ],
         "image": [
-            "match"
+            "https://i.imgur.com/wCkUtuq.png"
         ],
         "column": 0,
         "priority": 2,
         "timers": [
             {
-                "name": "Period",
-                "start": "March 15 2021, 17:00",
-                "end": "March 31 2021, 23:59",
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Witch of the Lamp Magical Toorun Summon",
-            "ランプの魔女 マジカルトオルンピックアップ召喚",
-            "A-Channel Finale Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/aBY0ath.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
+                "name": "Main Event",
+                "start": "April 14 2021, 17:00",
+                "end": "April 27 2021, 11:59",
+                "markers": [
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "April 22 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "April 23 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "April 24 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "April 25 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "April 16 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "April 21 2021, 17:00",
+                        "type": "battle"
+                    }
+                ],
+                "extraPriority": 4
+            },
             {
-                "name": "Event Summon: Featuring 5* Tooru",
-                "start": "March 16 2021, 12:00",
-                "end": "March 31 2021, 15:59",
-                "extraPriority": 6
+                "name": "Missions",
+                "start": "April 14 2021, 17:00",
+                "end": "April 27 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "April 14 2021, 17:00",
+                "end": "May 4 2021, 13:59"
             }
         ]
     },
@@ -243,32 +202,55 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "4 Series Limited-time Summon",
-            "4作品のキャラ期間限定特別セレクション召喚"
+            "We Wanna Play Baseball Too! Summon",
+            "私たちだって野球したい！ピックアップ召喚",
+            "Yoshino Event summon"
         ],
         "image": [
-            "https://i.imgur.com/UVMeZqj.png",
-            "https://i.imgur.com/wHHyKt9.png",
-            "https://i.imgur.com/BAcyDLZ.png",
-            "https://i.imgur.com/SMLi958.png"
+            "https://i.imgur.com/wCkUtuq.png"
         ],
         "column": 1,
         "priority": 1,
         "timers": [
             {
-                "name": "Part 1: Featuring 5* Kurumi [Christmas], 5* Eiko [Sports Festival], 5* Hibiki [Valentine], 5* Claire [Halloween], 4* Eiko [Swimsuit]",
-                "start": "April 2 2021, 17:00",
-                "end": "April 9 2021, 16:59",
-                "info": "Also 3* and 4* characters from Gakkou Gurashi! and Slow Start, and 4* characters from Anne Happy♪ and Harukana Receive",
-                "extraPriority": 4
+                "name": "Event Summon: Featuring 5* Kawaguchi Yoshino",
+                "start": "April 14 2021, 17:00",
+                "end": "April 27 2021, 11:59",
+                "extraPriority": 6
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "A-Channel Limited-time 5* Summon TIcket",
-            "Aチャンネル★5確定チケット付き！有償限定10回召喚",
+            "Baseball Team Firers Limited-Time Step-up Summon",
+            "期間限定いちおしテーマおまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
+                "start": "April 14 2021, 17:00",
+                "end": "April 21 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 14 2021, 17:00",
+                "end": "April 28 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Baseball Team Firers Limited-Time Summon Ticket",
+            "期間限定いちおしテーマ★5確定チケット付き！有償限定10回召喚",
             "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
         ],
         "image": [
@@ -278,27 +260,15 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "March 16 2021, 12:00",
-                "end": "March 23 2021, 16:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Tooru, 5* Tooru [Christmas], 5* Run, 5* Run [New Year]",
-                        "time": "March 16 2021, 12:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Yuuko, 5* Yuuko [Christmas], 5* Yuuko [Swimsuit], 5* Nagi, 5* Yutaka [Maid]",
-                        "time": "March 16 2021, 12:00"
-                    }
-                ],
+                "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
+                "start": "April 14 2021, 17:00",
+                "end": "April 21 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "March 16 2021, 12:00",
-                "end": "March 30 2021, 23:59",
+                "start": "April 14 2021, 17:00",
+                "end": "April 28 2021, 23:59"
             }
         ]
     },
@@ -357,52 +327,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Severed Bonds Chapter 2 Limited-time SUmmon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/qxHmx7n.png"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Featuring 5* Fennel [Part 2]",
-                "start": "March 24 2021, 0:00",
-                "end": "March 31 2021, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kiniro Mosaic Limited-time 5* Summon Ticket",
-            "きんいろモザイク★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "March 26 2021, 0:00",
-                "end": "April 2 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 26 2021, 0:00",
-                "end": "April 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "1200 Days Celebration Choosable 5* Summon Ticket",
             "リリース1200日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
@@ -441,32 +365,6 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "March 24 2021, 0:00",
-                "end": "March 31 2021, 15:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 24 2021, 0:00",
-                "end": "April 7 2021, 23:59",
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Limited-time Random 5* Summon Ticket",
-            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 1,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Lamp [Swimsuit], 5* Lamp [Tanabata], 5* Clea [Doll's Festival], 5* Cork [Maid], 5* Archive [New Year]",
                 "start": "March 24 2021, 0:00",
                 "end": "March 31 2021, 15:59",
                 "extraPriority": 3,
@@ -550,45 +448,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "March Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/pHHkOxE.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "March 6 2021, 0:00",
-                end: "March 7 2021, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "March 13 2021, 0:00",
-                end: "March 14 2021, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "March 20 2021, 0:00",
-                end: "March 21 2021, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "March 27 2021, 0:00",
-                end: "March 28 2021, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "March 6 2021, 0:00",
-                end: "April 2 2021, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "April Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -660,38 +519,6 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "New OP Movie Celebration Gem Set",
-            "アニメーション映像公開記念！星彩石2,000個セット販売！"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Gem Sets",
-                "start": "March 16 2021, 0:00",
-                "end": "March 31 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Main Quest Part 2 Chapter 2 Celebration Gem Set",
-            "メインクエスト第2部2章追加記念！星彩石2,000個セット販売!"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Gem Sets",
-                "start": "March 24 2021, 0:00",
-                "end": "March 31 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
             "Event Special Sale",
             "イベント開催記念特別セール！星彩石セット販売"
         ],
@@ -707,77 +534,6 @@ var timerData = [
                 name: "Ticket Expiration",
                 "start": "March 31 2021, 17:00",
                 "end": "April 21 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Lamp Fantasia Limited-time Summon",
-            "ランプファンタジア有償限定召喚",
-            "400 Paid Gems for a random 5* Lamp + Special Title"
-        ],
-        image: "lamp",
-        column: 1,
-        timers: [
-            {
-                name: "Summon Period: Featuring 5* Lamp, 5* Lamp [Swimsuit], 5* Lamp [Tanabata]",
-                "start": "April 1 2021, 0:00",
-                "end": "April 1 2021, 23:59",
-                "extraPriority": 9
-            }
-        ]
-    },
-    {
-        type: "Gacha",
-        title: [
-            "Lamp Fantasia Step-up Summon",
-            "ランプファンタジアおまけ付き10回召喚",
-            "Receive a 5* Ticket Voucher on 3rd step"
-        ],
-        image: "lamp",
-        column: 1,
-        timers: [
-            {
-                name: "Summon Period: Featuring 5* Lamp, 5* Lamp [Swimsuit], 5* Lamp [Tanabata]",
-                "start": "April 1 2021, 0:00",
-                "end": "April 1 2021, 23:59",
-                "extraPriority": 9
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Lamp Fantasia Login Bonus",
-            "ランプファンタジアログインボーナス",
-            "Log in during the period for a commemorative Title"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "April 1 2021, 0:00",
-                "end": "April 1 2021, 23:59",
-                "extraPriority": 9
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Lamp Fantasia Special Sale",
-            "ランプファンタジアお得な星彩石セット販売"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Gem Sets",
-                "start": "April 1 2021, 0:00",
-                "end": "April 1 2021, 23:59",
-                "extraPriority": 7
             }
         ]
     }
