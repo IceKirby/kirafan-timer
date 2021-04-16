@@ -327,6 +327,58 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara MAX 200th Edition Limited-Time Step-up Summon",
+            "きららMAX200号記念期間限定おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
+                "start": "April 19 2021, 0:00",
+                "end": "April 25 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 19 2021, 0:00",
+                "end": "May 2 2021, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara MAX 200th Edition Limited-Time Summon Ticket",
+            "きららMAX200号記念期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 1,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
+                "start": "April 19 2021, 0:00",
+                "end": "April 25 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 19 2021, 0:00",
+                "end": "May 2 2021, 23:59",
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "1200 Days Celebration Choosable 5* Summon Ticket",
             "リリース1200日記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
@@ -388,9 +440,9 @@ var timerData = [
         "priority": 1,
         "timers": [
             {
-                "name": "Featuring 5* Yuuri [New Year], 5* Nene [Swimsuit], 5* Yasuna [New Year], 5* Sonya [Halloween]",
-                "start": "April 2 2021, 0:00",
-                "end": "April 10 2021, 23:59",
+                "name": "Featuring 5* Run [New Year], 5* Yutaka [Maid], 5* Hifumi [Christmas], 5* Hifumi [Maid], 5* Hideri [Doll's Festival], 5* Tsubasa [Tanabata], 5* Hizume [Maid], 5* Kotetsu [Christmas], 5* Mira [Valentine], 5* Ao [White Day], 4* Run [Christmas]",
+                "start": "April 19 2021, 0:00",
+                "end": "April 27 2021, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -503,16 +555,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "1200 Days Celebration Sale",
-            "1200日記念お得なセット販売"
+            "Kirara MAX 200th Edition Celebration Sale",
+            "きららMAX200号記念お得なセット販売"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
                 name: "Gem & Item Sets",
-                "start": "March 24 2021, 0:00",
-                "end": "April 6 2021, 23:59"
+                "start": "April 19 2021, 0:00",
+                "end": "April 25 2021, 23:59"
             }
         ]
     },
