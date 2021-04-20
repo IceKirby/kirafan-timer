@@ -54,24 +54,26 @@
 				</div>
 			</div>
 
-			<h1>Kirara Fantasia Timers</h1>
+			<div id="header" v-show="showHeader">
+				<h1>Kirara Fantasia Timers</h1>
 
-			<div class="btn-group btn-group-toggle w-100 time-buttons" data-toggle="buttons">
-				<label class="btn btn-primary active" id="japan-time" v-on:click="changeTimezone('japan')">
-					<input type="radio" name="options" id="option1" autocomplete="off" checked> <h3>Japan Time</h3>
-					<span v-text="japanTime"></span>
-				</label>
-				<label class="btn btn-primary" id="local-time" v-on:click="changeTimezone('local')">
-					<input type="radio" name="options" id="option2" autocomplete="off">
-					<h3>Local Time</h3>
-					<span v-text="localTime"></span>
-				</label>
+				<div class="btn-group btn-group-toggle w-100 time-buttons">
+					<label class="btn btn-primary" :class="{active: currentZone == 'japan' }" id="japan-time">
+						<input type="radio" name="options" value="japan" v-model="currentZone" @change="changeTimezone"> <h3>Japan Time</h3>
+						<span v-text="japanTime"></span>
+					</label>
+					<label class="btn btn-primary" :class="{active: currentZone == 'local' }" id="local-time">
+						<input type="radio" name="options" value="local" v-model="currentZone" @change="changeTimezone">
+						<h3>Local Time</h3>
+						<span v-text="localTime"></span>
+					</label>
+				</div>
+				<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Found an error or have a suggestion?</span>
+
+	            <div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
+	                <div v-for='(item, index) in alerts' class="alert" :class="'alert-'+alertTypes[0]" role="alert" v-html="item"></div>
+	            </div>
 			</div>
-			<span class='contact-button bg-warning text-dark' data-toggle="modal" data-target="#exampleModal">Found an error or have a suggestion?</span>
-            
-            <div class='alert-container' :class='{ alertsshow: alerts.length > 0 }'>
-                <div v-for='t in alerts' class="alert alert-danger" role="alert">{{ t }}</div>
-            </div>
 
 			<div class="row" id="columns-holder">
 				<div v-for="col in timersData" class="col-md-6 col-xl">

@@ -78,3 +78,19 @@ Daily Quest events can have the following property:
 Each object under `days` must have the following properties:
 - `elements`: An array of strings with the names for that day's elements. Names can be an element (Fire, Water, Earth, Wind, Sun, Moon), Gold or a class (Warrior, Priest, Mage, Knight, Alchemist).
 - `short`: A string with the shorter name for the day (e.g.: Tue for Tuesday).
+
+
+## URL Query Strings
+You can customize the page's view by using Query Strings in the URL. Example:
+`https://icekirby.github.io/kirafan-timer/?tz=local&header=false&type=event,gacha`  
+The URL above will load the page already in Local Timezone mode, won't display the header and will only show Event and Gacha type timers.
+
+#### Query Parameters
+- `tz`: Defines which timezone mode the timer will display. Can be `japan` (default) or `local`.
+- `header`: Defines whether the header (title, timezone buttons, contact link, etc) will be displayed or not. Can be `true` (default) or `false`.
+- `columns`: Defines the maximum number of columns used to display the timers. Can be `1`, `2` or `3` (default).
+- `type`: Shows only timers with the types listed. Multiple types can be listed, separated by comma. Example: `type=dailyquest,event`.
+- `title`: Shows only timers that include these words in the title. Multiples terms can be listed, separated by comma. Example: `title=cat,pirate`.
+- `id`: Shows only timers with the specific IDs listed. Multiples IDs can be listed, separated by comma. Example: `id=0,2,3`. IDs are defined by order the timer appears in the data.js file, so they aren't guaranteed to remain the same.  
+
+The parameters `type`, `title` and `id` are search parameters, and whenever any of them are used, only timers that meet those criteria will be displayed. They are OR operators, which means a timers only needs to meet one of those conditions to be displayed.

@@ -58,11 +58,14 @@ var vm = new Vue({
         timersData: null,
         thumbChangeCount: 0,
         thumbChangeTime: 7,
-        alerts: alertMessages
+        showHeader: true,
+        columns: 3,
+        filters: null,
+        alerts: alertMessages,
+        alertTypes: alertTypes
     },
     methods: {
-        changeTimezone: function(place) {
-            this.currentZone = place;
+        changeTimezone: function() {
             var c, t, e, col, ev, timer, data = this.timersData;
 
             for (c = 0; c < data.length; c++) { // Check each column
@@ -80,38 +83,78 @@ var vm = new Vue({
                 }
             }
         },
-        
+
         // SETUP FUNCTIONS
+        loadQueryParams: function() {
+            let uri = window.location.search.substring(1);
+            let params = new URLSearchParams(uri);
+
+            let tz = params.get("tz");
+            if (tz && (tz == "japan" || tz == "local")) {
+                this.currentZone = tz;
+            }
+
+            if (params.get("header")) {
+                this.showHeader = params.get("header").toLowerCase() != "false";
+            }
+
+            let cols = parseInt(params.get("columns"), 10);
+            if (cols && !isNaN(cols) && cols > 0) {
+                this.columns = cols;
+            }
+
+            let filters = {};
+            if (params.get("type")) {
+                filters.type = params.get("type").split(",").map(function(x){ return x.trim().toLowerCase(); });
+            }
+            if (params.get("id")) {
+                filters.id = params.get("id").split(",").map(function(x){ return parseInt(x, 10); });
+            }
+            if (params.get("title")) {
+                filters.title = params.get("title").split(",").map(function(x){ return x.trim().toLowerCase(); });
+            }
+            if (Object.keys(filters).length > 0) {
+                this.filters = filters;
+            }
+        },
         buildTimerData: function(data) {
-            var res = [[],[],[]];
-            var ev, i;
+            var res = [];
+            var ev, i, col;
             var nowMoment = moment.tz("Asia/Tokyo");
             var localZone = moment.tz.guess();
+
+            for (i = 1; i <= this.columns; i++) {
+                res.push([]);
+            }
 
             // Loops through all data to build the event timers
             for (i = 0; i < data.length; i++) {
                 ev = data[i];
-                ev.visible = true;
                 if (!ev.priority) {
                     ev.priority = 0;
                 }
                 ev.bonusPriority = 0;
-                
+                ev.visible = true;
+
                 if (ev.type == "DailyQuest") {
                     ev = this.buildDailyQuestTimer(ev, nowMoment);
                 } else {
                     ev = this.buildEventGroup(ev, localZone);
                 }
-                
-                res[ev.column ? ev.column : 0].push(ev);
+
+                if (this.filterCheck(ev, this.filters, i)){
+                    col = ev.column ? ev.column : 0;
+                    if (col >= res.length) {
+                        col = 0;
+                    }
+                    res[col].push(ev);
+                }
             }
 
             // Sort timers and remove empty columns
             for (i = res.length; i--; ) {
                 if (res[i].length === 0) {
                     res.splice(i, 1);
-                } else {
-                    res[i] = res[i];
                 }
             }
 
@@ -128,7 +171,7 @@ var vm = new Vue({
         },
         buildEventGroup: function(ev, localZone) {
             let evExtra, timer, e;
-            
+
             // Default settings
             ev.expiration = 0;
             ev.nextTimer = "";
@@ -149,20 +192,20 @@ var vm = new Vue({
                     ev.image = thumbnailMap[ev.image.toLowerCase()];
                 }
             }
-            
+
             // How long the event will still be displayed after all of its timers are finished
             evExtra = this.toDurationObject(ev.keepAfterFinished);
-            
+
             // Create all individual timers
             for (e = 0; e < ev.timers.length; e++) {
                 timer = this.buildEventTimer(ev.timers[e], ev, localZone, e, evExtra);
             }
-            
+
             return ev;
         },
         buildEventTimer: function(timer, ev, localZone, normalTimerIndex, evExtra) {
             let timerExtra, startMoment, endMoment, expiration, extraDays = 0;
-            
+
             // Default settings
             timer.visible = true;
             timer.progress = 0;
@@ -264,7 +307,35 @@ var vm = new Vue({
             };
             return mark;
         },
-        
+        filterCheck: function(data, filters, id) {
+            if (filters == null) {
+                return true;
+            }
+            if (filters.hasOwnProperty("type")) {
+                if (filters.type.indexOf(data.type.toLowerCase()) != -1) {
+                    return true;
+                }
+            }
+            if (filters.hasOwnProperty("title")) {
+                let titles = Array.isArray(data.title) ? data.title : [data.title];
+                let words = filters.title;
+                for (let e = 0; e < titles.length; e++) {
+                    for (let i = 0; i < words.length; i++) {
+                        if (titles[e].toLowerCase().indexOf(words[i]) != -1) {
+                            return true;
+                        }
+                    }
+                }
+
+            }
+            if (filters.hasOwnProperty("id")) {
+                if (filters.id.indexOf(id) != -1) {
+                    return true;
+                }
+            }
+            return false;
+        },
+
         // UPDATE FUNCTIONS
         updateClocks: function() {
             this.japanTime = moment().tz('Asia/Tokyo').format("ddd D MMM, H:mm");
@@ -276,13 +347,13 @@ var vm = new Vue({
             var nowMoment = moment.tz("Asia/Tokyo");
             var now = nowMoment._d.getTime();
             var localZone = moment.tz.guess();
-            
+
             var changeThumbs = this.thumbChangeCount >= this.thumbChangeTime;
             this.thumbChangeCount += 1;
             if (changeThumbs) {
                 this.thumbChangeCount = 0;
             }
-            
+
             for (c = 0; c < data.length; c++) { // Check each column
                 col = data[c];
                 for (e = 0; e < col.length; e++) { // Check each event group
@@ -293,9 +364,9 @@ var vm = new Vue({
                     } else {
                         this.updateEventGroup(ev, now, changeThumbs);
                     }
-                    
+
                 }
-                
+
                 col.sort(this.prioritySort);
             }
         },
@@ -315,12 +386,12 @@ var vm = new Vue({
                 nextDate = Infinity,
                 nextType = "finished",
                 lastDate = 0;
-            
+
             // Check each individual timer
             for (t = 0; t < ev.timers.length; t++) {
                 timer = ev.timers[t];
                 this.updateEventTimer(timer, ev, now);
-                
+
                 if (timer.rawStart > now && timer.rawStart < nextDate) {
                     nextDate = timer.rawStart;
                     nextType = "upcoming";
@@ -333,7 +404,7 @@ var vm = new Vue({
                     lastDate = timer.rawEnd;
                 }
             }
-            
+
             // Updates text for LoginDays timers
             if (nextType == "finished") {
                 ev.nextTimer = "Finished " + this.remainingTimeString(now, lastDate, 2) + " ago";
@@ -342,7 +413,7 @@ var vm = new Vue({
             } else {
                 ev.nextTimer = "Current date finishes in " + this.remainingTimeString(now, nextDate, 2);
             }
-            
+
             // Changes thumbnail for Event Group
             if (changeThumbs && ev.imageList) {
                 ev.imageStep++;
@@ -380,7 +451,7 @@ var vm = new Vue({
                     timer.dateDisplay.barLabel = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 2) + (timer.type == "weekend" ? "" : " (" + timer.progress.toFixed(1) + "%)");
                     timer.dateDisplay.badgeEnd = "Ends in " + this.remainingTimeString(now, timer.rawEnd, 5);
                     timer.dateDisplay.badgeStart = "Started " + this.remainingTimeString(now, timer.rawStart, 5) + " ago";
-                    
+
                     // Increase priority if timer is active
                     if (timer.extraPriority) {
                         ev.bonusPriority += timer.extraPriority;
@@ -413,7 +484,7 @@ var vm = new Vue({
                 }
             }
         },
-        
+
         // HELPER FUNCTIONS
         prioritySort: function(a, b) {
             return (b.priority + b.bonusPriority) - (a.priority + a.bonusPriority);
@@ -482,9 +553,11 @@ var vm = new Vue({
         }
     },
     created: function() {
+        this.loadQueryParams();
         this.buildTimerData(timerData);
         this.updateTimerData();
         this.updateClocks();
+        this.changeTimezone();
         setInterval(this.updateClocks, 1 * 1000);
     }
 });

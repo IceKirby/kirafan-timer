@@ -9,12 +9,6 @@ body {
     border: 1px solid #c2c2c2;
 }
 
-.time-buttons {
-    margin-bottom: 1rem;
-
-}
-
-
 /* ******************* */
 /* TOP BAR             */
 /* ******************* */
@@ -423,6 +417,8 @@ body {
     text-align: center;
     line-height: 1.1rem;
     cursor: pointer;
+    margin-top: 0.5rem;
+    display: block;
 }
 .contact-button:hover {
     background-color: #edb306!important;
@@ -442,16 +438,14 @@ body {
 }
 
 @media screen and (min-width: 580px) {
-    #columns-holder {
-        margin-top: 0rem;
-    }
     .contact-button {
         position: absolute;
         top: 15px;
         right: 15px;
         width: 180px;
+        margin-top: 0;
     }
     .alert {
-        margin-top: 0px;
+        margin-top: 0.5rem;
     }
 }

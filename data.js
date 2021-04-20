@@ -1,9 +1,10 @@
-var alertMessages = [];
+var alertMessages = ["URL Query Strings support added! <a href='https://github.com/IceKirby/kirafan-timer#url-query-strings'>Click here for more details.</a>"];
+var alertTypes = ["primary"];
 var timerData = [
     {
         type: "DailyQuest",
         title: "Daily Quests",
-        priority: 10,
+        priority: 50,
         days: {
             "sunday": { elements: ["Sun", "Priest", "Mage", "Alchemist"], short:"Sun" },
             "monday": { elements: ["Moon", "Gold", "Warrior"], short:"Mon" },
@@ -23,7 +24,7 @@ var timerData = [
         ],
         image: "Maintenance",
         column: 0,
-        priority: 9,
+        priority: 40,
         timers: [
             {
                 name: "Scheduled Time",
@@ -48,7 +49,7 @@ var timerData = [
             "https://i.imgur.com/ucQAvoX.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
@@ -111,7 +112,7 @@ var timerData = [
             "https://i.imgur.com/wCkUtuq.png"
         ],
         "column": 0,
-        "priority": 2,
+        "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
@@ -177,7 +178,7 @@ var timerData = [
             "https://i.imgur.com/VlaPH0L.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period",
@@ -210,7 +211,7 @@ var timerData = [
             "https://i.imgur.com/wCkUtuq.png"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Event Summon: Featuring 5* Kawaguchi Yoshino",
@@ -231,7 +232,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
@@ -257,7 +258,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
@@ -283,7 +284,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
@@ -309,7 +310,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
@@ -335,7 +336,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
@@ -361,7 +362,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
@@ -387,7 +388,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period",
@@ -413,7 +414,7 @@ var timerData = [
             "clea"
         ],
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Summon Period",
@@ -437,7 +438,7 @@ var timerData = [
         ],
         "image": "clea",
         "column": 1,
-        "priority": 1,
+        "priority": 21,
         "timers": [
             {
                 "name": "Featuring 5* Run [New Year], 5* Yutaka [Maid], 5* Hifumi [Christmas], 5* Hifumi [Maid], 5* Hideri [Doll's Festival], 5* Tsubasa [Tanabata], 5* Hizume [Maid], 5* Kotetsu [Christmas], 5* Mira [Valentine], 5* Ao [White Day], 4* Run [Christmas]",
