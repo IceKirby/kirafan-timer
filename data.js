@@ -651,7 +651,7 @@ var timerData = [
                     {
                         "title": "Bonus Set 2",
                         "time": "May 5 2021, 0:00",
-                        "type": "story"
+                        "type": "star"
                     }
                 ]
             },
