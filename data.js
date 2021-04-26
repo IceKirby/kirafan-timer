@@ -1,5 +1,5 @@
-var alertMessages = ["URL Query Strings support added! <a href='https://github.com/IceKirby/kirafan-timer#url-query-strings'>Click here for more details.</a>"];
-var alertTypes = ["primary"];
+var alertMessages = [];
+var alertTypes = [];
 var timerData = [
     {
         type: "DailyQuest",
@@ -36,73 +36,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Etowaria's Steamy Casefiles: The Ghost Cat Inn and the Hot Spring of Silver Vine",
-            "エトワリア湯煙事件録-化猫旅館と木天蓼の湯-",
-            "Hot Spring Event"
-        ],
-        "image": [
-            "https://i.imgur.com/Ke9BSm0.png",
-            "https://i.imgur.com/sRrmDoU.png",
-            "https://i.imgur.com/yRWe3uK.png",
-            "https://i.imgur.com/VlaPH0L.png",
-            "https://i.imgur.com/ucQAvoX.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "March 31 2021, 17:00",
-                "end": "April 14 2021, 16:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "April 10 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "April 11 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "April 12 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "April 13 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "April 2 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "April 7 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "March 31 2021, 17:00",
-                "end": "April 14 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "March 31 2021, 17:00",
-                "end": "April 21 2021, 13:59"
-            }
-        ]
-    },
-     {
         "type": "Event",
         "title": [
             "We Wanna Play Baseball Too!",
@@ -166,38 +99,69 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "Etowaria's Steamy Casefiles: The Ghost Cat Inn and the Hot Spring of Silver Vine Summon",
-            "エトワリア湯煙事件録-化猫旅館と木天蓼の湯-ピックアップ召喚",
-            "Hot Spring Event summon"
+            "No Laughing in the Maid Manor!",
+            "メイド館では笑えない！",
+            "Maid 2021 Event"
         ],
         "image": [
-            "https://i.imgur.com/Ke9BSm0.png",
-            "https://i.imgur.com/sRrmDoU.png",
-            "https://i.imgur.com/yRWe3uK.png",
-            "https://i.imgur.com/VlaPH0L.png"
+            "https://i.imgur.com/NjKzQaN.png",
+            "https://i.imgur.com/5UpNoBs.png",
+            "https://i.imgur.com/XVjhDho.png",
+            "https://i.imgur.com/pLSTVc3.png",
+            "https://i.imgur.com/g8JoM7F.png"
         ],
-        "column": 1,
-        "priority": 21,
+        "column": 0,
+        "priority": 32,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "March 31 2021, 17:00",
-                "end": "April 14 2021, 16:59",
-                "banners": [
+                "name": "Main Event",
+                "start": "April 27 2021, 17:00",
+                "end": "May 14 2021, 15:59",
+                "markers": [
                     {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Yuuri [Hot Spring], 5* Haruka [Hot Spring]",
-                        "time": "March 31 2021, 17:00"
+                        "title": "Extra Chapter 1",
+                        "time": "May 5 2021, 0:00",
+                        "type": "story"
                     },
                     {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Hiroe [Hot Spring], 5* Hibari [Hot Spring]",
-                        "time": "March 31 2021, 17:00"
+                        "title": "Extra Chapter 2",
+                        "time": "May 6 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "May 7 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "May 8 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "April 29 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "time": "May 1 2021, 17:00",
+                        "type": "battle"
                     }
                 ],
-                "extraPriority": 6
+                "extraPriority": 4
+            },
+            {
+                "name": "Missions",
+                "start": "April 27 2021, 17:00",
+                "end": "May 14 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "April 27 2021, 17:00",
+                "end": "May 21 2021, 13:59"
             }
         ]
     },
@@ -218,6 +182,43 @@ var timerData = [
                 "name": "Event Summon: Featuring 5* Kawaguchi Yoshino",
                 "start": "April 14 2021, 17:00",
                 "end": "April 27 2021, 11:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+     {
+        "type": "Gacha",
+        "title": [
+            "No Laughing in the Maid Manor! Summon",
+            "メイド館では笑えない！ピックアップ召喚",
+            "Maid 2021 Event summon"
+        ],
+        "image": [
+            "https://i.imgur.com/NjKzQaN.png",
+            "https://i.imgur.com/5UpNoBs.png",
+            "https://i.imgur.com/XVjhDho.png",
+            "https://i.imgur.com/pLSTVc3.png",
+            "https://i.imgur.com/g8JoM7F.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 27 2021, 17:00",
+                "end": "May 14 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5* Nishiyama [Maid], 5* Ginger [Maid]",
+                        "time": "April 27 2021, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5* Yoriko [Maid], 5* Nono [Maid]",
+                        "time": "April 27 2021, 17:00"
+                    }
+                ],
                 "extraPriority": 6
             }
         ]
@@ -271,58 +272,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "April 14 2021, 17:00",
                 "end": "April 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Fire-element Limited-Time Step-up Summon",
-            "期間限定炎属性おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
-                "start": "April 9 2021, 17:00",
-                "end": "April 16 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 9 2021, 17:00",
-                "end": "April 23 2021, 23:59",
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Fire-element Limited-Time Summon Ticket",
-            "期間限定炎属性★5確定チケット付き！有償限定10回召喚",
-            "240 Gems for 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Hasegawa Fumi, 5* Hifumi [Christmas], 5* Kou [Swimsuit], 5* [Traveler of the Wasteland] Rin, 5* Ekoda Ren, 5* Hatoya Kohane, 5* Noda Miki [Halloween], 5* Shiina",
-                "start": "April 9 2021, 17:00",
-                "end": "April 16 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 9 2021, 17:00",
-                "end": "April 23 2021, 23:59",
             }
         ]
     },
@@ -407,6 +356,64 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Golden Week Limited-time Choosable 5* Summon Ticket",
+            "ゴールデンウィーク期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 29 2021, 0:00",
+                "end": "April 29 2021, 23:59",
+                "extraPriority": 15,
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 29 2021, 0:00",
+                "end": "May 6 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Golden Week Choosable 5* Summon Ticket",
+            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: First Half",
+                "start": "April 29 2021, 0:00",
+                "end": "May 4 2021, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Summon Period: Second Half",
+                "start": "May 5 2021, 0:00",
+                "end": "May 20 2021, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 29 2021, 0:00",
+                "end": "May 17 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Head Priest & Seven Sages Random Summon Ticket",
             "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -419,14 +426,14 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "March 24 2021, 0:00",
-                "end": "March 31 2021, 15:59",
+                "start": "April 27 2021, 0:00",
+                "end": "May 4 2021, 23:59",
                 "extraPriority": 3,
             },
             {
                 "name": "Ticket Expiration",
-                "start": "March 24 2021, 0:00",
-                "end": "April 7 2021, 23:59",
+                "start": "April 27 2021, 0:00",
+                "end": "May 11 2021, 23:59"
             }
         ]
     },
@@ -446,6 +453,23 @@ var timerData = [
                 "start": "April 19 2021, 0:00",
                 "end": "April 27 2021, 23:59",
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Golden Week Login Bonus",
+            "ゴールデンウィークログインボーナス",
+            "Log in on 10 days for up to 200 Free Gems"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "April 29 2021, 0:00",
+                "end": "May 14 2021, 23:59"
             }
         ]
     },
@@ -486,16 +510,28 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Part 1 Chapter 1~Epilogue Half Stamina Campaign",
-            "メインクエスト第1部スタミナ半減キャンペーン",
+            "Main Quest & Author Quest Half Stamina Campaign",
+            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "March 15 2021, 17:00",
-                "end": "March 31 2021, 15:59"
+                "start": "April 29 2021, 0:00",
+                "end": "May 10 2021, 23:59",
+                "markers": [
+                    {
+                        "title": "Main Quest Part 2",
+                        "time": "April 29 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Main Quest Part 1 & Author Quests",
+                        "time": "May 5 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
             }
         ]
     },
@@ -539,6 +575,50 @@ var timerData = [
         ]
     },
     {
+        type: "WeekendBoss",
+        title: [
+            "May Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        image: "https://i.imgur.com/c4ktfLx.png",
+        column: 2,
+        timers: [
+            {
+                name: "Weekend 1",
+                start: "May 1 2021, 0:00",
+                end: "May 2 2021, 23:59"
+            },
+            {
+                name: "Weekend 2",
+                start: "May 8 2021, 0:00",
+                end: "May 9 2021, 23:59"
+            },
+            {
+                name: "Weekend 3",
+                start: "May 15 2021, 0:00",
+                end: "May 16 2021, 23:59"
+            },
+            {
+                name: "Weekend 4",
+                start: "May 22 2021, 0:00",
+                end: "May 23 2021, 23:59"
+            },
+            {
+                name: "Weekend 5",
+                start: "May 29 2021, 0:00",
+                end: "May 30 2021, 23:59"
+            },
+            {
+                name: "Medal exchange period",
+                start: "May 1 2021, 0:00",
+                end: "June 4 2021, 23:59",
+                keepAfterFinished: "2 hours",
+                type: "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Past Hinamatsuri Room Decorations",
@@ -557,37 +637,43 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Kirara MAX 200th Edition Celebration Sale",
-            "きららMAX200号記念お得なセット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Gem & Item Sets",
-                "start": "April 19 2021, 0:00",
-                "end": "April 25 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Event Special Sale",
-            "イベント開催記念特別セール！星彩石セット販売"
+            "Golden Week Special Sale",
+            "ゴールデンウィークセット販売"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
                 name: "Gem Sets",
-                "start": "March 31 2021, 17:00",
-                "end": "April 14 2021, 16:59"
+                "start": "April 29 2021, 0:00",
+                "end": "May 10 2021, 23:59",
+                "markers": [
+                    {
+                        "title": "Bonus Set 2",
+                        "time": "May 5 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
             },
             {
-                name: "Ticket Expiration",
-                "start": "March 31 2021, 17:00",
-                "end": "April 21 2021, 23:59"
+                name: "Gem Sets + Maid Bonus",
+                "start": "April 27 2021, 17:00",
+                "end": "May 14 2021, 15:59"
+            },
+            {
+                name: "Item Sets 1",
+                "start": "April 29 2021, 0:00",
+                "end": "May 4 2021, 23:59"
+            },
+            {
+                name: "Item Sets 2",
+                "start": "April 29 2021, 0:00",
+                "end": "May 10 2021, 23:59"
+            },
+            {
+                name: "Extra Call Ticket",
+                "start": "April 29 2021, 0:00",
+                "end": "April 29 2021, 23:59"
             }
         ]
     }
