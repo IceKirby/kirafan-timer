@@ -278,6 +278,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Maid Limited-Time Step-up Summon",
+            "期間限定メイド復刻おまけ付き10回召喚",
+            "Random 5* Summon Ticket on 7th step"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Yutaka [Maid], 5* Hifumi [Maid], 5* Hizume [Maid], 5* Cork [Maid]",
+                "start": "April 30 2021, 0:00",
+                "end": "May 4 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 30 2021, 0:00",
+                "end": "May 11 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara MAX 200th Edition Limited-Time Step-up Summon",
             "きららMAX200号記念期間限定おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th step"
