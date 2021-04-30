@@ -168,27 +168,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "We Wanna Play Baseball Too! Summon",
-            "私たちだって野球したい！ピックアップ召喚",
-            "Yoshino Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/wCkUtuq.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Event Summon: Featuring 5* Kawaguchi Yoshino",
-                "start": "April 14 2021, 17:00",
-                "end": "April 27 2021, 11:59",
-                "extraPriority": 6
-            }
-        ]
-    },
-     {
-        "type": "Gacha",
-        "title": [
             "No Laughing in the Maid Manor! Summon",
             "メイド館では笑えない！ピックアップ召喚",
             "Maid 2021 Event summon"
@@ -220,58 +199,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Baseball Team Firers Limited-Time Step-up Summon",
-            "期間限定いちおしテーマおまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
-                "start": "April 14 2021, 17:00",
-                "end": "April 21 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 14 2021, 17:00",
-                "end": "April 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Baseball Team Firers Limited-Time Summon Ticket",
-            "期間限定いちおしテーマ★5確定チケット付き！有償限定10回召喚",
-            "240 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Hoshikawa Hotaru, 5* Ichinose Hana, 5* Ichinose Hana, 5* Moeta Kaoruko, 5* Kaos [Swimsuit], 5* Chiya, 5* Chiya [Christmas], 5* Yamaguchi Kisaragi, 4* Nazuna, 4* Hoshikawa Hotaru, 4* Lilith",
-                "start": "April 14 2021, 17:00",
-                "end": "April 21 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 14 2021, 17:00",
-                "end": "April 28 2021, 23:59"
             }
         ]
     },
@@ -427,7 +354,7 @@ var timerData = [
             {
                 "name": "Summon Period: Second Half",
                 "start": "May 5 2021, 0:00",
-                "end": "May 20 2021, 23:59",
+                "end": "May 10 2021, 23:59",
                 "extraPriority": 3,
             },
             {
@@ -466,6 +393,52 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Lamp's Birthday Cross Chara Limited-time Summon",
+            "ランプお誕生日記念クロスキャラ限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Lamp [Cross Chara]",
+                "start": "May 5 2021, 0:00",
+                "end": "May 7 2021, 23:59",
+                "extraPriority": 4,
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Lamp's Birthday Celebration 5* Summon Ticket",
+            "ランプお誕生日記念★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Lamp [Cross Chara], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Salt [White Day]",
+                "start": "May 5 2021, 0:00",
+                "end": "May 7 2021, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 5 2021, 0:00",
+                "end": "May 14 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -496,6 +469,23 @@ var timerData = [
                 name: "Period",
                 "start": "April 29 2021, 0:00",
                 "end": "May 14 2021, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp's Birthday Login Bonus",
+            "ランプお誕生日記念ログインボーナス",
+            "Log in on 2 days for up to 3 Summon Tickets"
+        ],
+        image: "lamp",
+        column: 2,
+        timers: [
+            {
+                name: "Period",
+                "start": "May 5 2021, 0:00",
+                "end": "May 7 2021, 23:59"
             }
         ]
     },
@@ -700,6 +690,22 @@ var timerData = [
                 name: "Extra Call Ticket",
                 "start": "April 29 2021, 0:00",
                 "end": "April 29 2021, 23:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Lamp's Birthday Special Sale",
+            "ランプお誕生日記念セール"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Gem Sets",
+                "start": "May 5 2021, 0:00",
+                "end": "May 7 2021, 23:59"
             }
         ]
     }
