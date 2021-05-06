@@ -448,9 +448,15 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Featuring 5* Run [New Year], 5* Yutaka [Maid], 5* Hifumi [Christmas], 5* Hifumi [Maid], 5* Hideri [Doll's Festival], 5* Tsubasa [Tanabata], 5* Hizume [Maid], 5* Kotetsu [Christmas], 5* Mira [Valentine], 5* Ao [White Day], 4* Run [Christmas]",
-                "start": "April 19 2021, 0:00",
-                "end": "April 27 2021, 23:59",
+                "name": "Part 1: Featuring 5* Shiina [Valentine], 5* Sonya [Halloween], 5* Rin [Traveler of the Wasteland], 5* Rin [White Day], 5* Archive, 5* Archive [New Year]",
+                "start": "May 8 2021, 0:00",
+                "end": "May 14 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring 5* Yuzuko [Swimsuit], 5* Yukari [Swimsuit], 5* Tamaki [Sports Festival], 5* Youko [New Year], 5* Futaba [Swimsuit], 4* Tamaki [Christmas]",
+                "start": "May 8 2021, 0:00",
+                "end": "May 14 2021, 15:59",
                 "extraPriority": 4
             }
         ]
