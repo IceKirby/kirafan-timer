@@ -125,22 +125,22 @@ var timerData = [
                 "markers": [
                     {
                         "title": "Chapters 5~10",
-                        "start": "May 15 2021, 17:00",
+                        "time": "May 15 2021, 17:00",
                         "type": "story"
                     },
                     {
                         "title": "Chapters 11~16",
-                        "start": "May 16 2021, 17:00",
+                        "time": "May 16 2021, 17:00",
                         "type": "story"
                     },
                     {
                         "title": "Boss Quest",
-                        "start": "May 19 2021, 17:00",
+                        "time": "May 19 2021, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "EX Quest",
-                        "start": "May 21 2021, 17:00",
+                        "time": "May 21 2021, 17:00",
                         "type": "battle"
                     }
                 ]
