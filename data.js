@@ -266,7 +266,7 @@ var timerData = [
             "https://i.imgur.com/PHngK89.png"
         ],
         "column": 1,
-        "priority": 31,
+        "priority": 21,
         "timers": [
             {
                 "name": "Featuring 5* Kotone [Valentine], 5* Shion [Doll's Festival], 5* Youko [New Year], 4* Kotone [Swimsuit], 4* Eiko [Swimsuit]",
