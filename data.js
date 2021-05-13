@@ -38,69 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "We Wanna Play Baseball Too!",
-            "私たちだって野球したい！",
-            "Yoshino Event"
-        ],
-        "image": [
-            "https://i.imgur.com/wCkUtuq.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "April 14 2021, 17:00",
-                "end": "April 27 2021, 11:59",
-                "markers": [
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "April 22 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "April 23 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "April 24 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "April 25 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "April 16 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "April 21 2021, 17:00",
-                        "type": "battle"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Missions",
-                "start": "April 14 2021, 17:00",
-                "end": "April 27 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 14 2021, 17:00",
-                "end": "May 4 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "No Laughing in the Maid Manor!",
             "メイド館では笑えない！",
             "Maid 2021 Event"
@@ -166,6 +103,61 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Giant Kuromon vs Mecha Match",
+            "ジャイアントクロモンＶＳメカマッチ",
+            "Sansha Sanyou x Sakura Trick x Slow Start Event"
+        ],
+        "image": [
+            "https://i.imgur.com/tSo0hvG.png",
+            "https://i.imgur.com/utNa9rr.png",
+            "https://i.imgur.com/ZzaoI92.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "May 14 2021, 17:00",
+                "end": "May 27 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Chapters 5~10",
+                        "start": "May 15 2021, 17:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Chapters 11~16",
+                        "start": "May 16 2021, 17:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "start": "May 19 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "EX Quest",
+                        "start": "May 21 2021, 17:00",
+                        "type": "battle"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "May 14 2021, 17:00",
+                "end": "May 27 2021, 23:59"
+            },
+            {
+                "name": "Event Shop/Global Points Rewards",
+                "start": "May 14 2021, 17:00",
+                "end": "June 3 2021, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "No Laughing in the Maid Manor! Summon",
@@ -205,8 +197,42 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Maid Limited-Time Step-up Summon",
-            "期間限定メイド復刻おまけ付き10回召喚",
+            "Giant Kuromon vs Mecha Match Summon",
+            "ジャイアントクロモンＶＳメカマッチピックアップ召喚",
+            "Sansha Sanyou x Sakura Trick x Slow Start Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/tSo0hvG.png",
+            "https://i.imgur.com/utNa9rr.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "May 14 2021, 17:00",
+                "end": "May 27 2021, 15:59",
+                "extraPriority": 6,
+                "banners": [
+                    {
+                        "title": "First Half",
+                        "desc": "Featuring 5★ Hayama Kou, 4★ Odagiri Futaba, 4★ Hayama Teru",
+                        "time": "May 14 2021, 17:00"
+                    },
+                    {
+                        "title": "Second Half",
+                        "desc": "Featuring 5★ Ikeno Kaede, 4★ Ikeno Kaede, 4★ Iizuka Yuzu",
+                        "time": "May 18 2021, 0:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Sports Festival Limited-Time Step-up Summon",
+            "期間限定運動会復刻おまけ付き10回召喚",
             "Random 5* Summon Ticket on 7th step"
         ],
         "image": [
@@ -216,24 +242,47 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5* Yutaka [Maid], 5* Hifumi [Maid], 5* Hizume [Maid], 5* Cork [Maid]",
-                "start": "April 30 2021, 0:00",
-                "end": "May 4 2021, 23:59",
+                "name": "Summon Period: Featuring 5* Karen [Sports Festival], 5* Youko [Sports Festival], 5* Tamaki [Sports Festival], 5* Aoba [Sports Festival], 5* Eiko [Sports Festival], 5* Shamiko [Sports Festival], 5* Kirin [Sports Festival]",
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "April 30 2021, 0:00",
-                "end": "May 11 2021, 23:59"
+                "start": "May 14 2021, 17:00",
+                "end": "May 27 2021, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Kirara MAX 200th Edition Limited-Time Step-up Summon",
-            "きららMAX200号記念期間限定おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
+            "Sakura Trick & Slow Start & Sansha Sanyou Summon",
+            "期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/cAF9qXf.png",
+            "https://i.imgur.com/2mLBrtd.png",
+            "https://i.imgur.com/PHngK89.png"
+        ],
+        "column": 1,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Featuring 5* Kotone [Valentine], 5* Shion [Doll's Festival], 5* Youko [New Year], 4* Kotone [Swimsuit], 4* Eiko [Swimsuit]",
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59",
+                "info": "Also 3* and 4* characters from Sakura Trick and Slow Start, 4* characters from Sansha Sanyou",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Skill Update Step-up Summon",
+            "スキルアップデートおまけ付き10回召喚",
+            "Random 5* Summon Ticket on 3rd step"
         ],
         "image": [
             "clea"
@@ -242,41 +291,15 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
-                "start": "April 19 2021, 0:00",
-                "end": "April 25 2021, 23:59",
+                "name": "Summon Period: Featuring 5* Run, 5* Natsume Nono, 5* Sonoda Yuu, 5* Syaro",
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "April 19 2021, 0:00",
-                "end": "May 2 2021, 23:59",
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara MAX 200th Edition Limited-Time Summon Ticket",
-            "きららMAX200号記念期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Limited-time characters from Kirara MAX",
-                "start": "April 19 2021, 0:00",
-                "end": "April 25 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 19 2021, 0:00",
-                "end": "May 2 2021, 23:59",
+                "start": "May 14 2021, 17:00",
+                "end": "May 27 2021, 23:59"
             }
         ]
     },
@@ -303,32 +326,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 24 2021, 0:00",
                 "end": "April 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Golden Week Limited-time Choosable 5* Summon Ticket",
-            "ゴールデンウィーク期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 29 2021, 0:00",
-                "end": "April 29 2021, 23:59",
-                "extraPriority": 15,
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 29 2021, 0:00",
-                "end": "May 6 2021, 23:59"
             }
         ]
     },
@@ -367,6 +364,32 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Swimsuit 2019 Choosable 5* Summon Ticket",
+            "期間限定2019水着復刻★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "clea"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Kurumi [Swimsuit], 5* Nene [Swimsuit], 5* Maika [Swimsuit], 5* Aoi [Swimsuit], 5* Hana [Swimsuit], 5* Kaos [Swimsuit], 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
+                "start": "May 14 2021, 17:00",
+                "end": "May 19 2021, 23:59",
+                "extraPriority": 3,
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 14 2021, 17:00",
+                "end": "May 26 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Head Priest & Seven Sages Random Summon Ticket",
             "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
@@ -387,26 +410,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "April 27 2021, 0:00",
                 "end": "May 11 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Lamp's Birthday Cross Chara Limited-time Summon",
-            "ランプお誕生日記念クロスキャラ限定復刻ピックアップ召喚"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Lamp [Cross Chara]",
-                "start": "May 5 2021, 0:00",
-                "end": "May 7 2021, 23:59",
-                "extraPriority": 4,
             }
         ]
     },
@@ -456,8 +459,7 @@ var timerData = [
             {
                 "name": "Part 2: Featuring 5* Yuzuko [Swimsuit], 5* Yukari [Swimsuit], 5* Tamaki [Sports Festival], 5* Youko [New Year], 5* Futaba [Swimsuit], 4* Tamaki [Christmas]",
                 "start": "May 8 2021, 0:00",
-                "end": "May 14 2021, 15:59",
-                "extraPriority": 4
+                "end": "May 14 2021, 15:59"
             }
         ]
     },
@@ -475,23 +477,6 @@ var timerData = [
                 name: "Period",
                 "start": "April 29 2021, 0:00",
                 "end": "May 14 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Lamp's Birthday Login Bonus",
-            "ランプお誕生日記念ログインボーナス",
-            "Log in on 2 days for up to 3 Summon Tickets"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "May 5 2021, 0:00",
-                "end": "May 7 2021, 23:59"
             }
         ]
     },
@@ -560,45 +545,6 @@ var timerData = [
     {
         type: "WeekendBoss",
         title: [
-            "April Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/EcVglFg.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "April 3 2021, 0:00",
-                end: "April 4 2021, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "April 10 2021, 0:00",
-                end: "April 11 2021, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "April 17 2021, 0:00",
-                end: "April 18 2021, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "April 24 2021, 0:00",
-                end: "April 25 2021, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "April 3 2021, 0:00",
-                end: "April 30 2021, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
-        type: "WeekendBoss",
-        title: [
             "May Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -643,16 +589,16 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Limited Past Hinamatsuri Room Decorations",
-            "ひな祭り限定ルームアイテム再登場"
+            "Limited Past Sports Festival Room Decorations",
+            "運動会限定ルームアイテム再登場"
         ],
         image: "kanna",
         column: 2,
         timers: [
             {
                 name: "Period",
-                "start": "February 26 2021, 17:00",
-                "end": "March 5 2021, 16:59"
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59"
             }
         ]
     },
@@ -702,16 +648,32 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Lamp's Birthday Special Sale",
-            "ランプお誕生日記念セール"
+            "Sports Festival Special Sale",
+            "運動会アイテムショップに期間限定アイテム追加"
         ],
         image: "cork",
         column: 2,
         timers: [
             {
-                name: "Gem Sets",
-                "start": "May 5 2021, 0:00",
-                "end": "May 7 2021, 23:59"
+                name: "Item Set",
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Skills Update Special Sale",
+            "運動会アイテムショップに期間限定アイテム追加"
+        ],
+        image: "cork",
+        column: 2,
+        timers: [
+            {
+                name: "Item Sets",
+                "start": "May 14 2021, 17:00",
+                "end": "May 20 2021, 16:59"
             }
         ]
     }
