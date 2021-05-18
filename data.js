@@ -390,6 +390,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Swimsuit 2018 Choosable 5* Summon Ticket",
+            "期間限定2018水着復刻★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for 10x Summon + a Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuzuko [Swimsuit], 5★ Aya [Swimsuit], 5★ Yuki [Swimsuit], 5★ Kou [Swimsuit], 5★ Kon [Swimsuit], 5★ Shizuku [Swimsuit], 5★ Kaho [Swimsuit], 5★ Nadeshiko [Swimsuit]",
+                "start": "May 20 2021, 0:00",
+                "end": "May 24 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 20 2021, 0:00",
+                "end": "May 31 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Head Priest & Seven Sages Random Summon Ticket",
             "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
