@@ -160,43 +160,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "No Laughing in the Maid Manor! Summon",
-            "メイド館では笑えない！ピックアップ召喚",
-            "Maid 2021 Event summon"
-        ],
-        "image": [
-            "https://i.imgur.com/NjKzQaN.png",
-            "https://i.imgur.com/5UpNoBs.png",
-            "https://i.imgur.com/XVjhDho.png",
-            "https://i.imgur.com/pLSTVc3.png",
-            "https://i.imgur.com/g8JoM7F.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 27 2021, 17:00",
-                "end": "May 14 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5* Nishiyama [Maid], 5* Ginger [Maid]",
-                        "time": "April 27 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5* Yoriko [Maid], 5* Nono [Maid]",
-                        "time": "April 27 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Giant Kuromon vs Mecha Match Summon",
             "ジャイアントクロモンＶＳメカマッチピックアップ召喚",
             "Sansha Sanyou x Sakura Trick x Slow Start Event Summon"
@@ -257,23 +220,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Sakura Trick & Slow Start & Sansha Sanyou Summon",
-            "期間限定特別セレクション召喚"
+            "Wind Characters Step-up & Paid Summon",
+            "期間限定風属性おまけ付き10回召喚",
+            "期間限定風属性★5確定チケット付き！有償限定10回召喚"
         ],
-        "image": [
-            "https://i.imgur.com/cAF9qXf.png",
-            "https://i.imgur.com/2mLBrtd.png",
-            "https://i.imgur.com/PHngK89.png"
-        ],
+        "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Featuring 5* Kotone [Valentine], 5* Shion [Doll's Festival], 5* Youko [New Year], 4* Kotone [Swimsuit], 4* Eiko [Swimsuit]",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59",
-                "info": "Also 3* and 4* characters from Sakura Trick and Slow Start, 4* characters from Sansha Sanyou",
+                "name": "Summon Period: Featuring 5★ Takeya Yuki, 5★ Hifumi [Maid], 5★ Kon [Swimsuit], 5★ Natsume Nina, 5★ Nadeshiko [Swimsuit], 5★ Chiya, 5★ Kana [White Day], 5★ Hayama Teru",
+                "start": "May 22 2021, 17:00",
+                "end": "May 27 2021, 15:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 22 2021, 17:00",
+                "end": "June 3 2021, 23:59"
             }
         ]
     },
@@ -326,38 +290,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 24 2021, 0:00",
                 "end": "April 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Golden Week Choosable 5* Summon Ticket",
-            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: First Half",
-                "start": "April 29 2021, 0:00",
-                "end": "May 4 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Summon Period: Second Half",
-                "start": "May 5 2021, 0:00",
-                "end": "May 10 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 29 2021, 0:00",
-                "end": "May 17 2021, 23:59"
             }
         ]
     },
@@ -440,32 +372,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Lamp's Birthday Celebration 5* Summon Ticket",
-            "ランプお誕生日記念★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Lamp [Cross Chara], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Salt [White Day]",
-                "start": "May 5 2021, 0:00",
-                "end": "May 7 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 5 2021, 0:00",
-                "end": "May 14 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -484,23 +390,6 @@ var timerData = [
                 "name": "Part 2: Featuring 5* Yuzuko [Swimsuit], 5* Yukari [Swimsuit], 5* Tamaki [Sports Festival], 5* Youko [New Year], 5* Futaba [Swimsuit], 4* Tamaki [Christmas]",
                 "start": "May 8 2021, 0:00",
                 "end": "May 14 2021, 15:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Golden Week Login Bonus",
-            "ゴールデンウィークログインボーナス",
-            "Log in on 10 days for up to 200 Free Gems"
-        ],
-        image: "lamp",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "April 29 2021, 0:00",
-                "end": "May 14 2021, 23:59"
             }
         ]
     },
@@ -621,65 +510,6 @@ var timerData = [
         timers: [
             {
                 name: "Period",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Golden Week Special Sale",
-            "ゴールデンウィークセット販売"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Gem Sets",
-                "start": "April 29 2021, 0:00",
-                "end": "May 10 2021, 23:59",
-                "markers": [
-                    {
-                        "title": "Bonus Set 2",
-                        "time": "May 5 2021, 0:00",
-                        "type": "star"
-                    }
-                ]
-            },
-            {
-                name: "Gem Sets + Maid Bonus",
-                "start": "April 27 2021, 17:00",
-                "end": "May 14 2021, 15:59"
-            },
-            {
-                name: "Item Sets 1",
-                "start": "April 29 2021, 0:00",
-                "end": "May 4 2021, 23:59"
-            },
-            {
-                name: "Item Sets 2",
-                "start": "April 29 2021, 0:00",
-                "end": "May 10 2021, 23:59"
-            },
-            {
-                name: "Extra Call Ticket",
-                "start": "April 29 2021, 0:00",
-                "end": "April 29 2021, 23:59"
-            }
-        ]
-    },
-    {
-        type: "Other",
-        title: [
-            "Sports Festival Special Sale",
-            "運動会アイテムショップに期間限定アイテム追加"
-        ],
-        image: "cork",
-        column: 2,
-        timers: [
-            {
-                name: "Item Set",
                 "start": "May 14 2021, 17:00",
                 "end": "May 20 2021, 16:59"
             }
