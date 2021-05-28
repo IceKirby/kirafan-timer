@@ -634,5 +634,83 @@ var timerData = [
                 "end": "June 16 2021, 23:59"
             }
         ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Manga Volume 2 Celebration Login Bonus",
+            "コミカライズ第2巻発売記念ログインボーナス",
+            "Log everyday for varied items"
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 1 2021, 0:00",
+                "end": "June 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Manga Volume 2 Celebration Starlight Stone Bundle",
+            "お得な星彩石セット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 1 2021, 0:00",
+                "end": "June 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Volume 2 Celebration Daily KiraKira Limited-time Summon",
+            "コミカライズ第2巻発売記念1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuno [Christmas], 5★ Yuno [Swimsuit], 5★ Miyako [Christmas], 5★ Yasuna [New Year], 5★ Cocoa [Christmas], 5★ Cocoa [Swimsuit]",
+                "start": "June 1 2021, 0:00",
+                "end": "June 9 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Volume 2 Celebration Paid Summon + Random 5* Summon Ticket",
+            "コミカライズ第2巻発売記念★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring characters that appear in the Volume 2",
+                "start": "June 1 2021, 0:00",
+                "end": "June 9 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 1 2021, 0:00",
+                "end": "June 16 2021, 23:59"
+            }
+        ]
     }
 ];
