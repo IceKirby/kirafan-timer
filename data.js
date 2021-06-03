@@ -279,6 +279,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Alchemist Step-up Summon / Paid Summon",
+            "2つの召喚を同時開催！アルケミストのキャラクターを仲間にしよう！",
+            "Random 5★ Summon Ticket on the 7th step",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Nagi, 5★ Aya [Valentine], 5★ Miki [Halloween], 5★ Koume [Valentine], 5★ Nadeshiko [Valentine], 5★ Kuro, 5★ Konohata Mira, 5★ Kawaguchi Yoshino",
+                "start": "June 4 2021, 17:00",
+                "end": "June 9 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 4 2021, 17:00",
+                "end": "June 16 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Skill Update Step-up Summon",
             "スキルアップデートおまけ付き10回召喚",
             "Random 5* Summon Ticket on 3rd step"
