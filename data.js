@@ -38,61 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Giant Kuromon vs Mecha Match",
-            "ジャイアントクロモンＶＳメカマッチ",
-            "Sansha Sanyou x Sakura Trick x Slow Start Event"
-        ],
-        "image": [
-            "https://i.imgur.com/tSo0hvG.png",
-            "https://i.imgur.com/utNa9rr.png",
-            "https://i.imgur.com/ZzaoI92.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "May 14 2021, 17:00",
-                "end": "May 27 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Chapters 5~10",
-                        "time": "May 15 2021, 17:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Chapters 11~16",
-                        "time": "May 16 2021, 17:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "May 19 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "May 21 2021, 17:00",
-                        "type": "battle"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "May 14 2021, 17:00",
-                "end": "May 27 2021, 23:59"
-            },
-            {
-                "name": "Event Shop/Global Points Rewards",
-                "start": "May 14 2021, 17:00",
-                "end": "June 3 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Bridal or Hell",
             "ブライダル・オア・ヘル",
             "Bride Event"
@@ -158,36 +103,71 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "Giant Kuromon vs Mecha Match Summon",
-            "ジャイアントクロモンＶＳメカマッチピックアップ召喚",
-            "Sansha Sanyou x Sakura Trick x Slow Start Event Summon"
+            "The Girls from a Close yet Distant World",
+            "まんがタイムコラボ近くて遠い世界の少女たち",
+            "Manga Time Collab Event"
         ],
         "image": [
-            "https://i.imgur.com/tSo0hvG.png",
-            "https://i.imgur.com/utNa9rr.png"
+            "https://i.imgur.com/YrpaqFy.png",
+            "https://i.imgur.com/LzTctJv.png",
+            "https://i.imgur.com/xSXNJvR.png",
+            "https://i.imgur.com/Coo0Gtq.png",
+            "https://i.imgur.com/dF2sSeI.png",
+            "https://i.imgur.com/Nxutzun.png",
+            "https://i.imgur.com/4MZWpVJ.png"
         ],
-        "column": 1,
-        "priority": 21,
+        "column": 0,
+        "priority": 32,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "May 14 2021, 17:00",
-                "end": "May 27 2021, 15:59",
-                "extraPriority": 6,
-                "banners": [
+                "name": "Main Event",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 11:59",
+                "extraPriority": 4,
+                "markers": [
                     {
-                        "title": "First Half",
-                        "desc": "Featuring 5★ Hayama Kou, 4★ Odagiri Futaba, 4★ Hayama Teru",
-                        "time": "May 14 2021, 17:00"
+                        "title": "EX Quest",
+                        "time": "June 16 2021, 17:00",
+                        "type": "battle"
                     },
                     {
-                        "title": "Second Half",
-                        "desc": "Featuring 5★ Ikeno Kaede, 4★ Ikeno Kaede, 4★ Iizuka Yuzu",
-                        "time": "May 18 2021, 0:00"
+                        "title": "Boss Quest",
+                        "time": "June 11 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "June 18 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "June 19 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "June 20 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "June 21 2021, 0:00",
+                        "type": "story"
                     }
                 ]
+            },
+            {
+                "name": "Missions",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 9 2021, 17:00",
+                "end": "July 1 2021, 13:59"
             }
         ]
     },
@@ -230,50 +210,67 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Sports Festival Limited-Time Step-up Summon",
-            "期間限定運動会復刻おまけ付き10回召喚",
-            "Random 5* Summon Ticket on 7th step"
+            "The Girls from a Close yet Distant World Summon",
+            "まんがタイムコラボ限定ピックアップ召喚・大家さんは思春期！編",
+            "Manga Time Collab Event Summon"
         ],
         "image": [
-            "clea"
+            "https://i.imgur.com/YrpaqFy.png",
+            "https://i.imgur.com/LzTctJv.png",
+            "https://i.imgur.com/xSXNJvR.png",
+            "https://i.imgur.com/Coo0Gtq.png",
+            "https://i.imgur.com/dF2sSeI.png",
+            "https://i.imgur.com/Nxutzun.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5* Karen [Sports Festival], 5* Youko [Sports Festival], 5* Tamaki [Sports Festival], 5* Aoba [Sports Festival], 5* Eiko [Sports Festival], 5* Shamiko [Sports Festival], 5* Kirin [Sports Festival]",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 14 2021, 17:00",
-                "end": "May 27 2021, 23:59"
+                "name": "Summon Period",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 11:59",
+                "extraPriority": 6,
+                "banners": [
+                    {
+                        "title": "Ooya-san wa Shishunki! Side",
+                        "desc": "Featuring 5★ Satonaka Chie, 5★ Shirai Reiko",
+                        "time": "June 9 2021, 17:00"
+                    },
+                    {
+                        "title": "Love Lab Side",
+                        "desc": "Featuring 5★ Kurahashi Riko, 5★ Maki Natsuo",
+                        "time": "June 9 2021, 17:00"
+                    },
+                    {
+                        "title": "Komori-san wa Kotowarenai! Side",
+                        "desc": "Featuring 5★ Komori Shuri, 5★ Nishitori Megumi",
+                        "time": "June 9 2021, 17:00"
+                    }
+                ]
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Wind Characters Step-up & Paid Summon",
-            "期間限定風属性おまけ付き10回召喚",
-            "期間限定風属性★5確定チケット付き！有償限定10回召喚"
+            "Collab Celebration Choosable 5★ Summon Ticket",
+            "コラボ開催記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Takeya Yuki, 5★ Hifumi [Maid], 5★ Kon [Swimsuit], 5★ Natsume Nina, 5★ Nadeshiko [Swimsuit], 5★ Chiya, 5★ Kana [White Day], 5★ Hayama Teru",
-                "start": "May 22 2021, 17:00",
-                "end": "May 27 2021, 15:59",
+                "name": "Summon Period",
+                "start": "June 9 2021, 17:00",
+                "end": "June 16 2021, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "May 22 2021, 17:00",
-                "end": "June 3 2021, 23:59"
+                "start": "June 9 2021, 17:00",
+                "end": "June 23 2021, 23:59"
             }
         ]
     },
@@ -299,128 +296,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 4 2021, 17:00",
                 "end": "June 16 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Skill Update Step-up Summon",
-            "スキルアップデートおまけ付き10回召喚",
-            "Random 5* Summon Ticket on 3rd step"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Run, 5* Natsume Nono, 5* Sonoda Yuu, 5* Syaro",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 14 2021, 17:00",
-                "end": "May 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "1200 Days Celebration Choosable 5* Summon Ticket",
-            "リリース1200日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "March 24 2021, 0:00",
-                "end": "April 6 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 24 2021, 0:00",
-                "end": "April 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Swimsuit 2019 Choosable 5* Summon Ticket",
-            "期間限定2019水着復刻★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5* Summon Ticket"
-        ],
-        "image": [
-            "clea"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5* Kurumi [Swimsuit], 5* Nene [Swimsuit], 5* Maika [Swimsuit], 5* Aoi [Swimsuit], 5* Hana [Swimsuit], 5* Kaos [Swimsuit], 5* Yui [Swimsuit], 5* Chino [Swimsuit], 5* Lamp [Swimsuit]",
-                "start": "May 14 2021, 17:00",
-                "end": "May 19 2021, 23:59",
-                "extraPriority": 3,
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 14 2021, 17:00",
-                "end": "May 26 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Swimsuit 2018 Choosable 5* Summon Ticket",
-            "期間限定2018水着復刻★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for 10x Summon + a Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuzuko [Swimsuit], 5★ Aya [Swimsuit], 5★ Yuki [Swimsuit], 5★ Kou [Swimsuit], 5★ Kon [Swimsuit], 5★ Shizuku [Swimsuit], 5★ Kaho [Swimsuit], 5★ Nadeshiko [Swimsuit]",
-                "start": "May 20 2021, 0:00",
-                "end": "May 24 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 20 2021, 0:00",
-                "end": "May 31 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Limited-time Summon",
-            "きららファンタジア期間限定復刻ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/EwMOT1D.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Kirara [Manga ver.]",
-                "start": "May 27 2021, 17:00",
-                "end": "May 31 2021, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -542,50 +417,6 @@ var timerData = [
         ]
     },
     {
-        type: "WeekendBoss",
-        title: [
-            "May Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        image: "https://i.imgur.com/c4ktfLx.png",
-        column: 2,
-        timers: [
-            {
-                name: "Weekend 1",
-                start: "May 1 2021, 0:00",
-                end: "May 2 2021, 23:59"
-            },
-            {
-                name: "Weekend 2",
-                start: "May 8 2021, 0:00",
-                end: "May 9 2021, 23:59"
-            },
-            {
-                name: "Weekend 3",
-                start: "May 15 2021, 0:00",
-                end: "May 16 2021, 23:59"
-            },
-            {
-                name: "Weekend 4",
-                start: "May 22 2021, 0:00",
-                end: "May 23 2021, 23:59"
-            },
-            {
-                name: "Weekend 5",
-                start: "May 29 2021, 0:00",
-                end: "May 30 2021, 23:59"
-            },
-            {
-                name: "Medal exchange period",
-                start: "May 1 2021, 0:00",
-                end: "June 4 2021, 23:59",
-                keepAfterFinished: "2 hours",
-                type: "normal"
-            }
-        ]
-    },
-    {
         "type": "WeekendBoss",
         "title": [
             "June Boss Challenge",
@@ -662,41 +493,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Other",
-        "title": [
-            "Manga Volume 2 Celebration Login Bonus",
-            "コミカライズ第2巻発売記念ログインボーナス",
-            "Log everyday for varied items"
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 1 2021, 0:00",
-                "end": "June 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Manga Volume 2 Celebration Starlight Stone Bundle",
-            "お得な星彩石セット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 1 2021, 0:00",
-                "end": "June 7 2021, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Manga Volume 2 Celebration Daily KiraKira Limited-time Summon",
@@ -736,6 +532,104 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 1 2021, 0:00",
                 "end": "June 16 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "The Girls from a Close yet Distant World Login Bonus",
+            "近くて遠い世界の少女たちログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Collab-Limited Step-up Summon",
+            "まんがタイムコラボ限定おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period: Featuring 5★ Satonaka Chie, 5★ Shirai Reiko, 5★ Kurahashi Riko, 5★ Maki Natsuo, 5★ Komori Shuri, 5★ Nishitori Megumi",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 11:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 9 2021, 17:00",
+                "end": "July 1 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Collab-Limited Weapons",
+            "コラボ限定ぶき登場",
+            "Special Weapon Vouchers at Item Shop"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Voucher Purchase",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 23:59"
+            },
+            {
+                "name": "Voucher Exchange",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Starlight Stone Bundle",
+            "お得な星彩石セット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Item Bundle",
+            "お得なアイテムセット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 9 2021, 17:00",
+                "end": "June 24 2021, 11:59"
             }
         ]
     }
