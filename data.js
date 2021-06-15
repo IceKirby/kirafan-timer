@@ -335,22 +335,55 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "May 28 2021, 0:00",
-                "end": "June 3 2021, 23:59",
-                "extraPriority": 4,
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Chiya [Christmas], 5★ Koume [Valentine], 5★ Koyume [Swimsuit], 5★ Tsubasa [Tanabata], 5★ Kotetsu [Christmas], 5★ Sesame",
-                        "time": "May 28 2021, 0:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Kon [Swimsuit], 5★ Omi [New Year], 5★ Kaos [Swimsuit], 5★ Hizume [Maid], 5★ Kana [White Day], 5★ Clea [Doll's Festival], 4★ Nono [Halloween]",
-                        "time": "May 28 2021, 0:00"
-                    }
-                ]
+                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Mio [Valentine], 5★ Ryou [Swimsuit], 5★ Kirin [Sports Festival], 5★ Sugar, 5★ Sugar [Valentine], 5★ Cardamom, 5★ Salt, 5★ Salt [White Day], 5★ Ginger, 5★ Ginger [Maid]",
+                "start": "June 17 2021, 0:00",
+                "end": "June 24 2021, 11:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Kirara Fantasia Part 2 Limited-time Summon",
+            "きららファンタジア第2部限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/rpBGZJF.png",
+            "https://i.imgur.com/fMuI7nP.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2]",
+                "start": "June 17 2021, 0:00",
+                "end": "June 24 2021, 11:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Part 2 Paid Summon",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2]",
+                "start": "June 17 2021, 0:00",
+                "end": "June 24 2021, 11:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 17 2021, 0:00",
+                "end": "July 1 2021, 23:59"
             }
         ]
     },
@@ -391,28 +424,17 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest & Author Quest Half Stamina Campaign",
-            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
+            "Main Quest Part 2 Half Stamina Campaign",
+            "メインクエスト第2部スタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
+        priority: 12,
         timers: [
             {
                 name: "Period",
-                "start": "April 29 2021, 0:00",
-                "end": "May 10 2021, 23:59",
-                "markers": [
-                    {
-                        "title": "Main Quest Part 2",
-                        "time": "April 29 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Main Quest Part 1 & Author Quests",
-                        "time": "May 5 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
+                "start": "June 17 2021, 0:00",
+                "end": "July 1 2021, 23:59"
             }
         ]
     },
