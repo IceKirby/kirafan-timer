@@ -189,7 +189,7 @@ var timerData = [
             "Main Quest Part 2 Limited-Time Summon",
             "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
-        "image": "clea",
+        "image": "https://i.imgur.com/nhIm5ha.png",
         "column": 1,
         "priority": 21,
         "timers": [
