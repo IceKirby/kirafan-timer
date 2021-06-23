@@ -186,6 +186,48 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Main Quest Part 2 Limited-Time Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2]",
+                "start": "June 24 2021, 17:00",
+                "end": "July 7 2021, 15:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "GA Limited-time Random 5* Summon Ticket",
+            "GA期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Noda Miki [Halloween], 5★ Kyouju [Tanabata]",
+                "start": "June 24 2021, 17:00",
+                "end": "July 1 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 24 2021, 17:00",
+                "end": "July 8 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Collab Celebration Choosable 5★ Summon Ticket",
             "コラボ開催記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
@@ -410,17 +452,22 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Part 2 Half Stamina Campaign",
-            "メインクエスト第2部スタミナ半減キャンペーン",
+            "Main Quest Half Stamina Campaign",
+            "メインクエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
-        priority: 12,
+        priority: 14,
         timers: [
             {
-                name: "Period",
+                name: "Part 2",
                 "start": "June 17 2021, 0:00",
                 "end": "July 1 2021, 23:59"
+            },
+            {
+                name: "Part 1 (Normal Mode)",
+                "start": "June 24 2021, 17:00",
+                "end": "July 7 2021, 15:59"
             }
         ]
     },
@@ -558,6 +605,11 @@ var timerData = [
                 "name": "Period",
                 "start": "June 9 2021, 17:00",
                 "end": "June 24 2021, 11:59"
+            },
+            {
+                "name": "Period",
+                "start": "June 24 2021, 17:00",
+                "end": "July 7 2021, 15:59"
             }
         ]
     },
@@ -642,6 +694,23 @@ var timerData = [
                 "name": "Period",
                 "start": "June 24 2021, 17:00",
                 "end": "July 13 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Main Quest Part 2 Chapter 3 Missions",
+            "メインクエスト第2部3章追加記念 期間限定ミッション"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "June 24 2021, 17:00",
+                "end": "July 7 2021, 23:59"
             }
         ]
     }
