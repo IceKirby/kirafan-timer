@@ -143,49 +143,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "The Girls from a Close yet Distant World Summon",
-            "まんがタイムコラボ限定ピックアップ召喚・大家さんは思春期！編",
-            "Manga Time Collab Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/YrpaqFy.png",
-            "https://i.imgur.com/LzTctJv.png",
-            "https://i.imgur.com/xSXNJvR.png",
-            "https://i.imgur.com/Coo0Gtq.png",
-            "https://i.imgur.com/dF2sSeI.png",
-            "https://i.imgur.com/Nxutzun.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 11:59",
-                "extraPriority": 6,
-                "banners": [
-                    {
-                        "title": "Ooya-san wa Shishunki! Side",
-                        "desc": "Featuring 5★ Satonaka Chie, 5★ Shirai Reiko",
-                        "time": "June 9 2021, 17:00"
-                    },
-                    {
-                        "title": "Love Lab Side",
-                        "desc": "Featuring 5★ Kurahashi Riko, 5★ Maki Natsuo",
-                        "time": "June 9 2021, 17:00"
-                    },
-                    {
-                        "title": "Komori-san wa Kotowarenai! Side",
-                        "desc": "Featuring 5★ Komori Shuri, 5★ Nishitori Megumi",
-                        "time": "June 9 2021, 17:00"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Main Quest Part 2 Limited-Time Summon",
             "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
@@ -222,49 +179,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 24 2021, 17:00",
                 "end": "July 8 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Collab Celebration Choosable 5★ Summon Ticket",
-            "コラボ開催記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "June 9 2021, 17:00",
-                "end": "June 16 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 9 2021, 17:00",
-                "end": "June 23 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Mio [Valentine], 5★ Ryou [Swimsuit], 5★ Kirin [Sports Festival], 5★ Sugar, 5★ Sugar [Valentine], 5★ Cardamom, 5★ Salt, 5★ Salt [White Day], 5★ Ginger, 5★ Ginger [Maid]",
-                "start": "June 17 2021, 0:00",
-                "end": "June 24 2021, 11:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -367,27 +281,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 24 2021, 17:00",
                 "end": "July 6 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Kirara Fantasia Part 2 Limited-time Summon",
-            "きららファンタジア第2部限定復刻ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/rpBGZJF.png",
-            "https://i.imgur.com/fMuI7nP.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2]",
-                "start": "June 17 2021, 0:00",
-                "end": "June 24 2021, 11:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -512,6 +405,51 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "July Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/NJ8BaFX.png",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "July 3 2021, 0:00",
+                "end": "July 4 2021, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "July 10 2021, 0:00",
+                "end": "July 11 2021, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "July 17 2021, 0:00",
+                "end": "July 18 2021, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "July 24 2021, 0:00",
+                "end": "July 25 2021, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "July 31 2021, 0:00",
+                "end": "August 1 2021, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "July 3 2021, 0:00",
+                "end": "August 6 2021, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Limited Past Sports Festival Room Decorations",
@@ -524,24 +462,6 @@ var timerData = [
                 name: "Period",
                 "start": "May 14 2021, 17:00",
                 "end": "May 20 2021, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "The Girls from a Close yet Distant World Login Bonus",
-            "近くて遠い世界の少女たちログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 23:59"
             }
         ]
     },
@@ -571,29 +491,6 @@ var timerData = [
     {
         "type": "Other",
         "title": [
-            "Collab-Limited Weapons",
-            "コラボ限定ぶき登場",
-            "Special Weapon Vouchers at Item Shop"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Voucher Purchase",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 23:59"
-            },
-            {
-                "name": "Voucher Exchange",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
             "Special Starlight Stone Bundle",
             "お得な星彩石セット販売"
         ],
@@ -610,23 +507,6 @@ var timerData = [
                 "name": "Period",
                 "start": "June 24 2021, 17:00",
                 "end": "July 7 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Special Item Bundle",
-            "お得なアイテムセット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 11:59"
             }
         ]
     },
@@ -711,6 +591,133 @@ var timerData = [
                 "name": "Period",
                 "start": "June 24 2021, 17:00",
                 "end": "July 7 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "1300 Days Celebration Login Bonus",
+            "1300日記念ログインボーナス",
+            "Log in on 10 days to receive up to 300 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 15 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Starlight Stone Bundle",
+            "お得な星彩石セット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 15 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "1300 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
+            "リリース1300日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 15 2021, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 2 2021, 0:00",
+                "end": "July 22 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Item Bundle",
+            "お得なアイテムセット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 15 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 7 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Cross Chara Limited-time Summon",
+            "きららファンタジアクロスキャラ限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/jDhVcee.png",
+            "https://i.imgur.com/v5zDj5L.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 2 2021, 0:00",
+                "end": "July 7 2021, 15:59",
+                "extraPriority": 4,
+                "banners": [
+                    {
+                        "title": "Polka side",
+                        "desc": "Featuring 5★ Polka [Cross Chara]",
+                        "time": "July 2 2021, 0:00"
+                    },
+                    {
+                        "title": "Cork Side",
+                        "desc": "Featuring 5★ Cork [Cross Chara]",
+                        "time": "July 2 2021, 0:00"
+                    }
+                ]
             }
         ]
     }
