@@ -413,7 +413,7 @@ var timerData = [
         ],
         "image": "https://i.imgur.com/NJ8BaFX.png",
         "column": 2,
-        "priority": 15,
+        "priority": 13,
         "timers": [
             {
                 "name": "Weekend 1",
