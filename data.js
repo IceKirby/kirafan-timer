@@ -37,69 +37,67 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "The Girls from a Close yet Distant World",
-            "まんがタイムコラボ近くて遠い世界の少女たち",
-            "Manga Time Collab Event"
+            "Heart-Throbbing Etowaria Academy - Newly-Appointed Teachers Arc",
+            "どきどきエトワリア学園　新任教師編",
+            "Teachers Event"
         ],
         "image": [
-            "https://i.imgur.com/YrpaqFy.png",
-            "https://i.imgur.com/LzTctJv.png",
-            "https://i.imgur.com/xSXNJvR.png",
-            "https://i.imgur.com/Coo0Gtq.png",
-            "https://i.imgur.com/dF2sSeI.png",
-            "https://i.imgur.com/Nxutzun.png",
-            "https://i.imgur.com/4MZWpVJ.png"
+            "https://i.imgur.com/T8RkPAq.png",
+            "https://i.imgur.com/xE5HpSb.png",
+            "https://i.imgur.com/kklA5Co.png",
+            "https://i.imgur.com/eFBGxsc.png",
+            "https://i.imgur.com/oSCTTWx.png"
         ],
         "column": 0,
         "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 11:59",
+                "start": "July 7 2021, 17:00",
+                "end": "July 21 2021, 11:59",
                 "extraPriority": 4,
                 "markers": [
                     {
                         "title": "EX Quest",
-                        "time": "June 16 2021, 17:00",
+                        "time": "July 14 2021, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Boss Quest",
-                        "time": "June 11 2021, 17:00",
+                        "time": "July 9 2021, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Extra Chapter 1",
-                        "time": "June 18 2021, 0:00",
+                        "time": "July 16 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 2",
-                        "time": "June 19 2021, 0:00",
+                        "time": "July 17 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 3",
-                        "time": "June 20 2021, 0:00",
+                        "time": "July 18 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 4",
-                        "time": "June 21 2021, 0:00",
+                        "time": "July 19 2021, 0:00",
                         "type": "story"
                     }
                 ]
             },
             {
                 "name": "Missions",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 23:59"
+                "start": "July 7 2021, 17:00",
+                "end": "July 21 2021, 23:59"
             },
             {
                 "name": "Event Shop",
-                "start": "June 9 2021, 17:00",
-                "end": "July 1 2021, 13:59"
+                "start": "July 7 2021, 17:00",
+                "end": "July 28 2021, 13:59"
             }
         ]
     },
@@ -154,6 +152,60 @@ var timerData = [
                 "start": "June 24 2021, 17:00",
                 "end": "July 7 2021, 15:59",
                 "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Heart-Throbbing Etowaria Academy - Newly-Appointed Teachers Arc Summon",
+            "どきどきエトワリア学園　新任教師編ピックアップ召喚",
+            "Teachers Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/T8RkPAq.png",
+            "https://i.imgur.com/xE5HpSb.png",
+            "https://i.imgur.com/kklA5Co.png",
+            "https://i.imgur.com/eFBGxsc.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 7 2021, 17:00",
+                "end": "July 14 2021, 16:59",
+                "extraPriority": 6,
+                "banners": [
+                    {
+                        "title": "Yuki Side",
+                        "desc": "Featuring 5★ Uchiki Yuki",
+                        "time": "July 7 2021, 17:00"
+                    },
+                    {
+                        "title": "Karasuma-sensei Side",
+                        "desc": "Featuring 5★ Karasuma Sakura, 4★ Karasuma Sakura",
+                        "time": "July 7 2021, 17:00"
+                    }
+                ]
+            },
+            {
+                "name": "Summon Period",
+                "start": "July 14 2021, 17:00",
+                "end": "July 21 2021, 11:59",
+                "extraPriority": 6,
+                "banners": [
+                    {
+                        "title": "Tsubaki Side",
+                        "desc": "Featuring 5★ Hanahara Tsubaki",
+                        "time": "July 14 2021, 17:00"
+                    },
+                    {
+                        "title": "Nijino-sensei Side",
+                        "desc": "Featuring 5★ Nijino Miharu",
+                        "time": "July 14 2021, 17:00"
+                    }
+                ]
             }
         ]
     },
@@ -284,30 +336,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Part 2 Paid Summon",
-            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2]",
-                "start": "June 17 2021, 0:00",
-                "end": "June 24 2021, 11:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 17 2021, 0:00",
-                "end": "July 1 2021, 23:59"
-            }
-        ]
-    },
-    {
         type: "Other",
         title: [
             "1200 Days Celebration Login Bonus",
@@ -360,46 +388,6 @@ var timerData = [
                 name: "Part 1 (Normal Mode)",
                 "start": "June 24 2021, 17:00",
                 "end": "July 7 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "June Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/nfrALgB.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "June 5 2021, 0:00",
-                "end": "June 6 2021, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "June 12 2021, 0:00",
-                "end": "June 13 2021, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "June 19 2021, 0:00",
-                "end": "June 20 2021, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "June 26 2021, 0:00",
-                "end": "June 27 2021, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "June 5 2021, 0:00",
-                "end": "July 2 2021, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
@@ -461,29 +449,6 @@ var timerData = [
                 name: "Period",
                 "start": "May 14 2021, 17:00",
                 "end": "May 20 2021, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Collab-Limited Step-up Summon",
-            "まんがタイムコラボ限定おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period: Featuring 5★ Satonaka Chie, 5★ Shirai Reiko, 5★ Kurahashi Riko, 5★ Maki Natsuo, 5★ Komori Shuri, 5★ Nishitori Megumi",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 11:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 9 2021, 17:00",
-                "end": "July 1 2021, 23:59"
             }
         ]
     },
@@ -719,5 +684,99 @@ var timerData = [
                 ]
             }
         ]
-    }
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Kirara's Birthday Celebration Login Bonus",
+            "きららお誕生日記念2021ログインボーナス",
+            "Log in on 3 days to receive up to 3 Summon Tickets."
+        ],
+        "image": "kirara",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 7 2021, 17:00",
+                "end": "July 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Kirara's Birthday Celebration Sale",
+            "きららお誕生日記念セール"
+        ],
+        "image": "kirara",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 7 2021, 17:00",
+                "end": "July 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Kirara's Birthday Celebration Cross Chara Limited-time Summon",
+            "きららお誕生日記念クロスキャラ限定復刻ピックアップ召喚"
+        ],
+        "image": "kirara",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 7 2021, 17:00",
+                "end": "July 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara's Birthday Celebration Paid Summon + Random 5★ Summon Ticket",
+            "きららお誕生日記念★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "kirara",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 7 2021, 17:00",
+                "end": "July 9 2021, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 7 2021, 17:00",
+                "end": "July 16 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring students from the current event",
+                "start": "July 7 2021, 17:00",
+                "end": "July 21 2021, 11:59",
+                "extraPriority": 4
+            }
+        ]
+    },
 ];
