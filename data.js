@@ -290,6 +290,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Tanabata Limited-time Step-up Summon",
+            "期間限定七夕復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Featuring 5* Saitou [Tanabata], 5* Tsubasa [Tanabata], 5* Kyouju [Tanabata], 5* Lamp [Tanabata]",
+                "start": "July 9 2021, 0:00",
+                "end": "July 13 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 9 2021, 0:00",
+                "end": "July 20 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Ability Tree Celebration Choosable 5* Summon Ticket",
             "アビリティツリー実装記念★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
@@ -779,4 +803,21 @@ var timerData = [
             }
         ]
     },
+    {
+        "type": "Other",
+        "title": [
+            "Tanabata Item Set Sale",
+            "七夕セール"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 9 2021, 0:00",
+                "end": "July 13 2021, 16:59"
+            }
+        ]
+    }
 ];
