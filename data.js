@@ -140,24 +140,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Limited-Time Summon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": "https://i.imgur.com/nhIm5ha.png",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2]",
-                "start": "June 24 2021, 17:00",
-                "end": "July 7 2021, 15:59",
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Heart-Throbbing Etowaria Academy - Newly-Appointed Teachers Arc Summon",
             "どきどきエトワリア学園　新任教師編ピックアップ召喚",
             "Teachers Event Summon"
@@ -336,30 +318,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Ability Tree Celebration Past Limited-Time 5* Paid Summon",
-            "アビリティツリー実装記念　期間限定復刻★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Limited-Time 5★ Characters released between 2017~2019",
-                "start": "June 24 2021, 17:00",
-                "end": "June 29 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 24 2021, 17:00",
-                "end": "July 6 2021, 23:59"
-            }
-        ]
-    },
-    {
         type: "Other",
         title: [
             "1200 Days Celebration Login Bonus",
@@ -479,28 +437,6 @@ var timerData = [
     {
         "type": "Other",
         "title": [
-            "Special Starlight Stone Bundle",
-            "お得な星彩石セット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 9 2021, 17:00",
-                "end": "June 24 2021, 11:59"
-            },
-            {
-                "name": "Period",
-                "start": "June 24 2021, 17:00",
-                "end": "July 7 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
             "Ver 3.2.0 Celebration Login Bonus",
             "Ver 3.2.0記念ログインボーナス",
             "Log in on 7 days to receive up to 4x Quest Key - Tree + 15x Stamina Recovery Item - Large."
@@ -562,23 +498,6 @@ var timerData = [
                 "name": "Period",
                 "start": "June 24 2021, 17:00",
                 "end": "July 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Chapter 3 Missions",
-            "メインクエスト第2部3章追加記念 期間限定ミッション"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 24 2021, 17:00",
-                "end": "July 7 2021, 23:59"
             }
         ]
     },
@@ -654,58 +573,6 @@ var timerData = [
                 "name": "Period",
                 "start": "July 2 2021, 0:00",
                 "end": "July 15 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 2 2021, 0:00",
-                "end": "July 7 2021, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Cross Chara Limited-time Summon",
-            "きららファンタジアクロスキャラ限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/jDhVcee.png",
-            "https://i.imgur.com/v5zDj5L.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 2 2021, 0:00",
-                "end": "July 7 2021, 15:59",
-                "extraPriority": 4,
-                "banners": [
-                    {
-                        "title": "Polka side",
-                        "desc": "Featuring 5★ Polka [Cross Chara]",
-                        "time": "July 2 2021, 0:00"
-                    },
-                    {
-                        "title": "Cork Side",
-                        "desc": "Featuring 5★ Cork [Cross Chara]",
-                        "time": "July 2 2021, 0:00"
-                    }
-                ]
             }
         ]
     },
@@ -817,6 +684,74 @@ var timerData = [
                 "name": "Period",
                 "start": "July 9 2021, 0:00",
                 "end": "July 13 2021, 16:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "KiraFan Summer Night Campaign Missions",
+            "きらファンサマーナイトキャンペーンミッション",
+            "Daily Missions for a Summon Ticket"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 10 2021, 0:00",
+                "end": "August 20 2021, 23:59",
+                "extraPriority": 1
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "KiraFan Summer Night Heart-throbbing Summon",
+            "きらファンサマーナイトドキドキ召喚",
+            "Receive Ticket Pieces to exchange for 5* Summon Tickets"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 10 2021, 0:00",
+                "end": "August 20 2021, 23:59",
+                "extraPriority": 5
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 10 2021, 0:00",
+                "end": "August 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "KiraFan Summer Night Twitter Campaign",
+            "きらファンサマーナイトTwitterキャンペーン",
+            "Login to receive the Retweets/Likes Campaign rewards"
+        ],
+        "image": "kirara",
+        "column": 2,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Retweet Reward Retrieval Period",
+                "start": "July 21 2021, 17:00",
+                "end": "July 22 2021, 23:59",
+                "extraPriority": 10
+            },
+            {
+                "name": "Likes Reward Retrieval Period",
+                "start": "August 5 2021, 17:00",
+                "end": "August 6 2021, 23:59",
+                "extraPriority": 10
             }
         ]
     }
