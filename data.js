@@ -138,6 +138,57 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Etowaria's Summer One-Shots 2021",
+            "エトワリア夏の一幕2021",
+            "Summer Mini-Event"
+        ],
+        "image": ["kirara"],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "July 14 2021, 0:00",
+                "end": "July 21 2021, 11:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Chapter 2",
+                        "time": "July 15 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Chapter 3",
+                        "time": "July 16 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Chapter 4",
+                        "time": "July 17 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Chapter 5",
+                        "time": "July 18 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Chapter 6",
+                        "time": "July 19 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "July 14 2021, 0:00",
+                "end": "July 21 2021, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Heart-Throbbing Etowaria Academy - Newly-Appointed Teachers Arc Summon",
@@ -188,84 +239,6 @@ var timerData = [
                         "time": "July 14 2021, 17:00"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "GA Limited-time Random 5* Summon Ticket",
-            "GA期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Noda Miki [Halloween], 5★ Kyouju [Tanabata]",
-                "start": "June 24 2021, 17:00",
-                "end": "July 1 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 24 2021, 17:00",
-                "end": "July 8 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Ability Tree Celebration Daily KiraKira Limited-time Summon",
-            "アビリティツリー実装記念1日1回期間限定きらきら召喚・特装版",
-            "40 Paid Gems once per day for 3 summons, all 4* or above",
-            "Collect Ticket Scraps and exchange for a Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Limited-Time 5★ Characters released in 2020",
-                "start": "June 24 2021, 17:00",
-                "end": "July 1 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Exchange",
-                "start": "June 24 2021, 17:00",
-                "end": "July 1 2021, 23:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 24 2021, 17:00",
-                "end": "July 8 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "2020 Limited-time Step-up Summon",
-            "アビリティツリー実装記念期間限定2020復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Limited-Time 5★ Characters released in 2020",
-                "start": "June 24 2021, 17:00",
-                "end": "July 1 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 24 2021, 17:00",
-                "end": "July 8 2021, 23:59"
             }
         ]
     },
@@ -577,58 +550,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Other",
-        "title": [
-            "Kirara's Birthday Celebration Login Bonus",
-            "きららお誕生日記念2021ログインボーナス",
-            "Log in on 3 days to receive up to 3 Summon Tickets."
-        ],
-        "image": "kirara",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 7 2021, 17:00",
-                "end": "July 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Kirara's Birthday Celebration Sale",
-            "きららお誕生日記念セール"
-        ],
-        "image": "kirara",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 7 2021, 17:00",
-                "end": "July 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Kirara's Birthday Celebration Cross Chara Limited-time Summon",
-            "きららお誕生日記念クロスキャラ限定復刻ピックアップ召喚"
-        ],
-        "image": "kirara",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 7 2021, 17:00",
-                "end": "July 9 2021, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Kirara's Birthday Celebration Paid Summon + Random 5★ Summon Ticket",
@@ -739,7 +660,7 @@ var timerData = [
         ],
         "image": "kirara",
         "column": 2,
-        "priority": 31,
+        "priority": 11,
         "timers": [
             {
                 "name": "Retweet Reward Retrieval Period",
