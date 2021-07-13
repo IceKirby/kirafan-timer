@@ -295,7 +295,7 @@ var timerData = [
         "title": [
             "Etowaria Academy's Teacher Step-up + Paid Summon",
             "期間限定いちおしテーマ召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Random 5★ Summon Ticket on the 7th step",
             "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
         ],
         "image": "clea",
