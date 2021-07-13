@@ -291,6 +291,31 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Etowaria Academy's Teacher Step-up + Paid Summon",
+            "期間限定いちおしテーマ召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5* Matsumoto Yoriko, 5* Yoriko [Maid], 5* Sakura Megumi, 5* Natsume Nina, 5* Enami Kiyose",
+                "start": "July 14 2021, 17:00",
+                "end": "July 20 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 14 2021, 17:00",
+                "end": "July 27 2021, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "1200 Days Celebration Login Bonus",
