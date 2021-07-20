@@ -105,6 +105,74 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Summer Night Radio",
+            "サマーナイト・レディオ",
+            "Summer 2021 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/xRxyFOS.png",
+            "https://i.imgur.com/9p7nWjo.png",
+            "https://i.imgur.com/b945uWJ.png",
+            "https://i.imgur.com/eC1qgpZ.png",
+            "https://i.imgur.com/6w0SCbt.png",
+            "https://i.imgur.com/JgJ80hO.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 11:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "July 27 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "July 23 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "August 1 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "August 2 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "August 3 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "August 4 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 21 2021, 17:00",
+                "end": "August 27 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Let's Train and Challenge! Ability Tree Implementation Quest",
             "育てて挑もう！アビリティツリー実装記念クエスト",
             "Ability Tree Mini-Event"
@@ -246,6 +314,43 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Summer Night Radio Summon",
+            "期間限定2021水着キャラクターピックアップ召喚",
+            "Summer 2021 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/xRxyFOS.png",
+            "https://i.imgur.com/9p7nWjo.png",
+            "https://i.imgur.com/b945uWJ.png",
+            "https://i.imgur.com/eC1qgpZ.png",
+            "https://i.imgur.com/6w0SCbt.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 11:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Nazuna [Swimsuit], 5★ Nagi [Swimsuit], 5★ Kotetsu [Swimsuit]",
+                        "time": "July 21 2021, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Yui [Swimsuit], 5★ Megumi [Swimsuit]",
+                        "time": "July 21 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past Tanabata Limited-time Step-up Summon",
             "期間限定七夕復刻おまけ付き10回召喚",
             "Random 5★ Summon Ticket on the 7th step"
@@ -313,6 +418,146 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "July 14 2021, 17:00",
                 "end": "July 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past 2017~2019 Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 21 2021, 17:00",
+                "end": "July 28 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 21 2021, 17:00",
+                "end": "August 4 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past 2021 Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定2021復刻★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 21 2021, 17:00",
+                "end": "July 28 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 21 2021, 17:00",
+                "end": "August 4 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Limited-time Swimsuit 2020 Step-up Summon",
+            "期間限定2020水着復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuno [Swimsuit], 5★ Yukari [Swimsuit], 5★ Yuuko [Swimsuit], 5★ Youko [Swimsuit], 5★ Haruka [Swimsuit], 5★ Koyume [Swimsuit], 5★ Cocoa [Swimsuit], 5★ Futaba [Swimsuit], 5★ Mikan [Swimsuit], 5★ Ryou [Swimsuit]",
+                "start": "July 21 2021, 17:00",
+                "end": "July 28 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 21 2021, 17:00",
+                "end": "August 4 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Swimsuit Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定水着★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "July 21 2021, 17:00",
+                "end": "August 5 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 21 2021, 17:00",
+                "end": "August 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
+            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
+            "1,000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 21 2021, 17:00",
+                "end": "July 28 2021, 23:59",
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above",
+            "Receive Ticket Pieces and exchange for a Past Swimsuit Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Exchange",
+                "start": "July 21 2021, 17:00",
+                "end": "August 4 2021, 23:59",
+                "extraPriority": 1
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 21 2021, 17:00",
+                "end": "August 11 2021, 23:59"
             }
         ]
     },
@@ -418,124 +663,6 @@ var timerData = [
         ]
     },
     {
-        type: "Other",
-        title: [
-            "Limited Past Sports Festival Room Decorations",
-            "運動会限定ルームアイテム再登場"
-        ],
-        image: "kanna",
-        column: 2,
-        timers: [
-            {
-                name: "Period",
-                "start": "May 14 2021, 17:00",
-                "end": "May 20 2021, 16:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Ver 3.2.0 Celebration Login Bonus",
-            "Ver 3.2.0記念ログインボーナス",
-            "Log in on 7 days to receive up to 4x Quest Key - Tree + 15x Stamina Recovery Item - Large."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 24 2021, 17:00",
-                "end": "July 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Ver 3.2.0 Celebration Campaign Sales",
-            "Ver 3.2.0記念セール"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Ability Tree-related Items",
-                "start": "June 24 2021, 17:00",
-                "end": "July 13 2021, 23:59"
-            },
-            {
-                "name": "Gem Set",
-                "start": "June 24 2021, 17:00",
-                "end": "July 13 2021, 23:59"
-            },
-            {
-                "name": "Item Sets",
-                "start": "June 24 2021, 17:00",
-                "end": "July 13 2021, 23:59"
-            },
-            {
-                "name": "Limited-time 2020 Random 5★ Summon Ticket, Star Festival 5★ Support Set",
-                "start": "June 24 2021, 17:00",
-                "end": "July 1 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Ver 3.2.0 Celebration Missions",
-            "Ver 3.2.0記念ミッション"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 24 2021, 17:00",
-                "end": "July 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "1300 Days Celebration Login Bonus",
-            "1300日記念ログインボーナス",
-            "Log in on 10 days to receive up to 300 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 2 2021, 0:00",
-                "end": "July 15 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Special Starlight Stone Bundle",
-            "お得な星彩石セット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 2 2021, 0:00",
-                "end": "July 15 2021, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "1300 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
@@ -559,46 +686,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Other",
-        "title": [
-            "Special Item Bundle",
-            "お得なアイテムセット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 2 2021, 0:00",
-                "end": "July 15 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara's Birthday Celebration Paid Summon + Random 5★ Summon Ticket",
-            "きららお誕生日記念★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Random 5★ Summon Ticket"
-        ],
-        "image": "kirara",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 7 2021, 17:00",
-                "end": "July 9 2021, 23:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 7 2021, 17:00",
-                "end": "July 16 2021, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Daily KiraKira Limited-time Summon",
@@ -614,23 +701,6 @@ var timerData = [
                 "start": "July 7 2021, 17:00",
                 "end": "July 21 2021, 11:59",
                 "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Tanabata Item Set Sale",
-            "七夕セール"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 9 2021, 0:00",
-                "end": "July 13 2021, 16:59"
             }
         ]
     },
@@ -674,6 +744,97 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "July 10 2021, 0:00",
                 "end": "August 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Etowaria's Summer Vacation 2021 Login Bonus",
+            "2021エトワリアの夏休み 前半 ログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "July 21 2021, 17:00",
+                "end": "August 5 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Item Bundle",
+            "お得なアイテムセット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Item & Gem Sets",
+                "start": "July 21 2021, 17:00",
+                "end": "August 5 2021, 15:59"
+            },
+            {
+                "name": "Past Swimsuit 5★ Summon Special Support Set, Midsummer 5★ Summon Special Support Set, Past Swimsuit 2020 Random 5★ Summon Ticket",
+                "start": "July 21 2021, 17:00",
+                "end": "July 28 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Summer-themed Room Decoration Items",
+            "夏限定ルームアイテム再登場"
+        ],
+        "image": "kanna",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Main Quest Half Stamina Campaign",
+            "メインクエストスタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Main Quest Part 1 & 2",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Summer-themed BGM",
+            "音楽も夏仕様に！BGM変更"
+        ],
+        "image": "leine",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 21 2021, 17:00",
+                "end": "August 20 2021, 11:59"
             }
         ]
     },
