@@ -562,6 +562,24 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuno [Christmas], 5★ Yuno [Swimsuit], 5★ Miyako [Christmas], 5★ Yuzuko [Swimsuit], 5★ Yukari [Swimsuit], 5★ Tooru [Christmas], 5★ Run [New Year], 5★ Yuuko [Christmas], 5★ Yuuko [Swimsuit], 5★ Yuki [Swimsuit], 5★ Kurumi [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [New Year], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween], 5★ Kohane [Bridal], 5★ Hizume [Maid], 5★ Kotetsu [Christmas], 5★ Kana [White Day], 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 4★ Tooru [Swimsuit], 4★ Run [Christmas]",
+                "start": "July 28 2021, 0:00",
+                "end": "August 4 2021, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "1200 Days Celebration Login Bonus",
