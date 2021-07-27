@@ -448,6 +448,25 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Manga Time Kirara MAX Limited-time Deluxe Summon",
+            "まんがタイムきららMAX期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 29 2021, 0:00",
+                "end": "August 5 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past 2021 Paid Summon + Choosable 5★ Summon Ticket",
             "期間限定2021復刻★5選べるチケット付き！有償限定10回召喚",
             "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
