@@ -700,6 +700,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "August Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/GlitMVy.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "August 7 2021, 0:00",
+                "end": "August 8 2021, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "August 14 2021, 0:00",
+                "end": "August 15 2021, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "August 21 2021, 0:00",
+                "end": "August 22 2021, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "August 28 2021, 0:00",
+                "end": "August 29 2021, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "August 7 2021, 0:00",
+                "end": "September 3 2021, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "1300 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
