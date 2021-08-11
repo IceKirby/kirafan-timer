@@ -230,97 +230,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past 2017~2019 Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 21 2021, 17:00",
-                "end": "July 28 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 21 2021, 17:00",
-                "end": "August 4 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara MAX Limited-time Deluxe Summon",
-            "まんがタイムきららMAX期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 29 2021, 0:00",
-                "end": "August 5 2021, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past 2021 Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定2021復刻★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 21 2021, 17:00",
-                "end": "July 28 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 21 2021, 17:00",
-                "end": "August 4 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Limited-time Swimsuit 2020 Step-up Summon",
-            "期間限定2020水着復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuno [Swimsuit], 5★ Yukari [Swimsuit], 5★ Yuuko [Swimsuit], 5★ Youko [Swimsuit], 5★ Haruka [Swimsuit], 5★ Koyume [Swimsuit], 5★ Cocoa [Swimsuit], 5★ Futaba [Swimsuit], 5★ Mikan [Swimsuit], 5★ Ryou [Swimsuit]",
-                "start": "July 21 2021, 17:00",
-                "end": "July 28 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 21 2021, 17:00",
-                "end": "August 4 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Limited-time Swimsuit Paid Summon + Choosable 5★ Summon Ticket",
             "期間限定水着★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -349,8 +258,32 @@ var timerData = [
             {
                 "name": "Ticket Expiration (Second Half)",
                 "start": "August 5 2021, 17:00",
-                "end": "August 27 2021, 23:59",
+                "end": "August 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Super EX Quest Support Step-up Summon",
+            "2つの召喚を同時開催！超高難易度クエストで活躍するキャラを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuzuko [Swimsuit], 5★ Takeya Yuki, 5★ Yun [Doll's Festival], 5★ Moeta Kaoruko, 5★ Hibari [Hot Spring], 5★ Haruka [Hot Spring], 5★ Mira [Valentine], 5★ Sugar [Valentine]",
+                "start": "August 12 2021, 17:00",
+                "end": "August 20 2021, 11:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 12 2021, 17:00",
+                "end": "August 27 2021, 23:59"
             }
         ]
     },
@@ -376,6 +309,49 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Manga Time Kirara Carat Limited-time Deluxe Summon",
+            "まんがタイムきららキャラット期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "August 13 2021, 0:00",
+                "end": "August 20 2021, 11:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Head Priest & Seven Sages Paid Summon + Random 5★ Summon Ticket",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "700 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
+                "start": "August 13 2021, 0:00",
+                "end": "August 20 2021, 11:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 13 2021, 0:00",
+                "end": "August 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above",
@@ -395,24 +371,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "July 21 2021, 17:00",
                 "end": "August 11 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuno [Christmas], 5★ Yuno [Swimsuit], 5★ Miyako [Christmas], 5★ Yuzuko [Swimsuit], 5★ Yukari [Swimsuit], 5★ Tooru [Christmas], 5★ Run [New Year], 5★ Yuuko [Christmas], 5★ Yuuko [Swimsuit], 5★ Yuki [Swimsuit], 5★ Kurumi [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [New Year], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween], 5★ Kohane [Bridal], 5★ Hizume [Maid], 5★ Kotetsu [Christmas], 5★ Kana [White Day], 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 4★ Tooru [Swimsuit], 4★ Run [Christmas]",
-                "start": "July 28 2021, 0:00",
-                "end": "August 4 2021, 23:59"
             }
         ]
     },
@@ -488,51 +446,6 @@ var timerData = [
                 name: "Part 1 (Normal Mode)",
                 "start": "June 24 2021, 17:00",
                 "end": "July 7 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "July Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/NJ8BaFX.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "July 3 2021, 0:00",
-                "end": "July 4 2021, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "July 10 2021, 0:00",
-                "end": "July 11 2021, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "July 17 2021, 0:00",
-                "end": "July 18 2021, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "July 24 2021, 0:00",
-                "end": "July 25 2021, 23:59"
-            },
-            {
-                "name": "Weekend 5",
-                "start": "July 31 2021, 0:00",
-                "end": "August 1 2021, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "July 3 2021, 0:00",
-                "end": "August 6 2021, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
@@ -717,31 +630,6 @@ var timerData = [
                 "name": "Period",
                 "start": "July 21 2021, 17:00",
                 "end": "August 20 2021, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "KiraFan Summer Night Twitter Campaign",
-            "きらファンサマーナイトTwitterキャンペーン",
-            "Login to receive the Retweets/Likes Campaign rewards"
-        ],
-        "image": "kirara",
-        "column": 2,
-        "priority": 11,
-        "timers": [
-            {
-                "name": "Retweet Reward Retrieval Period",
-                "start": "July 21 2021, 17:00",
-                "end": "July 22 2021, 23:59",
-                "extraPriority": 10
-            },
-            {
-                "name": "Likes Reward Retrieval Period",
-                "start": "August 5 2021, 17:00",
-                "end": "August 6 2021, 23:59",
-                "extraPriority": 10
             }
         ]
     }
