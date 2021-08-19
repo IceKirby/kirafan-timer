@@ -177,6 +177,70 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Golden Post Office and the Goat's Letter",
+            "きんいろ郵便局とヤギさんのてがみ",
+            "Kiniro Mosaic Movie Celebration Event"
+        ],
+        "image": [
+            "https://i.imgur.com/bidJAcJ.png",
+            "https://i.imgur.com/mWBf6TA.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 20 2021, 17:00",
+                "end": "September 2 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "August 24 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "August 22 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "August 27 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "August 28 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "August 29 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "August 30 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "August 20 2021, 17:00",
+                "end": "September 2 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 20 2021, 17:00",
+                "end": "September 9 2021, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Swimsuit Character 2021 Limited-time Summon",
@@ -224,6 +288,27 @@ var timerData = [
                         "time": "August 5 2021, 17:00"
                     }
                 ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Golden Post Office and the Goat's Letter Summon",
+            "きんいろ郵便局とヤギさんのてがみ期間限定ピックアップ召喚",
+            "Kiniro Mosaic Movie Celebration Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/bidJAcJ.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Event Summon: Featuring 5★ Shinobu [Postman of Happiness]",
+                "start": "August 20 2021, 17:00",
+                "end": "September 2 2021, 15:59",
                 "extraPriority": 6
             }
         ]
@@ -291,9 +376,33 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Manga Time Kirara Forward Limited-time Deluxe Summon",
-            "まんがタイムきららフォワード期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
+            "Skill Update Step-up Summon",
+            "スキルアップデートおまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 3rd step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Hinata Yukari, 5★ Tooru, 5★ Merry Nightmare, 5★ Hirasawa Yui",
+                "start": "August 20 2021, 17:00",
+                "end": "August 27 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 20 2021, 17:00",
+                "end": "September 3 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara MAX Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -301,9 +410,62 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "August 5 2021, 17:00",
-                "end": "August 12 2021, 23:59",
+                "start": "August 20 2021, 17:00",
+                "end": "August 27 2021, 16:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 20 2021, 17:00",
+                "end": "September 3 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kiniro Mosaic Limited-time Summon",
+            "きんいろモザイク期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/fbxQUTj.png",
+            "https://i.imgur.com/HdLaGIi.png",
+            "https://i.imgur.com/JWSa2jI.png",
+            "https://i.imgur.com/tURX7dp.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Karen [Sports Festival], 5★ Alice [Christmas], 5★ Aya [Christmas], 5★ Youko [Swimsuit]",
+                "start": "August 20 2021, 17:00",
+                "end": "August 27 2021, 16:59",
+                "extraPriority": 4,
+                "info": "Also featuring 3* and 4* characters from Kiniro Mosaic"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kiniro Mosaic Paid Summon + Choosable 5★ Summon Ticket",
+            "きんいろモザイク★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring characters from Kiniro Mosaic",
+                "start": "August 20 2021, 17:00",
+                "end": "August 27 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 20 2021, 17:00",
+                "end": "September 3 2021, 23:59"
             }
         ]
     },
@@ -347,50 +509,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 13 2021, 0:00",
                 "end": "August 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above",
-            "Receive Ticket Pieces and exchange for a Past Swimsuit Random 5* Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Exchange",
-                "start": "July 21 2021, 17:00",
-                "end": "August 4 2021, 23:59",
-                "extraPriority": 1
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 21 2021, 17:00",
-                "end": "August 11 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring characters from the Summer Night Resort event",
-                "start": "August 5 2021, 17:00",
-                "end": "August 11 2021, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -631,6 +749,45 @@ var timerData = [
                 "name": "Period",
                 "start": "July 21 2021, 17:00",
                 "end": "August 20 2021, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Item Bundle",
+            "お得なアイテムセット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Item & Gem Sets",
+                "start": "August 20 2021, 17:00",
+                "end": "September 2 2021, 15:59"
+            },
+            {
+                "name": "Memorial Quest Unlock Support Set (KinMoza Thank you), Memorial Quest Completion Support Set (KinMoza Thank you), Kiniro Mosaic Summon Support Set",
+                "start": "August 20 2021, 17:00",
+                "end": "August 27 2021, 16:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Author Quest \"Kiniro Darkness\" Half Stamina Campaign",
+            "作家クエスト「きんいろダークネス」スタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "August 20 2021, 17:00",
+                "end": "September 2 2021, 15:59"
             }
         ]
     }
