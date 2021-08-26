@@ -376,6 +376,77 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Kirara Fantasia Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア第2部限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/1gT1j41.png",
+            "https://i.imgur.com/dHyXAgj.png",
+            "https://i.imgur.com/IDi0eUE.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2], 5★ Namiko-san [Part 2]",
+                "start": "August 28 2021, 0:00",
+                "end": "September 2 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Main Quest Part 2 Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Fennel [Part 2]",
+                "start": "August 28 2021, 0:00",
+                "end": "September 2 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 28 2021, 0:00",
+                "end": "September 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Earth Element Characters Step-up Summon + Paid Summon",
+            "2つの召喚を同時開催！土属性のキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Tooru, 5★ Ebisuzawa Kurumi, 5★ Yuuri [New Year], 5★ Sonya, 5★ Merry Nightmare, 5★ Ryou [Swimsuit], 5★ Mira [Valentine], 5★ Ao [White Day]",
+                "start": "August 27 2021, 17:00",
+                "end": "September 2 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 27 2021, 17:00",
+                "end": "September 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Skill Update Step-up Summon",
             "スキルアップデートおまけ付き10回召喚",
             "Random 5★ Summon Ticket on the 3rd step"
