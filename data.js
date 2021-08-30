@@ -680,6 +680,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "September Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/XoUiniG.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "September 4 2021, 0:00",
+                "end": "September 5 2021, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "September 11 2021, 0:00",
+                "end": "September 12 2021, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "September 18 2021, 0:00",
+                "end": "September 19 2021, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "September 25 2021, 0:00",
+                "end": "September 26 2021, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "September 4 2021, 0:00",
+                "end": "October 1 2021, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "KiraFan Summer Night Campaign Missions",
