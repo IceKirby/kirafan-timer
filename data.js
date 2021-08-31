@@ -628,14 +628,9 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2",
-                "start": "June 17 2021, 0:00",
-                "end": "July 1 2021, 23:59"
-            },
-            {
-                name: "Part 1 (Normal Mode)",
-                "start": "June 24 2021, 17:00",
-                "end": "July 7 2021, 15:59"
+                name: "Part 2 (Chapters 1~3)",
+                "start": "August 28 2021, 0:00",
+                "end": "September 9 2021, 23:59"
             }
         ]
     },
