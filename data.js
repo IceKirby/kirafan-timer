@@ -37,147 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Summer Night Radio",
-            "サマーナイト・レディオ",
-            "Summer 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/xRxyFOS.png",
-            "https://i.imgur.com/9p7nWjo.png",
-            "https://i.imgur.com/b945uWJ.png",
-            "https://i.imgur.com/eC1qgpZ.png",
-            "https://i.imgur.com/6w0SCbt.png",
-            "https://i.imgur.com/JgJ80hO.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "July 27 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "July 23 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "August 1 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "August 2 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "August 3 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "August 4 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "July 21 2021, 17:00",
-                "end": "August 27 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Summer Night Resort",
-            "サマーナイト・リゾート",
-            "Summer 2021 Event Part 2"
-        ],
-        "image": [
-            "https://i.imgur.com/IswZuBu.png",
-            "https://i.imgur.com/nvyz3TC.png",
-            "https://i.imgur.com/RwibocS.png",
-            "https://i.imgur.com/zqqwHYm.png",
-            "https://i.imgur.com/VRRWYG4.png",
-            "https://i.imgur.com/F2q5GC1.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "August 5 2021, 17:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "August 10 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "August 7 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Super EX Quest",
-                        "time": "August 12 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "August 15 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "August 16 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "August 17 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "August 18 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "August 5 2021, 17:00",
-                "end": "August 20 2021, 23:59"
-            },
-            {
-                "name": "Event Shop/Mysterious Treasure Chest",
-                "start": "August 5 2021, 17:00",
-                "end": "August 27 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Golden Post Office and the Goat's Letter",
             "きんいろ郵便局とヤギさんのてがみ",
             "Kiniro Mosaic Movie Celebration Event"
@@ -240,54 +99,20 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Mission",
         "title": [
-            "Swimsuit Character 2021 Limited-time Summon",
-            "期間限定2021水着キャラクターピックアップ召喚",
-            "Summer 2021 Event Summon"
+            "Main Quest Part 2 Chapter 4 Special Missions",
+            "メインクエスト第2部4章追加記念 期間限定ミッション"
         ],
-        "image": [
-            "https://i.imgur.com/xRxyFOS.png",
-            "https://i.imgur.com/9p7nWjo.png",
-            "https://i.imgur.com/b945uWJ.png",
-            "https://i.imgur.com/eC1qgpZ.png",
-            "https://i.imgur.com/6w0SCbt.png",
-            "https://i.imgur.com/IswZuBu.png",
-            "https://i.imgur.com/nvyz3TC.png",
-            "https://i.imgur.com/RwibocS.png",
-            "https://i.imgur.com/zqqwHYm.png",
-            "https://i.imgur.com/VRRWYG4.png"
-        ],
-        "column": 1,
-        "priority": 21,
+        "image": "match",
+        "column": 0,
+        "priority": 31,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 11:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Nazuna [Swimsuit], 5★ Nagi [Swimsuit], 5★ Kotetsu [Swimsuit]",
-                        "time": "July 21 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Yui [Swimsuit], 5★ Megumi [Swimsuit]",
-                        "time": "July 21 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 3",
-                        "desc": "Featuring 5★ Yui [Swimsuit], 5★ Syaro [Swimsuit], 5★ Sakura [Swimsuit]",
-                        "time": "August 5 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 4",
-                        "desc": "Featuring 5★ Botan [Swimsuit], 5★ Ryoko [Swimsuit]",
-                        "time": "August 5 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
+                "name": "Period",
+                "start": "September 2 2021, 17:00",
+                "end": "September 14 2021, 15:59",
+                "extraPriority": 3
             }
         ]
     },
@@ -315,60 +140,20 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Swimsuit Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定水着★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "Kirara Fantasia Severed Bonds Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/MdcMj0z.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "First Half",
-                "start": "July 21 2021, 17:00",
-                "end": "August 5 2021, 15:59",
+                "name": "Summon Period: Featuring 5★ Cardamom [Part 2]",
+                "start": "September 2 2021, 17:00",
+                "end": "September 14 2021, 15:59",
                 "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 21 2021, 17:00",
-                "end": "August 27 2021, 23:59"
-            },
-            {
-                "name": "Second Half",
-                "start": "August 5 2021, 17:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration (Second Half)",
-                "start": "August 5 2021, 17:00",
-                "end": "August 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super EX Quest Support Step-up Summon",
-            "2つの召喚を同時開催！超高難易度クエストで活躍するキャラを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuzuko [Swimsuit], 5★ Takeya Yuki, 5★ Yun [Doll's Festival], 5★ Moeta Kaoruko, 5★ Hibari [Hot Spring], 5★ Haruka [Hot Spring], 5★ Mira [Valentine], 5★ Sugar [Valentine]",
-                "start": "August 12 2021, 17:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "August 12 2021, 17:00",
-                "end": "August 27 2021, 23:59"
             }
         ]
     },
@@ -470,6 +255,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
+                "start": "September 2 2021, 17:00",
+                "end": "September 9 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 2 2021, 17:00",
+                "end": "September 16 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Head Priest & Seven Sages Paid Summon + Random 5★ Summon Ticket",
+            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
+                "start": "September 2 2021, 17:00",
+                "end": "September 9 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 2 2021, 17:00",
+                "end": "September 16 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara MAX Limited-time Paid Summon + Choosable 5★ Summon Ticket",
             "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -494,30 +327,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kiniro Mosaic Limited-time Summon",
-            "きんいろモザイク期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/fbxQUTj.png",
-            "https://i.imgur.com/HdLaGIi.png",
-            "https://i.imgur.com/JWSa2jI.png",
-            "https://i.imgur.com/tURX7dp.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Karen [Sports Festival], 5★ Alice [Christmas], 5★ Aya [Christmas], 5★ Youko [Swimsuit]",
-                "start": "August 20 2021, 17:00",
-                "end": "August 27 2021, 16:59",
-                "extraPriority": 4,
-                "info": "Also featuring 3* and 4* characters from Kiniro Mosaic"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Kiniro Mosaic Paid Summon + Choosable 5★ Summon Ticket",
             "きんいろモザイク★5選べるチケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
@@ -536,49 +345,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 20 2021, 17:00",
                 "end": "September 3 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Carat Limited-time Deluxe Summon",
-            "まんがタイムきららキャラット期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "August 13 2021, 0:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Head Priest & Seven Sages Paid Summon + Random 5★ Summon Ticket",
-            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
-            "700 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
-                "start": "August 13 2021, 0:00",
-                "end": "August 20 2021, 11:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "August 13 2021, 0:00",
-                "end": "August 27 2021, 23:59"
             }
         ]
     },
@@ -630,6 +396,11 @@ var timerData = [
                 name: "Part 2 (Chapters 1~3)",
                 "start": "August 28 2021, 0:00",
                 "end": "September 9 2021, 23:59"
+            },
+            {
+                name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
+                "start": "September 2 2021, 17:00",
+                "end": "September 14 2021, 15:59"
             }
         ]
     },
@@ -714,139 +485,12 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "KiraFan Summer Night Campaign Missions",
-            "きらファンサマーナイトキャンペーンミッション",
-            "Daily Missions for a Summon Ticket"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 10 2021, 0:00",
-                "end": "August 20 2021, 23:59",
-                "extraPriority": 1
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "KiraFan Summer Night Heart-throbbing Summon",
-            "きらファンサマーナイトドキドキ召喚",
-            "Receive Ticket Pieces to exchange for 5* Summon Tickets"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 10 2021, 0:00",
-                "end": "August 20 2021, 23:59",
-                "extraPriority": 5
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 10 2021, 0:00",
-                "end": "August 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Etowaria's Summer Vacation 2021 Login Bonus",
-            "2021エトワリアの夏休み 前半 ログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "July 21 2021, 17:00",
-                "end": "August 5 2021, 23:59"
-            },
-            {
-                "name": "Second Half",
-                "start": "August 5 2021, 17:00",
-                "end": "August 20 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Summer Campaign Special Sale",
-            "お得なアイテムセット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "First Half: Item & Gem Sets",
-                "start": "July 21 2021, 17:00",
-                "end": "August 5 2021, 15:59"
-            },
-            {
-                "name": "First Half: Past Swimsuit 5★ Summon Special Support Set, Midsummer 5★ Summon Special Support Set, Past Swimsuit 2020 Random 5★ Summon Ticket",
-                "start": "July 21 2021, 17:00",
-                "end": "July 28 2021, 23:59"
-            },
-            {
-                "name": "Second Half: Item & Gem Sets",
-                "start": "August 5 2021, 17:00",
-                "end": "August 20 2021, 11:59"
-            }
-        ]
-    },
-    {
         "type": "Other",
         "title": [
             "Summer-themed Room Decoration Items",
             "夏限定ルームアイテム再登場"
         ],
         "image": "kanna",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Main Quest Half Stamina Campaign",
-            "メインクエストスタミナ半減キャンペーン"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 14,
-        "timers": [
-            {
-                "name": "Main Quest Part 1 & 2",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Summer-themed BGM",
-            "音楽も夏仕様に！BGM変更"
-        ],
-        "image": "leine",
         "column": 2,
         "priority": 10,
         "timers": [
@@ -876,6 +520,11 @@ var timerData = [
                 "name": "Memorial Quest Unlock Support Set (KinMoza Thank you), Memorial Quest Completion Support Set (KinMoza Thank you), Kiniro Mosaic Summon Support Set",
                 "start": "August 20 2021, 17:00",
                 "end": "August 27 2021, 16:59"
+            },
+            {
+                "name": "Scroll & Star Beads Set, Fruit Set, Gem Set",
+                "start": "September 2 2021, 17:00",
+                "end": "September 14 2021, 15:59"
             }
         ]
     },
