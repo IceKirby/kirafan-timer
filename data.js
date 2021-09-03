@@ -303,6 +303,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Warrior Step-up Summon/Paid Summon",
+            "2つの召喚を同時開催！せんしのキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Karasuma Sakura, 5★ Nene [Swimsuit], 5★ Ahagon Umiko, 5★ Nijino Miharu, 5★ Kana [White Day], 5★ Nishiyama [Maid], 5★ Shamiko [Sports Festival], 5★ Miniwa Tsumiki",
+                "start": "September 4 2021, 17:00",
+                "end": "September 12 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 4 2021, 17:00",
+                "end": "September 19 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara MAX Limited-time Paid Summon + Choosable 5★ Summon Ticket",
             "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
