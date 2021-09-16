@@ -102,24 +102,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Chapter 4 Special Missions",
-            "メインクエスト第2部4章追加記念 期間限定ミッション"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "September 2 2021, 17:00",
-                "end": "September 14 2021, 15:59",
-                "extraPriority": 3
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Idol Life on a Desert Island Summon",
@@ -158,26 +140,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Severed Bonds Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/MdcMj0z.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Cardamom [Part 2]",
-                "start": "September 2 2021, 17:00",
-                "end": "September 14 2021, 15:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -279,6 +241,73 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
+            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 18 2021, 0:00",
+                "end": "September 19 2021, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Piece Exchange",
+                "start": "September 18 2021, 0:00",
+                "end": "September 27 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 18 2021, 0:00",
+                "end": "October 4 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 18 2021, 0:00",
+                "end": "September 18 2021, 23:59",
+                "extraPriority": 7
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 18 2021, 0:00",
+                "end": "September 25 2021, 23:59"
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "1200 Days Celebration Login Bonus",
@@ -324,8 +353,8 @@ var timerData = [
         timers: [
             {
                 name: "Part 2 (Chapters 1~3)",
-                "start": "August 28 2021, 0:00",
-                "end": "September 9 2021, 23:59"
+                "start": "September 18 2021, 0:00",
+                "end": "September 29 2021, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
@@ -415,6 +444,56 @@ var timerData = [
                 "name": "Scroll & Star Beads Set, Fruit Set, Gem Set",
                 "start": "September 2 2021, 17:00",
                 "end": "September 14 2021, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Silver Week Login Bonus",
+            "シルバーウィークログインボーナス",
+            "Log in on 5 days to receive up to 100 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "September 18 2021, 0:00",
+                "end": "September 29 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Item Bundle",
+            "お得なアイテムセット販売"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Item & Gem Sales",
+                "start": "September 18 2021, 0:00",
+                "end": "September 29 2021, 15:59"
+            },
+            {
+                "name": "Choosable Limited-time 5★ Summon Ticket (SW 2021)",
+                "start": "September 18 2021, 0:00",
+                "end": "September 18 2021, 23:59"
+            },
+            {
+                "name": "Silver 5★ Summon Special Support Set",
+                "start": "September 18 2021, 0:00",
+                "end": "September 20 2021, 23:59"
+            },
+            {
+                "name": "2,000 Starlight Stones Set (SW Past 2021 with Bonus)",
+                "start": "September 18 2021, 0:00",
+                "end": "September 20 2021, 23:59"
             }
         ]
     }
