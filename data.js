@@ -262,6 +262,44 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Manga Time Kirara MAX Limited-time Deluxe Summon",
+            "まんがタイムきららMAX期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 20 2021, 0:00",
+                "end": "September 21 2021, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara Forward Limited-time Deluxe Summon",
+            "まんがタイムきららフォワード期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 22 2021, 0:00",
+                "end": "September 23 2021, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
