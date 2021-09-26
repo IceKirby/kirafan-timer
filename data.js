@@ -102,6 +102,70 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "NEW GAME Now in Production",
+            "現在NEW GAME制作中",
+            "NEW GAME! Finale Event"
+        ],
+        "image": [
+            "https://i.imgur.com/h7oCPoy.png",
+            "https://i.imgur.com/ZcIxD33.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "October 5 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 1 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "October 8 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "October 9 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "October 10 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "October 11 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "September 29 2021, 17:00",
+                "end": "October 20 2021, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Idol Life on a Desert Island Summon",
@@ -146,6 +210,40 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "NEW GAME Now in Production Summon",
+            "現在NEW GAME制作中ピックアップ召喚",
+            "NEW GAME! Finale Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/h7oCPoy.png",
+            "https://i.imgur.com/ZcIxD33.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Kou Side",
+                        "desc": "Featuring 5★ Yagami Kou, 4★ Yagami Kou",
+                        "time": "September 29 2021, 17:00"
+                    },
+                    {
+                        "title": "Aoba Side",
+                        "desc": "Featuring 5★ Suzukaze Aoba, 4★ Suzukaze Aoba",
+                        "time": "September 29 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Hanayamata & OchiFuru Paid Summon + Choosable 5★ Summon Ticket",
             "ハナヤマタ＆おちフル★5選べるチケット付き！有償限定10回召喚",
             "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -170,149 +268,66 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "NEW GAME! Limited-time Summon",
+            "NEW GAME!期間限定特別セレクション召喚"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
-                "start": "September 2 2021, 17:00",
-                "end": "September 9 2021, 23:59",
+                "name": "Summon Period: Featuring 5★ Aoba [Sports Festival], 5★ Hifumi [Maid], 5★ Hajime [Christmas], 5★ Yun [Doll's Festival], 4★ Momiji [New Year], 4★ Tsubame [Valentine]",
+                "start": "September 29 2021, 17:00",
+                "end": "October 6 2021, 16:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "NEW GAME! Paid Summon + Choosable 5★ Summon Ticket",
+            "NEW GAME!★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "September 29 2021, 17:00",
+                "end": "October 6 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "September 2 2021, 17:00",
-                "end": "September 16 2021, 23:59"
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Head Priest & Seven Sages Paid Summon + Random 5★ Summon Ticket",
-            "筆頭神官＆七賢者限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "NEW GAME! Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "NEW GAME!期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
-                "start": "September 2 2021, 17:00",
-                "end": "September 9 2021, 23:59",
+                "name": "Summon Period: Featuring 5★ Aoba [Sports Festival], 5★ Hifumi [Christmas], 5★ Hifumi [Maid], 5★ Hajime [Christmas], 5★ Yun [Doll's Festival], 5★ Kou [Swimsuit], 5★ Kou [New Year], 5★ Nene [Swimsuit], 5★ Momiji [Valentine]",
+                "start": "September 29 2021, 17:00",
+                "end": "October 6 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "September 2 2021, 17:00",
-                "end": "September 16 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Warrior Step-up Summon/Paid Summon",
-            "2つの召喚を同時開催！せんしのキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Karasuma Sakura, 5★ Nene [Swimsuit], 5★ Ahagon Umiko, 5★ Nijino Miharu, 5★ Kana [White Day], 5★ Nishiyama [Maid], 5★ Shamiko [Sports Festival], 5★ Miniwa Tsumiki",
-                "start": "September 4 2021, 17:00",
-                "end": "September 12 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 4 2021, 17:00",
-                "end": "September 19 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
-            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 18 2021, 0:00",
-                "end": "September 19 2021, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara MAX Limited-time Deluxe Summon",
-            "まんがタイムきららMAX期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 20 2021, 0:00",
-                "end": "September 21 2021, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Forward Limited-time Deluxe Summon",
-            "まんがタイムきららフォワード期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 22 2021, 0:00",
-                "end": "September 23 2021, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Carat Limited-time Deluxe Summon",
-            "まんがタイムきららキャラット期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 24 2021, 0:00",
-                "end": "September 25 2021, 23:59",
-                "extraPriority": 4
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 23:59"
             }
         ]
     },
@@ -356,30 +371,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "September 18 2021, 0:00",
                 "end": "October 4 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 18 2021, 0:00",
-                "end": "September 18 2021, 23:59",
-                "extraPriority": 7
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 18 2021, 0:00",
-                "end": "September 25 2021, 23:59"
             }
         ]
     },
@@ -499,33 +490,6 @@ var timerData = [
     {
         "type": "Other",
         "title": [
-            "Special Item Bundle",
-            "お得なアイテムセット販売"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 12,
-        "timers": [
-            {
-                "name": "Item & Gem Sets",
-                "start": "August 20 2021, 17:00",
-                "end": "September 2 2021, 15:59"
-            },
-            {
-                "name": "Memorial Quest Unlock Support Set (KinMoza Thank you), Memorial Quest Completion Support Set (KinMoza Thank you), Kiniro Mosaic Summon Support Set",
-                "start": "August 20 2021, 17:00",
-                "end": "August 27 2021, 16:59"
-            },
-            {
-                "name": "Scroll & Star Beads Set, Fruit Set, Gem Set",
-                "start": "September 2 2021, 17:00",
-                "end": "September 14 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
             "Silver Week Login Bonus",
             "シルバーウィークログインボーナス",
             "Log in on 5 days to receive up to 100 Starlight Stones."
@@ -570,6 +534,28 @@ var timerData = [
                 "name": "2,000 Starlight Stones Set (SW Past 2021 with Bonus)",
                 "start": "September 18 2021, 0:00",
                 "end": "September 20 2021, 23:59"
+            },
+            {
+                "name": "NEW GAME! Finale Celebration Starlight Stone Set",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Author Quests 「ＰＥＣＯ　-A trial version-」 Half Stamina Campaign",
+            "作家クエスト「ＰＥＣＯ　-A trial version-」スタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 15:59"
             }
         ]
     }
