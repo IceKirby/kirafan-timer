@@ -244,6 +244,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Fire Characters Summon",
+            "2つの召喚を同時開催！炎属性のキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yoriko [Maid], 5★ Ikeno Kaede, 5★ Hiroe [Hot Spring], 5★ Tooi Narumi, 5★ Cocoa [Christmas], 5★ Syaro, 5★ Kohane [Bridal], 5★ Machiko Ryou",
+                "start": "September 29 2021, 17:00",
+                "end": "October 6 2021, 16:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 29 2021, 17:00",
+                "end": "October 13 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Hanayamata & OchiFuru Paid Summon + Choosable 5★ Summon Ticket",
             "ハナヤマタ＆おちフル★5選べるチケット付き！有償限定10回召喚",
             "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
