@@ -513,6 +513,51 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/wpjQvC8.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "October 2 2021, 0:00",
+                "end": "October 3 2021, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "October 9 2021, 0:00",
+                "end": "October 10 2021, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "October 16 2021, 0:00",
+                "end": "October 17 2021, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "October 23 2021, 0:00",
+                "end": "October 24 2021, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "October 30 2021, 0:00",
+                "end": "October 31 2021, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "October 2 2021, 0:00",
+                "end": "November 5 2021, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Silver Week Login Bonus",
