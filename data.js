@@ -269,6 +269,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Knight Step-up + Paid Summon",
+            "2つの召喚を同時開催！ナイトのキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuno [Swimsuit], 5★ Ichii Yui, 5★ Yuuko [Christmas], 5★ Naoki Miki, 5★ Oozora Haruka, 5★ Claire [Halloween], 5★ Chino [Swimsuit], 5★ Kanna",
+                "start": "October 6 2021, 17:00",
+                "end": "October 13 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 6 2021, 17:00",
+                "end": "October 20 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Hanayamata & OchiFuru Paid Summon + Choosable 5★ Summon Ticket",
             "ハナヤマタ＆おちフル★5選べるチケット付き！有償限定10回召喚",
             "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
