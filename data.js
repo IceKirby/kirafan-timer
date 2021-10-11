@@ -99,6 +99,60 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "I'll Keep Walking for You",
+            "歩き続ける君のために",
+            "Gakkou Gurashi! Otayori Finale Event"
+        ],
+        "image": [
+            "https://i.imgur.com/1DWZUHQ.png",
+            "https://i.imgur.com/ncIc2zo.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "October 19 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 15 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "October 22 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "October 23 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 13 2021, 17:00",
+                "end": "November 3 2021, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "NEW GAME Now in Production Summon",
@@ -126,6 +180,40 @@ var timerData = [
                         "title": "Aoba Side",
                         "desc": "Featuring 5★ Suzukaze Aoba, 4★ Suzukaze Aoba",
                         "time": "September 29 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "I'll Keep Walking for You Summon",
+            "歩き続ける君のために期間限定ピックアップ召喚・大人のゆき編",
+            "Gakkou Gurashi! Otayori Finale Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/1DWZUHQ.png",
+            "https://i.imgur.com/ncIc2zo.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Adult Yuki Side",
+                        "desc": "Featuring 5★ Yuki [Grown-up]",
+                        "time": "October 13 2021, 17:00"
+                    },
+                    {
+                        "title": "Adult Mii-kun Side",
+                        "desc": "Featuring 5★ Miki [Grown-up]",
+                        "time": "October 13 2021, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -227,6 +315,77 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "September 29 2021, 17:00",
                 "end": "October 13 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Limited-time Summon",
+            "がっこうぐらし！期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/cAySEVg.png",
+            "https://i.imgur.com/LAUs1mp.png",
+            "https://i.imgur.com/QnrTIGq.png",
+            "https://i.imgur.com/sOJVwTM.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuki [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween]",
+                "start": "October 13 2021, 17:00",
+                "end": "October 20 2021, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Paid Summon + Choosable 5★ Summon Ticket",
+            "がっこうぐらし！★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 13 2021, 17:00",
+                "end": "October 20 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "がっこうぐらし！期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuki [Swimsuit], 5★ Kurumi [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [New Year], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween], 5★ Megumi [Swimsuit]",
+                "start": "October 13 2021, 17:00",
+                "end": "October 20 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 23:59"
             }
         ]
     },
@@ -350,6 +509,11 @@ var timerData = [
                 "name": "1400 Days Celebration Item & Gem Sets",
                 "start": "October 10 2021, 0:00",
                 "end": "October 23 2021, 23:59"
+            },
+            {
+                "name": "Gakkou Gurashi! Otayori Finale Celebration Gem Set",
+                "start": "October 13 2021, 17:00",
+                "end": "October 27 2021, 15:59"
             }
         ]
     },
