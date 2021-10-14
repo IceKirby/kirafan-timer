@@ -153,36 +153,35 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Event",
         "title": [
-            "NEW GAME Now in Production Summon",
-            "現在NEW GAME制作中ピックアップ召喚",
-            "NEW GAME! Finale Event Summon"
+            "Road to Super Difficulty ~Orba Side~",
+            "超難関への道～オルバ編～",
+            "Orba Mini-Event"
         ],
         "image": [
-            "https://i.imgur.com/h7oCPoy.png",
-            "https://i.imgur.com/ZcIxD33.png"
+            "https://i.imgur.com/ECP1loG.png"
         ],
-        "column": 1,
-        "priority": 21,
+        "column": 0,
+        "priority": 31,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 15:59",
-                "banners": [
+                "name": "Main Event, Event Missions",
+                "start": "October 16 2021, 0:00",
+                "end": "November 4 2021, 23:59",
+                "extraPriority": 4,
+                "markers": [
                     {
-                        "title": "Kou Side",
-                        "desc": "Featuring 5★ Yagami Kou, 4★ Yagami Kou",
-                        "time": "September 29 2021, 17:00"
-                    },
-                    {
-                        "title": "Aoba Side",
-                        "desc": "Featuring 5★ Suzukaze Aoba, 4★ Suzukaze Aoba",
-                        "time": "September 29 2021, 17:00"
+                        "title": "Farming Quest Part 2, EX Quest",
+                        "time": "October 21 2021, 0:00",
+                        "type": "battle"
                     }
-                ],
-                "extraPriority": 6
+                ]
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 16 2021, 0:00",
+                "end": "November 11 2021, 13:59"
             }
         ]
     },
@@ -223,31 +222,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Fire Characters Summon",
-            "2つの召喚を同時開催！炎属性のキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yoriko [Maid], 5★ Ikeno Kaede, 5★ Hiroe [Hot Spring], 5★ Tooi Narumi, 5★ Cocoa [Christmas], 5★ Syaro, 5★ Kohane [Bridal], 5★ Machiko Ryou",
-                "start": "September 29 2021, 17:00",
-                "end": "October 6 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Limited-time Knight Step-up + Paid Summon",
             "2つの召喚を同時開催！ナイトのキャラクターを仲間にしよう！",
             "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
@@ -267,54 +241,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "October 6 2021, 17:00",
                 "end": "October 20 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "NEW GAME! Paid Summon + Choosable 5★ Summon Ticket",
-            "NEW GAME!★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 29 2021, 17:00",
-                "end": "October 6 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "NEW GAME! Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "NEW GAME!期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Aoba [Sports Festival], 5★ Hifumi [Christmas], 5★ Hifumi [Maid], 5★ Hajime [Christmas], 5★ Yun [Doll's Festival], 5★ Kou [Swimsuit], 5★ Kou [New Year], 5★ Nene [Swimsuit], 5★ Momiji [Valentine]",
-                "start": "September 29 2021, 17:00",
-                "end": "October 6 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 23:59"
             }
         ]
     },
@@ -514,23 +440,11 @@ var timerData = [
                 "name": "Gakkou Gurashi! Otayori Finale Celebration Gem Set",
                 "start": "October 13 2021, 17:00",
                 "end": "October 27 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Author Quests 「ＰＥＣＯ　-A trial version-」 Half Stamina Campaign",
-            "作家クエスト「ＰＥＣＯ　-A trial version-」スタミナ半減キャンペーン"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 14,
-        "timers": [
+            },
             {
-                "name": "Period",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 15:59"
+                "name": "Super EX Item & Gem Sets",
+                "start": "October 16 2021, 0:00",
+                "end": "November 4 2021, 23:59"
             }
         ]
     },
