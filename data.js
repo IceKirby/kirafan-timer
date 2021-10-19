@@ -247,6 +247,55 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Alchemist Step-up Summon + Paid Summon",
+            "2つの召喚を同時開催！アルケミストのキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Matsumoto Yoriko, 5★ Tooru [Christmas], 5★ Isami [New Year], 5★ Fujikawa Kayo, 5★ Omi [New Year], 5★ Amano Miu, 5★ Sengoku Kamuri, 5★ Cocoa [Swimsuit]",
+                "start": "October 21 2021, 0:00",
+                "end": "October 27 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 21 2021, 0:00",
+                "end": "November 3 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 21 2021, 0:00",
+                "end": "October 27 2021, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 21 2021, 0:00",
+                "end": "November 3 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Gakkou Gurashi! Limited-time Summon",
             "がっこうぐらし！期間限定特別セレクション召喚"
         ],
