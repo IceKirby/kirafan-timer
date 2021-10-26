@@ -37,70 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "NEW GAME Now in Production",
-            "現在NEW GAME制作中",
-            "NEW GAME! Finale Event"
-        ],
-        "image": [
-            "https://i.imgur.com/h7oCPoy.png",
-            "https://i.imgur.com/ZcIxD33.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "October 5 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 1 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 8 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 9 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "October 10 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "October 11 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 29 2021, 17:00",
-                "end": "October 20 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "I'll Keep Walking for You",
             "歩き続ける君のために",
             "Gakkou Gurashi! Otayori Finale Event"
@@ -149,6 +85,73 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "October 13 2021, 17:00",
                 "end": "November 3 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Halloween's Witch Castle",
+            "ハロウィン魔女魔城",
+            "Halloween 2021 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/42KMULm.png",
+            "https://i.imgur.com/fFx9Zda.png",
+            "https://i.imgur.com/j6ZKoot.png",
+            "https://i.imgur.com/Ya314qo.png",
+            "https://i.imgur.com/tr5Ijub.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "November 1 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 29 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "November 5 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "November 6 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "November 7 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "November 8 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 27 2021, 17:00",
+                "end": "November 18 2021, 13:59"
             }
         ]
     },
@@ -222,25 +225,73 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Knight Step-up + Paid Summon",
-            "2つの召喚を同時開催！ナイトのキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Halloween's Witch Castle Summon",
+            "期間限定2021ハロウィンキャラクターピックアップ召喚",
+            "Halloween 2021 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/42KMULm.png",
+            "https://i.imgur.com/fFx9Zda.png",
+            "https://i.imgur.com/j6ZKoot.png",
+            "https://i.imgur.com/Ya314qo.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Koume [Halloween], 5★ Kuro [Halloween]",
+                        "time": "October 27 2021, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Yuzuko [Halloween], 5★ Hana [Halloween]",
+                        "time": "October 27 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Kirara Fantasia Manga Version Limited Summon",
+            "きららファンタジアマンガ版限定復刻ピックアップ召喚"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Yuno [Swimsuit], 5★ Ichii Yui, 5★ Yuuko [Christmas], 5★ Naoki Miki, 5★ Oozora Haruka, 5★ Claire [Halloween], 5★ Chino [Swimsuit], 5★ Kanna",
-                "start": "October 6 2021, 17:00",
-                "end": "October 13 2021, 15:59",
+                "name": "Summon Period: Featuring 5★ Kirara [Manga ver.]",
+                "start": "October 27 2021, 17:00",
+                "end": "October 31 2021, 23:59",
                 "extraPriority": 4
-            },
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
             {
-                "name": "Ticket Expiration",
-                "start": "October 6 2021, 17:00",
-                "end": "October 20 2021, 23:59"
+                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Yukari [Swimsuit], 5★ Yuuko [Christmas], 5★ Yuuko [Swimsuit], 5★ Miki [Halloween], 5★ Hifumi [Christmas], 5★ Hifumi [Maid], 5★ Momiji [Valentine], 5★ Chiya [Christmas], 5★ Sonya [Halloween], 5★ Kotone [Valentine], 5★ Eiko [Sports Festival], 5★ Claire [Halloween], 5★ Rize [Halloween], 5★ Noda Miki [Halloween], 4★ Momiji [New Year], 4★ Tsubame [Valentine], 4★ Nono [Halloween], 4★ Kotone [Swimsuit], 4★ Eiko [Swimsuit]",
+                "start": "October 28 2021, 0:00",
+                "end": "November 2 2021, 23:59",
+                "extraPriority": 4
             }
         ]
     },
@@ -290,29 +341,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "October 21 2021, 0:00",
                 "end": "November 3 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Gakkou Gurashi! Limited-time Summon",
-            "がっこうぐらし！期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/cAySEVg.png",
-            "https://i.imgur.com/LAUs1mp.png",
-            "https://i.imgur.com/QnrTIGq.png",
-            "https://i.imgur.com/sOJVwTM.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuki [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween]",
-                "start": "October 13 2021, 17:00",
-                "end": "October 20 2021, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -476,16 +504,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "NEW GAME! Finale Celebration Starlight Stone Set",
-                "start": "September 29 2021, 17:00",
-                "end": "October 13 2021, 15:59"
-            },
-            {
-                "name": "1400 Days Celebration Item & Gem Sets",
-                "start": "October 10 2021, 0:00",
-                "end": "October 23 2021, 23:59"
-            },
-            {
                 "name": "Gakkou Gurashi! Otayori Finale Celebration Gem Set",
                 "start": "October 13 2021, 17:00",
                 "end": "October 27 2021, 15:59"
@@ -494,24 +512,21 @@ var timerData = [
                 "name": "Super EX Item & Gem Sets",
                 "start": "October 16 2021, 0:00",
                 "end": "November 4 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "1400 Days Celebration Login Bonus",
-            "1400日記念ログインボーナス",
-            "Log in on 10 days to receive up to 300 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
+            },
             {
-                "name": "Period",
-                "start": "October 10 2021, 0:00",
-                "end": "October 23 2021, 23:59"
+                "name": "Halloween Special Item Bundle",
+                "start": "November 10 2021, 0:00",
+                "end": "November 17 2021, 23:59"
+            },
+            {
+                "name": "Halloween Special Starlight Stone Bundle",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 15:59"
+            },
+            {
+                "name": "New Halloween Summon Ticket Expiration",
+                "start": "October 27 2021, 17:00",
+                "end": "November 18 2021, 23:59"
             }
         ]
     },
@@ -535,6 +550,41 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "October 10 2021, 0:00",
                 "end": "October 30 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Halloween Login Bonus",
+            "ハロウィンログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Halloween-themed BGM",
+            "音楽もハロウィン仕様に！BGM変更"
+        ],
+        "image": "leine",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "October 27 2021, 17:00",
+                "end": "November 11 2021, 15:59"
             }
         ]
     }
