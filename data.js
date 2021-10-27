@@ -279,6 +279,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "GochiUsa Exhibit Paid Summon",
+            "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・東京編",
+            "700 Paid Gems for 10x Summon + 2x Random 5* Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Cocoa [Christmas], Cocoa [Swimsuit], Chino [Swimsuit], Rize [Halloween], Chiya [Christmas], Syaro [Halloween], Syaro [Swimsuit]",
+                "start": "October 29 2021, 0:00",
+                "end": "November 7 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 29 2021, 0:00",
+                "end": "November 14 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -527,6 +551,11 @@ var timerData = [
                 "name": "New Halloween Summon Ticket Expiration",
                 "start": "October 27 2021, 17:00",
                 "end": "November 18 2021, 23:59"
+            },
+            {
+                "name": "GochiUsa Exhibit Item Bundles",
+                "start": "October 29 2021, 0:00",
+                "end": "November 7 2021, 23:59"
             }
         ]
     },
