@@ -261,6 +261,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara Fantasia Manga Version LimitedSummon",
+            "きららファンタジアマンガ版限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/vMXI8dm.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Clea [Manga ver.]",
+                "start": "November 1 2021, 0:00",
+                "end": "November 9 2021, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past Kirara Fantasia Manga Version Limited Summon",
             "きららファンタジアマンガ版限定復刻ピックアップ召喚"
         ],
@@ -518,6 +538,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "November Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/Q85rPpa.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "November 6 2021, 0:00",
+                "end": "November 7 2021, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "November 13 2021, 0:00",
+                "end": "November 14 2021, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "November 20 2021, 0:00",
+                "end": "November 21 2021, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "November 27 2021, 0:00",
+                "end": "November 28 2021, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "November 6 2021, 0:00",
+                "end": "December 3 2021, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -556,6 +616,11 @@ var timerData = [
                 "name": "GochiUsa Exhibit Item Bundles",
                 "start": "October 29 2021, 0:00",
                 "end": "November 7 2021, 23:59"
+            },
+            {
+                "name": "Manga 3rd Volume Starlight Stone Bundle",
+                "start": "November 1 2021, 0:00",
+                "end": "November 9 2021, 23:59"
             }
         ]
     },
@@ -614,6 +679,42 @@ var timerData = [
                 "name": "Period",
                 "start": "October 27 2021, 17:00",
                 "end": "November 11 2021, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "3rd Manga Volume Login Bonus",
+            "コミカライズ第3巻発売記念ログインボーナス",
+            "Log in on each day to receive various items."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 1 2021, 0:00",
+                "end": "November 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Summon",
+            "コミカライズ第3巻発売記念1日1回期間限定きらきら召喚",
+            "40 Paid Stones for a 3x Summon, all 4★ or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 1 2021, 0:00",
+                "end": "November 9 2021, 23:59"
             }
         ]
     }
