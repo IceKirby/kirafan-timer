@@ -191,40 +191,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "I'll Keep Walking for You Summon",
-            "歩き続ける君のために期間限定ピックアップ召喚・大人のゆき編",
-            "Gakkou Gurashi! Otayori Finale Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/1DWZUHQ.png",
-            "https://i.imgur.com/ncIc2zo.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Adult Yuki Side",
-                        "desc": "Featuring 5★ Yuki [Grown-up]",
-                        "time": "October 13 2021, 17:00"
-                    },
-                    {
-                        "title": "Adult Mii-kun Side",
-                        "desc": "Featuring 5★ Miki [Grown-up]",
-                        "time": "October 13 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Halloween's Witch Castle Summon",
             "期間限定2021ハロウィンキャラクターピックアップ召喚",
             "Halloween 2021 Event Summon"
@@ -274,24 +240,6 @@ var timerData = [
                 "name": "Summon Period: Featuring 5★ Clea [Manga ver.]",
                 "start": "November 1 2021, 0:00",
                 "end": "November 9 2021, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Kirara Fantasia Manga Version Limited Summon",
-            "きららファンタジアマンガ版限定復刻ピックアップ召喚"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Kirara [Manga ver.]",
-                "start": "October 27 2021, 17:00",
-                "end": "October 31 2021, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -391,9 +339,9 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Gakkou Gurashi! Paid Summon + Choosable 5★ Summon Ticket",
-            "がっこうぐらし！★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "Kirara Exhibition in Nagoya Paid Summon + Random 5★ Summon Ticket",
+            "きらら展in名古屋記念期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -401,38 +349,26 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "October 13 2021, 17:00",
-                "end": "October 20 2021, 23:59",
+                "start": "November 3 2021, 0:00",
+                "end": "November 9 2021, 23:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "",
+                        "time": "November 3 2021, 0:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "",
+                        "time": "November 3 2021, 0:00"
+                    }
+                ],
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Gakkou Gurashi! Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "がっこうぐらし！期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuki [Swimsuit], 5★ Kurumi [Swimsuit], 5★ Kurumi [Christmas], 5★ Yuuri [New Year], 5★ Yuuri [Hot Spring], 5★ Miki [Halloween], 5★ Megumi [Swimsuit]",
-                "start": "October 13 2021, 17:00",
-                "end": "October 20 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 23:59"
+                "start": "November 3 2021, 0:00",
+                "end": "November 16 2021, 23:59"
             }
         ]
     },
@@ -588,11 +524,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Gakkou Gurashi! Otayori Finale Celebration Gem Set",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 15:59"
-            },
-            {
                 "name": "Super EX Item & Gem Sets",
                 "start": "October 16 2021, 0:00",
                 "end": "November 4 2021, 23:59"
@@ -621,29 +552,11 @@ var timerData = [
                 "name": "Manga 3rd Volume Starlight Stone Bundle",
                 "start": "November 1 2021, 0:00",
                 "end": "November 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "1400 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
-            "リリース1400日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "October 10 2021, 0:00",
-                "end": "October 23 2021, 23:59"
             },
             {
-                "name": "Ticket Expiration",
-                "start": "October 10 2021, 0:00",
-                "end": "October 30 2021, 23:59"
+                "name": "Kirara Exhibition in Nagoya Starlight Stone Bundle",
+                "start": "November 3 2021, 0:00",
+                "end": "November 9 2021, 23:59"
             }
         ]
     },
