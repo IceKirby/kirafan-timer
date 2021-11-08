@@ -247,6 +247,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Past Limited-Time Halloween Step-up Summon",
+            "期間限定ハロウィン復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Miki [Halloween], 5★ Sonya [Halloween], 5★ Claire [Halloween], 5★ Rize [Halloween], 5★ Syaro [Halloween], 5★ Noda Miki [Halloween]",
+                "start": "November 10 2021, 0:00",
+                "end": "November 17 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 10 2021, 0:00",
+                "end": "November 24 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "GochiUsa Exhibit Paid Summon",
             "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・東京編",
             "700 Paid Gems for 10x Summon + 2x Random 5* Summon Ticket"
