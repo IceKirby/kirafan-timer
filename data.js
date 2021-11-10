@@ -37,60 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "I'll Keep Walking for You",
-            "歩き続ける君のために",
-            "Gakkou Gurashi! Otayori Finale Event"
-        ],
-        "image": [
-            "https://i.imgur.com/1DWZUHQ.png",
-            "https://i.imgur.com/ncIc2zo.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "October 19 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 15 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 22 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 23 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "October 13 2021, 17:00",
-                "end": "October 27 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 13 2021, 17:00",
-                "end": "November 3 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Halloween's Witch Castle",
             "ハロウィン魔女魔城",
             "Halloween 2021 Event"
@@ -152,6 +98,72 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "October 27 2021, 17:00",
                 "end": "November 18 2021, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Cut the Jabon!",
+            "ジャボンを斬る！",
+            "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event"
+        ],
+        "image": [
+            "https://i.imgur.com/7xLj4Pw.png",
+            "https://i.imgur.com/mUDIevI.png",
+            "https://i.imgur.com/ivslxhB.png",
+            "https://i.imgur.com/R4jkJvX.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "November 11 2021, 17:00",
+                "end": "November 25 2021, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "November 16 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "November 13 2021, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "November 19 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "November 20 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "November 21 2021, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "November 22 2021, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "November 11 2021, 17:00",
+                "end": "November 25 2021, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "November 11 2021, 17:00",
+                "end": "December 2 2021, 13:59"
             }
         ]
     },
@@ -227,20 +239,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Manga Version LimitedSummon",
-            "きららファンタジアマンガ版限定ピックアップ召喚"
+            "Cut the Jabon! Summon",
+            "ジャボンを斬る！ピックアップ召喚",
+            "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event Summon"
         ],
         "image": [
-            "https://i.imgur.com/vMXI8dm.png"
+            "https://i.imgur.com/7xLj4Pw.png",
+            "https://i.imgur.com/mUDIevI.png",
+            "https://i.imgur.com/ivslxhB.png",
+            "https://i.imgur.com/R4jkJvX.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Clea [Manga ver.]",
-                "start": "November 1 2021, 0:00",
-                "end": "November 9 2021, 23:59",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "November 11 2021, 17:00",
+                "end": "November 18 2021, 16:59",
+                "banners": [
+                    {
+                        "title": "Nozomi Side",
+                        "desc": "Featuring 5★ Nakamura Nozomi",
+                        "time": "November 11 2021, 17:00"
+                    },
+                    {
+                        "title": "Miku Side",
+                        "desc": "Featuring 5★ Souenji Miku",
+                        "time": "November 11 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            },
+            {
+                "name": "Summon Period",
+                "start": "November 18 2021, 17:00",
+                "end": "November 25 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Hizume Side",
+                        "desc": "Featuring 5★ Arima Hizume, 4★ Arima Hizume",
+                        "time": "November 18 2021, 17:00"
+                    },
+                    {
+                        "title": "Ayasa Side",
+                        "desc": "Featuring 5★ Tachibana Ayasa, 4★ Tachibana Ayasa",
+                        "time": "November 18 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -289,74 +335,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "October 29 2021, 0:00",
                 "end": "November 14 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Yukari [Swimsuit], 5★ Yuuko [Christmas], 5★ Yuuko [Swimsuit], 5★ Miki [Halloween], 5★ Hifumi [Christmas], 5★ Hifumi [Maid], 5★ Momiji [Valentine], 5★ Chiya [Christmas], 5★ Sonya [Halloween], 5★ Kotone [Valentine], 5★ Eiko [Sports Festival], 5★ Claire [Halloween], 5★ Rize [Halloween], 5★ Noda Miki [Halloween], 4★ Momiji [New Year], 4★ Tsubame [Valentine], 4★ Nono [Halloween], 4★ Kotone [Swimsuit], 4★ Eiko [Swimsuit]",
-                "start": "October 28 2021, 0:00",
-                "end": "November 2 2021, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Alchemist Step-up Summon + Paid Summon",
-            "2つの召喚を同時開催！アルケミストのキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Matsumoto Yoriko, 5★ Tooru [Christmas], 5★ Isami [New Year], 5★ Fujikawa Kayo, 5★ Omi [New Year], 5★ Amano Miu, 5★ Sengoku Kamuri, 5★ Cocoa [Swimsuit]",
-                "start": "October 21 2021, 0:00",
-                "end": "October 27 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "October 21 2021, 0:00",
-                "end": "November 3 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "October 21 2021, 0:00",
-                "end": "October 27 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "October 21 2021, 0:00",
-                "end": "November 3 2021, 23:59"
             }
         ]
     },
@@ -455,51 +433,6 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "October Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/wpjQvC8.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "October 2 2021, 0:00",
-                "end": "October 3 2021, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "October 9 2021, 0:00",
-                "end": "October 10 2021, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "October 16 2021, 0:00",
-                "end": "October 17 2021, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "October 23 2021, 0:00",
-                "end": "October 24 2021, 23:59"
-            },
-            {
-                "name": "Weekend 5",
-                "start": "October 30 2021, 0:00",
-                "end": "October 31 2021, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "October 2 2021, 0:00",
-                "end": "November 5 2021, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
             "November Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -548,11 +481,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Super EX Item & Gem Sets",
-                "start": "October 16 2021, 0:00",
-                "end": "November 4 2021, 23:59"
-            },
-            {
                 "name": "Halloween Special Item Bundle",
                 "start": "November 10 2021, 0:00",
                 "end": "November 17 2021, 23:59"
@@ -566,16 +494,6 @@ var timerData = [
                 "name": "New Halloween Summon Ticket Expiration",
                 "start": "October 27 2021, 17:00",
                 "end": "November 18 2021, 23:59"
-            },
-            {
-                "name": "GochiUsa Exhibit Item Bundles",
-                "start": "October 29 2021, 0:00",
-                "end": "November 7 2021, 23:59"
-            },
-            {
-                "name": "Manga 3rd Volume Starlight Stone Bundle",
-                "start": "November 1 2021, 0:00",
-                "end": "November 9 2021, 23:59"
             },
             {
                 "name": "Kirara Exhibition in Nagoya Starlight Stone Bundle",
@@ -616,42 +534,6 @@ var timerData = [
                 "name": "Period",
                 "start": "October 27 2021, 17:00",
                 "end": "November 11 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "3rd Manga Volume Login Bonus",
-            "コミカライズ第3巻発売記念ログインボーナス",
-            "Log in on each day to receive various items."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "November 1 2021, 0:00",
-                "end": "November 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Summon",
-            "コミカライズ第3巻発売記念1日1回期間限定きらきら召喚",
-            "40 Paid Stones for a 3x Summon, all 4★ or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "November 1 2021, 0:00",
-                "end": "November 9 2021, 23:59"
             }
         ]
     }
