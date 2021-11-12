@@ -168,35 +168,27 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
+        "type": "Mission",
         "title": [
-            "Road to Super Difficulty ~Orba Side~",
-            "超難関への道～オルバ編～",
-            "Orba Mini-Event"
+            "4th Anniversary Heart-Throbbing Summon",
+            "4th ANNIVERSARYドキドキ召喚",
+            "Clear missions to receive Summon Tickets",
+            "Use Ticket Pieces to receive a Random 5* Summon Ticket"
         ],
-        "image": [
-            "https://i.imgur.com/ECP1loG.png"
-        ],
+        "image": ["kirara"],
         "column": 0,
         "priority": 31,
         "timers": [
             {
-                "name": "Main Event, Event Missions",
-                "start": "October 16 2021, 0:00",
-                "end": "November 4 2021, 23:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Farming Quest Part 2, EX Quest",
-                        "time": "October 21 2021, 0:00",
-                        "type": "battle"
-                    }
-                ]
+                "name": "Missions & Ticket Exchange",
+                "start": "November 14 2021, 10:00",
+                "end": "November 20 2021, 23:59",
+                "extraPriority": 3
             },
             {
-                "name": "Event Shop",
-                "start": "October 16 2021, 0:00",
-                "end": "November 11 2021, 13:59"
+                "name": "Ticket Expiration",
+                "start": "November 14 2021, 10:00",
+                "end": "November 27 2021, 23:59"
             }
         ]
     },
@@ -486,11 +478,6 @@ var timerData = [
                 "end": "November 17 2021, 23:59"
             },
             {
-                "name": "Halloween Special Starlight Stone Bundle",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 15:59"
-            },
-            {
                 "name": "New Halloween Summon Ticket Expiration",
                 "start": "October 27 2021, 17:00",
                 "end": "November 18 2021, 23:59"
@@ -499,41 +486,6 @@ var timerData = [
                 "name": "Kirara Exhibition in Nagoya Starlight Stone Bundle",
                 "start": "November 3 2021, 0:00",
                 "end": "November 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Halloween Login Bonus",
-            "ハロウィンログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Halloween-themed BGM",
-            "音楽もハロウィン仕様に！BGM変更"
-        ],
-        "image": "leine",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 15:59"
             }
         ]
     }
