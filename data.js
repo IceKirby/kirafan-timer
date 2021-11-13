@@ -181,13 +181,13 @@ var timerData = [
         "timers": [
             {
                 "name": "Missions & Ticket Exchange",
-                "start": "November 14 2021, 10:00",
+                "start": "November 14 2021, 0:00",
                 "end": "November 20 2021, 23:59",
                 "extraPriority": 3
             },
             {
                 "name": "Ticket Expiration",
-                "start": "November 14 2021, 10:00",
+                "start": "November 14 2021, 0:00",
                 "end": "November 27 2021, 23:59"
             }
         ]
