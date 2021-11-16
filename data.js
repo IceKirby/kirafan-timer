@@ -195,42 +195,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Halloween's Witch Castle Summon",
-            "期間限定2021ハロウィンキャラクターピックアップ召喚",
-            "Halloween 2021 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/42KMULm.png",
-            "https://i.imgur.com/fFx9Zda.png",
-            "https://i.imgur.com/j6ZKoot.png",
-            "https://i.imgur.com/Ya314qo.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Koume [Halloween], 5★ Kuro [Halloween]",
-                        "time": "October 27 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Yuzuko [Halloween], 5★ Hana [Halloween]",
-                        "time": "October 27 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Cut the Jabon! Summon",
             "ジャボンを斬る！ピックアップ召喚",
             "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event Summon"
@@ -309,24 +273,49 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "GochiUsa Exhibit Paid Summon",
-            "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・東京編",
-            "700 Paid Gems for 10x Summon + 2x Random 5* Summon Ticket"
+            "Limited-Time Priest Step-up & Paid Summon",
+            "2つの召喚を同時開催！そうりょのキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Cocoa [Christmas], Cocoa [Swimsuit], Chino [Swimsuit], Rize [Halloween], Chiya [Christmas], Syaro [Halloween], Syaro [Swimsuit]",
-                "start": "October 29 2021, 0:00",
-                "end": "November 7 2021, 23:59",
+                "name": "Summon Period: Featuring 5★ Yuno, 5★ Karen [Sports Festival], 5★ Merry [Valentine], 5★ Rin [White Day], 5★ Moeta Kaoruko, 5★ Kumegawa Botan, 5★ Chiya, 5★ Lamp [Tanabata]",
+                "start": "November 17 2021, 17:00",
+                "end": "November 23 2021, 16:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "October 29 2021, 0:00",
-                "end": "November 14 2021, 23:59"
+                "start": "November 17 2021, 17:00",
+                "end": "November 30 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "GochiUsa Exhibit Limited-Time Paid Summon",
+            "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・大阪編",
+            "700 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Cocoa [Christmas], 5★ Cocoa [Swimsuit], 5★ Chino [Swimsuit], 5★ Rize [Halloween], 5★ Chiya [Christmas], 5★ Syaro [Halloween], 5★ Syaro [Swimsuit]",
+                "start": "November 18 2021, 0:00",
+                "end": "November 30 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 18 2021, 0:00",
+                "end": "December 7 2021, 23:59"
             }
         ]
     },
@@ -486,6 +475,11 @@ var timerData = [
                 "name": "Kirara Exhibition in Nagoya Starlight Stone Bundle",
                 "start": "November 3 2021, 0:00",
                 "end": "November 9 2021, 23:59"
+            },
+            {
+                "name": "GochiUsa Exhibit Item Bundles",
+                "start": "November 18 2021, 0:00",
+                "end": "November 30 2021, 23:59"
             }
         ]
     }
