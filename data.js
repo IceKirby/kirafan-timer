@@ -356,6 +356,30 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Past Limited-Time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Limited-time characters from 2017~2020",
+                "start": "November 19 2021, 0:00",
+                "end": "November 21 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 19 2021, 0:00",
+                "end": "November 28 2021, 23:59"
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "Ochikobore Fruit Tart participation Login Bonus",
@@ -480,6 +504,52 @@ var timerData = [
                 "name": "GochiUsa Exhibit Item Bundles",
                 "start": "November 18 2021, 0:00",
                 "end": "November 30 2021, 23:59"
+            },
+            {
+                "name": "4th Anniversary Fes Starlight Stone Bundle",
+                "start": "November 19 2021, 0:00",
+                "end": "November 21 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "4th Anniversary Fes. Login Bonus",
+            "4th ANNIVERSARY FES.記念ログインボーナス",
+            "Log in everyday to receive up to 3 Summon Tickets."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 19 2021, 0:00",
+                "end": "November 21 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "FES. Cast Characters Paid Summon + Choosable 5★ Summon Ticket",
+            "FES.出演キャラクター★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 19 2021, 0:00",
+                "end": "November 21 2021, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 19 2021, 0:00",
+                "end": "November 28 2021, 23:59"
             }
         ]
     }
