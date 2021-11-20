@@ -37,73 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Halloween's Witch Castle",
-            "ハロウィン魔女魔城",
-            "Halloween 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/42KMULm.png",
-            "https://i.imgur.com/fFx9Zda.png",
-            "https://i.imgur.com/j6ZKoot.png",
-            "https://i.imgur.com/Ya314qo.png",
-            "https://i.imgur.com/tr5Ijub.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "November 1 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 29 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "November 5 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "November 6 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "November 7 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "November 8 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "October 27 2021, 17:00",
-                "end": "November 11 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 27 2021, 17:00",
-                "end": "November 18 2021, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Cut the Jabon!",
             "ジャボンを斬る！",
             "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event"
@@ -173,7 +106,7 @@ var timerData = [
             "4th Anniversary Heart-Throbbing Summon",
             "4th ANNIVERSARYドキドキ召喚",
             "Clear missions to receive Summon Tickets",
-            "Use Ticket Pieces to receive a Random 5* Summon Ticket"
+            "Use Ticket Pieces to receive up to 8x Random 5* Summon Ticket"
         ],
         "image": ["kirara"],
         "column": 0,
@@ -182,13 +115,13 @@ var timerData = [
             {
                 "name": "Missions & Ticket Exchange",
                 "start": "November 14 2021, 0:00",
-                "end": "November 20 2021, 23:59",
+                "end": "January 8 2022, 23:59",
                 "extraPriority": 3
             },
             {
                 "name": "Ticket Expiration",
                 "start": "November 14 2021, 0:00",
-                "end": "November 27 2021, 23:59"
+                "end": "January 15 2021, 23:59"
             }
         ]
     },
@@ -322,8 +255,31 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Exhibition in Nagoya Paid Summon + Random 5★ Summon Ticket",
-            "きらら展in名古屋記念期間限定★5確定チケット付き！有償限定10回召喚",
+            "Past Kirara Fantasia Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア第2部限定復刻ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/rdrvGmy.png",
+            "https://i.imgur.com/p9OHB8T.png",
+            "https://i.imgur.com/WgjwdJP.png",
+            "https://i.imgur.com/6NcsqPF.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2], 5★ Namiko-san [Part 2], 5★ Cardamom [Part 2]",
+                "start": "November 21 2021, 0:00",
+                "end": "November 25 2021, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
         ],
         "image": "clea",
@@ -331,27 +287,15 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "November 3 2021, 0:00",
-                "end": "November 9 2021, 23:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "",
-                        "time": "November 3 2021, 0:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "",
-                        "time": "November 3 2021, 0:00"
-                    }
-                ],
+                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
+                "start": "November 21 2021, 0:00",
+                "end": "November 25 2021, 15:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "November 3 2021, 0:00",
-                "end": "November 16 2021, 23:59"
+                "start": "November 21 2021, 0:00",
+                "end": "December 2 2021, 23:59"
             }
         ]
     },
@@ -407,9 +351,9 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2 (Chapters 1~3)",
-                "start": "September 18 2021, 0:00",
-                "end": "September 29 2021, 15:59"
+                name: "Part 2 (Chapters 1~4)",
+                "start": "November 21 2021, 0:00",
+                "end": "December 2 2021, 23:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
@@ -485,21 +429,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Halloween Special Item Bundle",
-                "start": "November 10 2021, 0:00",
-                "end": "November 17 2021, 23:59"
-            },
-            {
-                "name": "New Halloween Summon Ticket Expiration",
-                "start": "October 27 2021, 17:00",
-                "end": "November 18 2021, 23:59"
-            },
-            {
-                "name": "Kirara Exhibition in Nagoya Starlight Stone Bundle",
-                "start": "November 3 2021, 0:00",
-                "end": "November 9 2021, 23:59"
-            },
             {
                 "name": "GochiUsa Exhibit Item Bundles",
                 "start": "November 18 2021, 0:00",
