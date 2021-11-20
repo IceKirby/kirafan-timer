@@ -121,7 +121,7 @@ var timerData = [
             {
                 "name": "Ticket Expiration",
                 "start": "November 14 2021, 0:00",
-                "end": "January 15 2021, 23:59"
+                "end": "January 15 2022, 23:59"
             }
         ]
     },
