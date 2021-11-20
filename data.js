@@ -365,8 +365,8 @@ var timerData = [
     {
         "type": "Other",
         "title": [
-            "Summer-themed Room Decoration Items",
-            "夏限定ルームアイテム再登場"
+            "All Limited-time Room Decoration Items Available",
+            "ルームショップに全ての限定アイテムが再登場"
         ],
         "image": "kanna",
         "column": 2,
@@ -374,8 +374,8 @@ var timerData = [
         "timers": [
             {
                 "name": "Period",
-                "start": "July 21 2021, 17:00",
-                "end": "August 20 2021, 11:59"
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2021, 23:59"
             }
         ]
     },
