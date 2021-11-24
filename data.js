@@ -127,6 +127,25 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Main Quest Part 2 Chapter 5 Missions",
+            "メインクエスト第2部5章追加記念 期間限定ミッション",
+            "Clear Chapter 5 to receive 1 Etowarium"
+        ],
+        "image": ["kirara"],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Missions",
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2022, 23:59",
+                "extraPriority": 3
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Cut the Jabon! Summon",
@@ -177,6 +196,112 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Severed Bonds Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/fJSeRaN.png",
+            "https://i.imgur.com/Yb95S3P.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2021, 23:59",
+                "banners": [
+                    {
+                        "title": "Chino side",
+                        "desc": "Featuring 5★ Chino [Part 2]",
+                        "time": "November 25 2021, 17:00"
+                    },
+                    {
+                        "title": "Cocoa side",
+                        "desc": "Featuring 5★ Cocoa [Part 2]",
+                        "time": "November 25 2021, 17:00"
+                    }
+                ],
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Water Element Step-up & Paid Summon",
+            "2つの召喚を同時開催！水属性のキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Nagi [Swimsuit], 5★ Sakura Megumi, 5★ Haruka [Hot Spring], 5★ Rize, 5★ Kotetsu [Christmas], 5★ Shinohana Mayu, 5★ Onosaka Koharu, 5★ Sesame [Bridal]",
+                "start": "November 25 2021, 17:00",
+                "end": "December 2 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 25 2021, 17:00",
+                "end": "December 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gochuumon wa Usagi Desu Ka? Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "ご注文はうさぎですか？期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Cocoa [Christmas], 5★ Cocoa [Swimsuit], 5★ Chino [Swimsuit], 5★ Rize [Halloween], 5★ Chiya [Christmas], 5★ Syaro [Halloween], 5★ Syaro [Swimsuit]",
+                "start": "November 25 2021, 17:00",
+                "end": "December 3 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Exchange",
+                "start": "November 25 2021, 17:00",
+                "end": "December 2 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "November 25 2021, 17:00",
+                "end": "December 9 2021, 23:59"
             }
         ]
     },
@@ -358,8 +483,8 @@ var timerData = [
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
-                "start": "September 2 2021, 17:00",
-                "end": "September 14 2021, 15:59"
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2021, 23:59"
             }
         ]
     },
@@ -436,27 +561,14 @@ var timerData = [
                 "end": "November 30 2021, 23:59"
             },
             {
-                "name": "4th Anniversary Fes Starlight Stone Bundle",
-                "start": "November 19 2021, 0:00",
-                "end": "November 21 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "4th Anniversary Fes. Login Bonus",
-            "4th ANNIVERSARY FES.記念ログインボーナス",
-            "Log in everyday to receive up to 3 Summon Tickets."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
+                "name": "Main Quest Part 2 Chapter 5 Starlight Stone & Item Bundles",
+                "start": "November 25 2021, 17:00",
+                "end": "December 10 2021, 23:59"
+            },
             {
-                "name": "Period",
-                "start": "November 19 2021, 0:00",
-                "end": "November 21 2021, 23:59"
+                "name": "Limited-time 2021 Characters 5* Summon Ticket",
+                "start": "November 25 2021, 17:00",
+                "end": "December 2 2021, 23:59"
             }
         ]
     },
