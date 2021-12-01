@@ -563,18 +563,14 @@ var timerData = [
         ],
         "image": "leine",
         "column": 0,
-        "priority": 38,
+        "priority": 30,
         "timers": [
             {
                 "name": "Period",
                 "start": "December 3 2021, 0:00",
                 "end": "December 28 2021, 23:59",
+                "extraPriority": 8,
                 "markers": [
-                    {
-                        "title": "Sugar",
-                        "time": "December 3 2021, 0:00",
-                        "type": "battle"
-                    },
                     {
                         "title": "Sesame",
                         "time": "December 4 2021, 0:00",
