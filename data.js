@@ -140,62 +140,8 @@ var timerData = [
             {
                 "name": "Missions",
                 "start": "November 25 2021, 17:00",
-                "end": "December 10 2022, 23:59",
+                "end": "December 10 2021, 23:59",
                 "extraPriority": 3
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Cut the Jabon! Summon",
-            "ジャボンを斬る！ピックアップ召喚",
-            "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/7xLj4Pw.png",
-            "https://i.imgur.com/mUDIevI.png",
-            "https://i.imgur.com/ivslxhB.png",
-            "https://i.imgur.com/R4jkJvX.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "November 11 2021, 17:00",
-                "end": "November 18 2021, 16:59",
-                "banners": [
-                    {
-                        "title": "Nozomi Side",
-                        "desc": "Featuring 5★ Nakamura Nozomi",
-                        "time": "November 11 2021, 17:00"
-                    },
-                    {
-                        "title": "Miku Side",
-                        "desc": "Featuring 5★ Souenji Miku",
-                        "time": "November 11 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            },
-            {
-                "name": "Summon Period",
-                "start": "November 18 2021, 17:00",
-                "end": "November 25 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Hizume Side",
-                        "desc": "Featuring 5★ Arima Hizume, 4★ Arima Hizume",
-                        "time": "November 18 2021, 17:00"
-                    },
-                    {
-                        "title": "Ayasa Side",
-                        "desc": "Featuring 5★ Tachibana Ayasa, 4★ Tachibana Ayasa",
-                        "time": "November 18 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
             }
         ]
     },
@@ -308,55 +254,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Limited-Time Halloween Step-up Summon",
-            "期間限定ハロウィン復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Miki [Halloween], 5★ Sonya [Halloween], 5★ Claire [Halloween], 5★ Rize [Halloween], 5★ Syaro [Halloween], 5★ Noda Miki [Halloween]",
-                "start": "November 10 2021, 0:00",
-                "end": "November 17 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 10 2021, 0:00",
-                "end": "November 24 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-Time Priest Step-up & Paid Summon",
-            "2つの召喚を同時開催！そうりょのキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuno, 5★ Karen [Sports Festival], 5★ Merry [Valentine], 5★ Rin [White Day], 5★ Moeta Kaoruko, 5★ Kumegawa Botan, 5★ Chiya, 5★ Lamp [Tanabata]",
-                "start": "November 17 2021, 17:00",
-                "end": "November 23 2021, 16:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 17 2021, 17:00",
-                "end": "November 30 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "GochiUsa Exhibit Limited-Time Paid Summon",
             "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・大阪編",
             "700 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
@@ -375,29 +272,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "November 18 2021, 0:00",
                 "end": "December 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Kirara Fantasia Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア第2部限定復刻ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/rdrvGmy.png",
-            "https://i.imgur.com/p9OHB8T.png",
-            "https://i.imgur.com/WgjwdJP.png",
-            "https://i.imgur.com/6NcsqPF.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2], 5★ Namiko-san [Part 2], 5★ Cardamom [Part 2]",
-                "start": "November 21 2021, 0:00",
-                "end": "November 25 2021, 15:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -428,24 +302,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Limited-Time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定復刻★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "Manga Time Collab-Limited Paid Summon + Choosable 5★ Summon Ticket",
+            "まんがタイムコラボ限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring Limited-time characters from 2017~2020",
-                "start": "November 19 2021, 0:00",
-                "end": "November 21 2021, 23:59",
+                "name": "Summon Period: Featuring 5★ Satonaka Chie, 5★ Shirai Reiko, 5★ Kurahashi Riko, 5★ Maki Natsuo, 5★ Komori Shuri, 5★ Nishitori Megumi",
+                "start": "December 3 2021, 0:00",
+                "end": "December 3 2021, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 3 2021, 0:00",
+                "end": "December 10 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Paid Summon + Choosable 5★ Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "December 3 2021, 0:00",
+                "end": "December 10 2021, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "December 11 2021, 0:00",
+                "end": "December 19 2021, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "November 19 2021, 0:00",
-                "end": "November 28 2021, 23:59"
+                "start": "December 3 2021, 0:00",
+                "end": "December 26 2021, 23:59"
             }
         ]
     },
@@ -556,11 +460,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "GochiUsa Exhibit Item Bundles",
-                "start": "November 18 2021, 0:00",
-                "end": "November 30 2021, 23:59"
-            },
-            {
                 "name": "Main Quest Part 2 Chapter 5 Starlight Stone & Item Bundles",
                 "start": "November 25 2021, 17:00",
                 "end": "December 10 2021, 23:59"
@@ -569,29 +468,166 @@ var timerData = [
                 "name": "Limited-time 2021 Characters 5* Summon Ticket",
                 "start": "November 25 2021, 17:00",
                 "end": "December 2 2021, 23:59"
+            },
+            {
+                "name": "4th Anniversary Countdown Item Bundles",
+                "start": "December 3 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "Choosable Collab-Limited 5★ Summon Ticket",
+                "start": "December 3 2021, 0:00",
+                "end": "December 3 2021, 23:59"
+            },
+            {
+                "name": "4th Anniversary Starlight Stone Bundles",
+                "start": "December 3 2021, 17:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "4th Anniversary Starlight Stone Bundles + Bonus 1",
+                "start": "December 11 2021, 0:00",
+                "end": "December 19 2021, 23:59"
+            },
+            {
+                "name": "4th Anniversary Starlight Stone Bundles + Bonus 2",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
             }
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Other",
         "title": [
-            "FES. Cast Characters Paid Summon + Choosable 5★ Summon Ticket",
-            "FES.出演キャラクター★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket"
+            "4th ANNIVERSARY Countdown Login Bonus",
+            "4th ANNIVERSARYカウントダウンログインボーナス",
+            "Log in on 7 days to receive up to 388x 4th Anniversary Vouchers."
         ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
         "timers": [
             {
                 "name": "Period",
-                "start": "November 19 2021, 0:00",
-                "end": "November 21 2021, 23:59"
+                "start": "December 3 2021, 0:00",
+                "end": "December 10 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "4th ANNIVERSARY Countdown Missions",
+            "4th ANNIVERSARYカウントダウン特別ミッション",
+            "Includes daily missions"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 3 2021, 0:00",
+                "end": "December 10 2021, 23:59"
             },
             {
-                "name": "Ticket Expiration",
-                "start": "November 19 2021, 0:00",
-                "end": "November 28 2021, 23:59"
+                "name": "Voucher Exchange Period",
+                "start": "December 3 2021, 0:00",
+                "end": "January 4 2022, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "4th ANNIVERSARY Exchange Shop",
+            "4th ANNIVERSARY交換所",
+            "Exchange Vouchers for items"
+        ],
+        "image": "cork",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Voucher Exchange Period",
+                "start": "December 3 2021, 0:00",
+                "end": "January 4 2022, 11:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Seven Sages Challenge Quest Rush",
+            "七賢者チャレンジクエストラッシュ！"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 38,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 3 2021, 0:00",
+                "end": "December 28 2021, 23:59",
+                "markers": [
+                    {
+                        "title": "Sugar",
+                        "time": "December 3 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Sesame",
+                        "time": "December 4 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Cardamon",
+                        "time": "December 5 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Salt",
+                        "time": "December 6 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Ginger",
+                        "time": "December 7 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Fennel",
+                        "time": "December 8 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Hakka",
+                        "time": "December 9 2021, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Archive",
+                        "time": "December 10 2021, 0:00",
+                        "type": "battle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Author Quests Half Stamina Campaign",
+            "作家クエストスタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 3 2021, 0:00",
+                "end": "December 10 2021, 23:59"
             }
         ]
     }
