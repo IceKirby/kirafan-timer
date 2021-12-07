@@ -38,66 +38,67 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Cut the Jabon!",
-            "ジャボンを斬る！",
-            "Tamayomi x Harukana Receive x Power of Smile. x Anima Yell! Event"
+            "Super Christmas Carol: Etowaria Stage",
+            "スーパー・クリスマス・キャロル　エトワリア公演",
+            "Christmas 2021 Event"
         ],
         "image": [
-            "https://i.imgur.com/7xLj4Pw.png",
-            "https://i.imgur.com/mUDIevI.png",
-            "https://i.imgur.com/ivslxhB.png",
-            "https://i.imgur.com/R4jkJvX.png"
+            "https://i.imgur.com/G5ENix1.png",
+            "https://i.imgur.com/DLKKtWE.png",
+            "https://i.imgur.com/nwydpZn.png",
+            "https://i.imgur.com/eCTUAki.png",
+            "https://i.imgur.com/JjqnvIP.png"
         ],
         "column": 0,
         "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
-                "start": "November 11 2021, 17:00",
-                "end": "November 25 2021, 15:59",
+                "start": "December 11 2021, 12:00",
+                "end": "December 28 2021, 15:59",
                 "extraPriority": 4,
                 "markers": [
                     {
                         "title": "EX Quest",
-                        "time": "November 16 2021, 17:00",
+                        "time": "December 17 2021, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Boss Quest",
-                        "time": "November 13 2021, 17:00",
+                        "time": "December 13 2021, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Extra Chapter 1",
-                        "time": "November 19 2021, 0:00",
+                        "time": "December 21 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 2",
-                        "time": "November 20 2021, 0:00",
+                        "time": "December 22 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 3",
-                        "time": "November 21 2021, 0:00",
+                        "time": "December 23 2021, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 4",
-                        "time": "November 22 2021, 0:00",
+                        "time": "December 24 2021, 0:00",
                         "type": "story"
                     }
                 ]
             },
             {
                 "name": "Missions",
-                "start": "November 11 2021, 17:00",
-                "end": "November 25 2021, 23:59"
+                "start": "December 11 2021, 12:00",
+                "end": "December 28 2021, 23:59"
             },
             {
                 "name": "Event Shop",
-                "start": "November 11 2021, 17:00",
-                "end": "December 2 2021, 13:59"
+                "start": "December 11 2021, 12:00",
+                "end": "January 4 2022, 13:59"
             }
         ]
     },
@@ -175,6 +176,42 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Super Christmas Carol: Etowaria Stage Summon",
+            "期間限定2021クリスマスキャラクターピックアップ召喚",
+            "Christmas 2021 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/G5ENix1.png",
+            "https://i.imgur.com/DLKKtWE.png",
+            "https://i.imgur.com/nwydpZn.png",
+            "https://i.imgur.com/eCTUAki.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Karen [Christmas], 5★ Clione [Christmas]",
+                        "time": "December 11 2021, 0:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Kaho [Christmas], 5★ Kaos [Christmas]",
+                        "time": "December 11 2021, 0:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -272,30 +309,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "November 18 2021, 0:00",
                 "end": "December 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Main Quest Part 2 Limited Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
-                "start": "November 21 2021, 0:00",
-                "end": "November 25 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 21 2021, 0:00",
-                "end": "December 2 2021, 23:59"
             }
         ]
     },
@@ -465,19 +478,9 @@ var timerData = [
                 "end": "December 10 2021, 23:59"
             },
             {
-                "name": "Limited-time 2021 Characters 5* Summon Ticket",
-                "start": "November 25 2021, 17:00",
-                "end": "December 2 2021, 23:59"
-            },
-            {
                 "name": "4th Anniversary Countdown Item Bundles",
                 "start": "December 3 2021, 0:00",
                 "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "Choosable Collab-Limited 5★ Summon Ticket",
-                "start": "December 3 2021, 0:00",
-                "end": "December 3 2021, 23:59"
             },
             {
                 "name": "4th Anniversary Starlight Stone Bundles",
@@ -492,6 +495,16 @@ var timerData = [
             {
                 "name": "4th Anniversary Starlight Stone Bundles + Bonus 2",
                 "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "Christmas Item & Starlight Stone Bundles",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "Past Christmas Random 5★ Summon Ticket (2021)",
+                "start": "December 20 2021, 0:00",
                 "end": "December 28 2021, 15:59"
             }
         ]
@@ -529,11 +542,6 @@ var timerData = [
                 "name": "Period",
                 "start": "December 3 2021, 0:00",
                 "end": "December 10 2021, 23:59"
-            },
-            {
-                "name": "Voucher Exchange Period",
-                "start": "December 3 2021, 0:00",
-                "end": "January 4 2022, 11:59"
             }
         ]
     },
@@ -624,6 +632,81 @@ var timerData = [
                 "name": "Period",
                 "start": "December 3 2021, 0:00",
                 "end": "December 10 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Christmas Login Bonus",
+            "クリスマスログインボーナス",
+            "Log in once to receive 1 Summon Ticket."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 25 2021, 0:00",
+                "end": "December 25 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Limited-time Christmas Step-up Summon",
+            "期間限定クリスマス復刻おまけ付き10回召喚",
+            "Past Christmas Random 5★ Summon Ticket on 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 20 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 20 2021, 0:00",
+                "end": "January 4 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Christmas-themed Room Decoration Items",
+            "クリスマス限定ルームアイテム再登場"
+        ],
+        "image": "kanna",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Christmas-themed BGM",
+            "音楽もクリスマス仕様に！BGM変更"
+        ],
+        "image": "leine",
+        "column": 2,
+        "priority": 10,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
             }
         ]
     }
