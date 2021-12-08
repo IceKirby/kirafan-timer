@@ -21,7 +21,7 @@ var timerData = [
             "Maintenance",
             "Event Preparation",
             "Summon Renovation",
-            "Version 3.2.3 Update"
+            "Version 3.2.4 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -29,8 +29,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "November 25 2021, 16:00",
-                end: "November 25 2021, 17:00",
+                start: "December 10 2021, 16:00",
+                end: "December 10 2021, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
@@ -143,6 +143,25 @@ var timerData = [
                 "start": "November 25 2021, 17:00",
                 "end": "December 10 2021, 23:59",
                 "extraPriority": 3
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Limited-time Unlocked Daily Quests",
+            "曜日クエスト期間限定開放",
+            "Some Daily Quests available every day of the week"
+        ],
+        "image": ["kirara"],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 10 2021, 17:00",
+                "end": "December 28 2021, 15:59",
+                "extraPriority": 2
             }
         ]
     },
@@ -649,7 +668,26 @@ var timerData = [
             {
                 "name": "Period",
                 "start": "December 25 2021, 0:00",
-                "end": "December 25 2021, 23:59"
+                "end": "December 25 2021, 23:59",
+                "extraPriority": 8
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Quest Key Rainbow Gift",
+            "「クエストキー　虹」プレゼント",
+            "Log in once to receive a Quest Key Rainbow."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 10 2021, 17:00",
+                "end": "December 28 2021, 15:59"
             }
         ]
     },
