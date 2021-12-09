@@ -237,6 +237,39 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "4th Anniversary Cross Chara Limited-time Summon",
+            "4周年記念きららファンタジアクロスキャラ限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/3FyysSv.png",
+            "https://i.imgur.com/6fVfcFn.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 19 2021, 23:59",
+                "banners": [
+                    {
+                        "title": "Archive side",
+                        "desc": "Featuring 5★ Archive [Cross Chara]",
+                        "time": "December 11 2021, 0:00"
+                    },
+                    {
+                        "title": "Sola side",
+                        "desc": "Featuring 5★ Sola [Cross Chara]",
+                        "time": "December 11 2021, 0:00"
+                    }
+                ],
+                "extraPriority": 5
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Limited-time Water Element Step-up & Paid Summon",
             "2つの召喚を同時開催！水属性のキャラクターを仲間にしよう！",
             "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
@@ -256,6 +289,54 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "November 25 2021, 17:00",
                 "end": "December 9 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Cross Chara-Limited Paid Summon + Choosable 5★ Summon Ticket",
+            "きららファンタジアクロスキャラ限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable Cross Chara 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp [Cross Chara], 5★ Polka [Cross Chara], 5★ Cork [Cross Chara], 5★ Kirara [Cross Chara]",
+                "start": "December 11 2021, 0:00",
+                "end": "December 11 2021, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 11 2021, 0:00",
+                "end": "December 18 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 11 2021, 23:59",
+                "extraPriority": 7
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 11 2021, 0:00",
+                "end": "December 18 2021, 23:59"
             }
         ]
     },
@@ -310,30 +391,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "GochiUsa Exhibit Limited-Time Paid Summon",
-            "ごちうさ展記念期間限定★5確定チケット付き！有償限定10回召喚・大阪編",
-            "700 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Cocoa [Christmas], 5★ Cocoa [Swimsuit], 5★ Chino [Swimsuit], 5★ Rize [Halloween], 5★ Chiya [Christmas], 5★ Syaro [Halloween], 5★ Syaro [Swimsuit]",
-                "start": "November 18 2021, 0:00",
-                "end": "November 30 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 18 2021, 0:00",
-                "end": "December 7 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Manga Time Collab-Limited Paid Summon + Choosable 5★ Summon Ticket",
             "まんがタイムコラボ限定★5選べるチケット付き！有償限定10回召喚",
             "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
@@ -352,6 +409,37 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "December 3 2021, 0:00",
                 "end": "December 10 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Special Deluxe Summon",
+            "期間限定スペシャルデラックス召喚",
+            "1000 Paid Gems for a 10x Limited-time 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 19 2021, 23:59",
+                "banners": [
+                    {
+                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
+                        "desc": "",
+                        "time": "December 11 2021, 0:00"
+                    },
+                    {
+                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
+                        "desc": "",
+                        "time": "December 11 2021, 0:00"
+                    }
+                ],
+                "extraPriority": 4
             }
         ]
     },
@@ -525,6 +613,21 @@ var timerData = [
                 "name": "Past Christmas Random 5★ Summon Ticket (2021)",
                 "start": "December 20 2021, 0:00",
                 "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "Birthday Campaign Special Item Bundles",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 15:59"
+            },
+            {
+                "name": "4th Anniversary 5★ Summon Support Set 1",
+                "start": "December 11 2021, 0:00",
+                "end": "December 11 2021, 23:59"
+            },
+            {
+                "name": "4th Anniversary 5★ Summon Support Set 2",
+                "start": "December 20 2021, 0:00",
+                "end": "December 20 2021, 23:59"
             }
         ]
     },
@@ -745,6 +848,64 @@ var timerData = [
                 "name": "Period",
                 "start": "December 11 2021, 0:00",
                 "end": "December 28 2021, 15:59"
+            }
+        ]
+    },
+    
+    
+    
+    {
+        "type": "Other",
+        "title": [
+            "Thank you for the 4th ANNIVERSARY Login Bonus",
+            "ありがとう4周年！ログインボーナス",
+            "Log in once to receive 100x Starlight Stones and 400x 4th Anniversary Voucher."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 11 2021, 23:59",
+                "extraPriority": 10
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Birthday Special Missions",
+            "バースデー特別ミッション",
+            "Includes Daily Missions"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Special Login Bonus",
+            "スペシャルログインボーナス",
+            "Log in on 14 days to receive up to 400 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 11 2021, 0:00",
+                "end": "December 28 2021, 23:59"
             }
         ]
     }
