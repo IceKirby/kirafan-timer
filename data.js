@@ -103,6 +103,32 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Christmas Training Support Campaign",
+            "クリスマス育成応援キャンペーン",
+            "Includes daily missions"
+        ],
+        "image": [
+            "https://i.imgur.com/Kag6pGL.png"
+        ],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Quests and Missions",
+                "start": "December 20 2021, 0:00",
+                "end": "December 28 2021, 15:59",
+                "extraPriority": 3
+            },
+            {
+                "name": "Event Shop",
+                "start": "December 20 2021, 0:00",
+                "end": "January 4 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Mission",
         "title": [
             "4th Anniversary Heart-Throbbing Summon",
@@ -128,25 +154,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Chapter 5 Missions",
-            "メインクエスト第2部5章追加記念 期間限定ミッション",
-            "Clear Chapter 5 to receive 1 Etowarium"
-        ],
-        "image": ["kirara"],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Missions",
-                "start": "November 25 2021, 17:00",
-                "end": "December 10 2021, 23:59",
-                "extraPriority": 3
-            }
-        ]
-    },
-    {
         "type": "Other",
         "title": [
             "Limited-time Unlocked Daily Quests",
@@ -162,39 +169,6 @@ var timerData = [
                 "start": "December 10 2021, 17:00",
                 "end": "December 28 2021, 15:59",
                 "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Severed Bonds Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/fJSeRaN.png",
-            "https://i.imgur.com/Yb95S3P.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "November 25 2021, 17:00",
-                "end": "December 10 2021, 23:59",
-                "banners": [
-                    {
-                        "title": "Chino side",
-                        "desc": "Featuring 5★ Chino [Part 2]",
-                        "time": "November 25 2021, 17:00"
-                    },
-                    {
-                        "title": "Cocoa side",
-                        "desc": "Featuring 5★ Cocoa [Part 2]",
-                        "time": "November 25 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 4
             }
         ]
     },
@@ -270,31 +244,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Water Element Step-up & Paid Summon",
-            "2つの召喚を同時開催！水属性のキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Nagi [Swimsuit], 5★ Sakura Megumi, 5★ Haruka [Hot Spring], 5★ Rize, 5★ Kotetsu [Christmas], 5★ Shinohana Mayu, 5★ Onosaka Koharu, 5★ Sesame [Bridal]",
-                "start": "November 25 2021, 17:00",
-                "end": "December 2 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 25 2021, 17:00",
-                "end": "December 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Cross Chara-Limited Paid Summon + Choosable 5★ Summon Ticket",
             "きららファンタジアクロスキャラ限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable Cross Chara 5★ Summon Ticket"
@@ -313,6 +262,54 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "December 11 2021, 0:00",
                 "end": "December 18 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited Paid Summon + Choosable 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
+                "start": "December 20 2021, 0:00",
+                "end": "December 20 2021, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 20 2021, 0:00",
+                "end": "December 27 2021, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Ver. Limited Paid Summon + Choosable 5★ Summon Ticket",
+            "きららファンタジアマンガ版限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Clea [Manga ver.], 5★ Kirara [Manga ver.]",
+                "start": "December 20 2021, 0:00",
+                "end": "December 20 2021, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "December 20 2021, 0:00",
+                "end": "December 27 2021, 23:59"
             }
         ]
     },
@@ -343,72 +340,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Gochuumon wa Usagi Desu Ka? Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "ご注文はうさぎですか？期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "Past Limited-time Christmas Step-up Summon",
+            "期間限定クリスマス復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Cocoa [Christmas], 5★ Cocoa [Swimsuit], 5★ Chino [Swimsuit], 5★ Rize [Halloween], 5★ Chiya [Christmas], 5★ Syaro [Halloween], 5★ Syaro [Swimsuit]",
-                "start": "November 25 2021, 17:00",
-                "end": "December 3 2021, 23:59",
+                "name": "Summon Period: Featuring Christmas 2017~2020 characters",
+                "start": "December 20 2021, 0:00",
+                "end": "December 28 2021, 15:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "November 25 2021, 17:00",
-                "end": "December 10 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Exchange",
-                "start": "November 25 2021, 17:00",
-                "end": "December 2 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 25 2021, 17:00",
-                "end": "December 9 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Collab-Limited Paid Summon + Choosable 5★ Summon Ticket",
-            "まんがタイムコラボ限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Satonaka Chie, 5★ Shirai Reiko, 5★ Kurahashi Riko, 5★ Maki Natsuo, 5★ Komori Shuri, 5★ Nishitori Megumi",
-                "start": "December 3 2021, 0:00",
-                "end": "December 3 2021, 23:59",
-                "extraPriority": 8
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "December 3 2021, 0:00",
-                "end": "December 10 2021, 23:59"
+                "start": "December 20 2021, 0:00",
+                "end": "January 4 2022, 23:59"
             }
         ]
     },
@@ -437,6 +386,24 @@ var timerData = [
                         "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
                         "desc": "",
                         "time": "December 11 2021, 0:00"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Summon Period (2nd Edition)",
+                "start": "December 20 2021, 0:00",
+                "end": "December 28 2021, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
+                        "desc": "",
+                        "time": "December 20 2021, 0:00"
+                    },
+                    {
+                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
+                        "desc": "",
+                        "time": "December 20 2021, 0:00"
                     }
                 ],
                 "extraPriority": 4
@@ -580,11 +547,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Main Quest Part 2 Chapter 5 Starlight Stone & Item Bundles",
-                "start": "November 25 2021, 17:00",
-                "end": "December 10 2021, 23:59"
-            },
-            {
                 "name": "4th Anniversary Countdown Item Bundles",
                 "start": "December 3 2021, 0:00",
                 "end": "December 28 2021, 15:59"
@@ -620,50 +582,9 @@ var timerData = [
                 "end": "December 28 2021, 15:59"
             },
             {
-                "name": "4th Anniversary 5★ Summon Support Set 1",
-                "start": "December 11 2021, 0:00",
-                "end": "December 11 2021, 23:59"
-            },
-            {
                 "name": "4th Anniversary 5★ Summon Support Set 2",
                 "start": "December 20 2021, 0:00",
                 "end": "December 20 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "4th ANNIVERSARY Countdown Login Bonus",
-            "4th ANNIVERSARYカウントダウンログインボーナス",
-            "Log in on 7 days to receive up to 388x 4th Anniversary Vouchers."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 3 2021, 0:00",
-                "end": "December 10 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "4th ANNIVERSARY Countdown Missions",
-            "4th ANNIVERSARYカウントダウン特別ミッション",
-            "Includes daily missions"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 3 2021, 0:00",
-                "end": "December 10 2021, 23:59"
             }
         ]
     },
@@ -737,23 +658,6 @@ var timerData = [
                         "type": "battle"
                     }
                 ]
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Author Quests Half Stamina Campaign",
-            "作家クエストスタミナ半減キャンペーン"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 14,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 3 2021, 0:00",
-                "end": "December 10 2021, 23:59"
             }
         ]
     },
@@ -852,27 +756,6 @@ var timerData = [
         ]
     },
     
-    
-    
-    {
-        "type": "Other",
-        "title": [
-            "Thank you for the 4th ANNIVERSARY Login Bonus",
-            "ありがとう4周年！ログインボーナス",
-            "Log in once to receive 100x Starlight Stones and 400x 4th Anniversary Voucher."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 14,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 11 2021, 23:59",
-                "extraPriority": 10
-            }
-        ]
-    },
     {
         "type": "Mission",
         "title": [
