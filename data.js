@@ -125,18 +125,13 @@ var timerData = [
                 "extraPriority": 4,
                 "markers": [
                     {
-                        "title": "Chapters 5~15",
+                        "title": "Chapters 5~15 & Boss Quest",
                         "time": "January 1 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "EX Quest",
                         "time": "January 4 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "January 1 2022, 0:00",
                         "type": "battle"
                     },
                     {
