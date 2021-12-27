@@ -20,8 +20,7 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation",
-            "Version 3.2.4 Update"
+            "Summon Renovation"
         ],
         image: "Maintenance",
         column: 0,
@@ -29,8 +28,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "December 10 2021, 16:00",
-                end: "December 10 2021, 17:00",
+                start: "December 28 2021, 16:00",
+                end: "December 28 2021, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
