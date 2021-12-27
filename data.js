@@ -327,7 +327,7 @@ var timerData = [
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring every 5* released in 2021 (except Christmas and New Year 2022)",
+                "name": "Summon Period: Featuring every 5* released in 2021 (except New Year 2022 characters)",
                 "start": "December 28 2021, 17:00",
                 "end": "December 31 2021, 23:59",
                 "extraPriority": 4
