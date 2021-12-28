@@ -839,6 +839,25 @@ var timerData = [
     {
         "type": "Other",
         "title": [
+            "4th ANNIVERSARY Twitter Campain Part 2",
+            "4th ANNIVERSARY Twitterキャンペーン・第2弾",
+            "Log in once to receive 5x Heart-throbbing Summon Tickets"
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "January 1 2022, 0:00",
+                "end": "January 1 2022, 23:59",
+                "extraPriority": 8
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
             "New Year-themed BGM",
             "音楽もお正月仕様に！BGM変更"
         ],
