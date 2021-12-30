@@ -220,61 +220,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Other",
-        "title": [
-            "Limited-time Unlocked Daily Quests",
-            "曜日クエスト期間限定開放",
-            "Some Daily Quests available every day of the week"
-        ],
-        "image": ["kirara"],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 10 2021, 17:00",
-                "end": "December 28 2021, 15:59",
-                "extraPriority": 2
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super Christmas Carol: Etowaria Stage Summon",
-            "期間限定2021クリスマスキャラクターピックアップ召喚",
-            "Christmas 2021 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/G5ENix1.png",
-            "https://i.imgur.com/DLKKtWE.png",
-            "https://i.imgur.com/nwydpZn.png",
-            "https://i.imgur.com/eCTUAki.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Karen [Christmas], 5★ Clione [Christmas]",
-                        "time": "December 11 2021, 0:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Kaho [Christmas], 5★ Kaos [Christmas]",
-                        "time": "December 11 2021, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Prevent the New Year's Suspension: The Twelve Zodiac Signs' Big Gathering! Summon",
@@ -326,54 +271,36 @@ var timerData = [
                 "start": "December 28 2021, 17:00",
                 "end": "December 31 2021, 23:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Summon Period (Part 2): Featuring every 5* released in 2021 (except New Year 2022 characters)",
+                "start": "January 1 2022, 0:00",
+                "end": "January 4 2022, 23:59",
+                "extraPriority": 4
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Limited Paid Summon + Choosable 5★ Summon Ticket",
-            "きららファンタジア第2部限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "First Dream 5★ & 4★ Limited-time Choosable Summon Ticket",
+            "★5＆★4期間限定選べるチケット付き！初夢有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket and 2x Choosable 4★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
-                "start": "December 20 2021, 0:00",
-                "end": "December 20 2021, 23:59",
-                "extraPriority": 8
+                "name": "Summon Period",
+                "start": "January 1 2022, 0:00",
+                "end": "January 1 2022, 23:59",
+                "extraPriority": 6
             },
             {
                 "name": "Ticket Expiration",
-                "start": "December 20 2021, 0:00",
-                "end": "December 27 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Ver. Limited Paid Summon + Choosable 5★ Summon Ticket",
-            "きららファンタジアマンガ版限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Clea [Manga ver.], 5★ Kirara [Manga ver.]",
-                "start": "December 20 2021, 0:00",
-                "end": "December 20 2021, 23:59",
-                "extraPriority": 8
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "December 20 2021, 0:00",
-                "end": "December 27 2021, 23:59"
+                "start": "January 1 2022, 0:00",
+                "end": "January 8 2022, 23:59"
             }
         ]
     },
@@ -404,49 +331,78 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Special Deluxe Summon",
-            "期間限定スペシャルデラックス召喚",
-            "1000 Paid Gems for a 10x Limited-time 5* Summon"
+            "Past Limited-time New Year Step-up Summon",
+            "期間限定お正月復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 19 2021, 23:59",
-                "banners": [
-                    {
-                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
-                        "desc": "",
-                        "time": "December 11 2021, 0:00"
-                    },
-                    {
-                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
-                        "desc": "",
-                        "time": "December 11 2021, 0:00"
-                    }
-                ],
+                "name": "Summon Period: Featuring New Year 2018~2021 characters",
+                "start": "January 1 2022, 0:00",
+                "end": "January 8 2022, 23:59",
                 "extraPriority": 4
             },
             {
-                "name": "Summon Period (2nd Edition)",
-                "start": "December 20 2021, 0:00",
-                "end": "December 28 2021, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
-                        "desc": "",
-                        "time": "December 20 2021, 0:00"
-                    },
-                    {
-                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
-                        "desc": "",
-                        "time": "December 20 2021, 0:00"
-                    }
-                ],
+                "name": "Ticket Expiration",
+                "start": "January 1 2022, 0:00",
+                "end": "January 15 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "First Dream Choosable 5★ Summon Ticket",
+            "★5選べるチケット付き！初夢有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + Post-Anniversary Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "January 1 2022, 0:00",
+                "end": "January 8 2022, 23:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "January 9 2022, 0:00",
+                "end": "January 17 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 1 2022, 0:00",
+                "end": "February 7 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Exchange",
+                "start": "January 1 2022, 0:00",
+                "end": "January 8 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 1 2022, 0:00",
+                "end": "January 15 2022, 23:59"
             }
         ]
     },
@@ -492,38 +448,43 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "November Boss Challenge",
+            "January Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
         ],
-        "image": "https://i.imgur.com/Q85rPpa.png",
+        "image": "https://i.imgur.com/DiSEdXA.png",
         "column": 2,
         "priority": 13,
         "timers": [
             {
                 "name": "Weekend 1",
-                "start": "November 6 2021, 0:00",
-                "end": "November 7 2021, 23:59"
+                "start": "January 1 2022, 0:00",
+                "end": "January 2 2022, 23:59"
             },
             {
                 "name": "Weekend 2",
-                "start": "November 13 2021, 0:00",
-                "end": "November 14 2021, 23:59"
+                "start": "January 8 2022, 0:00",
+                "end": "January 9 2022, 23:59"
             },
             {
                 "name": "Weekend 3",
-                "start": "November 20 2021, 0:00",
-                "end": "November 21 2021, 23:59"
+                "start": "January 15 2022, 0:00",
+                "end": "January 16 2022, 23:59"
             },
             {
                 "name": "Weekend 4",
-                "start": "November 27 2021, 0:00",
-                "end": "November 28 2021, 23:59"
+                "start": "January 22 2022, 0:00",
+                "end": "January 23 2022, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "January 29 2022, 0:00",
+                "end": "January 30 2022, 23:59"
             },
             {
                 "name": "Medal exchange period",
-                "start": "November 6 2021, 0:00",
-                "end": "December 3 2021, 23:59",
+                "start": "January 1 2022, 0:00",
+                "end": "February 4 2022, 23:59",
                 "keepAfterFinished": "2 hours",
                 "type": "normal"
             }
@@ -539,36 +500,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "4th Anniversary Countdown Item Bundles",
-                "start": "December 3 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "4th Anniversary Starlight Stone Bundles",
-                "start": "December 3 2021, 17:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "4th Anniversary Starlight Stone Bundles + Bonus 2",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "Christmas Item & Starlight Stone Bundles",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "Past Christmas Random 5★ Summon Ticket (2021)",
-                "start": "December 20 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "Birthday Campaign Special Item Bundles",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
             {
                 "name": "End of Year Item Bundles",
                 "start": "December 28 2021, 17:00",
@@ -615,75 +546,20 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Seven Sages Challenge Quest Rush",
-            "七賢者チャレンジクエストラッシュ！"
-        ],
-        "image": "leine",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 3 2021, 0:00",
-                "end": "December 28 2021, 23:59",
-                "extraPriority": 8,
-                "markers": [
-                    {
-                        "title": "Sesame",
-                        "time": "December 4 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Cardamon",
-                        "time": "December 5 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Salt",
-                        "time": "December 6 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Ginger",
-                        "time": "December 7 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Fennel",
-                        "time": "December 8 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Hakka",
-                        "time": "December 9 2021, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Archive",
-                        "time": "December 10 2021, 0:00",
-                        "type": "battle"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "type": "Other",
         "title": [
-            "Quest Key Rainbow Gift",
-            "「クエストキー　虹」プレゼント",
-            "Log in once to receive a Quest Key Rainbow."
+            "4th ANNIVERSARY Post-Birthday Exchange Shop",
+            "4th ANNIVERSARY後夜祭交換所",
+            "Exchange Vouchers for items"
         ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
+        "image": "cork",
+        "column": 0,
+        "priority": 29,
         "timers": [
             {
-                "name": "Period",
-                "start": "December 10 2021, 17:00",
-                "end": "December 28 2021, 15:59"
+                "name": "Voucher Exchange Period",
+                "start": "January 1 2022, 0:00",
+                "end": "January 31 2022, 23:59"
             }
         ]
     },
@@ -707,77 +583,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "December 20 2021, 0:00",
                 "end": "January 4 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Christmas-themed Room Decoration Items",
-            "クリスマス限定ルームアイテム再登場"
-        ],
-        "image": "kanna",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Christmas-themed BGM",
-            "音楽もクリスマス仕様に！BGM変更"
-        ],
-        "image": "leine",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            }
-        ]
-    },
-    
-    {
-        "type": "Mission",
-        "title": [
-            "Birthday Special Missions",
-            "バースデー特別ミッション",
-            "Includes Daily Missions"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Special Login Bonus",
-            "スペシャルログインボーナス",
-            "Log in on 14 days to receive up to 400 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 11 2021, 0:00",
-                "end": "December 28 2021, 23:59"
             }
         ]
     },
