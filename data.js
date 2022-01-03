@@ -171,6 +171,38 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "New Year! Training Support Campaign",
+            "新春！育成応援キャンペーン",
+            "Includes daily missions"
+        ],
+        "image": [
+            "https://i.imgur.com/RhfITA0.png"
+        ],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Farming, Melee & Totteoki Quests",
+                "start": "January 5 2022, 0:00",
+                "end": "January 14 2022, 15:59",
+                "extraPriority": 3
+            },
+            {
+                "name": "Event Missions",
+                "start": "January 5 2022, 0:00",
+                "end": "January 14 2022, 23:59",
+                "extraPriority": 3
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 5 2022, 0:00",
+                "end": "January 21 2022, 13:59",
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Christmas Training Support Campaign",
             "クリスマス育成応援キャンペーン",
             "Includes daily missions"
@@ -331,6 +363,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Head Priest & Seven Sages Paid Summon + Choosable 5★ Summon Ticket",
+            "筆頭神官＆七賢者限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
+                "start": "January 5 2022, 0:00",
+                "end": "January 9 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 5 2022, 0:00",
+                "end": "January 16 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Past Limited-time New Year Step-up Summon",
             "期間限定お正月復刻おまけ付き10回召喚",
             "Random 5★ Summon Ticket on the 7th step"
@@ -379,6 +435,44 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 1 2022, 0:00",
                 "end": "February 7 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara MAX Limited-time Deluxe Summon",
+            "まんがタイムきららMAX期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 5 2022, 0:00",
+                "end": "January 8 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
+            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 5 2022, 0:00",
+                "end": "January 8 2022, 23:59",
+                "extraPriority": 4
             }
         ]
     },
@@ -619,44 +713,6 @@ var timerData = [
                 "name": "Period",
                 "start": "December 28 2021, 17:00",
                 "end": "January 14 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "New Year's Gift Login Bonus",
-            "お年玉ログインボーナス",
-            "Log in once to receive 100 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "January 1 2022, 0:00",
-                "end": "January 1 2022, 23:59",
-                "extraPriority": 5
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "4th ANNIVERSARY Twitter Campain Part 2",
-            "4th ANNIVERSARY Twitterキャンペーン・第2弾",
-            "Log in once to receive 5x Heart-throbbing Summon Tickets"
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "January 1 2022, 0:00",
-                "end": "January 1 2022, 23:59",
-                "extraPriority": 8
             }
         ]
     },
