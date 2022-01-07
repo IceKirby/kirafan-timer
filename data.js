@@ -37,73 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Super Christmas Carol: Etowaria Stage",
-            "スーパー・クリスマス・キャロル　エトワリア公演",
-            "Christmas 2021 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/G5ENix1.png",
-            "https://i.imgur.com/DLKKtWE.png",
-            "https://i.imgur.com/nwydpZn.png",
-            "https://i.imgur.com/eCTUAki.png",
-            "https://i.imgur.com/JjqnvIP.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "December 11 2021, 12:00",
-                "end": "December 28 2021, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "December 17 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "December 13 2021, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "December 21 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "December 22 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "December 23 2021, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "December 24 2021, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "December 11 2021, 12:00",
-                "end": "December 28 2021, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 11 2021, 12:00",
-                "end": "January 4 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Prevent the New Year's Suspension: The Twelve Zodiac Signs' Big Gathering!",
             "お正月中止を阻止せよ 十二支大集結！",
             "New Year 2022 Event"
@@ -190,39 +123,12 @@ var timerData = [
             {
                 "name": "Event Missions",
                 "start": "January 5 2022, 0:00",
-                "end": "January 14 2022, 23:59",
-                "extraPriority": 3
+                "end": "January 14 2022, 23:59"
             },
             {
                 "name": "Event Shop",
                 "start": "January 5 2022, 0:00",
                 "end": "January 21 2022, 13:59",
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Christmas Training Support Campaign",
-            "クリスマス育成応援キャンペーン",
-            "Includes daily missions"
-        ],
-        "image": [
-            "https://i.imgur.com/Kag6pGL.png"
-        ],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Quests and Missions",
-                "start": "December 20 2021, 0:00",
-                "end": "December 28 2021, 15:59",
-                "extraPriority": 3
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 20 2021, 0:00",
-                "end": "January 4 2022, 13:59"
             }
         ]
     },
@@ -290,31 +196,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "2021 All Stars Deluxe Summon",
-            "2021オールスターデラックス召喚",
-            "1000 Paid Gems for a 10x Limited-time 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring every 5* released in 2021 (except New Year 2022 characters)",
-                "start": "December 28 2021, 17:00",
-                "end": "December 31 2021, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period (Part 2): Featuring every 5* released in 2021 (except New Year 2022 characters)",
-                "start": "January 1 2022, 0:00",
-                "end": "January 4 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "First Dream 5★ & 4★ Limited-time Choosable Summon Ticket",
             "★5＆★4期間限定選べるチケット付き！初夢有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket and 2x Choosable 4★ Summon Ticket"
@@ -333,30 +214,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 1 2022, 0:00",
                 "end": "January 8 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Limited-time Christmas Step-up Summon",
-            "期間限定クリスマス復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring Christmas 2017~2020 characters",
-                "start": "December 20 2021, 0:00",
-                "end": "December 28 2021, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "December 20 2021, 0:00",
-                "end": "January 4 2022, 23:59"
             }
         ]
     },
@@ -472,6 +329,63 @@ var timerData = [
                 "name": "Summon Period",
                 "start": "January 5 2022, 0:00",
                 "end": "January 8 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Deluxe Summon",
+            "きららファンタジア期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 9 2022, 0:00",
+                "end": "January 12 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara Carat Limited-time Deluxe Summon",
+            "まんがタイムきららキャラット期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 9 2022, 0:00",
+                "end": "January 12 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara Forward Limited-time Deluxe Summon",
+            "まんがタイムきららフォワード期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 9 2022, 0:00",
+                "end": "January 12 2022, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -624,24 +538,6 @@ var timerData = [
     {
         "type": "Other",
         "title": [
-            "4th ANNIVERSARY Exchange Shop",
-            "4th ANNIVERSARY交換所",
-            "Exchange Vouchers for items"
-        ],
-        "image": "cork",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Voucher Exchange Period",
-                "start": "December 3 2021, 0:00",
-                "end": "January 4 2022, 11:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
             "4th ANNIVERSARY Post-Birthday Exchange Shop",
             "4th ANNIVERSARY後夜祭交換所",
             "Exchange Vouchers for items"
@@ -654,29 +550,6 @@ var timerData = [
                 "name": "Voucher Exchange Period",
                 "start": "January 1 2022, 0:00",
                 "end": "January 31 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Limited-time Christmas Step-up Summon",
-            "期間限定クリスマス復刻おまけ付き10回召喚",
-            "Past Christmas Random 5★ Summon Ticket on 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 20 2021, 0:00",
-                "end": "December 28 2021, 15:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "December 20 2021, 0:00",
-                "end": "January 4 2022, 23:59"
             }
         ]
     },
