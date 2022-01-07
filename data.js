@@ -417,18 +417,69 @@ var timerData = [
     {
         type: "LoginDays",
         title: [
-            "Ochikobore Fruit Tart participation Login Bonus",
-            "おちこぼれフルーツタルト参戦決定記念ログインボーナス",
+            "Slow Loop participation Login Bonus",
+            "スローループ参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "lamp",
         column: 2,
+        priority: 15,
         timers: [
             {
                 name: "Episode 2",
-                date: "October 19 2020",
+                date: "January 14 2022",
                 days: 2
             },
+            {
+                name: "Episode 3",
+                date: "January 21 2022",
+                days: 2
+            },
+            {
+                name: "Episode 4",
+                date: "January 28 2022",
+                days: 2
+            },
+            {
+                name: "Episode 5",
+                date: "February 4 2022",
+                days: 2
+            },
+            {
+                name: "Episode 6",
+                date: "February 11 2022",
+                days: 2
+            },
+            {
+                name: "Episode 7",
+                date: "February 18 2022",
+                days: 2
+            },
+            {
+                name: "Episode 8",
+                date: "February 25 2022",
+                days: 2
+            },
+            {
+                name: "Episode 9",
+                date: "March 4 2022",
+                days: 2
+            },
+            {
+                name: "Episode 10",
+                date: "March 11 2022",
+                days: 2
+            },
+            {
+                name: "Episode 11",
+                date: "March 18 2022",
+                days: 2
+            },
+            {
+                name: "Episode 12",
+                date: "March 25 2022",
+                days: 2
+            }
         ]
     },
     {
