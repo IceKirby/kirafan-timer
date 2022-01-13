@@ -104,6 +104,71 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "SNS Club and the Resurrected Demon Lord",
+            "SNS部と復活の魔王",
+            "Stella no Mahou Finale Event"
+        ],
+        "image": [
+            "https://i.imgur.com/1WCy3pF.png",
+            "https://i.imgur.com/wTzff7B.png",
+            "https://i.imgur.com/9bs4Nsc.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "January 14 2022, 17:00",
+                "end": "January 27 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "January 18 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "January 16 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "January 21 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "January 22 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "January 23 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "January 24 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "January 14 2022, 17:00",
+                "end": "January 27 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "January 14 2022, 17:00",
+                "end": "February 3 2022, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "New Year! Training Support Campaign",
             "新春！育成応援キャンペーン",
             "Includes daily missions"
@@ -196,24 +261,40 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "First Dream 5★ & 4★ Limited-time Choosable Summon Ticket",
-            "★5＆★4期間限定選べるチケット付き！初夢有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket and 2x Choosable 4★ Summon Ticket"
+            "SNS Club and the Resurrected Demon Lord Summon",
+            "SNS部と復活の魔王ピックアップ召喚",
+            "Stella no Mahou Finale Event Summon"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/1WCy3pF.png",
+            "https://i.imgur.com/wTzff7B.png",
+            "https://i.imgur.com/9bs4Nsc.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "January 1 2022, 0:00",
-                "end": "January 1 2022, 23:59",
+                "start": "January 14 2022, 17:00",
+                "end": "January 27 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Tamaki Side",
+                        "desc": "Featuring 5★ Honda Tamaki, 4★ Honda Tamaki",
+                        "time": "January 14 2022, 17:00"
+                    },
+                    {
+                        "title": "Teru Side",
+                        "desc": "Featuring 5★ Hyakutake Teru",
+                        "time": "January 14 2022, 17:00"
+                    },
+                    {
+                        "title": "Minaha Side",
+                        "desc": "Featuring 5★ Iino Minaha, 4★ Iino Minaha",
+                        "time": "January 18 2022, 0:00"
+                    }
+                ],
                 "extraPriority": 6
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 1 2022, 0:00",
-                "end": "January 8 2022, 23:59"
             }
         ]
     },
@@ -238,6 +319,76 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 5 2022, 0:00",
                 "end": "January 16 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Stella no Mahou Limited-time Summon",
+            "ステラのまほう期間限定特別セレクション召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/FMYVJgY.png",
+            "https://i.imgur.com/ZdBxiHu.png",
+            "https://i.imgur.com/3aTb8rV.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Tamaki [Sports Festival], 5★ Shiina [Valentine], 5★ Nono [Maid], 4★ Tamaki [Christmas], 4★ Yumine [Swimsuit]",
+                "start": "January 14 2022, 17:00",
+                "end": "January 21 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Stella no Mahou Paid Summon + Choosable 5★ Summon Ticket",
+            "ステラのまほう★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Honda Tamaki, 5★ Tamaki [Sports Festival], 5★ Fujikawa Kayo, 5★ Shiina [Valentine], 5★ Murakami Shiina, 5★ Seki Ayame, 5★ Fuda Yumine, 5★ Iketani Nono, 5★ Nono [Maid]",
+                "start": "January 14 2022, 17:00",
+                "end": "January 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 14 2022, 17:00",
+                "end": "January 28 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Stella no Mahou Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "ステラのまほう期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Tamaki [Sports Festival], 5★ Shiina [Valentine], 5★ Nono [Maid]",
+                "start": "January 14 2022, 17:00",
+                "end": "January 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 14 2022, 17:00",
+                "end": "January 28 2022, 23:59"
             }
         ]
     },
@@ -292,101 +443,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 1 2022, 0:00",
                 "end": "February 7 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara MAX Limited-time Deluxe Summon",
-            "まんがタイムきららMAX期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 5 2022, 0:00",
-                "end": "January 8 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
-            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 5 2022, 0:00",
-                "end": "January 8 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Limited-time Deluxe Summon",
-            "きららファンタジア期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 9 2022, 0:00",
-                "end": "January 12 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Carat Limited-time Deluxe Summon",
-            "まんがタイムきららキャラット期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 9 2022, 0:00",
-                "end": "January 12 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Forward Limited-time Deluxe Summon",
-            "まんがタイムきららフォワード期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 9 2022, 0:00",
-                "end": "January 12 2022, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -560,11 +616,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "End of Year Item Bundles",
-                "start": "December 28 2021, 17:00",
-                "end": "January 8 2022, 23:59"
-            },
-            {
                 "name": "End of Year Gem Sale",
                 "start": "December 28 2021, 17:00",
                 "end": "January 14 2022, 15:59"
@@ -575,14 +626,14 @@ var timerData = [
                 "end": "January 14 2022, 15:59"
             },
             {
-                "name": "2022 Gorgeous Lucky Bag Set, Past New Year Random 5★ Summon Ticket (2022)",
-                "start": "January 1 2022, 0:00",
-                "end": "January 8 2022, 23:59"
-            },
-            {
                 "name": "2022 Lucky Bag Set",
                 "start": "January 1 2022, 0:00",
                 "end": "January 14 2022, 15:59"
+            },
+            {
+                "name": "Stella no Mahou Finale Gem Set",
+                "start": "January 14 2022, 17:00",
+                "end": "January 27 2022, 15:59"
             }
         ]
     },
