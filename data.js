@@ -634,6 +634,11 @@ var timerData = [
                 "name": "Stella no Mahou Finale Gem Set",
                 "start": "January 14 2022, 17:00",
                 "end": "January 27 2022, 15:59"
+            },
+            {
+                "name": "1500 Days Celebration Gem & Item Sale",
+                "start": "January 18 2022, 0:00",
+                "end": "January 31 2022, 23:59"
             }
         ]
     },
@@ -705,6 +710,47 @@ var timerData = [
                 "name": "Period",
                 "start": "January 1 2022, 0:00",
                 "end": "January 14 2022, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "1500 Days Celebration Login Bonus",
+            "1500日記念ログインボーナス",
+            "Log in on 10 days to receive up to 300 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "January 18 2022, 0:00",
+                "end": "January 31 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "1500 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
+            "リリース1500日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket + 4th Anniversary Post-Birthday Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "January 18 2022, 0:00",
+                "end": "January 31 2022, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 18 2022, 0:00",
+                "end": "February 7 2022, 23:59"
             }
         ]
     }
