@@ -198,67 +198,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "4th Anniversary Heart-Throbbing Summon",
-            "4th ANNIVERSARYドキドキ召喚",
-            "Clear missions to receive Summon Tickets",
-            "Use Ticket Pieces to receive up to 8x Random 5* Summon Ticket"
-        ],
-        "image": ["kirara"],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Missions & Ticket Exchange",
-                "start": "November 14 2021, 0:00",
-                "end": "January 8 2022, 23:59",
-                "extraPriority": 3
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "November 14 2021, 0:00",
-                "end": "January 15 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Prevent the New Year's Suspension: The Twelve Zodiac Signs' Big Gathering! Summon",
-            "期間限定2022お正月キャラクターピックアップ召喚",
-            "New Year 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/f1wDszu.png",
-            "https://i.imgur.com/DhmNdd2.png",
-            "https://i.imgur.com/fdKfdu9.png",
-            "https://i.imgur.com/gGGPyOh.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Aoyama-san [New Year], 5★ Ryou [New Year]",
-                        "time": "December 28 2021, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Yukari [New Year], 5★ Ayano [New Year]",
-                        "time": "December 28 2021, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "SNS Club and the Resurrected Demon Lord Summon",
@@ -295,30 +234,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Head Priest & Seven Sages Paid Summon + Choosable 5★ Summon Ticket",
-            "筆頭神官＆七賢者限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
-                "start": "January 5 2022, 0:00",
-                "end": "January 9 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 5 2022, 0:00",
-                "end": "January 16 2022, 23:59"
             }
         ]
     },
@@ -395,24 +310,42 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Limited-time New Year Step-up Summon",
-            "期間限定お正月復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Past Kirara Fantasia Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア第2部限定復刻ピックアップ召喚"
+        ],
+        "image": ["https://i.imgur.com/rdrvGmy.png", "https://i.imgur.com/p9OHB8T.png", "https://i.imgur.com/WgjwdJP.png", "https://i.imgur.com/6NcsqPF.png", "https://i.imgur.com/Yb95S3P.png", "https://i.imgur.com/fJSeRaN.png"],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2], 5★ Namiko-san [Part 2], 5★ Cardamom [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2]",
+                "start": "January 22 2022, 0:00",
+                "end": "January 27 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring New Year 2018~2021 characters",
-                "start": "January 1 2022, 0:00",
-                "end": "January 8 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
+                "start": "January 22 2022, 0:00",
+                "end": "January 27 2022, 15:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "January 1 2022, 0:00",
-                "end": "January 15 2022, 23:59"
+                "start": "January 22 2022, 0:00",
+                "end": "February 3 2022, 23:59"
             }
         ]
     },
@@ -443,30 +376,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 1 2022, 0:00",
                 "end": "February 7 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Exchange",
-                "start": "January 1 2022, 0:00",
-                "end": "January 8 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 1 2022, 0:00",
-                "end": "January 15 2022, 23:59"
             }
         ]
     },
@@ -549,9 +458,9 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2 (Chapters 1~4)",
-                "start": "November 21 2021, 0:00",
-                "end": "December 2 2021, 23:59"
+                name: "Part 2 (Chapters 1~5)",
+                "start": "January 22 2022, 0:00",
+                "end": "January 27 2022, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
@@ -616,21 +525,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "End of Year Gem Sale",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 15:59"
-            },
-            {
-                "name": "New Year Gem & Item Sale",
-                "start": "January 1 2022, 0:00",
-                "end": "January 14 2022, 15:59"
-            },
-            {
-                "name": "2022 Lucky Bag Set",
-                "start": "January 1 2022, 0:00",
-                "end": "January 14 2022, 15:59"
-            },
-            {
                 "name": "Stella no Mahou Finale Gem Set",
                 "start": "January 14 2022, 17:00",
                 "end": "January 27 2022, 15:59"
@@ -657,59 +551,6 @@ var timerData = [
                 "name": "Voucher Exchange Period",
                 "start": "January 1 2022, 0:00",
                 "end": "January 31 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Year Out, Year In Login Bonus",
-            "ゆく年くる年ログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 23:59"
-            }
-        ]
-    },
-    
-    {
-        "type": "Other",
-        "title": [
-            "New Year-themed Room Decoration Items",
-            "お正月限定ルームアイテム再登場"
-        ],
-        "image": "kanna",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "New Year-themed BGM",
-            "音楽もお正月仕様に！BGM変更"
-        ],
-        "image": "leine",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "January 1 2022, 0:00",
-                "end": "January 14 2022, 15:59"
             }
         ]
     },
