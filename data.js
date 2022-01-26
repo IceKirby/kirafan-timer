@@ -37,73 +37,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Prevent the New Year's Suspension: The Twelve Zodiac Signs' Big Gathering!",
-            "お正月中止を阻止せよ 十二支大集結！",
-            "New Year 2022 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/f1wDszu.png",
-            "https://i.imgur.com/DhmNdd2.png",
-            "https://i.imgur.com/fdKfdu9.png",
-            "https://i.imgur.com/gGGPyOh.png",
-            "https://i.imgur.com/WvfIOY5.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Chapters 5~15 & Boss Quest",
-                        "time": "January 1 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "EX Quest",
-                        "time": "January 4 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "January 8 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "January 9 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "January 10 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "January 11 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "December 28 2021, 17:00",
-                "end": "January 14 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "December 28 2021, 17:00",
-                "end": "January 21 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "SNS Club and the Resurrected Demon Lord",
             "SNS部と復活の魔王",
             "Stella no Mahou Finale Event"
@@ -167,11 +100,10 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
+        "type": "Mission",
         "title": [
-            "New Year! Training Support Campaign",
-            "新春！育成応援キャンペーン",
-            "Includes daily missions"
+            "Main Quest Part 2 Chapter 6 Missions",
+            "メインクエスト第2部6章追加記念 期間限定ミッション"
         ],
         "image": [
             "https://i.imgur.com/RhfITA0.png"
@@ -180,20 +112,10 @@ var timerData = [
         "priority": 31,
         "timers": [
             {
-                "name": "Farming, Melee & Totteoki Quests",
-                "start": "January 5 2022, 0:00",
-                "end": "January 14 2022, 15:59",
+                "name": "Period",
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 23:59",
                 "extraPriority": 3
-            },
-            {
-                "name": "Event Missions",
-                "start": "January 5 2022, 0:00",
-                "end": "January 14 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "January 5 2022, 0:00",
-                "end": "January 21 2022, 13:59",
             }
         ]
     },
@@ -231,6 +153,39 @@ var timerData = [
                         "title": "Minaha Side",
                         "desc": "Featuring 5★ Iino Minaha, 4★ Iino Minaha",
                         "time": "January 18 2022, 0:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Chapter 6 Limited Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/r5GdW8F.png",
+            "https://i.imgur.com/HRhnG4g.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Mio side",
+                        "desc": "Featuring 5★ Mio [Part 2]",
+                        "time": "January 27 2022, 17:00"
+                    },
+                    {
+                        "title": "Media side",
+                        "desc": "Featuring 5★ Media [Part 2]",
+                        "time": "January 27 2022, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -304,6 +259,54 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 14 2022, 17:00",
                 "end": "January 28 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
+                "start": "January 27 2022, 17:00",
+                "end": "February 3 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "K-ON! Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "けいおん！期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Mio [Valentine]",
+                "start": "January 27 2022, 17:00",
+                "end": "February 3 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 23:59"
             }
         ]
     },
@@ -464,8 +467,8 @@ var timerData = [
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
-                "start": "November 25 2021, 17:00",
-                "end": "December 10 2021, 23:59"
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 15:59"
             }
         ]
     },
@@ -533,6 +536,11 @@ var timerData = [
                 "name": "1500 Days Celebration Gem & Item Sale",
                 "start": "January 18 2022, 0:00",
                 "end": "January 31 2022, 23:59"
+            },
+            {
+                "name": "Main Quest Part 2 Chapter 6 Gem & Item Sets",
+                "start": "January 27 2022, 17:00",
+                "end": "February 10 2022, 15:59"
             }
         ]
     },
