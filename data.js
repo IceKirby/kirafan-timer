@@ -122,46 +122,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "SNS Club and the Resurrected Demon Lord Summon",
-            "SNS部と復活の魔王ピックアップ召喚",
-            "Stella no Mahou Finale Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/1WCy3pF.png",
-            "https://i.imgur.com/wTzff7B.png",
-            "https://i.imgur.com/9bs4Nsc.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 14 2022, 17:00",
-                "end": "January 27 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Tamaki Side",
-                        "desc": "Featuring 5★ Honda Tamaki, 4★ Honda Tamaki",
-                        "time": "January 14 2022, 17:00"
-                    },
-                    {
-                        "title": "Teru Side",
-                        "desc": "Featuring 5★ Hyakutake Teru",
-                        "time": "January 14 2022, 17:00"
-                    },
-                    {
-                        "title": "Minaha Side",
-                        "desc": "Featuring 5★ Iino Minaha, 4★ Iino Minaha",
-                        "time": "January 18 2022, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Main Quest Part 2 Chapter 6 Limited Summon",
             "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
@@ -189,28 +149,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Stella no Mahou Limited-time Summon",
-            "ステラのまほう期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/FMYVJgY.png",
-            "https://i.imgur.com/ZdBxiHu.png",
-            "https://i.imgur.com/3aTb8rV.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Tamaki [Sports Festival], 5★ Shiina [Valentine], 5★ Nono [Maid], 4★ Tamaki [Christmas], 4★ Yumine [Swimsuit]",
-                "start": "January 14 2022, 17:00",
-                "end": "January 21 2022, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -313,24 +251,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Kirara Fantasia Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア第2部限定復刻ピックアップ召喚"
-        ],
-        "image": ["https://i.imgur.com/rdrvGmy.png", "https://i.imgur.com/p9OHB8T.png", "https://i.imgur.com/WgjwdJP.png", "https://i.imgur.com/6NcsqPF.png", "https://i.imgur.com/Yb95S3P.png", "https://i.imgur.com/fJSeRaN.png"],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Lilith [Part 2], 5★ Fennel [Part 2], 5★ Namiko-san [Part 2], 5★ Cardamom [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2]",
-                "start": "January 22 2022, 0:00",
-                "end": "January 27 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Main Quest Part 2 Limited Paid Summon + Random 5★ Summon Ticket",
             "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
             "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
@@ -349,6 +269,31 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "January 22 2022, 0:00",
                 "end": "February 3 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Moon Element Limited-time Step-up/Paid Summon",
+            "2つの召喚を同時開催！月属性のキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Aya [Valentine], 5★ Koume [Halloween], 5★ Hana [Halloween], 5★ Kumegawa Botan, 5★ Shamiko [Sports Festival], 5★ Konohata Mira, 5★ Sakura Ino, 5★ Midori Hemo",
+                "start": "February 1 2022, 0:00",
+                "end": "February 6 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "February 1 2022, 0:00",
+                "end": "February 13 2022, 23:59"
             }
         ]
     },
@@ -518,6 +463,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "February Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/WiKO4gi.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "February 5 2022, 0:00",
+                "end": "February 6 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "February 12 2022, 0:00",
+                "end": "February 13 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "February 19 2022, 0:00",
+                "end": "February 20 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "February 26 2022, 0:00",
+                "end": "February 27 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "February 5 2022, 0:00",
+                "end": "March 4 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -527,11 +512,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Stella no Mahou Finale Gem Set",
-                "start": "January 14 2022, 17:00",
-                "end": "January 27 2022, 15:59"
-            },
             {
                 "name": "1500 Days Celebration Gem & Item Sale",
                 "start": "January 18 2022, 0:00",
