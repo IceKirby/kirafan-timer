@@ -37,65 +37,67 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "SNS Club and the Resurrected Demon Lord",
-            "SNS部と復活の魔王",
-            "Stella no Mahou Finale Event"
+            "Valentine and the Love Square",
+            "バレンタインと恋の四角関係",
+            "Valentine 2022 Event"
         ],
         "image": [
-            "https://i.imgur.com/1WCy3pF.png",
-            "https://i.imgur.com/wTzff7B.png",
-            "https://i.imgur.com/9bs4Nsc.png"
+            "https://i.imgur.com/Ps58Ptk.png",
+            "https://i.imgur.com/uHp3WsJ.png",
+            "https://i.imgur.com/RHzDDOG.png",
+            "https://i.imgur.com/uY5zDMj.png",
+            "https://i.imgur.com/4V9RRrE.png"
         ],
         "column": 0,
         "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
-                "start": "January 14 2022, 17:00",
-                "end": "January 27 2022, 15:59",
+                "start": "February 10 2022, 17:00",
+                "end": "March 15 2022, 15:59",
                 "extraPriority": 4,
                 "markers": [
                     {
                         "title": "EX Quest",
-                        "time": "January 18 2022, 17:00",
+                        "time": "February 17 2022, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Boss Quest",
-                        "time": "January 16 2022, 17:00",
+                        "time": "February 12 2022, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Extra Chapter 1",
-                        "time": "January 21 2022, 0:00",
+                        "time": "February 21 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 2",
-                        "time": "January 22 2022, 0:00",
+                        "time": "February 22 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 3",
-                        "time": "January 23 2022, 0:00",
+                        "time": "February 23 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 4",
-                        "time": "January 24 2022, 0:00",
+                        "time": "February 24 2022, 0:00",
                         "type": "story"
                     }
                 ]
             },
             {
                 "name": "Missions",
-                "start": "January 14 2022, 17:00",
-                "end": "January 27 2022, 23:59"
+                "start": "February 10 2022, 17:00",
+                "end": "March 15 2022, 23:59"
             },
             {
                 "name": "Event Shop",
-                "start": "January 14 2022, 17:00",
-                "end": "February 3 2022, 13:59"
+                "start": "February 10 2022, 17:00",
+                "end": "March 22 2022, 13:59"
             }
         ]
     },
@@ -155,48 +157,36 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Stella no Mahou Paid Summon + Choosable 5★ Summon Ticket",
-            "ステラのまほう★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "Valentine and the Love Square Summon",
+            "期間限定2022バレンタインキャラクターピックアップ召喚",
+            "Valentine 2022 Event Summon"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/Ps58Ptk.png",
+            "https://i.imgur.com/uHp3WsJ.png",
+            "https://i.imgur.com/RHzDDOG.png",
+            "https://i.imgur.com/uY5zDMj.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Honda Tamaki, 5★ Tamaki [Sports Festival], 5★ Fujikawa Kayo, 5★ Shiina [Valentine], 5★ Murakami Shiina, 5★ Seki Ayame, 5★ Fuda Yumine, 5★ Iketani Nono, 5★ Nono [Maid]",
-                "start": "January 14 2022, 17:00",
-                "end": "January 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 14 2022, 17:00",
-                "end": "January 28 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Stella no Mahou Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "ステラのまほう期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Tamaki [Sports Festival], 5★ Shiina [Valentine], 5★ Nono [Maid]",
-                "start": "January 14 2022, 17:00",
-                "end": "January 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 14 2022, 17:00",
-                "end": "January 28 2022, 23:59"
+                "name": "Summon Period",
+                "start": "February 10 2022, 17:00",
+                "end": "March 15 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Hiro [Valentine], 5★ Eiko [Valentine]",
+                        "time": "February 10 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Run [Valentine], 5★ Roko [Valentine]",
+                        "time": "February 10 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -251,24 +241,48 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Limited Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "Past VD & WD Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定VD＆WD復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2]",
-                "start": "January 22 2022, 0:00",
-                "end": "January 27 2022, 15:59",
+                "name": "First Half: Featuring Valentine and White Day characters from 2018~2021",
+                "start": "February 10 2022, 17:00",
+                "end": "February 18 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "January 22 2022, 0:00",
-                "end": "February 3 2022, 23:59"
+                "start": "February 10 2022, 17:00",
+                "end": "March 7 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past VD＆WD Limited-time Step-up Summon",
+            "期間限定VD＆WD復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Valentine and White Day characters from 2018~2021",
+                "start": "February 10 2022, 17:00",
+                "end": "February 18 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "February 10 2022, 17:00",
+                "end": "February 25 2022, 23:59"
             }
         ]
     },
@@ -294,36 +308,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "February 1 2022, 0:00",
                 "end": "February 13 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "First Dream Choosable 5★ Summon Ticket",
-            "★5選べるチケット付き！初夢有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + Post-Anniversary Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "January 1 2022, 0:00",
-                "end": "January 8 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "January 9 2022, 0:00",
-                "end": "January 17 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 1 2022, 0:00",
-                "end": "February 7 2022, 23:59"
             }
         ]
     },
@@ -420,51 +404,6 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "January Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/DiSEdXA.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "January 1 2022, 0:00",
-                "end": "January 2 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "January 8 2022, 0:00",
-                "end": "January 9 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "January 15 2022, 0:00",
-                "end": "January 16 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "January 22 2022, 0:00",
-                "end": "January 23 2022, 23:59"
-            },
-            {
-                "name": "Weekend 5",
-                "start": "January 29 2022, 0:00",
-                "end": "January 30 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "January 1 2022, 0:00",
-                "end": "February 4 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
             "February Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -513,41 +452,43 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "1500 Days Celebration Gem & Item Sale",
-                "start": "January 18 2022, 0:00",
-                "end": "January 31 2022, 23:59"
-            },
-            {
                 "name": "Main Quest Part 2 Chapter 6 Gem & Item Sets",
                 "start": "January 27 2022, 17:00",
                 "end": "February 10 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "4th ANNIVERSARY Post-Birthday Exchange Shop",
-            "4th ANNIVERSARY後夜祭交換所",
-            "Exchange Vouchers for items"
-        ],
-        "image": "cork",
-        "column": 0,
-        "priority": 29,
-        "timers": [
+            },
             {
-                "name": "Voucher Exchange Period",
-                "start": "January 1 2022, 0:00",
-                "end": "January 31 2022, 23:59"
+                "name": "Valentine Starlight Stone Bundle",
+                "start": "February 10 2022, 17:00",
+                "end": "February 28 2022, 15:59"
+            },
+            {
+                "name": "2,000 Starlight Stones Set (Valentine 2022 with Bonus 2), 2,000 Starlight Stones Set (Valentine 2022)",
+                "start": "February 14 2022, 0:00",
+                "end": "February 28 2022, 15:59"
+            },
+            {
+                "name": "Valentine Item Bundles",
+                "start": "February 10 2022, 17:00",
+                "end": "February 28 2022, 15:59"
+            },
+            {
+                "name": "2022 Gorgeous Valentine Set",
+                "start": "February 14 2022, 0:00",
+                "end": "February 28 2022, 15:59"
+            },
+            {
+                "name": "Past VD & WD Random 5★ Summon Ticket (2022)",
+                "start": "February 10 2022, 17:00",
+                "end": "February 18 2022, 23:59"
             }
         ]
     },
     {
         "type": "Other",
         "title": [
-            "1500 Days Celebration Login Bonus",
-            "1500日記念ログインボーナス",
-            "Log in on 10 days to receive up to 300 Starlight Stones."
+            "Valentine Login Bonus",
+            "バレンタインログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
         ],
         "image": "lamp",
         "column": 2,
@@ -555,31 +496,61 @@ var timerData = [
         "timers": [
             {
                 "name": "Period",
-                "start": "January 18 2022, 0:00",
-                "end": "January 31 2022, 23:59"
+                "start": "February 10 2022, 17:00",
+                "end": "February 28 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "1500 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
-            "リリース1500日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket + 4th Anniversary Post-Birthday Voucher"
+            "Daily Free Summon",
+            "1日1回無料10回召喚"
         ],
         "image": "clea",
         "column": 1,
-        "priority": 21,
+        "priority": 24,
+        "timers": [
+            {
+                "name": "Manga Time Kirara Forward Free Summon",
+                "start": "February 11 2022, 0:00",
+                "end": "February 11 2022, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Manga Time Kirara Carat Free Summon",
+                "start": "February 14 2022, 0:00",
+                "end": "February 14 2022, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Manga Time Kirara & Miracle Free Summon",
+                "start": "February 21 2022, 0:00",
+                "end": "February 21 2022, 23:59",
+                "extraPriority": 8
+            },
+            {
+                "name": "Manga Time Kirara MAX Free Summon",
+                "start": "February 28 2022, 0:00",
+                "end": "February 28 2022, 23:59",
+                "extraPriority": 8
+            },
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Valentine-themed Room Decoration Items",
+            "バレンタイン限定ルームアイテム再登場"
+        ],
+        "image": "kanna",
+        "column": 2,
+        "priority": 10,
         "timers": [
             {
                 "name": "Period",
-                "start": "January 18 2022, 0:00",
-                "end": "January 31 2022, 23:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 18 2022, 0:00",
-                "end": "February 7 2022, 23:59"
+                "start": "February 10 2022, 17:00",
+                "end": "February 28 2022, 15:59"
             }
         ]
     }
