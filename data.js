@@ -102,59 +102,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Chapter 6 Missions",
-            "メインクエスト第2部6章追加記念 期間限定ミッション"
-        ],
-        "image": [
-            "https://i.imgur.com/RhfITA0.png"
-        ],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 23:59",
-                "extraPriority": 3
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Main Quest Part 2 Chapter 6 Limited Summon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/r5GdW8F.png",
-            "https://i.imgur.com/HRhnG4g.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Mio side",
-                        "desc": "Featuring 5★ Mio [Part 2]",
-                        "time": "January 27 2022, 17:00"
-                    },
-                    {
-                        "title": "Media side",
-                        "desc": "Featuring 5★ Media [Part 2]",
-                        "time": "January 27 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Valentine and the Love Square Summon",
@@ -193,48 +140,55 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
-                "start": "January 27 2022, 17:00",
-                "end": "February 3 2022, 23:59",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "February 14 2022, 0:00",
+                "end": "February 14 2022, 23:59",
+                "extraPriority": 8
             },
             {
                 "name": "Ticket Expiration",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 23:59"
+                "start": "February 14 2022, 0:00",
+                "end": "February 21 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "K-ON! Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "けいおん！期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+            "Limited-time Special Deluxe Summon",
+            "期間限定スペシャルデラックス召喚",
+            "1200 Paid Gems for a 10x 5* Summon"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Yui [Swimsuit], 5★ Mio [Valentine]",
-                "start": "January 27 2022, 17:00",
-                "end": "February 3 2022, 23:59",
+                "name": "Summon Period",
+                "start": "February 14 2022, 0:00",
+                "end": "February 18 2022, 23:59",
+                "banners": [
+                    {
+                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
+                        "desc": "",
+                        "time": "February 14 2022, 0:00"
+                    },
+                    {
+                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
+                        "desc": "",
+                        "time": "February 14 2022, 0:00"
+                    }
+                ],
                 "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 23:59"
             }
         ]
     },
@@ -451,11 +405,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Main Quest Part 2 Chapter 6 Gem & Item Sets",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 15:59"
-            },
             {
                 "name": "Valentine Starlight Stone Bundle",
                 "start": "February 10 2022, 17:00",
