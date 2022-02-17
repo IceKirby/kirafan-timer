@@ -189,6 +189,24 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 4
+            },
+            {
+                "name": "Summon Period Encore",
+                "start": "February 19 2022, 0:00",
+                "end": "February 28 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1 Encore: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
+                        "desc": "",
+                        "time": "February 19 2022, 0:00"
+                    },
+                    {
+                        "title": "Part 2 Encore: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
+                        "desc": "",
+                        "time": "February 19 2022, 0:00"
+                    }
+                ],
+                "extraPriority": 4
             }
         ]
     },
@@ -207,6 +225,12 @@ var timerData = [
                 "name": "First Half: Featuring Valentine and White Day characters from 2018~2021",
                 "start": "February 10 2022, 17:00",
                 "end": "February 18 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half: Featuring Valentine and White Day characters from 2018~2021",
+                "start": "February 19 2022, 0:00",
+                "end": "February 28 2022, 15:59",
                 "extraPriority": 4
             },
             {
@@ -237,31 +261,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "February 10 2022, 17:00",
                 "end": "February 25 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Moon Element Limited-time Step-up/Paid Summon",
-            "2つの召喚を同時開催！月属性のキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Aya [Valentine], 5★ Koume [Halloween], 5★ Hana [Halloween], 5★ Kumegawa Botan, 5★ Shamiko [Sports Festival], 5★ Konohata Mira, 5★ Sakura Ino, 5★ Midori Hemo",
-                "start": "February 1 2022, 0:00",
-                "end": "February 6 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "February 1 2022, 0:00",
-                "end": "February 13 2022, 23:59"
             }
         ]
     },
@@ -500,6 +499,58 @@ var timerData = [
                 "name": "Period",
                 "start": "February 10 2022, 17:00",
                 "end": "February 28 2022, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "Training Support Campaign",
+            "育成応援キャンペーン"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Quests",
+                "start": "February 19 2022, 0:00",
+                "end": "March 15 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Totteoki Training Quest",
+                        "time": "March 4 2022, 0:00",
+                        "type": "battle"
+                    }
+                ]
+            },
+            {
+                "name": "Event Missions",
+                "start": "February 19 2022, 0:00",
+                "end": "March 15 2022, 23:59"
+            },
+            {
+                "name": "Past Event Call Ticket Missions",
+                "start": "February 19 2022, 0:00",
+                "end": "February 27 2022, 23:59"
+            },
+            {
+                "name": "Exchange Medal Missions",
+                "start": "February 28 2022, 0:00",
+                "end": "March 3 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "February 19 2022, 0:00",
+                "end": "March 22 2022, 13:59",
+                "markers": [
+                    {
+                        "title": "Totteoki Training Quest Ticket",
+                        "time": "March 4 2022, 0:00",
+                        "type": "star"
+                    }
+                ]
             }
         ]
     }
