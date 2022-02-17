@@ -541,6 +541,11 @@ var timerData = [
                 "end": "March 3 2022, 23:59"
             },
             {
+                "name": "Totteoki Training Quest Ticket Missions",
+                "start": "March 4 2022, 0:00",
+                "end": "March 14 2022, 23:59"
+            },
+            {
                 "name": "Event Shop",
                 "start": "February 19 2022, 0:00",
                 "end": "March 22 2022, 13:59",
