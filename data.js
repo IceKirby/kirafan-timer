@@ -20,7 +20,8 @@ var timerData = [
         title: [
             "Maintenance",
             "Event Preparation",
-            "Summon Renovation"
+            "Summon Renovation",
+            "Version 3.2.5 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -28,9 +29,81 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "February 10 2022, 16:00",
-                end: "February 10 2022, 17:00",
+                start: "February 28 2022, 16:00",
+                end: "February 28 2022, 17:00",
                 keepAfterFinished: "30 minutes"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "White Day's Big Explosion",
+            "ホワイトデー大爆発",
+            "White Day 2022 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/BmiPTqw.png",
+            "https://i.imgur.com/vlM35PI.png",
+            "https://i.imgur.com/ZstcAaN.png",
+            "https://i.imgur.com/f7WaFne.png",
+            "https://i.imgur.com/lE5TcF4.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "March 4 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "March 2 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Super EX Quest",
+                        "time": "March 7 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "March 10 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "March 11 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "March 12 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "March 13 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "February 28 2022, 17:00",
+                "end": "March 22 2022, 13:59"
             }
         ]
     },
@@ -104,6 +177,42 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "White Day's Big Explosion Summon",
+            "期間限定2022ホワイトデーキャラクターピックアップ召喚",
+            "White Day 2022 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/BmiPTqw.png",
+            "https://i.imgur.com/vlM35PI.png",
+            "https://i.imgur.com/ZstcAaN.png",
+            "https://i.imgur.com/f7WaFne.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Sae [White Day], 5★ Enami [White Day]",
+                        "time": "February 28 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Tooru [White Day], 5★ Nina [White Day]",
+                        "time": "February 28 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Valentine and the Love Square Summon",
             "期間限定2022バレンタインキャラクターピックアップ召喚",
             "Valentine 2022 Event Summon"
@@ -140,24 +249,58 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "Super EX Quest Support Limited-time Summon",
+            "超高難易度クエスト応援期間限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/FlqlmC1.png",
+            "https://i.imgur.com/SsNybKz.png",
+            "https://i.imgur.com/u7d53Is.png",
+            "https://i.imgur.com/GF7A1go.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yoriko [Maid], 5★ Yuuri [Hot Spring], 5★ Koume [Halloween], 5★ [Traveler of the Wasteland] Rin",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Super EX Quest Support Paid Summon + Choosable 5★ Summon Ticket",
+            "超高難易度クエスト応援★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + Super Ex Quest Support Voucher"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "February 14 2022, 0:00",
-                "end": "February 14 2022, 23:59",
-                "extraPriority": 8
+                "name": "First Half",
+                "start": "February 28 2022, 17:00",
+                "end": "March 7 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "March 8 2022, 0:00",
+                "end": "March 15 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Voucher Exchange",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 15:59"
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 14 2022, 0:00",
-                "end": "February 21 2022, 23:59"
+                "start": "February 28 2022, 17:00",
+                "end": "March 22 2022, 23:59"
             }
         ]
     },
@@ -395,6 +538,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "March Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/e6HLnK2.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "March 5 2022, 0:00",
+                "end": "March 6 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "March 12 2022, 0:00",
+                "end": "March 13 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "March 19 2022, 0:00",
+                "end": "March 20 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "March 26 2022, 0:00",
+                "end": "March 27 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "March 5 2022, 0:00",
+                "end": "April 1 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -428,6 +611,11 @@ var timerData = [
                 "name": "Past VD & WD Random 5★ Summon Ticket (2022)",
                 "start": "February 10 2022, 17:00",
                 "end": "February 18 2022, 23:59"
+            },
+            {
+                "name": "White Day Starlight Stone & Item Sets",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 15:59"
             }
         ]
     },
@@ -446,6 +634,24 @@ var timerData = [
                 "name": "Period",
                 "start": "February 10 2022, 17:00",
                 "end": "February 28 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "White Day Login Bonus",
+            "ホワイトデーログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "February 28 2022, 17:00",
+                "end": "March 15 2022, 23:59"
             }
         ]
     },
