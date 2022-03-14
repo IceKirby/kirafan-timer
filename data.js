@@ -175,6 +175,72 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Fly Fishing Memory",
+            "フライフィッシュメモリー",
+            "Slow Loop Event"
+        ],
+        "image": [
+            "https://i.imgur.com/aLnZt2V.png",
+            "https://i.imgur.com/Ku6gTOm.png",
+            "https://i.imgur.com/FHQCNwW.png",
+            "https://i.imgur.com/aSsvOKn.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "March 15 2022, 17:00",
+                "end": "March 30 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "March 19 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "March 17 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "March 24 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "March 25 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "March 26 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "March 27 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "March 15 2022, 17:00",
+                "end": "March 30 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 15 2022, 17:00",
+                "end": "April 6 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "White Day's Big Explosion Summon",
@@ -249,6 +315,41 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Fly Fishing Memory Summon",
+            "フライフィッシュメモリーピックアップ召喚",
+            "Slow Loop Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/aLnZt2V.png",
+            "https://i.imgur.com/Ku6gTOm.png",
+            "https://i.imgur.com/FHQCNwW.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 15 2022, 17:00",
+                "end": "March 30 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Kirin Side",
+                        "desc": "Featuring 5★ Morino Kirin, 4★ Morino Kirin",
+                        "time": "March 15 2022, 17:00"
+                    },
+                    {
+                        "title": "Hiyori Side",
+                        "desc": "Featuring 5★ Minagi Hiyori, 4★ Minagi Koharu",
+                        "time": "March 15 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Super EX Quest Support Limited-time Summon",
             "超高難易度クエスト応援期間限定ピックアップ召喚"
         ],
@@ -307,103 +408,98 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Special Deluxe Summon",
-            "期間限定スペシャルデラックス召喚",
-            "1200 Paid Gems for a 10x 5* Summon"
+            "Mixed Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定ミックス復刻★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1 Voucher",
+            "Featuring past Hinamatsuri, Maid and Sports Festival characters, 5* Karen [Foreign Magician], 5* [Traveler of the Wasteland] Rin"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "February 14 2022, 0:00",
-                "end": "February 18 2022, 23:59",
-                "banners": [
-                    {
-                        "title": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
-                        "desc": "",
-                        "time": "February 14 2022, 0:00"
-                    },
-                    {
-                        "title": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
-                        "desc": "",
-                        "time": "February 14 2022, 0:00"
-                    }
-                ],
+                "name": "First Half",
+                "start": "March 15 2022, 17:00",
+                "end": "March 22 2022, 23:59",
                 "extraPriority": 4
             },
             {
-                "name": "Summon Period Encore",
-                "start": "February 19 2022, 0:00",
-                "end": "February 28 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1 Encore: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
-                        "desc": "",
-                        "time": "February 19 2022, 0:00"
-                    },
-                    {
-                        "title": "Part 2 Encore: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
-                        "desc": "",
-                        "time": "February 19 2022, 0:00"
-                    }
-                ],
+                "name": "Second Half",
+                "start": "March 23 2022, 0:00",
+                "end": "March 30 2022, 15:59",
                 "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 15 2022, 17:00",
+                "end": "April 6 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Past VD & WD Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定VD＆WD復刻★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "Skill Update Step-up Summon",
+            "スキルアップデートおまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 3rd step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "First Half: Featuring Valentine and White Day characters from 2018~2021",
-                "start": "February 10 2022, 17:00",
-                "end": "February 18 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half: Featuring Valentine and White Day characters from 2018~2021",
-                "start": "February 19 2022, 0:00",
-                "end": "February 28 2022, 15:59",
+                "name": "Summon Period: Featuring 5★ Engi Threepiece, 5★ Maya, 5★ Takeda Yomi, 5★ Onosaka Koharu",
+                "start": "March 15 2022, 17:00",
+                "end": "March 22 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 10 2022, 17:00",
-                "end": "March 7 2022, 23:59"
+                "start": "March 15 2022, 17:00",
+                "end": "March 29 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Past VD＆WD Limited-time Step-up Summon",
-            "期間限定VD＆WD復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Skill Update Paid Summon + Choosable 5★ Summon Ticket",
+            "スキルアップデート★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring Valentine and White Day characters from 2018~2021",
-                "start": "February 10 2022, 17:00",
-                "end": "February 18 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Engi Threepiece, 5★ Maya, 5★ Takeda Yomi, 5★ Onosaka Koharu",
+                "start": "March 15 2022, 17:00",
+                "end": "March 22 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 10 2022, 17:00",
-                "end": "February 25 2022, 23:59"
+                "start": "March 15 2022, 17:00",
+                "end": "March 29 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Ryou [Swimsuit], 5★ Ryou [New Year], 5★ Kirin [Sports Festival], 5★ Cork [Maid], 4★ Nono [Halloween], 4★ Kotone [Swimsuit]",
+                "start": "March 15 2022, 17:00",
+                "end": "March 30 2022, 15:59",
+                "extraPriority": 4
             }
         ]
     },
@@ -500,46 +596,6 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "February Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/WiKO4gi.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "February 5 2022, 0:00",
-                "end": "February 6 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "February 12 2022, 0:00",
-                "end": "February 13 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "February 19 2022, 0:00",
-                "end": "February 20 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "February 26 2022, 0:00",
-                "end": "February 27 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "February 5 2022, 0:00",
-                "end": "March 4 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
             "March Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -588,52 +644,14 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Valentine Starlight Stone Bundle",
-                "start": "February 10 2022, 17:00",
-                "end": "February 28 2022, 15:59"
-            },
-            {
-                "name": "2,000 Starlight Stones Set (Valentine 2022 with Bonus 2), 2,000 Starlight Stones Set (Valentine 2022)",
-                "start": "February 14 2022, 0:00",
-                "end": "February 28 2022, 15:59"
-            },
-            {
-                "name": "Valentine Item Bundles",
-                "start": "February 10 2022, 17:00",
-                "end": "February 28 2022, 15:59"
-            },
-            {
-                "name": "2022 Gorgeous Valentine Set",
-                "start": "February 14 2022, 0:00",
-                "end": "February 28 2022, 15:59"
-            },
-            {
-                "name": "Past VD & WD Random 5★ Summon Ticket (2022)",
-                "start": "February 10 2022, 17:00",
-                "end": "February 18 2022, 23:59"
-            },
-            {
                 "name": "White Day Starlight Stone & Item Sets",
                 "start": "February 28 2022, 17:00",
                 "end": "March 15 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Valentine Login Bonus",
-            "バレンタインログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
+            },
             {
-                "name": "Period",
-                "start": "February 10 2022, 17:00",
-                "end": "February 28 2022, 23:59"
+                "name": "Slow Loop Participation Starlight Stone & Scroll Sets",
+                "start": "March 15 2022, 17:00",
+                "end": "March 30 2022, 15:59"
             }
         ]
     },
@@ -652,59 +670,6 @@ var timerData = [
                 "name": "Period",
                 "start": "February 28 2022, 17:00",
                 "end": "March 15 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily Free Summon",
-            "1日1回無料10回召喚"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 24,
-        "timers": [
-            {
-                "name": "Manga Time Kirara Forward Free Summon",
-                "start": "February 11 2022, 0:00",
-                "end": "February 11 2022, 23:59",
-                "extraPriority": 8
-            },
-            {
-                "name": "Manga Time Kirara Carat Free Summon",
-                "start": "February 14 2022, 0:00",
-                "end": "February 14 2022, 23:59",
-                "extraPriority": 8
-            },
-            {
-                "name": "Manga Time Kirara & Miracle Free Summon",
-                "start": "February 21 2022, 0:00",
-                "end": "February 21 2022, 23:59",
-                "extraPriority": 8
-            },
-            {
-                "name": "Manga Time Kirara MAX Free Summon",
-                "start": "February 28 2022, 0:00",
-                "end": "February 28 2022, 23:59",
-                "extraPriority": 8
-            },
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Valentine-themed Room Decoration Items",
-            "バレンタイン限定ルームアイテム再登場"
-        ],
-        "image": "kanna",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "February 10 2022, 17:00",
-                "end": "February 28 2022, 15:59"
             }
         ]
     },
