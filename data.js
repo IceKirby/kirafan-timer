@@ -243,78 +243,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "White Day's Big Explosion Summon",
-            "期間限定2022ホワイトデーキャラクターピックアップ召喚",
-            "White Day 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/BmiPTqw.png",
-            "https://i.imgur.com/vlM35PI.png",
-            "https://i.imgur.com/ZstcAaN.png",
-            "https://i.imgur.com/f7WaFne.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Sae [White Day], 5★ Enami [White Day]",
-                        "time": "February 28 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Tooru [White Day], 5★ Nina [White Day]",
-                        "time": "February 28 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Valentine and the Love Square Summon",
-            "期間限定2022バレンタインキャラクターピックアップ召喚",
-            "Valentine 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/Ps58Ptk.png",
-            "https://i.imgur.com/uHp3WsJ.png",
-            "https://i.imgur.com/RHzDDOG.png",
-            "https://i.imgur.com/uY5zDMj.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "February 10 2022, 17:00",
-                "end": "March 15 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Hiro [Valentine], 5★ Eiko [Valentine]",
-                        "time": "February 10 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Run [Valentine], 5★ Roko [Valentine]",
-                        "time": "February 10 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Fly Fishing Memory Summon",
             "フライフィッシュメモリーピックアップ召喚",
             "Slow Loop Event Summon"
@@ -344,29 +272,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super EX Quest Support Limited-time Summon",
-            "超高難易度クエスト応援期間限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/FlqlmC1.png",
-            "https://i.imgur.com/SsNybKz.png",
-            "https://i.imgur.com/u7d53Is.png",
-            "https://i.imgur.com/GF7A1go.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yoriko [Maid], 5★ Yuuri [Hot Spring], 5★ Koume [Halloween], 5★ [Traveler of the Wasteland] Rin",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 15:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -432,6 +337,30 @@ var timerData = [
             {
                 "name": "Ticket Expiration",
                 "start": "March 15 2022, 17:00",
+                "end": "April 6 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Forward Paid Summon + Choosable 5★ Summon Ticket",
+            "きららフォワード期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 23 2022, 0:00",
+                "end": "March 30 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 23 2022, 0:00",
                 "end": "April 6 2022, 23:59"
             }
         ]
@@ -644,32 +573,9 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "White Day Starlight Stone & Item Sets",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 15:59"
-            },
-            {
                 "name": "Slow Loop Participation Starlight Stone & Scroll Sets",
                 "start": "March 15 2022, 17:00",
                 "end": "March 30 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "White Day Login Bonus",
-            "ホワイトデーログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 23:59"
             }
         ]
     },
