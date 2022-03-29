@@ -38,145 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "White Day's Big Explosion",
-            "ホワイトデー大爆発",
-            "White Day 2022 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/BmiPTqw.png",
-            "https://i.imgur.com/vlM35PI.png",
-            "https://i.imgur.com/ZstcAaN.png",
-            "https://i.imgur.com/f7WaFne.png",
-            "https://i.imgur.com/lE5TcF4.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "March 4 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "March 2 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Super EX Quest",
-                        "time": "March 7 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "March 10 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "March 11 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "March 12 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "March 13 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 28 2022, 17:00",
-                "end": "March 22 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Valentine and the Love Square",
-            "バレンタインと恋の四角関係",
-            "Valentine 2022 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/Ps58Ptk.png",
-            "https://i.imgur.com/uHp3WsJ.png",
-            "https://i.imgur.com/RHzDDOG.png",
-            "https://i.imgur.com/uY5zDMj.png",
-            "https://i.imgur.com/4V9RRrE.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "February 10 2022, 17:00",
-                "end": "March 15 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "February 17 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "February 12 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "February 21 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "February 22 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "February 23 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "February 24 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "February 10 2022, 17:00",
-                "end": "March 15 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 10 2022, 17:00",
-                "end": "March 22 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Fly Fishing Memory",
             "フライフィッシュメモリー",
             "Slow Loop Event"
@@ -241,6 +102,73 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Interspecies Mixed Bath Hot Springs Resort",
+            "異種族混浴温泉街",
+            "Hot Springs 2022 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/ZlHU4Lm.png",
+            "https://i.imgur.com/wFdNvHR.png",
+            "https://i.imgur.com/t9jxPBZ.png",
+            "https://i.imgur.com/zj0UhXD.png",
+            "https://i.imgur.com/AItn6PD.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "April 3 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "April 1 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "April 7 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "April 8 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "April 9 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "April 10 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "March 30 2022, 17:00",
+                "end": "April 20 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Fly Fishing Memory Summon",
@@ -278,35 +206,84 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Super EX Quest Support Paid Summon + Choosable 5★ Summon Ticket",
-            "超高難易度クエスト応援★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + Super Ex Quest Support Voucher"
+            "Interspecies Mixed Bath Hot Springs Resort Summon",
+            "異種族混浴温泉街期間限定ピックアップ召喚",
+            "Hot Springs 2022 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/ZlHU4Lm.png",
+            "https://i.imgur.com/wFdNvHR.png",
+            "https://i.imgur.com/t9jxPBZ.png",
+            "https://i.imgur.com/zj0UhXD.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Kana [Hot Springs], 5★ Leine [Hot Springs]",
+                        "time": "March 30 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Fuura [Hot Springs], 5★ Archive [Hot Springs]",
+                        "time": "March 30 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Past Hot Springs Limited-time Step-up Summon",
+            "期間限定温泉復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "First Half",
-                "start": "February 28 2022, 17:00",
-                "end": "March 7 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs]",
+                "start": "March 30 2022, 17:00",
+                "end": "April 6 2022, 23:59",
                 "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "March 8 2022, 0:00",
-                "end": "March 15 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Voucher Exchange",
-                "start": "February 28 2022, 17:00",
-                "end": "March 15 2022, 15:59"
             },
             {
                 "name": "Ticket Expiration",
-                "start": "February 28 2022, 17:00",
-                "end": "March 22 2022, 23:59"
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs]",
+                "start": "March 30 2022, 17:00",
+                "end": "April 6 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 23:59"
             }
         ]
     },
@@ -447,56 +424,6 @@ var timerData = [
                 name: "Episode 2",
                 date: "January 14 2022",
                 days: 2
-            },
-            {
-                name: "Episode 3",
-                date: "January 21 2022",
-                days: 2
-            },
-            {
-                name: "Episode 4",
-                date: "January 28 2022",
-                days: 2
-            },
-            {
-                name: "Episode 5",
-                date: "February 4 2022",
-                days: 2
-            },
-            {
-                name: "Episode 6",
-                date: "February 11 2022",
-                days: 2
-            },
-            {
-                name: "Episode 7",
-                date: "February 18 2022",
-                days: 2
-            },
-            {
-                name: "Episode 8",
-                date: "February 25 2022",
-                days: 2
-            },
-            {
-                name: "Episode 9",
-                date: "March 4 2022",
-                days: 2
-            },
-            {
-                name: "Episode 10",
-                date: "March 11 2022",
-                days: 2
-            },
-            {
-                name: "Episode 11",
-                date: "March 18 2022",
-                days: 2
-            },
-            {
-                name: "Episode 12",
-                date: "March 25 2022",
-                days: 2
             }
         ]
     },
@@ -563,6 +490,51 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "April Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/CKRTmPp.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "April 2 2022, 0:00",
+                "end": "April 3 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "April 9 2022, 0:00",
+                "end": "April 10 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "April 16 2022, 0:00",
+                "end": "April 17 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "April 23 2022, 0:00",
+                "end": "April 24 2022, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "April 30 2022, 0:00",
+                "end": "May 1 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "April 2 2022, 0:00",
+                "end": "May 6 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -576,63 +548,16 @@ var timerData = [
                 "name": "Slow Loop Participation Starlight Stone & Scroll Sets",
                 "start": "March 15 2022, 17:00",
                 "end": "March 30 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Training Support Campaign",
-            "育成応援キャンペーン"
-        ],
-        "image": "leine",
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Quests",
-                "start": "February 19 2022, 0:00",
-                "end": "March 15 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Totteoki Training Quest",
-                        "time": "March 4 2022, 0:00",
-                        "type": "battle"
-                    }
-                ]
             },
             {
-                "name": "Event Missions",
-                "start": "February 19 2022, 0:00",
-                "end": "March 15 2022, 23:59"
+                "name": "Hot Springs Event Starlight Stone & Item Sets",
+                "start": "March 30 2022, 17:00",
+                "end": "April 13 2022, 15:59"
             },
             {
-                "name": "Past Event Call Ticket Missions",
-                "start": "February 19 2022, 0:00",
-                "end": "February 27 2022, 23:59"
-            },
-            {
-                "name": "Exchange Medal Missions",
-                "start": "February 28 2022, 0:00",
-                "end": "March 3 2022, 23:59"
-            },
-            {
-                "name": "Totteoki Training Quest Ticket Missions",
-                "start": "March 4 2022, 0:00",
-                "end": "March 14 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "February 19 2022, 0:00",
-                "end": "March 22 2022, 13:59",
-                "markers": [
-                    {
-                        "title": "Totteoki Training Quest Ticket",
-                        "time": "March 4 2022, 0:00",
-                        "type": "star"
-                    }
-                ]
+                "name": "Past Hot Springs 5* Summon Ticket Set",
+                "start": "March 30 2022, 17:00",
+                "end": "April 6 2022, 23:59"
             }
         ]
     }
