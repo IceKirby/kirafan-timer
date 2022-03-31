@@ -560,5 +560,47 @@ var timerData = [
                 "end": "April 6 2022, 23:59"
             }
         ]
-    }
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Etowaria Town Tax Payment Login Bonus",
+            "「エトワリア里納税」ログインボーナス",
+            "Log in during the period to receive a Summon Ticket"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 11,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "April 1 2022, 0:00",
+                "end": "April 1 2022, 23:59",
+                "extraPriority": 10
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Etowaria Town Tax Payment Goods",
+            "エトワリア里納税納税品"
+        ],
+        "image": "cork",
+        "column": 2,
+        "priority": 11,
+        "timers": [
+            {
+                "name": "Item Sets at Trade and Exchange Shops",
+                "start": "April 1 2022, 0:00",
+                "end": "April 1 2022, 23:59",
+                "extraPriority": 10
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 1 2022, 0:00",
+                "end": "April 8 2022, 23:59"
+            }
+        ]
+    },
 ];
