@@ -171,41 +171,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Fly Fishing Memory Summon",
-            "フライフィッシュメモリーピックアップ召喚",
-            "Slow Loop Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/aLnZt2V.png",
-            "https://i.imgur.com/Ku6gTOm.png",
-            "https://i.imgur.com/FHQCNwW.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "March 15 2022, 17:00",
-                "end": "March 30 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Kirin Side",
-                        "desc": "Featuring 5★ Morino Kirin, 4★ Morino Kirin",
-                        "time": "March 15 2022, 17:00"
-                    },
-                    {
-                        "title": "Hiyori Side",
-                        "desc": "Featuring 5★ Minagi Hiyori, 4★ Minagi Koharu",
-                        "time": "March 15 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Interspecies Mixed Bath Hot Springs Resort Summon",
             "異種族混浴温泉街期間限定ピックアップ召喚",
             "Hot Springs 2022 Event Summon"
@@ -260,6 +225,54 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 30 2022, 17:00",
                 "end": "April 13 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited-time Step-up Summon",
+            "きららファンタジア第2部限定復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2], 5★ Media [Part 2]",
+                "start": "April 7 2022, 0:00",
+                "end": "April 13 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 7 2022, 0:00",
+                "end": "April 20 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2], 5★ Media [Part 2]",
+                "start": "April 7 2022, 0:00",
+                "end": "April 13 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 7 2022, 0:00",
+                "end": "April 20 2022, 23:59"
             }
         ]
     },
@@ -343,73 +356,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Skill Update Step-up Summon",
-            "スキルアップデートおまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 3rd step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Engi Threepiece, 5★ Maya, 5★ Takeda Yomi, 5★ Onosaka Koharu",
-                "start": "March 15 2022, 17:00",
-                "end": "March 22 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 15 2022, 17:00",
-                "end": "March 29 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Skill Update Paid Summon + Choosable 5★ Summon Ticket",
-            "スキルアップデート★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Engi Threepiece, 5★ Maya, 5★ Takeda Yomi, 5★ Onosaka Koharu",
-                "start": "March 15 2022, 17:00",
-                "end": "March 22 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 15 2022, 17:00",
-                "end": "March 29 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Ryou [Swimsuit], 5★ Ryou [New Year], 5★ Kirin [Sports Festival], 5★ Cork [Maid], 4★ Nono [Halloween], 4★ Kotone [Swimsuit]",
-                "start": "March 15 2022, 17:00",
-                "end": "March 30 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
         type: "LoginDays",
         title: [
             "Slow Loop participation Login Bonus",
@@ -438,54 +384,14 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2 (Chapters 1~5)",
-                "start": "January 22 2022, 0:00",
-                "end": "January 27 2022, 15:59"
+                name: "Part 2 (Chapters 1~6)",
+                "start": "April 7 2022, 0:00",
+                "end": "April 13 2022, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
                 "start": "January 27 2022, 17:00",
                 "end": "February 10 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "March Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/e6HLnK2.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "March 5 2022, 0:00",
-                "end": "March 6 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "March 12 2022, 0:00",
-                "end": "March 13 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "March 19 2022, 0:00",
-                "end": "March 20 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "March 26 2022, 0:00",
-                "end": "March 27 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "March 5 2022, 0:00",
-                "end": "April 1 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
@@ -545,11 +451,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Slow Loop Participation Starlight Stone & Scroll Sets",
-                "start": "March 15 2022, 17:00",
-                "end": "March 30 2022, 15:59"
-            },
-            {
                 "name": "Hot Springs Event Starlight Stone & Item Sets",
                 "start": "March 30 2022, 17:00",
                 "end": "April 13 2022, 15:59"
@@ -558,25 +459,6 @@ var timerData = [
                 "name": "Past Hot Springs 5* Summon Ticket Set",
                 "start": "March 30 2022, 17:00",
                 "end": "April 6 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Etowaria Town Tax Payment Login Bonus",
-            "「エトワリア里納税」ログインボーナス",
-            "Log in during the period to receive a Summon Ticket"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 11,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "April 1 2022, 0:00",
-                "end": "April 1 2022, 23:59",
-                "extraPriority": 10
             }
         ]
     },
