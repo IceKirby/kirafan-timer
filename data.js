@@ -358,8 +358,8 @@ var timerData = [
     {
         type: "LoginDays",
         title: [
-            "Slow Loop participation Login Bonus",
-            "スローループ参戦決定記念ログインボーナス",
+            "RPG Fudousan participation Login Bonus",
+            "RPG不動産参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "lamp",
@@ -368,7 +368,57 @@ var timerData = [
         timers: [
             {
                 name: "Episode 2",
-                date: "January 14 2022",
+                date: "April 13 2022",
+                days: 2
+            },
+            {
+                name: "Episode 3",
+                date: "April 20 2022",
+                days: 2
+            },
+            {
+                name: "Episode 4",
+                date: "April 27 2022",
+                days: 2
+            },
+            {
+                name: "Episode 5",
+                date: "May 4 2022",
+                days: 2
+            },
+            {
+                name: "Episode 6",
+                date: "May 11 2022",
+                days: 2
+            },
+            {
+                name: "Episode 7",
+                date: "May 18 2022",
+                days: 2
+            },
+            {
+                name: "Episode 8",
+                date: "May 25 2022",
+                days: 2
+            },
+            {
+                name: "Episode 9",
+                date: "June 1 2022",
+                days: 2
+            },
+            {
+                name: "Episode 10",
+                date: "June 8 2022",
+                days: 2
+            },
+            {
+                name: "Episode 11",
+                date: "June 15 2022",
+                days: 2
+            },
+            {
+                name: "Episode 12",
+                date: "June 22 2022",
                 days: 2
             }
         ]
