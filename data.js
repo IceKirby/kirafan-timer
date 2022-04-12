@@ -38,72 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Fly Fishing Memory",
-            "フライフィッシュメモリー",
-            "Slow Loop Event"
-        ],
-        "image": [
-            "https://i.imgur.com/aLnZt2V.png",
-            "https://i.imgur.com/Ku6gTOm.png",
-            "https://i.imgur.com/FHQCNwW.png",
-            "https://i.imgur.com/aSsvOKn.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "March 15 2022, 17:00",
-                "end": "March 30 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "March 19 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "March 17 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "March 24 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "March 25 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "March 26 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "March 27 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "March 15 2022, 17:00",
-                "end": "March 30 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "March 15 2022, 17:00",
-                "end": "April 6 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Interspecies Mixed Bath Hot Springs Resort",
             "異種族混浴温泉街",
             "Hot Springs 2022 Event"
@@ -169,6 +103,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Main Quest Part 2 Chapter 7 Missions",
+            "メインクエスト第2部7章追加記念 期間限定ミッション"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Etowarium Mission",
+                "start": "April 13 2022, 17:00",
+                "end": "April 27 2022, 23:59",
+                "extraPriority": 5
+            },
+            {
+                "name": "Head Priest & Seven Sages Choosable 5* Summon Ticket Mission",
+                "start": "April 13 2022, 17:00",
+                "end": "April 17 2022, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Interspecies Mixed Bath Hot Springs Resort Summon",
@@ -198,6 +155,39 @@ var timerData = [
                         "title": "Part 2",
                         "desc": "Featuring 5★ Fuura [Hot Springs], 5★ Archive [Hot Springs]",
                         "time": "March 30 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/D0j6Mv9.png",
+            "https://i.imgur.com/3TXBkdf.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 13 2022, 17:00",
+                "end": "April 27 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Lamp [Part 2]",
+                        "time": "April 13 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Hakka [Part 2]",
+                        "time": "April 13 2022, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -279,6 +269,92 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "筆頭神官＆七賢者限定 Paid Summon + Choosable 5★ Summon Ticket",
+            "筆頭神官＆七賢者限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
+                "start": "April 13 2022, 17:00",
+                "end": "April 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 13 2022, 17:00",
+                "end": "April 26 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + 2s Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
+                "start": "April 13 2022, 17:00",
+                "end": "April 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 13 2022, 17:00",
+                "end": "April 26 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
+            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 14 2022, 0:00",
+                "end": "April 20 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara MAX Limited-time Deluxe Summon",
+            "まんがタイムきららMAX期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 14 2022, 0:00",
+                "end": "April 20 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -297,61 +373,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "March 30 2022, 17:00",
                 "end": "April 13 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Mixed Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定ミックス復刻★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1 Voucher",
-            "Featuring past Hinamatsuri, Maid and Sports Festival characters, 5* Karen [Foreign Magician], 5* [Traveler of the Wasteland] Rin"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "March 15 2022, 17:00",
-                "end": "March 22 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "March 23 2022, 0:00",
-                "end": "March 30 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 15 2022, 17:00",
-                "end": "April 6 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Forward Paid Summon + Choosable 5★ Summon Ticket",
-            "きららフォワード期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "March 23 2022, 0:00",
-                "end": "March 30 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 23 2022, 0:00",
-                "end": "April 6 2022, 23:59"
             }
         ]
     },
@@ -439,6 +460,11 @@ var timerData = [
                 "end": "April 13 2022, 15:59"
             },
             {
+                name: "Part 2 (Chapters 1~7)",
+                "start": "April 13 2022, 17:00",
+                "end": "April 17 2022, 23:59"
+            },
+            {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
                 "start": "January 27 2022, 17:00",
                 "end": "February 10 2022, 15:59"
@@ -506,33 +532,10 @@ var timerData = [
                 "end": "April 13 2022, 15:59"
             },
             {
-                "name": "Past Hot Springs 5* Summon Ticket Set",
-                "start": "March 30 2022, 17:00",
-                "end": "April 6 2022, 23:59"
+                "name": "Main Quest Part 2 Chapter 7 Starlight Stone & Item Sets",
+                "start": "April 13 2022, 17:00",
+                "end": "April 27 2022, 13:59"
             }
         ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Etowaria Town Tax Payment Goods",
-            "エトワリア里納税納税品"
-        ],
-        "image": "cork",
-        "column": 2,
-        "priority": 11,
-        "timers": [
-            {
-                "name": "Item Sets at Trade and Exchange Shops",
-                "start": "April 1 2022, 0:00",
-                "end": "April 1 2022, 23:59",
-                "extraPriority": 10
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 1 2022, 0:00",
-                "end": "April 8 2022, 23:59"
-            }
-        ]
-    },
+    }
 ];
