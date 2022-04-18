@@ -128,48 +128,13 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Interspecies Mixed Bath Hot Springs Resort Summon",
-            "異種族混浴温泉街期間限定ピックアップ召喚",
-            "Hot Springs 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/ZlHU4Lm.png",
-            "https://i.imgur.com/wFdNvHR.png",
-            "https://i.imgur.com/t9jxPBZ.png",
-            "https://i.imgur.com/zj0UhXD.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Kana [Hot Springs], 5★ Leine [Hot Springs]",
-                        "time": "March 30 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Fuura [Hot Springs], 5★ Archive [Hot Springs]",
-                        "time": "March 30 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Main Quest Part 2 Limited-time Summon",
             "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
         "image": [
             "https://i.imgur.com/D0j6Mv9.png",
-            "https://i.imgur.com/3TXBkdf.png"
+            "https://i.imgur.com/3TXBkdf.png",
+            "https://i.imgur.com/gaSmwxP.png"
         ],
         "column": 1,
         "priority": 21,
@@ -180,41 +145,22 @@ var timerData = [
                 "end": "April 27 2022, 15:59",
                 "banners": [
                     {
-                        "title": "Part 1",
+                        "title": "Lamp side",
                         "desc": "Featuring 5★ Lamp [Part 2]",
                         "time": "April 13 2022, 17:00"
                     },
                     {
-                        "title": "Part 2",
+                        "title": "Hakka side",
                         "desc": "Featuring 5★ Hakka [Part 2]",
                         "time": "April 13 2022, 17:00"
+                    },
+                    {
+                        "title": "Utsutsu side",
+                        "desc": "Featuring 5★ Utsutsu [Part 2]",
+                        "time": "April 20 2022, 0:00"
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Hot Springs Limited-time Step-up Summon",
-            "期間限定温泉復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs]",
-                "start": "March 30 2022, 17:00",
-                "end": "April 6 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 23:59"
             }
         ]
     },
@@ -353,30 +299,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs]",
-                "start": "March 30 2022, 17:00",
-                "end": "April 6 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 23:59"
-            }
-        ]
-    },
-    {
         type: "LoginDays",
         title: [
             "RPG Fudousan participation Login Bonus",
@@ -455,11 +377,6 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2 (Chapters 1~6)",
-                "start": "April 7 2022, 0:00",
-                "end": "April 13 2022, 15:59"
-            },
-            {
                 name: "Part 2 (Chapters 1~7)",
                 "start": "April 13 2022, 17:00",
                 "end": "April 17 2022, 23:59"
@@ -526,11 +443,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Hot Springs Event Starlight Stone & Item Sets",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 15:59"
-            },
             {
                 "name": "Main Quest Part 2 Chapter 7 Starlight Stone & Item Sets",
                 "start": "April 13 2022, 17:00",
