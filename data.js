@@ -299,6 +299,63 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Deluxe Summon",
+            "きららファンタジア期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 21 2022, 0:00",
+                "end": "April 27 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara Carat Limited-time Deluxe Summon",
+            "まんがタイムきららキャラット期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 21 2022, 0:00",
+                "end": "April 27 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Time Kirara Forward Limited-time Deluxe Summon",
+            "まんがタイムきららフォワード期間限定デラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "April 21 2022, 0:00",
+                "end": "April 27 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "RPG Fudousan participation Login Bonus",
