@@ -37,67 +37,67 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Interspecies Mixed Bath Hot Springs Resort",
-            "異種族混浴温泉街",
-            "Hot Springs 2022 Event"
+            "The Goddess' Easter Egg",
+            "女神のイースターエッグ",
+            "Easter 2022 Event"
         ],
         "image": [
-            "https://i.imgur.com/ZlHU4Lm.png",
-            "https://i.imgur.com/wFdNvHR.png",
-            "https://i.imgur.com/t9jxPBZ.png",
-            "https://i.imgur.com/zj0UhXD.png",
-            "https://i.imgur.com/AItn6PD.png"
+            "https://i.imgur.com/IGX7sFG.png",
+            "https://i.imgur.com/kmO7OTo.png",
+            "https://i.imgur.com/pDvB4Ig.png",
+            "https://i.imgur.com/pWhFU9K.png",
+            "https://i.imgur.com/Bk67q23.png"
         ],
         "column": 0,
         "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 15:59",
+                "start": "April 27 2022, 17:00",
+                "end": "May 17 2022, 15:59",
                 "extraPriority": 4,
                 "markers": [
                     {
                         "title": "EX Quest",
-                        "time": "April 3 2022, 17:00",
+                        "time": "May 1 2022, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Boss Quest",
-                        "time": "April 1 2022, 17:00",
+                        "time": "April 29 2022, 17:00",
                         "type": "battle"
                     },
                     {
                         "title": "Extra Chapter 1",
-                        "time": "April 7 2022, 0:00",
+                        "time": "May 11 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 2",
-                        "time": "April 8 2022, 0:00",
+                        "time": "May 12 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 3",
-                        "time": "April 9 2022, 0:00",
+                        "time": "May 13 2022, 0:00",
                         "type": "story"
                     },
                     {
                         "title": "Extra Chapter 4",
-                        "time": "April 10 2022, 0:00",
+                        "time": "May 14 2022, 0:00",
                         "type": "story"
                     }
                 ]
             },
             {
                 "name": "Missions",
-                "start": "March 30 2022, 17:00",
-                "end": "April 13 2022, 23:59"
+                "start": "April 27 2022, 17:00",
+                "end": "May 17 2022, 23:59"
             },
             {
                 "name": "Event Shop",
-                "start": "March 30 2022, 17:00",
-                "end": "April 20 2022, 13:59"
+                "start": "April 27 2022, 17:00",
+                "end": "May 24 2022, 13:59"
             }
         ]
     },
@@ -166,48 +166,36 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Limited-time Step-up Summon",
-            "きららファンタジア第2部限定復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "The Goddess' Easter Egg Summon",
+            "女神のイースターエッグ期間限定ピックアップ召喚",
+            "Easter 2022 Event Summon"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/IGX7sFG.png",
+            "https://i.imgur.com/kmO7OTo.png",
+            "https://i.imgur.com/pDvB4Ig.png",
+            "https://i.imgur.com/pWhFU9K.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2], 5★ Media [Part 2]",
-                "start": "April 7 2022, 0:00",
-                "end": "April 13 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 7 2022, 0:00",
-                "end": "April 20 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Main Quest Part 2 Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Chino [Part 2], 5★ Namiko-san [Part 2], 5★ Lilith [Part 2], 5★ Cardamom [Part 2], 5★ Fennel [Part 2], 5★ Media [Part 2]",
-                "start": "April 7 2022, 0:00",
-                "end": "April 13 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 7 2022, 0:00",
-                "end": "April 20 2022, 23:59"
+                "name": "Summon Period",
+                "start": "April 27 2022, 17:00",
+                "end": "May 17 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Kayo [Easter], 5★ Chiya [Easter]",
+                        "time": "April 27 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Sonobe [Easter], 5★ Polka [Easter]",
+                        "time": "April 27 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -256,44 +244,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "April 13 2022, 17:00",
                 "end": "April 26 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara & Miracle Limited-time Deluxe Summon",
-            "まんがタイムきらら＆ミラク期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 14 2022, 0:00",
-                "end": "April 20 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara MAX Limited-time Deluxe Summon",
-            "まんがタイムきららMAX期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 14 2022, 0:00",
-                "end": "April 20 2022, 23:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -490,6 +440,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "May Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/3kxYBAT.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "May 7 2022, 0:00",
+                "end": "May 8 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "May 14 2022, 0:00",
+                "end": "May 15 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "May 21 2022, 0:00",
+                "end": "May 22 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "May 28 2022, 0:00",
+                "end": "May 29 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "May 7 2022, 0:00",
+                "end": "June 3 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -503,7 +493,18 @@ var timerData = [
                 "name": "Main Quest Part 2 Chapter 7 Starlight Stone & Item Sets",
                 "start": "April 13 2022, 17:00",
                 "end": "April 27 2022, 13:59"
+            },
+            {
+                "name": "Easter Event Starlight Stone & Item Sets",
+                "start": "April 27 2022, 17:00",
+                "end": "May 17 2022, 15:59"
+            },
+            {
+                "name": "Limited-time Easter 2022 5* Summon Ticket Expiration",
+                "start": "April 27 2022, 17:00",
+                "end": "May 24 2022, 23:59"
             }
+            
         ]
     }
 ];
