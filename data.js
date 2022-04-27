@@ -127,45 +127,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/D0j6Mv9.png",
-            "https://i.imgur.com/3TXBkdf.png",
-            "https://i.imgur.com/gaSmwxP.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 13 2022, 17:00",
-                "end": "April 27 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Lamp side",
-                        "desc": "Featuring 5★ Lamp [Part 2]",
-                        "time": "April 13 2022, 17:00"
-                    },
-                    {
-                        "title": "Hakka side",
-                        "desc": "Featuring 5★ Hakka [Part 2]",
-                        "time": "April 13 2022, 17:00"
-                    },
-                    {
-                        "title": "Utsutsu side",
-                        "desc": "Featuring 5★ Utsutsu [Part 2]",
-                        "time": "April 20 2022, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "The Goddess' Easter Egg Summon",
             "女神のイースターエッグ期間限定ピックアップ召喚",
             "Easter 2022 Event Summon"
@@ -202,105 +163,92 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "筆頭神官＆七賢者限定 Paid Summon + Choosable 5★ Summon Ticket",
-            "筆頭神官＆七賢者限定★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "Limited-time Special Deluxe Summon",
+            "期間限定スペシャルデラックス召喚",
+            "1200 Paid Gems for a 10x 5* Summon"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
-                "start": "April 13 2022, 17:00",
-                "end": "April 19 2022, 23:59",
+                "name": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
+                "start": "April 29 2022, 0:00",
+                "end": "May 1 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "2021 All Stars Deluxe Summon",
+            "2021オールスターデラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring all characters released in 2021",
+                "start": "April 29 2022, 0:00",
+                "end": "May 4 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Golden Week Paid Summon + Choosable 5★ Summon Ticket",
+            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x Golden Week Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "April 29 2022, 0:00",
+                "end": "May 3 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "May 4 2022, 0:00",
+                "end": "May 8 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "April 13 2022, 17:00",
-                "end": "April 26 2022, 23:59"
+                "start": "April 29 2022, 0:00",
+                "end": "May 15 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + 2s Random 5★ Summon Ticket"
+            "Golden Week Paid Summon + Choosable 5★ Summon Ticket",
+            "ゴールデンウィーク期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable Limited-time 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Clea [Doll's Festival], 5★ Cork [Maid], 5★ Archive [New Year], 5★ Sugar [Valentine], 5★ Sesame [Bridal], 5★ Salt [White Day], 5★ Ginger [Maid]",
-                "start": "April 13 2022, 17:00",
-                "end": "April 19 2022, 23:59",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "April 29 2022, 0:00",
+                "end": "April 29 2022, 23:59",
+                "extraPriority": 10
             },
             {
                 "name": "Ticket Expiration",
-                "start": "April 13 2022, 17:00",
-                "end": "April 26 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Kirara Fantasia Limited-time Deluxe Summon",
-            "きららファンタジア期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 21 2022, 0:00",
-                "end": "April 27 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Carat Limited-time Deluxe Summon",
-            "まんがタイムきららキャラット期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 21 2022, 0:00",
-                "end": "April 27 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Manga Time Kirara Forward Limited-time Deluxe Summon",
-            "まんがタイムきららフォワード期間限定デラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 21 2022, 0:00",
-                "end": "April 27 2022, 15:59",
-                "extraPriority": 4
+                "start": "April 29 2022, 0:00",
+                "end": "May 6 2022, 23:59"
             }
         ]
     },
@@ -490,11 +438,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Main Quest Part 2 Chapter 7 Starlight Stone & Item Sets",
-                "start": "April 13 2022, 17:00",
-                "end": "April 27 2022, 13:59"
-            },
-            {
                 "name": "Easter Event Starlight Stone & Item Sets",
                 "start": "April 27 2022, 17:00",
                 "end": "May 17 2022, 15:59"
@@ -503,8 +446,94 @@ var timerData = [
                 "name": "Limited-time Easter 2022 5* Summon Ticket Expiration",
                 "start": "April 27 2022, 17:00",
                 "end": "May 24 2022, 23:59"
+            },
+            {
+                "name": "1600 Days Celebration Starlight Stone & Item Bundles",
+                "start": "April 29 2022, 0:00",
+                "end": "May 12 2022, 23:59"
+            },
+            {
+                "name": "Golden Week Starlight Stone & Item Bundles",
+                "start": "April 29 2022, 0:00",
+                "end": "May 17 2022, 15:59"
             }
             
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "1600 Days Celebration Login Bonus",
+            "1600日記念ログインボーナス",
+            "Log in on 10 days to receive up to 300 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "April 29 2022, 0:00",
+                "end": "May 12 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "1600 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
+            "リリース1600日記念★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket + 1x Golden Week Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Voucher Exchange",
+                "start": "April 29 2022, 0:00",
+                "end": "May 8 2022, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "April 29 2022, 0:00",
+                "end": "May 15 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Golden Week Login Bonus",
+            "ゴールデンウィークログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "April 29 2022, 0:00",
+                "end": "May 17 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Main Quest & Author Quests Half Stamina Campaign",
+            "メインクエスト＆作家クエストスタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "April 29 2022, 0:00",
+                "end": "May 17 2022, 15:59"
+            }
         ]
     }
 ];
