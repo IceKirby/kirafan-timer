@@ -102,29 +102,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Chapter 7 Missions",
-            "メインクエスト第2部7章追加記念 期間限定ミッション"
-        ],
-        "image": "leine",
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Etowarium Mission",
-                "start": "April 13 2022, 17:00",
-                "end": "April 27 2022, 23:59",
-                "extraPriority": 5
-            },
-            {
-                "name": "Head Priest & Seven Sages Choosable 5* Summon Ticket Mission",
-                "start": "April 13 2022, 17:00",
-                "end": "April 17 2022, 23:59"
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "The Goddess' Easter Egg Summon",
@@ -175,6 +152,12 @@ var timerData = [
                 "name": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
                 "start": "April 29 2022, 0:00",
                 "end": "May 1 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
+                "start": "May 2 2022, 0:00",
+                "end": "May 4 2022, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -437,11 +420,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Easter Event Starlight Stone & Item Sets",
-                "start": "April 27 2022, 17:00",
-                "end": "May 17 2022, 15:59"
-            },
             {
                 "name": "Limited-time Easter 2022 5* Summon Ticket Expiration",
                 "start": "April 27 2022, 17:00",
