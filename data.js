@@ -102,6 +102,60 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Road to Giga EX - Titan Side",
+            "超難関への道～タイタン編～"
+        ],
+        "image": [
+            "https://i.imgur.com/Jd4FOPo.png"
+        ],
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "May 5 2022, 0:00",
+                "end": "May 17 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Giga EX Quest",
+                        "time": "May 8 2022, 17:00",
+                        "type": "battle"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "May 5 2022, 0:00",
+                "end": "May 17 2022, 23:59",
+                "markers": [
+                    {
+                        "title": "Exchange Medal Missions",
+                        "time": "May 14 2022, 0:00",
+                        "type": "mission"
+                    }
+                ]
+            },
+            {
+                "name": "Past Event 4★ Call Ticket Missions",
+                "start": "May 5 2022, 0:00",
+                "end": "May 13 2022, 23:59"
+            },
+            {
+                "name": "Totteoki Training Quest Challenge Ticket Missions",
+                "start": "May 5 2022, 0:00",
+                "end": "May 14 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 5 2022, 0:00",
+                "end": "May 24 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "The Goddess' Easter Egg Summon",
@@ -178,6 +232,30 @@ var timerData = [
                 "start": "April 29 2022, 0:00",
                 "end": "May 4 2022, 23:59",
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Lamp's Birthday Celebration Paid Summon + Choosable 5★ Summon Ticket",
+            "ランプお誕生日記念★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 5x Choosable 5★ Summon Ticket + User Title Medal"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Lamp, 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Lamp [Cross Chara]",
+                "start": "May 5 2022, 0:00",
+                "end": "May 7 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 5 2022, 0:00",
+                "end": "May 14 2022, 23:59"
             }
         ]
     },
@@ -434,8 +512,36 @@ var timerData = [
                 "name": "Golden Week Starlight Stone & Item Bundles",
                 "start": "April 29 2022, 0:00",
                 "end": "May 17 2022, 15:59"
+            },
+            {
+                "name": "Lamp's Birthday Starlight Stone Set",
+                "start": "May 5 2022, 0:00",
+                "end": "May 7 2022, 23:59"
+            },
+            {
+                "name": "Giga EX Mini-event Starlight Stone & Item Bundles",
+                "start": "May 5 2022, 0:00",
+                "end": "May 17 2022, 15:59"
             }
             
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Lamp's Birthday Celebration Login Bonus",
+            "ランプお誕生日記念ログインボーナス",
+            "1st Login: User Title; 2nd & 3rd Login: Summon Ticket"
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 16,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "May 5 2022, 0:00",
+                "end": "May 7 2022, 23:59"
+            }
         ]
     },
     {
