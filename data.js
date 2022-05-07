@@ -194,44 +194,25 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Special Deluxe Summon",
-            "期間限定スペシャルデラックス召喚",
-            "1200 Paid Gems for a 10x 5* Summon"
+            "Limited-time Wind Element Step-up/Paid Summon",
+            "2つの召喚を同時開催！風属性のキャラクターを仲間にしよう！",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Part 1: Featuring Limited-time characters from Manga Time Kirara, Manga Time Kirara Miracle and Manga Time Kirara Carat",
-                "start": "April 29 2022, 0:00",
-                "end": "May 1 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Tooru [Christmas], 5★ Naoki Miki, 5★ Nono [Maid], 5★ Suzukaze Aoba, 5★ Hifumi [Maid], 5★ Yagami Kou, 5★ Kotone [Valentine], 5★ Cocoa",
+                "start": "May 9 2022, 0:00",
+                "end": "May 16 2022, 23:59",
                 "extraPriority": 4
             },
             {
-                "name": "Part 2: Featuring Limited-time characters from Manga Time Kirara MAX, Manga Time Kirara Forward and original Kirara Fantasia characters",
-                "start": "May 2 2022, 0:00",
-                "end": "May 4 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "2021 All Stars Deluxe Summon",
-            "2021オールスターデラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring all characters released in 2021",
-                "start": "April 29 2022, 0:00",
-                "end": "May 4 2022, 23:59",
-                "extraPriority": 4
+                "name": "Ticket Expiration",
+                "start": "May 9 2022, 0:00",
+                "end": "May 23 2022, 23:59"
             }
         ]
     },
@@ -286,30 +267,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "April 29 2022, 0:00",
                 "end": "May 15 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Golden Week Paid Summon + Choosable 5★ Summon Ticket",
-            "ゴールデンウィーク期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable Limited-time 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 29 2022, 0:00",
-                "end": "April 29 2022, 23:59",
-                "extraPriority": 10
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "April 29 2022, 0:00",
-                "end": "May 6 2022, 23:59"
             }
         ]
     },
@@ -400,51 +357,6 @@ var timerData = [
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
                 "start": "January 27 2022, 17:00",
                 "end": "February 10 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "April Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/CKRTmPp.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "April 2 2022, 0:00",
-                "end": "April 3 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "April 9 2022, 0:00",
-                "end": "April 10 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "April 16 2022, 0:00",
-                "end": "April 17 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "April 23 2022, 0:00",
-                "end": "April 24 2022, 23:59"
-            },
-            {
-                "name": "Weekend 5",
-                "start": "April 30 2022, 0:00",
-                "end": "May 1 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "April 2 2022, 0:00",
-                "end": "May 6 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
