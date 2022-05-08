@@ -121,7 +121,7 @@ var timerData = [
                 "markers": [
                     {
                         "title": "Giga EX Quest",
-                        "time": "May 8 2022, 17:00",
+                        "time": "May 8 2022, 0:00",
                         "type": "battle"
                     }
                 ]
@@ -196,7 +196,7 @@ var timerData = [
         "title": [
             "Limited-time Wind Element Step-up/Paid Summon",
             "2つの召喚を同時開催！風属性のキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket",
+            "240 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket",
             "Random 5★ Summon Ticket on the 7th step"
         ],
         "image": "clea",
