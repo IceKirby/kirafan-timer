@@ -156,6 +156,70 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Blend Call Accident",
+            "ブレンドコールアクシデント",
+            "Blend-S Finale Event"
+        ],
+        "image": [
+            "https://i.imgur.com/zck0vCg.png",
+            "https://i.imgur.com/8SE6jq3.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "May 17 2022, 17:00",
+                "end": "May 31 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "May 21 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "May 19 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "May 26 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "May 27 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "May 28 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "May 29 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "May 17 2022, 17:00",
+                "end": "May 31 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 17 2022, 17:00",
+                "end": "June 7 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "The Goddess' Easter Egg Summon",
@@ -194,6 +258,60 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Blend Call Accident Summon",
+            "ブレンドコールアクシデントピックアップ召喚",
+            "Blend-S Finale Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/zck0vCg.png",
+            "https://i.imgur.com/8SE6jq3.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "May 17 2022, 17:00",
+                "end": "May 31 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Kaho Side",
+                        "desc": "Featuring 5★ Hinata Kaho, 4★ Hinata Kaho",
+                        "time": "May 17 2022, 17:00"
+                    },
+                    {
+                        "title": "Maika Side",
+                        "desc": "Featuring 5★ Sakuranomiya Maika, 4★ Sakuranomiya Maika",
+                        "time": "May 17 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Fall to Darkness Summon",
+            "闇堕ちして来たピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/1j6Khxn.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Chiyoda Momo, 4★ Chiyoda Momo",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Limited-time Wind Element Step-up/Paid Summon",
             "2つの召喚を同時開催！風属性のキャラクターを仲間にしよう！",
             "240 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket",
@@ -219,54 +337,71 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Lamp's Birthday Celebration Paid Summon + Choosable 5★ Summon Ticket",
-            "ランプお誕生日記念★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 5x Choosable 5★ Summon Ticket + User Title Medal"
+            "Blend-S Limited-time Summon Summon",
+            "ブレンド・S期間限定特別セレクション召喚"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/AW6r1Hr.png",
+            "https://i.imgur.com/A3z272W.png",
+            "https://i.imgur.com/CLwPU0X.png",
+            "https://i.imgur.com/Um2KAhz.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Lamp, 5★ Lamp [Swimsuit], 5★ Lamp [Tanabata], 5★ Lamp [Cross Chara]",
-                "start": "May 5 2022, 0:00",
-                "end": "May 7 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Maika [Swimsuit], 5★ Kaho [Christmas], 5★ Mafuyu [Christmas], 5★ Hideri [Doll's Festival], 4★ Maika [Doll's Festival]",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59",
                 "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 5 2022, 0:00",
-                "end": "May 14 2022, 23:59"
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Golden Week Paid Summon + Choosable 5★ Summon Ticket",
-            "ゴールデンウィーク★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x Golden Week Voucher"
+            "Blend-S Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "ブレンド・S期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "First Half",
-                "start": "April 29 2022, 0:00",
-                "end": "May 3 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "May 4 2022, 0:00",
-                "end": "May 8 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Maika [Swimsuit], 5★ Kaho [Swimsuit], 5★ Kaho [New Year], 5★ Kaho [Christmas], 5★ Mafuyu [Christmas], 5★ Hideri [Doll's Festival]",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "April 29 2022, 0:00",
-                "end": "May 15 2022, 23:59"
+                "start": "May 17 2022, 17:00",
+                "end": "May 30 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Blend-S Paid Summon + Choosable 5★ Summon Ticket",
+            "ブレンド・S★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 17 2022, 17:00",
+                "end": "May 30 2022, 23:59"
             }
         ]
     },
@@ -350,8 +485,8 @@ var timerData = [
         timers: [
             {
                 name: "Part 2 (Chapters 1~7)",
-                "start": "April 13 2022, 17:00",
-                "end": "April 17 2022, 23:59"
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
@@ -416,85 +551,21 @@ var timerData = [
                 "end": "May 24 2022, 23:59"
             },
             {
-                "name": "1600 Days Celebration Starlight Stone & Item Bundles",
-                "start": "April 29 2022, 0:00",
-                "end": "May 12 2022, 23:59"
-            },
-            {
                 "name": "Golden Week Starlight Stone & Item Bundles",
                 "start": "April 29 2022, 0:00",
                 "end": "May 17 2022, 15:59"
             },
             {
-                "name": "Lamp's Birthday Starlight Stone Set",
-                "start": "May 5 2022, 0:00",
-                "end": "May 7 2022, 23:59"
-            },
-            {
                 "name": "Giga EX Mini-event Starlight Stone & Item Bundles",
                 "start": "May 5 2022, 0:00",
                 "end": "May 17 2022, 15:59"
-            }
-            
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Lamp's Birthday Celebration Login Bonus",
-            "ランプお誕生日記念ログインボーナス",
-            "1st Login: User Title; 2nd & 3rd Login: Summon Ticket"
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 16,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "May 5 2022, 0:00",
-                "end": "May 7 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "1600 Days Celebration Login Bonus",
-            "1600日記念ログインボーナス",
-            "Log in on 10 days to receive up to 300 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "April 29 2022, 0:00",
-                "end": "May 12 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "1600 Days Celebration Paid Summon + Choosable 5★ Summon Ticket",
-            "リリース1600日記念★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Choosable 5★ Summon Ticket + 1x Golden Week Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Voucher Exchange",
-                "start": "April 29 2022, 0:00",
-                "end": "May 8 2022, 23:59"
             },
             {
-                "name": "Ticket Expiration",
-                "start": "April 29 2022, 0:00",
-                "end": "May 15 2022, 23:59"
+                "name": "Blend-S Event Starlight Stone Set",
+                "start": "May 17 2022, 17:00",
+                "end": "May 31 2022, 15:59"
             }
+            
         ]
     },
     {
@@ -529,6 +600,43 @@ var timerData = [
                 "name": "Period",
                 "start": "April 29 2022, 0:00",
                 "end": "May 17 2022, 15:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Fall to Darkness Campaign",
+            "闇堕ちして来たキャンペーン"
+        ],
+        "image": "https://i.imgur.com/1j6Khxn.png",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "5★ Yoshida Yuko Gift Period",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59"
+            },
+            {
+                "name": "Special Missions",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59"
+            },
+            {
+                "name": "Demon Lord Weapon Exchange Period",
+                "start": "May 17 2022, 17:00",
+                "end": "May 30 2022, 23:59"
+            },
+            {
+                "name": "Item & Starlight Stone Bundles",
+                "start": "May 17 2022, 17:00",
+                "end": "May 23 2022, 23:59"
+            },
+            {
+                "name": "Summon Ticket Expiration",
+                "start": "May 17 2022, 17:00",
+                "end": "May 30 2022, 23:59"
             }
         ]
     }
