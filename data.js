@@ -222,42 +222,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "The Goddess' Easter Egg Summon",
-            "女神のイースターエッグ期間限定ピックアップ召喚",
-            "Easter 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/IGX7sFG.png",
-            "https://i.imgur.com/kmO7OTo.png",
-            "https://i.imgur.com/pDvB4Ig.png",
-            "https://i.imgur.com/pWhFU9K.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "April 27 2022, 17:00",
-                "end": "May 17 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Kayo [Easter], 5★ Chiya [Easter]",
-                        "time": "April 27 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Sonobe [Easter], 5★ Polka [Easter]",
-                        "time": "April 27 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Blend Call Accident Summon",
             "ブレンドコールアクシデントピックアップ召喚",
             "Blend-S Finale Event Summon"
@@ -305,6 +269,39 @@ var timerData = [
                 "name": "Summon Period: Featuring 5★ Chiyoda Momo, 4★ Chiyoda Momo",
                 "start": "May 17 2022, 17:00",
                 "end": "May 23 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Gakkou Gurashi! 10 Years Limited-time Summon",
+            "がっこうぐらし！10周年期間限定ピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/oegtM7y.png",
+            "https://i.imgur.com/q7eqoCw.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "May 24 2022, 0:00",
+                "end": "May 31 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Adult Kurumi side",
+                        "desc": "Featuring 5★ Kurumi [Grown-up]",
+                        "time": "May 24 2022, 0:00"
+                    },
+                    {
+                        "title": "Adult Rii-san side",
+                        "desc": "Featuring 5★ Yuuri [Grown-up]",
+                        "time": "May 24 2022, 0:00"
+                    }
+                ],
                 "extraPriority": 4
             }
         ]
@@ -489,9 +486,9 @@ var timerData = [
                 "end": "May 23 2022, 23:59"
             },
             {
-                name: "Part 1 (Chapters 1~Prologue, Normal Mode)",
-                "start": "January 27 2022, 17:00",
-                "end": "February 10 2022, 15:59"
+                name: "Part 1 (Chapters 1~Prologue)",
+                "start": "May 24 2022, 0:00",
+                "end": "May 31 2022, 15:59"
             }
         ]
     },
@@ -551,56 +548,11 @@ var timerData = [
                 "end": "May 24 2022, 23:59"
             },
             {
-                "name": "Golden Week Starlight Stone & Item Bundles",
-                "start": "April 29 2022, 0:00",
-                "end": "May 17 2022, 15:59"
-            },
-            {
-                "name": "Giga EX Mini-event Starlight Stone & Item Bundles",
-                "start": "May 5 2022, 0:00",
-                "end": "May 17 2022, 15:59"
-            },
-            {
                 "name": "Blend-S Event Starlight Stone Set",
                 "start": "May 17 2022, 17:00",
                 "end": "May 31 2022, 15:59"
             }
             
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Golden Week Login Bonus",
-            "ゴールデンウィークログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "April 29 2022, 0:00",
-                "end": "May 17 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Main Quest & Author Quests Half Stamina Campaign",
-            "メインクエスト＆作家クエストスタミナ半減キャンペーン"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 14,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "April 29 2022, 0:00",
-                "end": "May 17 2022, 15:59"
-            }
         ]
     },
     {
@@ -637,6 +589,41 @@ var timerData = [
                 "name": "Summon Ticket Expiration",
                 "start": "May 17 2022, 17:00",
                 "end": "May 30 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Gakkou Gurashi! 10 Years Campaign",
+            "がっこうぐらし！10周年キャンペーン"
+        ],
+        "image": [
+            "https://i.imgur.com/oegtM7y.png",
+            "https://i.imgur.com/q7eqoCw.png"
+        ],
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Special Missions",
+                "start": "May 24 2022, 0:00",
+                "end": "May 31 2022, 23:59"
+            },
+            {
+                "name": "Exchange Shop Sets",
+                "start": "May 24 2022, 0:00",
+                "end": "May 31 2022, 23:59"
+            },
+            {
+                "name": "Item & Starlight Stone Bundles",
+                "start": "May 24 2022, 0:00",
+                "end": "May 31 2022, 15:59"
+            },
+            {
+                "name": "Summon Ticket Expiration",
+                "start": "May 24 2022, 0:00",
+                "end": "June 7 2022, 23:59"
             }
         ]
     }
