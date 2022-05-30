@@ -19,8 +19,8 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Summon Renovation",
-            "Event Preparation"
+            "Event Preparation",
+            "Summon Renovation"
         ],
         image: "Maintenance",
         column: 0,
@@ -31,127 +31,6 @@ var timerData = [
                 start: "May 31 2022, 16:00",
                 end: "May 31 2022, 17:00",
                 keepAfterFinished: "30 minutes"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "The Goddess' Easter Egg",
-            "女神のイースターエッグ",
-            "Easter 2022 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/IGX7sFG.png",
-            "https://i.imgur.com/kmO7OTo.png",
-            "https://i.imgur.com/pDvB4Ig.png",
-            "https://i.imgur.com/pWhFU9K.png",
-            "https://i.imgur.com/Bk67q23.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "April 27 2022, 17:00",
-                "end": "May 17 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "May 1 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "April 29 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "May 11 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "May 12 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "May 13 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "May 14 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "April 27 2022, 17:00",
-                "end": "May 17 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "April 27 2022, 17:00",
-                "end": "May 24 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Road to Giga EX - Titan Side",
-            "超難関への道～タイタン編～"
-        ],
-        "image": [
-            "https://i.imgur.com/Jd4FOPo.png"
-        ],
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "May 5 2022, 0:00",
-                "end": "May 17 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "Giga EX Quest",
-                        "time": "May 8 2022, 0:00",
-                        "type": "battle"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "May 5 2022, 0:00",
-                "end": "May 17 2022, 23:59",
-                "markers": [
-                    {
-                        "title": "Exchange Medal Missions",
-                        "time": "May 14 2022, 0:00",
-                        "type": "mission"
-                    }
-                ]
-            },
-            {
-                "name": "Past Event 4★ Call Ticket Missions",
-                "start": "May 5 2022, 0:00",
-                "end": "May 13 2022, 23:59"
-            },
-            {
-                "name": "Totteoki Training Quest Challenge Ticket Missions",
-                "start": "May 5 2022, 0:00",
-                "end": "May 14 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 5 2022, 0:00",
-                "end": "May 24 2022, 13:59"
             }
         ]
     },
@@ -220,6 +99,97 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Haunted Bridal",
+            "ホーンテッド・ブライダル",
+            "Bridal Event 2022"
+        ],
+        "image": [
+            "https://i.imgur.com/kr9G4qK.png",
+            "https://i.imgur.com/NEU30II.png",
+            "https://i.imgur.com/9JxGj2P.png",
+            "https://i.imgur.com/qfi1Mfp.png",
+            "https://i.imgur.com/6lUfknn.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "June 4 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "June 2 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "June 9 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "June 10 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "June 11 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "June 12 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "May 31 2022, 17:00",
+                "end": "June 21 2022, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Past Bridal Step-up Summon",
+            "期間限定ブライダル復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Kon [Bridal], 5★ Ruki [Bridal], 5★ Kohane [Bridal], 5★ Sesame [Bridal]",
+                "start": "May 31 2022, 17:00",
+                "end": "June 7 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Blend Call Accident Summon",
@@ -256,20 +226,36 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Fall to Darkness Summon",
-            "闇堕ちして来たピックアップ召喚"
+            "Haunted Bridal Summon",
+            "ホーンテッド・ブライダル期間限定ピックアップ召喚",
+            "Bridal Event 2022 Summon"
         ],
         "image": [
-            "https://i.imgur.com/1j6Khxn.png"
+            "https://i.imgur.com/kr9G4qK.png",
+            "https://i.imgur.com/NEU30II.png",
+            "https://i.imgur.com/9JxGj2P.png",
+            "https://i.imgur.com/qfi1Mfp.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Chiyoda Momo, 4★ Chiyoda Momo",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59",
-                "extraPriority": 4
+                "name": "Summon Period",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Kanata [Bridal], 5★ Clea [Bridal]",
+                        "time": "May 31 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Haruka [Bridal], 5★ Hanako [Bridal]",
+                        "time": "May 31 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -302,54 +288,6 @@ var timerData = [
                         "time": "May 24 2022, 0:00"
                     }
                 ],
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Wind Element Step-up/Paid Summon",
-            "2つの召喚を同時開催！風属性のキャラクターを仲間にしよう！",
-            "240 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Tooru [Christmas], 5★ Naoki Miki, 5★ Nono [Maid], 5★ Suzukaze Aoba, 5★ Hifumi [Maid], 5★ Yagami Kou, 5★ Kotone [Valentine], 5★ Cocoa",
-                "start": "May 9 2022, 0:00",
-                "end": "May 16 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 9 2022, 0:00",
-                "end": "May 23 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Blend-S Limited-time Summon Summon",
-            "ブレンド・S期間限定特別セレクション召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/AW6r1Hr.png",
-            "https://i.imgur.com/A3z272W.png",
-            "https://i.imgur.com/CLwPU0X.png",
-            "https://i.imgur.com/Um2KAhz.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Maika [Swimsuit], 5★ Kaho [Christmas], 5★ Mafuyu [Christmas], 5★ Hideri [Doll's Festival], 4★ Maika [Doll's Festival]",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59",
                 "extraPriority": 4
             }
         ]
@@ -399,6 +337,66 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "May 17 2022, 17:00",
                 "end": "May 30 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Mixed Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定ミックス復刻★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half: Featuring past Tanabata, Hot Springs, Bridal characters",
+                "start": "May 31 2022, 17:00",
+                "end": "June 7 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "June 8 2022, 0:00",
+                "end": "June 14 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Voucher Exchange",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 31 2022, 17:00",
+                "end": "June 21 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Piece Exchange: Featuring past Bridal characters",
+                "start": "May 31 2022, 17:00",
+                "end": "June 7 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 23:59"
             }
         ]
     },
@@ -533,6 +531,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "June Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/ZxtzQYc.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "June 4 2022, 0:00",
+                "end": "June 5 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "June 11 2022, 0:00",
+                "end": "June 12 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "June 18 2022, 0:00",
+                "end": "June 19 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "June 25 2022, 0:00",
+                "end": "June 26 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "June 4 2022, 0:00",
+                "end": "July 1 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -543,16 +581,20 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Limited-time Easter 2022 5* Summon Ticket Expiration",
-                "start": "April 27 2022, 17:00",
-                "end": "May 24 2022, 23:59"
-            },
-            {
                 "name": "Blend-S Event Starlight Stone Set",
                 "start": "May 17 2022, 17:00",
                 "end": "May 31 2022, 15:59"
+            },
+            {
+                "name": "Haunted Bridal Item & Starlight Stone Sets",
+                "start": "May 31 2022, 17:00",
+                "end": "June 14 2022, 15:59"
+            },
+            {
+                "name": "Past Limited-time Bridal Random 5* Summon Ticket",
+                "start": "May 31 2022, 17:00",
+                "end": "June 7 2022, 23:59"
             }
-            
         ]
     },
     {
