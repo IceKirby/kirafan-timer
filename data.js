@@ -358,7 +358,7 @@ var timerData = [
                 "extraPriority": 4
             },
             {
-                "name": "Second Half",
+                "name": "Second Half: Featuring past Tanabata, Hot Springs, Bridal characters",
                 "start": "June 8 2022, 0:00",
                 "end": "June 14 2022, 15:59",
                 "extraPriority": 4
