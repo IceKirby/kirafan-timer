@@ -38,70 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Blend Call Accident",
-            "ブレンドコールアクシデント",
-            "Blend-S Finale Event"
-        ],
-        "image": [
-            "https://i.imgur.com/zck0vCg.png",
-            "https://i.imgur.com/8SE6jq3.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "May 17 2022, 17:00",
-                "end": "May 31 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "May 21 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "May 19 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "May 26 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "May 27 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "May 28 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "May 29 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "May 17 2022, 17:00",
-                "end": "May 31 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 17 2022, 17:00",
-                "end": "June 7 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Haunted Bridal",
             "ホーンテッド・ブライダル",
             "Bridal Event 2022"
@@ -167,6 +103,73 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Looking for a Job and a House",
+            "お仕事探しとおうち探し",
+            "RPG Fudousan Event"
+        ],
+        "image": [
+            "https://i.imgur.com/7f6sQwb.png",
+            "https://i.imgur.com/mY0n4lr.png",
+            "https://i.imgur.com/8maE1KO.png",
+            "https://i.imgur.com/YTjoUnb.png",
+            "https://i.imgur.com/DLUGcsx.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 14:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "June 18 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "June 16 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "June 23 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "June 24 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "June 25 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "June 26 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 14 2022, 17:00",
+                "end": "July 5 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Limited-time Past Bridal Step-up Summon",
@@ -187,40 +190,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "May 31 2022, 17:00",
                 "end": "June 14 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Blend Call Accident Summon",
-            "ブレンドコールアクシデントピックアップ召喚",
-            "Blend-S Finale Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/zck0vCg.png",
-            "https://i.imgur.com/8SE6jq3.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "May 17 2022, 17:00",
-                "end": "May 31 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Kaho Side",
-                        "desc": "Featuring 5★ Hinata Kaho, 4★ Hinata Kaho",
-                        "time": "May 17 2022, 17:00"
-                    },
-                    {
-                        "title": "Maika Side",
-                        "desc": "Featuring 5★ Sakuranomiya Maika, 4★ Sakuranomiya Maika",
-                        "time": "May 17 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
             }
         ]
     },
@@ -263,66 +232,45 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Gakkou Gurashi! 10 Years Limited-time Summon",
-            "がっこうぐらし！10周年期間限定ピックアップ召喚"
+            "Looking for a Job and a House Summon",
+            "お仕事探しとおうち探しピックアップ召喚",
+            "RPG Fudousan Event Summon"
         ],
         "image": [
-            "https://i.imgur.com/oegtM7y.png",
-            "https://i.imgur.com/q7eqoCw.png"
+            "https://i.imgur.com/7f6sQwb.png",
+            "https://i.imgur.com/mY0n4lr.png",
+            "https://i.imgur.com/8maE1KO.png",
+            "https://i.imgur.com/YTjoUnb.png"
         ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "May 24 2022, 0:00",
-                "end": "May 31 2022, 15:59",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 14:59",
                 "banners": [
                     {
-                        "title": "Adult Kurumi side",
-                        "desc": "Featuring 5★ Kurumi [Grown-up]",
-                        "time": "May 24 2022, 0:00"
+                        "title": "Ino-Senpai Side",
+                        "desc": "Featuring 5★ Inose Mai, 4★ Manaka Ao",
+                        "time": "June 14 2022, 17:00"
                     },
                     {
-                        "title": "Adult Rii-san side",
-                        "desc": "Featuring 5★ Yuuri [Grown-up]",
-                        "time": "May 24 2022, 0:00"
+                        "title": "Kotone Side",
+                        "desc": "Featuring 5★ Kazairo Kotone, 4★ Rufuria, 4★ Rakira",
+                        "time": "June 14 2022, 17:00"
                     }
                 ],
-                "extraPriority": 4
+                "extraPriority": 6
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Blend-S Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "ブレンド・S期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Maika [Swimsuit], 5★ Kaho [Swimsuit], 5★ Kaho [New Year], 5★ Kaho [Christmas], 5★ Mafuyu [Christmas], 5★ Hideri [Doll's Festival]",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 17 2022, 17:00",
-                "end": "May 30 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Blend-S Paid Summon + Choosable 5★ Summon Ticket",
-            "ブレンド・S★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "All Stars Paid Summon + Choosable 5★ Summon Ticket",
+            "オールスター★5選べるチケット付き！有償限定10回召喚",
+            "390 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -330,14 +278,92 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59",
+                "start": "June 14 2022, 17:00",
+                "end": "June 21 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "May 17 2022, 17:00",
-                "end": "May 30 2022, 23:59"
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Paid Summon + Choosable 5★ Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "390 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x KiraFan 39 Campaign Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "June 14 2022, 17:00",
+                "end": "June 17 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "June 18 2022, 0:00",
+                "end": "June 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Voucher Exchange",
+                "start": "June 14 2022, 17:00",
+                "end": "June 21 2022, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Summon - 39 Limited Edition",
+            "1日1回オールスターきらきら召喚",
+            "390 Paid Gems once per day for 3 summons, all 5* + All-Stars Ticket Fragment"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Fragment Exchange",
+                "start": "June 15 2022, 0:00",
+                "end": "June 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 15 2022, 0:00",
+                "end": "June 30 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Mira [Valentine], 5★ Ao [White Day], 5★ Leine [Hot Springs], 4★ Tooru [Swimsuit], 4★ Run [Christmas], 4★ Momiji [New Year], 4★ Tsubame [Valentine], 4★ Maika [Doll's Festival]",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 14:59",
+                "extraPriority": 4
             }
         ]
     },
@@ -494,46 +520,6 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "May Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/3kxYBAT.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "May 7 2022, 0:00",
-                "end": "May 8 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "May 14 2022, 0:00",
-                "end": "May 15 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "May 21 2022, 0:00",
-                "end": "May 22 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "May 28 2022, 0:00",
-                "end": "May 29 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "May 7 2022, 0:00",
-                "end": "June 3 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
             "June Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -582,91 +568,54 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Blend-S Event Starlight Stone Set",
-                "start": "May 17 2022, 17:00",
-                "end": "May 31 2022, 15:59"
-            },
-            {
                 "name": "Haunted Bridal Item & Starlight Stone Sets",
                 "start": "May 31 2022, 17:00",
                 "end": "June 14 2022, 15:59"
             },
             {
-                "name": "Past Limited-time Bridal Random 5* Summon Ticket",
-                "start": "May 31 2022, 17:00",
-                "end": "June 7 2022, 23:59"
+                "name": "RPG Fudousan Event Item & Starlight Stone Sets",
+                "start": "June 14 2022, 17:00",
+                "end": "June 28 2022, 14:59"
+            },
+            {
+                "name": "KiraFan 39 (Thank You) Campaign Item & Starlight Stone Sets",
+                "start": "June 14 2022, 17:00",
+                "end": "June 21 2022, 23:59"
             }
         ]
     },
     {
         "type": "Other",
         "title": [
-            "Fall to Darkness Campaign",
-            "闇堕ちして来たキャンペーン"
+            "KiraFan 39 Campaign Login Bonus",
+            "きらファン39キャンペーンログインボーナス",
+            "Log in on 5 days to receive up to 390 Starlight Stones."
         ],
-        "image": "https://i.imgur.com/1j6Khxn.png",
+        "image": "lamp",
         "column": 2,
         "priority": 15,
         "timers": [
             {
-                "name": "5★ Yoshida Yuko Gift Period",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59"
-            },
-            {
-                "name": "Special Missions",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59"
-            },
-            {
-                "name": "Demon Lord Weapon Exchange Period",
-                "start": "May 17 2022, 17:00",
-                "end": "May 30 2022, 23:59"
-            },
-            {
-                "name": "Item & Starlight Stone Bundles",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59"
-            },
-            {
-                "name": "Summon Ticket Expiration",
-                "start": "May 17 2022, 17:00",
-                "end": "May 30 2022, 23:59"
+                "name": "Period",
+                "start": "June 14 2022, 17:00",
+                "end": "June 21 2022, 23:59"
             }
         ]
     },
     {
-        "type": "Other",
+        "type": "Mission",
         "title": [
-            "Gakkou Gurashi! 10 Years Campaign",
-            "がっこうぐらし！10周年キャンペーン"
+            "KiraFan 39 (Thank You) Campaign Special Missions",
+            "きらファン39キャンペーン期間限定特別ミッション"
         ],
-        "image": [
-            "https://i.imgur.com/oegtM7y.png",
-            "https://i.imgur.com/q7eqoCw.png"
-        ],
-        "column": 2,
-        "priority": 15,
+        "image": "match",
+        "column": 0,
+        "priority": 30,
         "timers": [
             {
-                "name": "Special Missions",
-                "start": "May 24 2022, 0:00",
-                "end": "May 31 2022, 23:59"
-            },
-            {
-                "name": "Exchange Shop Sets",
-                "start": "May 24 2022, 0:00",
-                "end": "May 31 2022, 23:59"
-            },
-            {
-                "name": "Item & Starlight Stone Bundles",
-                "start": "May 24 2022, 0:00",
-                "end": "May 31 2022, 15:59"
-            },
-            {
-                "name": "Summon Ticket Expiration",
-                "start": "May 24 2022, 0:00",
-                "end": "June 7 2022, 23:59"
+                "name": "Period",
+                "start": "June 14 2022, 17:00",
+                "end": "June 21 2022, 23:59"
             }
         ]
     }
