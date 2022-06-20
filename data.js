@@ -172,66 +172,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Past Bridal Step-up Summon",
-            "期間限定ブライダル復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Kon [Bridal], 5★ Ruki [Bridal], 5★ Kohane [Bridal], 5★ Sesame [Bridal]",
-                "start": "May 31 2022, 17:00",
-                "end": "June 7 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Haunted Bridal Summon",
-            "ホーンテッド・ブライダル期間限定ピックアップ召喚",
-            "Bridal Event 2022 Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/kr9G4qK.png",
-            "https://i.imgur.com/NEU30II.png",
-            "https://i.imgur.com/9JxGj2P.png",
-            "https://i.imgur.com/qfi1Mfp.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Kanata [Bridal], 5★ Clea [Bridal]",
-                        "time": "May 31 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Haruka [Bridal], 5★ Hanako [Bridal]",
-                        "time": "May 31 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Looking for a Job and a House Summon",
             "お仕事探しとおうち探しピックアップ召喚",
             "RPG Fudousan Event Summon"
@@ -327,6 +267,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Limited-time Past Tanabata Step-up Summon",
+            "期間限定七夕復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Ena [Tanabata], 5★ Tsubasa [Tanabata], 5★ Kyouju [Tanabata], 5★ Lamp [Tanabata]",
+                "start": "June 22 2022, 0:00",
+                "end": "June 29 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 22 2022, 0:00",
+                "end": "July 6 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Carat Paid Summon + Choosable 5★ Summon Ticket",
+            "きららキャラット期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "June 22 2022, 0:00",
+                "end": "June 28 2022, 14:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 22 2022, 0:00",
+                "end": "July 5 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Summon - 39 Limited Edition",
             "1日1回オールスターきらきら召喚",
             "390 Paid Gems once per day for 3 summons, all 5* + All-Stars Ticket Fragment"
@@ -370,6 +358,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period & Ticket Piece Exchange: Featuring past Tanabata characters",
+                "start": "June 22 2022, 0:00",
+                "end": "June 29 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 22 2022, 0:00",
+                "end": "July 6 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Mixed Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
             "期間限定ミックス復刻★5選べるチケット付き！有償限定10回召喚",
             "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x Voucher"
@@ -400,30 +412,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "May 31 2022, 17:00",
                 "end": "June 21 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Piece Exchange: Featuring past Bridal characters",
-                "start": "May 31 2022, 17:00",
-                "end": "June 7 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 23:59"
             }
         ]
     },
@@ -568,11 +556,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Haunted Bridal Item & Starlight Stone Sets",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 15:59"
-            },
-            {
                 "name": "RPG Fudousan Event Item & Starlight Stone Sets",
                 "start": "June 14 2022, 17:00",
                 "end": "June 28 2022, 14:59"
@@ -581,6 +564,11 @@ var timerData = [
                 "name": "KiraFan 39 (Thank You) Campaign Item & Starlight Stone Sets",
                 "start": "June 14 2022, 17:00",
                 "end": "June 21 2022, 23:59"
+            },
+            {
+                "name": "Past Tanabata Random 5* Summon Ticket",
+                "start": "June 22 2022, 0:00",
+                "end": "June 29 2022, 23:59"
             }
         ]
     },
