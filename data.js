@@ -38,73 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Haunted Bridal",
-            "ホーンテッド・ブライダル",
-            "Bridal Event 2022"
-        ],
-        "image": [
-            "https://i.imgur.com/kr9G4qK.png",
-            "https://i.imgur.com/NEU30II.png",
-            "https://i.imgur.com/9JxGj2P.png",
-            "https://i.imgur.com/qfi1Mfp.png",
-            "https://i.imgur.com/6lUfknn.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "June 4 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "June 2 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "June 9 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "June 10 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "June 11 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "June 12 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "May 31 2022, 17:00",
-                "end": "June 21 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Looking for a Job and a House",
             "お仕事探しとおうち探し",
             "RPG Fudousan Event"
@@ -170,6 +103,73 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Tanabata's Parting Star",
+            "七夕のわかれ星",
+            "Tanabata 2022 Event"
+        ],
+        "image": [
+            "https://i.imgur.com/QWVV6C0.png",
+            "https://i.imgur.com/KCtcSql.png",
+            "https://i.imgur.com/qBZ3vMx.png",
+            "https://i.imgur.com/UmxCNwm.png",
+            "https://i.imgur.com/LDnMVby.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "June 28 2022, 17:00",
+                "end": "July 12 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "July 2 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "June 30 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "July 7 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "July 8 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "July 9 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "July 10 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "June 28 2022, 17:00",
+                "end": "July 12 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "June 28 2022, 17:00",
+                "end": "July 19 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Looking for a Job and a House Summon",
@@ -199,6 +199,42 @@ var timerData = [
                         "title": "Kotone Side",
                         "desc": "Featuring 5★ Kazairo Kotone, 4★ Rufuria, 4★ Rakira",
                         "time": "June 14 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Tanabata's Parting Star Summon",
+            "七夕のわかれ星期間限定ピックアップ召喚",
+            "Tanabata 2022 Event Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/QWVV6C0.png",
+            "https://i.imgur.com/KCtcSql.png",
+            "https://i.imgur.com/qBZ3vMx.png",
+            "https://i.imgur.com/UmxCNwm.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "June 28 2022, 17:00",
+                "end": "July 12 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1",
+                        "desc": "Featuring 5★ Ao [Tanabata], 5★ Saori [Tanabata]",
+                        "time": "June 28 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 2",
+                        "desc": "Featuring 5★ Uki [Tanabata], 5★ Cork [Tanabata]",
+                        "time": "June 28 2022, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -380,42 +416,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
-        "title": [
-            "Mixed Past Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定ミックス復刻★5選べるチケット付き！有償限定10回召喚",
-            "600 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half: Featuring past Tanabata, Hot Springs, Bridal characters",
-                "start": "May 31 2022, 17:00",
-                "end": "June 7 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half: Featuring past Tanabata, Hot Springs, Bridal characters",
-                "start": "June 8 2022, 0:00",
-                "end": "June 14 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Voucher Exchange",
-                "start": "May 31 2022, 17:00",
-                "end": "June 14 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "May 31 2022, 17:00",
-                "end": "June 21 2022, 23:59"
-            }
-        ]
-    },
-    {
         type: "LoginDays",
         title: [
             "RPG Fudousan participation Login Bonus",
@@ -561,23 +561,28 @@ var timerData = [
                 "end": "June 28 2022, 14:59"
             },
             {
-                "name": "KiraFan 39 (Thank You) Campaign Item & Starlight Stone Sets",
-                "start": "June 14 2022, 17:00",
-                "end": "June 21 2022, 23:59"
-            },
-            {
                 "name": "Past Tanabata Random 5* Summon Ticket",
                 "start": "June 22 2022, 0:00",
                 "end": "June 29 2022, 23:59"
+            },
+            {
+                "name": "Tanabata Event Item & Starlight Stone Sets",
+                "start": "June 28 2022, 17:00",
+                "end": "July 12 2022, 15:59"
+            },
+            {
+                "name": "Summer Festa 2022 Starlight Stone Sets",
+                "start": "June 28 2022, 17:00",
+                "end": "July 3 2022, 23:59"
             }
         ]
     },
     {
         "type": "Other",
         "title": [
-            "KiraFan 39 Campaign Login Bonus",
-            "きらファン39キャンペーンログインボーナス",
-            "Log in on 5 days to receive up to 390 Starlight Stones."
+            "Summer Festa 2022 Login Bonus",
+            "サマーフェスタ2022記念ログインボーナス",
+            "Log in everyday to receive up to 6 Summon Tickets."
         ],
         "image": "lamp",
         "column": 2,
@@ -585,25 +590,41 @@ var timerData = [
         "timers": [
             {
                 "name": "Period",
-                "start": "June 14 2022, 17:00",
-                "end": "June 21 2022, 23:59"
+                "start": "June 28 2022, 17:00",
+                "end": "July 3 2022, 23:59"
             }
         ]
     },
-    {
-        "type": "Mission",
+     {
+        "type": "Gacha",
         "title": [
-            "KiraFan 39 (Thank You) Campaign Special Missions",
-            "きらファン39キャンペーン期間限定特別ミッション"
+            "Summer Festa 2022 Paid Summon + Choosable 5★ Summon Ticket",
+            "サマーフェスタ2022★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Stones for a 10x Summon + Summer Festa 2022 Choosable 5★ Summon Ticket + Summer Festa 2022 Voucher"
         ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
         "timers": [
             {
-                "name": "Period",
-                "start": "June 14 2022, 17:00",
-                "end": "June 21 2022, 23:59"
+                "name": "First Half",
+                "start": "June 28 2022, 17:00",
+                "end": "June 30 2022, 23:59"
+            },
+            {
+                "name": "Second Half",
+                "start": "July 1 2022, 0:00",
+                "end": "July 3 2022, 23:59"
+            },
+            {
+                "name": "Voucher Exchange Period",
+                "start": "June 28 2022, 17:00",
+                "end": "July 3 2022, 23:59"
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "June 28 2022, 17:00",
+                "end": "July 10 2022, 23:59"
             }
         ]
     }
