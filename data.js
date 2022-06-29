@@ -172,42 +172,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Looking for a Job and a House Summon",
-            "お仕事探しとおうち探しピックアップ召喚",
-            "RPG Fudousan Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/7f6sQwb.png",
-            "https://i.imgur.com/mY0n4lr.png",
-            "https://i.imgur.com/8maE1KO.png",
-            "https://i.imgur.com/YTjoUnb.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 14:59",
-                "banners": [
-                    {
-                        "title": "Ino-Senpai Side",
-                        "desc": "Featuring 5★ Inose Mai, 4★ Manaka Ao",
-                        "time": "June 14 2022, 17:00"
-                    },
-                    {
-                        "title": "Kotone Side",
-                        "desc": "Featuring 5★ Kazairo Kotone, 4★ Rufuria, 4★ Rakira",
-                        "time": "June 14 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Tanabata's Parting Star Summon",
             "七夕のわかれ星期間限定ピックアップ召喚",
             "Tanabata 2022 Event Summon"
@@ -244,59 +208,18 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "All Stars Paid Summon + Choosable 5★ Summon Ticket",
-            "オールスター★5選べるチケット付き！有償限定10回召喚",
-            "390 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket"
+            "Summer Camp△ Limited-time Summon",
+            "さまキャン△期間限定ピックアップ召喚"
         ],
-        "image": "clea",
+        "image": "https://i.imgur.com/VwHurrx.png",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "June 14 2022, 17:00",
-                "end": "June 21 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Rin [Adult Version]",
+                "start": "July 1 2022, 0:00",
+                "end": "July 8 2022, 23:59",
                 "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Paid Summon + Choosable 5★ Summon Ticket",
-            "★5選べるチケット付き！有償限定10回召喚",
-            "390 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + 1x KiraFan 39 Campaign Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "June 14 2022, 17:00",
-                "end": "June 17 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "June 18 2022, 0:00",
-                "end": "June 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Voucher Exchange",
-                "start": "June 14 2022, 17:00",
-                "end": "June 21 2022, 23:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 23:59"
             }
         ]
     },
@@ -369,25 +292,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 15 2022, 0:00",
                 "end": "June 30 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Mira [Valentine], 5★ Ao [White Day], 5★ Leine [Hot Springs], 4★ Tooru [Swimsuit], 4★ Run [Christmas], 4★ Momiji [New Year], 4★ Tsubame [Valentine], 4★ Maika [Doll's Festival]",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 14:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -546,6 +450,51 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "July Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/VY0qyap.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "July 2 2022, 0:00",
+                "end": "July 3 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "July 9 2022, 0:00",
+                "end": "July 10 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "July 16 2022, 0:00",
+                "end": "July 17 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "July 23 2022, 0:00",
+                "end": "July 24 2022, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "July 30 2022, 0:00",
+                "end": "July 31 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "July 2 2022, 0:00",
+                "end": "August 5 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -555,11 +504,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "RPG Fudousan Event Item & Starlight Stone Sets",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 14:59"
-            },
             {
                 "name": "Past Tanabata Random 5* Summon Ticket",
                 "start": "June 22 2022, 0:00",
@@ -574,6 +518,11 @@ var timerData = [
                 "name": "Summer Festa 2022 Starlight Stone Sets",
                 "start": "June 28 2022, 17:00",
                 "end": "July 3 2022, 23:59"
+            },
+            {
+                "name": "Summer Camp△ Campaign Item & Starlight Stone Sets",
+                "start": "July 1 2022, 0:00",
+                "end": "July 8 2022, 23:59"
             }
         ]
     },
@@ -625,6 +574,40 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 28 2022, 17:00",
                 "end": "July 10 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Summer Camp△ Special Missions",
+            "さまキャン△期間限定特別ミッション"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 1 2022, 0:00",
+                "end": "July 8 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Author Quest \"OutClub and the Roar of Steel\" Half Stamina Campaign",
+            "作家クエスト「野クルと鋼鉄の咆哮」スタミナ半減キャンペーン"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 14,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 1 2022, 0:00",
+                "end": "July 8 2022, 23:59"
             }
         ]
     }
