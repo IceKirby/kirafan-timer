@@ -250,6 +250,54 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Main Quest Part 2 Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 5 2022, 0:00",
+                "end": "July 12 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 5 2022, 0:00",
+                "end": "July 19 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Limited-time Step-up Summon",
+            "きららファンタジア第2部限定復刻おまけ付き10回召喚",
+            "Random 5★ Summon Ticket on the 7th step"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "July 5 2022, 0:00",
+                "end": "July 12 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 5 2022, 0:00",
+                "end": "July 19 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara Carat Paid Summon + Choosable 5★ Summon Ticket",
             "きららキャラット期間限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -268,30 +316,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "June 22 2022, 0:00",
                 "end": "July 5 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Summon - 39 Limited Edition",
-            "1日1回オールスターきらきら召喚",
-            "390 Paid Gems once per day for 3 summons, all 5* + All-Stars Ticket Fragment"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Fragment Exchange",
-                "start": "June 15 2022, 0:00",
-                "end": "June 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 15 2022, 0:00",
-                "end": "June 30 2022, 23:59"
             }
         ]
     },
@@ -334,56 +358,6 @@ var timerData = [
                 name: "Episode 2",
                 date: "April 13 2022",
                 days: 2
-            },
-            {
-                name: "Episode 3",
-                date: "April 20 2022",
-                days: 2
-            },
-            {
-                name: "Episode 4",
-                date: "April 27 2022",
-                days: 2
-            },
-            {
-                name: "Episode 5",
-                date: "May 4 2022",
-                days: 2
-            },
-            {
-                name: "Episode 6",
-                date: "May 11 2022",
-                days: 2
-            },
-            {
-                name: "Episode 7",
-                date: "May 18 2022",
-                days: 2
-            },
-            {
-                name: "Episode 8",
-                date: "May 25 2022",
-                days: 2
-            },
-            {
-                name: "Episode 9",
-                date: "June 1 2022",
-                days: 2
-            },
-            {
-                name: "Episode 10",
-                date: "June 8 2022",
-                days: 2
-            },
-            {
-                name: "Episode 11",
-                date: "June 15 2022",
-                days: 2
-            },
-            {
-                name: "Episode 12",
-                date: "June 22 2022",
-                days: 2
             }
         ]
     },
@@ -399,53 +373,13 @@ var timerData = [
         timers: [
             {
                 name: "Part 2 (Chapters 1~7)",
-                "start": "May 17 2022, 17:00",
-                "end": "May 23 2022, 23:59"
+                "start": "July 5 2022, 0:00",
+                "end": "July 12 2022, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Prologue)",
                 "start": "May 24 2022, 0:00",
                 "end": "May 31 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "June Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/ZxtzQYc.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "June 4 2022, 0:00",
-                "end": "June 5 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "June 11 2022, 0:00",
-                "end": "June 12 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "June 18 2022, 0:00",
-                "end": "June 19 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "June 25 2022, 0:00",
-                "end": "June 26 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "June 4 2022, 0:00",
-                "end": "July 1 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
@@ -504,11 +438,6 @@ var timerData = [
         "column": 2,
         "priority": 12,
         "timers": [
-            {
-                "name": "Past Tanabata Random 5* Summon Ticket",
-                "start": "June 22 2022, 0:00",
-                "end": "June 29 2022, 23:59"
-            },
             {
                 "name": "Tanabata Event Item & Starlight Stone Sets",
                 "start": "June 28 2022, 17:00",
