@@ -38,73 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Looking for a Job and a House",
-            "お仕事探しとおうち探し",
-            "RPG Fudousan Event"
-        ],
-        "image": [
-            "https://i.imgur.com/7f6sQwb.png",
-            "https://i.imgur.com/mY0n4lr.png",
-            "https://i.imgur.com/8maE1KO.png",
-            "https://i.imgur.com/YTjoUnb.png",
-            "https://i.imgur.com/DLUGcsx.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 14:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "June 18 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "June 16 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "June 23 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "June 24 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "June 25 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "June 26 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "June 14 2022, 17:00",
-                "end": "June 28 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "June 14 2022, 17:00",
-                "end": "July 5 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Tanabata's Parting Star",
             "七夕のわかれ星",
             "Tanabata 2022 Event"
@@ -298,6 +231,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara's Birthday Celebration Paid Summon + Choosable 5★ Summon Ticket",
+            "きららお誕生日記念★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 5x Choosable 5★ Summon Ticket + 1x Kirara's Birthday User Title Medal"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Kirara [Manga ver.], 5★ Kirara [Cross Chara]",
+                "start": "July 7 2022, 0:00",
+                "end": "July 9 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 7 2022, 0:00",
+                "end": "July 16 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Kirara Carat Paid Summon + Choosable 5★ Summon Ticket",
             "きららキャラット期間限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -444,36 +401,18 @@ var timerData = [
                 "end": "July 12 2022, 15:59"
             },
             {
-                "name": "Summer Festa 2022 Starlight Stone Sets",
-                "start": "June 28 2022, 17:00",
-                "end": "July 3 2022, 23:59"
-            },
-            {
                 "name": "Summer Camp△ Campaign Item & Starlight Stone Sets",
                 "start": "July 1 2022, 0:00",
                 "end": "July 8 2022, 23:59"
+            },
+            {
+                "name": "Kirara's Birthday Item & Starlight Stone Sets",
+                "start": "July 7 2022, 0:00",
+                "end": "July 9 2022, 23:59"
             }
         ]
     },
     {
-        "type": "Other",
-        "title": [
-            "Summer Festa 2022 Login Bonus",
-            "サマーフェスタ2022記念ログインボーナス",
-            "Log in everyday to receive up to 6 Summon Tickets."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "June 28 2022, 17:00",
-                "end": "July 3 2022, 23:59"
-            }
-        ]
-    },
-     {
         "type": "Gacha",
         "title": [
             "Summer Festa 2022 Paid Summon + Choosable 5★ Summon Ticket",
@@ -537,6 +476,24 @@ var timerData = [
                 "name": "Period",
                 "start": "July 1 2022, 0:00",
                 "end": "July 8 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Kirara's Birthday Celebration Login Bonus",
+            "きららお誕生日記念ログインボーナス",
+            "Log in on each day to receive various items."
+        ],
+        "image": "kirara",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 7 2022, 0:00",
+                "end": "July 9 2022, 23:59"
             }
         ]
     }
