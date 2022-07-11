@@ -102,6 +102,23 @@ var timerData = [
         ]
     },
     {
+        "type": "Mission",
+        "title": [
+            "Main Quest Part 2 Chapter 8 Missions",
+            "メインクエスト第2部8章&最終章追加記念 期間限定ミッション"
+        ],
+        "image": "match",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "July 12 2022, 17:00",
+                "end": "July 27 2022, 23:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Tanabata's Parting Star Summon",
@@ -140,42 +157,45 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Summer Camp△ Limited-time Summon",
-            "さまキャン△期間限定ピックアップ召喚"
+            "Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア断ち切られし絆第2部限定ピックアップ召喚"
         ],
-        "image": "https://i.imgur.com/VwHurrx.png",
+        "image": [
+            "https://i.imgur.com/98KF03s.png",
+            "https://i.imgur.com/HNnlgOI.png",
+            "https://i.imgur.com/VlNKwEP.png",
+            "https://i.imgur.com/dBtLGdM.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Rin [Adult Version]",
-                "start": "July 1 2022, 0:00",
-                "end": "July 8 2022, 23:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Past Tanabata Step-up Summon",
-            "期間限定七夕復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Ena [Tanabata], 5★ Tsubasa [Tanabata], 5★ Kyouju [Tanabata], 5★ Lamp [Tanabata]",
-                "start": "June 22 2022, 0:00",
-                "end": "June 29 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 22 2022, 0:00",
-                "end": "July 6 2022, 23:59"
+                "name": "Summon Period",
+                "start": "July 12 2022, 17:00",
+                "end": "July 27 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Kirara side",
+                        "desc": "Featuring 5★ Kirara [Part 2]",
+                        "time": "July 12 2022, 17:00"
+                    },
+                    {
+                        "title": "Kaos side",
+                        "desc": "Featuring 5★ Kaos [Part 2]",
+                        "time": "July 12 2022, 17:00"
+                    },
+                    {
+                        "title": "Amisawa side",
+                        "desc": "Featuring 5★ Amisawa [Part 2]",
+                        "time": "July 12 2022, 17:00"
+                    },
+                    {
+                        "title": "Sesame side",
+                        "desc": "Featuring 5★ Sesame [Part 2]",
+                        "time": "July 12 2022, 17:00"
+                    }
+                ],
+                "extraPriority": 6
             }
         ]
     },
@@ -254,9 +274,57 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Kirara Carat Paid Summon + Choosable 5★ Summon Ticket",
-            "きららキャラット期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "Comic Girls Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "こみっくがーるず期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Kaos [Swimsuit], 5★ Kaos [Christmas], 5★ Koyume [Swimsuit], 5★ Ruki [Bridal], 5★ Tsubasa [Tanabata], 5★ Fuura [Hot Springs]",
+                "start": "July 12 2022, 17:00",
+                "end": "July 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 12 2022, 17:00",
+                "end": "July 26 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Head Priest & Seven Sages Paid Summon + Choosable 5★ Summon Ticket",
+            "筆頭神官＆七賢者限定★5選べるチケット付き！有償限定10回召喚",
+            "600 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Archive, 5★ Sugar, 5★ Sesame, 5★ Cardamom, 5★ Salt, 5★ Ginger, 5★ Fennel, 5★ Hakka",
+                "start": "July 12 2022, 17:00",
+                "end": "July 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 12 2022, 17:00",
+                "end": "July 26 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Kirara Fantasia Limited-time Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア期間限定★5確定チケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + 2x Random 5★ Summon Ticket"
         ],
         "image": "clea",
         "column": 1,
@@ -264,38 +332,14 @@ var timerData = [
         "timers": [
             {
                 "name": "Summon Period",
-                "start": "June 22 2022, 0:00",
-                "end": "June 28 2022, 14:59",
+                "start": "July 12 2022, 17:00",
+                "end": "July 19 2022, 23:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "June 22 2022, 0:00",
-                "end": "July 5 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period & Ticket Piece Exchange: Featuring past Tanabata characters",
-                "start": "June 22 2022, 0:00",
-                "end": "June 29 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 22 2022, 0:00",
-                "end": "July 6 2022, 23:59"
+                "start": "July 12 2022, 17:00",
+                "end": "July 26 2022, 23:59"
             }
         ]
     },
@@ -333,9 +377,9 @@ var timerData = [
                 "end": "July 12 2022, 15:59"
             },
             {
-                name: "Part 1 (Chapters 1~Prologue)",
-                "start": "May 24 2022, 0:00",
-                "end": "May 31 2022, 15:59"
+                name: "Part 1 (Chapters 1~Epilogue)",
+                "start": "July 12 2022, 17:00",
+                "end": "July 27 2022, 15:59"
             }
         ]
     },
@@ -400,99 +444,9 @@ var timerData = [
                 "end": "July 12 2022, 15:59"
             },
             {
-                "name": "Summer Camp△ Campaign Item & Starlight Stone Sets",
-                "start": "July 1 2022, 0:00",
-                "end": "July 8 2022, 23:59"
-            },
-            {
-                "name": "Kirara's Birthday Item & Starlight Stone Sets",
-                "start": "July 7 2022, 0:00",
-                "end": "July 9 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Summer Festa 2022 Paid Summon + Choosable 5★ Summon Ticket",
-            "サマーフェスタ2022★5選べるチケット付き！有償限定10回召喚",
-            "400 Paid Stones for a 10x Summon + Summer Festa 2022 Choosable 5★ Summon Ticket + Summer Festa 2022 Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "June 28 2022, 17:00",
-                "end": "June 30 2022, 23:59"
-            },
-            {
-                "name": "Second Half",
-                "start": "July 1 2022, 0:00",
-                "end": "July 3 2022, 23:59"
-            },
-            {
-                "name": "Voucher Exchange Period",
-                "start": "June 28 2022, 17:00",
-                "end": "July 3 2022, 23:59"
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "June 28 2022, 17:00",
-                "end": "July 10 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Summer Camp△ Special Missions",
-            "さまキャン△期間限定特別ミッション"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 1 2022, 0:00",
-                "end": "July 8 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Author Quest \"OutClub and the Roar of Steel\" Half Stamina Campaign",
-            "作家クエスト「野クルと鋼鉄の咆哮」スタミナ半減キャンペーン"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 14,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 1 2022, 0:00",
-                "end": "July 8 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Kirara's Birthday Celebration Login Bonus",
-            "きららお誕生日記念ログインボーナス",
-            "Log in on each day to receive various items."
-        ],
-        "image": "kirara",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 7 2022, 0:00",
-                "end": "July 9 2022, 23:59"
+                "name": "Main Quest Part 2 Chapter 8 Item & Starlight Stone Sets",
+                "start": "July 12 2022, 0:00",
+                "end": "July 27 2022, 15:59"
             }
         ]
     }
