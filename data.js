@@ -119,38 +119,67 @@ var timerData = [
         ]
     },
     {
-        "type": "Gacha",
+        "type": "Other",
         "title": [
-            "Tanabata's Parting Star Summon",
-            "七夕のわかれ星期間限定ピックアップ召喚",
-            "Tanabata 2022 Event Summon"
+            "KiraFan Summer Memory Campaign",
+            "きらファンサマーメモリーキャンペーン"
         ],
-        "image": [
-            "https://i.imgur.com/QWVV6C0.png",
-            "https://i.imgur.com/KCtcSql.png",
-            "https://i.imgur.com/qBZ3vMx.png",
-            "https://i.imgur.com/UmxCNwm.png"
-        ],
-        "column": 1,
-        "priority": 21,
+        "image": "kirara",
+        "column": 0,
+        "priority": 30,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "June 28 2022, 17:00",
-                "end": "July 12 2022, 15:59",
-                "banners": [
+                "name": "Daily Missions",
+                "start": "July 16 2022, 0:00",
+                "end": "September 9 2022, 23:59",
+                "extraPriority": 2
+            },
+            {
+                "name": "Summer Memory Quest",
+                "start": "July 16 2022, 0:00",
+                "end": "August 3 2022, 23:59",
+                "markers": [
                     {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Ao [Tanabata], 5★ Saori [Tanabata]",
-                        "time": "June 28 2022, 17:00"
+                        "title": "Otohime",
+                        "time": "July 16 2022, 0:00",
+                        "type": "battle"
                     },
                     {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Uki [Tanabata], 5★ Cork [Tanabata]",
-                        "time": "June 28 2022, 17:00"
+                        "title": "Locco & Lotte",
+                        "time": "July 20 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Angalga & Summer Sweets Golem",
+                        "time": "July 24 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Pirate's Henchman & Nowhere's Pierrot",
+                        "time": "July 27 2022, 17:00",
+                        "type": "battle"
                     }
-                ],
-                "extraPriority": 6
+                ]
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 16 2022, 0:00",
+                "end": "September 16 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "July 16 2022, 0:00",
+                "end": "August 10 2022, 13:59"
+            },
+            {
+                "name": "Twitter Campaign Retweets Goal + Extra Reward",
+                "start": "July 27 2022, 17:00",
+                "end": "July 28 2022, 23:59"
+            },
+            {
+                "name": "Twitter Campaign Likes Goal Reward",
+                "start": "August 10 2022, 17:00",
+                "end": "August 11 2022, 23:59"
             }
         ]
     },
@@ -344,6 +373,30 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Past 2017~2018 Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定2017・2018復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 5x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Part 1: Featuring Limited-time characters released in 2017~2018",
+                "start": "July 16 2022, 0:00",
+                "end": "July 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 16 2022, 0:00",
+                "end": "July 26 2022, 23:59"
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "RPG Fudousan participation Login Bonus",
@@ -439,13 +492,28 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Tanabata Event Item & Starlight Stone Sets",
-                "start": "June 28 2022, 17:00",
-                "end": "July 12 2022, 15:59"
-            },
-            {
                 "name": "Main Quest Part 2 Chapter 8 Item & Starlight Stone Sets",
                 "start": "July 12 2022, 0:00",
+                "end": "July 27 2022, 15:59"
+            },
+            {
+                "name": "Summer Memory Starlight Stone Set",
+                "start": "July 16 2022, 0:00",
+                "end": "July 27 2022, 15:59"
+            },
+            {
+                "name": "Summer Memory 5* Summon Set A & B",
+                "start": "July 16 2022, 0:00",
+                "end": "July 19 2022, 23:59"
+            },
+            {
+                "name": "Summer Memory 5* Summon Set C",
+                "start": "July 20 2022, 0:00",
+                "end": "July 23 2022, 23:59"
+            },
+            {
+                "name": "Summer Memory 5* Summon Set D",
+                "start": "July 24 2022, 0:00",
                 "end": "July 27 2022, 15:59"
             }
         ]
