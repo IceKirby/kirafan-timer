@@ -421,6 +421,30 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Past 2020 Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定2020復刻★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 5x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring Limited-time characters released in 2020",
+                "start": "July 24 2022, 0:00",
+                "end": "July 27 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "July 24 2022, 0:00",
+                "end": "August 3 2022, 23:59"
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
             "RPG Fudousan participation Login Bonus",
