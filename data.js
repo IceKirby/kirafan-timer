@@ -288,7 +288,7 @@ var timerData = [
         "title": [
             "Limited-time Special Deluxe Summon",
             "期間限定スペシャルデラックス召喚",
-            "1200 Paid Gems for a 10x 5* Summon + 5x Heart-throbbing 5* Summon Tickets"
+            "1200 Paid Gems for a 10x 5* Summon + 3x Heart-throbbing 5* Summon Tickets"
         ],
         "image": "clea",
         "column": 1,
@@ -308,6 +308,24 @@ var timerData = [
                         "title": "Part 2: Featuring characters from Manga Time MAX, Forward and Kirara Fantasia",
                         "desc": "",
                         "time": "August 3 2022, 0:00"
+                    }
+                ],
+                "extraPriority": 4
+            },
+            {
+                "name": "Summon Period Encore",
+                "start": "August 7 2022, 0:00",
+                "end": "August 10 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Part 1: Featuring characters from Manga Time Kirara, Miracle and Carat",
+                        "desc": "",
+                        "time": "August 7 2022, 0:00",
+                    },
+                    {
+                        "title": "Part 2: Featuring characters from Manga Time MAX, Forward and Kirara Fantasia",
+                        "desc": "",
+                        "time": "August 7 2022, 0:00",
                     }
                 ],
                 "extraPriority": 4
