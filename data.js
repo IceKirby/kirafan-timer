@@ -38,6 +38,79 @@ var timerData = [
     {
         "type": "Event",
         "title": [
+            "Beach Shark Panic",
+            "ビーチシャークパニック",
+            "Swimsuit 2022 Event 2"
+        ],
+        "image": [
+            "https://i.imgur.com/vM8YbCb.png",
+            "https://i.imgur.com/WOBBp7N.png",
+            "https://i.imgur.com/hjSF34s.png",
+            "https://i.imgur.com/H7kQbXZ.png",
+            "https://i.imgur.com/RD2shlE.png",
+            "https://i.imgur.com/GuM2lt7.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 10 2022, 17:00",
+                "end": "August 25 2022, 14:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "August 14 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "August 12 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Super EX Quest",
+                        "time": "August 17 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "August 19 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "August 20 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "August 21 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "August 22 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "August 10 2022, 17:00",
+                "end": "August 25 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 10 2022, 17:00",
+                "end": "September 1 2022, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
             "Midsummer's Etowaria Fes",
             "真夏のエトワリアフェス",
             "Swimsuit 2022 Event"
@@ -171,7 +244,7 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Midsummer's Etowaria Fes Summon",
+            "Swimsuit 2022 Limited-time Summon",
             "期間限定2022水着キャラクターピックアップ召喚",
             "Swimsuit 2022 Event Summon"
         ],
@@ -180,7 +253,12 @@ var timerData = [
             "https://i.imgur.com/pesnGNF.png",
             "https://i.imgur.com/Zb0gGYI.png",
             "https://i.imgur.com/fDBfrCn.png",
-            "https://i.imgur.com/XBMQ6Bf.png"
+            "https://i.imgur.com/XBMQ6Bf.png",
+            "https://i.imgur.com/vM8YbCb.png",
+            "https://i.imgur.com/WOBBp7N.png",
+            "https://i.imgur.com/hjSF34s.png",
+            "https://i.imgur.com/H7kQbXZ.png",
+            "https://i.imgur.com/RD2shlE.png"
         ],
         "column": 1,
         "priority": 21,
@@ -199,6 +277,16 @@ var timerData = [
                         "title": "Part 2",
                         "desc": "Featuring 5★ Hayu [Swimsuit], 5★ Fa [Swimsuit]",
                         "time": "July 27 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 3",
+                        "desc": "Featuring 5★ Shiina [Swimsuit], 5★ Tamate [Swimsuit], 5★ Utsutsu [Swimsuit]",
+                        "time": "August 10 2022, 17:00"
+                    },
+                    {
+                        "title": "Part 4",
+                        "desc": "Featuring 5★ Rize [Swimsuit], 5★ Kisaragi [Swimsuit]",
+                        "time": "August 10 2022, 17:00"
                     }
                 ],
                 "extraPriority": 6
@@ -280,6 +368,66 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "July 27 2022, 17:00",
                 "end": "August 9 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Paid Summon + Choosable 5★ Summon Ticket",
+            "★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x Summer Vacation Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "August 10 2022, 17:00",
+                "end": "August 17 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "August 18 2022, 0:00",
+                "end": "August 25 2022, 14:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 10 2022, 17:00",
+                "end": "September 1 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x Extra Call Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "August 10 2022, 17:00",
+                "end": "August 17 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "August 18 2022, 0:00",
+                "end": "August 25 2022, 14:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 10 2022, 17:00",
+                "end": "September 1 2022, 23:59"
             }
         ]
     },
@@ -404,51 +552,6 @@ var timerData = [
     {
         "type": "WeekendBoss",
         "title": [
-            "July Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/VY0qyap.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "July 2 2022, 0:00",
-                "end": "July 3 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "July 9 2022, 0:00",
-                "end": "July 10 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "July 16 2022, 0:00",
-                "end": "July 17 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "July 23 2022, 0:00",
-                "end": "July 24 2022, 23:59"
-            },
-            {
-                "name": "Weekend 5",
-                "start": "July 30 2022, 0:00",
-                "end": "July 31 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "July 2 2022, 0:00",
-                "end": "August 5 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
             "August Boss Challenge",
             "Fight a boss every weekend",
             "Receive Challenge Medals"
@@ -520,24 +623,34 @@ var timerData = [
                 "name": "Summer Vacation Voucher Exchange",
                 "start": "August 6 2022, 0:00",
                 "end": "August 25 2022, 14:59"
+            },
+            {
+                "name": "Summer Vacation Campaign Item & Starlight Stone Sets C",
+                "start": "August 10 2022, 17:00",
+                "end": "August 25 2022, 14:59"
             }
         ]
     },
     {
         "type": "Other",
         "title": [
-            "Etowaria's Summer Vacation 2022 First Half Login Bonus",
-            "2022エトワリアの夏休み 前半 ログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones."
+            "Etowaria's Summer Vacation 2022 Login Bonus",
+            "2022エトワリアの夏休み ログインボーナス",
+            "Log in on 10 days to receive up to 200 Starlight Stones for each half."
         ],
         "image": "lamp",
         "column": 2,
         "priority": 15,
         "timers": [
             {
-                "name": "Period",
+                "name": "First Half",
                 "start": "July 27 2022, 17:00",
                 "end": "August 10 2022, 23:59"
+            },
+            {
+                "name": "Second Half",
+                "start": "August 10 2022, 17:00",
+                "end": "August 25 2022, 23:59"
             }
         ]
     },
