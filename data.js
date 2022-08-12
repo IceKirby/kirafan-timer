@@ -296,24 +296,48 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Past Swimsuit Step-up Summon",
-            "期間限定水着復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Super EX Quest Support Limited-time Summon",
+            "超高難易度クエスト応援期間限定ピックアップ召喚"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring past Swimsuit characters",
-                "start": "July 27 2022, 17:00",
-                "end": "August 3 2022, 23:59",
+                "name": "Summon Period: Featuring 5★ Chiya [Easter], 5★ Koume [Valentine], 5★ Ruki [Bridal], 5★ Hibari [Hot Springs]",
+                "start": "August 14 2022, 0:00",
+                "end": "August 25 2022, 14:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Super EX Quest Support Paid Summon + Choosable 5★ Summon Ticket",
+            "超高難易度クエスト応援★5選べるチケット付き！有償限定10回召喚",
+            "400 Paid Gems for a 10x Summon + Choosable 5★ Summon Ticket + Super EX Quest Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "August 14 2022, 0:00",
+                "end": "August 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "August 20 2022, 0:00",
+                "end": "August 25 2022, 14:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 23:59"
+                "start": "August 14 2022, 0:00",
+                "end": "September 1 2022, 23:59"
             }
         ]
     },
@@ -344,30 +368,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "July 27 2022, 17:00",
                 "end": "August 17 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "All Stars Paid Summon + Choosable 5★ Summon Ticket",
-            "オールスター★5選べるチケット付き！有償限定10回召喚",
-            "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 27 2022, 17:00",
-                "end": "August 2 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 27 2022, 17:00",
-                "end": "August 9 2022, 23:59"
             }
         ]
     },
@@ -428,79 +428,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 10 2022, 17:00",
                 "end": "September 1 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Limited-time Special Deluxe Summon",
-            "期間限定スペシャルデラックス召喚",
-            "1200 Paid Gems for a 10x 5* Summon + 3x Heart-throbbing 5* Summon Tickets"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "August 3 2022, 0:00",
-                "end": "August 6 2022, 23:59",
-                "banners": [
-                    {
-                        "title": "Part 1: Featuring characters from Manga Time Kirara, Miracle and Carat",
-                        "desc": "",
-                        "time": "August 3 2022, 0:00"
-                    },
-                    {
-                        "title": "Part 2: Featuring characters from Manga Time MAX, Forward and Kirara Fantasia",
-                        "desc": "",
-                        "time": "August 3 2022, 0:00"
-                    }
-                ],
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period Encore",
-                "start": "August 7 2022, 0:00",
-                "end": "August 10 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1: Featuring characters from Manga Time Kirara, Miracle and Carat",
-                        "desc": "",
-                        "time": "August 7 2022, 0:00",
-                    },
-                    {
-                        "title": "Part 2: Featuring characters from Manga Time MAX, Forward and Kirara Fantasia",
-                        "desc": "",
-                        "time": "August 7 2022, 0:00",
-                    }
-                ],
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring past Swimsuit characters",
-                "start": "July 27 2022, 17:00",
-                "end": "August 3 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 23:59"
             }
         ]
     },
@@ -605,16 +532,6 @@ var timerData = [
                 "end": "August 25 2022, 14:59"
             },
             {
-                "name": "Summer Vacation Campaign Item & Starlight Stone Sets B",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 15:59"
-            },
-            {
-                "name": "Summer Vacation 2022 Set",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 15:59"
-            },
-            {
                 "name": "1700 Days Celebration Starlight Stone Sets",
                 "start": "August 6 2022, 0:00",
                 "end": "August 19 2022, 23:59"
@@ -686,6 +603,34 @@ var timerData = [
                 "name": "Period",
                 "start": "August 6 2022, 0:00",
                 "end": "August 19 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Training Support Campaign",
+            "育成応援キャンペーン"
+        ],
+        "image": "leine",
+        "column": 0,
+        "priority": 30,
+        "timers": [
+            {
+                "name": "Quests Period",
+                "start": "August 14th 2022, 0:00",
+                "end": "August 25th 2022, 14:59",
+                "extraPriority": 2
+            },
+            {
+                "name": "Event Missions",
+                "start": "August 14th 2022, 0:00",
+                "end": "August 25th 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 14th 2022, 0:00",
+                "end": "September 1st 2022, 13:59"
             }
         ]
     },
