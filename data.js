@@ -177,6 +177,103 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "[Rerun] Kurumi in Wonderland",
+            "復刻・くるみインワンダーランド",
+            "Rerun of Kurumi 2018 Event"
+        ],
+        "image": ["https://i.imgur.com/wgnhxt2"],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "Melee Quest",
+                        "time": "August 27 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "September 1 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "September 2 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "September 3 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "September 4 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 25 2022, 17:00",
+                "end": "September 15 2022, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "[Rerun] Hibari, Rii-san and the Flower of Happiness",
+            "復刻・ヒバリとりーさんと幸福の花",
+            "Rerun of Hibari/Rii-san 2018 Event"
+        ],
+        "image": ["https://i.imgur.com/wgnhxt2"],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "August 29 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "August 27 2022, 17:00",
+                        "type": "battle"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "August 25 2022, 17:00",
+                "end": "September 15 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "KiraFan Summer Memory Campaign",
@@ -296,6 +393,24 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Anne Happy♪ Rerun Summon",
+            "新規キャラクターピックアップ召喚"
+        ],
+        "image": ["https://i.imgur.com/wgnhxt2"],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Sayama Tsubaki",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Super EX Quest Support Limited-time Summon",
             "超高難易度クエスト応援期間限定ピックアップ召喚"
         ],
@@ -338,36 +453,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 14 2022, 0:00",
                 "end": "September 1 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Limited-time Swimsuit Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定水着復刻★5選べるチケット付き！有償限定10回召喚",
-            "1000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "July 27 2022, 17:00",
-                "end": "August 3 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "August 4 2022, 0:00",
-                "end": "August 10 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "July 27 2022, 17:00",
-                "end": "August 17 2022, 23:59"
             }
         ]
     },
@@ -431,6 +516,86 @@ var timerData = [
             }
         ]
     },
+    
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Paid Summon + Random 5★ Summon Ticket",
+            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
+            "700 Paid Gems for a 10x Summon +2x Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Part 1: Featuring 5★ Amisawa [Part 2], 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Namiko-san [Part 2], 5★ Sesame [Part 2], 5★ Cardamom [Part 2], 5★ Kirara [Part 2], 5★ Utsutsu [Part 2]",
+                "start": "August 25 2022, 17:00",
+                "end": "September 1 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Part 2: Featuring 5★ Kaos [Part 2], 5★ Chino [Part 2], 5★ Lilith [Part 2], 5★ Lamp [Part 2], 5★ Fennel [Part 2], 5★ Hakka [Part 2], 5★ Media [Part 2]",
+                "start": "September 2 2022, 0:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "All-Stars 2022 Deluxe Summon",
+            "2022オールスターデラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring all characters released in 2022 (Until July 12th)",
+                "start": "August 25 2022, 17:00",
+                "end": "September 1 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Summon Period (Encore): Featuring all characters released in 2022 (Until July 12th)",
+                "start": "September 2 2022, 0:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "August 25 2022, 17:00",
+                "end": "September 15 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring characters from the Anne Happy♪ rerun events",
+                "start": "August 25 2022, 17:00",
+                "end": "August 31 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
     {
         type: "LoginDays",
         title: [
@@ -460,9 +625,9 @@ var timerData = [
         priority: 14,
         timers: [
             {
-                name: "Part 2 (Chapters 1~7)",
-                "start": "July 5 2022, 0:00",
-                "end": "July 12 2022, 15:59"
+                name: "Part 2",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Epilogue)",
@@ -532,11 +697,6 @@ var timerData = [
                 "end": "August 25 2022, 14:59"
             },
             {
-                "name": "1700 Days Celebration Starlight Stone Sets",
-                "start": "August 6 2022, 0:00",
-                "end": "August 19 2022, 23:59"
-            },
-            {
                 "name": "Summer Vacation Voucher Exchange",
                 "start": "August 6 2022, 0:00",
                 "end": "August 25 2022, 14:59"
@@ -545,6 +705,16 @@ var timerData = [
                 "name": "Summer Vacation Campaign Item & Starlight Stone Sets C",
                 "start": "August 10 2022, 17:00",
                 "end": "August 25 2022, 14:59"
+            },
+            {
+                "name": "Anne Happy♪ Rerun Campaign Item & Starlight Stone Sets",
+                "start": "August 25 2022, 17:00",
+                "end": "September 1 2022, 23:59"
+            },
+            {
+                "name": "KiraFan Summer Memory Post-Festival Campaign Item & Starlight Stone Sets",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 15:59"
             }
         ]
     },
@@ -585,24 +755,6 @@ var timerData = [
                 "name": "Period",
                 "start": "July 27 2022, 17:00",
                 "end": "August 25 2022, 14:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "1700 Days Celebration Login Bonus",
-            "1700日記念ログインボーナス",
-            "Log in on 10 days to receive up to 300 Starlight Stones."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "August 6 2022, 0:00",
-                "end": "August 19 2022, 23:59"
             }
         ]
     },
@@ -654,6 +806,24 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 6 2022, 0:00",
                 "end": "September 1 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "KiraFan Summer Memory Post-Festival Login Bonus",
+            "きらファンサマーメモリー 後夜祭ログインボーナス",
+            "Log in on each day to receive various items."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "August 25 2022, 17:00",
+                "end": "September 8 2022, 23:59"
             }
         ]
     }
