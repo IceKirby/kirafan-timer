@@ -183,7 +183,7 @@ var timerData = [
             "復刻・くるみインワンダーランド",
             "Rerun of Kurumi 2018 Event"
         ],
-        "image": ["https://i.imgur.com/wgnhxt2"],
+        "image": ["https://i.imgur.com/wgnhxt2.png"],
         "column": 0,
         "priority": 32,
         "timers": [
@@ -239,7 +239,7 @@ var timerData = [
             "復刻・ヒバリとりーさんと幸福の花",
             "Rerun of Hibari/Rii-san 2018 Event"
         ],
-        "image": ["https://i.imgur.com/wgnhxt2"],
+        "image": ["https://i.imgur.com/wgnhxt2.png"],
         "column": 0,
         "priority": 32,
         "timers": [
@@ -396,7 +396,7 @@ var timerData = [
             "Anne Happy♪ Rerun Summon",
             "新規キャラクターピックアップ召喚"
         ],
-        "image": ["https://i.imgur.com/wgnhxt2"],
+        "image": ["https://i.imgur.com/wgnhxt2.png"],
         "column": 1,
         "priority": 21,
         "timers": [
