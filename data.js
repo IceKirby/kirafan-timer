@@ -341,58 +341,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Swimsuit 2022 Limited-time Summon",
-            "期間限定2022水着キャラクターピックアップ召喚",
-            "Swimsuit 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/VoZSUoW.png",
-            "https://i.imgur.com/pesnGNF.png",
-            "https://i.imgur.com/Zb0gGYI.png",
-            "https://i.imgur.com/fDBfrCn.png",
-            "https://i.imgur.com/XBMQ6Bf.png",
-            "https://i.imgur.com/vM8YbCb.png",
-            "https://i.imgur.com/WOBBp7N.png",
-            "https://i.imgur.com/hjSF34s.png",
-            "https://i.imgur.com/H7kQbXZ.png",
-            "https://i.imgur.com/RD2shlE.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "July 27 2022, 17:00",
-                "end": "August 25 2022, 14:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Hifumi [Swimsuit], 5★ Shiina [Swimsuit], 5★ Koharu [Swimsuit]",
-                        "time": "July 27 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Hayu [Swimsuit], 5★ Fa [Swimsuit]",
-                        "time": "July 27 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 3",
-                        "desc": "Featuring 5★ Shiina [Swimsuit], 5★ Tamate [Swimsuit], 5★ Utsutsu [Swimsuit]",
-                        "time": "August 10 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 4",
-                        "desc": "Featuring 5★ Rize [Swimsuit], 5★ Kisaragi [Swimsuit]",
-                        "time": "August 10 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Anne Happy♪ Rerun Summon",
             "新規キャラクターピックアップ召喚"
         ],
@@ -405,24 +353,6 @@ var timerData = [
                 "start": "August 25 2022, 17:00",
                 "end": "September 8 2022, 15:59",
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Super EX Quest Support Limited-time Summon",
-            "超高難易度クエスト応援期間限定ピックアップ召喚"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Chiya [Easter], 5★ Koume [Valentine], 5★ Ruki [Bridal], 5★ Hibari [Hot Springs]",
-                "start": "August 14 2022, 0:00",
-                "end": "August 25 2022, 14:59",
-                "extraPriority": 4
             }
         ]
     },
@@ -682,6 +612,46 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "September Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/OGDN8sd.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "September 3 2022, 0:00",
+                "end": "September 4 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "September 10 2022, 0:00",
+                "end": "September 11 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "September 17 2022, 0:00",
+                "end": "September 18 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "September 24 2022, 0:00",
+                "end": "September 25 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "September 3 2022, 0:00",
+                "end": "September 30 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
@@ -692,21 +662,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Summer Vacation Campaign Item & Starlight Stone Sets A",
-                "start": "July 27 2022, 17:00",
-                "end": "August 25 2022, 14:59"
-            },
-            {
-                "name": "Summer Vacation Voucher Exchange",
-                "start": "August 6 2022, 0:00",
-                "end": "August 25 2022, 14:59"
-            },
-            {
-                "name": "Summer Vacation Campaign Item & Starlight Stone Sets C",
-                "start": "August 10 2022, 17:00",
-                "end": "August 25 2022, 14:59"
-            },
-            {
                 "name": "Anne Happy♪ Rerun Campaign Item & Starlight Stone Sets",
                 "start": "August 25 2022, 17:00",
                 "end": "September 1 2022, 23:59"
@@ -715,46 +670,11 @@ var timerData = [
                 "name": "KiraFan Summer Memory Post-Festival Campaign Item & Starlight Stone Sets",
                 "start": "August 25 2022, 17:00",
                 "end": "September 8 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Etowaria's Summer Vacation 2022 Login Bonus",
-            "2022エトワリアの夏休み ログインボーナス",
-            "Log in on 10 days to receive up to 200 Starlight Stones for each half."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 23:59"
             },
             {
-                "name": "Second Half",
-                "start": "August 10 2022, 17:00",
-                "end": "August 25 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Summer-themed Room Decoration Items",
-            "夏限定ルームアイテム再登場"
-        ],
-        "image": "kanna",
-        "column": 2,
-        "priority": 10,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "July 27 2022, 17:00",
-                "end": "August 25 2022, 14:59"
+                "name": "Manga Volume 4 Release Starlight Stone Bundle",
+                "start": "September 1 2022, 0:00",
+                "end": "September 8 2022, 15:59"
             }
         ]
     },
@@ -824,6 +744,48 @@ var timerData = [
                 "name": "Period",
                 "start": "August 25 2022, 17:00",
                 "end": "September 8 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Volume 4 Release Login Bonus",
+            "コミカライズ第4巻発売記念ログインボーナス",
+            "Log in on each day to receive various items."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "September 1 2022, 0:00",
+                "end": "September 8 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Manga Volume 4 Release Paid Summon + Random 5★ Summon Ticket",
+            "コミカライズ第4巻発売記念★5確定チケット付き！有償限定10回召喚",
+            "240 Paid Gems for a 10x Summon + Random 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring characters that appear on Volume 4.",
+                "start": "September 1 2022, 0:00",
+                "end": "September 8 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 1 2022, 0:00",
+                "end": "September 15 2022, 23:59"
             }
         ]
     }
