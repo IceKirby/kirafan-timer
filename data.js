@@ -196,6 +196,29 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Treasure Hoarding Campaign",
+            "お宝ザクザクキャンペーン"
+        ],
+        "image": "cork",
+        "column": 0,
+        "priority": 31,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "September 17 2022, 0:00",
+                "end": "September 27 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Event Shop / Mystery Treasure Chest",
+                "start": "September 17 2022, 0:00",
+                "end": "October 4 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "KiraFan Summer Memory Campaign",
@@ -263,24 +286,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Anne Happy♪ Rerun Summon",
-            "新規キャラクターピックアップ召喚"
-        ],
-        "image": ["https://i.imgur.com/wgnhxt2.png"],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Sayama Tsubaki",
-                "start": "August 25 2022, 17:00",
-                "end": "September 8 2022, 15:59",
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Opening! Etowaria Academy's Cultural Festival Summon",
             "開催！エトワリア学園文化祭ピックアップ召喚",
             "Power of Smile. & Koharu Biyori. Event Summon"
@@ -315,6 +320,26 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Treasure Hoarding Campaign Summon",
+            "お宝ザクザクキャンペーンピックアップ召喚"
+        ],
+        "image": [
+            "https://i.imgur.com/Fgp276Z.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Sonoda Mitsuki",
+                "start": "September 17 2022, 0:00",
+                "end": "September 27 2022, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Cultural Festival-themed Step-up + Paid Summon",
             "2つの召喚を同時開催！文化祭を楽しんでいる生徒を仲間にしよう！",
             "600 Paid Gems for a 10x Summon + 4x Random 5★ Summon Ticket",
@@ -334,36 +359,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "September 9 2022, 0:00",
                 "end": "September 23 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Main Quest Part 2 Paid Summon + Random 5★ Summon Ticket",
-            "きららファンタジア第2部限定★5確定チケット付き！有償限定10回召喚",
-            "700 Paid Gems for a 10x Summon +2x Random 5★ Summon Ticket"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Part 1: Featuring 5★ Amisawa [Part 2], 5★ Mio [Part 2], 5★ Cocoa [Part 2], 5★ Namiko-san [Part 2], 5★ Sesame [Part 2], 5★ Cardamom [Part 2], 5★ Kirara [Part 2], 5★ Utsutsu [Part 2]",
-                "start": "August 25 2022, 17:00",
-                "end": "September 1 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Part 2: Featuring 5★ Kaos [Part 2], 5★ Chino [Part 2], 5★ Lilith [Part 2], 5★ Lamp [Part 2], 5★ Fennel [Part 2], 5★ Hakka [Part 2], 5★ Media [Part 2]",
-                "start": "September 2 2022, 0:00",
-                "end": "September 8 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "August 25 2022, 17:00",
-                "end": "September 8 2022, 23:59"
             }
         ]
     },
@@ -394,6 +389,91 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "August 25 2022, 17:00",
                 "end": "September 15 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "All-Stars 2022 Deluxe Summon",
+            "2022オールスターデラックス召喚",
+            "1000 Paid Gems for a 10x 5* Summon"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring all characters released in 2022 (Until August 10th)",
+                "start": "September 17 2022, 0:00",
+                "end": "September 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Summon Period (Encore): Featuring all characters released in 2022 (Until August 10th)",
+                "start": "September 17 2022, 0:00",
+                "end": "September 21 2022, 23:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "All-Stars Paid Summon + Choosable 5★ Summon Ticket",
+            "オールスター★5選べるチケット付き！有償限定10回召喚",
+            "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x All-Stars Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "September 17 2022, 0:00",
+                "end": "September 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "September 22 2022, 0:00",
+                "end": "September 27 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 17 2022, 0:00",
+                "end": "October 4 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
+            "期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x Extra Call Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "First Half",
+                "start": "September 17 2022, 0:00",
+                "end": "September 21 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Second Half",
+                "start": "September 22 2022, 0:00",
+                "end": "September 27 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "September 17 2022, 0:00",
+                "end": "October 4 2022, 23:59"
             }
         ]
     },
@@ -493,50 +573,9 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "KiraFan Summer Memory Post-Festival Campaign Item & Starlight Stone Sets",
-                "start": "August 25 2022, 17:00",
-                "end": "September 8 2022, 15:59"
-            },
-            {
-                "name": "Manga Volume 4 Release Starlight Stone Bundle",
-                "start": "September 1 2022, 0:00",
-                "end": "September 8 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "KiraFan Summer Memory Post-Festival Login Bonus",
-            "きらファンサマーメモリー 後夜祭ログインボーナス",
-            "Log in on each day to receive various items."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "August 25 2022, 17:00",
-                "end": "September 8 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "Volume 4 Release Login Bonus",
-            "コミカライズ第4巻発売記念ログインボーナス",
-            "Log in on each day to receive various items."
-        ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "September 1 2022, 0:00",
-                "end": "September 8 2022, 23:59"
+                "name": "Silver Week Campaign Item & Starlight Stone Sets",
+                "start": "September 17 2022, 0:00",
+                "end": "September 27 2022, 15:59"
             }
         ]
     },
@@ -563,5 +602,24 @@ var timerData = [
                 "end": "September 15 2022, 23:59"
             }
         ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "Silver Week 2022 Login Bonus",
+            "2022シルバーウィーク ログインボーナス",
+            "Log in on 5 days to receive up to 100 Starlight Stones."
+        ],
+        "image": "lamp",
+        "column": 2,
+        "priority": 15,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "September 17 2022, 0:00",
+                "end": "September 27 2022, 23:59"
+            }
+        ]
     }
+    
 ];
