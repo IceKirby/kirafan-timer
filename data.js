@@ -411,8 +411,8 @@ var timerData = [
             },
             {
                 "name": "Summon Period (Encore): Featuring all characters released in 2022 (Until August 10th)",
-                "start": "September 17 2022, 0:00",
-                "end": "September 21 2022, 23:59",
+                "start": "September 22 2022, 0:00",
+                "end": "September 27 2022, 15:59",
                 "extraPriority": 4
             }
         ]
