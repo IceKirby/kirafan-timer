@@ -504,6 +504,51 @@ var timerData = [
         ]
     },
     {
+        "type": "WeekendBoss",
+        "title": [
+            "October Boss Challenge",
+            "Fight a boss every weekend",
+            "Receive Challenge Medals"
+        ],
+        "image": "https://i.imgur.com/r9kfa7x.png",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Weekend 1",
+                "start": "October 1 2022, 0:00",
+                "end": "October 2 2022, 23:59"
+            },
+            {
+                "name": "Weekend 2",
+                "start": "October 8 2022, 0:00",
+                "end": "October 9 2022, 23:59"
+            },
+            {
+                "name": "Weekend 3",
+                "start": "October 15 2022, 0:00",
+                "end": "October 16 2022, 23:59"
+            },
+            {
+                "name": "Weekend 4",
+                "start": "October 22 2022, 0:00",
+                "end": "October 23 2022, 23:59"
+            },
+            {
+                "name": "Weekend 5",
+                "start": "October 29 2022, 0:00",
+                "end": "October 30 2022, 23:59"
+            },
+            {
+                "name": "Medal exchange period",
+                "start": "October 1 2022, 0:00",
+                "end": "November 4 2022, 23:59",
+                "keepAfterFinished": "2 hours",
+                "type": "normal"
+            }
+        ]
+    },
+    {
         "type": "Other",
         "title": [
             "Special Item Bundle",
