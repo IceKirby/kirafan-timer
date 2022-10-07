@@ -19,10 +19,9 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "App Store Prices Update"
-            // "Event Preparation",
-            // "Summon Renovation",
-            // "Version 3.2.14 Update"
+            "Event Preparation",
+            "Summon Renovation",
+            "Version 3.2.14 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -33,70 +32,6 @@ var timerData = [
                 start: "October 6 2022, 1:30",
                 end: "October 6 2022, 2:30",
                 keepAfterFinished: "30 minutes"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Opening! Etowaria Academy's Cultural Festival",
-            "開催！エトワリア学園文化祭",
-            "Power of Smile. & Koharu Biyori. Event"
-        ],
-        "image": [
-            "https://i.imgur.com/C8ShvcS.png",
-            "https://i.imgur.com/wkEvXSI.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "September 8 2022, 17:00",
-                "end": "September 27 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "September 12 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "September 10 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "September 21 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "September 22 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "September 23 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "September 24 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "September 8 2022, 17:00",
-                "end": "September 27 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 8 2022, 17:00",
-                "end": "October 4 2022, 13:59"
             }
         ]
     },
@@ -168,83 +103,6 @@ var timerData = [
         ]
     },
     {
-        "type": "Event",
-        "title": [
-            "Treasure Hoarding Campaign",
-            "お宝ザクザクキャンペーン"
-        ],
-        "image": "cork",
-        "column": 0,
-        "priority": 31,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "September 17 2022, 0:00",
-                "end": "September 27 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Event Shop / Mystery Treasure Chest",
-                "start": "September 17 2022, 0:00",
-                "end": "October 4 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Opening! Etowaria Academy's Cultural Festival Summon",
-            "開催！エトワリア学園文化祭ピックアップ召喚",
-            "Power of Smile. & Koharu Biyori. Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/C8ShvcS.png",
-            "https://i.imgur.com/wkEvXSI.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 8 2022, 17:00",
-                "end": "September 27 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Nina Side",
-                        "desc": "Featuring 5★ Tachibana Nina, 4★ Tachibana Nina",
-                        "time": "September 8 2022, 17:00"
-                    },
-                    {
-                        "title": "Tamaki Side",
-                        "desc": "Featuring 5★ Kodou Tamaki, 4★ Kodou Tamaki",
-                        "time": "September 8 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Treasure Hoarding Campaign Summon",
-            "お宝ザクザクキャンペーンピックアップ召喚"
-        ],
-        "image": [
-            "https://i.imgur.com/Fgp276Z.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Sonoda Mitsuki",
-                "start": "September 17 2022, 0:00",
-                "end": "September 27 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
         "type": "Gacha",
         "title": [
             "Great Escape! Hot Springs Prison Summon",
@@ -277,61 +135,6 @@ var timerData = [
                     }
                 ],
                 "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "All-Stars 2022 Deluxe Summon",
-            "2022オールスターデラックス召喚",
-            "1000 Paid Gems for a 10x 5* Summon"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring all characters released in 2022 (Until August 10th)",
-                "start": "September 17 2022, 0:00",
-                "end": "September 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period (Encore): Featuring all characters released in 2022 (Until August 10th)",
-                "start": "September 22 2022, 0:00",
-                "end": "September 27 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "All-Stars Paid Summon + Choosable 5★ Summon Ticket",
-            "オールスター★5選べるチケット付き！有償限定10回召喚",
-            "700 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x All-Stars Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half",
-                "start": "September 17 2022, 0:00",
-                "end": "September 21 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half",
-                "start": "September 22 2022, 0:00",
-                "end": "September 27 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 17 2022, 0:00",
-                "end": "October 4 2022, 23:59"
             }
         ]
     },
@@ -392,30 +195,42 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x Extra Call Voucher"
+            "Past Main Quest Part 2 Limited-time Summon",
+            "きららファンタジア第2部限定復刻キャラクター召喚"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "First Half",
-                "start": "September 17 2022, 0:00",
-                "end": "September 21 2022, 23:59",
+                "name": "Summon Period: Featuring past Main Quest Part 2 characters",
+                "start": "October 8 2022, 0:00",
+                "end": "October 12 2022, 15:59",
                 "extraPriority": 4
-            },
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Main Quest Part 2 Special Deluxe Summon",
+            "第2部限定スペシャルデラックス召喚",
+            "1200 Paid Gems for a 10x 5* Summon + 1x Item Voucher"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
             {
-                "name": "Second Half",
-                "start": "September 22 2022, 0:00",
-                "end": "September 27 2022, 15:59",
+                "name": "Summon Period: Featuring past Main Quest Part 2 characters",
+                "start": "October 8 2022, 0:00",
+                "end": "October 12 2022, 15:59",
                 "extraPriority": 4
             },
             {
                 "name": "Ticket Expiration",
-                "start": "September 17 2022, 0:00",
-                "end": "October 4 2022, 23:59"
+                "start": "October 8 2022, 0:00",
+                "end": "October 26 2022, 23:59"
             }
         ]
     },
@@ -449,8 +264,8 @@ var timerData = [
         timers: [
             {
                 name: "Part 2",
-                "start": "August 25 2022, 17:00",
-                "end": "September 8 2022, 15:59"
+                "start": "October 8 2022, 0:00",
+                "end": "October 12 2022, 15:59"
             },
             {
                 name: "Part 1 (Chapters 1~Epilogue)",
@@ -461,46 +276,6 @@ var timerData = [
                 "name": "Part 1 (Chapters 1~Epilogue, Normal Mode) and Part 2 (Chapters 1~7)",
                 "start": "July 27 2022, 17:00",
                 "end": "August 10 2022, 15:59"
-            }
-        ]
-    },
-    {
-        "type": "WeekendBoss",
-        "title": [
-            "September Boss Challenge",
-            "Fight a boss every weekend",
-            "Receive Challenge Medals"
-        ],
-        "image": "https://i.imgur.com/OGDN8sd.png",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Weekend 1",
-                "start": "September 3 2022, 0:00",
-                "end": "September 4 2022, 23:59"
-            },
-            {
-                "name": "Weekend 2",
-                "start": "September 10 2022, 0:00",
-                "end": "September 11 2022, 23:59"
-            },
-            {
-                "name": "Weekend 3",
-                "start": "September 17 2022, 0:00",
-                "end": "September 18 2022, 23:59"
-            },
-            {
-                "name": "Weekend 4",
-                "start": "September 24 2022, 0:00",
-                "end": "September 25 2022, 23:59"
-            },
-            {
-                "name": "Medal exchange period",
-                "start": "September 3 2022, 0:00",
-                "end": "September 30 2022, 23:59",
-                "keepAfterFinished": "2 hours",
-                "type": "normal"
             }
         ]
     },
@@ -560,49 +335,43 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Silver Week Campaign Item & Starlight Stone Sets",
-                "start": "September 17 2022, 0:00",
-                "end": "September 27 2022, 15:59"
-            },
-            {
-                "name": "Past Hot Spring Random 5★ Summon Ticket Sets",
-                "start": "September 27 2022, 17:00",
-                "end": "October 2 2022, 23:59"
-            },
-            {
-                "name": "Hot Spring 2022 (Autumn) Item & Starlight Stone Sets",
-                "start": "September 27 2022, 17:00",
-                "end": "October 12 2022, 15:59"
-            },
-            {
-                "name": "Kiniro Mosaic Voucher Sets",
-                "start": "September 27 2022, 17:00",
-                "end": "October 4 2022, 23:59"
-            },
-            {
                 "name": "Urara Meirochou Voucher Sets",
                 "start": "October 5 2022, 0:00",
                 "end": "October 12 2022, 15:59"
+            },
+            
+            {
+                "name": "Main Quest Part 2 Extra Story Item & Starlight Stone Sets 1",
+                "start": "October 8 2022, 0:00",
+                "end": "October 27 2022, 15:59"
+            },
+            {
+                "name": "Main Quest Part 2 Extra Story Item & Starlight Stone Sets 1",
+                "start": "October 12 2022, 17:00",
+                "end": "October 19 2022, 23:59"
+            },
+            {
+                "name": "Main Quest Part 2 Extra Story Set",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59"
             }
         ]
     },
     {
-        "type": "Other",
+        "type": "Mission",
         "title": [
-            "Silver Week 2022 Login Bonus",
-            "2022シルバーウィーク ログインボーナス",
-            "Log in on 5 days to receive up to 100 Starlight Stones."
+            "Main Quest Part 2 Extra Story Event Special Missions",
+            "第2部外伝イベント期間限定特別ミッション"
         ],
-        "image": "lamp",
-        "column": 2,
-        "priority": 15,
+        "image": "match",
+        "column": 0,
+        "priority": 30,
         "timers": [
             {
                 "name": "Period",
-                "start": "September 17 2022, 0:00",
-                "end": "September 27 2022, 23:59"
+                "start": "October 8 2022, 0:00",
+                "end": "October 12 2022, 23:59"
             }
         ]
     }
-    
 ];
