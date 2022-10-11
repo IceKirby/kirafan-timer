@@ -103,6 +103,138 @@ var timerData = [
         ]
     },
     {
+        "type": "Event",
+        "title": [
+            "Bocchi the Street Live Tour",
+            "ぼっち・ざ・路上ライブツアー",
+            "Bocchi the Rock! Event"
+        ],
+        "image": [
+            "https://i.imgur.com/CEkHwIZ.png",
+            "https://i.imgur.com/zdl48i6.png",
+            "https://i.imgur.com/CSeIyOK.png",
+            "https://i.imgur.com/VHSOBjc.png",
+            "https://i.imgur.com/WGuENWA.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "October 16 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 14 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "October 21 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "October 22 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "October 23 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "October 24 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 12 2022, 17:00",
+                "end": "November 3 2022, 13:59"
+            }
+        ]
+    },
+    {
+        "type": "Event",
+        "title": [
+            "The Realists' Future",
+            "メインクエスト第2部外伝リアリストたちの未来",
+            "Main Quest Part 2 Extra Story"
+        ],
+        "image": [
+            "https://i.imgur.com/aoKoBX4.png",
+            "https://i.imgur.com/csi5N7W.png",
+            "https://i.imgur.com/pZoPBNa.png"
+        ],
+        "column": 0,
+        "priority": 32,
+        "timers": [
+            {
+                "name": "Main Event",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59",
+                "extraPriority": 4,
+                "markers": [
+                    {
+                        "title": "EX Quest",
+                        "time": "October 16 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Boss Quest",
+                        "time": "October 14 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Extra Chapter 1",
+                        "time": "October 21 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 2",
+                        "time": "October 22 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 3",
+                        "time": "October 23 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Extra Chapter 4",
+                        "time": "October 24 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
+            },
+            {
+                "name": "Missions",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 23:59"
+            },
+            {
+                "name": "Event Shop",
+                "start": "October 12 2022, 17:00",
+                "end": "November 3 2022, 13:59"
+            }
+        ]
+    },
+    {
         "type": "Gacha",
         "title": [
             "Great Escape! Hot Springs Prison Summon",
@@ -141,24 +273,59 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Hot Spring Limited-time Step-up Summon",
-            "期間限定温泉復刻おまけ付き10回召喚",
-            "Random 5★ Summon Ticket on the 7th step"
+            "Bocchi the Street Live Tour Summon",
+            "ぼっち・ざ・路上ライブツアーピックアップ召喚",
+            "Bocchi the Rock! Event Summon"
         ],
-        "image": "clea",
+        "image": [
+            "https://i.imgur.com/CEkHwIZ.png",
+            "https://i.imgur.com/zdl48i6.png",
+            "https://i.imgur.com/CSeIyOK.png",
+            "https://i.imgur.com/VHSOBjc.png"
+        ],
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Fuura [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs], 5★ Kana [Hot Springs], 5★ Leine [Hot Springs], 5★ Archive [Hot Springs]",
-                "start": "September 27 2022, 17:00",
-                "end": "October 2 2022, 23:59",
-                "extraPriority": 4
-            },
+                "name": "Summon Period",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59",
+                "banners": [
+                    {
+                        "title": "Hitori Side",
+                        "desc": "Featuring 5★ Gotoh Hitori, 4★ Yamada Ryo, 4★ Kita Ikuyo",
+                        "time": "October 12 2022, 17:00"
+                    },
+                    {
+                        "title": "Sawako Side",
+                        "desc": "Featuring 5★ Yamanaka Sawako",
+                        "time": "October 15 2022, 0:00"
+                    }
+                ],
+                "extraPriority": 6
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "The Realists' Future Summon",
+            "リアリストたちの未来第2部限定ピックアップ召喚",
+            "Main Quest Part 2 Extra Story Summon"
+        ],
+        "image": [
+            "https://i.imgur.com/aoKoBX4.png",
+            "https://i.imgur.com/csi5N7W.png",
+            "https://i.imgur.com/pZoPBNa.png"
+        ],
+        "column": 1,
+        "priority": 21,
+        "timers": [
             {
-                "name": "Ticket Expiration",
-                "start": "September 27 2022, 17:00",
-                "end": "October 9 2022, 23:59"
+                "name": "Summon Period: Featuring 5★ Highpris [Part 2], 5★ Sunstone [Part 2], 5★ Enishida [Part 2]",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59",
+                "extraPriority": 6
             }
         ]
     },
@@ -228,6 +395,12 @@ var timerData = [
                 "extraPriority": 4
             },
             {
+                "name": "Summon Period (Encore): Featuring past Main Quest Part 2 characters",
+                "start": "October 12 2022, 17:00",
+                "end": "October 19 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
                 "name": "Ticket Expiration",
                 "start": "October 8 2022, 0:00",
                 "end": "October 26 2022, 23:59"
@@ -235,10 +408,30 @@ var timerData = [
         ]
     },
     {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Limited-time Summon",
+            "1日1回期間限定きらきら召喚",
+            "40 Paid Gems once per day for 3 summons, all 4* or above"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period: Featuring 5★ Hanako [Bridal], 5★ Hibari [Hot Springs], 5★ Botan [Swimsuit], 5★ Yui [Swimsuit], 5★ Mio [Valentine], 5★ Cork [Maid], 5★ Cork [Tanabata], 4★ Tamaki [Christmas], 4★ Yumine [Swimsuit], 4★ Nono [Halloween], 4★ Eiko [Swimsuit]",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59",
+                "info": "5★ Yui [Swimsuit] refers to K-ON's Yui, not Yuyushiki's",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
         type: "LoginDays",
         title: [
-            "RPG Fudousan participation Login Bonus",
-            "RPG不動産参戦決定記念ログインボーナス",
+            "Bocchi the Rock! participation Login Bonus",
+            "ぼっち・ざ・ろっく！参戦決定記念ログインボーナス",
             "20 Gems on days the anime airs"
         ],
         image: "lamp",
@@ -247,7 +440,57 @@ var timerData = [
         timers: [
             {
                 name: "Episode 2",
-                date: "April 13 2022",
+                date: "October 15 2022",
+                days: 2
+            },
+            {
+                name: "Episode 3",
+                date: "October 22 2022",
+                days: 2
+            },
+            {
+                name: "Episode 4",
+                date: "October 29 2022",
+                days: 2
+            },
+            {
+                name: "Episode 5",
+                date: "November 5 2022",
+                days: 2
+            },
+            {
+                name: "Episode 6",
+                date: "November 12 2022",
+                days: 2
+            },
+            {
+                name: "Episode 7",
+                date: "November 19 2022",
+                days: 2
+            },
+            {
+                name: "Episode 8",
+                date: "November 26 2022",
+                days: 2
+            },
+            {
+                name: "Episode 9",
+                date: "December 3 2022",
+                days: 2
+            },
+            {
+                name: "Episode 10",
+                date: "December 10 2022",
+                days: 2
+            },
+            {
+                name: "Episode 11",
+                date: "December 17 2022",
+                days: 2
+            },
+            {
+                name: "Episode 12",
+                date: "December 24 2022",
                 days: 2
             }
         ]
@@ -354,6 +597,16 @@ var timerData = [
                 "name": "Main Quest Part 2 Extra Story Set",
                 "start": "October 12 2022, 17:00",
                 "end": "October 27 2022, 15:59"
+            },
+            {
+                "name": "Bocchi the Rock! Item & Starlight Stone Sets 1",
+                "start": "October 12 2022, 17:00",
+                "end": "October 27 2022, 15:59"
+            },
+            {
+                "name": "Bocchi the Rock! Item & Starlight Stone Sets 2",
+                "start": "October 12 2022, 17:00",
+                "end": "October 19 2022, 23:59"
             }
         ]
     },
