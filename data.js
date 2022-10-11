@@ -21,7 +21,7 @@ var timerData = [
             "Maintenance",
             "Event Preparation",
             "Summon Renovation",
-            "Version 3.2.14 Update"
+            "Version 3.2.15 Update"
         ],
         image: "Maintenance",
         column: 0,
@@ -29,8 +29,8 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "October 6 2022, 1:30",
-                end: "October 6 2022, 2:30",
+                start: "October 11 2022, 16:00",
+                end: "October 11 2022, 17:00",
                 keepAfterFinished: "30 minutes"
             }
         ]
