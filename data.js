@@ -332,54 +332,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Past Hot Spring Limited-time Paid Summon + Choosable 5★ Summon Ticket",
-            "期間限定温泉復刻★5選べるチケット付き！有償限定10回召喚",
-            "1000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket + 1x Hot Spring Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "First Half: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Fuura [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs], 5★ Kana [Hot Springs], 5★ Leine [Hot Springs], 5★ Archive [Hot Springs]",
-                "start": "September 27 2022, 17:00",
-                "end": "October 2 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Second Half: Featuring 5★ Yuuri [Hot Springs], 5★ Hiroe [Hot Springs], 5★ Fuura [Hot Springs], 5★ Hibari [Hot Springs], 5★ Haruka [Hot Springs], 5★ Kana [Hot Springs], 5★ Leine [Hot Springs], 5★ Archive [Hot Springs]",
-                "start": "October 3 2022, 0:00",
-                "end": "October 7 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "September 27 2022, 17:00",
-                "end": "October 14 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Past Main Quest Part 2 Limited-time Summon",
-            "きららファンタジア第2部限定復刻キャラクター召喚"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring past Main Quest Part 2 characters",
-                "start": "October 8 2022, 0:00",
-                "end": "October 12 2022, 15:59",
-                "extraPriority": 4
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Main Quest Part 2 Special Deluxe Summon",
             "第2部限定スペシャルデラックス召喚",
             "1200 Paid Gems for a 10x 5* Summon + 1x Item Voucher"
@@ -410,6 +362,30 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
+            "Kirara MAX Paid Summon + Choosable 5★ Summon Ticket",
+            "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
+            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 20 2022, 0:00",
+                "end": "October 27 2022, 15:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 20 2022, 0:00",
+                "end": "November 3 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
             "Daily KiraKira Limited-time Summon",
             "1日1回期間限定きらきら召喚",
             "40 Paid Gems once per day for 3 summons, all 4* or above"
@@ -424,6 +400,30 @@ var timerData = [
                 "end": "October 27 2022, 15:59",
                 "info": "5★ Yui [Swimsuit] refers to K-ON's Yui, not Yuyushiki's",
                 "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Daily KiraKira Summon",
+            "1日1回オールスターきらきら召喚・外伝版",
+            "400 Paid Gems once per day for 3 summons, all 5*"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 21,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "October 20 2022, 0:00",
+                "end": "October 26 2022, 23:59",
+                "extraPriority": 4
+            },
+            {
+                "name": "Ticket Expiration",
+                "start": "October 20 2022, 0:00",
+                "end": "November 2 2022, 23:59"
             }
         ]
     },
@@ -578,12 +578,6 @@ var timerData = [
         "priority": 12,
         "timers": [
             {
-                "name": "Urara Meirochou Voucher Sets",
-                "start": "October 5 2022, 0:00",
-                "end": "October 12 2022, 15:59"
-            },
-            
-            {
                 "name": "Main Quest Part 2 Extra Story Item & Starlight Stone Sets 1",
                 "start": "October 8 2022, 0:00",
                 "end": "October 27 2022, 15:59"
@@ -607,23 +601,6 @@ var timerData = [
                 "name": "Bocchi the Rock! Item & Starlight Stone Sets 2",
                 "start": "October 12 2022, 17:00",
                 "end": "October 19 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Mission",
-        "title": [
-            "Main Quest Part 2 Extra Story Event Special Missions",
-            "第2部外伝イベント期間限定特別ミッション"
-        ],
-        "image": "match",
-        "column": 0,
-        "priority": 30,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "October 8 2022, 0:00",
-                "end": "October 12 2022, 23:59"
             }
         ]
     }
