@@ -38,73 +38,6 @@ var timerData = [
     {
         "type": "Event",
         "title": [
-            "Great Escape! Hot Springs Prison",
-            "大脱出！温泉プリズン",
-            "Hot Springs (Autumn) 2022 Event"
-        ],
-        "image": [
-            "https://i.imgur.com/N7IAVG0.png",
-            "https://i.imgur.com/NZLo3Ee.png",
-            "https://i.imgur.com/InwimDO.png",
-            "https://i.imgur.com/6pXO0mo.png",
-            "https://i.imgur.com/qtmxNBr.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "September 27 2022, 17:00",
-                "end": "October 12 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "October 1 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "September 29 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 6 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 7 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "October 8 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "October 9 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "September 27 2022, 17:00",
-                "end": "October 12 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "September 27 2022, 17:00",
-                "end": "October 19 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
             "Bocchi the Street Live Tour",
             "ぼっち・ざ・路上ライブツアー",
             "Bocchi the Rock! Event"
@@ -231,42 +164,6 @@ var timerData = [
                 "name": "Event Shop",
                 "start": "October 12 2022, 17:00",
                 "end": "November 3 2022, 13:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Great Escape! Hot Springs Prison Summon",
-            "大脱出！温泉プリズン期間限定ピックアップ召喚",
-            "Hot Springs (Autumn) 2022 Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/N7IAVG0.png",
-            "https://i.imgur.com/NZLo3Ee.png",
-            "https://i.imgur.com/InwimDO.png",
-            "https://i.imgur.com/6pXO0mo.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "September 27 2022, 17:00",
-                "end": "October 12 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Part 1",
-                        "desc": "Featuring 5★ Chiho [Hot Springs], 5★ Youko [Hot Springs]",
-                        "time": "September 27 2022, 17:00"
-                    },
-                    {
-                        "title": "Part 2",
-                        "desc": "Featuring 5★ Nono [Hot Springs], 5★ Monroe [Hot Springs]",
-                        "time": "September 27 2022, 17:00"
-                    }
-                ],
-                "extraPriority": 6
             }
         ]
     },
@@ -583,11 +480,6 @@ var timerData = [
                 "end": "October 27 2022, 15:59"
             },
             {
-                "name": "Main Quest Part 2 Extra Story Item & Starlight Stone Sets 1",
-                "start": "October 12 2022, 17:00",
-                "end": "October 19 2022, 23:59"
-            },
-            {
                 "name": "Main Quest Part 2 Extra Story Set",
                 "start": "October 12 2022, 17:00",
                 "end": "October 27 2022, 15:59"
@@ -596,12 +488,30 @@ var timerData = [
                 "name": "Bocchi the Rock! Item & Starlight Stone Sets 1",
                 "start": "October 12 2022, 17:00",
                 "end": "October 27 2022, 15:59"
-            },
-            {
-                "name": "Bocchi the Rock! Item & Starlight Stone Sets 2",
-                "start": "October 12 2022, 17:00",
-                "end": "October 19 2022, 23:59"
             }
         ]
-    }
+    },
+    {
+        type: "Other",
+        title: [
+            "Autumn of Adventures Campaign",
+            "冒険の秋キャンペー",
+        ],
+        image: "match",
+        column: 0,
+        priority: 30,
+        timers: [
+            {
+                name: "Half Stamina Campaign (Main Quest Parts 1 & 2, Author Quests)",
+                "start": "October 27 2022, 17:00",
+                "end": "November 7 2022, 14:59",
+                "extraPriority": 4
+            },
+            {
+                name: "Login Bonus (1x Large Stamina Recovery Item and 1x Quest Key Rainbow per day)",
+                "start": "October 27 2022, 17:00",
+                "end": "November 7 2022, 23:59"
+            }
+        ]
+    },
 ];
