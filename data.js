@@ -170,95 +170,6 @@ var timerData = [
     {
         "type": "Gacha",
         "title": [
-            "Bocchi the Street Live Tour Summon",
-            "ぼっち・ざ・路上ライブツアーピックアップ召喚",
-            "Bocchi the Rock! Event Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/CEkHwIZ.png",
-            "https://i.imgur.com/zdl48i6.png",
-            "https://i.imgur.com/CSeIyOK.png",
-            "https://i.imgur.com/VHSOBjc.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 15:59",
-                "banners": [
-                    {
-                        "title": "Hitori Side",
-                        "desc": "Featuring 5★ Gotoh Hitori, 4★ Yamada Ryo, 4★ Kita Ikuyo",
-                        "time": "October 12 2022, 17:00"
-                    },
-                    {
-                        "title": "Sawako Side",
-                        "desc": "Featuring 5★ Yamanaka Sawako",
-                        "time": "October 15 2022, 0:00"
-                    }
-                ],
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "The Realists' Future Summon",
-            "リアリストたちの未来第2部限定ピックアップ召喚",
-            "Main Quest Part 2 Extra Story Summon"
-        ],
-        "image": [
-            "https://i.imgur.com/aoKoBX4.png",
-            "https://i.imgur.com/csi5N7W.png",
-            "https://i.imgur.com/pZoPBNa.png"
-        ],
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Highpris [Part 2], 5★ Sunstone [Part 2], 5★ Enishida [Part 2]",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 15:59",
-                "extraPriority": 6
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Main Quest Part 2 Special Deluxe Summon",
-            "第2部限定スペシャルデラックス召喚",
-            "1200 Paid Gems for a 10x 5* Summon + 1x Item Voucher"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring past Main Quest Part 2 characters",
-                "start": "October 8 2022, 0:00",
-                "end": "October 12 2022, 15:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Summon Period (Encore): Featuring past Main Quest Part 2 characters",
-                "start": "October 12 2022, 17:00",
-                "end": "October 19 2022, 23:59",
-                "extraPriority": 4
-            },
-            {
-                "name": "Ticket Expiration",
-                "start": "October 8 2022, 0:00",
-                "end": "October 26 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
             "Kirara MAX Paid Summon + Choosable 5★ Summon Ticket",
             "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
             "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
@@ -277,26 +188,6 @@ var timerData = [
                 "name": "Ticket Expiration",
                 "start": "October 20 2022, 0:00",
                 "end": "November 3 2022, 23:59"
-            }
-        ]
-    },
-    {
-        "type": "Gacha",
-        "title": [
-            "Daily KiraKira Limited-time Summon",
-            "1日1回期間限定きらきら召喚",
-            "40 Paid Gems once per day for 3 summons, all 4* or above"
-        ],
-        "image": "clea",
-        "column": 1,
-        "priority": 21,
-        "timers": [
-            {
-                "name": "Summon Period: Featuring 5★ Hanako [Bridal], 5★ Hibari [Hot Springs], 5★ Botan [Swimsuit], 5★ Yui [Swimsuit], 5★ Mio [Valentine], 5★ Cork [Maid], 5★ Cork [Tanabata], 4★ Tamaki [Christmas], 4★ Yumine [Swimsuit], 4★ Nono [Halloween], 4★ Eiko [Swimsuit]",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 15:59",
-                "info": "5★ Yui [Swimsuit] refers to K-ON's Yui, not Yuyushiki's",
-                "extraPriority": 4
             }
         ]
     },
@@ -461,6 +352,46 @@ var timerData = [
                 "end": "November 4 2022, 23:59",
                 "keepAfterFinished": "2 hours",
                 "type": "normal"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "November Boss Challenge",
+            "Fight past Boss and Super EX quests",
+            "Receive Challenge Medals"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 5 2022, 0:00",
+                "end": "December 2 2022, 23:59",
+                "markers": [
+                    {
+                        "title": "Steel Titan & Hina Boss",
+                        "time": "November 5 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Risyuka",
+                        "time": "November 12 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Combined Matango",
+                        "time": "November 19 2022, 0:00",
+                        "type": "story"
+                    },
+                    {
+                        "title": "Sweets Golem",
+                        "time": "November 26 2022, 0:00",
+                        "type": "story"
+                    }
+                ]
             }
         ]
     },
