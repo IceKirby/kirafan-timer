@@ -1,5 +1,5 @@
-var alertMessages = [];
-var alertTypes = [];
+var alertMessages = ["Thank you for everything, Kirara Fantasia!"];
+var alertTypes = ["primary"];
 var timerData = [
     {
         type: "DailyQuest",
@@ -19,10 +19,8 @@ var timerData = [
         type: "Maintenance",
         title: [
             "Maintenance",
-            "Server Maintenance"
-            // "Event Preparation",
-            // "Summon Renovation",
-            // "Version 3.2.16 Update"
+            "Event Preparation",
+            "Summon Renovation"
         ],
         image: "Maintenance",
         column: 0,
@@ -30,76 +28,9 @@ var timerData = [
         timers: [
             {
                 name: "Scheduled Time",
-                start: "November 4 2022, 12:00",
-                end: "November 4 2022, 12:10",
+                start: "November 7 2022, 15:00",
+                end: "November 7 2022, 17:00",
                 keepAfterFinished: "30 minutes"
-            }
-        ]
-    },
-    {
-        "type": "Event",
-        "title": [
-            "Bocchi the Street Live Tour",
-            "ぼっち・ざ・路上ライブツアー",
-            "Bocchi the Rock! Event"
-        ],
-        "image": [
-            "https://i.imgur.com/CEkHwIZ.png",
-            "https://i.imgur.com/zdl48i6.png",
-            "https://i.imgur.com/CSeIyOK.png",
-            "https://i.imgur.com/VHSOBjc.png",
-            "https://i.imgur.com/WGuENWA.png"
-        ],
-        "column": 0,
-        "priority": 32,
-        "timers": [
-            {
-                "name": "Main Event",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "October 16 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 14 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 21 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 22 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "October 23 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "October 24 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
-            {
-                "name": "Missions",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 12 2022, 17:00",
-                "end": "November 3 2022, 13:59"
             }
         ]
     },
@@ -111,84 +42,110 @@ var timerData = [
             "Main Quest Part 2 Extra Story"
         ],
         "image": [
-            "https://i.imgur.com/aoKoBX4.png",
-            "https://i.imgur.com/csi5N7W.png",
-            "https://i.imgur.com/pZoPBNa.png"
+            "kirara"
         ],
         "column": 0,
         "priority": 32,
         "timers": [
             {
                 "name": "Main Event",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 15:59",
-                "extraPriority": 4,
-                "markers": [
-                    {
-                        "title": "EX Quest",
-                        "time": "October 16 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Boss Quest",
-                        "time": "October 14 2022, 17:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Extra Chapter 1",
-                        "time": "October 21 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 2",
-                        "time": "October 22 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 3",
-                        "time": "October 23 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Extra Chapter 4",
-                        "time": "October 24 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            },
+                "start": "November 7 2022, 17:00",
+                "end": "February 28 2023, 15:59",
+                "extraPriority": 4
+            }
+        ]
+    },
+    {
+        "type": "Mission",
+        "title": [
+            "Special Missions",
+            "期間限定特別ミッション",
+            "Clear quests to receive Comm Cards, Starlight Stones and All-Stars Choosable 5* Summon Ticket"
+        ],
+        "image": [
+            "lamp"
+        ],
+        "column": 0,
+        "priority": 31,
+        "timers": [
             {
-                "name": "Missions",
-                "start": "October 12 2022, 17:00",
-                "end": "October 27 2022, 23:59"
-            },
-            {
-                "name": "Event Shop",
-                "start": "October 12 2022, 17:00",
-                "end": "November 3 2022, 13:59"
+                "name": "Period",
+                "start": "November 7 2022, 17:00",
+                "end": "February 28 2023, 15:59",
+                "extraPriority": 3
             }
         ]
     },
     {
         "type": "Gacha",
         "title": [
-            "Kirara MAX Paid Summon + Choosable 5★ Summon Ticket",
-            "きららMAX期間限定★5選べるチケット付き！有償限定10回召喚",
-            "1,000 Paid Gems for a 10x Summon + 2x Choosable 5★ Summon Ticket"
+            "All-Stars Summons",
+            "オールスターキャラクター召喚",
+            "All characters released so far (except Sanrio collab)"
+        ],
+        "image": "clea",
+        "column": 1,
+        "priority": 22,
+        "timers": [
+            {
+                "name": "Summon Period",
+                "start": "November 7 2022, 0:00",
+                "end": "February 28 2023, 15:59",
+                "banners": [
+                    {
+                        "title": "Manga Time Kirara & Miracle",
+                        "time": "November 7 2022, 0:00"
+                    },
+                    {
+                        "title": "Manga Time Kirara MAX",
+                        "time": "November 7 2022, 0:00"
+                    },
+                    {
+                        "title": "Manga Time Kirara Forward",
+                        "time": "November 7 2022, 0:00"
+                    },
+                    {
+                        "title": "Manga Time Kirara Carat",
+                        "time": "November 7 2022, 0:00"
+                    },
+                    {
+                        "title": "Kirara Fantasia & Manga Time",
+                        "time": "November 7 2022, 0:00"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Gacha",
+        "title": [
+            "Magazine-specific Step-up Summons",
+            "雑誌別おまけ付き10回召喚の終了",
+            "Last run for the Magazine-specific summons"
         ],
         "image": "clea",
         "column": 1,
         "priority": 21,
         "timers": [
             {
-                "name": "Summon Period",
-                "start": "October 20 2022, 0:00",
-                "end": "October 27 2022, 15:59",
-                "extraPriority": 4
+                "name": "Manga Time Kirara & Miracle",
+                "start": "November 7 2022, 0:00",
+                "end": "November 13 2022, 12:59"
             },
             {
-                "name": "Ticket Expiration",
-                "start": "October 20 2022, 0:00",
-                "end": "November 3 2022, 23:59"
+                "name": "Manga Time Kirara MAX",
+                "start": "November 14 2022, 0:00",
+                "end": "November 20 2022, 12:59"
+            },
+            {
+                "name": "Manga Time Kirara Forward",
+                "start": "November 21 2022, 0:00",
+                "end": "November 27 2022, 12:59"
+            },
+            {
+                "name": "Manga Time Kirara Carat",
+                "start": "November 28 2022, 0:00",
+                "end": "December 4 2022, 12:59"
             }
         ]
     },
@@ -287,27 +244,39 @@ var timerData = [
     {
         type: "Other",
         title: [
-            "Main Quest Half Stamina Campaign",
-            "メインクエストスタミナ半減キャンペーン",
+            "Main Quest & Author Quests Half Stamina Campaign",
+            "メインクエスト＆作家クエストスタミナ半減キャンペーン",
         ],
         image: "match",
         column: 2,
         priority: 14,
         timers: [
             {
-                name: "Part 2",
-                "start": "October 8 2022, 0:00",
-                "end": "October 12 2022, 15:59"
-            },
-            {
-                name: "Part 1 (Chapters 1~Epilogue)",
-                "start": "July 12 2022, 17:00",
-                "end": "July 27 2022, 15:59"
-            },
-            {
-                "name": "Part 1 (Chapters 1~Epilogue, Normal Mode) and Part 2 (Chapters 1~7)",
-                "start": "July 27 2022, 17:00",
-                "end": "August 10 2022, 15:59"
+                name: "Period",
+                "start": "November 7 2022, 17:00",
+                "end": "February 28 2023, 15:59",
+                "markers": [
+                    {
+                        "title": "Main Quest Part 1 (Chapters 1~Epilogue, Normal Mode)",
+                        "time": "November 7 2022, 17:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Main Quest Part 2 (Chapters 1~Final Chapter)",
+                        "time": "December 1 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Author Quests",
+                        "time": "January 1 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Main Quest Part 1 (Chapters 1~8, Hard Mode)",
+                        "time": "February 1 2023, 0:00",
+                        "type": "battle"
+                    },
+                ]
             }
         ]
     },
@@ -424,6 +393,24 @@ var timerData = [
         ]
     },
     {
+        "type": "Other",
+        "title": [
+            "Past Limited-time Room Items",
+            "期間限定ルームアイテム再登場",
+            "All limited-time Room Items will be available"
+        ],
+        "image": "kanna",
+        "column": 2,
+        "priority": 12,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 7 2022, 17:00",
+                "end": "February 28 2023, 15:59",
+            }
+        ]
+    },
+    {
         type: "Other",
         title: [
             "Autumn of Adventures Campaign",
@@ -445,5 +432,5 @@ var timerData = [
                 "end": "November 7 2022, 23:59"
             }
         ]
-    },
+    }
 ];
