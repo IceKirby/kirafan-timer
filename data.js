@@ -395,6 +395,24 @@ var timerData = [
     {
         "type": "Other",
         "title": [
+            "1800 Days Since Release Login Bonus",
+            "リリース1800日記念",
+            "Log in to receive 300 Starlight Stones"
+        ],
+        "image": "Lamp",
+        "column": 2,
+        "priority": 18,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "November 14 2022, 0:00",
+                "end": "November 14 2022, 23:59"
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
             "Past Limited-time Room Items",
             "期間限定ルームアイテム再登場",
             "All limited-time Room Items will be available"
