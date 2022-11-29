@@ -381,7 +381,7 @@ var timerData = [
                 "end": "January 6 2023, 23:59",
                 "markers": [
                     {
-                        "title": "Olba & Rose",
+                        "title": "Orba & Rose",
                         "time": "December 3 2022, 0:00",
                         "type": "battle"
                     },
