@@ -367,6 +367,51 @@ var timerData = [
     {
         "type": "Other",
         "title": [
+            "December Boss Challenge",
+            "Fight past Boss and Super EX quests",
+            "Receive Challenge Medals"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "December 3 2022, 0:00",
+                "end": "January 6 2023, 23:59",
+                "markers": [
+                    {
+                        "title": "Olba & Rose",
+                        "time": "December 3 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Tamami",
+                        "time": "December 10 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Etowaria's Evil God Statue",
+                        "time": "December 17 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Christmas Sweets Golem",
+                        "time": "December 24 2022, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Dada Morashi Bird",
+                        "time": "December 31 2022, 0:00",
+                        "type": "battle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
             "Special Item Bundle",
             "お得なアイテムセット販売"
         ],
