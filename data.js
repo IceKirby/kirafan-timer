@@ -412,6 +412,46 @@ var timerData = [
     {
         "type": "Other",
         "title": [
+            "January Boss Challenge",
+            "Fight past Boss and Super EX quests",
+            "Receive Challenge Medals"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "January 7 2023, 0:00",
+                "end": "February 3 2023, 23:59",
+                "markers": [
+                    {
+                        "title": "Titan & Ginger's Head Maid",
+                        "time": "January 7 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Ibis",
+                        "time": "January 14 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Gaming Space Alien",
+                        "time": "January 21 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Summer Sweets Golem",
+                        "time": "January 28 2023, 0:00",
+                        "type": "battle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
             "Special Item Bundle",
             "お得なアイテムセット販売"
         ],
