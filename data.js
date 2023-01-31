@@ -324,91 +324,7 @@ var timerData = [
             }
         ]
     },
-    {
-        "type": "Other",
-        "title": [
-            "November Boss Challenge",
-            "Fight past Boss and Super EX quests",
-            "Receive Challenge Medals"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "November 5 2022, 0:00",
-                "end": "December 2 2022, 23:59",
-                "markers": [
-                    {
-                        "title": "Steel Titan & Hina Boss",
-                        "time": "November 5 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Risyuka",
-                        "time": "November 12 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Combined Matango",
-                        "time": "November 19 2022, 0:00",
-                        "type": "story"
-                    },
-                    {
-                        "title": "Sweets Golem",
-                        "time": "November 26 2022, 0:00",
-                        "type": "story"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "type": "Other",
-        "title": [
-            "December Boss Challenge",
-            "Fight past Boss and Super EX quests",
-            "Receive Challenge Medals"
-        ],
-        "image": "match",
-        "column": 2,
-        "priority": 13,
-        "timers": [
-            {
-                "name": "Period",
-                "start": "December 3 2022, 0:00",
-                "end": "January 6 2023, 23:59",
-                "markers": [
-                    {
-                        "title": "Orba & Rose",
-                        "time": "December 3 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Tamami",
-                        "time": "December 10 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Etowaria's Evil God Statue",
-                        "time": "December 17 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Christmas Sweets Golem",
-                        "time": "December 24 2022, 0:00",
-                        "type": "battle"
-                    },
-                    {
-                        "title": "Dada Morashi Bird",
-                        "time": "December 31 2022, 0:00",
-                        "type": "battle"
-                    }
-                ]
-            }
-        ]
-    },
+    
     {
         "type": "Other",
         "title": [
@@ -443,6 +359,41 @@ var timerData = [
                     {
                         "title": "Summer Sweets Golem",
                         "time": "January 28 2023, 0:00",
+                        "type": "battle"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Other",
+        "title": [
+            "February Boss Challenge",
+            "Fight past Boss and Super EX quests",
+            "Receive Challenge Medals"
+        ],
+        "image": "match",
+        "column": 2,
+        "priority": 13,
+        "timers": [
+            {
+                "name": "Period",
+                "start": "February 4 2023, 0:00",
+                "end": "February 28 2023, 15:59",
+                "markers": [
+                    {
+                        "title": "Lamp's Limit Challenge & Fal, Ea and Rol",
+                        "time": "February 4 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Lotte",
+                        "time": "February 11 2023, 0:00",
+                        "type": "battle"
+                    },
+                    {
+                        "title": "Sweet Golem - Founder",
+                        "time": "February 18 2023, 0:00",
                         "type": "battle"
                     }
                 ]
