@@ -13,7 +13,8 @@ var timerData = [
             "thursday": { elements: ["Wind", "Warrior", "Alchemist"], short:"Thu" },
             "friday": { elements: ["Gold", "Priest", "Mage"], short:"Fri" },
             "saturday": { elements: ["Earth", "Warrior", "Knight"], short:"Sat" }
-        }
+        },
+        hide: true
     },
     {
         type: "Maintenance",
@@ -30,7 +31,25 @@ var timerData = [
                 name: "Scheduled Time",
                 start: "February 28 2023, 16:00",
                 end: "February 28 2023, 17:00",
-                keepAfterFinished: "1000 days"
+                keepAfterFinished: "2000 days"
+            }
+        ]
+    },
+    {
+        type: "Other",
+        title: [
+            "Kirara Fantasia",
+            "Service Period"
+        ],
+        image: "kirara",
+        column: 1,
+        priority: 40,
+        timers: [
+            {
+                name: "Service Period",
+                start: "December 11 2017, 20:00",
+                end: "February 28 2023, 15:59",
+                keepAfterFinished: "2000 days"
             }
         ]
     },

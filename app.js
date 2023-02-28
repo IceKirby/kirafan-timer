@@ -167,6 +167,7 @@ var vm = new Vue({
             ev.deadline = "";
             ev.japanend = "";
             ev.localend = "";
+            ev.visible = !ev.hide;
             return ev;
         },
         buildEventGroup: function(ev, localZone) {
