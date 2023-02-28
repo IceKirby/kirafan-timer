@@ -47,7 +47,7 @@ var timerData = [
         timers: [
             {
                 name: "Service Period",
-                start: "December 11 2017, 20:00",
+                start: "December 11 2017, 8:00",
                 end: "February 28 2023, 15:59",
                 keepAfterFinished: "2000 days"
             }
