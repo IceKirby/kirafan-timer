@@ -30,7 +30,7 @@ var timerData = [
                 name: "Scheduled Time",
                 start: "February 28 2023, 16:00",
                 end: "February 28 2023, 17:00",
-                keepAfterFinished: "30 minutes"
+                keepAfterFinished: "1000 days"
             }
         ]
     },
