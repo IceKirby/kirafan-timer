@@ -31,7 +31,7 @@ var timerData = [
                 name: "Scheduled Time",
                 start: "February 28 2023, 16:00",
                 end: "February 28 2023, 17:00",
-                keepAfterFinished: "2000 days"
+                keepAfterFinished: "30 minutes"
             }
         ]
     },
@@ -42,7 +42,7 @@ var timerData = [
             "Service Period"
         ],
         image: "kirara",
-        column: 1,
+        column: 0,
         priority: 40,
         timers: [
             {
